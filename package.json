@@ -1,0 +1,11 @@
+{
+  "name": "pump-scanner",
+  "version": "1.0.0",
+  "main": "scanner.js",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "scripts": {
+    "start": "node scanner.js"
+  }
+}
