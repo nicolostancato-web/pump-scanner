@@ -2,27 +2,34 @@ const WebSocket = require('ws');
 const https = require('https');
 
 // ─── CONFIG ───────────────────────────────────────────────
-const N8N_WEBHOOK = 'https://nikbumme.app.n8n.cloud/webhook/pump-scanner';
-const MIN_INITIAL_BUY_SOL = 0.5;   // ignore tokens with tiny initial buy
-const ANALYSIS_DELAY_MS   = 10 * 60 * 1000; // wait 10 min before scoring
-const MIN_SCORE            = 75;             // only alert if score >= 75
-const MAX_TRACKED_TOKENS   = 500;            // memory limit
-// ──────────────────────────────────────────────────────────
+const N8N_WEBHOOK          = 'https://nikbumme.app.n8n.cloud/webhook/pump-scanner';
+const MIN_INITIAL_BUY_SOL  = 0.5;
+const ANALYSIS_DELAY_MS    = 10 * 60 * 1000;  // 10 min
+const WHALE_CHECK_DELAY_MS = 30 * 60 * 1000;  // 30 min (learn from outcomes)
+const MIN_SCORE            = 78;
+const WHALE_BONUS          = 25;               // extra points if whale detected
+const WHALE_ALERT_IMMEDIATE= true;             // alert immediately if whale buys
+const MAX_TOKENS           = 300;
 
-// In-memory store: mint -> tokenData
-const pendingTokens = new Map();
+// ─── STATE ────────────────────────────────────────────────
+const pendingTokens  = new Map(); // mint → tokenData
+const tokenTrades    = new Map(); // mint → { buys, sells, volume, buyers: Set }
+const whaleWallets   = new Set(); // wallets that historically buy winners
+const alreadyAlerted = new Set(); // avoid duplicate alerts
 
-// ─── UTILITIES ────────────────────────────────────────────
+// ─── UTILS ────────────────────────────────────────────────
 function httpsGet(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'pump-scanner/1.0' } }, (res) => {
+    const req = https.get(url, { headers: { 'User-Agent': 'pump-scanner/2.0' } }, (res) => {
       let data = '';
-      res.on('data', chunk => data += chunk);
+      res.on('data', c => data += c);
       res.on('end', () => {
         try { resolve(JSON.parse(data)); }
-        catch (e) { reject(new Error('JSON parse error: ' + e.message)); }
+        catch (e) { reject(new Error('JSON parse error')); }
       });
-    }).on('error', reject);
+    });
+    req.on('error', reject);
+    req.setTimeout(8000, () => { req.destroy(); reject(new Error('Timeout')); });
   });
 }
 
@@ -34,165 +41,213 @@ function sendToN8N(payload) {
       hostname: url.hostname,
       path:     url.pathname,
       method:   'POST',
-      headers:  {
-        'Content-Type':   'application/json',
-        'Content-Length': Buffer.byteLength(data)
-      }
+      headers:  { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(data) }
     };
     const req = https.request(opts, (res) => {
       console.log(`✅ Sent to n8n — HTTP ${res.statusCode}`);
       resolve();
     });
-    req.on('error', (e) => {
-      console.error('❌ n8n send error:', e.message);
-      resolve();
-    });
+    req.on('error', (e) => { console.error('❌ n8n error:', e.message); resolve(); });
     req.write(data);
     req.end();
   });
 }
 
-// ─── PHASE 3: FETCH UPDATED DATA ─────────────────────────
-async function fetchTokenData(mint) {
-  try {
-    // Get coin data from PumpPortal
-    const coin = await httpsGet(`https://pumpportal.fun/api/coins/${mint}`);
-    return coin;
-  } catch (e) {
-    console.error(`❌ Failed to fetch data for ${mint}:`, e.message);
-    return null;
-  }
-}
-
-// ─── PHASE 4: ADVANCED SCORING ───────────────────────────
-function scoreToken(creation, current) {
+// ─── SCORING ──────────────────────────────────────────────
+function scoreToken(creation, current, trades, detectedWhales) {
   let score = 0;
   const reasons = [];
 
-  // 1. INITIAL BUY SIZE (max 15 pts)
-  // Bigger initial buy = creator has skin in the game
+  // 1. WHALE WALLETS DETECTED (max 25 pts) ← most powerful signal
+  if (detectedWhales.length > 0) {
+    score += WHALE_BONUS;
+    reasons.push(`🐳 ${detectedWhales.length} known whale(s) buying! (+${WHALE_BONUS})`);
+  }
+
+  // 2. INITIAL BUY SIZE (max 15 pts)
   const initSol = creation.solAmount || 0;
-  if (initSol >= 5)       { score += 15; reasons.push(`Big initial buy: ${initSol} SOL (+15)`); }
-  else if (initSol >= 2)  { score += 12; reasons.push(`Good initial buy: ${initSol} SOL (+12)`); }
-  else if (initSol >= 1)  { score += 8;  reasons.push(`Initial buy: ${initSol} SOL (+8)`); }
-  else if (initSol >= 0.5){ score += 4;  reasons.push(`Small initial buy: ${initSol} SOL (+4)`); }
+  if (initSol >= 5)        { score += 15; reasons.push(`Big initial buy: ${initSol} SOL (+15)`); }
+  else if (initSol >= 2)   { score += 12; reasons.push(`Good initial buy: ${initSol} SOL (+12)`); }
+  else if (initSol >= 1)   { score += 8;  reasons.push(`Initial buy: ${initSol} SOL (+8)`); }
+  else if (initSol >= 0.5) { score += 4;  reasons.push(`Small initial buy: ${initSol} SOL (+4)`); }
 
-  // 2. MARKET CAP GROWTH (max 20 pts)
-  // How much did it grow in 10 minutes?
-  const initMcap    = creation.marketCapSol || 0;
-  const currentMcap = current.usd_market_cap ? current.usd_market_cap / 150 : 0; // rough SOL conversion
-  if (initMcap > 0 && currentMcap > initMcap) {
-    const growth = currentMcap / initMcap;
-    if (growth >= 10)      { score += 20; reasons.push(`10x market cap growth (+20)`); }
-    else if (growth >= 5)  { score += 15; reasons.push(`5x market cap growth (+15)`); }
-    else if (growth >= 3)  { score += 10; reasons.push(`3x market cap growth (+10)`); }
-    else if (growth >= 2)  { score += 6;  reasons.push(`2x market cap growth (+6)`); }
-    else if (growth >= 1.5){ score += 3;  reasons.push(`1.5x market cap growth (+3)`); }
+  // 3. VOLUME IN 10 MIN (max 20 pts)
+  const vol = trades ? trades.volumeSol : 0;
+  if (vol >= 200)      { score += 20; reasons.push(`Massive volume: ${vol.toFixed(1)} SOL (+20)`); }
+  else if (vol >= 80)  { score += 15; reasons.push(`High volume: ${vol.toFixed(1)} SOL (+15)`); }
+  else if (vol >= 30)  { score += 10; reasons.push(`Good volume: ${vol.toFixed(1)} SOL (+10)`); }
+  else if (vol >= 10)  { score += 5;  reasons.push(`Decent volume: ${vol.toFixed(1)} SOL (+5)`); }
+  else                 {              reasons.push(`Low volume: ${vol.toFixed(1)} SOL (+0)`); }
+
+  // 4. BUY/SELL RATIO (max 15 pts)
+  const buys  = trades ? trades.buys : 0;
+  const sells = trades ? trades.sells : 0;
+  const total = buys + sells;
+  const buyRatio = total > 0 ? buys / total : 0;
+  const buyPct   = Math.round(buyRatio * 100);
+  if (buyRatio >= 0.82)      { score += 15; reasons.push(`Strong buy pressure: ${buyPct}% buys (+15)`); }
+  else if (buyRatio >= 0.68) { score += 10; reasons.push(`Good buy pressure: ${buyPct}% buys (+10)`); }
+  else if (buyRatio >= 0.55) { score += 5;  reasons.push(`Slight buy pressure: ${buyPct}% buys (+5)`); }
+  else if (buyRatio < 0.40 && total > 20) {
+    score -= 15;
+    reasons.push(`🔴 SELL PRESSURE: ${buyPct}% buys (-15)`);
   }
 
-  // 3. ABSOLUTE MARKET CAP (max 15 pts)
-  // Sweet spot: still early but not dead
-  const mcapUSD = current.usd_market_cap || 0;
-  if (mcapUSD >= 50000 && mcapUSD <= 500000)      { score += 15; reasons.push(`Sweet spot mcap $${Math.round(mcapUSD/1000)}k (+15)`); }
-  else if (mcapUSD >= 20000 && mcapUSD < 50000)   { score += 10; reasons.push(`Early mcap $${Math.round(mcapUSD/1000)}k (+10)`); }
-  else if (mcapUSD >= 500000 && mcapUSD < 2000000){ score += 8;  reasons.push(`Growing mcap $${Math.round(mcapUSD/1000)}k (+8)`); }
-  else if (mcapUSD > 0 && mcapUSD < 20000)        { score += 2;  reasons.push(`Very early mcap $${Math.round(mcapUSD/1000)}k (+2)`); }
+  // 5. UNIQUE BUYERS (max 10 pts)
+  const uniq = trades ? trades.uniqueBuyers : 0;
+  if (uniq >= 40)      { score += 10; reasons.push(`${uniq} unique buyers (+10)`); }
+  else if (uniq >= 20) { score += 7;  reasons.push(`${uniq} unique buyers (+7)`); }
+  else if (uniq >= 10) { score += 4;  reasons.push(`${uniq} unique buyers (+4)`); }
+  else                 {              reasons.push(`Only ${uniq} unique buyers (+0)`); }
 
-  // 4. REPLY COUNT / SOCIAL ENGAGEMENT (max 15 pts)
-  // Real community = people talking about it
-  const replies = current.reply_count || 0;
-  if (replies >= 50)      { score += 15; reasons.push(`High engagement: ${replies} replies (+15)`); }
-  else if (replies >= 20) { score += 10; reasons.push(`Good engagement: ${replies} replies (+10)`); }
-  else if (replies >= 10) { score += 7;  reasons.push(`Some engagement: ${replies} replies (+7)`); }
-  else if (replies >= 5)  { score += 4;  reasons.push(`Low engagement: ${replies} replies (+4)`); }
-  else                    { score += 0;  reasons.push(`Almost no engagement: ${replies} replies (+0)`); }
-
-  // 5. TRANSACTION VELOCITY (max 15 pts)
-  // Many transactions in 10 min = real interest
-  const txCount = current.total_supply ? 0 : 0; // fallback
-  const trades  = current.trade_24h_count || 0;
-  if (trades >= 500)      { score += 15; reasons.push(`Very high trades: ${trades} (+15)`); }
-  else if (trades >= 200) { score += 10; reasons.push(`High trades: ${trades} (+10)`); }
-  else if (trades >= 100) { score += 7;  reasons.push(`Good trades: ${trades} (+7)`); }
-  else if (trades >= 50)  { score += 4;  reasons.push(`Some trades: ${trades} (+4)`); }
-  else if (trades >= 20)  { score += 2;  reasons.push(`Few trades: ${trades} (+2)`); }
-
-  // 6. KING OF THE HILL (max 10 pts)
-  // Pump.fun promotes these — means strong momentum
-  if (current.king_of_the_hill_timestamp) {
-    score += 10;
-    reasons.push('King of the Hill 👑 (+10)');
+  // 6. MARKET CAP GROWTH (max 10 pts)
+  const initMcap = creation.marketCapSol || 1;
+  const currMcap = current && current.usd_market_cap ? current.usd_market_cap / 150 : 0;
+  if (currMcap > initMcap) {
+    const mult = currMcap / initMcap;
+    if (mult >= 8)       { score += 10; reasons.push(`${mult.toFixed(1)}x market cap growth (+10)`); }
+    else if (mult >= 4)  { score += 7;  reasons.push(`${mult.toFixed(1)}x market cap growth (+7)`); }
+    else if (mult >= 2)  { score += 4;  reasons.push(`${mult.toFixed(1)}x market cap growth (+4)`); }
+    else if (mult >= 1.5){ score += 2;  reasons.push(`${mult.toFixed(1)}x market cap growth (+2)`); }
   }
 
-  // 7. COMPLETE METADATA (max 5 pts)
-  // Rugs usually have no description, no socials
-  let metaScore = 0;
-  if (current.image_uri)   metaScore += 1;
-  if (current.description && current.description.length > 20) metaScore += 2;
-  if (current.twitter)     metaScore += 1;
-  if (current.telegram)    metaScore += 1;
-  score += metaScore;
-  if (metaScore > 0) reasons.push(`Metadata complete (+${metaScore})`);
+  // 7. SOCIAL ENGAGEMENT (max 10 pts)
+  const replies = current ? (current.reply_count || 0) : 0;
+  if (replies >= 30)      { score += 10; reasons.push(`High engagement: ${replies} replies (+10)`); }
+  else if (replies >= 15) { score += 6;  reasons.push(`Good engagement: ${replies} replies (+6)`); }
+  else if (replies >= 5)  { score += 3;  reasons.push(`Some engagement: ${replies} replies (+3)`); }
 
-  // 8. NOT COMPLETED (still on bonding curve) (max 5 pts)
-  // If complete = already graduated, we might be too late
-  if (!current.complete) {
+  // 8. KING OF THE HILL (max 8 pts)
+  if (current && current.king_of_the_hill_timestamp) {
+    score += 8;
+    reasons.push('👑 King of the Hill (+8)');
+  }
+
+  // 9. METADATA (max 5 pts)
+  let meta = 0;
+  if (current && current.image_uri)   meta++;
+  if (current && current.description && current.description.length > 20) meta += 2;
+  if (current && current.twitter)     meta++;
+  if (current && current.telegram)    meta++;
+  score += meta;
+  if (meta > 0) reasons.push(`Metadata: ${meta}/5 (+${meta})`);
+
+  // 10. STILL EARLY — on bonding curve (max 5 pts)
+  if (current && !current.complete) {
     score += 5;
     reasons.push('Still on bonding curve — early (+5)');
   }
 
-  return { score, reasons };
+  // PENALTY: creator sold early
+  if (trades && trades.creatorSold) {
+    score -= 30;
+    reasons.push('🚨 CREATOR SOLD ALREADY! (-30)');
+  }
+
+  return { score: Math.max(0, Math.min(100, score)), reasons };
 }
 
-// ─── PHASE 2: SCHEDULED ANALYSIS ─────────────────────────
+// ─── LEARN FROM OUTCOMES ───────────────────────────────────
+async function learnFromOutcome(mint, buyerWallets) {
+  try {
+    const data = await httpsGet(`https://pumpportal.fun/api/coins/${mint}`);
+    if (!data || !data.usd_market_cap) return;
+
+    // If token reached a good market cap (>$200k) → these buyers are good traders
+    if (data.usd_market_cap >= 200000) {
+      let newWhales = 0;
+      for (const wallet of buyerWallets) {
+        if (!whaleWallets.has(wallet)) {
+          whaleWallets.add(wallet);
+          newWhales++;
+        }
+      }
+      if (newWhales > 0) {
+        console.log(`📚 Learned ${newWhales} new whale wallets from ${data.name} ($${Math.round(data.usd_market_cap/1000)}k mcap). Total whales: ${whaleWallets.size}`);
+      }
+    }
+  } catch (e) {
+    // silently ignore
+  }
+}
+
+// ─── ANALYZE TOKEN AFTER 10 MIN ───────────────────────────
 async function analyzeToken(mint) {
+  if (alreadyAlerted.has(mint)) return;
   const creation = pendingTokens.get(mint);
   if (!creation) return;
   pendingTokens.delete(mint);
 
-  console.log(`\n🔍 Analyzing ${creation.name} (${mint.substring(0,8)}...)...`);
+  const trades = tokenTrades.get(mint);
+  const name   = creation.name || 'Unknown';
 
-  const current = await fetchTokenData(mint);
-  if (!current || !current.mint) {
-    console.log(`⚠️ No data found for ${creation.name} — probably dead`);
-    return;
+  console.log(`\n🔍 Analyzing ${name} (${mint.substring(0,8)}...)`);
+  console.log(`   Trades tracked: buys=${trades?.buys||0} sells=${trades?.sells||0} vol=${trades?.volumeSol?.toFixed(2)||0} SOL unique=${trades?.uniqueBuyers||0}`);
+
+  // Check for whale wallets in buyers
+  const detectedWhales = [];
+  if (trades && trades.buyerList) {
+    for (const wallet of trades.buyerList) {
+      if (whaleWallets.has(wallet)) detectedWhales.push(wallet);
+    }
   }
 
-  const { score, reasons } = scoreToken(creation, current);
-  const mcapUSD = current.usd_market_cap || 0;
+  // Fetch current on-chain data
+  let current = null;
+  try {
+    current = await httpsGet(`https://pumpportal.fun/api/coins/${mint}`);
+  } catch (e) {
+    console.log(`⚠️ Could not fetch current data for ${name}`);
+  }
 
+  const { score, reasons } = scoreToken(creation, current, trades, detectedWhales);
   console.log(`📊 Score: ${score}/100`);
   reasons.forEach(r => console.log(`   • ${r}`));
 
   if (score < MIN_SCORE) {
     console.log(`❌ Score ${score} < ${MIN_SCORE} — skip\n`);
+    tokenTrades.delete(mint);
     return;
   }
 
-  console.log(`🚨 PASSES! Sending to Telegram...\n`);
+  alreadyAlerted.add(mint);
+  console.log(`🚨 PASSES! Sending alert...\n`);
+
+  const mcapUSD = current ? (current.usd_market_cap || 0) : 0;
 
   await sendToN8N({
-    name:            current.name || creation.name,
-    symbol:          current.symbol || creation.symbol,
-    mint:            mint,
-    score:           score,
+    name:            current?.name || creation.name,
+    symbol:          current?.symbol || creation.symbol,
+    mint,
+    score,
     reasons:         reasons.join('\n'),
     market_cap_usd:  Math.round(mcapUSD),
     initial_buy_sol: creation.solAmount,
-    reply_count:     current.reply_count || 0,
-    trades:          current.trade_24h_count || 0,
-    king_of_hill:    !!current.king_of_the_hill_timestamp,
-    still_early:     !current.complete,
-    description:     (current.description || '').substring(0, 100),
+    volume_sol:      trades?.volumeSol?.toFixed(2) || '0',
+    unique_buyers:   trades?.uniqueBuyers || 0,
+    buy_count:       trades?.buys || 0,
+    sell_count:      trades?.sells || 0,
+    whale_detected:  detectedWhales.length > 0,
+    whale_count:     detectedWhales.length,
+    reply_count:     current?.reply_count || 0,
+    king_of_hill:    !!(current?.king_of_the_hill_timestamp),
+    still_early:     !(current?.complete),
+    description:     (current?.description || '').substring(0, 120),
     pump_url:        `https://pump.fun/${mint}`,
-    created_at:      new Date(creation.timestamp).toISOString(),
     analyzed_at:     new Date().toISOString()
   });
+
+  // Learn from this token's buyers in 30 min
+  if (trades && trades.buyerList && trades.buyerList.length > 0) {
+    setTimeout(() => learnFromOutcome(mint, trades.buyerList), WHALE_CHECK_DELAY_MS);
+  }
+
+  tokenTrades.delete(mint);
 }
 
-// ─── PHASE 1: WEBSOCKET LISTENER ─────────────────────────
+// ─── WEBSOCKET ────────────────────────────────────────────
 function connect() {
-  console.log('🔌 Connecting to PumpPortal WebSocket...');
+  console.log('🔌 Connecting to PumpPortal...');
   const ws = new WebSocket('wss://pumpportal.fun/api/data');
 
   ws.on('open', () => {
@@ -202,32 +257,96 @@ function connect() {
 
   ws.on('message', (raw) => {
     try {
-      const token = JSON.parse(raw);
-      if (token.txType !== 'create') return;
+      const msg = JSON.parse(raw);
 
-      const sol = token.solAmount || 0;
-      const name = token.name || 'Unknown';
+      // ── NEW TOKEN CREATED ──
+      if (msg.txType === 'create') {
+        const sol  = msg.solAmount || 0;
+        const name = msg.name || 'Unknown';
+        const mint = msg.mint;
 
-      // Memory guard
-      if (pendingTokens.size >= MAX_TRACKED_TOKENS) {
-        const firstKey = pendingTokens.keys().next().value;
-        pendingTokens.delete(firstKey);
+        if (!mint) return;
+
+        // Memory guard
+        if (pendingTokens.size >= MAX_TOKENS) {
+          const firstKey = pendingTokens.keys().next().value;
+          pendingTokens.delete(firstKey);
+          tokenTrades.delete(firstKey);
+        }
+
+        // Phase 1 filter: minimum initial buy
+        if (sol < MIN_INITIAL_BUY_SOL) {
+          console.log(`⏭️  Skip ${name} — only ${sol} SOL initial buy`);
+          return;
+        }
+
+        console.log(`💾 Queued: ${name} ($${msg.symbol}) — ${sol} SOL buy — analyzing in 10 min`);
+
+        pendingTokens.set(mint, { ...msg, timestamp: Date.now() });
+        tokenTrades.set(mint, {
+          buys: 0, sells: 0, volumeSol: 0,
+          uniqueBuyers: 0, buyerList: [],
+          creatorSold: false
+        });
+
+        // Subscribe to this token's trades
+        ws.send(JSON.stringify({ method: 'subscribeTokenTrade', keys: [mint] }));
+
+        // Schedule deep analysis in 10 min
+        setTimeout(() => analyzeToken(mint), ANALYSIS_DELAY_MS);
       }
 
-      // Phase 1 filter: ignore tiny initial buys
-      if (sol < MIN_INITIAL_BUY_SOL) {
-        console.log(`⏭️  Skip ${name} — initial buy only ${sol} SOL (< ${MIN_INITIAL_BUY_SOL})`);
-        return;
+      // ── TRADE ON A TRACKED TOKEN ──
+      else if (msg.txType === 'buy' || msg.txType === 'sell') {
+        const mint   = msg.mint;
+        const trader = msg.traderPublicKey;
+        const trades = tokenTrades.get(mint);
+        if (!trades) return;
+
+        const solAmt = msg.solAmount || 0;
+
+        if (msg.txType === 'buy') {
+          trades.buys++;
+          trades.volumeSol += solAmt;
+          if (trader && !trades.buyerList.includes(trader)) {
+            trades.buyerList.push(trader);
+            trades.uniqueBuyers++;
+
+            // Immediate whale alert
+            if (WHALE_ALERT_IMMEDIATE && whaleWallets.has(trader) && !alreadyAlerted.has(mint)) {
+              const creation = pendingTokens.get(mint);
+              if (creation) {
+                console.log(`🐳 WHALE ALERT: ${trader.substring(0,8)}... just bought ${creation.name}!`);
+                alreadyAlerted.add(mint);
+                sendToN8N({
+                  name:            creation.name,
+                  symbol:          creation.symbol,
+                  mint,
+                  score:           90,
+                  reasons:         `🐳 Known whale wallet buying!\nWallet: ${trader.substring(0,12)}...\nBought: ${solAmt} SOL`,
+                  market_cap_usd:  Math.round((creation.marketCapSol || 0) * 150),
+                  initial_buy_sol: creation.solAmount,
+                  volume_sol:      trades.volumeSol.toFixed(2),
+                  unique_buyers:   trades.uniqueBuyers,
+                  whale_detected:  true,
+                  whale_count:     1,
+                  pump_url:        `https://pump.fun/${mint}`,
+                  alert_type:      'WHALE_IMMEDIATE',
+                  analyzed_at:     new Date().toISOString()
+                });
+              }
+            }
+          }
+        } else {
+          trades.sells++;
+          // Check if creator is selling early
+          const creation = pendingTokens.get(mint);
+          if (creation && trader === creation.traderPublicKey) {
+            trades.creatorSold = true;
+            console.log(`🚨 Creator selling early on ${creation.name}!`);
+          }
+        }
       }
-
-      console.log(`💾 Queued ${name} (${sol} SOL initial buy) — analyzing in 10 min`);
-      pendingTokens.set(token.mint, {
-        ...token,
-        timestamp: Date.now()
-      });
-
-      // Schedule deep analysis in 10 minutes
-      setTimeout(() => analyzeToken(token.mint), ANALYSIS_DELAY_MS);
 
     } catch (e) {
       console.error('Parse error:', e.message);
@@ -243,9 +362,10 @@ function connect() {
 }
 
 // ─── START ────────────────────────────────────────────────
-console.log('🚀 Pump.fun Smart Scanner starting...');
-console.log(`   Min initial buy: ${MIN_INITIAL_BUY_SOL} SOL`);
-console.log(`   Analysis delay:  10 minutes`);
-console.log(`   Min score:       ${MIN_SCORE}/100`);
+console.log('🚀 Pump.fun Smart Scanner v2.0');
+console.log(`   Min initial buy : ${MIN_INITIAL_BUY_SOL} SOL`);
+console.log(`   Analysis delay  : 10 minutes`);
+console.log(`   Min score       : ${MIN_SCORE}/100`);
+console.log(`   Whale learning  : enabled (auto)`);
 console.log('');
 connect();
