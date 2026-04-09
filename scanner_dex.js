@@ -14,6 +14,7 @@ const WHALE_LEARN_MS     = 30 * 60 * 1000;
 const WHALE_LEARN_2X     = 2.0;
 const MAX_TRADES_CHECK   = 50;
 
+
 // ─── STATE ────────────────────────────────────────────────────────────────────
 const alertedTokens = new Set();
 const seenTokens    = new Map();
