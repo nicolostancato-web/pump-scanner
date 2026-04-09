@@ -3,7 +3,7 @@ const https = require('https');
 
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
 const N8N_WEBHOOK        = 'https://nikbumme.app.n8n.cloud/webhook/dex-scanner';
-const MIN_SCORE          = 72;
+const MIN_SCORE          = 65;
 const SCAN_INTERVAL_MS   = 2 * 60 * 1000;
 const MAX_TOKEN_AGE_HRS  = 2;
 const MIN_LIQUIDITY_USD  = 10_000;
