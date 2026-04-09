@@ -1,5 +1,7 @@
 'use strict';
 const https = require('https');
+const fs    = require('fs');
+const path  = require('path');
 
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
 const N8N_WEBHOOK        = 'https://nikbumme.app.n8n.cloud/webhook/dex-scanner';
@@ -13,13 +15,53 @@ const WHALE_REFRESH_MS   = 6 * 60 * 60 * 1000;
 const WHALE_LEARN_MS     = 30 * 60 * 1000;
 const WHALE_LEARN_2X     = 2.0;
 const MAX_TRADES_CHECK   = 50;
+const WHALE_FILE         = path.join(__dirname, 'whale_wallets.json');
 
+// Seed whale wallets noti (punto di partenza)
+const SEED_WHALES = [
+  'GBNrXSjBgHSBMJCFrBkFG7JTacFP5L8HHsXkGVzk4faS',
+  'CRJoMmFGAWnCyJqNMQsHLX3zJ5KcqPKUNGe8gPnXGXNK',
+  'BpN53nsFxFJMCWe8mVGYrAhTmZnYtQHHPkXLJFPJJ2L4',
+  'DfXygSm4jCyNCybVYYK6DwvWqjKee8pbDmJGcLWgR9bt',
+  'HN7cABqLq46Es1jh92dQQisAq662SmxELLLsHHe4YWrH',
+  '5tzFkiKscfRcs8WkvzLJFPJBFHZv3Exo5s1SBFqx8N8Y',
+  'ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ',
+  '9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM',
+  'AC5RDfQFmDS1deWZos921JfqscXdByf8BrmMLMQo8YT',
+  'GUfCR9mK6azb9vcpsxgXyj7XRPAKJd4KMHTTVvtncGgj'
+];
 
 // ─── STATE ────────────────────────────────────────────────────────────────────
-const alertedTokens = new Set();
-const seenTokens    = new Map();
-let   whaleWallets  = new Set();
+const alertedTokens  = new Set();
+const trackedTokens  = new Map();
+let   whaleWallets   = new Set(SEED_WHALES);
 let   lastWhaleFetch = 0;
+let   totalLearned   = 0;
+
+// ─── PERSISTENCE ──────────────────────────────────────────────────────────────
+function saveWhalesToDisk() {
+  try {
+    const arr = [...whaleWallets];
+    fs.writeFileSync(WHALE_FILE, JSON.stringify(arr, null, 2));
+  } catch (e) {
+    console.log(`⚠️  Could not save whale file: ${e.message}`);
+  }
+}
+
+function loadWhalesFromDisk() {
+  try {
+    if (fs.existsSync(WHALE_FILE)) {
+      const arr = JSON.parse(fs.readFileSync(WHALE_FILE, 'utf8'));
+      arr.forEach(w => whaleWallets.add(w));
+      console.log(`💾 Loaded ${whaleWallets.size} whale wallets from disk`);
+    } else {
+      console.log(`💾 No whale file found — starting with ${whaleWallets.size} seed wallets`);
+      saveWhalesToDisk();
+    }
+  } catch (e) {
+    console.log(`⚠️  Could not load whale file: ${e.message}`);
+  }
+}
 
 // ─── HTTP HELPERS ─────────────────────────────────────────────────────────────
 function httpGet(url) {
@@ -59,21 +101,30 @@ function httpPost(url, payload) {
   });
 }
 
-// ─── WHALE TRACKER ────────────────────────────────────────────────────────────
-async function loadWhalesFromGMGN() {
+// ─── GMGN WHALE REFRESH (opzionale) ──────────────────────────────────────────
+async function tryRefreshWhalesFromGMGN() {
   const now = Date.now();
   if (now - lastWhaleFetch < WHALE_REFRESH_MS) return;
+  lastWhaleFetch = now;
 
   try {
     const data = await httpGet('https://gmgn.ai/defi/quotation/v1/rank/sol/wallets/7d?limit=100&orderby=pnl_7d&direction=desc');
     const wallets = data?.data?.rank;
     if (Array.isArray(wallets) && wallets.length > 0) {
-      wallets.forEach(w => { if (w.wallet_address) whaleWallets.add(w.wallet_address); });
-      lastWhaleFetch = now;
-      console.log(`🐳 GMGN: loaded ${whaleWallets.size} whale wallets`);
+      let added = 0;
+      wallets.forEach(w => {
+        if (w.wallet_address && !whaleWallets.has(w.wallet_address)) {
+          whaleWallets.add(w.wallet_address);
+          added++;
+        }
+      });
+      if (added > 0) {
+        saveWhalesToDisk();
+        console.log(`🐳 GMGN: +${added} nuovi whale wallets (totale: ${whaleWallets.size})`);
+      }
     }
   } catch (e) {
-    console.log(`⚠️  GMGN fetch failed: ${e.message} — using existing list (${whaleWallets.size} wallets)`);
+    // GMGN spesso blocca i bot — non è un errore critico
   }
 }
 
@@ -100,6 +151,37 @@ function checkWhaleInBuyers(buyers) {
   return null;
 }
 
+// ─── AUTO-LEARNING ────────────────────────────────────────────────────────────
+function scheduleWhaleLearn(pairAddress, basePrice, buyers, symbol) {
+  if (!buyers || buyers.length === 0) return;
+
+  setTimeout(async () => {
+    try {
+      const data = await httpGet(`https://api.dexscreener.com/latest/dex/pairs/solana/${pairAddress}`);
+      const pair = data?.pairs?.[0];
+      if (!pair) return;
+
+      const currentPrice = parseFloat(pair.priceUsd) || 0;
+      const multiplier   = basePrice > 0 ? currentPrice / basePrice : 0;
+
+      if (multiplier >= WHALE_LEARN_2X) {
+        let added = 0;
+        for (const wallet of buyers) {
+          if (!whaleWallets.has(wallet)) {
+            whaleWallets.add(wallet);
+            added++;
+            totalLearned++;
+          }
+        }
+        if (added > 0) {
+          saveWhalesToDisk();
+          console.log(`🧠 Auto-learned ${added} whale wallets da ${symbol} (${multiplier.toFixed(1)}x) — totale: ${whaleWallets.size} wallets (${totalLearned} appresi)`);
+        }
+      }
+    } catch (e) { /* silently ignore */ }
+  }, WHALE_LEARN_MS);
+}
+
 // ─── SCORING ──────────────────────────────────────────────────────────────────
 function scoreToken(pair, whaleWallet) {
   let score = 0;
@@ -120,9 +202,9 @@ function scoreToken(pair, whaleWallet) {
     reasons.push(`🐳 Whale wallet: ${whaleWallet.substring(0, 8)}... (+${WHALE_BONUS})`);
   }
 
-  if (ageMin >= 10 && ageMin <= 30)       { score += 15; reasons.push(`⏱️ Età ottimale (${ageMin} min) (+15)`); }
-  else if (ageMin > 30 && ageMin <= 60)   { score += 10; reasons.push(`⏱️ Età buona (${ageMin} min) (+10)`); }
-  else if (ageMin > 60 && ageMin <= 120)  { score += 5;  reasons.push(`⏱️ Età accettabile (${ageMin} min) (+5)`); }
+  if (ageMin >= 10 && ageMin <= 30)      { score += 15; reasons.push(`⏱️ Età ottimale (${ageMin} min) (+15)`); }
+  else if (ageMin > 30 && ageMin <= 60)  { score += 10; reasons.push(`⏱️ Età buona (${ageMin} min) (+10)`); }
+  else if (ageMin > 60 && ageMin <= 120) { score += 5;  reasons.push(`⏱️ Età accettabile (${ageMin} min) (+5)`); }
 
   if (vol5m >= 50000)      { score += 20; reasons.push(`📈 Volume 5min $${Math.round(vol5m).toLocaleString()} (+20)`); }
   else if (vol5m >= 20000) { score += 15; reasons.push(`📈 Volume 5min $${Math.round(vol5m).toLocaleString()} (+15)`); }
@@ -161,19 +243,18 @@ function scoreToken(pair, whaleWallet) {
 }
 
 // ─── SEND ALERT ───────────────────────────────────────────────────────────────
-async function sendAlert(pair, score, reasons, whaleWallet, buyers) {
+async function sendAlert(pair, score, reasons, whaleWallet) {
   const socials  = pair.info?.socials || [];
   const twitter  = socials.find(s => s.type === 'twitter')?.url  || '';
   const telegram = socials.find(s => s.type === 'telegram')?.url || '';
   const website  = pair.info?.websites?.[0]?.url || '';
   const mint     = pair.baseToken?.address || '';
-  const dex      = pair.dexId || 'unknown';
 
   const payload = {
     name:            pair.baseToken?.name   || 'Unknown',
     symbol:          pair.baseToken?.symbol || '???',
     score,
-    dex,
+    dex:             pair.dexId || 'unknown',
     market_cap_usd:  Math.round(parseFloat(pair.marketCap) || parseFloat(pair.fdv) || 0),
     liquidity_usd:   Math.round(parseFloat(pair.liquidity?.usd) || 0),
     volume_5m_usd:   Math.round(parseFloat(pair.volume?.m5) || 0),
@@ -190,7 +271,9 @@ async function sendAlert(pair, score, reasons, whaleWallet, buyers) {
     website,
     pair_url:        pair.url || `https://dexscreener.com/solana/${mint}`,
     pump_url:        `https://pump.fun/${mint}`,
-    reasons:         reasons.join('\n')
+    reasons:         reasons.join('\n'),
+    whale_list_size: whaleWallets.size,
+    total_learned:   totalLearned
   };
 
   try {
@@ -201,29 +284,11 @@ async function sendAlert(pair, score, reasons, whaleWallet, buyers) {
   }
 }
 
-// ─── WHALE LEARNING ───────────────────────────────────────────────────────────
-function scheduleWhaleLearn(pairAddress, basePrice, buyers) {
-  setTimeout(async () => {
-    try {
-      const data = await httpGet(`https://api.dexscreener.com/latest/dex/pairs/solana/${pairAddress}`);
-      const pair = data?.pairs?.[0];
-      if (!pair) return;
-      const currentPrice = parseFloat(pair.priceUsd) || 0;
-      if (basePrice > 0 && currentPrice >= basePrice * WHALE_LEARN_2X) {
-        let added = 0;
-        for (const wallet of buyers) {
-          if (!whaleWallets.has(wallet)) { whaleWallets.add(wallet); added++; }
-        }
-        if (added > 0) console.log(`🧠 Auto-learned ${added} new whale wallets (token did ${(currentPrice/basePrice).toFixed(1)}x)`);
-      }
-    } catch (e) { /* silently ignore */ }
-  }, WHALE_LEARN_MS);
-}
-
 // ─── MAIN SCAN ────────────────────────────────────────────────────────────────
 async function scan() {
-  console.log(`\n🔍 Scanning DexScreener... [${new Date().toISOString()}]`);
-  await loadWhalesFromGMGN();
+  console.log(`\n🔍 Scanning DexScreener... [${new Date().toISOString()}] | Whale wallets: ${whaleWallets.size} (${totalLearned} appresi)`);
+
+  await tryRefreshWhalesFromGMGN();
 
   try {
     const profilesData = await httpGet('https://api.dexscreener.com/token-profiles/latest/v1');
@@ -251,49 +316,50 @@ async function scan() {
       const pairAddress = pair.pairAddress;
       const liquidity   = parseFloat(pair.liquidity?.usd) || 0;
       const pairAge     = pair.pairCreatedAt ? (now - pair.pairCreatedAt) / 60000 : 999;
+      const symbol      = pair.baseToken?.symbol || '?';
 
       pair.ageMinutes = Math.round(pairAge);
 
       if (pairAge > MAX_TOKEN_AGE_HRS * 60) continue;
       if (liquidity < MIN_LIQUIDITY_USD) continue;
-      if (alertedTokens.has(pairAddress)) continue;
 
-      let whaleWallet = null;
-      let buyers = [];
-      if (whaleWallets.size > 0) {
-        buyers = await getBuyersForPair(pairAddress);
-        whaleWallet = checkWhaleInBuyers(buyers);
+      // Fetch buyers per whale check + learning (su TUTTI i token)
+      const buyers = await getBuyersForPair(pairAddress);
+      const whaleWallet = buyers.length > 0 ? checkWhaleInBuyers(buyers) : null;
+
+      // Schedula learning per TUTTI i token visti
+      if (!trackedTokens.has(pairAddress) && buyers.length > 0) {
+        trackedTokens.set(pairAddress, true);
+        scheduleWhaleLearn(pairAddress, parseFloat(pair.priceUsd) || 0, buyers, symbol);
       }
 
-      const { score, reasons } = scoreToken(pair, whaleWallet);
-      console.log(`  ${pair.baseToken?.symbol || '?'} | age: ${pair.ageMinutes}min | liq: $${Math.round(liquidity/1000)}k | score: ${score}${whaleWallet ? ' 🐳' : ''}`);
+      if (alertedTokens.has(pairAddress)) continue;
 
-      if (WHALE_ALERT_IMMED && whaleWallet && !alertedTokens.has(pairAddress)) {
+      const { score, reasons } = scoreToken(pair, whaleWallet);
+      console.log(`  ${symbol} | age: ${pair.ageMinutes}min | liq: $${Math.round(liquidity/1000)}k | score: ${score}${whaleWallet ? ' 🐳' : ''}`);
+
+      // Alert immediato se whale (bypass MIN_SCORE)
+      if (WHALE_ALERT_IMMED && whaleWallet) {
         alertedTokens.add(pairAddress);
-        console.log(`🐳 WHALE ALERT IMMEDIATO: ${pair.baseToken?.symbol}`);
-        await sendAlert(pair, score, reasons, whaleWallet, buyers);
-        scheduleWhaleLearn(pairAddress, parseFloat(pair.priceUsd) || 0, buyers);
+        console.log(`🐳 WHALE ALERT IMMEDIATO: ${symbol}`);
+        await sendAlert(pair, score, reasons, whaleWallet);
         continue;
       }
 
       if (score >= MIN_SCORE) {
         alertedTokens.add(pairAddress);
-        await sendAlert(pair, score, reasons, whaleWallet, buyers);
-        scheduleWhaleLearn(pairAddress, parseFloat(pair.priceUsd) || 0, buyers);
-      }
-
-      if (!seenTokens.has(pairAddress) && buyers.length > 0) {
-        seenTokens.set(pairAddress, { priceUsd: parseFloat(pair.priceUsd) || 0, buyers });
+        await sendAlert(pair, score, reasons, null);
       }
     }
 
+    // Pulizia memoria
     if (alertedTokens.size > 1000) {
       const arr = [...alertedTokens];
       arr.slice(0, 500).forEach(a => alertedTokens.delete(a));
     }
-    if (seenTokens.size > 500) {
-      const arr = [...seenTokens.keys()];
-      arr.slice(0, 200).forEach(k => seenTokens.delete(k));
+    if (trackedTokens.size > 2000) {
+      const arr = [...trackedTokens.keys()];
+      arr.slice(0, 1000).forEach(k => trackedTokens.delete(k));
     }
 
   } catch (e) {
@@ -303,12 +369,13 @@ async function scan() {
 
 // ─── START ────────────────────────────────────────────────────────────────────
 async function start() {
-  console.log('🚀 DexScreener Scanner with Whale Tracking started!');
+  console.log('🚀 DexScreener Scanner with Self-Learning Whale Tracker started!');
   console.log(`   MIN_SCORE: ${MIN_SCORE} | SCAN_INTERVAL: ${SCAN_INTERVAL_MS/1000}s | MAX_AGE: ${MAX_TOKEN_AGE_HRS}h`);
   console.log(`   WHALE_BONUS: +${WHALE_BONUS} | WHALE_ALERT_IMMEDIATE: ${WHALE_ALERT_IMMED}`);
+  console.log(`   WHALE_LEARN: check dopo ${WHALE_LEARN_MS/60000}min | soglia: ${WHALE_LEARN_2X}x`);
 
-  lastWhaleFetch = 0;
-  await loadWhalesFromGMGN();
+  loadWhalesFromDisk();
+  await tryRefreshWhalesFromGMGN();
   await scan();
   setInterval(scan, SCAN_INTERVAL_MS);
 }
