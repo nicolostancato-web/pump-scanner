@@ -1,279 +1,315 @@
-const WebSocket = require('ws');
+'use strict';
 const https = require('https');
 
-// ─── CONFIG ───────────────────────────────────────────────
-const N8N_WEBHOOK          = 'https://nikbumme.app.n8n.cloud/webhook/dex-scanner';
-const MIN_SCORE            = 72;
-const SCAN_INTERVAL_MS     = 2 * 60 * 1000;   // scan every 2 min
-const WHALE_CHECK_DELAY_MS = 30 * 60 * 1000;  // learn from outcomes after 30 min
-const WHALE_BONUS          = 25;
-const MAX_TOKEN_AGE_HOURS  = 2;                // only tokens < 2 hours old
-const MIN_LIQUIDITY_USD    = 10000;            // min $10k liquidity
-const MIN_VOLUME_5M_USD    = 5000;             // min $5k volume in 5 min
-const ALREADY_ALERTED      = new Set();
-const whaleWallets         = new Set();
+// ─── CONFIG ───────────────────────────────────────────────────────────────────
+const N8N_WEBHOOK        = 'https://nikbumme.app.n8n.cloud/webhook/dex-scanner';
+const MIN_SCORE          = 72;
+const SCAN_INTERVAL_MS   = 2 * 60 * 1000;
+const MAX_TOKEN_AGE_HRS  = 2;
+const MIN_LIQUIDITY_USD  = 10_000;
+const WHALE_BONUS        = 25;
+const WHALE_ALERT_IMMED  = true;
+const WHALE_REFRESH_MS   = 6 * 60 * 60 * 1000;
+const WHALE_LEARN_MS     = 30 * 60 * 1000;
+const WHALE_LEARN_2X     = 2.0;
+const MAX_TRADES_CHECK   = 50;
 
-// ─── UTILS ────────────────────────────────────────────────
-function httpsGet(url) {
+// ─── STATE ────────────────────────────────────────────────────────────────────
+const alertedTokens = new Set();
+const seenTokens    = new Map();
+let   whaleWallets  = new Set();
+let   lastWhaleFetch = 0;
+
+// ─── HTTP HELPERS ─────────────────────────────────────────────────────────────
+function httpGet(url) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; dex-scanner/1.0)' } }, (res) => {
+    const req = https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
       let data = '';
-      res.on('data', c => data += c);
+      res.on('data', chunk => data += chunk);
       res.on('end', () => {
         try { resolve(JSON.parse(data)); }
-        catch (e) { reject(new Error('JSON parse error')); }
+        catch { reject(new Error('JSON parse error for: ' + url)); }
       });
     });
     req.on('error', reject);
-    req.setTimeout(10000, () => { req.destroy(); reject(new Error('Timeout')); });
+    req.setTimeout(10000, () => { req.destroy(); reject(new Error('Timeout: ' + url)); });
   });
 }
 
-function sendToN8N(payload) {
-  return new Promise((resolve) => {
-    const data = JSON.stringify(payload);
-    const url  = new URL(N8N_WEBHOOK);
-    const opts = {
-      hostname: url.hostname,
-      path:     url.pathname,
+function httpPost(url, payload) {
+  return new Promise((resolve, reject) => {
+    const body = JSON.stringify(payload);
+    const urlObj = new URL(url);
+    const options = {
+      hostname: urlObj.hostname,
+      path:     urlObj.pathname,
       method:   'POST',
-      headers:  { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(data) }
+      headers:  { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) }
     };
-    const req = https.request(opts, (res) => {
-      console.log(`✅ Sent to n8n — HTTP ${res.statusCode}`);
-      resolve();
+    const req = https.request(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => resolve(data));
     });
-    req.on('error', (e) => { console.error('❌ n8n error:', e.message); resolve(); });
-    req.write(data);
+    req.on('error', reject);
+    req.setTimeout(10000, () => { req.destroy(); reject(new Error('Timeout POST')); });
+    req.write(body);
     req.end();
   });
 }
 
-// ─── FETCH WHALE WALLETS FROM GMGN ────────────────────────
-async function refreshWhaleWallets() {
+// ─── WHALE TRACKER ────────────────────────────────────────────────────────────
+async function loadWhalesFromGMGN() {
+  const now = Date.now();
+  if (now - lastWhaleFetch < WHALE_REFRESH_MS) return;
+
   try {
-    const data = await httpsGet('https://gmgn.ai/defi/quotation/v1/rank/sol/wallets/7d?orderby=pnl_7d&direction=desc&limit=50');
-    if (data && data.data && data.data.rank) {
-      let added = 0;
-      for (const w of data.data.rank) {
-        if (w.wallet && !whaleWallets.has(w.wallet)) {
-          whaleWallets.add(w.wallet);
-          added++;
-        }
-      }
-      console.log(`🐳 GMGN: ${added} new whale wallets loaded. Total: ${whaleWallets.size}`);
+    const data = await httpGet('https://gmgn.ai/defi/quotation/v1/rank/sol/wallets/7d?limit=100&orderby=pnl_7d&direction=desc');
+    const wallets = data?.data?.rank;
+    if (Array.isArray(wallets) && wallets.length > 0) {
+      wallets.forEach(w => { if (w.wallet_address) whaleWallets.add(w.wallet_address); });
+      lastWhaleFetch = now;
+      console.log(`🐳 GMGN: loaded ${whaleWallets.size} whale wallets`);
     }
   } catch (e) {
-    console.log(`⚠️ GMGN fetch failed: ${e.message}`);
+    console.log(`⚠️  GMGN fetch failed: ${e.message} — using existing list (${whaleWallets.size} wallets)`);
   }
 }
 
-// ─── SCORING ──────────────────────────────────────────────
-function scoreToken(pair) {
+// ─── GET BUYERS FROM DEXSCREENER TRADES ──────────────────────────────────────
+async function getBuyersForPair(pairAddress) {
+  try {
+    const data = await httpGet(`https://api.dexscreener.com/latest/dex/trades/${pairAddress}`);
+    const trades = data?.trades || data;
+    if (!Array.isArray(trades)) return [];
+    const buyers = [];
+    for (const trade of trades.slice(0, MAX_TRADES_CHECK)) {
+      if (trade.type === 'buy' && trade.maker) buyers.push(trade.maker);
+    }
+    return buyers;
+  } catch (e) {
+    return [];
+  }
+}
+
+function checkWhaleInBuyers(buyers) {
+  for (const wallet of buyers) {
+    if (whaleWallets.has(wallet)) return wallet;
+  }
+  return null;
+}
+
+// ─── SCORING ──────────────────────────────────────────────────────────────────
+function scoreToken(pair, whaleWallet) {
   let score = 0;
   const reasons = [];
-  const now = Date.now();
 
-  // 1. AGE — must be < 2 hours, sweet spot 10-60 min (max 15 pts)
-  const ageMs  = now - (pair.pairCreatedAt || now);
-  const ageMin = ageMs / 60000;
-  if (ageMin >= 10 && ageMin <= 60)       { score += 15; reasons.push(`Sweet spot age: ${Math.round(ageMin)} min (+15)`); }
-  else if (ageMin > 60 && ageMin <= 120)  { score += 8;  reasons.push(`Age: ${Math.round(ageMin)} min (+8)`); }
-  else if (ageMin < 10)                   { score += 5;  reasons.push(`Very new: ${Math.round(ageMin)} min (+5)`); }
-  else { return { score: 0, reasons: ['Too old'] }; }
+  const ageMin     = pair.ageMinutes || 0;
+  const vol5m      = parseFloat(pair.volume?.m5) || 0;
+  const vol1h      = parseFloat(pair.volume?.h1) || 0;
+  const priceChg5m = parseFloat(pair.priceChange?.m5) || 0;
+  const liquidity  = parseFloat(pair.liquidity?.usd) || 0;
+  const mcap       = parseFloat(pair.marketCap) || parseFloat(pair.fdv) || 0;
+  const buys5m     = pair.txns?.m5?.buys  || 0;
+  const sells5m    = pair.txns?.m5?.sells || 0;
+  const hasSocials = !!(pair.info?.socials?.length > 0 || pair.info?.websites?.length > 0);
 
-  // 2. VOLUME 5 MIN (max 20 pts) — explosion in last 5 min = momentum
-  const vol5m = pair.volume?.m5 || 0;
-  if (vol5m >= 100000)      { score += 20; reasons.push(`🔥 Massive 5m volume: $${Math.round(vol5m/1000)}k (+20)`); }
-  else if (vol5m >= 50000)  { score += 16; reasons.push(`High 5m volume: $${Math.round(vol5m/1000)}k (+16)`); }
-  else if (vol5m >= 20000)  { score += 12; reasons.push(`Good 5m volume: $${Math.round(vol5m/1000)}k (+12)`); }
-  else if (vol5m >= 5000)   { score += 7;  reasons.push(`Decent 5m volume: $${Math.round(vol5m/1000)}k (+7)`); }
-  else                      {              reasons.push(`Low 5m volume: $${Math.round(vol5m)} (+0)`); }
-
-  // 3. BUY/SELL RATIO 5 MIN (max 15 pts)
-  const buys5  = pair.txns?.m5?.buys || 0;
-  const sells5 = pair.txns?.m5?.sells || 0;
-  const total5 = buys5 + sells5;
-  const ratio  = total5 > 0 ? buys5 / total5 : 0;
-  const pct    = Math.round(ratio * 100);
-  if (ratio >= 0.80)       { score += 15; reasons.push(`Strong buying: ${pct}% buys (+15)`); }
-  else if (ratio >= 0.65)  { score += 10; reasons.push(`Good buying: ${pct}% buys (+10)`); }
-  else if (ratio >= 0.55)  { score += 5;  reasons.push(`Slight buying: ${pct}% buys (+5)`); }
-  else if (ratio < 0.40 && total5 > 10) {
-    score -= 15;
-    reasons.push(`🔴 Sell pressure: ${pct}% buys (-15)`);
+  if (whaleWallet) {
+    score += WHALE_BONUS;
+    reasons.push(`🐳 Whale wallet: ${whaleWallet.substring(0, 8)}... (+${WHALE_BONUS})`);
   }
 
-  // 4. PRICE CHANGE 5 MIN (max 15 pts) — momentum
-  const change5m = pair.priceChange?.m5 || 0;
-  if (change5m >= 50)       { score += 15; reasons.push(`🚀 Price +${change5m.toFixed(1)}% in 5min (+15)`); }
-  else if (change5m >= 20)  { score += 10; reasons.push(`📈 Price +${change5m.toFixed(1)}% in 5min (+10)`); }
-  else if (change5m >= 10)  { score += 6;  reasons.push(`📈 Price +${change5m.toFixed(1)}% in 5min (+6)`); }
-  else if (change5m >= 0)   { score += 2;  reasons.push(`Price +${change5m.toFixed(1)}% in 5min (+2)`); }
-  else                      {
-    score -= 10;
-    reasons.push(`📉 Price ${change5m.toFixed(1)}% in 5min (-10)`);
+  if (ageMin >= 10 && ageMin <= 30)       { score += 15; reasons.push(`⏱️ Età ottimale (${ageMin} min) (+15)`); }
+  else if (ageMin > 30 && ageMin <= 60)   { score += 10; reasons.push(`⏱️ Età buona (${ageMin} min) (+10)`); }
+  else if (ageMin > 60 && ageMin <= 120)  { score += 5;  reasons.push(`⏱️ Età accettabile (${ageMin} min) (+5)`); }
+
+  if (vol5m >= 50000)      { score += 20; reasons.push(`📈 Volume 5min $${Math.round(vol5m).toLocaleString()} (+20)`); }
+  else if (vol5m >= 20000) { score += 15; reasons.push(`📈 Volume 5min $${Math.round(vol5m).toLocaleString()} (+15)`); }
+  else if (vol5m >= 10000) { score += 10; reasons.push(`📈 Volume 5min $${Math.round(vol5m).toLocaleString()} (+10)`); }
+  else if (vol5m >= 5000)  { score += 5;  reasons.push(`📈 Volume 5min $${Math.round(vol5m).toLocaleString()} (+5)`); }
+
+  const total5m = buys5m + sells5m;
+  if (total5m > 0) {
+    const ratio5m = buys5m / total5m;
+    if (ratio5m >= 0.75)      { score += 15; reasons.push(`🟢 Buy ratio 5min ${Math.round(ratio5m*100)}% (+15)`); }
+    else if (ratio5m >= 0.60) { score += 10; reasons.push(`🟢 Buy ratio 5min ${Math.round(ratio5m*100)}% (+10)`); }
+    else if (ratio5m >= 0.50) { score += 5;  reasons.push(`🟡 Buy ratio 5min ${Math.round(ratio5m*100)}% (+5)`); }
+    else if (ratio5m < 0.35)  { score -= 15; reasons.push(`🔴 Sell pressure 5min ${Math.round((1-ratio5m)*100)}% (-15)`); }
   }
 
-  // 5. LIQUIDITY (max 10 pts) — enough to trade without huge slippage
-  const liq = pair.liquidity?.usd || 0;
-  if (liq >= 100000)       { score += 10; reasons.push(`High liquidity: $${Math.round(liq/1000)}k (+10)`); }
-  else if (liq >= 50000)   { score += 7;  reasons.push(`Good liquidity: $${Math.round(liq/1000)}k (+7)`); }
-  else if (liq >= 10000)   { score += 4;  reasons.push(`Decent liquidity: $${Math.round(liq/1000)}k (+4)`); }
-  else {
-    score -= 10;
-    reasons.push(`⚠️ Low liquidity: $${Math.round(liq)} (-10)`);
-  }
+  if (priceChg5m >= 20)      { score += 10; reasons.push(`🚀 Price +${priceChg5m.toFixed(1)}% in 5min (+10)`); }
+  else if (priceChg5m >= 10) { score += 7;  reasons.push(`📈 Price +${priceChg5m.toFixed(1)}% in 5min (+7)`); }
+  else if (priceChg5m >= 5)  { score += 4;  reasons.push(`📈 Price +${priceChg5m.toFixed(1)}% in 5min (+4)`); }
+  else if (priceChg5m < -10) { score -= 10; reasons.push(`📉 Price ${priceChg5m.toFixed(1)}% in 5min (-10)`); }
 
-  // 6. MARKET CAP SWEET SPOT (max 10 pts)
-  const mcap = pair.marketCap || pair.fdv || 0;
-  if (mcap >= 100000 && mcap <= 2000000)      { score += 10; reasons.push(`Sweet spot mcap: $${Math.round(mcap/1000)}k (+10)`); }
-  else if (mcap >= 50000 && mcap < 100000)    { score += 7;  reasons.push(`Early mcap: $${Math.round(mcap/1000)}k (+7)`); }
-  else if (mcap >= 2000000 && mcap < 10000000){ score += 5;  reasons.push(`Growing mcap: $${Math.round(mcap/1000)}k (+5)`); }
-  else if (mcap > 0 && mcap < 50000)          { score += 3;  reasons.push(`Very early mcap: $${Math.round(mcap/1000)}k (+3)`); }
+  if (liquidity >= 100000)     { score += 10; reasons.push(`💧 Liquidità $${Math.round(liquidity/1000)}k (+10)`); }
+  else if (liquidity >= 50000) { score += 7;  reasons.push(`💧 Liquidità $${Math.round(liquidity/1000)}k (+7)`); }
+  else if (liquidity >= 25000) { score += 5;  reasons.push(`💧 Liquidità $${Math.round(liquidity/1000)}k (+5)`); }
+  else if (liquidity >= 10000) { score += 3;  reasons.push(`💧 Liquidità $${Math.round(liquidity/1000)}k (+3)`); }
 
-  // 7. SOCIAL LINKS (max 8 pts)
-  const socials  = pair.info?.socials || [];
-  const hasTwitter   = socials.some(s => s.type === 'twitter');
-  const hasTelegram  = socials.some(s => s.type === 'telegram');
-  const hasWebsite   = (pair.info?.websites || []).length > 0;
-  if (hasTwitter)  { score += 3; reasons.push('✅ Has Twitter (+3)'); }
-  if (hasTelegram) { score += 3; reasons.push('✅ Has Telegram (+3)'); }
-  if (hasWebsite)  { score += 2; reasons.push('✅ Has Website (+2)'); }
+  if (mcap >= 50000 && mcap <= 500000)       { score += 10; reasons.push(`💰 MCap ottimale $${Math.round(mcap/1000)}k (+10)`); }
+  else if (mcap > 500000 && mcap <= 2000000) { score += 5;  reasons.push(`💰 MCap $${Math.round(mcap/1000)}k (+5)`); }
+  else if (mcap < 50000 && mcap > 0)         { score += 5;  reasons.push(`💰 MCap micro $${Math.round(mcap/1000)}k (+5)`); }
 
-  // 8. VOLUME 1H (max 7 pts) — sustained interest
-  const vol1h = pair.volume?.h1 || 0;
-  if (vol1h >= 500000)      { score += 7; reasons.push(`High 1h volume: $${Math.round(vol1h/1000)}k (+7)`); }
-  else if (vol1h >= 100000) { score += 5; reasons.push(`Good 1h volume: $${Math.round(vol1h/1000)}k (+5)`); }
-  else if (vol1h >= 50000)  { score += 3; reasons.push(`Decent 1h volume: $${Math.round(vol1h/1000)}k (+3)`); }
+  if (hasSocials) { score += 5; reasons.push(`🌐 Social presenti (+5)`); }
 
-  return { score: Math.max(0, Math.min(100, score)), reasons };
+  if (vol1h >= 200000)      { score += 5; reasons.push(`📊 Volume 1h $${Math.round(vol1h/1000)}k (+5)`); }
+  else if (vol1h >= 100000) { score += 3; reasons.push(`📊 Volume 1h $${Math.round(vol1h/1000)}k (+3)`); }
+
+  return { score: Math.max(0, Math.min(score, 110)), reasons };
 }
 
-// ─── SCAN DEXSCREENER ─────────────────────────────────────
-async function scanDexScreener() {
+// ─── SEND ALERT ───────────────────────────────────────────────────────────────
+async function sendAlert(pair, score, reasons, whaleWallet, buyers) {
+  const socials  = pair.info?.socials || [];
+  const twitter  = socials.find(s => s.type === 'twitter')?.url  || '';
+  const telegram = socials.find(s => s.type === 'telegram')?.url || '';
+  const website  = pair.info?.websites?.[0]?.url || '';
+  const mint     = pair.baseToken?.address || '';
+  const dex      = pair.dexId || 'unknown';
+
+  const payload = {
+    name:            pair.baseToken?.name   || 'Unknown',
+    symbol:          pair.baseToken?.symbol || '???',
+    score,
+    dex,
+    market_cap_usd:  Math.round(parseFloat(pair.marketCap) || parseFloat(pair.fdv) || 0),
+    liquidity_usd:   Math.round(parseFloat(pair.liquidity?.usd) || 0),
+    volume_5m_usd:   Math.round(parseFloat(pair.volume?.m5) || 0),
+    volume_1h_usd:   Math.round(parseFloat(pair.volume?.h1) || 0),
+    price_change_5m: parseFloat(pair.priceChange?.m5)?.toFixed(2) || '0',
+    buys_5m:         pair.txns?.m5?.buys  || 0,
+    sells_5m:        pair.txns?.m5?.sells || 0,
+    age_minutes:     pair.ageMinutes || 0,
+    mint,
+    whale_detected:  !!whaleWallet,
+    whale_wallet:    whaleWallet || null,
+    twitter,
+    telegram,
+    website,
+    pair_url:        pair.url || `https://dexscreener.com/solana/${mint}`,
+    pump_url:        `https://pump.fun/${mint}`,
+    reasons:         reasons.join('\n')
+  };
+
   try {
-    console.log(`\n🔍 Scanning DexScreener for new Solana tokens...`);
+    await httpPost(N8N_WEBHOOK, payload);
+    console.log(`✅ Alert sent: ${payload.name} (${payload.symbol}) — score ${score}`);
+  } catch (e) {
+    console.error(`❌ Failed to send alert: ${e.message}`);
+  }
+}
 
-    // Get latest token profiles
-    const profiles = await httpsGet('https://api.dexscreener.com/token-profiles/latest/v1');
-    if (!profiles || !Array.isArray(profiles)) {
-      console.log('⚠️ No profiles returned');
-      return;
-    }
+// ─── WHALE LEARNING ───────────────────────────────────────────────────────────
+function scheduleWhaleLearn(pairAddress, basePrice, buyers) {
+  setTimeout(async () => {
+    try {
+      const data = await httpGet(`https://api.dexscreener.com/latest/dex/pairs/solana/${pairAddress}`);
+      const pair = data?.pairs?.[0];
+      if (!pair) return;
+      const currentPrice = parseFloat(pair.priceUsd) || 0;
+      if (basePrice > 0 && currentPrice >= basePrice * WHALE_LEARN_2X) {
+        let added = 0;
+        for (const wallet of buyers) {
+          if (!whaleWallets.has(wallet)) { whaleWallets.add(wallet); added++; }
+        }
+        if (added > 0) console.log(`🧠 Auto-learned ${added} new whale wallets (token did ${(currentPrice/basePrice).toFixed(1)}x)`);
+      }
+    } catch (e) { /* silently ignore */ }
+  }, WHALE_LEARN_MS);
+}
 
-    // Filter Solana tokens only
-    const solAddresses = profiles
-      .filter(p => p.chainId === 'solana')
-      .map(p => p.tokenAddress)
-      .filter(Boolean)
-      .slice(0, 30);
+// ─── MAIN SCAN ────────────────────────────────────────────────────────────────
+async function scan() {
+  console.log(`\n🔍 Scanning DexScreener... [${new Date().toISOString()}]`);
+  await loadWhalesFromGMGN();
 
-    if (solAddresses.length === 0) {
-      console.log('⚠️ No Solana tokens found');
-      return;
-    }
+  try {
+    const profilesData = await httpGet('https://api.dexscreener.com/token-profiles/latest/v1');
+    const profiles = Array.isArray(profilesData) ? profilesData : [];
+    const solanaProfiles = profiles.filter(p => p.chainId === 'solana').slice(0, 30);
 
-    // Get market data in batches of 30
-    const marketData = await httpsGet(`https://api.dexscreener.com/latest/dex/tokens/${solAddresses.join(',')}`);
-    if (!marketData || !marketData.pairs) {
-      console.log('⚠️ No market data returned');
-      return;
+    if (solanaProfiles.length === 0) { console.log('No new Solana profiles found.'); return; }
+
+    const addresses = solanaProfiles.map(p => p.tokenAddress).filter(Boolean);
+    const chunks = [];
+    for (let i = 0; i < addresses.length; i += 30) chunks.push(addresses.slice(i, i + 30));
+
+    const pairs = [];
+    for (const chunk of chunks) {
+      try {
+        const data = await httpGet(`https://api.dexscreener.com/latest/dex/tokens/${chunk.join(',')}`);
+        if (Array.isArray(data?.pairs)) pairs.push(...data.pairs);
+      } catch (e) { /* skip chunk */ }
     }
 
     const now = Date.now();
-    let analyzed = 0;
-    let passed = 0;
-
-    for (const pair of marketData.pairs) {
-      // Skip if already alerted
-      const pairKey = pair.pairAddress || pair.baseToken?.address;
-      if (!pairKey || ALREADY_ALERTED.has(pairKey)) continue;
-
-      // Skip non-Solana or non-new pairs
+    for (const pair of pairs) {
       if (pair.chainId !== 'solana') continue;
-      const ageMs = now - (pair.pairCreatedAt || now);
-      if (ageMs > MAX_TOKEN_AGE_HOURS * 60 * 60 * 1000) continue;
 
-      // Skip low liquidity
-      if ((pair.liquidity?.usd || 0) < MIN_LIQUIDITY_USD) continue;
+      const pairAddress = pair.pairAddress;
+      const liquidity   = parseFloat(pair.liquidity?.usd) || 0;
+      const pairAge     = pair.pairCreatedAt ? (now - pair.pairCreatedAt) / 60000 : 999;
 
-      analyzed++;
-      const { score, reasons } = scoreToken(pair);
+      pair.ageMinutes = Math.round(pairAge);
 
-      const name   = pair.baseToken?.name || 'Unknown';
-      const symbol = pair.baseToken?.symbol || '???';
-      console.log(`   ${name} ($${symbol}) — Score: ${score}/100`);
+      if (pairAge > MAX_TOKEN_AGE_HRS * 60) continue;
+      if (liquidity < MIN_LIQUIDITY_USD) continue;
+      if (alertedTokens.has(pairAddress)) continue;
 
-      if (score < MIN_SCORE) continue;
+      let whaleWallet = null;
+      let buyers = [];
+      if (whaleWallets.size > 0) {
+        buyers = await getBuyersForPair(pairAddress);
+        whaleWallet = checkWhaleInBuyers(buyers);
+      }
 
-      passed++;
-      ALREADY_ALERTED.add(pairKey);
+      const { score, reasons } = scoreToken(pair, whaleWallet);
+      console.log(`  ${pair.baseToken?.symbol || '?'} | age: ${pair.ageMinutes}min | liq: $${Math.round(liquidity/1000)}k | score: ${score}${whaleWallet ? ' 🐳' : ''}`);
 
-      const mcap    = pair.marketCap || pair.fdv || 0;
-      const vol5m   = pair.volume?.m5 || 0;
-      const vol1h   = pair.volume?.h1 || 0;
-      const liq     = pair.liquidity?.usd || 0;
-      const change5m= pair.priceChange?.m5 || 0;
-      const change1h= pair.priceChange?.h1 || 0;
-      const buys5   = pair.txns?.m5?.buys || 0;
-      const sells5  = pair.txns?.m5?.sells || 0;
-      const ageMin  = Math.round(ageMs / 60000);
+      if (WHALE_ALERT_IMMED && whaleWallet && !alertedTokens.has(pairAddress)) {
+        alertedTokens.add(pairAddress);
+        console.log(`🐳 WHALE ALERT IMMEDIATO: ${pair.baseToken?.symbol}`);
+        await sendAlert(pair, score, reasons, whaleWallet, buyers);
+        scheduleWhaleLearn(pairAddress, parseFloat(pair.priceUsd) || 0, buyers);
+        continue;
+      }
 
-      const socials   = pair.info?.socials || [];
-      const twitter   = socials.find(s => s.type === 'twitter')?.url || '';
-      const telegram  = socials.find(s => s.type === 'telegram')?.url || '';
-      const website   = (pair.info?.websites || [])[0]?.url || '';
+      if (score >= MIN_SCORE) {
+        alertedTokens.add(pairAddress);
+        await sendAlert(pair, score, reasons, whaleWallet, buyers);
+        scheduleWhaleLearn(pairAddress, parseFloat(pair.priceUsd) || 0, buyers);
+      }
 
-      console.log(`🚨 PASSES! Sending alert for ${name}...`);
-
-      await sendToN8N({
-        source:          'DEXSCREENER',
-        name,
-        symbol,
-        mint:            pair.baseToken?.address || '',
-        pair_address:    pairKey,
-        dex:             pair.dexId || '',
-        score,
-        reasons:         reasons.join('\n'),
-        market_cap_usd:  Math.round(mcap),
-        liquidity_usd:   Math.round(liq),
-        volume_5m_usd:   Math.round(vol5m),
-        volume_1h_usd:   Math.round(vol1h),
-        price_change_5m: change5m.toFixed(2),
-        price_change_1h: change1h.toFixed(2),
-        buys_5m:         buys5,
-        sells_5m:        sells5,
-        age_minutes:     ageMin,
-        twitter,
-        telegram,
-        website,
-        pair_url:        pair.url || `https://dexscreener.com/solana/${pairKey}`,
-        pump_url:        `https://pump.fun/${pair.baseToken?.address || ''}`,
-        analyzed_at:     new Date().toISOString()
-      });
+      if (!seenTokens.has(pairAddress) && buyers.length > 0) {
+        seenTokens.set(pairAddress, { priceUsd: parseFloat(pair.priceUsd) || 0, buyers });
+      }
     }
 
-    console.log(`✅ Scan complete: analyzed ${analyzed} tokens, ${passed} passed filters`);
+    if (alertedTokens.size > 1000) {
+      const arr = [...alertedTokens];
+      arr.slice(0, 500).forEach(a => alertedTokens.delete(a));
+    }
+    if (seenTokens.size > 500) {
+      const arr = [...seenTokens.keys()];
+      arr.slice(0, 200).forEach(k => seenTokens.delete(k));
+    }
 
   } catch (e) {
-    console.error('❌ Scan error:', e.message);
+    console.error(`❌ Scan error: ${e.message}`);
   }
 }
 
-// ─── START ────────────────────────────────────────────────
-console.log('🚀 DexScreener Smart Scanner v1.0');
-console.log(`   Min score        : ${MIN_SCORE}/100`);
-console.log(`   Max token age    : ${MAX_TOKEN_AGE_HOURS} hours`);
-console.log(`   Min liquidity    : $${MIN_LIQUIDITY_USD/1000}k`);
-console.log(`   Scan interval    : every 2 minutes`);
-console.log(`   Whale learning   : enabled (GMGN + auto)`);
-console.log('');
+// ─── START ────────────────────────────────────────────────────────────────────
+async function start() {
+  console.log('🚀 DexScreener Scanner with Whale Tracking started!');
+  console.log(`   MIN_SCORE: ${MIN_SCORE} | SCAN_INTERVAL: ${SCAN_INTERVAL_MS/1000}s | MAX_AGE: ${MAX_TOKEN_AGE_HRS}h`);
+  console.log(`   WHALE_BONUS: +${WHALE_BONUS} | WHALE_ALERT_IMMEDIATE: ${WHALE_ALERT_IMMED}`);
 
-// Load whale wallets
-refreshWhaleWallets();
-setInterval(refreshWhaleWallets, 6 * 60 * 60 * 1000);
+  lastWhaleFetch = 0;
+  await loadWhalesFromGMGN();
+  await scan();
+  setInterval(scan, SCAN_INTERVAL_MS);
+}
 
-// Start scanning
-scanDexScreener();
-setInterval(scanDexScreener, SCAN_INTERVAL_MS);
+start();
