@@ -6,6 +6,7 @@ const path  = require('path');
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
 const N8N_WEBHOOK        = 'https://nikbumme.app.n8n.cloud/webhook/dex-scanner';
 const N8N_TRACKER        = 'https://nikbumme.app.n8n.cloud/webhook/position-update';
+const N8N_RESULT         = 'https://nikbumme.app.n8n.cloud/webhook/update-result';
 const MIN_SCORE          = 65;
 const SCAN_INTERVAL_MS   = 2 * 60 * 1000;      // scan ogni 2 minuti
 const MAX_TOKEN_AGE_HRS  = 2;
@@ -332,6 +333,19 @@ async function closePosition(pairAddress, pos, closePrice, reason) {
   if (pos.peakMultiplier >= 2.0 && pos.buyers.length > 0) {
     learnWhalesFromBuyers(pos.buyers, pos.symbol, pos.peakMultiplier);
   }
+
+  // Scrivi risultato automatico nel Sheet1
+  let resultStr = '';
+  if (reason === 'stop_loss')          resultStr = `❌ Rug (-${Math.round(PAPER_STOP_LOSS_PCT*100)}%)`;
+  else if (closeMultiplier >= 5.0)     resultStr = `🚀 5x+`;
+  else if (closeMultiplier >= 3.0)     resultStr = `🟢 3x`;
+  else if (closeMultiplier >= 2.0)     resultStr = `🟢 2x`;
+  else if (closeMultiplier >= 1.5)     resultStr = `🟡 +50%`;
+  else if (closeMultiplier >= 1.2)     resultStr = `🟡 +20%`;
+  else if (closeMultiplier >= 1.0)     resultStr = `⚪ Flat`;
+  else                                 resultStr = `🔴 -${Math.round((1-closeMultiplier)*100)}%`;
+  const peakStr = ` (peak: ${pos.peakMultiplier >= 2 ? pos.peakMultiplier.toFixed(1)+'x' : '+'+Math.round((pos.peakMultiplier-1)*100)+'%'})`;
+  try { await httpPost(N8N_RESULT, { mint: pos.mint, result: resultStr + peakStr }); } catch {}
 
   savePositionsHistory();
   updateLearnings();
