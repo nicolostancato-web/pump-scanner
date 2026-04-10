@@ -159,7 +159,51 @@
       "closeMultiplier": 0.6946053032612008,
       "closedAt": "2026-04-10T16:55:18.855Z",
       "durationMs": 1438431
+    },
+    {
+      "pairAddress": "3gGSXwoqKAQYu3uUSSZxYAjPD4YF7dgY35s6GBGiL16L",
+      "mint": "BbdXxhQPSqYSCqVHeM7y4CsYrMwjd6HectFd5hMdgxi5",
+      "name": "Elon is Satoshi",
+      "symbol": "EIS",
+      "dex": "pumpswap",
+      "entryPrice": 0.00003652,
+      "entryMcap": 36523,
+      "entryTime": 1775841323792,
+      "score": 66,
+      "ageAtEntry": 21,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/3ggsxwoqkaqyu3uusszxyajpd4yf7dgy35s6gbgil16l",
+      "peakPrice": 0.000236,
+      "peakMultiplier": 6.4622124863088715,
+      "peakMcap": 236094,
+      "peakTime": 1775841682400,
+      "lastPrice": 0.000002764,
+      "lowestPrice": 0.000002764,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2,
+        3,
+        5
+      ],
+      "timesToMilestone": {
+        "1": 58506,
+        "2": 358608,
+        "3": 358608,
+        "5": 358608,
+        "0.5": 58506,
+        "1.5": 58506
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002764,
+      "closeMultiplier": 0.07568455640744798,
+      "closedAt": "2026-04-10T17:46:22.742Z",
+      "durationMs": 1858950
     }
   ],
-  "lastSaved": "2026-04-10T16:55:20.359Z"
+  "lastSaved": "2026-04-10T17:46:24.016Z"
 }
