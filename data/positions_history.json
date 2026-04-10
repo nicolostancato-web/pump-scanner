@@ -35,7 +35,37 @@
       "closeMultiplier": 0.029715073529411763,
       "closedAt": "2026-04-10T11:16:32.740Z",
       "durationMs": 5638565
+    },
+    {
+      "pairAddress": "FvhQ5B7BSkXJNL9YwEL2merG78P7WuSXEEDkwJnoQqU",
+      "mint": "67FPxNwb4JWjyNLCLqnFNnQsKvvSYeY3BELUovMGpump",
+      "name": "SpaceX",
+      "symbol": "SPAX",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008693,
+      "entryMcap": 86934,
+      "entryTime": 1775829247546,
+      "score": 73,
+      "ageAtEntry": 19,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/fvhq5b7bskxjnl9ywel2merg78p7wusxeedkwjnoqqu",
+      "peakPrice": 0.00008693,
+      "peakMultiplier": 1,
+      "peakMcap": 86934,
+      "peakTime": 1775829247546,
+      "lastPrice": 0.00003774,
+      "lowestPrice": 0.00003774,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003774,
+      "closeMultiplier": 0.43414241343609805,
+      "closedAt": "2026-04-10T14:03:03.779Z",
+      "durationMs": 536233
     }
   ],
-  "lastSaved": "2026-04-10T11:16:34.038Z"
+  "lastSaved": "2026-04-10T14:03:05.113Z"
 }
