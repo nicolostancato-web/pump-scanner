@@ -323,7 +323,41 @@
       "closeMultiplier": 0.5478580171358629,
       "closedAt": "2026-04-10T20:09:28.674Z",
       "durationMs": 1201154
+    },
+    {
+      "pairAddress": "BoB3Dvi5eLGFr86BexBPNY2ZXwMNjWhx3FVCep3X2Vj6",
+      "mint": "EamB9vqC1b4aoyPR6t3hn6CWf48yny84xzCuFJMbpump",
+      "name": "The wife of Pepe The Frog",
+      "symbol": "Peepa",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002209,
+      "entryMcap": 220996,
+      "entryTime": 1775851933226,
+      "score": 75,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/bob3dvi5elgfr86bexbpny2zxwmnjwhx3fvcep3x2vj6",
+      "peakPrice": 0.0003566,
+      "peakMultiplier": 1.6143051154368493,
+      "peakMcap": 356698,
+      "peakTime": 1775853912489,
+      "lastPrice": 0.0002283,
+      "lowestPrice": 0.0002203,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 1679249
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0002283,
+      "closeMultiplier": 1.0334993209597103,
+      "closedAt": "2026-04-10T22:15:13.827Z",
+      "durationMs": 7380601
     }
   ],
-  "lastSaved": "2026-04-10T20:09:29.939Z"
+  "lastSaved": "2026-04-10T22:15:15.055Z"
 }
