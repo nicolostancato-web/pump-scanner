@@ -217,6 +217,8 @@ function openPosition(pair, score, whaleWallet, buyers) {
 
   openPositions.set(pairAddress, pos);
   console.log(`📂 Posizione aperta: ${pos.symbol} @ $${entryPrice.toExponential(3)} | score: ${score}${whaleWallet ? ' 🐳' : ''}`);
+  // Notifica apertura posizione al Positions tab
+  sendPositionUpdate(pos, pos.entryMcap, '🟡 OPEN').catch(() => {});
 }
 
 // ─── PAPER TRADING: CHECK POSITIONS ──────────────────────────────────────────
@@ -246,9 +248,6 @@ async function checkOpenPositions() {
       }
       if (currentPrice < pos.lowestPrice) pos.lowestPrice = currentPrice;
       pos.lastPrice = currentPrice;
-
-      // Manda aggiornamento live al Google Sheet
-      await sendPositionUpdate(pos, currentMcap, '🟢 OPEN');
 
       // Traccia milestones raggiunte
       for (const m of MILESTONES) {
@@ -285,24 +284,25 @@ async function sendPositionUpdate(pos, currentMcap, status) {
     const changePct  = pos.entryMcap > 0 ? (((currentMcap - pos.entryMcap) / pos.entryMcap) * 100).toFixed(1) : '0';
     const peakPct    = pos.entryMcap > 0 ? (((pos.peakMcap  - pos.entryMcap) / pos.entryMcap) * 100).toFixed(1) : '0';
     await httpPost(N8N_TRACKER, {
-      mint:         pos.mint,
-      symbol:       pos.symbol,
-      source:       'DEXSCREENER',
-      score:        pos.score,
-      entry_time:   new Date(pos.entryTime).toISOString().replace('T',' ').slice(0,19),
-      entry_mcap:   pos.entryMcap,
-      current_mcap: currentMcap,
-      change_pct:   changePct + '%',
-      peak_mcap:    pos.peakMcap || pos.entryMcap,
-      peak_pct:     peakPct + '%',
-      status,
-      close_reason: pos.closeReason || '',
-      duration_min: Math.round((Date.now() - pos.entryTime) / 60000),
-      optimal_tp:   learnings.optimalTP ? `+${Math.round(learnings.optimalTP*100)}%` : 'learning...',
-      optimal_sl:   learnings.optimalSL ? `-${Math.round(learnings.optimalSL*100)}%` : 'learning...',
-      link:         pos.pairUrl || `https://dexscreener.com/solana/${pos.mint}`
+      'Contract':       pos.mint,
+      'Symbol':         pos.symbol,
+      'Source':         'DEXSCREENER',
+      'Score':          pos.score,
+      'Entry Time':     new Date(pos.entryTime).toISOString().replace('T',' ').slice(0,19),
+      'Entry MCap $':   pos.entryMcap,
+      'Current MCap $': currentMcap,
+      'Change %':       changePct + '%',
+      'Peak MCap $':    pos.peakMcap || pos.entryMcap,
+      'Peak %':         peakPct + '%',
+      'Status':         status,
+      'Close Reason':   pos.closeReason || '',
+      'Duration min':   Math.round((Date.now() - pos.entryTime) / 60000),
+      'TP Suggested':   learnings.optimalTP ? `+${Math.round(learnings.optimalTP*100)}%` : 'learning...',
+      'SL Suggested':   learnings.optimalSL ? `-${Math.round(learnings.optimalSL*100)}%` : 'learning...',
+      'Link':           pos.pairUrl || `https://dexscreener.com/solana/${pos.mint}`
     });
-  } catch { /* non critico */ }
+    console.log(`📡 Tracker: ${pos.symbol} → ${status}`);
+  } catch (e) { console.log(`⚠️ Tracker failed: ${pos.symbol} ${e.message}`); }
 }
 
 async function closePosition(pairAddress, pos, closePrice, reason) {
@@ -743,3 +743,4 @@ async function start() {
 }
 
 start();
+
