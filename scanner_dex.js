@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; // v2.0-github-persist
 const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
