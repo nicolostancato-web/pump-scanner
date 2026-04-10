@@ -263,7 +263,37 @@
       "closeMultiplier": 0.6537562604340568,
       "closedAt": "2026-04-10T19:23:16.954Z",
       "durationMs": 359155
+    },
+    {
+      "pairAddress": "8QQ35ziqWW44ByWdLotaTiYNGpRp5U4rJ8aPndR4fG2H",
+      "mint": "HNE93e2UsB4y49FztZhzxPNPv3TWhXYzuhmM1FSQpump",
+      "name": "PsyopTrumpUsaAssElonRizz420inu",
+      "symbol": "PLTR",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001158,
+      "entryMcap": 115816,
+      "entryTime": 1775849877577,
+      "score": 78,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8qq35ziqww44bywdlotatiyngprp5u4rj8apndr4fg2h",
+      "peakPrice": 0.0001158,
+      "peakMultiplier": 1,
+      "peakMcap": 115816,
+      "peakTime": 1775849877577,
+      "lastPrice": 0.00007905,
+      "lowestPrice": 0.00007905,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00007905,
+      "closeMultiplier": 0.6826424870466321,
+      "closedAt": "2026-04-10T19:48:56.398Z",
+      "durationMs": 658821
     }
   ],
-  "lastSaved": "2026-04-10T19:23:18.182Z"
+  "lastSaved": "2026-04-10T19:48:57.701Z"
 }
