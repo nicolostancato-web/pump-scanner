@@ -2,7 +2,7 @@
   "totalClosed": 8,
   "winRate": "0.0%",
   "avgPeakMultiplier": "1.924",
-  "avgCloseMultiplier": "0.434",
+  "avgCloseMultiplier": "0.438",
   "optimalTP": 3,
   "optimalSL": 0.3,
   "tpAnalysis": {
@@ -144,18 +144,18 @@
       "avgPeak": "1.00x"
     },
     "15-30min": {
-      "count": 4,
-      "avgPeak": "2.63x"
+      "count": 3,
+      "avgPeak": "3.17x"
     },
     "30-60min": {
       "count": 2,
       "avgPeak": "1.44x"
     },
     "60-120min": {
-      "count": 1,
+      "count": 2,
       "avgPeak": "1.00x"
     }
   },
-  "recommendation": "📊 Analisi su 8 posizioni chiuse\n✅ Win rate (chiuse in positivo): 0%\n📈 Peak medio: 1.92x | Close medio: 0.43x\n🎯 Take Profit ottimale: +300% (expected value: 37.5%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: N/A vs 1.92x",
-  "lastUpdated": "2026-04-10T19:12:44.210Z"
+  "recommendation": "📊 Analisi su 8 posizioni chiuse\n✅ Win rate (chiuse in positivo): 0%\n📈 Peak medio: 1.92x | Close medio: 0.44x\n🎯 Take Profit ottimale: +300% (expected value: 37.5%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: N/A vs 1.92x",
+  "lastUpdated": "2026-04-10T19:23:18.184Z"
 }
