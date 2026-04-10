@@ -65,7 +65,41 @@
       "closeMultiplier": 0.43414241343609805,
       "closedAt": "2026-04-10T14:03:03.779Z",
       "durationMs": 536233
+    },
+    {
+      "pairAddress": "2VYgQVvb5SKAGGYF4NfMmdSUqEK4QX58Xwd28R7WrZ4Y",
+      "mint": "5XcKsbHkbpqK2b3owaeRQvW9e29KHJKtUeXqhHWxpump",
+      "name": "mini loln't",
+      "symbol": "lolnt",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001874,
+      "entryMcap": 187442,
+      "entryTime": 1775830179969,
+      "score": 67,
+      "ageAtEntry": 38,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/2vygqvvb5skaggyf4nfmmdsuqek4qx58xwd28r7wrz4y",
+      "peakPrice": 0.0002929,
+      "peakMultiplier": 1.5629669156883672,
+      "peakMcap": 292980,
+      "peakTime": 1775831619011,
+      "lastPrice": 0.0001036,
+      "lowestPrice": 0.0001036,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 1439042
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001036,
+      "closeMultiplier": 0.5528281750266809,
+      "closedAt": "2026-04-10T15:23:39.894Z",
+      "durationMs": 4439925
     }
   ],
-  "lastSaved": "2026-04-10T14:03:05.113Z"
+  "lastSaved": "2026-04-10T15:23:41.223Z"
 }
