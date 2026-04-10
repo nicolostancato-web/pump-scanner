@@ -357,7 +357,37 @@
       "closeMultiplier": 1.0334993209597103,
       "closedAt": "2026-04-10T22:15:13.827Z",
       "durationMs": 7380601
+    },
+    {
+      "pairAddress": "13m9weoyADHdBWk8V8smguSfRPEjjb9xrypyqT5VhVE1",
+      "mint": "BLguzaKqSKtwVpCWpgLF37DBgczALUvWJbAARWGupump",
+      "name": "Mimicoin",
+      "symbol": "MIMI",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005103,
+      "entryMcap": 51039,
+      "entryTime": 1775860196788,
+      "score": 68,
+      "ageAtEntry": 27,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/13m9weoyadhdbwk8v8smgusfrpejjb9xrypyqt5vhve1",
+      "peakPrice": 0.00005103,
+      "peakMultiplier": 1,
+      "peakMcap": 51039,
+      "peakTime": 1775860196788,
+      "lastPrice": 0.00003051,
+      "lowestPrice": 0.00003051,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003051,
+      "closeMultiplier": 0.5978835978835979,
+      "closedAt": "2026-04-10T22:55:56.089Z",
+      "durationMs": 1559301
     }
   ],
-  "lastSaved": "2026-04-10T22:15:15.055Z"
+  "lastSaved": "2026-04-10T22:55:57.336Z"
 }
