@@ -1,1 +1,41 @@
-{"closed":[],"lastSaved":"2026-04-10T00:00:00.000Z"}
+{
+  "closed": [
+    {
+      "pairAddress": "HJU3asL1yJhN38SytB6AgE9cErSLppYgH5CkMaKZ5dLK",
+      "mint": "EMoVDQ2aMyVq3GGRvawjtDHmwS3KgWF4BRuXGbqYaUBV",
+      "name": "EMOji",
+      "symbol": "EMOji",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001088,
+      "entryMcap": 108828,
+      "entryTime": 1775814154175,
+      "score": 75,
+      "ageAtEntry": 25,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/hju3asl1yjhn38sytb6age9cerslppygh5ckmakz5dlk",
+      "peakPrice": 0.0002237,
+      "peakMultiplier": 2.0560661764705883,
+      "peakMcap": 223724,
+      "peakTime": 1775816791883,
+      "lastPrice": 0.000003233,
+      "lowestPrice": 0.000003233,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 2637708,
+        "0.5": 1137615
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000003233,
+      "closeMultiplier": 0.029715073529411763,
+      "closedAt": "2026-04-10T11:16:32.740Z",
+      "durationMs": 5638565
+    }
+  ],
+  "lastSaved": "2026-04-10T11:16:34.038Z"
+}
