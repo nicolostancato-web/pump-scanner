@@ -233,7 +233,37 @@
       "closeMultiplier": 0.6437880104257168,
       "closedAt": "2026-04-10T18:36:59.132Z",
       "durationMs": 3001319
+    },
+    {
+      "pairAddress": "GJQxYHKe7bSJbbbQ2KuVpprW3vw48YMLmk3xQGRNDGCD",
+      "mint": "4NxMWj62yH8ZzbU3YMVJBZkriV51tf3vD14HLaeTpump",
+      "name": "The Ngogo Giant",
+      "symbol": "Miles",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001198,
+      "entryMcap": 119869,
+      "entryTime": 1775848637799,
+      "score": 65,
+      "ageAtEntry": 81,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/gjqxyhke7bsjbbbq2kuvpprw3vw48ymlmk3xqgrndgcd",
+      "peakPrice": 0.0001198,
+      "peakMultiplier": 1,
+      "peakMcap": 119869,
+      "peakTime": 1775848637799,
+      "lastPrice": 0.00007832,
+      "lowestPrice": 0.00007832,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00007832,
+      "closeMultiplier": 0.6537562604340568,
+      "closedAt": "2026-04-10T19:23:16.954Z",
+      "durationMs": 359155
     }
   ],
-  "lastSaved": "2026-04-10T18:37:00.436Z"
+  "lastSaved": "2026-04-10T19:23:18.182Z"
 }
