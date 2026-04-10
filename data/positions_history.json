@@ -99,7 +99,37 @@
       "closeMultiplier": 0.5528281750266809,
       "closedAt": "2026-04-10T15:23:39.894Z",
       "durationMs": 4439925
+    },
+    {
+      "pairAddress": "DR7r9S58sRYVN9Mbo3YnTqkkwwcZkkXjBoCMtG7cUToo",
+      "mint": "99wwdHFyoSvYGixvNQ3xS7HfEgSXoKjFNpYw36oSpump",
+      "name": "AI Porn Index 6900",
+      "symbol": "API6900",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000571,
+      "entryMcap": 57102,
+      "entryTime": 1775836954432,
+      "score": 76,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/dr7r9s58sryvn9mbo3yntqkkwwczkkxjbocmtg7cutoo",
+      "peakPrice": 0.0000571,
+      "peakMultiplier": 1,
+      "peakMcap": 57102,
+      "peakTime": 1775836954432,
+      "lastPrice": 0.00002402,
+      "lowestPrice": 0.00002402,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00002402,
+      "closeMultiplier": 0.42066549912434326,
+      "closedAt": "2026-04-10T16:14:32.660Z",
+      "durationMs": 718228
     }
   ],
-  "lastSaved": "2026-04-10T15:23:41.223Z"
+  "lastSaved": "2026-04-10T16:14:33.896Z"
 }
