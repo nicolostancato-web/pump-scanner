@@ -23,10 +23,10 @@ const CHECK_POSITIONS_MS   = 5 * 60 * 1000;   // controlla posizioni ogni 5 min
 const MILESTONES           = [0.5, 1.0, 1.5, 2.0, 3.0, 5.0]; // +50%, +100%...
 const MIN_POSITIONS_LEARN  = 5;               // posizioni minime per calcolare strategia
 
-// ─── FILE PATHS ───────────────────────────────────────────────────────────────
-const WHALE_FILE     = path.join(__dirname, 'whale_wallets.json');
-const POSITIONS_FILE = path.join(__dirname, 'positions_history.json');
-const LEARNINGS_FILE = path.join(__dirname, 'learnings.json');
+// ─── GITHUB PERSISTENCE ──────────────────────────────────────────────────────
+const GITHUB_TOKEN  = process.env.GITHUB_TOKEN || '';
+const GITHUB_REPO   = 'nicolostancato-web/pump-scanner';
+const GITHUB_BRANCH = 'main';
 
 // ─── SEED WHALE WALLETS ───────────────────────────────────────────────────────
 const SEED_WHALES = [
@@ -54,47 +54,94 @@ let openPositions   = new Map();  // pairAddress → position object
 let closedPositions = [];         // array of all closed positions
 let learnings       = {};         // strategia appresa
 
-// ─── PERSISTENCE ──────────────────────────────────────────────────────────────
-function saveJSON(filePath, data) {
-  try { fs.writeFileSync(filePath, JSON.stringify(data, null, 2)); }
-  catch (e) { console.log(`⚠️  Save failed ${path.basename(filePath)}: ${e.message}`); }
+// ─── PERSISTENCE (GitHub) ────────────────────────────────────────────────────
+function githubRequest(method, filePath, body) {
+  return new Promise((resolve, reject) => {
+    const bodyStr = body ? JSON.stringify(body) : null;
+    const req = https.request({
+      hostname: 'api.github.com',
+      path: `/repos/${GITHUB_REPO}/contents/${filePath}`,
+      method,
+      headers: {
+        'Authorization': `token ${GITHUB_TOKEN}`,
+        'User-Agent': 'dex-scanner',
+        'Content-Type': 'application/json',
+        ...(bodyStr ? { 'Content-Length': Buffer.byteLength(bodyStr) } : {})
+      }
+    }, (res) => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => {
+        try { resolve(JSON.parse(data)); }
+        catch { resolve({}); }
+      });
+    });
+    req.on('error', reject);
+    req.setTimeout(15000, () => { req.destroy(); reject(new Error('GitHub timeout')); });
+    if (bodyStr) req.write(bodyStr);
+    req.end();
+  });
 }
 
-function loadJSON(filePath, defaultValue) {
+async function githubLoad(filePath, defaultValue) {
   try {
-    if (fs.existsSync(filePath)) return JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  } catch (e) { console.log(`⚠️  Load failed ${path.basename(filePath)}: ${e.message}`); }
+    const res = await githubRequest('GET', filePath);
+    if (res.content) {
+      const decoded = Buffer.from(res.content, 'base64').toString('utf8');
+      return JSON.parse(decoded);
+    }
+  } catch (e) { console.log(`⚠️  GitHub load failed ${filePath}: ${e.message}`); }
   return defaultValue;
 }
 
-function loadAllFromDisk() {
+const githubSHAs = {};  // cache SHAs for updates
+
+async function githubSave(filePath, data, message) {
+  try {
+    // Get current SHA if not cached
+    if (!githubSHAs[filePath]) {
+      const res = await githubRequest('GET', filePath);
+      if (res.sha) githubSHAs[filePath] = res.sha;
+    }
+    const content = Buffer.from(JSON.stringify(data, null, 2)).toString('base64');
+    const body = { message, content, branch: GITHUB_BRANCH };
+    if (githubSHAs[filePath]) body.sha = githubSHAs[filePath];
+    const res = await githubRequest('PUT', filePath, body);
+    if (res.content?.sha) githubSHAs[filePath] = res.content.sha;
+    console.log(`💾 GitHub saved: ${filePath}`);
+  } catch (e) { console.log(`⚠️  GitHub save failed ${filePath}: ${e.message}`); }
+}
+
+async function loadAllFromGitHub() {
+  console.log('📡 Carico stato da GitHub...');
+
   // Whale wallets
-  const savedWhales = loadJSON(WHALE_FILE, []);
+  const savedWhales = await githubLoad('data/whale_wallets.json', []);
   savedWhales.forEach(w => whaleWallets.add(w));
-  console.log(`💾 Whale wallets: ${whaleWallets.size} (${savedWhales.length} da disco + seed)`);
+  console.log(`💾 Whale wallets: ${whaleWallets.size} (${savedWhales.length} da GitHub + seed)`);
 
   // Positions history
-  const history = loadJSON(POSITIONS_FILE, { closed: [] });
+  const history = await githubLoad('data/positions_history.json', { closed: [] });
   closedPositions = history.closed || [];
   console.log(`💾 Storico posizioni: ${closedPositions.length} chiuse`);
 
   // Learnings
-  learnings = loadJSON(LEARNINGS_FILE, { recommendation: 'Dati insufficienti — continua a girare.' });
+  learnings = await githubLoad('data/learnings.json', { recommendation: 'Dati insufficienti.' });
   if (learnings.optimalTP) {
     console.log(`🧠 Strategia appresa: TP ${(learnings.optimalTP*100).toFixed(0)}% | SL ${(learnings.optimalSL*100).toFixed(0)}% | da ${closedPositions.length} posizioni`);
   }
 }
 
-function saveWhalesToDisk() {
-  saveJSON(WHALE_FILE, [...whaleWallets]);
+async function saveWhalesToDisk() {
+  await githubSave('data/whale_wallets.json', [...whaleWallets], 'update: whale wallets');
 }
 
-function savePositionsHistory() {
-  saveJSON(POSITIONS_FILE, { closed: closedPositions, lastSaved: new Date().toISOString() });
+async function savePositionsHistory() {
+  await githubSave('data/positions_history.json', { closed: closedPositions, lastSaved: new Date().toISOString() }, 'update: positions history');
 }
 
-function saveLearnings() {
-  saveJSON(LEARNINGS_FILE, learnings);
+async function saveLearnings() {
+  await githubSave('data/learnings.json', learnings, 'update: learnings');
 }
 
 // ─── HTTP HELPERS ─────────────────────────────────────────────────────────────
@@ -146,7 +193,7 @@ async function tryRefreshWhalesFromGMGN() {
           whaleWallets.add(w.wallet_address); added++;
         }
       });
-      if (added > 0) { saveWhalesToDisk(); console.log(`🐳 GMGN: +${added} whale wallets (tot: ${whaleWallets.size})`); }
+      if (added > 0) { saveWhalesToDisk().catch(()=>{}); console.log(`🐳 GMGN: +${added} whale wallets (tot: ${whaleWallets.size})`); }
     }
   } catch (e) { /* GMGN spesso blocca — non critico */ }
 }
@@ -172,7 +219,7 @@ function learnWhalesFromBuyers(buyers, symbol, multiplier) {
     if (!whaleWallets.has(w)) { whaleWallets.add(w); added++; totalWhalesLearned++; }
   }
   if (added > 0) {
-    saveWhalesToDisk();
+    saveWhalesToDisk().catch(()=>{});
     console.log(`🧠 Whale: +${added} wallet da ${symbol} (${multiplier.toFixed(1)}x) — tot: ${whaleWallets.size}`);
   }
 }
@@ -347,7 +394,7 @@ async function closePosition(pairAddress, pos, closePrice, reason) {
   const peakStr = ` (peak: ${pos.peakMultiplier >= 2 ? pos.peakMultiplier.toFixed(1)+'x' : '+'+Math.round((pos.peakMultiplier-1)*100)+'%'})`;
   try { await httpPost(N8N_RESULT, { mint: pos.mint, result: resultStr + peakStr }); } catch {}
 
-  savePositionsHistory();
+  savePositionsHistory().catch(()=>{});
   updateLearnings();
 }
 
@@ -360,7 +407,7 @@ function updateLearnings() {
       recommendation: `Dati insufficienti — servono ancora ${MIN_POSITIONS_LEARN - closed.length} posizioni chiuse.`,
       lastUpdated: new Date().toISOString()
     };
-    saveLearnings();
+    saveLearnings().catch(()=>{});
     return;
   }
 
@@ -490,7 +537,7 @@ function updateLearnings() {
     lastUpdated: new Date().toISOString()
   };
 
-  saveLearnings();
+  saveLearnings().catch(()=>{});
 
   console.log('\n' + '═'.repeat(60));
   console.log('🧠 STRATEGIA AGGIORNATA:');
@@ -727,7 +774,7 @@ async function start() {
   console.log(`   Paper trading: SL -${PAPER_STOP_LOSS_PCT*100}% | Max hold: ${PAPER_MAX_HOLD_MS/3600000}h`);
   console.log(`   Learning: milestone tracking @ ${MILESTONES.map(m => '+'+Math.round(m*100)+'%').join(', ')}`);
 
-  loadAllFromDisk();
+  await loadAllFromGitHub();
 
   // Prima scan
   await scan();
