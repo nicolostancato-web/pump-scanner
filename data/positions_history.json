@@ -203,7 +203,37 @@
       "closeMultiplier": 0.07568455640744798,
       "closedAt": "2026-04-10T17:46:22.742Z",
       "durationMs": 1858950
+    },
+    {
+      "pairAddress": "12nA71V9crSU2i2v9k8ciWYoutHYo7WkuSAAEQpNAf8T",
+      "mint": "7cdrkiEUHp2d9BpUUCc2s7biPoA3AuRv7KRTzC8qpump",
+      "name": "House Of The People",
+      "symbol": "HoTP",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002302,
+      "entryMcap": 230203,
+      "entryTime": 1775843217813,
+      "score": 70,
+      "ageAtEntry": 55,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/12na71v9crsu2i2v9k8ciwyouthyo7wkusaaeqpnaf8t",
+      "peakPrice": 0.0003016,
+      "peakMultiplier": 1.310165073848827,
+      "peakMcap": 301631,
+      "peakTime": 1775844118392,
+      "lastPrice": 0.0001482,
+      "lowestPrice": 0.0001482,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001482,
+      "closeMultiplier": 0.6437880104257168,
+      "closedAt": "2026-04-10T18:36:59.132Z",
+      "durationMs": 3001319
     }
   ],
-  "lastSaved": "2026-04-10T17:46:24.016Z"
+  "lastSaved": "2026-04-10T18:37:00.436Z"
 }
