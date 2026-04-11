@@ -387,7 +387,51 @@
       "closeMultiplier": 0.5978835978835979,
       "closedAt": "2026-04-10T22:55:56.089Z",
       "durationMs": 1559301
+    },
+    {
+      "pairAddress": "8ShofcR7qcK368us7RzNYRwbSyyEouzhiSuLuj2kkoG5",
+      "mint": "GBjRHbuTzJF2qMkemwY9uWhvs8r9uYqL4bxKheEtpump",
+      "name": "TRUESTACY",
+      "symbol": "TRUE",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007855,
+      "entryMcap": 78554,
+      "entryTime": 1775868052962,
+      "score": 66,
+      "ageAtEntry": 14,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8shofcr7qck368us7rznyrwbsyyeouzhisuluj2kkog5",
+      "peakPrice": 0.0005051,
+      "peakMultiplier": 6.430299172501591,
+      "peakMcap": 505169,
+      "peakTime": 1775874411157,
+      "lastPrice": 0.0003746,
+      "lowestPrice": 0.00007855,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2,
+        3,
+        5
+      ],
+      "timesToMilestone": {
+        "1": 957040,
+        "2": 1556950,
+        "3": 4557802,
+        "5": 6358195,
+        "0.5": 657012,
+        "1.5": 1257063
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0003746,
+      "closeMultiplier": 4.768936982813495,
+      "closedAt": "2026-04-11T02:41:51.147Z",
+      "durationMs": 7258185
     }
   ],
-  "lastSaved": "2026-04-10T22:55:57.336Z"
+  "lastSaved": "2026-04-11T02:41:52.197Z"
 }
