@@ -527,7 +527,37 @@
       "closeMultiplier": 0.39302218114602594,
       "closedAt": "2026-04-11T07:25:21.667Z",
       "durationMs": 777079
+    },
+    {
+      "pairAddress": "1HojmJ4JLUiwXz5PxPMAyvaWvk5WZSHGFm1SyQZHTQ2",
+      "mint": "J1iyLMzrc4G4WgDVmm33bes1Xwzd1mTcmvP8gubMpump",
+      "name": "The 5 Chihuahuas",
+      "symbol": "5",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008823,
+      "entryMcap": 88234,
+      "entryTime": 1775892367252,
+      "score": 70,
+      "ageAtEntry": 49,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/1hojmj4jluiwxz5pxpmayvawvk5wzshgfm1syqzhtq2",
+      "peakPrice": 0.000106,
+      "peakMultiplier": 1.2014054176583928,
+      "peakMcap": 106015,
+      "peakTime": 1775892967674,
+      "lastPrice": 0.000002137,
+      "lowestPrice": 0.000002137,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002137,
+      "closeMultiplier": 0.024220786580528165,
+      "closedAt": "2026-04-11T07:46:07.613Z",
+      "durationMs": 1200361
     }
   ],
-  "lastSaved": "2026-04-11T07:25:22.960Z"
+  "lastSaved": "2026-04-11T07:46:08.919Z"
 }
