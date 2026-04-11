@@ -6491,5 +6491,22 @@
     "firstSeen": "2026-04-11T17:21:05.159Z",
     "lastSeen": "2026-04-11T17:21:05.159Z",
     "confirmed": false
+  },
+  "AL8RkHDfz2ABRmbiGGouUJsMEgwJwAcJKfD3e88aWLBu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BABY",
+        "pairAddress": "53UgNjZDC6mXsEDTowHLmKi2Y6jzjH2Ee3ybac7jEQRQ",
+        "entryTime": "2026-04-11T17:23:40.977Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T17:23:40.977Z",
+    "lastSeen": "2026-04-11T17:23:40.977Z",
+    "confirmed": false
   }
 }
