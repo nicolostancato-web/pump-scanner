@@ -603,7 +603,65 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "5UdRPo3h7QkV5Y5jxpHRcnJ5v67h7SDVQb5ZNZ7k61NJ",
+      "mint": "Q9vdkdv9QFLQ9rwA6z31vu61qHCXJpWKHgQASfgXW9M",
+      "name": "NVIDIA",
+      "symbol": "NVIDIA",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005428,
+      "entryMcap": 54281,
+      "entryTime": 1775907222188,
+      "score": 76,
+      "ageAtEntry": 19,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/5udrpo3h7qkv5y5jxphrcnj5v67h7sdvqb5znz7k61nj",
+      "peakPrice": 0.0002693,
+      "peakMultiplier": 4.961311717022844,
+      "peakMcap": 269373,
+      "peakTime": 1775908122618,
+      "lastPrice": 0.000007683,
+      "lowestPrice": 0.000007683,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2,
+        3
+      ],
+      "timesToMilestone": {
+        "1": 300291,
+        "2": 300291,
+        "3": 300291,
+        "0.5": 300291,
+        "1.5": 300291
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000007683,
+      "closeMultiplier": 0.14154384672070744,
+      "closedAt": "2026-04-11T11:58:42.781Z",
+      "durationMs": 1500593,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001055,
+        "closeMultiplier": 1.9436256448047162,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-11T11:43:42.569Z"
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-11T11:33:12.425Z"
+  "lastSaved": "2026-04-11T11:58:44.008Z"
 }
