@@ -1155,7 +1155,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "aun",
@@ -1171,6 +1171,11 @@
         "symbol": "BABY",
         "pairAddress": "53UgNjZDC6mXsEDTowHLmKi2Y6jzjH2Ee3ybac7jEQRQ",
         "entryTime": "2026-04-11T17:18:41.249Z"
+      },
+      {
+        "symbol": "ClawFC",
+        "pairAddress": "BnbuPvQe2TNdhS7CSdsCGS1WY7FYu2kZti9adrqkqpZh",
+        "entryTime": "2026-04-11T18:24:45.312Z"
       }
     ],
     "wins": 0,
@@ -1178,7 +1183,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:06:18.876Z",
-    "lastSeen": "2026-04-11T17:18:41.249Z",
+    "lastSeen": "2026-04-11T18:24:45.312Z",
     "confirmed": true
   },
   "Dwko8VL2sd5EHDJzArCtUUS6gmTnjd1zhoQMVpnPxBL": {
