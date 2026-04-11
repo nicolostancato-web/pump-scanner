@@ -5646,12 +5646,17 @@
     "confirmed": false
   },
   "9tRPLszjoFeGMbk1MThj2wzsHHzmsGTegnastKMobDNv": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BABY",
         "pairAddress": "53UgNjZDC6mXsEDTowHLmKi2Y6jzjH2Ee3ybac7jEQRQ",
         "entryTime": "2026-04-11T17:03:23.560Z"
+      },
+      {
+        "symbol": "ClawFC",
+        "pairAddress": "BnbuPvQe2TNdhS7CSdsCGS1WY7FYu2kZti9adrqkqpZh",
+        "entryTime": "2026-04-11T18:12:20.599Z"
       }
     ],
     "wins": 0,
@@ -5659,7 +5664,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T17:03:23.560Z",
-    "lastSeen": "2026-04-11T17:03:23.560Z",
+    "lastSeen": "2026-04-11T18:12:20.599Z",
     "confirmed": false
   },
   "HbrYF22LxdgGr6HQHkzPYoDejPMAwUu7x1SJkEmHLUk4": {
@@ -8261,6 +8266,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T18:09:48.975Z",
     "lastSeen": "2026-04-11T18:09:48.975Z",
+    "confirmed": false
+  },
+  "71B9CC119KhieqXZwgFQKa78mArEj8HcJahxaM1rgTaU": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ClawFC",
+        "pairAddress": "BnbuPvQe2TNdhS7CSdsCGS1WY7FYu2kZti9adrqkqpZh",
+        "entryTime": "2026-04-11T18:12:20.599Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T18:12:20.599Z",
+    "lastSeen": "2026-04-11T18:12:20.599Z",
     "confirmed": false
   }
 }
