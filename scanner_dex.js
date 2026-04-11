@@ -28,6 +28,11 @@ const GITHUB_TOKEN  = process.env.GITHUB_TOKEN || '';
 const GITHUB_REPO   = 'nicolostancato-web/pump-scanner';
 const GITHUB_BRANCH = 'main';
 
+// ─── X (TWITTER) ANALYTICS ───────────────────────────────────────────────────
+// Impostare X_ENABLED = true quando si vuole attivare l'analisi Twitter
+const X_ENABLED      = false;  // << DISABILITATO — attivare quando pronto
+const X_BEARER_TOKEN = process.env.X_BEARER_TOKEN || '';  // variabile Railway
+
 // ─── SEED WHALE WALLETS ───────────────────────────────────────────────────────
 const SEED_WHALES = [
   'GBNrXSjBgHSBMJCFrBkFG7JTacFP5L8HHsXkGVzk4faS',
@@ -548,6 +553,114 @@ function updateLearnings() {
   console.log('═'.repeat(60) + '\n');
 }
 
+// ─── X (TWITTER) ANALYTICS ──────────────────────────────────────────────────
+// Analizza il profilo Twitter di un token prima di mandare l'alert.
+// DISABILITATO — attivare impostando X_ENABLED = true e aggiungendo X_BEARER_TOKEN su Railway.
+async function analyzeTwitter(twitterUrl) {
+  if (!X_ENABLED || !X_BEARER_TOKEN || !twitterUrl) return null;
+
+  try {
+    // Estrai username dall'URL
+    const username = twitterUrl.replace(/.*twitter\.com\//,'').replace(/.*x\.com\//,'').replace(/\?.*/,'').replace(/\/.*/,'').trim();
+    if (!username) return null;
+
+    // 1. Cerca dati utente
+    const userRes = await new Promise((resolve, reject) => {
+      const req = https.request({
+        hostname: 'api.twitter.com',
+        path: `/2/users/by/username/${username}?user.fields=created_at,public_metrics,description`,
+        method: 'GET',
+        headers: {
+          'Authorization': `Bearer ${X_BEARER_TOKEN}`,
+          'User-Agent': 'dex-scanner'
+        }
+      }, (res) => {
+        let data = '';
+        res.on('data', c => data += c);
+        res.on('end', () => { try { resolve(JSON.parse(data)); } catch { resolve({}); } });
+      });
+      req.on('error', reject);
+      req.setTimeout(8000, () => { req.destroy(); reject(new Error('X timeout')); });
+      req.end();
+    });
+
+    const user = userRes?.data;
+    if (!user) return null;
+
+    const followers    = user.public_metrics?.followers_count || 0;
+    const tweetCount   = user.public_metrics?.tweet_count || 0;
+    const createdAt    = user.created_at ? new Date(user.created_at) : null;
+    const accountAgeDays = createdAt ? Math.floor((Date.now() - createdAt.getTime()) / 86400000) : 0;
+
+    // 2. Cerca tweet recenti sul token (ultime 24h)
+    const since = new Date(Date.now() - 24*60*60*1000).toISOString();
+    const searchRes = await new Promise((resolve, reject) => {
+      const query = encodeURIComponent(`@${username} OR $${username} -is:retweet`);
+      const req = https.request({
+        hostname: 'api.twitter.com',
+        path: `/2/tweets/search/recent?query=${query}&max_results=10&start_time=${since}&tweet.fields=public_metrics`,
+        method: 'GET',
+        headers: {
+          'Authorization': `Bearer ${X_BEARER_TOKEN}`,
+          'User-Agent': 'dex-scanner'
+        }
+      }, (res) => {
+        let data = '';
+        res.on('data', c => data += c);
+        res.on('end', () => { try { resolve(JSON.parse(data)); } catch { resolve({}); } });
+      });
+      req.on('error', reject);
+      req.setTimeout(8000, () => { req.destroy(); reject(new Error('X search timeout')); });
+      req.end();
+    });
+
+    const recentTweets  = searchRes?.data?.length || 0;
+    const totalLikes    = (searchRes?.data || []).reduce((s, t) => s + (t.public_metrics?.like_count || 0), 0);
+    const totalRetweets = (searchRes?.data || []).reduce((s, t) => s + (t.public_metrics?.retweet_count || 0), 0);
+
+    return {
+      username,
+      followers,
+      tweetCount,
+      accountAgeDays,
+      recentTweets24h: recentTweets,
+      totalLikes24h:   totalLikes,
+      totalRetweets24h: totalRetweets
+    };
+  } catch (e) {
+    console.log(`⚠️ X analytics failed: ${e.message}`);
+    return null;
+  }
+}
+
+// Calcola bonus/penalità score da dati Twitter
+function scoreFromTwitter(xData) {
+  if (!xData) return { bonus: 0, reasons: [] };
+  const reasons = [];
+  let bonus = 0;
+
+  // Follower
+  if (xData.followers >= 5000)      { bonus += 15; reasons.push(`🐦 X: ${xData.followers.toLocaleString()} followers (+15)`); }
+  else if (xData.followers >= 1000) { bonus += 10; reasons.push(`🐦 X: ${xData.followers.toLocaleString()} followers (+10)`); }
+  else if (xData.followers >= 200)  { bonus += 5;  reasons.push(`🐦 X: ${xData.followers.toLocaleString()} followers (+5)`); }
+  else if (xData.followers < 50)    { bonus -= 10; reasons.push(`🐦 X: solo ${xData.followers} followers (-10)`); }
+
+  // Età account
+  if (xData.accountAgeDays >= 180)    { bonus += 10; reasons.push(`📅 X account ${xData.accountAgeDays}gg (+10)`); }
+  else if (xData.accountAgeDays >= 30) { bonus += 5;  reasons.push(`📅 X account ${xData.accountAgeDays}gg (+5)`); }
+  else if (xData.accountAgeDays < 7)  { bonus -= 15; reasons.push(`📅 X account nuovo ${xData.accountAgeDays}gg (-15)`); }
+
+  // Attività recente (24h)
+  if (xData.recentTweets24h >= 10)    { bonus += 10; reasons.push(`🔥 X: ${xData.recentTweets24h} tweet 24h (+10)`); }
+  else if (xData.recentTweets24h >= 3) { bonus += 5;  reasons.push(`📢 X: ${xData.recentTweets24h} tweet 24h (+5)`); }
+
+  // Engagement
+  if (xData.totalLikes24h >= 100)    { bonus += 5; reasons.push(`❤️ X: ${xData.totalLikes24h} like 24h (+5)`); }
+  if (xData.totalRetweets24h >= 20)  { bonus += 5; reasons.push(`🔁 X: ${xData.totalRetweets24h} RT 24h (+5)`); }
+
+  return { bonus, reasons };
+}
+
 // ─── SCORING ──────────────────────────────────────────────────────────────────
 function scoreToken(pair, whaleWallet) {
   let score = 0;
@@ -615,6 +728,17 @@ async function sendAlert(pair, score, reasons, whaleWallet) {
   const telegram = socials.find(s => s.type === 'telegram')?.url || '';
   const website  = pair.info?.websites?.[0]?.url || '';
   const mint     = pair.baseToken?.address || '';
+
+  // X Analytics (solo se abilitato)
+  if (X_ENABLED && twitter) {
+    const xData = await analyzeTwitter(twitter);
+    if (xData) {
+      const { bonus, reasons: xReasons } = scoreFromTwitter(xData);
+      score += bonus;
+      reasons.push(...xReasons);
+      console.log(`🐦 X: @${xData.username} | ${xData.followers} followers | ${xData.accountAgeDays}gg | ${xData.recentTweets24h} tweet/24h | bonus: ${bonus > 0 ? '+' : ''}${bonus}`);
+    }
+  }
 
   // Aggiungi info strategia all'alert
   let strategyNote = '';
@@ -790,4 +914,5 @@ async function start() {
 }
 
 start();
+
 
