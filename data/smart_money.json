@@ -1171,5 +1171,22 @@
     "firstSeen": "2026-04-11T15:06:53.062Z",
     "lastSeen": "2026-04-11T15:06:53.062Z",
     "confirmed": false
+  },
+  "FpKWFiE3hiRDBjRavkZLoa1fz1DwoQDtkuRAb3Hzqv2y": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "aun",
+        "pairAddress": "BRATbBL2wQNtYnm3p2Ybwb4RxqNCccNCPpFJZyae4YFA",
+        "entryTime": "2026-04-11T15:07:23.186Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T15:07:23.186Z",
+    "lastSeen": "2026-04-11T15:07:23.186Z",
+    "confirmed": false
   }
 }
