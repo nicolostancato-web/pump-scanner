@@ -1087,7 +1087,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "nugget",
@@ -1108,6 +1108,11 @@
         "symbol": "Ivunka",
         "pairAddress": "AHBtpXJ7csokwSXddEDxPFYHcA515g234kXTBMhAVRxe",
         "entryTime": "2026-04-11T19:45:42.064Z"
+      },
+      {
+        "symbol": "NEGRON",
+        "pairAddress": "2rXfTt3Xh699TtAUruiz6Vs7vdTrsn55bEm2FKt9y8yE",
+        "entryTime": "2026-04-11T21:26:26.993Z"
       }
     ],
     "wins": 0,
@@ -1115,7 +1120,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:04:47.623Z",
-    "lastSeen": "2026-04-11T19:45:42.064Z",
+    "lastSeen": "2026-04-11T21:26:26.993Z",
     "confirmed": true
   },
   "9f4iYKT1LyHZ6ewcDDrPQ6T4HwymWye5G4RyqKFXVSn8": {
@@ -17307,6 +17312,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T21:25:58.732Z",
     "lastSeen": "2026-04-11T21:25:58.732Z",
+    "confirmed": false
+  },
+  "8x1HUkdVcWmKV7ZSSqwGJDa6RXXTidUHraJjm8GuWvER": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "NEGRON",
+        "pairAddress": "2rXfTt3Xh699TtAUruiz6Vs7vdTrsn55bEm2FKt9y8yE",
+        "entryTime": "2026-04-11T21:26:26.993Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T21:26:26.993Z",
+    "lastSeen": "2026-04-11T21:26:26.993Z",
     "confirmed": false
   }
 }
