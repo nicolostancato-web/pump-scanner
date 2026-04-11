@@ -264,13 +264,41 @@ function openPosition(pair, score, whaleWallet, buyers) {
     closePrice:    null,
     closeMultiplier: null,
     closedAt:      null,
-    durationMs:    null
+    durationMs:    null,
+    // X (Twitter) data — populated async after open
+    xFollowers:    null,
+    xAgeDays:      null,
+    xTweets24h:    null,
+    xLikes24h:     null,
+    xRetweets24h:  null,
+    xScore:        null,
+    xSignal:       null
   };
 
   openPositions.set(pairAddress, pos);
   console.log(`📂 Posizione aperta: ${pos.symbol} @ $${entryPrice.toExponential(3)} | score: ${score}${whaleWallet ? ' 🐳' : ''}`);
-  // Notifica apertura posizione al Positions tab
-  sendPositionUpdate(pos, pos.entryMcap, '🟡 OPEN').catch(() => {});
+
+  // Fetch X data in background (non blocca l'apertura)
+  const twitterUrl = pair.info?.socials?.find(s => s.type === 'twitter')?.url || '';
+  if (twitterUrl && X_BEARER_TOKEN) {
+    analyzeTwitter(twitterUrl).then(xData => {
+      if (!xData) return;
+      pos.xFollowers   = xData.followers;
+      pos.xAgeDays     = xData.accountAgeDays;
+      pos.xTweets24h   = xData.recentTweets24h;
+      pos.xLikes24h    = xData.totalLikes24h;
+      pos.xRetweets24h = xData.totalRetweets24h;
+      const { bonus } = scoreFromTwitter(xData);
+      pos.xScore  = bonus;
+      pos.xSignal = bonus >= 10 ? '🟢 Strong' : bonus >= 0 ? '🟡 Weak' : '🔴 Red Flag';
+      console.log(`🐦 X @${xData.username}: ${xData.followers} followers | ${xData.accountAgeDays}gg | signal: ${pos.xSignal}`);
+      // Aggiorna Positions tab con dati X
+      sendPositionUpdate(pos, pos.entryMcap, '🟡 OPEN').catch(() => {});
+    }).catch(() => {});
+  } else {
+    // Notifica apertura senza dati X
+    sendPositionUpdate(pos, pos.entryMcap, '🟡 OPEN').catch(() => {});
+  }
 }
 
 // ─── PAPER TRADING: CHECK POSITIONS ──────────────────────────────────────────
@@ -351,7 +379,13 @@ async function sendPositionUpdate(pos, currentMcap, status) {
       'Duration min':   Math.round((Date.now() - pos.entryTime) / 60000),
       'TP Suggested':   learnings.optimalTP ? `+${Math.round(learnings.optimalTP*100)}%` : 'learning...',
       'SL Suggested':   learnings.optimalSL ? `-${Math.round(learnings.optimalSL*100)}%` : 'learning...',
-      'Link':           pos.pairUrl || `https://dexscreener.com/solana/${pos.mint}`
+      'Link':           pos.pairUrl || `https://dexscreener.com/solana/${pos.mint}`,
+      'X Followers':    pos.xFollowers !== null ? pos.xFollowers : '',
+      'X Age Days':     pos.xAgeDays   !== null ? pos.xAgeDays   : '',
+      'X Tweets 24h':   pos.xTweets24h !== null ? pos.xTweets24h : '',
+      'X Likes 24h':    pos.xLikes24h  !== null ? pos.xLikes24h  : '',
+      'X Score':        pos.xScore     !== null ? pos.xScore     : '',
+      'X Signal':       pos.xSignal    || ''
     });
     console.log(`📡 Tracker: ${pos.symbol} → ${status}`);
   } catch (e) { console.log(`⚠️ Tracker failed: ${pos.symbol} ${e.message}`); }
@@ -557,7 +591,8 @@ function updateLearnings() {
 // Analizza il profilo Twitter di un token prima di mandare l'alert.
 // DISABILITATO — attivare impostando X_ENABLED = true e aggiungendo X_BEARER_TOKEN su Railway.
 async function analyzeTwitter(twitterUrl) {
-  if (!X_ENABLED || !X_BEARER_TOKEN || !twitterUrl) return null;
+  // Raccolta dati sempre attiva; X_ENABLED controlla solo l'influenza sullo score
+  if (!X_BEARER_TOKEN || !twitterUrl) return null;
 
   try {
     // Estrai username dall'URL
