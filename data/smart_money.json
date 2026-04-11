@@ -1594,12 +1594,17 @@
     "confirmed": false
   },
   "FuksXcZdAAdM8DsF1CLbd39BYriYeqxSDfGyH9hkXg6Y": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "nugget",
         "pairAddress": "E3Z3Hiumq2qNj753GroWL57WeoM6qBVJFhzxy4JMwUJ9",
         "entryTime": "2026-04-11T15:13:12.476Z"
+      },
+      {
+        "symbol": "TRUMP47",
+        "pairAddress": "EgcA2ShdHZK4Sg7N6H7yGzTjxpTpunRrbzw231wLWeDh",
+        "entryTime": "2026-04-11T23:18:08.292Z"
       }
     ],
     "wins": 0,
@@ -1607,7 +1612,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:13:12.476Z",
-    "lastSeen": "2026-04-11T15:13:12.476Z",
+    "lastSeen": "2026-04-11T23:18:08.292Z",
     "confirmed": false
   },
   "HZBmjtgG8MDownvB9wTLTRN2stjozUBwDaBUhUpybvrm": {
@@ -22714,6 +22719,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:17:34.730Z",
     "lastSeen": "2026-04-11T23:17:34.730Z",
+    "confirmed": false
+  },
+  "9s9KLUGNA3PH7AXP9SBaj3TFT6RVomHbjqZzuqQUzyrw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRUMP47",
+        "pairAddress": "EgcA2ShdHZK4Sg7N6H7yGzTjxpTpunRrbzw231wLWeDh",
+        "entryTime": "2026-04-11T23:18:08.292Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T23:18:08.292Z",
+    "lastSeen": "2026-04-11T23:18:08.292Z",
     "confirmed": false
   }
 }
