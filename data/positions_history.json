@@ -431,7 +431,43 @@
       "closeMultiplier": 4.768936982813495,
       "closedAt": "2026-04-11T02:41:51.147Z",
       "durationMs": 7258185
+    },
+    {
+      "pairAddress": "G2GWEuB5ZA6p2qFxx4i4VViApW5P7aLrYJUv2vdgR5jm",
+      "mint": "5NmLAtsnwiZZbidywsSZYbZS3GtsoAEfa9HNHjGspump",
+      "name": "Pandacoin",
+      "symbol": "PND",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008868,
+      "entryMcap": 88682,
+      "entryTime": 1775879212776,
+      "score": 76,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/g2gweub5za6p2qfxx4i4vviapw5p7alryjuv2vdgr5jm",
+      "peakPrice": 0.0001949,
+      "peakMultiplier": 2.197789806044204,
+      "peakMcap": 194909,
+      "peakTime": 1775880770687,
+      "lastPrice": 0.00004313,
+      "lowestPrice": 0.00004313,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 1258013,
+        "0.5": 1258013
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00004313,
+      "closeMultiplier": 0.4863554352728913,
+      "closedAt": "2026-04-11T04:37:51.030Z",
+      "durationMs": 3058254
     }
   ],
-  "lastSaved": "2026-04-11T02:41:52.197Z"
+  "lastSaved": "2026-04-11T04:37:52.298Z"
 }
