@@ -7635,5 +7635,22 @@
     "firstSeen": "2026-04-11T17:55:28.753Z",
     "lastSeen": "2026-04-11T17:55:28.753Z",
     "confirmed": false
+  },
+  "7GJgcB5MjY3AYVK8YqBvwneTHsEA1jNz5ffrxPu2MypB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CATFISH",
+        "pairAddress": "CyuFdY5eSuKr24LvqYQi4XVYyQoYw36YsT2zU92RK2gd",
+        "entryTime": "2026-04-11T17:55:56.571Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T17:55:56.571Z",
+    "lastSeen": "2026-04-11T17:55:56.571Z",
+    "confirmed": false
   }
 }
