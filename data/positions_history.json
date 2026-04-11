@@ -467,7 +467,37 @@
       "closeMultiplier": 0.4863554352728913,
       "closedAt": "2026-04-11T04:37:51.030Z",
       "durationMs": 3058254
+    },
+    {
+      "pairAddress": "8MXBusCkTmgLUNgw8TdMw5fbiBjDAsxA6QzgXjuaz31C",
+      "mint": "HuFS48c8qdjJS1TxGEiQAJ1sfyKzLP4JR9z3wnESpump",
+      "name": "NAILONG",
+      "symbol": "NAILONG",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007002,
+      "entryMcap": 70020,
+      "entryTime": 1775888391725,
+      "score": 76,
+      "ageAtEntry": 10,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8mxbuscktmglungw8tdmw5fbibjdasxa6qzgxjuaz31c",
+      "peakPrice": 0.00008673,
+      "peakMultiplier": 1.2386461011139676,
+      "peakMcap": 86736,
+      "peakTime": 1775888688927,
+      "lastPrice": 0.000007626,
+      "lowestPrice": 0.000007626,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000007626,
+      "closeMultiplier": 0.10891173950299915,
+      "closedAt": "2026-04-11T06:29:49.247Z",
+      "durationMs": 597522
     }
   ],
-  "lastSaved": "2026-04-11T04:37:52.298Z"
+  "lastSaved": "2026-04-11T06:29:50.508Z"
 }
