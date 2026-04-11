@@ -1528,5 +1528,22 @@
     "firstSeen": "2026-04-11T15:13:42.268Z",
     "lastSeen": "2026-04-11T15:13:42.268Z",
     "confirmed": false
+  },
+  "DvPSzH7JJivKb6hnKyBFgQmMBv4Szjv1vT5KyZWjD7wg": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "nugget",
+        "pairAddress": "E3Z3Hiumq2qNj753GroWL57WeoM6qBVJFhzxy4JMwUJ9",
+        "entryTime": "2026-04-11T15:14:12.643Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T15:14:12.643Z",
+    "lastSeen": "2026-04-11T15:14:12.643Z",
+    "confirmed": false
   }
 }
