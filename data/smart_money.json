@@ -904,7 +904,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "aun",
@@ -930,6 +930,11 @@
         "symbol": "CATFISH",
         "pairAddress": "CyuFdY5eSuKr24LvqYQi4XVYyQoYw36YsT2zU92RK2gd",
         "entryTime": "2026-04-11T18:07:02.432Z"
+      },
+      {
+        "symbol": "Catfish",
+        "pairAddress": "HGSXmEdvHhnvd6YUagXLUtVsEvN2G4dJ9n7d6EtfiqzN",
+        "entryTime": "2026-04-11T18:33:38.084Z"
       }
     ],
     "wins": 0,
@@ -937,7 +942,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:02:46.690Z",
-    "lastSeen": "2026-04-11T18:07:02.432Z",
+    "lastSeen": "2026-04-11T18:33:38.084Z",
     "confirmed": true
   },
   "AzprTqY4pCaeZ5osdeMMg5CyCTeEoe2HjdT1ftxGsG3b": {
@@ -8889,6 +8894,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T18:33:07.145Z",
     "lastSeen": "2026-04-11T18:33:07.145Z",
+    "confirmed": false
+  },
+  "AXj7M4tREMs4Gz6i7vawCHqqRcA7Jtvgz8uC3Ac661xq": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Catfish",
+        "pairAddress": "HGSXmEdvHhnvd6YUagXLUtVsEvN2G4dJ9n7d6EtfiqzN",
+        "entryTime": "2026-04-11T18:33:38.084Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T18:33:38.084Z",
+    "lastSeen": "2026-04-11T18:33:38.084Z",
     "confirmed": false
   }
 }
