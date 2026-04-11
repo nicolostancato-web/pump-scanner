@@ -23,6 +23,11 @@ const CHECK_POSITIONS_MS   = 5 * 60 * 1000;   // controlla posizioni ogni 5 min
 const MILESTONES           = [0.5, 1.0, 1.5, 2.0, 3.0, 5.0]; // +50%, +100%...
 const MIN_POSITIONS_LEARN  = 5;               // posizioni minime per calcolare strategia
 
+// ─── V2: TRAILING STOP SIMULATION (parallelo a V1, non modifica V1) ──────────
+// V2 chiude quando il prezzo scende del 50% dal peak — mai prima.
+// V1 rimane invariata: SL -30% dall'entrata, max hold 2h.
+const V2_TRAILING_STOP_PCT = 0.50;  // trailing stop -50% dal peak
+
 // ─── GITHUB PERSISTENCE ──────────────────────────────────────────────────────
 const GITHUB_TOKEN  = process.env.GITHUB_TOKEN || '';
 const GITHUB_REPO   = 'nicolostancato-web/pump-scanner';
@@ -351,6 +356,14 @@ function openPosition(pair, score, whaleWallet, buyers) {
     // Smart Money
     smartMoneyDetected: false,
     smartMoneyWallet:   null,
+    // V2: trailing stop simulato in parallelo a V1
+    v2: {
+      active:          true,   // false quando V2 ha chiuso
+      closePrice:      null,
+      closeMultiplier: null,
+      closeReason:     null,
+      closedAt:        null
+    },
     // X (Twitter) data — populated async after open
     xFollowers:    null,
     xAgeDays:      null,
@@ -415,6 +428,20 @@ async function checkOpenPositions() {
       if (currentPrice < pos.lowestPrice) pos.lowestPrice = currentPrice;
       pos.lastPrice = currentPrice;
 
+      // ── V2: trailing stop -50% dal peak (check solo se peak > entrata)
+      if (pos.v2.active && pos.peakMultiplier > 1.0) {
+        const trailingStopPrice = pos.peakPrice * (1 - V2_TRAILING_STOP_PCT);
+        if (currentPrice <= trailingStopPrice) {
+          pos.v2.active          = false;
+          pos.v2.closePrice      = currentPrice;
+          pos.v2.closeMultiplier = currentPrice / pos.entryPrice;
+          pos.v2.closeReason     = 'trailing_stop';
+          pos.v2.closedAt        = new Date().toISOString();
+          const v2g = (pos.v2.closeMultiplier - 1) * 100;
+          console.log(`  🔵 V2 trailing stop: ${pos.symbol} → ${v2g >= 0 ? '+' : ''}${v2g.toFixed(1)}% (peak was ${pos.peakMultiplier.toFixed(2)}x)`);
+        }
+      }
+
       // Traccia milestones raggiunte
       for (const m of MILESTONES) {
         const key = m.toString();
@@ -472,7 +499,14 @@ async function sendPositionUpdate(pos, currentMcap, status) {
       'X Tweets 24h':   pos.xTweets24h !== null ? pos.xTweets24h : '',
       'X Likes 24h':    pos.xLikes24h  !== null ? pos.xLikes24h  : '',
       'X Score':        pos.xScore     !== null ? pos.xScore     : '',
-      'X Signal':       pos.xSignal    || ''
+      'X Signal':       pos.xSignal    || '',
+      // V2 trailing stop simulation
+      'V2 Result':      pos.v2 && pos.v2.closeMultiplier !== null
+                          ? ((pos.v2.closeMultiplier >= 1 ? '🟢 +' : '🔴 -') + Math.abs((pos.v2.closeMultiplier - 1) * 100).toFixed(0) + '%')
+                          : (pos.v2 && pos.v2.active ? '🔵 Running' : ''),
+      'V2 vs V1':       (pos.v2 && pos.v2.closeMultiplier !== null && pos.closeMultiplier !== null)
+                          ? ((pos.v2.closeMultiplier - pos.closeMultiplier) * 100 >= 0 ? '+' : '') + ((pos.v2.closeMultiplier - pos.closeMultiplier) * 100).toFixed(0) + '%'
+                          : ''
     });
     console.log(`📡 Tracker: ${pos.symbol} → ${status}`);
   } catch (e) { console.log(`⚠️ Tracker failed: ${pos.symbol} ${e.message}`); }
@@ -489,6 +523,15 @@ async function closePosition(pairAddress, pos, closePrice, reason) {
   pos.closedAt        = new Date().toISOString();
   pos.durationMs      = durationMs;
 
+  // ── V2: se ancora aperta, chiudila allo stesso prezzo di V1
+  if (pos.v2.active) {
+    pos.v2.active          = false;
+    pos.v2.closePrice      = closePrice;
+    pos.v2.closeMultiplier = closeMultiplier;
+    pos.v2.closeReason     = reason;
+    pos.v2.closedAt        = new Date().toISOString();
+  }
+
   openPositions.delete(pairAddress);
   closedPositions.push({ ...pos, buyers: pos.buyers.length });
 
@@ -501,6 +544,17 @@ async function closePosition(pairAddress, pos, closePrice, reason) {
   const emoji  = closeMultiplier >= 1.5 ? '🟢' : closeMultiplier >= 1 ? '🟡' : '🔴';
   const peakG  = (pos.peakMultiplier - 1) * 100;
   console.log(`${emoji} CHIUSA: ${pos.symbol} | ${gain >= 0 ? '+' : ''}${gain.toFixed(1)}% (${closeMultiplier.toFixed(2)}x) | peak: +${peakG.toFixed(1)}% | motivo: ${reason} | durata: ${Math.round(durationMs/60000)} min`);
+  // ── V1 vs V2 comparison log
+  {
+    const v2cm  = pos.v2.closeMultiplier;
+    const v1g   = (closeMultiplier - 1) * 100;
+    const v2g   = (v2cm - 1) * 100;
+    const delta = v2g - v1g;
+    const v1e   = closeMultiplier >= 1 ? '🟢' : '🔴';
+    const v2e   = v2cm >= 1 ? '🟢' : '🔴';
+    const de    = delta >= 0 ? '▲' : '▼';
+    console.log(`  📊 V1 vs V2: ${v1e} V1 ${v1g >= 0?'+':''}${v1g.toFixed(1)}% | ${v2e} V2 ${v2g >= 0?'+':''}${v2g.toFixed(1)}% | ${de} Δ ${delta >= 0?'+':''}${delta.toFixed(1)}%`);
+  }
 
   // Smart Money: aggiorna performance
   updateSmartMoneyPerformance(pos.buyers && pos.buyers.length > 0 ? pos.buyers : [], pos.peakMultiplier, closeMultiplier);
