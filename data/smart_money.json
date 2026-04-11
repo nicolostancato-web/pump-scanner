@@ -1110,12 +1110,17 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "aun",
         "pairAddress": "BRATbBL2wQNtYnm3p2Ybwb4RxqNCccNCPpFJZyae4YFA",
         "entryTime": "2026-04-11T15:06:18.876Z"
+      },
+      {
+        "symbol": "nugget",
+        "pairAddress": "E3Z3Hiumq2qNj753GroWL57WeoM6qBVJFhzxy4JMwUJ9",
+        "entryTime": "2026-04-11T15:21:01.183Z"
       }
     ],
     "wins": 0,
@@ -1123,7 +1128,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:06:18.876Z",
-    "lastSeen": "2026-04-11T15:06:18.876Z",
+    "lastSeen": "2026-04-11T15:21:01.183Z",
     "confirmed": false
   },
   "Dwko8VL2sd5EHDJzArCtUUS6gmTnjd1zhoQMVpnPxBL": {
