@@ -234,45 +234,70 @@ async function tryRefreshWhalesFromGMGN() {
 }
 
 // ─── WHALE HELPERS ────────────────────────────────────────────────────────────
+// Solana public RPC — estrae i signer delle ultime N transazioni sul pair
 async function getBuyersForPair(pairAddress) {
   try {
-    // DexScreener trades endpoint — prova strutture diverse
-    const data = await httpGet(`https://api.dexscreener.com/latest/dex/trades/${pairAddress}`);
+    // Step 1: prendi le ultime firme di transazione
+    const sigsRes = await new Promise((resolve, reject) => {
+      const body = JSON.stringify({
+        jsonrpc: '2.0', id: 1,
+        method: 'getSignaturesForAddress',
+        params: [pairAddress, { limit: MAX_TRADES_CHECK }]
+      });
+      const req = https.request({
+        hostname: 'api.mainnet-beta.solana.com',
+        path: '/', method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) }
+      }, (res) => {
+        let d = '';
+        res.on('data', c => d += c);
+        res.on('end', () => { try { resolve(JSON.parse(d)); } catch { resolve({}); } });
+      });
+      req.on('error', reject);
+      req.setTimeout(8000, () => { req.destroy(); reject(new Error('RPC timeout')); });
+      req.write(body); req.end();
+    });
 
-    // Struttura 1: { trades: [...] }
-    let trades = data?.trades;
-    // Struttura 2: array diretto
-    if (!Array.isArray(trades)) trades = Array.isArray(data) ? data : null;
-    // Struttura 3: { data: { trades: [...] } }
-    if (!trades) trades = data?.data?.trades;
+    const sigs = (sigsRes?.result || []).filter(s => !s.err).slice(0, 20).map(s => s.signature);
+    if (sigs.length === 0) return [];
 
-    if (!Array.isArray(trades) || trades.length === 0) {
-      // Fallback: estrai wallets dai txns del pairs endpoint
-      const pairData = await httpGet(`https://api.dexscreener.com/latest/dex/pairs/solana/${pairAddress}`);
-      const pair = pairData?.pairs?.[0];
-      const txns = pair?.txns;
-      if (!txns) return [];
-      // txns ha solo conteggi, non wallets — restituiamo [] ma logghiamo per debug
-      console.log(`  ⚠️ buyers: trades API vuota per ${pairAddress.slice(0,8)}... (struttura: ${JSON.stringify(Object.keys(data||{})).slice(0,60)})`);
-      return [];
+    // Step 2: per ogni firma, estrai il primo signer (= il buyer/seller)
+    // Usiamo getTransaction in batch per efficienza (max 5 alla volta)
+    const buyers = new Set();
+    const batch = sigs.slice(0, 10); // max 10 tx per non bloccare
+    for (const sig of batch) {
+      try {
+        const txRes = await new Promise((resolve, reject) => {
+          const body = JSON.stringify({
+            jsonrpc: '2.0', id: 1,
+            method: 'getTransaction',
+            params: [sig, { encoding: 'jsonParsed', maxSupportedTransactionVersion: 0 }]
+          });
+          const req = https.request({
+            hostname: 'api.mainnet-beta.solana.com',
+            path: '/', method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) }
+          }, (res) => {
+            let d = '';
+            res.on('data', c => d += c);
+            res.on('end', () => { try { resolve(JSON.parse(d)); } catch { resolve({}); } });
+          });
+          req.on('error', reject);
+          req.setTimeout(6000, () => { req.destroy(); reject(new Error('tx timeout')); });
+          req.write(body); req.end();
+        });
+        const accountKeys = txRes?.result?.transaction?.message?.accountKeys || [];
+        // Il primo signer è il fee payer / buyer
+        const signer = accountKeys.find(a => a.signer === true || a.signer === 'true');
+        if (signer?.pubkey) buyers.add(signer.pubkey);
+      } catch { /* skip questa tx */ }
     }
 
-    const buyers = trades
-      .slice(0, MAX_TRADES_CHECK)
-      .filter(t => {
-        // Accetta sia 'buy' che tipi numerici o booleani
-        const isBuy = t.type === 'buy' || t.isBuy === true || t.side === 'buy';
-        const wallet = t.maker || t.walletAddress || t.wallet || t.from;
-        return isBuy && wallet;
-      })
-      .map(t => t.maker || t.walletAddress || t.wallet || t.from);
-
-    if (buyers.length > 0) {
-      console.log(`  👥 buyers: ${buyers.length} trovati per ${pairAddress.slice(0,8)}...`);
-    }
-    return [...new Set(buyers)];  // dedup
+    const result = [...buyers];
+    if (result.length > 0) console.log(`  👥 buyers: ${result.length} wallet da Solana RPC`);
+    return result;
   } catch (e) {
-    console.log(`  ⚠️ getBuyersForPair error: ${e.message}`);
+    console.log(`  ⚠️ getBuyersForPair: ${e.message}`);
     return [];
   }
 }
