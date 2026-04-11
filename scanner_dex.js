@@ -28,6 +28,11 @@ const MIN_POSITIONS_LEARN  = 5;               // posizioni minime per calcolare 
 // V1 rimane invariata: SL -30% dall'entrata, max hold 2h.
 const V2_TRAILING_STOP_PCT = 0.50;  // trailing stop -50% dal peak
 
+// ─── V3: TRAILING STOP + FILTRO ETÀ TOKEN ≤ 15 MIN ──────────────────────────
+// V3 = identica a V2 ma simula di NON aver preso token con età > 15 min
+const V3_MAX_AGE_MIN       = 15;   // filtro duro: solo token < 15 min all'entry
+const V3_TRAILING_STOP_PCT = 0.50; // stesso trailing di V2
+
 // ─── GITHUB PERSISTENCE ──────────────────────────────────────────────────────
 const GITHUB_TOKEN  = process.env.GITHUB_TOKEN || '';
 const GITHUB_REPO   = 'nicolostancato-web/pump-scanner';
@@ -231,11 +236,45 @@ async function tryRefreshWhalesFromGMGN() {
 // ─── WHALE HELPERS ────────────────────────────────────────────────────────────
 async function getBuyersForPair(pairAddress) {
   try {
+    // DexScreener trades endpoint — prova strutture diverse
     const data = await httpGet(`https://api.dexscreener.com/latest/dex/trades/${pairAddress}`);
-    const trades = data?.trades || data;
-    if (!Array.isArray(trades)) return [];
-    return trades.slice(0, MAX_TRADES_CHECK).filter(t => t.type === 'buy' && t.maker).map(t => t.maker);
-  } catch { return []; }
+
+    // Struttura 1: { trades: [...] }
+    let trades = data?.trades;
+    // Struttura 2: array diretto
+    if (!Array.isArray(trades)) trades = Array.isArray(data) ? data : null;
+    // Struttura 3: { data: { trades: [...] } }
+    if (!trades) trades = data?.data?.trades;
+
+    if (!Array.isArray(trades) || trades.length === 0) {
+      // Fallback: estrai wallets dai txns del pairs endpoint
+      const pairData = await httpGet(`https://api.dexscreener.com/latest/dex/pairs/solana/${pairAddress}`);
+      const pair = pairData?.pairs?.[0];
+      const txns = pair?.txns;
+      if (!txns) return [];
+      // txns ha solo conteggi, non wallets — restituiamo [] ma logghiamo per debug
+      console.log(`  ⚠️ buyers: trades API vuota per ${pairAddress.slice(0,8)}... (struttura: ${JSON.stringify(Object.keys(data||{})).slice(0,60)})`);
+      return [];
+    }
+
+    const buyers = trades
+      .slice(0, MAX_TRADES_CHECK)
+      .filter(t => {
+        // Accetta sia 'buy' che tipi numerici o booleani
+        const isBuy = t.type === 'buy' || t.isBuy === true || t.side === 'buy';
+        const wallet = t.maker || t.walletAddress || t.wallet || t.from;
+        return isBuy && wallet;
+      })
+      .map(t => t.maker || t.walletAddress || t.wallet || t.from);
+
+    if (buyers.length > 0) {
+      console.log(`  👥 buyers: ${buyers.length} trovati per ${pairAddress.slice(0,8)}...`);
+    }
+    return [...new Set(buyers)];  // dedup
+  } catch (e) {
+    console.log(`  ⚠️ getBuyersForPair error: ${e.message}`);
+    return [];
+  }
 }
 
 function checkWhaleInBuyers(buyers) {
@@ -364,6 +403,16 @@ function openPosition(pair, score, whaleWallet, buyers) {
       closeReason:     null,
       closedAt:        null
     },
+    // V3: trailing stop identico a V2, ma SOLO se token età <= 15 min all'entry
+    // Se età > 15 min → V3 skipped (simula filtro duro)
+    v3: {
+      eligible:        (pair.ageMinutes || 0) <= V3_MAX_AGE_MIN,  // questo trade sarebbe stato preso?
+      active:          (pair.ageMinutes || 0) <= V3_MAX_AGE_MIN,  // false se non eligible o già chiuso
+      closePrice:      null,
+      closeMultiplier: null,
+      closeReason:     null,
+      closedAt:        null
+    },
     // X (Twitter) data — populated async after open
     xFollowers:    null,
     xAgeDays:      null,
@@ -442,6 +491,20 @@ async function checkOpenPositions() {
         }
       }
 
+      // ── V3: stessa logica V2, ma solo se token era eligible (<= 15 min)
+      if (pos.v3.active && pos.v3.eligible && pos.peakMultiplier > 1.0) {
+        const trailingStopPrice = pos.peakPrice * (1 - V3_TRAILING_STOP_PCT);
+        if (currentPrice <= trailingStopPrice) {
+          pos.v3.active          = false;
+          pos.v3.closePrice      = currentPrice;
+          pos.v3.closeMultiplier = currentPrice / pos.entryPrice;
+          pos.v3.closeReason     = 'trailing_stop';
+          pos.v3.closedAt        = new Date().toISOString();
+          const v3g = (pos.v3.closeMultiplier - 1) * 100;
+          console.log(`  🟣 V3 trailing stop: ${pos.symbol} → ${v3g >= 0 ? '+' : ''}${v3g.toFixed(1)}% (age was ${pos.ageAtEntry}min, eligible)`);
+        }
+      }
+
       // Traccia milestones raggiunte
       for (const m of MILESTONES) {
         const key = m.toString();
@@ -506,7 +569,15 @@ async function sendPositionUpdate(pos, currentMcap, status) {
                           : (pos.v2 && pos.v2.active ? '🔵 Running' : ''),
       'V2 vs V1':       (pos.v2 && pos.v2.closeMultiplier !== null && pos.closeMultiplier !== null)
                           ? ((pos.v2.closeMultiplier - pos.closeMultiplier) * 100 >= 0 ? '+' : '') + ((pos.v2.closeMultiplier - pos.closeMultiplier) * 100).toFixed(0) + '%'
-                          : ''
+                          : '',
+      // V3: trailing stop + filtro età <= 15 min
+      'V3 Result':      !pos.v3 ? '' :
+                          !pos.v3.eligible ? '⚪ SKIP' :
+                          pos.v3.closeMultiplier !== null
+                            ? ((pos.v3.closeMultiplier >= 1 ? '🟢 +' : '🔴 -') + Math.abs((pos.v3.closeMultiplier - 1) * 100).toFixed(0) + '%')
+                            : (pos.v3.active ? '🔵 Running' : ''),
+      'V3 vs V1':       (!pos.v3 || !pos.v3.eligible || pos.v3.closeMultiplier === null || pos.closeMultiplier === null) ? '' :
+                          ((pos.v3.closeMultiplier - pos.closeMultiplier) * 100 >= 0 ? '+' : '') + ((pos.v3.closeMultiplier - pos.closeMultiplier) * 100).toFixed(0) + '%'
     });
     console.log(`📡 Tracker: ${pos.symbol} → ${status}`);
   } catch (e) { console.log(`⚠️ Tracker failed: ${pos.symbol} ${e.message}`); }
@@ -532,6 +603,15 @@ async function closePosition(pairAddress, pos, closePrice, reason) {
     pos.v2.closedAt        = new Date().toISOString();
   }
 
+  // ── V3: se eligible e ancora aperta, chiudi allo stesso prezzo di V1
+  if (pos.v3.eligible && pos.v3.active) {
+    pos.v3.active          = false;
+    pos.v3.closePrice      = closePrice;
+    pos.v3.closeMultiplier = closeMultiplier;
+    pos.v3.closeReason     = reason;
+    pos.v3.closedAt        = new Date().toISOString();
+  }
+
   openPositions.delete(pairAddress);
   closedPositions.push({ ...pos, buyers: pos.buyers.length });
 
@@ -544,7 +624,7 @@ async function closePosition(pairAddress, pos, closePrice, reason) {
   const emoji  = closeMultiplier >= 1.5 ? '🟢' : closeMultiplier >= 1 ? '🟡' : '🔴';
   const peakG  = (pos.peakMultiplier - 1) * 100;
   console.log(`${emoji} CHIUSA: ${pos.symbol} | ${gain >= 0 ? '+' : ''}${gain.toFixed(1)}% (${closeMultiplier.toFixed(2)}x) | peak: +${peakG.toFixed(1)}% | motivo: ${reason} | durata: ${Math.round(durationMs/60000)} min`);
-  // ── V1 vs V2 comparison log
+  // ── V1 vs V2 vs V3 comparison log
   {
     const v2cm  = pos.v2.closeMultiplier;
     const v1g   = (closeMultiplier - 1) * 100;
@@ -553,7 +633,10 @@ async function closePosition(pairAddress, pos, closePrice, reason) {
     const v1e   = closeMultiplier >= 1 ? '🟢' : '🔴';
     const v2e   = v2cm >= 1 ? '🟢' : '🔴';
     const de    = delta >= 0 ? '▲' : '▼';
-    console.log(`  📊 V1 vs V2: ${v1e} V1 ${v1g >= 0?'+':''}${v1g.toFixed(1)}% | ${v2e} V2 ${v2g >= 0?'+':''}${v2g.toFixed(1)}% | ${de} Δ ${delta >= 0?'+':''}${delta.toFixed(1)}%`);
+    const v3str = pos.v3.eligible
+      ? ` | 🟣 V3 ${((pos.v3.closeMultiplier||closeMultiplier)-1)*100 >= 0?'+':''}${(((pos.v3.closeMultiplier||closeMultiplier)-1)*100).toFixed(1)}%`
+      : ' | 🟣 V3 SKIP (age>15m)';
+    console.log(`  📊 V1 vs V2 vs V3: ${v1e} V1 ${v1g >= 0?'+':''}${v1g.toFixed(1)}% | ${v2e} V2 ${v2g >= 0?'+':''}${v2g.toFixed(1)}% | ${de} Δ ${delta >= 0?'+':''}${delta.toFixed(1)}%${v3str}`);
   }
 
   // Smart Money: aggiorna performance
