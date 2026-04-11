@@ -17602,5 +17602,22 @@
     "firstSeen": "2026-04-11T21:34:56.560Z",
     "lastSeen": "2026-04-11T21:34:56.560Z",
     "confirmed": false
+  },
+  "4vvJmQTHsqbRbGizBmKEZuJNXSn4gX1t8h95rBGQ8CJb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "NEGRON",
+        "pairAddress": "2rXfTt3Xh699TtAUruiz6Vs7vdTrsn55bEm2FKt9y8yE",
+        "entryTime": "2026-04-11T21:35:29.310Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T21:35:29.310Z",
+    "lastSeen": "2026-04-11T21:35:29.310Z",
+    "confirmed": false
   }
 }
