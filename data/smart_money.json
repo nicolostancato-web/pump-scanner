@@ -3693,12 +3693,17 @@
     "confirmed": false
   },
   "8QJA6oyawLwCeLhjuzUuhMmhWzPeysSToJpeVjavWi37": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Taylur",
         "pairAddress": "JASXWGYna4VTWY9UCXAzq6bewxJ69mDfmhB2ixNPspfk",
         "entryTime": "2026-04-11T15:58:16.996Z"
+      },
+      {
+        "symbol": "CATFISH",
+        "pairAddress": "CyuFdY5eSuKr24LvqYQi4XVYyQoYw36YsT2zU92RK2gd",
+        "entryTime": "2026-04-11T17:59:54.147Z"
       }
     ],
     "wins": 0,
@@ -3706,7 +3711,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:58:16.996Z",
-    "lastSeen": "2026-04-11T15:58:16.996Z",
+    "lastSeen": "2026-04-11T17:59:54.147Z",
     "confirmed": false
   },
   "CmSy8pJqJvYmkS8QJgxB34cigQLAcdEs4SSrSnJXQPMq": {
@@ -7753,6 +7758,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T17:57:22.959Z",
     "lastSeen": "2026-04-11T17:57:22.959Z",
+    "confirmed": false
+  },
+  "9NZ7QgQtcTE2wsWk4wQXTiLxe8qeJeuq1LNJUqrA8ZBa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CATFISH",
+        "pairAddress": "CyuFdY5eSuKr24LvqYQi4XVYyQoYw36YsT2zU92RK2gd",
+        "entryTime": "2026-04-11T17:59:54.147Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T17:59:54.147Z",
+    "lastSeen": "2026-04-11T17:59:54.147Z",
     "confirmed": false
   }
 }
