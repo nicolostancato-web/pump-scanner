@@ -8462,5 +8462,22 @@
     "firstSeen": "2026-04-11T18:19:19.717Z",
     "lastSeen": "2026-04-11T18:19:19.717Z",
     "confirmed": false
+  },
+  "CZAULZtYHndhKaZ7UxtojqMgEt5oXZ1Bhm7nMXoK4Dyp": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ClawFC",
+        "pairAddress": "BnbuPvQe2TNdhS7CSdsCGS1WY7FYu2kZti9adrqkqpZh",
+        "entryTime": "2026-04-11T18:19:53.143Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T18:19:53.143Z",
+    "lastSeen": "2026-04-11T18:19:53.143Z",
+    "confirmed": false
   }
 }
