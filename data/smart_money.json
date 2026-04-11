@@ -1087,7 +1087,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "nugget",
@@ -1113,6 +1113,11 @@
         "symbol": "NEGRON",
         "pairAddress": "2rXfTt3Xh699TtAUruiz6Vs7vdTrsn55bEm2FKt9y8yE",
         "entryTime": "2026-04-11T21:26:26.993Z"
+      },
+      {
+        "symbol": "Seednee",
+        "pairAddress": "F2RCDiHWffMYTnF6kRqLWapztQTYG7zru1JkWDfgeap2",
+        "entryTime": "2026-04-11T22:10:27.665Z"
       }
     ],
     "wins": 0,
@@ -1120,7 +1125,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:04:47.623Z",
-    "lastSeen": "2026-04-11T21:26:26.993Z",
+    "lastSeen": "2026-04-11T22:10:27.665Z",
     "confirmed": true
   },
   "9f4iYKT1LyHZ6ewcDDrPQ6T4HwymWye5G4RyqKFXVSn8": {
@@ -19391,6 +19396,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T22:09:53.624Z",
     "lastSeen": "2026-04-11T22:09:53.624Z",
+    "confirmed": false
+  },
+  "5KHmLmabNUdE8uoJiht3JS2oSBwAMbPz4GN488FrQwNQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Seednee",
+        "pairAddress": "F2RCDiHWffMYTnF6kRqLWapztQTYG7zru1JkWDfgeap2",
+        "entryTime": "2026-04-11T22:10:27.665Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T22:10:27.665Z",
+    "lastSeen": "2026-04-11T22:10:27.665Z",
     "confirmed": false
   }
 }
