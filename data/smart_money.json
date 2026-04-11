@@ -804,12 +804,17 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "aun",
         "pairAddress": "BRATbBL2wQNtYnm3p2Ybwb4RxqNCccNCPpFJZyae4YFA",
         "entryTime": "2026-04-11T15:00:44.148Z"
+      },
+      {
+        "symbol": "BABY",
+        "pairAddress": "53UgNjZDC6mXsEDTowHLmKi2Y6jzjH2Ee3ybac7jEQRQ",
+        "entryTime": "2026-04-11T17:18:05.263Z"
       }
     ],
     "wins": 0,
@@ -817,7 +822,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:00:44.148Z",
-    "lastSeen": "2026-04-11T15:00:44.148Z",
+    "lastSeen": "2026-04-11T17:18:05.263Z",
     "confirmed": false
   },
   "Hj4uHZh3noJAi5PzhpMT4ZhqDyHuYPRhwvZ5DNhjaMzY": {
