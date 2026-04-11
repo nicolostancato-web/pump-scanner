@@ -14877,12 +14877,17 @@
     "confirmed": false
   },
   "FsB4vvrftxcFYjW7tgaVJmSJtRAV7q99rJEmXT314JcJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "doomer",
         "pairAddress": "DqTPbpJo2UfNFy2v4dHjMoFg9S2wid1RZuF8qfwcJrHx",
         "entryTime": "2026-04-11T20:31:36.301Z"
+      },
+      {
+        "symbol": "Seednee",
+        "pairAddress": "F2RCDiHWffMYTnF6kRqLWapztQTYG7zru1JkWDfgeap2",
+        "entryTime": "2026-04-11T22:31:14.109Z"
       }
     ],
     "wins": 0,
@@ -14890,7 +14895,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T20:31:36.301Z",
-    "lastSeen": "2026-04-11T20:31:36.301Z",
+    "lastSeen": "2026-04-11T22:31:14.109Z",
     "confirmed": false
   },
   "HoNb94kiqagjC7DZwF7eVaBa6kD7aNybMu2dToEof3Ln": {
@@ -20518,6 +20523,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T22:30:41.980Z",
     "lastSeen": "2026-04-11T22:30:41.980Z",
+    "confirmed": false
+  },
+  "J8vUx5X8zzSWcA4AcWuTByCvpNA66yK2wkrkyG7HH8yh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Seednee",
+        "pairAddress": "F2RCDiHWffMYTnF6kRqLWapztQTYG7zru1JkWDfgeap2",
+        "entryTime": "2026-04-11T22:31:14.109Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T22:31:14.109Z",
+    "lastSeen": "2026-04-11T22:31:14.109Z",
     "confirmed": false
   }
 }
