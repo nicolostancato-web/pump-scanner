@@ -1,8 +1,8 @@
 {
   "totalClosed": 18,
   "winRate": "11.1%",
-  "avgPeakMultiplier": "1.847",
-  "avgCloseMultiplier": "0.677",
+  "avgPeakMultiplier": "1.848",
+  "avgCloseMultiplier": "0.676",
   "optimalTP": 3,
   "optimalSL": 0.3,
   "tpAnalysis": {
@@ -157,5 +157,5 @@
     }
   },
   "recommendation": "📊 Analisi su 18 posizioni chiuse\n✅ Win rate (chiuse in positivo): 11%\n📈 Peak medio: 1.85x | Close medio: 0.68x\n🎯 Take Profit ottimale: +300% (expected value: 33.3%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: N/A vs 1.85x",
-  "lastUpdated": "2026-04-11T11:02:41.025Z"
+  "lastUpdated": "2026-04-11T11:33:12.426Z"
 }
