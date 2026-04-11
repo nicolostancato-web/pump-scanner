@@ -2769,12 +2769,17 @@
     "confirmed": false
   },
   "29bW1TMh5TcsfNhiass2f1wLuPDBaifKXTczs8TWD7GE": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Taylur",
         "pairAddress": "JASXWGYna4VTWY9UCXAzq6bewxJ69mDfmhB2ixNPspfk",
         "entryTime": "2026-04-11T15:41:39.958Z"
+      },
+      {
+        "symbol": "Ivunka",
+        "pairAddress": "AHBtpXJ7csokwSXddEDxPFYHcA515g234kXTBMhAVRxe",
+        "entryTime": "2026-04-11T19:35:51.306Z"
       }
     ],
     "wins": 0,
@@ -2782,7 +2787,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:41:39.958Z",
-    "lastSeen": "2026-04-11T15:41:39.958Z",
+    "lastSeen": "2026-04-11T19:35:51.306Z",
     "confirmed": false
   },
   "DERAe2Rs3Wp2AWJ5UHcLsBDug5Gix1HPqZVCZUsmq214": {
@@ -12599,6 +12604,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T19:35:16.495Z",
     "lastSeen": "2026-04-11T19:35:16.495Z",
+    "confirmed": false
+  },
+  "79CygbsvQDTSCo8qWVyVgyH4UKRJvx1i6FizyLfSdvsT": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Ivunka",
+        "pairAddress": "AHBtpXJ7csokwSXddEDxPFYHcA515g234kXTBMhAVRxe",
+        "entryTime": "2026-04-11T19:35:51.306Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T19:35:51.306Z",
+    "lastSeen": "2026-04-11T19:35:51.306Z",
     "confirmed": false
   }
 }
