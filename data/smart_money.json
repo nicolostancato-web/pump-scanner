@@ -1254,12 +1254,17 @@
     "confirmed": false
   },
   "Dhj6BzrMYPA7y1YwJBRhT53kXXeijdadZWg3pzTbbMhc": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "nugget",
         "pairAddress": "E3Z3Hiumq2qNj753GroWL57WeoM6qBVJFhzxy4JMwUJ9",
         "entryTime": "2026-04-11T15:08:27.994Z"
+      },
+      {
+        "symbol": "BABY",
+        "pairAddress": "53UgNjZDC6mXsEDTowHLmKi2Y6jzjH2Ee3ybac7jEQRQ",
+        "entryTime": "2026-04-11T17:17:33.668Z"
       }
     ],
     "wins": 0,
@@ -1267,7 +1272,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:08:27.994Z",
-    "lastSeen": "2026-04-11T15:08:27.994Z",
+    "lastSeen": "2026-04-11T17:17:33.668Z",
     "confirmed": false
   },
   "3kxwXk7WGfVboabnvAQf3JnxEiPnoNEZ1hjYwLpMYyyh": {
@@ -6339,6 +6344,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T17:17:03.167Z",
     "lastSeen": "2026-04-11T17:17:03.167Z",
+    "confirmed": false
+  },
+  "Be4A4w77kwUBpXC2s5TpmGL1E9cK8ZcGEAqsVqd5KZn5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BABY",
+        "pairAddress": "53UgNjZDC6mXsEDTowHLmKi2Y6jzjH2Ee3ybac7jEQRQ",
+        "entryTime": "2026-04-11T17:17:33.668Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T17:17:33.668Z",
+    "lastSeen": "2026-04-11T17:17:33.668Z",
     "confirmed": false
   }
 }
