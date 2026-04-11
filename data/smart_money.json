@@ -1047,12 +1047,17 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "nugget",
         "pairAddress": "E3Z3Hiumq2qNj753GroWL57WeoM6qBVJFhzxy4JMwUJ9",
         "entryTime": "2026-04-11T15:04:47.623Z"
+      },
+      {
+        "symbol": "Taylur",
+        "pairAddress": "JASXWGYna4VTWY9UCXAzq6bewxJ69mDfmhB2ixNPspfk",
+        "entryTime": "2026-04-11T15:57:45.805Z"
       }
     ],
     "wins": 0,
@@ -1060,7 +1065,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:04:47.623Z",
-    "lastSeen": "2026-04-11T15:04:47.623Z",
+    "lastSeen": "2026-04-11T15:57:45.805Z",
     "confirmed": false
   },
   "9f4iYKT1LyHZ6ewcDDrPQ6T4HwymWye5G4RyqKFXVSn8": {
@@ -3638,6 +3643,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:57:13.971Z",
     "lastSeen": "2026-04-11T15:57:13.971Z",
+    "confirmed": false
+  },
+  "6B7mXrrafxadcYYR5FbusGqp9HwL8GBpDoeyAkrqGVoM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Taylur",
+        "pairAddress": "JASXWGYna4VTWY9UCXAzq6bewxJ69mDfmhB2ixNPspfk",
+        "entryTime": "2026-04-11T15:57:45.805Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T15:57:45.805Z",
+    "lastSeen": "2026-04-11T15:57:45.805Z",
     "confirmed": false
   }
 }
