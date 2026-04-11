@@ -7265,12 +7265,17 @@
     "confirmed": false
   },
   "6nu1VFfvhaZZ8PbrD5Vei326UzjCDgCpX6JdeQew6Phm": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ClawFC",
         "pairAddress": "BnbuPvQe2TNdhS7CSdsCGS1WY7FYu2kZti9adrqkqpZh",
         "entryTime": "2026-04-11T17:48:23.053Z"
+      },
+      {
+        "symbol": "Dodger",
+        "pairAddress": "7yrRRCzf429YQ1xQgdZZMy5KQ5jtkkDC7gUZWyPerhXr",
+        "entryTime": "2026-04-11T18:34:10.373Z"
       }
     ],
     "wins": 0,
@@ -7278,7 +7283,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T17:48:23.053Z",
-    "lastSeen": "2026-04-11T17:48:23.053Z",
+    "lastSeen": "2026-04-11T18:34:10.373Z",
     "confirmed": false
   },
   "2G3MWQNoY8z8dqvrBfvxXvmy98cV16Pf4aHFTJijicaP": {
@@ -8911,6 +8916,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T18:33:38.084Z",
     "lastSeen": "2026-04-11T18:33:38.084Z",
+    "confirmed": false
+  },
+  "3vDW1VFmNY86bsJhhhTwYyKUbiSQpK7TMuMXk1KZLGvj": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Dodger",
+        "pairAddress": "7yrRRCzf429YQ1xQgdZZMy5KQ5jtkkDC7gUZWyPerhXr",
+        "entryTime": "2026-04-11T18:34:10.373Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T18:34:10.373Z",
+    "lastSeen": "2026-04-11T18:34:10.373Z",
     "confirmed": false
   }
 }
