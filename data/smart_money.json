@@ -889,7 +889,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "aun",
@@ -900,6 +900,11 @@
         "symbol": "nugget",
         "pairAddress": "E3Z3Hiumq2qNj753GroWL57WeoM6qBVJFhzxy4JMwUJ9",
         "entryTime": "2026-04-11T15:32:05.502Z"
+      },
+      {
+        "symbol": "BABY",
+        "pairAddress": "53UgNjZDC6mXsEDTowHLmKi2Y6jzjH2Ee3ybac7jEQRQ",
+        "entryTime": "2026-04-11T17:15:27.564Z"
       }
     ],
     "wins": 0,
@@ -907,8 +912,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:02:46.690Z",
-    "lastSeen": "2026-04-11T15:32:05.502Z",
-    "confirmed": false
+    "lastSeen": "2026-04-11T17:15:27.564Z",
+    "confirmed": true
   },
   "AzprTqY4pCaeZ5osdeMMg5CyCTeEoe2HjdT1ftxGsG3b": {
     "appearances": 1,
@@ -6198,6 +6203,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T17:14:55.151Z",
     "lastSeen": "2026-04-11T17:14:55.151Z",
+    "confirmed": false
+  },
+  "Gm5pKQs39ZDCHhyoXzndiFo8MjtjUS2x7WdKSpEj7VQn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BABY",
+        "pairAddress": "53UgNjZDC6mXsEDTowHLmKi2Y6jzjH2Ee3ybac7jEQRQ",
+        "entryTime": "2026-04-11T17:15:27.564Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T17:15:27.564Z",
+    "lastSeen": "2026-04-11T17:15:27.564Z",
     "confirmed": false
   }
 }
