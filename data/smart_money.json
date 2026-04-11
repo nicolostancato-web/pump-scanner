@@ -6760,12 +6760,17 @@
     "confirmed": false
   },
   "8zEMn3LKbHSsaDv5NEajx9Rbk1WRHjVYKhjXhToy8L9d": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BABY",
         "pairAddress": "53UgNjZDC6mXsEDTowHLmKi2Y6jzjH2Ee3ybac7jEQRQ",
         "entryTime": "2026-04-11T17:29:50.433Z"
+      },
+      {
+        "symbol": "brainlet",
+        "pairAddress": "2PW331e9D7pmdELA1m1Uyq6pnEuj5BWB8m7dcBGgJ5xo",
+        "entryTime": "2026-04-11T21:40:51.864Z"
       }
     ],
     "wins": 0,
@@ -6773,7 +6778,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T17:29:50.433Z",
-    "lastSeen": "2026-04-11T17:29:50.433Z",
+    "lastSeen": "2026-04-11T21:40:51.864Z",
     "confirmed": false
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
@@ -17907,6 +17912,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T21:40:21.266Z",
     "lastSeen": "2026-04-11T21:40:21.266Z",
+    "confirmed": false
+  },
+  "kuZvKyMocXnDeCZoiRSmF6vPAezCTGFFdxuh7hbtT95": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "brainlet",
+        "pairAddress": "2PW331e9D7pmdELA1m1Uyq6pnEuj5BWB8m7dcBGgJ5xo",
+        "entryTime": "2026-04-11T21:40:51.864Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T21:40:51.864Z",
+    "lastSeen": "2026-04-11T21:40:51.864Z",
     "confirmed": false
   }
 }
