@@ -497,7 +497,37 @@
       "closeMultiplier": 0.10891173950299915,
       "closedAt": "2026-04-11T06:29:49.247Z",
       "durationMs": 597522
+    },
+    {
+      "pairAddress": "9csGVmfbpCihHFHnAcoChxna9Rg8kmCRoJQ6e2Ebyvb3",
+      "mint": "8hcKjenaTK985inwXYBatomARBMJDzKzKhEwXwTVGkp4",
+      "name": "Grok Saved Moritz",
+      "symbol": "MORITZ",
+      "dex": "pumpswap",
+      "entryPrice": 0.00004328,
+      "entryMcap": 43281,
+      "entryTime": 1775891544588,
+      "score": 68,
+      "ageAtEntry": 28,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/9csgvmfbpcihhfhnacochxna9rg8kmcrojq6e2ebyvb3",
+      "peakPrice": 0.00004388,
+      "peakMultiplier": 1.0138632162661738,
+      "peakMcap": 43883,
+      "peakTime": 1775891721290,
+      "lastPrice": 0.00001701,
+      "lowestPrice": 0.00001701,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001701,
+      "closeMultiplier": 0.39302218114602594,
+      "closedAt": "2026-04-11T07:25:21.667Z",
+      "durationMs": 777079
     }
   ],
-  "lastSaved": "2026-04-11T06:29:50.508Z"
+  "lastSaved": "2026-04-11T07:25:22.960Z"
 }
