@@ -3207,12 +3207,17 @@
     "confirmed": false
   },
   "EZ9prFuiYLfLJgKiHR4HhDxSJdoFg2CE5vQM89YyqC6K": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Taylur",
         "pairAddress": "JASXWGYna4VTWY9UCXAzq6bewxJ69mDfmhB2ixNPspfk",
         "entryTime": "2026-04-11T15:48:05.916Z"
+      },
+      {
+        "symbol": "Ivunka",
+        "pairAddress": "AHBtpXJ7csokwSXddEDxPFYHcA515g234kXTBMhAVRxe",
+        "entryTime": "2026-04-11T19:57:19.275Z"
       }
     ],
     "wins": 0,
@@ -3220,7 +3225,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T15:48:05.916Z",
-    "lastSeen": "2026-04-11T15:48:05.916Z",
+    "lastSeen": "2026-04-11T19:57:19.275Z",
     "confirmed": false
   },
   "51TrHRVmWf6tEQurC6dRUFYaVcW5hfwnA97mF8iuWQGE": {
