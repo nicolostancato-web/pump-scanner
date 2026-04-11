@@ -4570,12 +4570,17 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Taylur",
         "pairAddress": "JASXWGYna4VTWY9UCXAzq6bewxJ69mDfmhB2ixNPspfk",
         "entryTime": "2026-04-11T16:16:07.966Z"
+      },
+      {
+        "symbol": "CATFISH",
+        "pairAddress": "CyuFdY5eSuKr24LvqYQi4XVYyQoYw36YsT2zU92RK2gd",
+        "entryTime": "2026-04-11T18:08:47.513Z"
       }
     ],
     "wins": 0,
@@ -4583,7 +4588,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T16:16:07.966Z",
-    "lastSeen": "2026-04-11T16:16:07.966Z",
+    "lastSeen": "2026-04-11T18:08:47.513Z",
     "confirmed": false
   },
   "9iQ8JQzZj4TPY9uvZpXK6urD9pHj1vxWeTv22aYCziVc": {
