@@ -28,6 +28,12 @@ const GITHUB_TOKEN  = process.env.GITHUB_TOKEN || '';
 const GITHUB_REPO   = 'nicolostancato-web/pump-scanner';
 const GITHUB_BRANCH = 'main';
 
+// ─── SMART MONEY CONFIG ───────────────────────────────────────────────────────
+// Traccia wallet che entrano SEMPRE presto nei token — insider / dev wallets
+const SMART_MONEY_MIN_APPEARANCES = 3;   // minimo apparse in token diversi per essere "smart"
+const SMART_MONEY_BONUS           = 30;  // punti bonus se smart money wallet rilevato
+const SMART_MONEY_ENABLED         = true; // raccolta sempre attiva
+
 // ─── X (TWITTER) ANALYTICS ───────────────────────────────────────────────────
 // Impostare X_ENABLED = true quando si vuole attivare l'analisi Twitter
 const X_ENABLED      = false;  // << DISABILITATO — attivare quando pronto
@@ -53,6 +59,10 @@ const trackedTokens = new Map();
 let   whaleWallets  = new Set(SEED_WHALES);
 let   lastWhaleFetch = 0;
 let   totalWhalesLearned = 0;
+
+// Smart Money tracking
+// { walletAddress: { appearances: N, tokens: ['SYM1','SYM2'...], wins: N, totalPeak: X, firstSeen: ISO, lastSeen: ISO } }
+let smartMoney = {};
 
 // Paper trading state
 let openPositions   = new Map();  // pairAddress → position object
@@ -117,6 +127,10 @@ async function githubSave(filePath, data, message) {
   } catch (e) { console.log(`⚠️  GitHub save failed ${filePath}: ${e.message}`); }
 }
 
+async function saveSmartMoney() {
+  await githubSave('data/smart_money.json', smartMoney, 'update: smart money wallets');
+}
+
 async function loadAllFromGitHub() {
   console.log('📡 Carico stato da GitHub...');
 
@@ -132,6 +146,12 @@ async function loadAllFromGitHub() {
 
   // Learnings
   learnings = await githubLoad('data/learnings.json', { recommendation: 'Dati insufficienti.' });
+
+  // Smart Money
+  smartMoney = await githubLoad('data/smart_money.json', {});
+  const smartCount = Object.keys(smartMoney).filter(w => smartMoney[w].appearances >= SMART_MONEY_MIN_APPEARANCES).length;
+  console.log(`🧠 Smart Money wallets: ${Object.keys(smartMoney).length} tracciati, ${smartCount} confermati`);
+
   if (learnings.optimalTP) {
     console.log(`🧠 Strategia appresa: TP ${(learnings.optimalTP*100).toFixed(0)}% | SL ${(learnings.optimalSL*100).toFixed(0)}% | da ${closedPositions.length} posizioni`);
   }
@@ -229,6 +249,69 @@ function learnWhalesFromBuyers(buyers, symbol, multiplier) {
   }
 }
 
+// ─── SMART MONEY TRACKER ─────────────────────────────────────────────────────
+// Registra tutti i buyer di un token con timestamp e performance
+function trackSmartMoney(buyers, symbol, pairAddress, entryTime) {
+  if (!buyers || buyers.length === 0) return;
+  const now = new Date().toISOString();
+  let updated = 0;
+
+  for (const wallet of buyers) {
+    if (!smartMoney[wallet]) {
+      smartMoney[wallet] = {
+        appearances: 0,
+        tokens: [],
+        wins: 0,
+        losses: 0,
+        totalPeak: 0,
+        avgPeak: 0,
+        firstSeen: now,
+        lastSeen: now,
+        confirmed: false
+      };
+    }
+    const sm = smartMoney[wallet];
+    // Evita duplicati per lo stesso token
+    if (!sm.tokens.find(t => t.symbol === symbol)) {
+      sm.appearances++;
+      sm.tokens.push({ symbol, pairAddress, entryTime: now });
+      sm.lastSeen = now;
+      sm.confirmed = sm.appearances >= SMART_MONEY_MIN_APPEARANCES;
+      updated++;
+    }
+  }
+
+  if (updated > 0) {
+    const confirmed = Object.values(smartMoney).filter(w => w.confirmed).length;
+    console.log(`🕵️ Smart Money: ${Object.keys(smartMoney).length} wallet tracciati | ${confirmed} confermati (>=${SMART_MONEY_MIN_APPEARANCES} token)`);
+    saveSmartMoney().catch(() => {});
+  }
+}
+
+// Aggiorna performance di un wallet dopo chiusura posizione
+function updateSmartMoneyPerformance(buyers, peakMultiplier, closeMultiplier) {
+  if (!buyers || buyers.length === 0) return;
+  for (const wallet of buyers) {
+    if (smartMoney[wallet]) {
+      const sm = smartMoney[wallet];
+      sm.totalPeak += peakMultiplier;
+      sm.avgPeak = sm.totalPeak / sm.appearances;
+      if (peakMultiplier >= 1.5) sm.wins++;
+      else sm.losses++;
+    }
+  }
+}
+
+// Controlla se un wallet è smart money confermato
+function checkSmartMoney(buyers) {
+  if (!buyers || buyers.length === 0) return null;
+  for (const wallet of buyers) {
+    const sm = smartMoney[wallet];
+    if (sm && sm.confirmed) return wallet;
+  }
+  return null;
+}
+
 // ─── PAPER TRADING: OPEN POSITION ────────────────────────────────────────────
 function openPosition(pair, score, whaleWallet, buyers) {
   const pairAddress = pair.pairAddress;
@@ -265,6 +348,9 @@ function openPosition(pair, score, whaleWallet, buyers) {
     closeMultiplier: null,
     closedAt:      null,
     durationMs:    null,
+    // Smart Money
+    smartMoneyDetected: false,
+    smartMoneyWallet:   null,
     // X (Twitter) data — populated async after open
     xFollowers:    null,
     xAgeDays:      null,
@@ -380,6 +466,7 @@ async function sendPositionUpdate(pos, currentMcap, status) {
       'TP Suggested':   learnings.optimalTP ? `+${Math.round(learnings.optimalTP*100)}%` : 'learning...',
       'SL Suggested':   learnings.optimalSL ? `-${Math.round(learnings.optimalSL*100)}%` : 'learning...',
       'Link':           pos.pairUrl || `https://dexscreener.com/solana/${pos.mint}`,
+      'Smart Money':    pos.smartMoneyDetected ? '💎 YES' : 'No',
       'X Followers':    pos.xFollowers !== null ? pos.xFollowers : '',
       'X Age Days':     pos.xAgeDays   !== null ? pos.xAgeDays   : '',
       'X Tweets 24h':   pos.xTweets24h !== null ? pos.xTweets24h : '',
@@ -414,6 +501,9 @@ async function closePosition(pairAddress, pos, closePrice, reason) {
   const emoji  = closeMultiplier >= 1.5 ? '🟢' : closeMultiplier >= 1 ? '🟡' : '🔴';
   const peakG  = (pos.peakMultiplier - 1) * 100;
   console.log(`${emoji} CHIUSA: ${pos.symbol} | ${gain >= 0 ? '+' : ''}${gain.toFixed(1)}% (${closeMultiplier.toFixed(2)}x) | peak: +${peakG.toFixed(1)}% | motivo: ${reason} | durata: ${Math.round(durationMs/60000)} min`);
+
+  // Smart Money: aggiorna performance
+  updateSmartMoneyPerformance(pos.buyers && pos.buyers.length > 0 ? pos.buyers : [], pos.peakMultiplier, closeMultiplier);
 
   // Whale learning: se ha fatto 2x, impara i buyer
   if (pos.peakMultiplier >= 2.0 && pos.buyers.length > 0) {
@@ -716,6 +806,9 @@ function scoreToken(pair, whaleWallet) {
     reasons.push(`🐳 Whale wallet: ${whaleWallet.substring(0,8)}... (+${WHALE_BONUS})`);
   }
 
+  // Smart Money bonus — calcolato dai buyers passati come argomento extra
+  // (applicato in sendAlert dopo getBuyersForPair)
+
   if (ageMin >= 10 && ageMin <= 30)      { score += 15; reasons.push(`⏱️ Età ottimale (${ageMin} min) (+15)`); }
   else if (ageMin > 30 && ageMin <= 60)  { score += 10; reasons.push(`⏱️ Età buona (${ageMin} min) (+10)`); }
   else if (ageMin > 60 && ageMin <= 120) { score += 5;  reasons.push(`⏱️ Età accettabile (${ageMin} min) (+5)`); }
@@ -859,6 +952,11 @@ async function scan() {
       const buyers     = await getBuyersForPair(pairAddress);
       const whaleWallet = buyers.length > 0 ? checkWhaleInBuyers(buyers) : null;
 
+      // Track buyers as potential smart money (tutti i token, non solo alert)
+      if (buyers.length > 0) {
+        trackSmartMoney(buyers, symbol, pairAddress, Date.now());
+      }
+
       // Traccia tutti i token per whale learning (anche senza alert)
       if (!trackedTokens.has(pairAddress) && buyers.length > 0) {
         trackedTokens.set(pairAddress, true);
@@ -949,5 +1047,6 @@ async function start() {
 }
 
 start();
+
 
 
