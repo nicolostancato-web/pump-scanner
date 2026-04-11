@@ -4690,7 +4690,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Taylur",
@@ -4711,6 +4711,11 @@
         "symbol": "Ivunka",
         "pairAddress": "AHBtpXJ7csokwSXddEDxPFYHcA515g234kXTBMhAVRxe",
         "entryTime": "2026-04-11T19:27:25.336Z"
+      },
+      {
+        "symbol": "TRUMP47",
+        "pairAddress": "EgcA2ShdHZK4Sg7N6H7yGzTjxpTpunRrbzw231wLWeDh",
+        "entryTime": "2026-04-11T23:12:41.267Z"
       }
     ],
     "wins": 0,
@@ -4718,7 +4723,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T16:16:07.966Z",
-    "lastSeen": "2026-04-11T19:27:25.336Z",
+    "lastSeen": "2026-04-11T23:12:41.267Z",
     "confirmed": true
   },
   "9iQ8JQzZj4TPY9uvZpXK6urD9pHj1vxWeTv22aYCziVc": {
@@ -22420,6 +22425,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:12:09.997Z",
     "lastSeen": "2026-04-11T23:12:09.997Z",
+    "confirmed": false
+  },
+  "GDT2gYBrV2gZ1KYVzTKyGNQ6i6Pz7nksMFt9ij5Qi3Zt": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRUMP47",
+        "pairAddress": "EgcA2ShdHZK4Sg7N6H7yGzTjxpTpunRrbzw231wLWeDh",
+        "entryTime": "2026-04-11T23:12:41.267Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-11T23:12:41.267Z",
+    "lastSeen": "2026-04-11T23:12:41.267Z",
     "confirmed": false
   }
 }
