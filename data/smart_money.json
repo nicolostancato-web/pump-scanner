@@ -4784,7 +4784,7 @@
     "confirmed": true
   },
   "6KPYDyuRnpuKcm1TerUmwLd2BcaihvhF4Ccrr8beruu2": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -4795,6 +4795,11 @@
         "symbol": "🪑",
         "pairAddress": "47yRWYckWUBUrbSN7AmhanMDhfydURQf5G3fjhotpjy5",
         "entryTime": "2026-04-12T07:35:21.398Z"
+      },
+      {
+        "symbol": "RND",
+        "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
+        "entryTime": "2026-04-12T20:02:42.595Z"
       }
     ],
     "wins": 0,
@@ -4802,8 +4807,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T01:34:54.032Z",
-    "lastSeen": "2026-04-12T07:35:21.398Z",
-    "confirmed": false
+    "lastSeen": "2026-04-12T20:02:42.595Z",
+    "confirmed": true
   },
   "H7r14DgFJ47UJFvH7Jvwzg3wKnqswvBgsXsnDMbpQAsM": {
     "appearances": 1,
