@@ -4801,12 +4801,17 @@
     "confirmed": false
   },
   "XG9rkvsLYD74C6oFhgMWPoQjgCLH5onXv8Kp4pBBEQW": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Zoomer",
         "pairAddress": "EvDD7gjtfLETpF8m8boLppTCHosWoyoy43AKSttyRia9",
         "entryTime": "2026-04-12T01:59:15.380Z"
+      },
+      {
+        "symbol": "STC",
+        "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
+        "entryTime": "2026-04-12T03:55:59.071Z"
       }
     ],
     "wins": 0,
@@ -4814,7 +4819,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T01:59:15.380Z",
-    "lastSeen": "2026-04-12T01:59:15.380Z",
+    "lastSeen": "2026-04-12T03:55:59.071Z",
     "confirmed": false
   },
   "FuksXcZdAAdM8DsF1CLbd39BYriYeqxSDfGyH9hkXg6Y": {
