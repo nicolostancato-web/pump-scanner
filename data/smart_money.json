@@ -5484,7 +5484,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 12,
+    "appearances": 13,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5545,6 +5545,11 @@
         "symbol": "EDWARD",
         "pairAddress": "C9XrPo31zk7wSoBi6onjnxs9CHdSyds8bdeMqe3Q7QKe",
         "entryTime": "2026-04-12T22:13:48.418Z"
+      },
+      {
+        "symbol": "IRT",
+        "pairAddress": "DyotjeaW3tNzsDbJonaLDcpEFnojL4MuyufhtFLpYoaG",
+        "entryTime": "2026-04-12T22:43:52.873Z"
       }
     ],
     "wins": 0,
@@ -5552,7 +5557,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-12T22:13:48.418Z",
+    "lastSeen": "2026-04-12T22:43:52.873Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
@@ -26551,6 +26556,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T22:41:19.226Z",
     "lastSeen": "2026-04-12T22:41:19.226Z",
+    "confirmed": false
+  },
+  "G6LwjvwGmAkRTT2KmUMtijn3hiX7KetQiLQ6ynQBXm3u": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Hermes",
+        "pairAddress": "5dyariEFyBo8DtdnWssTHdHwEcGHd8TztcmUKtmFnNWH",
+        "entryTime": "2026-04-12T22:43:52.775Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T22:43:52.775Z",
+    "lastSeen": "2026-04-12T22:43:52.775Z",
     "confirmed": false
   }
 }
