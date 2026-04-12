@@ -5229,7 +5229,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5260,6 +5260,11 @@
         "symbol": "WANGCHAI",
         "pairAddress": "9T9ssywuyoHBfCiqTpt3bD7SJQAXx4YxeZVcWcBR4XhH",
         "entryTime": "2026-04-12T10:22:29.324Z"
+      },
+      {
+        "symbol": "BANI",
+        "pairAddress": "3ArVLZbgpJnsse18pigFJvuhmf2BhiCPX6XZLHF4e6i7",
+        "entryTime": "2026-04-12T10:43:34.232Z"
       }
     ],
     "wins": 0,
@@ -5267,7 +5272,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-12T10:22:29.324Z",
+    "lastSeen": "2026-04-12T10:43:34.232Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
