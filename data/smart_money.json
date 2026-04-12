@@ -10864,5 +10864,22 @@
     "firstSeen": "2026-04-12T06:12:31.738Z",
     "lastSeen": "2026-04-12T06:12:31.738Z",
     "confirmed": false
+  },
+  "6PjxtySQ3Eze2Vzan6RvJ3Wf7nwPmdZcsLSx4KeT9GG5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GEM",
+        "pairAddress": "C8ZtfQxMsUPmnPTtVn7qFqTx6pQcJ1advjtVQSg6Nksv",
+        "entryTime": "2026-04-12T06:14:46.714Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T06:14:46.714Z",
+    "lastSeen": "2026-04-12T06:14:46.714Z",
+    "confirmed": false
   }
 }
