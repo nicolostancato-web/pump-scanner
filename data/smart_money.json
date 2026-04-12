@@ -6521,12 +6521,17 @@
     "confirmed": false
   },
   "GJXHLebN5FmYhvkMLKUCGBuLpmYGf5Gn9jGVoaZpTbGk": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "STC",
         "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
         "entryTime": "2026-04-12T02:58:45.948Z"
+      },
+      {
+        "symbol": "YN",
+        "pairAddress": "DALWM8Ph5yjigv2AtHYQCMAuCHXkZMQo3P3gqaJuv695",
+        "entryTime": "2026-04-12T08:21:20.854Z"
       }
     ],
     "wins": 0,
@@ -6534,7 +6539,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:58:45.948Z",
-    "lastSeen": "2026-04-12T02:58:45.948Z",
+    "lastSeen": "2026-04-12T08:21:20.854Z",
     "confirmed": false
   },
   "DSnBndN49SkmJXg5v9Ss26nRLsNEoZxtc3vRvNbbBBCb": {
