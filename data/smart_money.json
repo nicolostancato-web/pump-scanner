@@ -7708,12 +7708,17 @@
     "confirmed": false
   },
   "4pt8sg14o9BAbjn5XWfB4pBBBef8s4Cw1inXMVmdmn2S": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "STC",
         "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
         "entryTime": "2026-04-12T03:23:49.171Z"
+      },
+      {
+        "symbol": "CORG",
+        "pairAddress": "BKW3w1jRi4iuUj22ZDYqe4oJ1Ngy5KroCU6JxS4MJms5",
+        "entryTime": "2026-04-12T21:40:57.592Z"
       }
     ],
     "wins": 0,
@@ -7721,7 +7726,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T03:23:49.171Z",
-    "lastSeen": "2026-04-12T03:23:49.171Z",
+    "lastSeen": "2026-04-12T21:40:57.592Z",
     "confirmed": false
   },
   "7kMeTYeXBHrH7677D9kkg7W1gydUvzFr6GE8ofhDsRtD": {
