@@ -136,7 +136,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "TRUMP47",
@@ -147,6 +147,11 @@
         "symbol": "ALONSHOUSE",
         "pairAddress": "6KuCNvUu9NsgTFyo1vQGfeFqsoKq7Jq19LhZeQwtMMVr",
         "entryTime": "2026-04-12T00:38:51.593Z"
+      },
+      {
+        "symbol": "Zoomer",
+        "pairAddress": "EvDD7gjtfLETpF8m8boLppTCHosWoyoy43AKSttyRia9",
+        "entryTime": "2026-04-12T02:09:04.955Z"
       }
     ],
     "wins": 0,
@@ -154,8 +159,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:30:13.922Z",
-    "lastSeen": "2026-04-12T00:38:51.593Z",
-    "confirmed": false
+    "lastSeen": "2026-04-12T02:09:04.955Z",
+    "confirmed": true
   },
   "AAhetjzX7conwYjk7jQz8XngwAJLqSpy7NJzG1Bm8Qn7": {
     "appearances": 1,
@@ -5217,6 +5222,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:08:35.327Z",
     "lastSeen": "2026-04-12T02:08:35.327Z",
+    "confirmed": false
+  },
+  "EjsvNuhFkJsBwDp3HdvzyoHmqtjeWBqQpR2BVozyvbVS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Zoomer",
+        "pairAddress": "EvDD7gjtfLETpF8m8boLppTCHosWoyoy43AKSttyRia9",
+        "entryTime": "2026-04-12T02:09:04.955Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T02:09:04.955Z",
+    "lastSeen": "2026-04-12T02:09:04.955Z",
     "confirmed": false
   }
 }
