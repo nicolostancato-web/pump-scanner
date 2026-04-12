@@ -4316,12 +4316,17 @@
     "confirmed": false
   },
   "3KvsoNxgn64nsuHKPBHQJsguef3DgEkP2izE49k6CSAZ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
         "pairAddress": "6KuCNvUu9NsgTFyo1vQGfeFqsoKq7Jq19LhZeQwtMMVr",
         "entryTime": "2026-04-12T00:47:16.075Z"
+      },
+      {
+        "symbol": "CohenCoin",
+        "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
+        "entryTime": "2026-04-12T14:17:54.692Z"
       }
     ],
     "wins": 0,
@@ -4329,7 +4334,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:47:16.075Z",
-    "lastSeen": "2026-04-12T00:47:16.075Z",
+    "lastSeen": "2026-04-12T14:17:54.692Z",
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
@@ -4516,7 +4521,7 @@
     "confirmed": false
   },
   "JESUSL2s5BsffGNNn6wQtHART2iXVGjtGhKAwGw44bL": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -4527,6 +4532,11 @@
         "symbol": "🪑",
         "pairAddress": "47yRWYckWUBUrbSN7AmhanMDhfydURQf5G3fjhotpjy5",
         "entryTime": "2026-04-12T06:44:46.944Z"
+      },
+      {
+        "symbol": "CohenCoin",
+        "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
+        "entryTime": "2026-04-12T14:17:54.692Z"
       }
     ],
     "wins": 0,
@@ -4534,8 +4544,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T01:14:40.766Z",
-    "lastSeen": "2026-04-12T06:44:46.944Z",
-    "confirmed": false
+    "lastSeen": "2026-04-12T14:17:54.692Z",
+    "confirmed": true
   },
   "9LFiTup5RpWNLgUcDbF87YFHqT9as43AYG8LG39Yj9p3": {
     "appearances": 1,
