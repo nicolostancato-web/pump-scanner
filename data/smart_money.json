@@ -7625,12 +7625,17 @@
     "confirmed": false
   },
   "CN4AG1iqQeLaZrQB2qsfJaAQgUBHeSXUK6UvC31n77UJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "STC",
         "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
         "entryTime": "2026-04-12T03:33:53.951Z"
+      },
+      {
+        "symbol": "WANGCHAI",
+        "pairAddress": "9T9ssywuyoHBfCiqTpt3bD7SJQAXx4YxeZVcWcBR4XhH",
+        "entryTime": "2026-04-12T10:24:01.166Z"
       }
     ],
     "wins": 0,
@@ -7638,7 +7643,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T03:33:53.951Z",
-    "lastSeen": "2026-04-12T03:33:53.951Z",
+    "lastSeen": "2026-04-12T10:24:01.166Z",
     "confirmed": false
   },
   "DbYrxndAAhHRNS59XxhQwibNth4e6hNSgPxk8J23g5yd": {
@@ -15044,6 +15049,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T10:23:30.608Z",
     "lastSeen": "2026-04-12T10:23:30.608Z",
+    "confirmed": false
+  },
+  "F9yPLVzt45s5XKCLMYR5r7o2tphL6jLMS8sc9Y6wQ438": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WANGCHAI",
+        "pairAddress": "9T9ssywuyoHBfCiqTpt3bD7SJQAXx4YxeZVcWcBR4XhH",
+        "entryTime": "2026-04-12T10:24:01.166Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T10:24:01.166Z",
+    "lastSeen": "2026-04-12T10:24:01.166Z",
+    "confirmed": false
+  },
+  "EgUCACaYCQK7EnHPp4TEConbng1JTQrUSLaasJ6qTSAb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WANGCHAI",
+        "pairAddress": "9T9ssywuyoHBfCiqTpt3bD7SJQAXx4YxeZVcWcBR4XhH",
+        "entryTime": "2026-04-12T10:24:01.166Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T10:24:01.166Z",
+    "lastSeen": "2026-04-12T10:24:01.166Z",
+    "confirmed": false
+  },
+  "7csEZdmngLq1armXixaTRNceNRidyD5ydDMVKrTXxW8b": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WANGCHAI",
+        "pairAddress": "9T9ssywuyoHBfCiqTpt3bD7SJQAXx4YxeZVcWcBR4XhH",
+        "entryTime": "2026-04-12T10:24:01.166Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T10:24:01.166Z",
+    "lastSeen": "2026-04-12T10:24:01.166Z",
     "confirmed": false
   }
 }
