@@ -2905,7 +2905,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -2951,6 +2951,11 @@
         "symbol": "BANI",
         "pairAddress": "3ArVLZbgpJnsse18pigFJvuhmf2BhiCPX6XZLHF4e6i7",
         "entryTime": "2026-04-12T10:52:47.293Z"
+      },
+      {
+        "symbol": "SHI",
+        "pairAddress": "GThZCAhKaSmoTbFM8XEG7q6PfTr7vcyMydMYCrQwC51q",
+        "entryTime": "2026-04-12T22:00:20.849Z"
       }
     ],
     "wins": 0,
@@ -2958,7 +2963,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:12:16.607Z",
-    "lastSeen": "2026-04-12T10:52:47.293Z",
+    "lastSeen": "2026-04-12T22:00:20.849Z",
     "confirmed": true
   },
   "4Ce6DBKpY5muvvtgAvKxmxBv882w8zrHejE2GbGyozsS": {
@@ -25799,6 +25804,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T21:59:12.554Z",
     "lastSeen": "2026-04-12T21:59:12.554Z",
+    "confirmed": false
+  },
+  "DSwpxL36jQmp9Hh4KBM7xoMGNV1xmqrZXkB7nW4o1ARx": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SHI",
+        "pairAddress": "GThZCAhKaSmoTbFM8XEG7q6PfTr7vcyMydMYCrQwC51q",
+        "entryTime": "2026-04-12T22:00:20.849Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T22:00:20.849Z",
+    "lastSeen": "2026-04-12T22:00:20.849Z",
     "confirmed": false
   }
 }
