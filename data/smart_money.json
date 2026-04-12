@@ -10104,12 +10104,17 @@
     "confirmed": false
   },
   "4Tgkhiub6wMKyCjZ4YqH3BymPGa8gqs3SZvFBANUYraK": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MONKOO",
         "pairAddress": "EqjbMXVJqsCUNykbRRxWj9PuhGvJaKM6G7DEZMGqkWEk",
         "entryTime": "2026-04-12T05:07:23.682Z"
+      },
+      {
+        "symbol": "SHI",
+        "pairAddress": "GThZCAhKaSmoTbFM8XEG7q6PfTr7vcyMydMYCrQwC51q",
+        "entryTime": "2026-04-12T21:55:58.222Z"
       }
     ],
     "wins": 0,
@@ -10117,7 +10122,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T05:07:23.682Z",
-    "lastSeen": "2026-04-12T05:07:23.682Z",
+    "lastSeen": "2026-04-12T21:55:58.222Z",
     "confirmed": false
   },
   "HAPtxPtD8zbWERNkCzs9N88dcwKgAeb1JmW12Yvg5AKz": {
@@ -10624,7 +10629,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Audit",
@@ -10660,6 +10665,11 @@
         "symbol": "Rooster",
         "pairAddress": "sti1RDjPrWH1BPxor7cCRkNGkZyT7Xf7KZDbJthq2QB",
         "entryTime": "2026-04-12T21:51:14.441Z"
+      },
+      {
+        "symbol": "SHI",
+        "pairAddress": "GThZCAhKaSmoTbFM8XEG7q6PfTr7vcyMydMYCrQwC51q",
+        "entryTime": "2026-04-12T21:55:58.222Z"
       }
     ],
     "wins": 0,
@@ -10667,7 +10677,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T05:37:34.790Z",
-    "lastSeen": "2026-04-12T21:51:14.441Z",
+    "lastSeen": "2026-04-12T21:55:58.222Z",
     "confirmed": true
   },
   "APu3gwvqWyR6RqGin1512oQ7Q1taM6LixBGpPJAgaQAJ": {
