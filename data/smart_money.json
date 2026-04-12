@@ -10516,5 +10516,22 @@
     "firstSeen": "2026-04-12T05:48:42.067Z",
     "lastSeen": "2026-04-12T05:48:42.067Z",
     "confirmed": false
+  },
+  "3ZoCAsjASnGAA1W4A7ReZF1wmzctCJS1fqpsKccV2wnd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Audit",
+        "pairAddress": "Ap365bq7KpWPse9sRuHnMTwek2XSQ77setZ8hxujTrL6",
+        "entryTime": "2026-04-12T05:49:12.776Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T05:49:12.776Z",
+    "lastSeen": "2026-04-12T05:49:12.776Z",
+    "confirmed": false
   }
 }
