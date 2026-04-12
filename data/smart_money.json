@@ -11839,7 +11839,7 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "YN",
@@ -11855,6 +11855,11 @@
         "symbol": "Nimbus",
         "pairAddress": "GSqp5fsmNUqXkRes7VoJT9tseGACPYZ9cWQTHtNBmHeJ",
         "entryTime": "2026-04-12T10:04:19.695Z"
+      },
+      {
+        "symbol": "Wifejak",
+        "pairAddress": "3MFQirqeWSkhouwaF4h7RqFyWHtd9xdg2XP4Rns9HsYX",
+        "entryTime": "2026-04-12T11:59:31.213Z"
       }
     ],
     "wins": 0,
@@ -11862,7 +11867,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T08:06:26.171Z",
-    "lastSeen": "2026-04-12T10:04:19.695Z",
+    "lastSeen": "2026-04-12T11:59:31.213Z",
     "confirmed": true
   },
   "63YpR5uMxLfvSMW4a5hgamzF23mQiDhBDEK3R2eqpwra": {
@@ -17479,6 +17484,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T11:54:46.550Z",
     "lastSeen": "2026-04-12T11:54:46.550Z",
+    "confirmed": false
+  },
+  "GVg2rHKb1pFSNpzbUZ171LQZP1f7hpHzLm7oFjoA2fdS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Wifejak",
+        "pairAddress": "3MFQirqeWSkhouwaF4h7RqFyWHtd9xdg2XP4Rns9HsYX",
+        "entryTime": "2026-04-12T11:59:31.213Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T11:59:31.213Z",
+    "lastSeen": "2026-04-12T11:59:31.213Z",
     "confirmed": false
   }
 }
