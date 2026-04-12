@@ -5224,7 +5224,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5250,6 +5250,11 @@
         "symbol": "Table",
         "pairAddress": "eScaeJPmgXK75ViANd48NPzM9CpK5AW9m6rX25v8ttc",
         "entryTime": "2026-04-12T08:46:18.973Z"
+      },
+      {
+        "symbol": "WANGCHAI",
+        "pairAddress": "9T9ssywuyoHBfCiqTpt3bD7SJQAXx4YxeZVcWcBR4XhH",
+        "entryTime": "2026-04-12T10:22:29.324Z"
       }
     ],
     "wins": 0,
@@ -5257,7 +5262,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-12T08:46:18.973Z",
+    "lastSeen": "2026-04-12T10:22:29.324Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
@@ -14971,6 +14976,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T10:19:57.397Z",
     "lastSeen": "2026-04-12T10:19:57.397Z",
+    "confirmed": false
+  },
+  "4nxNG1sbYAjAiciAH1xT8C4RrKXjbVjksEhfACPMk9UD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WANGCHAI",
+        "pairAddress": "9T9ssywuyoHBfCiqTpt3bD7SJQAXx4YxeZVcWcBR4XhH",
+        "entryTime": "2026-04-12T10:22:29.324Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T10:22:29.324Z",
+    "lastSeen": "2026-04-12T10:22:29.324Z",
     "confirmed": false
   }
 }
