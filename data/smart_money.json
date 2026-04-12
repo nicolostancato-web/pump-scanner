@@ -10628,5 +10628,22 @@
     "firstSeen": "2026-04-12T05:59:26.236Z",
     "lastSeen": "2026-04-12T05:59:26.236Z",
     "confirmed": false
+  },
+  "DBCRm79DDwkCP6nCajb6XoQ2FtR1X8SUedtgotA9u9Ma": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Mia",
+        "pairAddress": "FRKRqb7F34G82NpjofJbmW27BsjpFE7N4AAxpKJMvVJ6",
+        "entryTime": "2026-04-12T05:59:59.392Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T05:59:59.392Z",
+    "lastSeen": "2026-04-12T05:59:59.392Z",
+    "confirmed": false
   }
 }
