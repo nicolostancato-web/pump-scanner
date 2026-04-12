@@ -17237,5 +17237,22 @@
     "firstSeen": "2026-04-12T11:43:50.885Z",
     "lastSeen": "2026-04-12T11:43:50.885Z",
     "confirmed": false
+  },
+  "6N8Z1HWPN66s8vRcYV2bnaMhsq4bpekM9YXKcByjUM6V": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "sydney",
+        "pairAddress": "2fKnHjoPasvfG6LDvk85L9XbzJNWfUYBd8bfGj7MAPWq",
+        "entryTime": "2026-04-12T11:44:28.329Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T11:44:28.329Z",
+    "lastSeen": "2026-04-12T11:44:28.329Z",
+    "confirmed": false
   }
 }
