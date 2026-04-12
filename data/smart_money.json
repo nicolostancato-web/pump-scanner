@@ -5330,7 +5330,7 @@
     "confirmed": false
   },
   "ARqJ18xaBLrEJYARaYHxfRKSi1pB7dZjwq1NW6Fiuieb": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5351,6 +5351,11 @@
         "symbol": "YN",
         "pairAddress": "DALWM8Ph5yjigv2AtHYQCMAuCHXkZMQo3P3gqaJuv695",
         "entryTime": "2026-04-12T08:08:02.467Z"
+      },
+      {
+        "symbol": "EDWARD",
+        "pairAddress": "C9XrPo31zk7wSoBi6onjnxs9CHdSyds8bdeMqe3Q7QKe",
+        "entryTime": "2026-04-12T22:09:00.362Z"
       }
     ],
     "wins": 0,
@@ -5358,7 +5363,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:02:07.891Z",
-    "lastSeen": "2026-04-12T08:08:02.467Z",
+    "lastSeen": "2026-04-12T22:09:00.362Z",
     "confirmed": true
   },
   "8EaPHLRuxu6wUjuD5yHuXMQpCyBXbD2XzGuPyhBPq95a": {
