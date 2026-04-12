@@ -13643,5 +13643,22 @@
     "firstSeen": "2026-04-12T09:26:11.782Z",
     "lastSeen": "2026-04-12T09:26:11.782Z",
     "confirmed": false
+  },
+  "CRn6nTEjkYY2N2xsH29qg1GqJLSSGAJEfuyqekQf7qW5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "dunald",
+        "pairAddress": "8YbYfseNMB8U9TLrTGgvix6zR1KdSk9ksAZqSWH7umWe",
+        "entryTime": "2026-04-12T09:26:43.359Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T09:26:43.359Z",
+    "lastSeen": "2026-04-12T09:26:43.359Z",
+    "confirmed": false
   }
 }
