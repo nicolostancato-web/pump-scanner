@@ -5458,12 +5458,17 @@
     "confirmed": false
   },
   "GDT2gYBrV2gZ1KYVzTKyGNQ6i6Pz7nksMFt9ij5Qi3Zt": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Zoomer",
         "pairAddress": "EvDD7gjtfLETpF8m8boLppTCHosWoyoy43AKSttyRia9",
         "entryTime": "2026-04-12T02:18:38.920Z"
+      },
+      {
+        "symbol": "MONKOO",
+        "pairAddress": "EqjbMXVJqsCUNykbRRxWj9PuhGvJaKM6G7DEZMGqkWEk",
+        "entryTime": "2026-04-12T05:07:53.723Z"
       }
     ],
     "wins": 0,
@@ -5471,7 +5476,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:18:38.920Z",
-    "lastSeen": "2026-04-12T02:18:38.920Z",
+    "lastSeen": "2026-04-12T05:07:53.723Z",
     "confirmed": false
   },
   "DX8DphGzHdZ6bWtgDfCM9QT99hF33PenE2QstxxSLTQh": {
