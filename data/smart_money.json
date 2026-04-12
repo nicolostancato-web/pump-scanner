@@ -4371,12 +4371,17 @@
     "confirmed": false
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
         "pairAddress": "6KuCNvUu9NsgTFyo1vQGfeFqsoKq7Jq19LhZeQwtMMVr",
         "entryTime": "2026-04-12T01:03:15.676Z"
+      },
+      {
+        "symbol": "🪑",
+        "pairAddress": "47yRWYckWUBUrbSN7AmhanMDhfydURQf5G3fjhotpjy5",
+        "entryTime": "2026-04-12T06:59:32.495Z"
       }
     ],
     "wins": 0,
@@ -4384,7 +4389,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T01:03:15.676Z",
-    "lastSeen": "2026-04-12T01:03:15.676Z",
+    "lastSeen": "2026-04-12T06:59:32.495Z",
     "confirmed": false
   },
   "GmQ4T8Kmw4BmQargRCSvpvXYp6aFXaFuUq4dgJQ4Agu8": {
