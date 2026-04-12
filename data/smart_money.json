@@ -20728,12 +20728,17 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CohenCoin",
         "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
         "entryTime": "2026-04-12T15:36:28.444Z"
+      },
+      {
+        "symbol": "DECENT",
+        "pairAddress": "5piKQD6nFZrv4DE4f5tbf3RVqP8wa2FRUJHS2XiuDh64",
+        "entryTime": "2026-04-12T15:39:24.317Z"
       }
     ],
     "wins": 0,
@@ -20741,7 +20746,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T15:36:28.444Z",
-    "lastSeen": "2026-04-12T15:36:28.444Z",
+    "lastSeen": "2026-04-12T15:39:24.317Z",
     "confirmed": false
   },
   "DsrQCTWR9y9WCrGLjDKTTZ1yyN95D7zx8UvjLG78BpHF": {
@@ -20878,6 +20883,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T15:38:54.374Z",
     "lastSeen": "2026-04-12T15:38:54.374Z",
+    "confirmed": false
+  },
+  "G8jo8s9pxTCV4XaTxnU6smVPiCTTingjVA2Sr5StRvzM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DECENT",
+        "pairAddress": "5piKQD6nFZrv4DE4f5tbf3RVqP8wa2FRUJHS2XiuDh64",
+        "entryTime": "2026-04-12T15:39:24.317Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T15:39:24.317Z",
+    "lastSeen": "2026-04-12T15:39:24.317Z",
     "confirmed": false
   }
 }
