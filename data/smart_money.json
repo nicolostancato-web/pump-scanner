@@ -7376,5 +7376,22 @@
     "firstSeen": "2026-04-12T03:30:50.105Z",
     "lastSeen": "2026-04-12T03:30:50.105Z",
     "confirmed": false
+  },
+  "8JopGZjVXy3fXrw17RZ8ciRzMrB9YyAfhmQyfpuFhM5h": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "STC",
+        "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
+        "entryTime": "2026-04-12T03:33:20.270Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T03:33:20.270Z",
+    "lastSeen": "2026-04-12T03:33:20.270Z",
+    "confirmed": false
   }
 }
