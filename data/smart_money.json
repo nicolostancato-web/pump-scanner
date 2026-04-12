@@ -12629,7 +12629,7 @@
     "confirmed": false
   },
   "5wLonbcFELM3rv16eaQrk7a641vvGzwpKvRtUcdBPuYk": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "YN",
@@ -12640,6 +12640,11 @@
         "symbol": "dunald",
         "pairAddress": "8YbYfseNMB8U9TLrTGgvix6zR1KdSk9ksAZqSWH7umWe",
         "entryTime": "2026-04-12T09:51:10.711Z"
+      },
+      {
+        "symbol": "SHI",
+        "pairAddress": "GThZCAhKaSmoTbFM8XEG7q6PfTr7vcyMydMYCrQwC51q",
+        "entryTime": "2026-04-12T21:59:43.446Z"
       }
     ],
     "wins": 0,
@@ -12647,8 +12652,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T08:20:18.750Z",
-    "lastSeen": "2026-04-12T09:51:10.711Z",
-    "confirmed": false
+    "lastSeen": "2026-04-12T21:59:43.446Z",
+    "confirmed": true
   },
   "DXAq81qQLZcFreTMg6s4QUWDfRPsw5erwYQfaatq8aa6": {
     "appearances": 1,
