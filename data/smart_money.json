@@ -10639,7 +10639,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "Audit",
@@ -10680,6 +10680,11 @@
         "symbol": "SHI",
         "pairAddress": "GThZCAhKaSmoTbFM8XEG7q6PfTr7vcyMydMYCrQwC51q",
         "entryTime": "2026-04-12T21:55:58.222Z"
+      },
+      {
+        "symbol": "EDWARD",
+        "pairAddress": "C9XrPo31zk7wSoBi6onjnxs9CHdSyds8bdeMqe3Q7QKe",
+        "entryTime": "2026-04-12T22:05:50.400Z"
       }
     ],
     "wins": 0,
@@ -10687,7 +10692,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T05:37:34.790Z",
-    "lastSeen": "2026-04-12T21:55:58.222Z",
+    "lastSeen": "2026-04-12T22:05:50.400Z",
     "confirmed": true
   },
   "APu3gwvqWyR6RqGin1512oQ7Q1taM6LixBGpPJAgaQAJ": {
@@ -10810,7 +10815,7 @@
     "confirmed": false
   },
   "CyoV4hyErqSMVQn6J6F4EbsiqYhbwzuvasaBpxMfDcgG": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "chudhouse",
@@ -10821,6 +10826,11 @@
         "symbol": "YN",
         "pairAddress": "DALWM8Ph5yjigv2AtHYQCMAuCHXkZMQo3P3gqaJuv695",
         "entryTime": "2026-04-12T08:24:25.551Z"
+      },
+      {
+        "symbol": "EDWARD",
+        "pairAddress": "C9XrPo31zk7wSoBi6onjnxs9CHdSyds8bdeMqe3Q7QKe",
+        "entryTime": "2026-04-12T22:05:50.400Z"
       }
     ],
     "wins": 0,
@@ -10828,8 +10838,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T05:41:38.928Z",
-    "lastSeen": "2026-04-12T08:24:25.551Z",
-    "confirmed": false
+    "lastSeen": "2026-04-12T22:05:50.400Z",
+    "confirmed": true
   },
   "3NAVbY8eGUC34dNiaPbghoz8iEwJTmx6tUpRMJCqQJ8c": {
     "appearances": 2,
