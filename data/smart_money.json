@@ -136,7 +136,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "TRUMP47",
@@ -182,6 +182,11 @@
         "symbol": "CHAIRTRUMP",
         "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
         "entryTime": "2026-04-12T16:15:48.567Z"
+      },
+      {
+        "symbol": "CORG",
+        "pairAddress": "BKW3w1jRi4iuUj22ZDYqe4oJ1Ngy5KroCU6JxS4MJms5",
+        "entryTime": "2026-04-12T21:40:24.348Z"
       }
     ],
     "wins": 0,
@@ -189,7 +194,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:30:13.922Z",
-    "lastSeen": "2026-04-12T16:15:48.567Z",
+    "lastSeen": "2026-04-12T21:40:24.348Z",
     "confirmed": true
   },
   "AAhetjzX7conwYjk7jQz8XngwAJLqSpy7NJzG1Bm8Qn7": {
