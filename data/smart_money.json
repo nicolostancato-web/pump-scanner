@@ -2865,7 +2865,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -2886,6 +2886,11 @@
         "symbol": "Audit",
         "pairAddress": "Ap365bq7KpWPse9sRuHnMTwek2XSQ77setZ8hxujTrL6",
         "entryTime": "2026-04-12T05:42:10.550Z"
+      },
+      {
+        "symbol": "Mia",
+        "pairAddress": "FRKRqb7F34G82NpjofJbmW27BsjpFE7N4AAxpKJMvVJ6",
+        "entryTime": "2026-04-12T05:57:48.721Z"
       }
     ],
     "wins": 0,
@@ -2893,7 +2898,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:12:16.607Z",
-    "lastSeen": "2026-04-12T05:42:10.550Z",
+    "lastSeen": "2026-04-12T05:57:48.721Z",
     "confirmed": true
   },
   "4Ce6DBKpY5muvvtgAvKxmxBv882w8zrHejE2GbGyozsS": {
