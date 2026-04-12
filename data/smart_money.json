@@ -2701,12 +2701,17 @@
     "confirmed": false
   },
   "2VVFbdf6RVcKNxMHtcBwskLwoKAEAqnHpNzWTGepyV7N": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
         "pairAddress": "6KuCNvUu9NsgTFyo1vQGfeFqsoKq7Jq19LhZeQwtMMVr",
         "entryTime": "2026-04-12T00:10:42.211Z"
+      },
+      {
+        "symbol": "Zoomer",
+        "pairAddress": "EvDD7gjtfLETpF8m8boLppTCHosWoyoy43AKSttyRia9",
+        "entryTime": "2026-04-12T01:59:48.271Z"
       }
     ],
     "wins": 0,
@@ -2714,7 +2719,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:10:42.211Z",
-    "lastSeen": "2026-04-12T00:10:42.211Z",
+    "lastSeen": "2026-04-12T01:59:48.271Z",
     "confirmed": false
   },
   "7GnHhoMHhCMYY8sBpNazKSDikTd3QG5Qp7LM3biyWYJQ": {
@@ -4755,6 +4760,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T01:59:15.380Z",
     "lastSeen": "2026-04-12T01:59:15.380Z",
+    "confirmed": false
+  },
+  "FuksXcZdAAdM8DsF1CLbd39BYriYeqxSDfGyH9hkXg6Y": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Zoomer",
+        "pairAddress": "EvDD7gjtfLETpF8m8boLppTCHosWoyoy43AKSttyRia9",
+        "entryTime": "2026-04-12T01:59:48.271Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T01:59:48.271Z",
+    "lastSeen": "2026-04-12T01:59:48.271Z",
     "confirmed": false
   }
 }
