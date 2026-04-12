@@ -14182,12 +14182,17 @@
     "confirmed": false
   },
   "38Hnyjo6WgeUK34vt86LoKAfH2VDqX1BRx3Vt8wu2jRt": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "dunald",
         "pairAddress": "8YbYfseNMB8U9TLrTGgvix6zR1KdSk9ksAZqSWH7umWe",
         "entryTime": "2026-04-12T09:51:10.711Z"
+      },
+      {
+        "symbol": "Nimbus",
+        "pairAddress": "GSqp5fsmNUqXkRes7VoJT9tseGACPYZ9cWQTHtNBmHeJ",
+        "entryTime": "2026-04-12T09:58:02.598Z"
       }
     ],
     "wins": 0,
@@ -14195,7 +14200,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T09:51:10.711Z",
-    "lastSeen": "2026-04-12T09:51:10.711Z",
+    "lastSeen": "2026-04-12T09:58:02.598Z",
     "confirmed": false
   },
   "E6ErRqWW277z6s8vZ7hiKtyQMMuxerf2uVJF28EtDWFG": {
@@ -14434,6 +14439,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T09:57:31.757Z",
     "lastSeen": "2026-04-12T09:57:31.757Z",
+    "confirmed": false
+  },
+  "BMPxUHASrBaXfVwDLafnoSfZsi14UyM66GK4YpQRdUdZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Nimbus",
+        "pairAddress": "GSqp5fsmNUqXkRes7VoJT9tseGACPYZ9cWQTHtNBmHeJ",
+        "entryTime": "2026-04-12T09:58:02.598Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T09:58:02.598Z",
+    "lastSeen": "2026-04-12T09:58:02.598Z",
     "confirmed": false
   }
 }
