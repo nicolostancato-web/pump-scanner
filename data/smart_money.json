@@ -9309,12 +9309,17 @@
     "confirmed": false
   },
   "g5HcBNwSo2GyeKwdsgLzCrmqeB3KeihLd87nS79kDaG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MONKOO",
         "pairAddress": "EqjbMXVJqsCUNykbRRxWj9PuhGvJaKM6G7DEZMGqkWEk",
         "entryTime": "2026-04-12T04:43:14.229Z"
+      },
+      {
+        "symbol": "sydney",
+        "pairAddress": "2fKnHjoPasvfG6LDvk85L9XbzJNWfUYBd8bfGj7MAPWq",
+        "entryTime": "2026-04-12T11:51:46.895Z"
       }
     ],
     "wins": 0,
@@ -9322,7 +9327,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T04:43:14.229Z",
-    "lastSeen": "2026-04-12T04:43:14.229Z",
+    "lastSeen": "2026-04-12T11:51:46.895Z",
     "confirmed": false
   },
   "9QwvmJ6KFkmvraqycNGEZe8yAab2bbmU6pFG8WDRjnSh": {
@@ -17389,6 +17394,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T11:49:16.742Z",
     "lastSeen": "2026-04-12T11:49:16.742Z",
+    "confirmed": false
+  },
+  "6XS8c2tspNqfho2VzzJyu5XPT6LjZXbt42UeXe5a2pnY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "sydney",
+        "pairAddress": "2fKnHjoPasvfG6LDvk85L9XbzJNWfUYBd8bfGj7MAPWq",
+        "entryTime": "2026-04-12T11:51:46.895Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T11:51:46.895Z",
+    "lastSeen": "2026-04-12T11:51:46.895Z",
     "confirmed": false
   }
 }
