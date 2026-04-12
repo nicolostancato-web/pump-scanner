@@ -4003,5 +4003,22 @@
     "firstSeen": "2026-04-12T00:44:16.048Z",
     "lastSeen": "2026-04-12T00:44:16.048Z",
     "confirmed": false
+  },
+  "2KNuy5aBQB58YeLRtj3pJWyXHztaf2jqHWnowThanHmZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ALONSHOUSE",
+        "pairAddress": "6KuCNvUu9NsgTFyo1vQGfeFqsoKq7Jq19LhZeQwtMMVr",
+        "entryTime": "2026-04-12T00:44:51.750Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T00:44:51.750Z",
+    "lastSeen": "2026-04-12T00:44:51.750Z",
+    "confirmed": false
   }
 }
