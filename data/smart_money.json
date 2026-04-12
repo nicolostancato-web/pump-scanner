@@ -2653,12 +2653,17 @@
     "confirmed": false
   },
   "CZqP8bzxYstjDZYo77VQpgsCHUAWV1hbWiQVFeHqmvk7": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
         "pairAddress": "6KuCNvUu9NsgTFyo1vQGfeFqsoKq7Jq19LhZeQwtMMVr",
         "entryTime": "2026-04-12T00:09:39.614Z"
+      },
+      {
+        "symbol": "STC",
+        "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
+        "entryTime": "2026-04-12T03:16:08.536Z"
       }
     ],
     "wins": 0,
@@ -2666,7 +2671,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:09:39.614Z",
-    "lastSeen": "2026-04-12T00:09:39.614Z",
+    "lastSeen": "2026-04-12T03:16:08.536Z",
     "confirmed": false
   },
   "FKbQNeLocA9Rb3UXegC7oDKfu7yBEx8ugLw89gCPPYog": {
@@ -6969,6 +6974,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T03:15:31.598Z",
     "lastSeen": "2026-04-12T03:15:31.598Z",
+    "confirmed": false
+  },
+  "FCRSRU6ZR88P6t4gKdCHAT19eQ7SKvKrULWFR5ACU4mB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "STC",
+        "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
+        "entryTime": "2026-04-12T03:16:08.536Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T03:16:08.536Z",
+    "lastSeen": "2026-04-12T03:16:08.536Z",
     "confirmed": false
   }
 }
