@@ -5244,7 +5244,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5280,6 +5280,11 @@
         "symbol": "BANI",
         "pairAddress": "3ArVLZbgpJnsse18pigFJvuhmf2BhiCPX6XZLHF4e6i7",
         "entryTime": "2026-04-12T10:43:34.232Z"
+      },
+      {
+        "symbol": "CohenCoin",
+        "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
+        "entryTime": "2026-04-12T14:10:12.669Z"
       }
     ],
     "wins": 0,
@@ -5287,7 +5292,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-12T10:43:34.232Z",
+    "lastSeen": "2026-04-12T14:10:12.669Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
