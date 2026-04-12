@@ -15004,7 +15004,7 @@
     "confirmed": false
   },
   "8SUPvVNVQwuUjsXgU4nvJZppNEpd8woqKV6mzxnq1VDP": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Nimbus",
@@ -15015,6 +15015,11 @@
         "symbol": "CHAIRTRUMP",
         "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
         "entryTime": "2026-04-12T16:42:10.143Z"
+      },
+      {
+        "symbol": "REXIE",
+        "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
+        "entryTime": "2026-04-12T23:46:36.969Z"
       }
     ],
     "wins": 0,
@@ -15022,8 +15027,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T10:00:35.410Z",
-    "lastSeen": "2026-04-12T16:42:10.143Z",
-    "confirmed": false
+    "lastSeen": "2026-04-12T23:46:36.969Z",
+    "confirmed": true
   },
   "6P13nJ5xTnrLyNs9BYw6KaPFYWEwxxZuK3598cVowfgm": {
     "appearances": 1,
@@ -28392,6 +28397,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T23:46:08.125Z",
     "lastSeen": "2026-04-12T23:46:08.125Z",
+    "confirmed": false
+  },
+  "6ghgXoT79Uno234PZCx5cg8FCqz6ahCMk9bkPAjE12Ly": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "REXIE",
+        "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
+        "entryTime": "2026-04-12T23:46:36.969Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T23:46:36.969Z",
+    "lastSeen": "2026-04-12T23:46:36.969Z",
     "confirmed": false
   }
 }
