@@ -5359,7 +5359,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5405,6 +5405,11 @@
         "symbol": "CHAIRTRUMP",
         "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
         "entryTime": "2026-04-12T16:37:26.482Z"
+      },
+      {
+        "symbol": "PAMP",
+        "pairAddress": "4gkU3kEbYxaoxxfAbbMEN1ZvLG9cjWwFDudgWC9u2yXr",
+        "entryTime": "2026-04-12T17:27:19.394Z"
       }
     ],
     "wins": 0,
@@ -5412,7 +5417,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-12T16:37:26.482Z",
+    "lastSeen": "2026-04-12T17:27:19.394Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
