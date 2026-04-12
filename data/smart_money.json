@@ -136,7 +136,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "TRUMP47",
@@ -172,6 +172,11 @@
         "symbol": "BANI",
         "pairAddress": "3ArVLZbgpJnsse18pigFJvuhmf2BhiCPX6XZLHF4e6i7",
         "entryTime": "2026-04-12T10:36:17.133Z"
+      },
+      {
+        "symbol": "CohenCoin",
+        "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
+        "entryTime": "2026-04-12T15:38:19.363Z"
       }
     ],
     "wins": 0,
@@ -179,7 +184,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:30:13.922Z",
-    "lastSeen": "2026-04-12T10:36:17.133Z",
+    "lastSeen": "2026-04-12T15:38:19.363Z",
     "confirmed": true
   },
   "AAhetjzX7conwYjk7jQz8XngwAJLqSpy7NJzG1Bm8Qn7": {
@@ -20822,6 +20827,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T15:37:49.539Z",
     "lastSeen": "2026-04-12T15:37:49.539Z",
+    "confirmed": false
+  },
+  "9xZh1DUurWUhaWHJ3XYPL8NhykDyZujX5GhkVzB9F8ot": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CohenCoin",
+        "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
+        "entryTime": "2026-04-12T15:38:19.363Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T15:38:19.363Z",
+    "lastSeen": "2026-04-12T15:38:19.363Z",
     "confirmed": false
   }
 }
