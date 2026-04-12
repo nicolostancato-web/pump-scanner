@@ -25024,5 +25024,22 @@
     "firstSeen": "2026-04-12T21:21:12.503Z",
     "lastSeen": "2026-04-12T21:21:12.503Z",
     "confirmed": false
+  },
+  "69Gb4ZNde9ZRwjCAwq3ShqNfRbqScxW3DByJRmKcg7Rr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CORG",
+        "pairAddress": "BKW3w1jRi4iuUj22ZDYqe4oJ1Ngy5KroCU6JxS4MJms5",
+        "entryTime": "2026-04-12T21:25:48.165Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T21:25:48.165Z",
+    "lastSeen": "2026-04-12T21:25:48.165Z",
+    "confirmed": false
   }
 }
