@@ -136,7 +136,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "TRUMP47",
@@ -167,6 +167,11 @@
         "symbol": "Table",
         "pairAddress": "eScaeJPmgXK75ViANd48NPzM9CpK5AW9m6rX25v8ttc",
         "entryTime": "2026-04-12T08:38:41.288Z"
+      },
+      {
+        "symbol": "BANI",
+        "pairAddress": "3ArVLZbgpJnsse18pigFJvuhmf2BhiCPX6XZLHF4e6i7",
+        "entryTime": "2026-04-12T10:36:17.133Z"
       }
     ],
     "wins": 0,
@@ -174,7 +179,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:30:13.922Z",
-    "lastSeen": "2026-04-12T08:38:41.288Z",
+    "lastSeen": "2026-04-12T10:36:17.133Z",
     "confirmed": true
   },
   "AAhetjzX7conwYjk7jQz8XngwAJLqSpy7NJzG1Bm8Qn7": {
@@ -15399,6 +15404,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T10:35:46.549Z",
     "lastSeen": "2026-04-12T10:35:46.549Z",
+    "confirmed": false
+  },
+  "7efwLih2UXHkyCn6PVrDq5hNqtGSRiNrNUuhawPMsM6B": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BANI",
+        "pairAddress": "3ArVLZbgpJnsse18pigFJvuhmf2BhiCPX6XZLHF4e6i7",
+        "entryTime": "2026-04-12T10:36:17.133Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T10:36:17.133Z",
+    "lastSeen": "2026-04-12T10:36:17.133Z",
     "confirmed": false
   }
 }
