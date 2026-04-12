@@ -4250,7 +4250,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -4261,6 +4261,11 @@
         "symbol": "🪑",
         "pairAddress": "47yRWYckWUBUrbSN7AmhanMDhfydURQf5G3fjhotpjy5",
         "entryTime": "2026-04-12T07:23:27.585Z"
+      },
+      {
+        "symbol": "CohenCoin",
+        "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
+        "entryTime": "2026-04-12T14:32:06.058Z"
       }
     ],
     "wins": 0,
@@ -4268,8 +4273,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:46:15.396Z",
-    "lastSeen": "2026-04-12T07:23:27.585Z",
-    "confirmed": false
+    "lastSeen": "2026-04-12T14:32:06.058Z",
+    "confirmed": true
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
     "appearances": 2,
