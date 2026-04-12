@@ -3753,7 +3753,7 @@
     "confirmed": false
   },
   "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -3779,6 +3779,11 @@
         "symbol": "YN",
         "pairAddress": "EQqvZi6mSaQL95wWkP5vGBX6ZsAkVTqZCV88rQU1fbcY",
         "entryTime": "2026-04-12T12:54:56.626Z"
+      },
+      {
+        "symbol": "Hermes",
+        "pairAddress": "5dyariEFyBo8DtdnWssTHdHwEcGHd8TztcmUKtmFnNWH",
+        "entryTime": "2026-04-12T23:08:15.665Z"
       }
     ],
     "wins": 0,
@@ -3786,7 +3791,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:26:25.010Z",
-    "lastSeen": "2026-04-12T12:54:56.626Z",
+    "lastSeen": "2026-04-12T23:08:15.665Z",
     "confirmed": true
   },
   "6eyu21nG3jMir5GKganyYgXVD36mZ7UkP8VpGEeEVTiZ": {
