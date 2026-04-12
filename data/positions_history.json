@@ -845,7 +845,61 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "EGN4H831NUpdpb1uxVKNmLpFCScK5tVxMtW3fHg5Rr6i",
+      "mint": "49jky7bXQ9FsPL5yuTjmTSB6ynbs3rukBZQgskZepump",
+      "name": "Solana Is Home",
+      "symbol": "HOME",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005436,
+      "entryMcap": 54362,
+      "entryTime": 1776026440602,
+      "score": 66,
+      "ageAtEntry": 16,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/egn4h831nupdpb1uxvknmlpfcsck5tvxmtw3fhg5rr6i",
+      "peakPrice": 0.00005619,
+      "peakMultiplier": 1.033664459161148,
+      "peakMcap": 56194,
+      "peakTime": 1776026618765,
+      "lastPrice": 0.00003582,
+      "lowestPrice": 0.00003582,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003582,
+      "closeMultiplier": 0.6589403973509933,
+      "closedAt": "2026-04-12T20:48:38.859Z",
+      "durationMs": 478257,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003582,
+        "closeMultiplier": 0.6589403973509933,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-12T20:48:38.859Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-11T14:26:57.044Z"
+  "lastSaved": "2026-04-12T20:48:40.254Z"
 }
