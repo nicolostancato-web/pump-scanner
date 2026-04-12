@@ -13662,12 +13662,17 @@
     "confirmed": false
   },
   "EXgj7T4ypk7FhLHQhPEPHTtcb5KJWigNNuGct38SrVje": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Table",
         "pairAddress": "eScaeJPmgXK75ViANd48NPzM9CpK5AW9m6rX25v8ttc",
         "entryTime": "2026-04-12T09:15:03.485Z"
+      },
+      {
+        "symbol": "YN",
+        "pairAddress": "EQqvZi6mSaQL95wWkP5vGBX6ZsAkVTqZCV88rQU1fbcY",
+        "entryTime": "2026-04-12T13:17:28.429Z"
       }
     ],
     "wins": 0,
@@ -13675,7 +13680,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T09:15:03.485Z",
-    "lastSeen": "2026-04-12T09:15:03.485Z",
+    "lastSeen": "2026-04-12T13:17:28.429Z",
     "confirmed": false
   },
   "3NHuKkfdEy12PKzyzDB8Yf6EkykDf9HRdHADXTTvxhrQ": {
