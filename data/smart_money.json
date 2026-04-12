@@ -12254,5 +12254,22 @@
     "firstSeen": "2026-04-12T08:22:52.031Z",
     "lastSeen": "2026-04-12T08:22:52.031Z",
     "confirmed": false
+  },
+  "12665qtP2MfNuq1oJ9P1BUBWYu6ZrYhrJHDzfsM9gcmk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "YN",
+        "pairAddress": "DALWM8Ph5yjigv2AtHYQCMAuCHXkZMQo3P3gqaJuv695",
+        "entryTime": "2026-04-12T08:23:21.597Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T08:23:21.597Z",
+    "lastSeen": "2026-04-12T08:23:21.597Z",
+    "confirmed": false
   }
 }
