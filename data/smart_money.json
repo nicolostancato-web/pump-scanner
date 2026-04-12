@@ -4656,7 +4656,7 @@
     "confirmed": false
   },
   "JESUSL2s5BsffGNNn6wQtHART2iXVGjtGhKAwGw44bL": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -4672,6 +4672,11 @@
         "symbol": "CohenCoin",
         "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
         "entryTime": "2026-04-12T14:17:54.692Z"
+      },
+      {
+        "symbol": "RND",
+        "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
+        "entryTime": "2026-04-12T19:48:47.123Z"
       }
     ],
     "wins": 0,
@@ -4679,7 +4684,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T01:14:40.766Z",
-    "lastSeen": "2026-04-12T14:17:54.692Z",
+    "lastSeen": "2026-04-12T19:48:47.123Z",
     "confirmed": true
   },
   "9LFiTup5RpWNLgUcDbF87YFHqT9as43AYG8LG39Yj9p3": {
