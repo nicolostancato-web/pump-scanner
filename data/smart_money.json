@@ -5214,7 +5214,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5235,6 +5235,11 @@
         "symbol": "YN",
         "pairAddress": "DALWM8Ph5yjigv2AtHYQCMAuCHXkZMQo3P3gqaJuv695",
         "entryTime": "2026-04-12T08:10:53.236Z"
+      },
+      {
+        "symbol": "Table",
+        "pairAddress": "eScaeJPmgXK75ViANd48NPzM9CpK5AW9m6rX25v8ttc",
+        "entryTime": "2026-04-12T08:46:18.973Z"
       }
     ],
     "wins": 0,
@@ -5242,7 +5247,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-12T08:10:53.236Z",
+    "lastSeen": "2026-04-12T08:46:18.973Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
