@@ -14904,5 +14904,22 @@
     "firstSeen": "2026-04-12T10:16:15.227Z",
     "lastSeen": "2026-04-12T10:16:15.227Z",
     "confirmed": false
+  },
+  "7zPNpnCgrhbo8b1KDXsCLZYJV5AH13MFFXXfc7aSaLNE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Nimbus",
+        "pairAddress": "GSqp5fsmNUqXkRes7VoJT9tseGACPYZ9cWQTHtNBmHeJ",
+        "entryTime": "2026-04-12T10:18:46.013Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T10:18:46.013Z",
+    "lastSeen": "2026-04-12T10:18:46.013Z",
+    "confirmed": false
   }
 }
