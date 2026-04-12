@@ -3678,7 +3678,7 @@
     "confirmed": false
   },
   "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -3694,6 +3694,11 @@
         "symbol": "Audit",
         "pairAddress": "Ap365bq7KpWPse9sRuHnMTwek2XSQ77setZ8hxujTrL6",
         "entryTime": "2026-04-12T05:47:37.905Z"
+      },
+      {
+        "symbol": "Table",
+        "pairAddress": "eScaeJPmgXK75ViANd48NPzM9CpK5AW9m6rX25v8ttc",
+        "entryTime": "2026-04-12T09:14:35.094Z"
       }
     ],
     "wins": 0,
@@ -3701,7 +3706,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:26:25.010Z",
-    "lastSeen": "2026-04-12T05:47:37.905Z",
+    "lastSeen": "2026-04-12T09:14:35.094Z",
     "confirmed": true
   },
   "6eyu21nG3jMir5GKganyYgXVD36mZ7UkP8VpGEeEVTiZ": {
@@ -13535,6 +13540,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T09:14:06.040Z",
     "lastSeen": "2026-04-12T09:14:06.040Z",
+    "confirmed": false
+  },
+  "7L4Fx9cKfNNVTq1AH5EiTomSa9HbQjxLy954iCQkTcqu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Table",
+        "pairAddress": "eScaeJPmgXK75ViANd48NPzM9CpK5AW9m6rX25v8ttc",
+        "entryTime": "2026-04-12T09:14:35.094Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T09:14:35.094Z",
+    "lastSeen": "2026-04-12T09:14:35.094Z",
     "confirmed": false
   }
 }
