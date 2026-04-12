@@ -10624,7 +10624,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Audit",
@@ -10655,6 +10655,11 @@
         "symbol": "PAMP",
         "pairAddress": "4gkU3kEbYxaoxxfAbbMEN1ZvLG9cjWwFDudgWC9u2yXr",
         "entryTime": "2026-04-12T17:50:46.592Z"
+      },
+      {
+        "symbol": "Rooster",
+        "pairAddress": "sti1RDjPrWH1BPxor7cCRkNGkZyT7Xf7KZDbJthq2QB",
+        "entryTime": "2026-04-12T21:51:14.441Z"
       }
     ],
     "wins": 0,
@@ -10662,7 +10667,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T05:37:34.790Z",
-    "lastSeen": "2026-04-12T17:50:46.592Z",
+    "lastSeen": "2026-04-12T21:51:14.441Z",
     "confirmed": true
   },
   "APu3gwvqWyR6RqGin1512oQ7Q1taM6LixBGpPJAgaQAJ": {
