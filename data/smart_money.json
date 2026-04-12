@@ -10132,12 +10132,17 @@
     "confirmed": false
   },
   "3QEcU5xGEeG1WWdEUhhhyqksYZg8hS4wEcn8Q9Uxarn2": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "chudhouse",
         "pairAddress": "2uwEax5i5v5R6iGRsfwu4L2SuVWpq6HwedMJvQdXCbvG",
         "entryTime": "2026-04-12T05:37:04.368Z"
+      },
+      {
+        "symbol": "Mia",
+        "pairAddress": "FRKRqb7F34G82NpjofJbmW27BsjpFE7N4AAxpKJMvVJ6",
+        "entryTime": "2026-04-12T05:58:56.946Z"
       }
     ],
     "wins": 0,
@@ -10145,7 +10150,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T05:37:04.368Z",
-    "lastSeen": "2026-04-12T05:37:04.368Z",
+    "lastSeen": "2026-04-12T05:58:56.946Z",
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
