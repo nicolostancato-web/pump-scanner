@@ -6160,12 +6160,17 @@
     "confirmed": false
   },
   "46RPes5Ei47jLQxmhRYbvGZWnEvFnEY9j2T3CXox3hzU": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "STC",
         "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
         "entryTime": "2026-04-12T02:35:21.407Z"
+      },
+      {
+        "symbol": "PAMP",
+        "pairAddress": "4gkU3kEbYxaoxxfAbbMEN1ZvLG9cjWwFDudgWC9u2yXr",
+        "entryTime": "2026-04-12T17:48:37.191Z"
       }
     ],
     "wins": 0,
@@ -6173,7 +6178,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:35:21.407Z",
-    "lastSeen": "2026-04-12T02:35:21.407Z",
+    "lastSeen": "2026-04-12T17:48:37.191Z",
     "confirmed": false
   },
   "9awhNmqQYwNHGhEZjuwNdNRCoxaTp6jd6vY17H8e68PF": {
