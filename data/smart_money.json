@@ -4705,7 +4705,7 @@
     "confirmed": false
   },
   "FireuLYd4yjJBhXQyBs3Mq6ZpNEjyHPNPG2eqhTP9RHV": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -4721,6 +4721,11 @@
         "symbol": "EDWARD ",
         "pairAddress": "6BXk8V6UALTkkTuSmFa4ugLXLpKguf8y8oiFQdA5KFfU",
         "entryTime": "2026-04-12T19:03:56.124Z"
+      },
+      {
+        "symbol": "RND",
+        "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
+        "entryTime": "2026-04-12T19:41:36.343Z"
       }
     ],
     "wins": 0,
@@ -4728,7 +4733,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T01:19:49.311Z",
-    "lastSeen": "2026-04-12T19:03:56.124Z",
+    "lastSeen": "2026-04-12T19:41:36.343Z",
     "confirmed": true
   },
   "Aet81p95mmuKjmMZPqDPmnupgU6RmQT3MmM4JojBEcst": {
@@ -24285,6 +24290,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T19:29:37.619Z",
     "lastSeen": "2026-04-12T19:29:37.619Z",
+    "confirmed": false
+  },
+  "8r2n2eFgVCKXCRteE7DRssCWXH4fNBhmsHoRAJJmwXeD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "RND",
+        "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
+        "entryTime": "2026-04-12T19:41:36.343Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T19:41:36.343Z",
+    "lastSeen": "2026-04-12T19:41:36.343Z",
     "confirmed": false
   }
 }
