@@ -4285,7 +4285,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -4306,6 +4306,11 @@
         "symbol": "PIZZA",
         "pairAddress": "E4DNWCDvgf7z7xWksJXn1YtRpbGnQThKhLsEPfBnC4V4",
         "entryTime": "2026-04-12T17:23:57.223Z"
+      },
+      {
+        "symbol": "EDWARD ",
+        "pairAddress": "6BXk8V6UALTkkTuSmFa4ugLXLpKguf8y8oiFQdA5KFfU",
+        "entryTime": "2026-04-12T19:13:10.335Z"
       }
     ],
     "wins": 0,
@@ -4313,7 +4318,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:46:15.396Z",
-    "lastSeen": "2026-04-12T17:23:57.223Z",
+    "lastSeen": "2026-04-12T19:13:10.335Z",
     "confirmed": true
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
@@ -24041,6 +24046,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T17:50:46.592Z",
     "lastSeen": "2026-04-12T17:50:46.592Z",
+    "confirmed": false
+  },
+  "923CHDkE5CXEQW5fzdPFGXDAgpP8bstxjxzqJaqEYr3e": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "EDWARD ",
+        "pairAddress": "6BXk8V6UALTkkTuSmFa4ugLXLpKguf8y8oiFQdA5KFfU",
+        "entryTime": "2026-04-12T19:13:10.335Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T19:13:10.335Z",
+    "lastSeen": "2026-04-12T19:13:10.335Z",
     "confirmed": false
   }
 }
