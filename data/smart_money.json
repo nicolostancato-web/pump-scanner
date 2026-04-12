@@ -5464,7 +5464,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5515,6 +5515,11 @@
         "symbol": "PAMP",
         "pairAddress": "4gkU3kEbYxaoxxfAbbMEN1ZvLG9cjWwFDudgWC9u2yXr",
         "entryTime": "2026-04-12T17:27:19.394Z"
+      },
+      {
+        "symbol": "Rooster",
+        "pairAddress": "sti1RDjPrWH1BPxor7cCRkNGkZyT7Xf7KZDbJthq2QB",
+        "entryTime": "2026-04-12T21:44:38.815Z"
       }
     ],
     "wins": 0,
@@ -5522,7 +5527,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-12T17:27:19.394Z",
+    "lastSeen": "2026-04-12T21:44:38.815Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
@@ -25293,6 +25298,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T21:42:04.109Z",
     "lastSeen": "2026-04-12T21:42:04.109Z",
+    "confirmed": false
+  },
+  "AHtbXBt8K5k3ZweBL1zJ6vxqrax8qXAghna6XjytqLKs": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Rooster",
+        "pairAddress": "sti1RDjPrWH1BPxor7cCRkNGkZyT7Xf7KZDbJthq2QB",
+        "entryTime": "2026-04-12T21:44:38.815Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T21:44:38.815Z",
+    "lastSeen": "2026-04-12T21:44:38.815Z",
     "confirmed": false
   }
 }
