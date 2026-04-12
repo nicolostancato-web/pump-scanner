@@ -7689,12 +7689,17 @@
     "confirmed": false
   },
   "2f5oooZiJDXBdYkhJz1nirj1wqLjiF1FrjDwBGLdvmKE": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "STC",
         "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
         "entryTime": "2026-04-12T03:34:57.983Z"
+      },
+      {
+        "symbol": "CohenCoin",
+        "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
+        "entryTime": "2026-04-12T14:04:32.079Z"
       }
     ],
     "wins": 0,
@@ -7702,7 +7707,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T03:34:57.983Z",
-    "lastSeen": "2026-04-12T03:34:57.983Z",
+    "lastSeen": "2026-04-12T14:04:32.079Z",
     "confirmed": false
   },
   "BeFy9kiHtTFAdYhHA7UWefSQjULC1kJrNXwrju3xajqp": {
@@ -20440,6 +20445,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T14:03:53.930Z",
     "lastSeen": "2026-04-12T14:03:53.930Z",
+    "confirmed": false
+  },
+  "5G5oyqkhGAPfV7tGodKuYDETj4tUdDnpMEwo6XXZ9koa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CohenCoin",
+        "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
+        "entryTime": "2026-04-12T14:04:32.079Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T14:04:32.079Z",
+    "lastSeen": "2026-04-12T14:04:32.079Z",
     "confirmed": false
   }
 }
