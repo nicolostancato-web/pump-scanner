@@ -20855,7 +20855,7 @@
     "confirmed": false
   },
   "WARqv4NderMY7wJnFh3C527BSwkWRKoNrXFiMdZ4bBT": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "CohenCoin",
@@ -20866,6 +20866,11 @@
         "symbol": "EDWARD ",
         "pairAddress": "6BXk8V6UALTkkTuSmFa4ugLXLpKguf8y8oiFQdA5KFfU",
         "entryTime": "2026-04-12T18:57:22.495Z"
+      },
+      {
+        "symbol": "RND",
+        "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
+        "entryTime": "2026-04-12T20:13:06.732Z"
       }
     ],
     "wins": 0,
@@ -20873,8 +20878,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T14:26:26.489Z",
-    "lastSeen": "2026-04-12T18:57:22.495Z",
-    "confirmed": false
+    "lastSeen": "2026-04-12T20:13:06.732Z",
+    "confirmed": true
   },
   "64A4HMRTY1Ars3BLbTNsCyJRi7ctC6JSAugWmCoB7zTP": {
     "appearances": 1,
