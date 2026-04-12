@@ -9586,12 +9586,17 @@
     "confirmed": false
   },
   "8khY2f6ERsm6gN42JjTw2sQyy4ToEQD95LAou5h8u8QC": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MONKOO",
         "pairAddress": "EqjbMXVJqsCUNykbRRxWj9PuhGvJaKM6G7DEZMGqkWEk",
         "entryTime": "2026-04-12T04:42:12.773Z"
+      },
+      {
+        "symbol": "Hermes",
+        "pairAddress": "5dyariEFyBo8DtdnWssTHdHwEcGHd8TztcmUKtmFnNWH",
+        "entryTime": "2026-04-12T23:09:45.651Z"
       }
     ],
     "wins": 0,
@@ -9599,7 +9604,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T04:42:12.773Z",
-    "lastSeen": "2026-04-12T04:42:12.773Z",
+    "lastSeen": "2026-04-12T23:09:45.651Z",
     "confirmed": false
   },
   "7AyTTtykYMf5MCxWNUspxxGhrLuKoQH6RkzoRjjTpJy5": {
@@ -27286,6 +27291,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T23:09:17.876Z",
     "lastSeen": "2026-04-12T23:09:17.876Z",
+    "confirmed": false
+  },
+  "CeZSeR5k3dB6prMAZeaeUWsNcKdMPbJhGHsUuHcYUZAv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Hermes",
+        "pairAddress": "5dyariEFyBo8DtdnWssTHdHwEcGHd8TztcmUKtmFnNWH",
+        "entryTime": "2026-04-12T23:09:45.651Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T23:09:45.651Z",
+    "lastSeen": "2026-04-12T23:09:45.651Z",
     "confirmed": false
   }
 }
