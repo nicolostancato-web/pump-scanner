@@ -11119,12 +11119,17 @@
     "confirmed": false
   },
   "U6UFbjdAwZj59uFzrsuKcaFYzhSTEqDWypYBj5hMC1X": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "GEM",
         "pairAddress": "C8ZtfQxMsUPmnPTtVn7qFqTx6pQcJ1advjtVQSg6Nksv",
         "entryTime": "2026-04-12T06:21:10.910Z"
+      },
+      {
+        "symbol": "YN",
+        "pairAddress": "DALWM8Ph5yjigv2AtHYQCMAuCHXkZMQo3P3gqaJuv695",
+        "entryTime": "2026-04-12T08:16:17.843Z"
       }
     ],
     "wins": 0,
@@ -11132,7 +11137,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T06:21:10.910Z",
-    "lastSeen": "2026-04-12T06:21:10.910Z",
+    "lastSeen": "2026-04-12T08:16:17.843Z",
     "confirmed": false
   },
   "8rpWYFpckr5Zenp2CLb5GtE2gUht27yv2aJJiGUQzzCc": {
