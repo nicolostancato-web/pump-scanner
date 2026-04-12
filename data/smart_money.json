@@ -6918,12 +6918,17 @@
     "confirmed": false
   },
   "H5VLyesqLczjD1QNKuo4zu6xSskkqpWtPjPDBYM7rakr": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "STC",
         "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
         "entryTime": "2026-04-12T03:14:00.233Z"
+      },
+      {
+        "symbol": "MONKOO",
+        "pairAddress": "EqjbMXVJqsCUNykbRRxWj9PuhGvJaKM6G7DEZMGqkWEk",
+        "entryTime": "2026-04-12T05:27:13.947Z"
       }
     ],
     "wins": 0,
@@ -6931,7 +6936,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T03:14:00.233Z",
-    "lastSeen": "2026-04-12T03:14:00.233Z",
+    "lastSeen": "2026-04-12T05:27:13.947Z",
     "confirmed": false
   },
   "fyb2ydVruGqLdyRofQf3313d4eR9mgpd3id6QqNY1wG": {
