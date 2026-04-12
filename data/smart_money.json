@@ -9085,12 +9085,17 @@
     "confirmed": false
   },
   "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MONKOO",
         "pairAddress": "EqjbMXVJqsCUNykbRRxWj9PuhGvJaKM6G7DEZMGqkWEk",
         "entryTime": "2026-04-12T04:29:03.883Z"
+      },
+      {
+        "symbol": "BANI",
+        "pairAddress": "3ArVLZbgpJnsse18pigFJvuhmf2BhiCPX6XZLHF4e6i7",
+        "entryTime": "2026-04-12T10:38:58.242Z"
       }
     ],
     "wins": 0,
@@ -9098,7 +9103,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T04:29:03.883Z",
-    "lastSeen": "2026-04-12T04:29:03.883Z",
+    "lastSeen": "2026-04-12T10:38:58.242Z",
     "confirmed": false
   },
   "5zATNHUNdd4wrs5xrdj9pm6kccVPNF2nyPx9ATdyPy7o": {
@@ -15540,6 +15545,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T10:38:28.534Z",
     "lastSeen": "2026-04-12T10:38:28.534Z",
+    "confirmed": false
+  },
+  "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BANI",
+        "pairAddress": "3ArVLZbgpJnsse18pigFJvuhmf2BhiCPX6XZLHF4e6i7",
+        "entryTime": "2026-04-12T10:38:58.242Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T10:38:58.242Z",
+    "lastSeen": "2026-04-12T10:38:58.242Z",
     "confirmed": false
   }
 }
