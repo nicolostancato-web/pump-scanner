@@ -11615,12 +11615,17 @@
     "confirmed": false
   },
   "XSAMvGwLyErt7dLqGPPUnZy4TqaD1EM2mAKwRMvPNwE": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "🪑",
         "pairAddress": "47yRWYckWUBUrbSN7AmhanMDhfydURQf5G3fjhotpjy5",
         "entryTime": "2026-04-12T07:30:00.726Z"
+      },
+      {
+        "symbol": "CohenCoin",
+        "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
+        "entryTime": "2026-04-12T14:33:16.878Z"
       }
     ],
     "wins": 0,
@@ -11628,7 +11633,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T07:30:00.726Z",
-    "lastSeen": "2026-04-12T07:30:00.726Z",
+    "lastSeen": "2026-04-12T14:33:16.878Z",
     "confirmed": false
   },
   "8qNuyLmHumocXjnHXA1eFyuqpo6RzFeWdSS6EH6m55PV": {
