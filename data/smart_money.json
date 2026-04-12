@@ -2905,7 +2905,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -2956,6 +2956,11 @@
         "symbol": "SHI",
         "pairAddress": "GThZCAhKaSmoTbFM8XEG7q6PfTr7vcyMydMYCrQwC51q",
         "entryTime": "2026-04-12T22:00:20.849Z"
+      },
+      {
+        "symbol": "EDWARD",
+        "pairAddress": "C9XrPo31zk7wSoBi6onjnxs9CHdSyds8bdeMqe3Q7QKe",
+        "entryTime": "2026-04-12T22:11:17.142Z"
       }
     ],
     "wins": 0,
@@ -2963,7 +2968,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:12:16.607Z",
-    "lastSeen": "2026-04-12T22:00:20.849Z",
+    "lastSeen": "2026-04-12T22:11:17.142Z",
     "confirmed": true
   },
   "4Ce6DBKpY5muvvtgAvKxmxBv882w8zrHejE2GbGyozsS": {
