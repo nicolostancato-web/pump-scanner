@@ -771,12 +771,17 @@
     "confirmed": false
   },
   "DXo9z1FEkm6qCuEvwBQvV3ynVoy1uspJZ69ik7B9hbaH": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TRUMP47",
         "pairAddress": "EgcA2ShdHZK4Sg7N6H7yGzTjxpTpunRrbzw231wLWeDh",
         "entryTime": "2026-04-11T23:39:03.874Z"
+      },
+      {
+        "symbol": "Rooster",
+        "pairAddress": "sti1RDjPrWH1BPxor7cCRkNGkZyT7Xf7KZDbJthq2QB",
+        "entryTime": "2026-04-12T21:35:09.489Z"
       }
     ],
     "wins": 0,
@@ -784,7 +789,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:39:03.874Z",
-    "lastSeen": "2026-04-11T23:39:03.874Z",
+    "lastSeen": "2026-04-12T21:35:09.489Z",
     "confirmed": false
   },
   "CE76GRGSiRQdhinoa7YmYArm1Wt17inULeAJw27V5SJB": {
@@ -25176,6 +25181,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T21:30:35.936Z",
     "lastSeen": "2026-04-12T21:30:35.936Z",
+    "confirmed": false
+  },
+  "478J6HpokpYymRgmp2TRZJZUJ5ok51PrxKYpoAq8U2i1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Rooster",
+        "pairAddress": "sti1RDjPrWH1BPxor7cCRkNGkZyT7Xf7KZDbJthq2QB",
+        "entryTime": "2026-04-12T21:35:09.489Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T21:35:09.489Z",
+    "lastSeen": "2026-04-12T21:35:09.489Z",
+    "confirmed": false
+  },
+  "J3p6kLe6LB1bFo9g3dRkBbCju9KHNJ92mCwpr1bwbKFB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Rooster",
+        "pairAddress": "sti1RDjPrWH1BPxor7cCRkNGkZyT7Xf7KZDbJthq2QB",
+        "entryTime": "2026-04-12T21:35:09.489Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T21:35:09.489Z",
+    "lastSeen": "2026-04-12T21:35:09.489Z",
     "confirmed": false
   }
 }
