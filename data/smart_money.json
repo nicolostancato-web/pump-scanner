@@ -17135,5 +17135,39 @@
     "firstSeen": "2026-04-12T11:38:03.846Z",
     "lastSeen": "2026-04-12T11:38:03.846Z",
     "confirmed": false
+  },
+  "236b9kmRXXG4PAP5CUJHQRnnDBJzpMjzV89k1PYUqXAN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "sydney",
+        "pairAddress": "2fKnHjoPasvfG6LDvk85L9XbzJNWfUYBd8bfGj7MAPWq",
+        "entryTime": "2026-04-12T11:40:45.832Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T11:40:45.832Z",
+    "lastSeen": "2026-04-12T11:40:45.832Z",
+    "confirmed": false
+  },
+  "ENJEZauQAwrEpXPmDoS5ZUdmJMEq2mQ7DwdBwYBoqX1X": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "sydney",
+        "pairAddress": "2fKnHjoPasvfG6LDvk85L9XbzJNWfUYBd8bfGj7MAPWq",
+        "entryTime": "2026-04-12T11:40:45.832Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T11:40:45.832Z",
+    "lastSeen": "2026-04-12T11:40:45.832Z",
+    "confirmed": false
   }
 }
