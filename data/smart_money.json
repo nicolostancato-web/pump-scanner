@@ -2865,7 +2865,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -2891,6 +2891,11 @@
         "symbol": "Mia",
         "pairAddress": "FRKRqb7F34G82NpjofJbmW27BsjpFE7N4AAxpKJMvVJ6",
         "entryTime": "2026-04-12T05:57:48.721Z"
+      },
+      {
+        "symbol": "GEM",
+        "pairAddress": "C8ZtfQxMsUPmnPTtVn7qFqTx6pQcJ1advjtVQSg6Nksv",
+        "entryTime": "2026-04-12T06:12:31.738Z"
       }
     ],
     "wins": 0,
@@ -2898,7 +2903,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:12:16.607Z",
-    "lastSeen": "2026-04-12T05:57:48.721Z",
+    "lastSeen": "2026-04-12T06:12:31.738Z",
     "confirmed": true
   },
   "4Ce6DBKpY5muvvtgAvKxmxBv882w8zrHejE2GbGyozsS": {
@@ -10836,6 +10841,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T06:11:59.454Z",
     "lastSeen": "2026-04-12T06:11:59.454Z",
+    "confirmed": false
+  },
+  "9yCDkpYssZi2xjqBnChuSLt4PYGhq4t5rg66ajgBqmfy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GEM",
+        "pairAddress": "C8ZtfQxMsUPmnPTtVn7qFqTx6pQcJ1advjtVQSg6Nksv",
+        "entryTime": "2026-04-12T06:12:31.738Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T06:12:31.738Z",
+    "lastSeen": "2026-04-12T06:12:31.738Z",
     "confirmed": false
   }
 }
