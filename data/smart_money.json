@@ -3436,12 +3436,17 @@
     "confirmed": false
   },
   "3kUYSWfV6RoQnJWszaUXnMiuAaztqfC5tmEGgCF9JGu8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
         "pairAddress": "6KuCNvUu9NsgTFyo1vQGfeFqsoKq7Jq19LhZeQwtMMVr",
         "entryTime": "2026-04-12T00:21:37.377Z"
+      },
+      {
+        "symbol": "PIZZA",
+        "pairAddress": "E4DNWCDvgf7z7xWksJXn1YtRpbGnQThKhLsEPfBnC4V4",
+        "entryTime": "2026-04-12T17:30:21.238Z"
       }
     ],
     "wins": 0,
@@ -3449,7 +3454,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:21:37.377Z",
-    "lastSeen": "2026-04-12T00:21:37.377Z",
+    "lastSeen": "2026-04-12T17:30:21.238Z",
     "confirmed": false
   },
   "HqiK74fhBksupc9ZNXz6PrqVPiSgUDS3F3KqmeK3mkAZ": {
