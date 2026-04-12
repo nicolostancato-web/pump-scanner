@@ -5257,5 +5257,22 @@
     "firstSeen": "2026-04-12T02:11:39.853Z",
     "lastSeen": "2026-04-12T02:11:39.853Z",
     "confirmed": false
+  },
+  "DQ3denvwhWbYQGnPqTL9e56ohNworUcC3xk91S74Sgu1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Zoomer",
+        "pairAddress": "EvDD7gjtfLETpF8m8boLppTCHosWoyoy43AKSttyRia9",
+        "entryTime": "2026-04-12T02:12:10.834Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T02:12:10.834Z",
+    "lastSeen": "2026-04-12T02:12:10.834Z",
+    "confirmed": false
   }
 }
