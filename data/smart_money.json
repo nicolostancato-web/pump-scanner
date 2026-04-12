@@ -14786,7 +14786,7 @@
     "confirmed": false
   },
   "STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Nimbus",
@@ -14797,6 +14797,11 @@
         "symbol": "sydney",
         "pairAddress": "2fKnHjoPasvfG6LDvk85L9XbzJNWfUYBd8bfGj7MAPWq",
         "entryTime": "2026-04-12T11:28:41.566Z"
+      },
+      {
+        "symbol": "CHAIRTRUMP",
+        "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
+        "entryTime": "2026-04-12T16:48:42.504Z"
       }
     ],
     "wins": 0,
@@ -14804,8 +14809,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T10:04:50.460Z",
-    "lastSeen": "2026-04-12T11:28:41.566Z",
-    "confirmed": false
+    "lastSeen": "2026-04-12T16:48:42.504Z",
+    "confirmed": true
   },
   "92mraHEt4R1QgTwSVXPHxFdpB6JKfrmH1TJsUvvUVWi2": {
     "appearances": 1,
@@ -22623,6 +22628,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T16:48:13.735Z",
     "lastSeen": "2026-04-12T16:48:13.735Z",
+    "confirmed": false
+  },
+  "JY1AbUZ1kw9YtimVkzZVuAXEo7Mmx4RYVayLSZwbrfk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHAIRTRUMP",
+        "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
+        "entryTime": "2026-04-12T16:48:42.504Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T16:48:42.504Z",
+    "lastSeen": "2026-04-12T16:48:42.504Z",
     "confirmed": false
   }
 }
