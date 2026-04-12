@@ -12526,12 +12526,17 @@
     "confirmed": false
   },
   "7e3KPsCeDpdpNdHAwtoJWabaGt16Da8hbUhrAndHGN1M": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "YN",
         "pairAddress": "DALWM8Ph5yjigv2AtHYQCMAuCHXkZMQo3P3gqaJuv695",
         "entryTime": "2026-04-12T08:15:06.844Z"
+      },
+      {
+        "symbol": "IRT",
+        "pairAddress": "DyotjeaW3tNzsDbJonaLDcpEFnojL4MuyufhtFLpYoaG",
+        "entryTime": "2026-04-12T22:54:32.978Z"
       }
     ],
     "wins": 0,
@@ -12539,7 +12544,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T08:15:06.844Z",
-    "lastSeen": "2026-04-12T08:15:06.844Z",
+    "lastSeen": "2026-04-12T22:54:32.978Z",
     "confirmed": false
   },
   "7b4ohSrmF75jpqhmpmz4NsEiZcZtV8aomzUfYqm7H3mR": {
@@ -26748,6 +26753,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T22:51:59.409Z",
     "lastSeen": "2026-04-12T22:51:59.409Z",
+    "confirmed": false
+  },
+  "VvtvZzR311BFvERz2exEcFEYrrnXSd8KpSzj7Ky9aM9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "IRT",
+        "pairAddress": "DyotjeaW3tNzsDbJonaLDcpEFnojL4MuyufhtFLpYoaG",
+        "entryTime": "2026-04-12T22:54:32.978Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T22:54:32.978Z",
+    "lastSeen": "2026-04-12T22:54:32.978Z",
     "confirmed": false
   }
 }
