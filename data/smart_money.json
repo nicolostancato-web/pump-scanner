@@ -2786,7 +2786,7 @@
     "confirmed": false
   },
   "2VVFbdf6RVcKNxMHtcBwskLwoKAEAqnHpNzWTGepyV7N": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -2797,6 +2797,11 @@
         "symbol": "Zoomer",
         "pairAddress": "EvDD7gjtfLETpF8m8boLppTCHosWoyoy43AKSttyRia9",
         "entryTime": "2026-04-12T01:59:48.271Z"
+      },
+      {
+        "symbol": "IRT",
+        "pairAddress": "DyotjeaW3tNzsDbJonaLDcpEFnojL4MuyufhtFLpYoaG",
+        "entryTime": "2026-04-12T22:55:05.394Z"
       }
     ],
     "wins": 0,
@@ -2804,8 +2809,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:10:42.211Z",
-    "lastSeen": "2026-04-12T01:59:48.271Z",
-    "confirmed": false
+    "lastSeen": "2026-04-12T22:55:05.394Z",
+    "confirmed": true
   },
   "7GnHhoMHhCMYY8sBpNazKSDikTd3QG5Qp7LM3biyWYJQ": {
     "appearances": 1,
@@ -24643,12 +24648,17 @@
     "confirmed": false
   },
   "LfEcaUf77iEhnz6gFpLqYgDb5Uk6Ekc5n69wu7Qa9Uw": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CHIITAN",
         "pairAddress": "BBNstNZdJjNtKtRFeuztkrjUm4V61gocNsmb1oXa2F61",
         "entryTime": "2026-04-12T20:59:28.959Z"
+      },
+      {
+        "symbol": "IRT",
+        "pairAddress": "DyotjeaW3tNzsDbJonaLDcpEFnojL4MuyufhtFLpYoaG",
+        "entryTime": "2026-04-12T22:55:05.394Z"
       }
     ],
     "wins": 0,
@@ -24656,7 +24666,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T20:59:28.959Z",
-    "lastSeen": "2026-04-12T20:59:28.959Z",
+    "lastSeen": "2026-04-12T22:55:05.394Z",
     "confirmed": false
   },
   "D2zb5kftxh5Ax5a3xsazLw2RrND94AgaAT3dDurWL9Zt": {
