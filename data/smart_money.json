@@ -4005,12 +4005,17 @@
     "confirmed": false
   },
   "82QuQ8mpqKnkvhsXcfRQ4CnLXip6RxXCYrKAxzucZaG1": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
         "pairAddress": "6KuCNvUu9NsgTFyo1vQGfeFqsoKq7Jq19LhZeQwtMMVr",
         "entryTime": "2026-04-12T00:41:55.439Z"
+      },
+      {
+        "symbol": "CHAIRTRUMP",
+        "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
+        "entryTime": "2026-04-12T16:41:37.887Z"
       }
     ],
     "wins": 0,
@@ -4018,7 +4023,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:41:55.439Z",
-    "lastSeen": "2026-04-12T00:41:55.439Z",
+    "lastSeen": "2026-04-12T16:41:37.887Z",
     "confirmed": false
   },
   "EEhu7YZ6w8Jrx5vH5ctb8LkFBL9EKzumAFGshvUPu8A2": {
@@ -22404,6 +22409,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T16:40:58.604Z",
     "lastSeen": "2026-04-12T16:40:58.604Z",
+    "confirmed": false
+  },
+  "66QsMntA6UQjezSkzvtbHeGLvepTwfjx4nsZkqXGiEjD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHAIRTRUMP",
+        "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
+        "entryTime": "2026-04-12T16:41:37.887Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T16:41:37.887Z",
+    "lastSeen": "2026-04-12T16:41:37.887Z",
+    "confirmed": false
+  },
+  "9FxUzvkttQsJxkywuuxBgwEMFZATXCJP2RvKBcYnJpBy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHAIRTRUMP",
+        "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
+        "entryTime": "2026-04-12T16:41:37.887Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T16:41:37.887Z",
+    "lastSeen": "2026-04-12T16:41:37.887Z",
+    "confirmed": false
+  },
+  "J8qaqX5DR836VZLuo6SubjnjQUvbH1vEiVQN63G23kaE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHAIRTRUMP",
+        "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
+        "entryTime": "2026-04-12T16:41:37.887Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T16:41:37.887Z",
+    "lastSeen": "2026-04-12T16:41:37.887Z",
     "confirmed": false
   }
 }
