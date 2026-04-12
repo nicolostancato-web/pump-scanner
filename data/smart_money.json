@@ -5334,7 +5334,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5375,6 +5375,11 @@
         "symbol": "CohenCoin",
         "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
         "entryTime": "2026-04-12T14:10:12.669Z"
+      },
+      {
+        "symbol": "CHAIRTRUMP",
+        "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
+        "entryTime": "2026-04-12T16:37:26.482Z"
       }
     ],
     "wins": 0,
@@ -5382,7 +5387,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-12T14:10:12.669Z",
+    "lastSeen": "2026-04-12T16:37:26.482Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
@@ -22212,6 +22217,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-12T16:36:54.803Z",
     "lastSeen": "2026-04-12T16:36:54.803Z",
+    "confirmed": false
+  },
+  "9BjjQWi6bb2AxXrgU6xgnhWorpoaRtxrexFdXXq8uCR8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHAIRTRUMP",
+        "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
+        "entryTime": "2026-04-12T16:37:26.482Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-12T16:37:26.482Z",
+    "lastSeen": "2026-04-12T16:37:26.482Z",
     "confirmed": false
   }
 }
