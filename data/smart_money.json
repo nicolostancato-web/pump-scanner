@@ -11687,12 +11687,17 @@
     "confirmed": false
   },
   "CzYQ2kFnBxsNEt9Zy34vQ3n5fSDhvA4o4XaTnq1rLvyr": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "🪑",
         "pairAddress": "47yRWYckWUBUrbSN7AmhanMDhfydURQf5G3fjhotpjy5",
         "entryTime": "2026-04-12T07:10:36.684Z"
+      },
+      {
+        "symbol": "RND",
+        "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
+        "entryTime": "2026-04-12T19:23:01.772Z"
       }
     ],
     "wins": 0,
@@ -11700,7 +11705,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T07:10:36.684Z",
-    "lastSeen": "2026-04-12T07:10:36.684Z",
+    "lastSeen": "2026-04-12T19:23:01.772Z",
     "confirmed": false
   },
   "LASTvjDWkbXM1RwUCiniHqGLSEH5xJinDRs56wNPQr9": {
