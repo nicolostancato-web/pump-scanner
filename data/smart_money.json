@@ -5524,7 +5524,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 14,
+    "appearances": 15,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5595,6 +5595,11 @@
         "symbol": "REXIE",
         "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
         "entryTime": "2026-04-12T23:45:38.055Z"
+      },
+      {
+        "symbol": "Pekachu",
+        "pairAddress": "AHUdhcock7RWZBi5PFE4gkurStV7oBKCQYiLF1ooxqp",
+        "entryTime": "2026-04-13T00:32:51.090Z"
       }
     ],
     "wins": 0,
@@ -5602,7 +5607,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-12T23:45:38.055Z",
+    "lastSeen": "2026-04-13T00:32:51.090Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
@@ -29887,6 +29892,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T00:32:17.714Z",
     "lastSeen": "2026-04-13T00:32:17.714Z",
+    "confirmed": false
+  },
+  "8wpTRXCp7CEZjdfJMrSeWnZ7CjUw6nNSk473JBsJ5Y5b": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Pekachu",
+        "pairAddress": "AHUdhcock7RWZBi5PFE4gkurStV7oBKCQYiLF1ooxqp",
+        "entryTime": "2026-04-13T00:32:51.090Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T00:32:51.090Z",
+    "lastSeen": "2026-04-13T00:32:51.090Z",
+    "confirmed": false
+  },
+  "GsokwqECYcprwbsUVNozFSXYFYP3cv4JUpMrTB1vKxCN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Pekachu",
+        "pairAddress": "AHUdhcock7RWZBi5PFE4gkurStV7oBKCQYiLF1ooxqp",
+        "entryTime": "2026-04-13T00:32:51.090Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T00:32:51.090Z",
+    "lastSeen": "2026-04-13T00:32:51.090Z",
+    "confirmed": false
+  },
+  "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Pekachu",
+        "pairAddress": "AHUdhcock7RWZBi5PFE4gkurStV7oBKCQYiLF1ooxqp",
+        "entryTime": "2026-04-13T00:32:51.090Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T00:32:51.090Z",
+    "lastSeen": "2026-04-13T00:32:51.090Z",
     "confirmed": false
   }
 }
