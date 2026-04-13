@@ -136,7 +136,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 11,
+    "appearances": 12,
     "tokens": [
       {
         "symbol": "TRUMP47",
@@ -192,6 +192,11 @@
         "symbol": "REXIE",
         "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
         "entryTime": "2026-04-12T23:50:42.214Z"
+      },
+      {
+        "symbol": "Autism",
+        "pairAddress": "2KgwfPBRUTCJVbQdRbsryhnyKuGs51Apsm26ckm598QS",
+        "entryTime": "2026-04-13T04:23:42.205Z"
       }
     ],
     "wins": 0,
@@ -199,7 +204,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:30:13.922Z",
-    "lastSeen": "2026-04-12T23:50:42.214Z",
+    "lastSeen": "2026-04-13T04:23:42.205Z",
     "confirmed": true
   },
   "AAhetjzX7conwYjk7jQz8XngwAJLqSpy7NJzG1Bm8Qn7": {
@@ -32882,6 +32887,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T04:23:08.684Z",
     "lastSeen": "2026-04-13T04:23:08.684Z",
+    "confirmed": false
+  },
+  "2ysqm5axreKzSmAHo6paW5TwTFUpijxUKRkP9nq7Ruju": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Autism",
+        "pairAddress": "2KgwfPBRUTCJVbQdRbsryhnyKuGs51Apsm26ckm598QS",
+        "entryTime": "2026-04-13T04:23:42.205Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T04:23:42.205Z",
+    "lastSeen": "2026-04-13T04:23:42.205Z",
     "confirmed": false
   }
 }
