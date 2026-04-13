@@ -700,5 +700,22 @@
     "firstSeen": "2026-04-13T09:22:01.313Z",
     "lastSeen": "2026-04-13T09:22:01.313Z",
     "confirmed": false
+  },
+  "GZyjTmMxd5ipKvuvC2pgYedzotH76HuQP2UYC4vCYjHk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "JesusTremp",
+        "pairAddress": "5zpvGmFuRJ58yQCkjF91VfEFgWV2zdcsQAHACvRVrYv1",
+        "entryTime": "2026-04-13T09:22:46.792Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T09:22:46.792Z",
+    "lastSeen": "2026-04-13T09:22:46.792Z",
+    "confirmed": false
   }
 }
