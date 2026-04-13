@@ -1146,7 +1146,7 @@
     "confirmed": false
   },
   "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "TRUMP47",
@@ -1182,6 +1182,11 @@
         "symbol": "MIMI",
         "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
         "entryTime": "2026-04-13T07:16:13.223Z"
+      },
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T08:34:58.113Z"
       }
     ],
     "wins": 0,
@@ -1189,7 +1194,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:44:33.638Z",
-    "lastSeen": "2026-04-13T07:16:13.223Z",
+    "lastSeen": "2026-04-13T08:34:58.113Z",
     "confirmed": true
   },
   "CCtAjShxoRFVrZ98TiBMRLDSnaCnRiLCAkLu4SU2NjU5": {
@@ -39222,6 +39227,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T08:34:22.312Z",
     "lastSeen": "2026-04-13T08:34:22.312Z",
+    "confirmed": false
+  },
+  "2R7nCE5EfqUkTJUgPEYoAs57eyiYGou89uCutFa5idzi": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T08:34:58.113Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T08:34:58.113Z",
+    "lastSeen": "2026-04-13T08:34:58.113Z",
     "confirmed": false
   }
 }
