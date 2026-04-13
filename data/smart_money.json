@@ -11920,5 +11920,22 @@
     "firstSeen": "2026-04-13T17:53:01.192Z",
     "lastSeen": "2026-04-13T17:53:01.192Z",
     "confirmed": false
+  },
+  "EBaPb3WJbSWCbRPAEmfjZo4Jx4JeUDXMuxXEg6cHMFEk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Milka",
+        "pairAddress": "6eXx5tfsEMrwDjYApKqadkcioLAVG2dYAu6fduT1TNP3",
+        "entryTime": "2026-04-13T17:55:00.275Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T17:55:00.275Z",
+    "lastSeen": "2026-04-13T17:55:00.275Z",
+    "confirmed": false
   }
 }
