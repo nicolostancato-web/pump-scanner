@@ -569,7 +569,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "pumphouse",
@@ -590,6 +590,11 @@
         "symbol": "Wagie",
         "pairAddress": "HzYg9Fh8fvAbav4chabEsKjQPb1SYp19x6yvxGTJgune",
         "entryTime": "2026-04-13T11:49:44.217Z"
+      },
+      {
+        "symbol": "Hikikomori",
+        "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
+        "entryTime": "2026-04-13T16:42:05.468Z"
       }
     ],
     "wins": 0,
@@ -597,7 +602,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:05:38.969Z",
-    "lastSeen": "2026-04-13T11:49:44.217Z",
+    "lastSeen": "2026-04-13T16:42:05.468Z",
     "confirmed": true
   },
   "85pLpaUF2R9SDkGYUMc69gcfo4Xa8GzUwKVg68A6UFoq": {
@@ -10500,6 +10505,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T16:39:26.120Z",
     "lastSeen": "2026-04-13T16:39:26.120Z",
+    "confirmed": false
+  },
+  "GfuMVbZJf6sQvfNvPuaLWcFgq3SFb6pLYyeTAEeZn3KU": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Hikikomori",
+        "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
+        "entryTime": "2026-04-13T16:42:05.468Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T16:42:05.468Z",
+    "lastSeen": "2026-04-13T16:42:05.468Z",
     "confirmed": false
   }
 }
