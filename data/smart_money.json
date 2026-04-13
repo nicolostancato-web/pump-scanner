@@ -21832,12 +21832,17 @@
     "confirmed": false
   },
   "7XPu5j9LPRi9CythzNeC8EDbSHounnFY6tD7duJrqbKz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CHAIRTRUMP",
         "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
         "entryTime": "2026-04-12T15:49:56.222Z"
+      },
+      {
+        "symbol": "CHOP",
+        "pairAddress": "9m1K1SW81EpDCuB3k8JFwtpBuXgXzhJaZ5EJwZogPxxT",
+        "entryTime": "2026-04-13T08:00:42.037Z"
       }
     ],
     "wins": 0,
@@ -21845,7 +21850,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T15:49:56.222Z",
-    "lastSeen": "2026-04-12T15:49:56.222Z",
+    "lastSeen": "2026-04-13T08:00:42.037Z",
     "confirmed": false
   },
   "DQWT9YQFNLcATBoaQfRx6uBYAJf916W22SvGRv5YQB9M": {
@@ -38201,6 +38206,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T07:59:54.653Z",
     "lastSeen": "2026-04-13T07:59:54.653Z",
+    "confirmed": false
+  },
+  "HRdVkKX2p9VqZLxGPCvDJP8Q2LJYuVVqMaQLV5375uCE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHOP",
+        "pairAddress": "9m1K1SW81EpDCuB3k8JFwtpBuXgXzhJaZ5EJwZogPxxT",
+        "entryTime": "2026-04-13T08:00:42.037Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T08:00:42.037Z",
+    "lastSeen": "2026-04-13T08:00:42.037Z",
     "confirmed": false
   }
 }
