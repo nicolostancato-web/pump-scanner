@@ -5644,7 +5644,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 17,
+    "appearances": 18,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5730,6 +5730,11 @@
         "symbol": "Autism",
         "pairAddress": "2KgwfPBRUTCJVbQdRbsryhnyKuGs51Apsm26ckm598QS",
         "entryTime": "2026-04-13T04:23:08.684Z"
+      },
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T06:19:54.985Z"
       }
     ],
     "wins": 0,
@@ -5737,7 +5742,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-13T04:23:08.684Z",
+    "lastSeen": "2026-04-13T06:19:54.985Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
@@ -35812,6 +35817,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T06:19:23.964Z",
     "lastSeen": "2026-04-13T06:19:23.964Z",
+    "confirmed": false
+  },
+  "PQg7N51sXn4EmUpp5GhAe3jH9G9rrmcxnRQyGrpKiNm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T06:19:54.985Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T06:19:54.985Z",
+    "lastSeen": "2026-04-13T06:19:54.985Z",
     "confirmed": false
   }
 }
