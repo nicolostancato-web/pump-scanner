@@ -549,7 +549,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "pumphouse",
@@ -560,6 +560,11 @@
         "symbol": "JesusTremp",
         "pairAddress": "5zpvGmFuRJ58yQCkjF91VfEFgWV2zdcsQAHACvRVrYv1",
         "entryTime": "2026-04-13T09:12:42.051Z"
+      },
+      {
+        "symbol": "FI/RE",
+        "pairAddress": "DVZ87SGdLaaborpbZQCrMmEcAZVDw6puntqyLsA4cSwp",
+        "entryTime": "2026-04-13T10:51:17.759Z"
       }
     ],
     "wins": 0,
@@ -567,8 +572,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:05:38.969Z",
-    "lastSeen": "2026-04-13T09:12:42.051Z",
-    "confirmed": false
+    "lastSeen": "2026-04-13T10:51:17.759Z",
+    "confirmed": true
   },
   "85pLpaUF2R9SDkGYUMc69gcfo4Xa8GzUwKVg68A6UFoq": {
     "appearances": 1,
@@ -2438,6 +2443,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T10:50:48.566Z",
     "lastSeen": "2026-04-13T10:50:48.566Z",
+    "confirmed": false
+  },
+  "GAaKhvMgSKz8XW7i6vpbtB75MizATbNdTKfo7kACWAaz": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FI/RE",
+        "pairAddress": "DVZ87SGdLaaborpbZQCrMmEcAZVDw6puntqyLsA4cSwp",
+        "entryTime": "2026-04-13T10:51:17.759Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T10:51:17.759Z",
+    "lastSeen": "2026-04-13T10:51:17.759Z",
     "confirmed": false
   }
 }
