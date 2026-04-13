@@ -136,7 +136,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 13,
+    "appearances": 14,
     "tokens": [
       {
         "symbol": "TRUMP47",
@@ -202,6 +202,11 @@
         "symbol": "BTCBULL",
         "pairAddress": "FUvRXTnqbQFGdFBodwD3oq75AVT5ZLPwL9JNQqovghg9",
         "entryTime": "2026-04-13T04:40:51.231Z"
+      },
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T06:35:06.237Z"
       }
     ],
     "wins": 0,
@@ -209,7 +214,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:30:13.922Z",
-    "lastSeen": "2026-04-13T04:40:51.231Z",
+    "lastSeen": "2026-04-13T06:35:06.237Z",
     "confirmed": true
   },
   "AAhetjzX7conwYjk7jQz8XngwAJLqSpy7NJzG1Bm8Qn7": {
@@ -36021,6 +36026,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T06:30:11.558Z",
     "lastSeen": "2026-04-13T06:30:11.558Z",
+    "confirmed": false
+  },
+  "5Y58MpvJftNWGnyGSVZMGY2YoPABKxnLVXueWCn9YiEV": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T06:35:06.237Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T06:35:06.237Z",
+    "lastSeen": "2026-04-13T06:35:06.237Z",
     "confirmed": false
   }
 }
