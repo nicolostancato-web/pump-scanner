@@ -14184,12 +14184,17 @@
     "confirmed": false
   },
   "2Nm1QWHyQmrLvMESZwvt6uLe31BGz2YBp59Lwcd35UNv": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Table",
         "pairAddress": "eScaeJPmgXK75ViANd48NPzM9CpK5AW9m6rX25v8ttc",
         "entryTime": "2026-04-12T09:04:31.529Z"
+      },
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T07:55:53.391Z"
       }
     ],
     "wins": 0,
@@ -14197,7 +14202,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T09:04:31.529Z",
-    "lastSeen": "2026-04-12T09:04:31.529Z",
+    "lastSeen": "2026-04-13T07:55:53.391Z",
     "confirmed": false
   },
   "HJUNkLeYFgTcAxeieKiC8mGqbChGjA2FMkg7GP53Lkbh": {
