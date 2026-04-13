@@ -23229,12 +23229,17 @@
     "confirmed": false
   },
   "J8xRWJ5E96uvviRcGLQWpEsqoAejWnUkDKLBsH83AigP": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CHAIRTRUMP",
         "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
         "entryTime": "2026-04-12T16:55:39.788Z"
+      },
+      {
+        "symbol": "REXIE",
+        "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
+        "entryTime": "2026-04-13T00:11:17.741Z"
       }
     ],
     "wins": 0,
@@ -23242,7 +23247,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T16:55:39.788Z",
-    "lastSeen": "2026-04-12T16:55:39.788Z",
+    "lastSeen": "2026-04-13T00:11:17.741Z",
     "confirmed": false
   },
   "6AjVQ8NaFXzyZR8YBaB5Go2drdp4q3HbnJFKJCXee9fz": {
@@ -23387,12 +23392,17 @@
     "confirmed": false
   },
   "4JYbzbcx3PSAowDY8SurTNmBSvjSzfDL4H1FuGXJkY55": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CHAIRTRUMP",
         "pairAddress": "CRgsinb76hzcTW7LevxP8tJCpm5KkVsP9GLVQZYHQUdK",
         "entryTime": "2026-04-12T17:01:49.189Z"
+      },
+      {
+        "symbol": "REXIE",
+        "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
+        "entryTime": "2026-04-13T00:11:17.741Z"
       }
     ],
     "wins": 0,
@@ -23400,7 +23410,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T17:01:49.189Z",
-    "lastSeen": "2026-04-12T17:01:49.189Z",
+    "lastSeen": "2026-04-13T00:11:17.741Z",
     "confirmed": false
   },
   "8NFEJU8VoZFtBxZqzU8pRBGEV6smGtEo3H5YRACuC99Y": {
@@ -29087,6 +29097,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T00:06:44.964Z",
     "lastSeen": "2026-04-13T00:06:44.964Z",
+    "confirmed": false
+  },
+  "G7eUH3tv4iDGzr1AQdw7Gs1wheawhc6VaJRccRd3Ctrz": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "REXIE",
+        "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
+        "entryTime": "2026-04-13T00:11:17.741Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T00:11:17.741Z",
+    "lastSeen": "2026-04-13T00:11:17.741Z",
     "confirmed": false
   }
 }
