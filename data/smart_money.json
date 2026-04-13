@@ -4545,7 +4545,7 @@
     "confirmed": true
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -4566,6 +4566,11 @@
         "symbol": "RND",
         "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
         "entryTime": "2026-04-12T20:03:14.274Z"
+      },
+      {
+        "symbol": "DJT",
+        "pairAddress": "6CGkAfPdakLXPDuSgdBN1ZDPARAUo5droLLhK9uwwkcj",
+        "entryTime": "2026-04-13T02:16:29.997Z"
       }
     ],
     "wins": 0,
@@ -4573,7 +4578,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:47:44.252Z",
-    "lastSeen": "2026-04-12T20:03:14.274Z",
+    "lastSeen": "2026-04-13T02:16:29.997Z",
     "confirmed": true
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
@@ -24484,7 +24489,7 @@
     "confirmed": false
   },
   "923CHDkE5CXEQW5fzdPFGXDAgpP8bstxjxzqJaqEYr3e": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "EDWARD ",
@@ -24495,6 +24500,11 @@
         "symbol": "RND",
         "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
         "entryTime": "2026-04-12T20:36:54.389Z"
+      },
+      {
+        "symbol": "DJT",
+        "pairAddress": "6CGkAfPdakLXPDuSgdBN1ZDPARAUo5droLLhK9uwwkcj",
+        "entryTime": "2026-04-13T02:16:29.997Z"
       }
     ],
     "wins": 0,
@@ -24502,8 +24512,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T19:13:10.335Z",
-    "lastSeen": "2026-04-12T20:36:54.389Z",
-    "confirmed": false
+    "lastSeen": "2026-04-13T02:16:29.997Z",
+    "confirmed": true
   },
   "zeronaXJsbvPZFmzytV4RPXWBHQGMFcRCvoYaDNPiRL": {
     "appearances": 1,
