@@ -3679,12 +3679,17 @@
     "confirmed": false
   },
   "NULLioEUhd89Jo5Acm9sX88bwjNjrsAVy6KWkXD7qZh": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
         "pairAddress": "6KuCNvUu9NsgTFyo1vQGfeFqsoKq7Jq19LhZeQwtMMVr",
         "entryTime": "2026-04-12T00:24:09.251Z"
+      },
+      {
+        "symbol": "MARUN",
+        "pairAddress": "8JjcuoaXJwS8gvkfgpNqYd9kKAFbzrrpE8K6iYbbRshK",
+        "entryTime": "2026-04-13T05:49:20.110Z"
       }
     ],
     "wins": 0,
@@ -3692,7 +3697,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:24:09.251Z",
-    "lastSeen": "2026-04-12T00:24:09.251Z",
+    "lastSeen": "2026-04-13T05:49:20.110Z",
     "confirmed": false
   },
   "ENeWn1tue2UHwYom1XNbNdyK3LvuXiZaGUGHrDykj4z8": {
@@ -35615,6 +35620,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T05:46:45.538Z",
     "lastSeen": "2026-04-13T05:46:45.538Z",
+    "confirmed": false
+  },
+  "6LXgCCZygnG2ja16aaVtpeDyQBnCu8bFjfkcL3v1Ajeh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MARUN",
+        "pairAddress": "8JjcuoaXJwS8gvkfgpNqYd9kKAFbzrrpE8K6iYbbRshK",
+        "entryTime": "2026-04-13T05:49:20.110Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T05:49:20.110Z",
+    "lastSeen": "2026-04-13T05:49:20.110Z",
     "confirmed": false
   }
 }
