@@ -30748,12 +30748,17 @@
     "confirmed": false
   },
   "9f8uXsU8TnyKTBArYCFue5dBuBvKgNSQhUTNfDENcHrN": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BabyBull",
         "pairAddress": "DbU5anybx94BSucWiKKtPJoq4vgKUVzLdB6RVnx8ZHC9",
         "entryTime": "2026-04-13T00:49:38.379Z"
+      },
+      {
+        "symbol": "CHOP",
+        "pairAddress": "9m1K1SW81EpDCuB3k8JFwtpBuXgXzhJaZ5EJwZogPxxT",
+        "entryTime": "2026-04-13T08:07:03.147Z"
       }
     ],
     "wins": 0,
@@ -30761,7 +30766,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T00:49:38.379Z",
-    "lastSeen": "2026-04-13T00:49:38.379Z",
+    "lastSeen": "2026-04-13T08:07:03.147Z",
     "confirmed": false
   },
   "Dri7UGZMJ2caPTa8TuvAcrQJcir6SvLwfzXGnBB85tXV": {
@@ -38359,6 +38364,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T08:06:31.651Z",
     "lastSeen": "2026-04-13T08:06:31.651Z",
+    "confirmed": false
+  },
+  "EN2iKQVP9RxT2yPLsokdsAqDMUi4zGm9SZDvTzZZ8V79": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHOP",
+        "pairAddress": "9m1K1SW81EpDCuB3k8JFwtpBuXgXzhJaZ5EJwZogPxxT",
+        "entryTime": "2026-04-13T08:07:03.147Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T08:07:03.147Z",
+    "lastSeen": "2026-04-13T08:07:03.147Z",
     "confirmed": false
   }
 }
