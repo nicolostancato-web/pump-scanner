@@ -136,7 +136,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 14,
+    "appearances": 15,
     "tokens": [
       {
         "symbol": "TRUMP47",
@@ -207,6 +207,11 @@
         "symbol": "MIMI",
         "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
         "entryTime": "2026-04-13T06:35:06.237Z"
+      },
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T08:27:12.990Z"
       }
     ],
     "wins": 0,
@@ -214,7 +219,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:30:13.922Z",
-    "lastSeen": "2026-04-13T06:35:06.237Z",
+    "lastSeen": "2026-04-13T08:27:12.990Z",
     "confirmed": true
   },
   "AAhetjzX7conwYjk7jQz8XngwAJLqSpy7NJzG1Bm8Qn7": {
@@ -27620,12 +27625,17 @@
     "confirmed": false
   },
   "95Cezs2ZZ6dLrTJBNhJbaJrEMctrRnxjyCv4ZzeKgNn3": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Hermes",
         "pairAddress": "5dyariEFyBo8DtdnWssTHdHwEcGHd8TztcmUKtmFnNWH",
         "entryTime": "2026-04-12T23:06:40.507Z"
+      },
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T08:27:12.990Z"
       }
     ],
     "wins": 0,
@@ -27633,7 +27643,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T23:06:40.507Z",
-    "lastSeen": "2026-04-12T23:06:40.507Z",
+    "lastSeen": "2026-04-13T08:27:12.990Z",
     "confirmed": false
   },
   "8EZVCELSmHB6tED4rQjZuyRXt2SiL5fc5GnNvKiTqLva": {
