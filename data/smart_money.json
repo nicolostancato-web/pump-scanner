@@ -8244,12 +8244,17 @@
     "confirmed": false
   },
   "CvRw2LQ8cJasvtKGXhhjCWAu1r2U5jpTjm2DuBVFrEjf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TRUMBULL",
         "pairAddress": "51mNSr4gkXzk6e1CUnfz2zwUZFY7m4aVv1Anyfx2yRK1",
         "entryTime": "2026-04-13T15:04:25.400Z"
+      },
+      {
+        "symbol": "Seednee",
+        "pairAddress": "4FBD2Bz4df289b59sLD4i8BjpqqJbDuK6zwdSxfWN5P3",
+        "entryTime": "2026-04-13T23:15:43.872Z"
       }
     ],
     "wins": 0,
@@ -8257,7 +8262,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T15:04:25.400Z",
-    "lastSeen": "2026-04-13T15:04:25.400Z",
+    "lastSeen": "2026-04-13T23:15:43.872Z",
     "confirmed": false
   },
   "9z5ZrmqrcbriepHQHnQv8ZeKUcbDP56LJNScX1AR42Xz": {
@@ -13840,6 +13845,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T23:15:11.662Z",
     "lastSeen": "2026-04-13T23:15:11.662Z",
+    "confirmed": false
+  },
+  "DBoJ9Sf7aM8mfqc5g73NY6DoDf5sysLZQ7P1sLv2MQLh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Seednee",
+        "pairAddress": "4FBD2Bz4df289b59sLD4i8BjpqqJbDuK6zwdSxfWN5P3",
+        "entryTime": "2026-04-13T23:15:43.872Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T23:15:43.872Z",
+    "lastSeen": "2026-04-13T23:15:43.872Z",
     "confirmed": false
   }
 }
