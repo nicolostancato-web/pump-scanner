@@ -2583,12 +2583,17 @@
     "confirmed": false
   },
   "2BAHHDaVvBg9AbNzqEhNCcaBD8ph1Bws7Pbq1iWuvfUA": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FI/RE",
         "pairAddress": "DVZ87SGdLaaborpbZQCrMmEcAZVDw6puntqyLsA4cSwp",
         "entryTime": "2026-04-13T10:55:44.414Z"
+      },
+      {
+        "symbol": "Hikikomori",
+        "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
+        "entryTime": "2026-04-13T16:21:32.896Z"
       }
     ],
     "wins": 0,
@@ -2596,7 +2601,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T10:55:44.414Z",
-    "lastSeen": "2026-04-13T10:55:44.414Z",
+    "lastSeen": "2026-04-13T16:21:32.896Z",
     "confirmed": false
   },
   "3Tn71MWt9sAAMG2f53igyHfh8VuE8azndCR9K4F9gdCs": {
@@ -9968,6 +9973,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T16:17:32.339Z",
     "lastSeen": "2026-04-13T16:17:32.339Z",
+    "confirmed": false
+  },
+  "5Ewe5Qp52fc875BWFnTioxYUzpr3Nkh1sZ2dAkrZvTWx": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Hikikomori",
+        "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
+        "entryTime": "2026-04-13T16:21:32.896Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T16:21:32.896Z",
+    "lastSeen": "2026-04-13T16:21:32.896Z",
+    "confirmed": false
+  },
+  "3VPj7XgmQ56nBrbh7wgEibWExZfdQLnEu4yTVfUow5cW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Hikikomori",
+        "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
+        "entryTime": "2026-04-13T16:21:32.896Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T16:21:32.896Z",
+    "lastSeen": "2026-04-13T16:21:32.896Z",
+    "confirmed": false
+  },
+  "Gdy6zK2VUbZ6tuv7Gk8CXiCcFW7gPRaZdrPaLuksf3EQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Hikikomori",
+        "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
+        "entryTime": "2026-04-13T16:21:32.896Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T16:21:32.896Z",
+    "lastSeen": "2026-04-13T16:21:32.896Z",
     "confirmed": false
   }
 }
