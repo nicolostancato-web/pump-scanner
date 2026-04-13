@@ -491,12 +491,17 @@
     "confirmed": false
   },
   "8avtb3GZapmpYWUjXoJYCXfATRBhH8SGQkyDSoqF6CPC": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "pumphouse",
         "pairAddress": "FBPjamXRjKVPAcyuNRND9cUNceLx3ZNNYG4eojmDNVGz",
         "entryTime": "2026-04-13T09:01:56.788Z"
+      },
+      {
+        "symbol": "bulltire",
+        "pairAddress": "FDvPiRG5dUmpD5qg6UGRZp2k6HMGAqAGbVuZ3xTteUTo",
+        "entryTime": "2026-04-13T14:08:52.281Z"
       }
     ],
     "wins": 0,
@@ -504,7 +509,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:01:56.788Z",
-    "lastSeen": "2026-04-13T09:01:56.788Z",
+    "lastSeen": "2026-04-13T14:08:52.281Z",
     "confirmed": false
   },
   "BzvD3Cc1XyoRV7fiuGyPUfaeF79AsCABXQ9fFP9cgJhk": {
