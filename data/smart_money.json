@@ -13615,5 +13615,22 @@
     "firstSeen": "2026-04-13T21:30:08.128Z",
     "lastSeen": "2026-04-13T21:30:08.128Z",
     "confirmed": false
+  },
+  "7A5CGYcDzALTSXqqW2GurFaAXYTfWNAcBSzXxRBzjCUp": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GRLC",
+        "pairAddress": "DDWnytZRDW5nXmbBA6rbPgHh346GRvkiCrTMTy9b74nT",
+        "entryTime": "2026-04-13T21:30:51.763Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T21:30:51.763Z",
+    "lastSeen": "2026-04-13T21:30:51.763Z",
+    "confirmed": false
   }
 }
