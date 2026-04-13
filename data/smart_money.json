@@ -1126,7 +1126,7 @@
     "confirmed": false
   },
   "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "TRUMP47",
@@ -1152,6 +1152,11 @@
         "symbol": "Hermes",
         "pairAddress": "5dyariEFyBo8DtdnWssTHdHwEcGHd8TztcmUKtmFnNWH",
         "entryTime": "2026-04-12T22:51:28.642Z"
+      },
+      {
+        "symbol": "BabyBull",
+        "pairAddress": "DbU5anybx94BSucWiKKtPJoq4vgKUVzLdB6RVnx8ZHC9",
+        "entryTime": "2026-04-13T01:50:45.872Z"
       }
     ],
     "wins": 0,
@@ -1159,7 +1164,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-11T23:44:33.638Z",
-    "lastSeen": "2026-04-12T22:51:28.642Z",
+    "lastSeen": "2026-04-13T01:50:45.872Z",
     "confirmed": true
   },
   "CCtAjShxoRFVrZ98TiBMRLDSnaCnRiLCAkLu4SU2NjU5": {
@@ -13366,12 +13371,17 @@
     "confirmed": false
   },
   "8TVV3adZ6JYU6yeqL7ZRJoPfC3kEF3FdNcWdxTERdsrT": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Table",
         "pairAddress": "eScaeJPmgXK75ViANd48NPzM9CpK5AW9m6rX25v8ttc",
         "entryTime": "2026-04-12T08:37:11.481Z"
+      },
+      {
+        "symbol": "BabyBull",
+        "pairAddress": "DbU5anybx94BSucWiKKtPJoq4vgKUVzLdB6RVnx8ZHC9",
+        "entryTime": "2026-04-13T01:50:45.872Z"
       }
     ],
     "wins": 0,
@@ -13379,7 +13389,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T08:37:11.481Z",
-    "lastSeen": "2026-04-12T08:37:11.481Z",
+    "lastSeen": "2026-04-13T01:50:45.872Z",
     "confirmed": false
   },
   "AsrTKccgL2ethG2JUfoVew9RLK1b5ESpr5n8UPnAtk65": {
