@@ -2940,7 +2940,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 14,
+    "appearances": 15,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -3011,6 +3011,11 @@
         "symbol": "BabyBull",
         "pairAddress": "DbU5anybx94BSucWiKKtPJoq4vgKUVzLdB6RVnx8ZHC9",
         "entryTime": "2026-04-13T00:54:50.189Z"
+      },
+      {
+        "symbol": "Reaper",
+        "pairAddress": "5xQ7UVUgFkKLQsqxV83DcZJqp7q6QN1C9KbyB9eLTif",
+        "entryTime": "2026-04-13T04:31:07.735Z"
       }
     ],
     "wins": 0,
@@ -3018,7 +3023,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:12:16.607Z",
-    "lastSeen": "2026-04-13T00:54:50.189Z",
+    "lastSeen": "2026-04-13T04:31:07.735Z",
     "confirmed": true
   },
   "4Ce6DBKpY5muvvtgAvKxmxBv882w8zrHejE2GbGyozsS": {
@@ -33011,6 +33016,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T04:30:33.920Z",
     "lastSeen": "2026-04-13T04:30:33.920Z",
+    "confirmed": false
+  },
+  "2AXpUJdGuazemnLuquunFr7RuYyqo7yjD894K4xbtyi2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Reaper",
+        "pairAddress": "5xQ7UVUgFkKLQsqxV83DcZJqp7q6QN1C9KbyB9eLTif",
+        "entryTime": "2026-04-13T04:31:07.735Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T04:31:07.735Z",
+    "lastSeen": "2026-04-13T04:31:07.735Z",
     "confirmed": false
   }
 }
