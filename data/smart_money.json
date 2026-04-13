@@ -8500,7 +8500,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "TRUMBULL",
@@ -8511,6 +8511,11 @@
         "symbol": "Hikikomori",
         "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
         "entryTime": "2026-04-13T16:55:56.425Z"
+      },
+      {
+        "symbol": "Milka",
+        "pairAddress": "6eXx5tfsEMrwDjYApKqadkcioLAVG2dYAu6fduT1TNP3",
+        "entryTime": "2026-04-13T18:29:55.509Z"
       }
     ],
     "wins": 0,
@@ -8518,8 +8523,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T15:21:47.147Z",
-    "lastSeen": "2026-04-13T16:55:56.425Z",
-    "confirmed": false
+    "lastSeen": "2026-04-13T18:29:55.509Z",
+    "confirmed": true
   },
   "5ZNVRpYGC8kmjzbCw1V1UcuNHzkMW53KY63NcUUG8AZ6": {
     "appearances": 1,
@@ -12769,6 +12774,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T18:29:20.720Z",
     "lastSeen": "2026-04-13T18:29:20.720Z",
+    "confirmed": false
+  },
+  "9AeQJ66iUHJqFgxhyuNV8LtsY1FmgMqUTraWHz2oe6ns": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Milka",
+        "pairAddress": "6eXx5tfsEMrwDjYApKqadkcioLAVG2dYAu6fduT1TNP3",
+        "entryTime": "2026-04-13T18:29:55.509Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T18:29:55.509Z",
+    "lastSeen": "2026-04-13T18:29:55.509Z",
     "confirmed": false
   }
 }
