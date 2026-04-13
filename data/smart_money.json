@@ -4947,7 +4947,7 @@
     "confirmed": false
   },
   "6W6TLSqFYT6dYMCQX7GMtW74mK8dJB8EaB8xNi6U7UWu": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -4958,6 +4958,11 @@
         "symbol": "STC",
         "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
         "entryTime": "2026-04-12T02:46:57.749Z"
+      },
+      {
+        "symbol": "Pekachu",
+        "pairAddress": "AHUdhcock7RWZBi5PFE4gkurStV7oBKCQYiLF1ooxqp",
+        "entryTime": "2026-04-13T00:42:09.485Z"
       }
     ],
     "wins": 0,
@@ -4965,8 +4970,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T01:54:32.055Z",
-    "lastSeen": "2026-04-12T02:46:57.749Z",
-    "confirmed": false
+    "lastSeen": "2026-04-13T00:42:09.485Z",
+    "confirmed": true
   },
   "HzSfBHHcNNZcF3tPXDkHeHJPKGHJPP9BQWQS2vStb3p": {
     "appearances": 1,
