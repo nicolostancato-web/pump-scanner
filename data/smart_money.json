@@ -9692,5 +9692,22 @@
     "firstSeen": "2026-04-13T16:07:04.102Z",
     "lastSeen": "2026-04-13T16:07:04.102Z",
     "confirmed": false
+  },
+  "9kvjADRZgVCTgX9BkqvD3D7UwBFFnep1M5sRL8D71nqd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DonTzu",
+        "pairAddress": "3RVjtpXqEQixpCvLhh19WPNUKkki6GocGpFr6wVt38bV",
+        "entryTime": "2026-04-13T16:07:54.726Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T16:07:54.726Z",
+    "lastSeen": "2026-04-13T16:07:54.726Z",
+    "confirmed": false
   }
 }
