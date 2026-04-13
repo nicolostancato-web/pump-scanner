@@ -1007,7 +1007,61 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "5VNwgKVEJbL9mt5TfhWoBJHJevBgfWXGEh8jogRhz63S",
+      "mint": "FAzroJeLiwHmx2726DhmQPRJaxWMewMm5JTKZDMMbrrr",
+      "name": "Believe in Something",
+      "symbol": "SOMETHING",
+      "dex": "meteora",
+      "entryPrice": 0.0001495,
+      "entryMcap": 143072,
+      "entryTime": 1776111671400,
+      "score": 65,
+      "ageAtEntry": 52,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/5vnwgkvejbl9mt5tfhwobjhjevbgfwxgeh8jogrhz63s",
+      "peakPrice": 0.0001495,
+      "peakMultiplier": 1,
+      "peakMcap": 143072,
+      "peakTime": 1776111671400,
+      "lastPrice": 0.0001027,
+      "lowestPrice": 0.0001027,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001027,
+      "closeMultiplier": 0.6869565217391305,
+      "closedAt": "2026-04-13T20:25:10.276Z",
+      "durationMs": 238876,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001027,
+        "closeMultiplier": 0.6869565217391305,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-13T20:25:10.276Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-13T03:25:41.706Z"
+  "lastSaved": "2026-04-13T20:25:11.501Z"
 }
