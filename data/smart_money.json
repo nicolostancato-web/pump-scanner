@@ -8490,12 +8490,17 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TRUMBULL",
         "pairAddress": "51mNSr4gkXzk6e1CUnfz2zwUZFY7m4aVv1Anyfx2yRK1",
         "entryTime": "2026-04-13T15:21:47.147Z"
+      },
+      {
+        "symbol": "Hikikomori",
+        "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
+        "entryTime": "2026-04-13T16:55:56.425Z"
       }
     ],
     "wins": 0,
@@ -8503,7 +8508,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T15:21:47.147Z",
-    "lastSeen": "2026-04-13T15:21:47.147Z",
+    "lastSeen": "2026-04-13T16:55:56.425Z",
     "confirmed": false
   },
   "5ZNVRpYGC8kmjzbCw1V1UcuNHzkMW53KY63NcUUG8AZ6": {
