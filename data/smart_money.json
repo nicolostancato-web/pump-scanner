@@ -491,5 +491,39 @@
     "firstSeen": "2026-04-13T09:01:56.788Z",
     "lastSeen": "2026-04-13T09:01:56.788Z",
     "confirmed": false
+  },
+  "BzvD3Cc1XyoRV7fiuGyPUfaeF79AsCABXQ9fFP9cgJhk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "pumphouse",
+        "pairAddress": "FBPjamXRjKVPAcyuNRND9cUNceLx3ZNNYG4eojmDNVGz",
+        "entryTime": "2026-04-13T09:04:26.010Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T09:04:26.010Z",
+    "lastSeen": "2026-04-13T09:04:26.010Z",
+    "confirmed": false
+  },
+  "Gpz8Cr8nBtyE7YvbLrKnGK95Lg2SdcYiABm5gyZXYvwN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "pumphouse",
+        "pairAddress": "FBPjamXRjKVPAcyuNRND9cUNceLx3ZNNYG4eojmDNVGz",
+        "entryTime": "2026-04-13T09:04:26.010Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T09:04:26.010Z",
+    "lastSeen": "2026-04-13T09:04:26.010Z",
+    "confirmed": false
   }
 }
