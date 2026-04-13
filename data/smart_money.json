@@ -33299,5 +33299,22 @@
     "firstSeen": "2026-04-13T04:36:36.543Z",
     "lastSeen": "2026-04-13T04:36:36.543Z",
     "confirmed": false
+  },
+  "5EQmGfmDe7nnaqfXh6igJx9rGxjdtHJ9HxXAsnhJRmph": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BTCBULL",
+        "pairAddress": "FUvRXTnqbQFGdFBodwD3oq75AVT5ZLPwL9JNQqovghg9",
+        "entryTime": "2026-04-13T04:37:09.702Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T04:37:09.702Z",
+    "lastSeen": "2026-04-13T04:37:09.702Z",
+    "confirmed": false
   }
 }
