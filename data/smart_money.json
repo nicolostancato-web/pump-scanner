@@ -204,12 +204,17 @@
     "confirmed": false
   },
   "7XPu5j9LPRi9CythzNeC8EDbSHounnFY6tD7duJrqbKz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "REDBULL",
         "pairAddress": "5VYb6PsHzeTA4d46QQWYdn6Lp3ZKoqw5rJW8vsWQPpbr",
         "entryTime": "2026-04-13T08:53:14.431Z"
+      },
+      {
+        "symbol": "JesusTremp",
+        "pairAddress": "5zpvGmFuRJ58yQCkjF91VfEFgWV2zdcsQAHACvRVrYv1",
+        "entryTime": "2026-04-13T09:35:36.301Z"
       }
     ],
     "wins": 0,
@@ -217,7 +222,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T08:53:14.431Z",
-    "lastSeen": "2026-04-13T08:53:14.431Z",
+    "lastSeen": "2026-04-13T09:35:36.301Z",
     "confirmed": false
   },
   "5EbYpRLEQzKuU4eGokLgwXj8yYW5yMjTtxyDGVivNu1d": {
@@ -971,6 +976,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:35:03.932Z",
     "lastSeen": "2026-04-13T09:35:03.932Z",
+    "confirmed": false
+  },
+  "EubA9RTqSFiNBNamVdHpXC2nWH4KX38rQSqBaj8HR969": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "JesusTremp",
+        "pairAddress": "5zpvGmFuRJ58yQCkjF91VfEFgWV2zdcsQAHACvRVrYv1",
+        "entryTime": "2026-04-13T09:35:36.301Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T09:35:36.301Z",
+    "lastSeen": "2026-04-13T09:35:36.301Z",
     "confirmed": false
   }
 }
