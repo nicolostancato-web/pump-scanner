@@ -625,12 +625,17 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "JesusTremp",
         "pairAddress": "5zpvGmFuRJ58yQCkjF91VfEFgWV2zdcsQAHACvRVrYv1",
         "entryTime": "2026-04-13T09:12:42.051Z"
+      },
+      {
+        "symbol": "bulltire",
+        "pairAddress": "FDvPiRG5dUmpD5qg6UGRZp2k6HMGAqAGbVuZ3xTteUTo",
+        "entryTime": "2026-04-13T13:18:25.222Z"
       }
     ],
     "wins": 0,
@@ -638,7 +643,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:12:42.051Z",
-    "lastSeen": "2026-04-13T09:12:42.051Z",
+    "lastSeen": "2026-04-13T13:18:25.222Z",
     "confirmed": false
   },
   "8wTw3CssZQvbj7mJ9MapcDT7Sk96WN7MiAKQP9eBr8Yu": {
@@ -6062,6 +6067,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T13:17:53.393Z",
     "lastSeen": "2026-04-13T13:17:53.393Z",
+    "confirmed": false
+  },
+  "N292SUqUyzDzVkquq1n5aCbBsgLuPT9tALk5NFXZgFY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "bulltire",
+        "pairAddress": "FDvPiRG5dUmpD5qg6UGRZp2k6HMGAqAGbVuZ3xTteUTo",
+        "entryTime": "2026-04-13T13:18:25.222Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T13:18:25.222Z",
+    "lastSeen": "2026-04-13T13:18:25.222Z",
+    "confirmed": false
+  },
+  "C7ML4W7cegR8oBD3K2qeE5WmLgP2BGd8s81Sd78GZxN5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "bulltire",
+        "pairAddress": "FDvPiRG5dUmpD5qg6UGRZp2k6HMGAqAGbVuZ3xTteUTo",
+        "entryTime": "2026-04-13T13:18:25.222Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T13:18:25.222Z",
+    "lastSeen": "2026-04-13T13:18:25.222Z",
+    "confirmed": false
+  },
+  "94j1uMXMSq5TU16EJyK7HZHnUnebgd6rhDkV68UEYYf2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "bulltire",
+        "pairAddress": "FDvPiRG5dUmpD5qg6UGRZp2k6HMGAqAGbVuZ3xTteUTo",
+        "entryTime": "2026-04-13T13:18:25.222Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T13:18:25.222Z",
+    "lastSeen": "2026-04-13T13:18:25.222Z",
     "confirmed": false
   }
 }
