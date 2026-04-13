@@ -38382,5 +38382,22 @@
     "firstSeen": "2026-04-13T08:07:03.147Z",
     "lastSeen": "2026-04-13T08:07:03.147Z",
     "confirmed": false
+  },
+  "71gNUvDUPd2kVN2GquCZJRDsiZa6BLR63reGMsNaFLHf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHOP",
+        "pairAddress": "9m1K1SW81EpDCuB3k8JFwtpBuXgXzhJaZ5EJwZogPxxT",
+        "entryTime": "2026-04-13T08:07:42.211Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T08:07:42.211Z",
+    "lastSeen": "2026-04-13T08:07:42.211Z",
+    "confirmed": false
   }
 }
