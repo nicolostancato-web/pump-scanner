@@ -4619,7 +4619,7 @@
     "confirmed": true
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -4640,6 +4640,11 @@
         "symbol": "RND",
         "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
         "entryTime": "2026-04-12T20:25:44.593Z"
+      },
+      {
+        "symbol": "DJT",
+        "pairAddress": "6CGkAfPdakLXPDuSgdBN1ZDPARAUo5droLLhK9uwwkcj",
+        "entryTime": "2026-04-13T02:19:37.815Z"
       }
     ],
     "wins": 0,
@@ -4647,7 +4652,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:54:44.672Z",
-    "lastSeen": "2026-04-12T20:25:44.593Z",
+    "lastSeen": "2026-04-13T02:19:37.815Z",
     "confirmed": true
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
