@@ -29656,12 +29656,17 @@
     "confirmed": false
   },
   "5DDh4LokCcXwcvwD2vA6WFxYRHgh8KAnrr2E4y7ucToR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "REXIE",
         "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
         "entryTime": "2026-04-13T00:26:07.874Z"
+      },
+      {
+        "symbol": "BabyBull",
+        "pairAddress": "DbU5anybx94BSucWiKKtPJoq4vgKUVzLdB6RVnx8ZHC9",
+        "entryTime": "2026-04-13T01:48:30.764Z"
       }
     ],
     "wins": 0,
@@ -29669,7 +29674,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T00:26:07.874Z",
-    "lastSeen": "2026-04-13T00:26:07.874Z",
+    "lastSeen": "2026-04-13T01:48:30.764Z",
     "confirmed": false
   },
   "DhPZ6jTjPs79gdoYwv1RB4TXU7wvXGvzrfYE9ZMMCftz": {
@@ -31030,6 +31035,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T01:48:01.624Z",
     "lastSeen": "2026-04-13T01:48:01.624Z",
+    "confirmed": false
+  },
+  "2ifGzk6kzBexDYvjTMmDeEnKY65XtLjvCjuC6wssxnN3": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BabyBull",
+        "pairAddress": "DbU5anybx94BSucWiKKtPJoq4vgKUVzLdB6RVnx8ZHC9",
+        "entryTime": "2026-04-13T01:48:30.764Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T01:48:30.764Z",
+    "lastSeen": "2026-04-13T01:48:30.764Z",
     "confirmed": false
   }
 }
