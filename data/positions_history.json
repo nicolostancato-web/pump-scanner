@@ -899,7 +899,61 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "FwuB9juwaoo35C2Nx6XMVn3sQ6B9HeXuuquR7rB21y3Y",
+      "mint": "4DQsMSkeKc3Mcij1BE4Z8oqU3QeV45QQ3Psn3CNDpump",
+      "name": "Nash Systems",
+      "symbol": "NASH",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002098,
+      "entryMcap": 209848,
+      "entryTime": 1776048462980,
+      "score": 65,
+      "ageAtEntry": 52,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/fwub9juwaoo35c2nx6xmvn3sq6b9hexuuqur7rb21y3y",
+      "peakPrice": 0.0002098,
+      "peakMultiplier": 1,
+      "peakMcap": 209848,
+      "peakTime": 1776048462980,
+      "lastPrice": 0.0001431,
+      "lowestPrice": 0.0001431,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001431,
+      "closeMultiplier": 0.6820781696854147,
+      "closedAt": "2026-04-13T03:02:43.710Z",
+      "durationMs": 900730,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001431,
+        "closeMultiplier": 0.6820781696854147,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-13T03:02:43.710Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-12T20:48:40.254Z"
+  "lastSaved": "2026-04-13T03:02:44.962Z"
 }
