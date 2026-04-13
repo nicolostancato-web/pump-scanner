@@ -21428,7 +21428,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "CohenCoin",
@@ -21444,6 +21444,11 @@
         "symbol": "BabyBull",
         "pairAddress": "DbU5anybx94BSucWiKKtPJoq4vgKUVzLdB6RVnx8ZHC9",
         "entryTime": "2026-04-13T01:11:06.179Z"
+      },
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T07:44:13.298Z"
       }
     ],
     "wins": 0,
@@ -21451,7 +21456,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T15:36:28.444Z",
-    "lastSeen": "2026-04-13T01:11:06.179Z",
+    "lastSeen": "2026-04-13T07:44:13.298Z",
     "confirmed": true
   },
   "DsrQCTWR9y9WCrGLjDKTTZ1yyN95D7zx8UvjLG78BpHF": {
@@ -37819,6 +37824,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T07:43:37.756Z",
     "lastSeen": "2026-04-13T07:43:37.756Z",
+    "confirmed": false
+  },
+  "6AmQ2Kp5NzQPznt2HDLwWMQtmUXUvDuv6KKcx193tDd6": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T07:44:13.298Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T07:44:13.298Z",
+    "lastSeen": "2026-04-13T07:44:13.298Z",
     "confirmed": false
   }
 }
