@@ -2551,5 +2551,22 @@
     "firstSeen": "2026-04-13T10:55:13.812Z",
     "lastSeen": "2026-04-13T10:55:13.812Z",
     "confirmed": false
+  },
+  "2BAHHDaVvBg9AbNzqEhNCcaBD8ph1Bws7Pbq1iWuvfUA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FI/RE",
+        "pairAddress": "DVZ87SGdLaaborpbZQCrMmEcAZVDw6puntqyLsA4cSwp",
+        "entryTime": "2026-04-13T10:55:44.414Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T10:55:44.414Z",
+    "lastSeen": "2026-04-13T10:55:44.414Z",
+    "confirmed": false
   }
 }
