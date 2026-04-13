@@ -27008,12 +27008,17 @@
     "confirmed": false
   },
   "CnGDVG6qB1GbYFBVJJFBvoV1UtAyvniqX2jy52KiKgSr": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Hermes",
         "pairAddress": "5dyariEFyBo8DtdnWssTHdHwEcGHd8TztcmUKtmFnNWH",
         "entryTime": "2026-04-12T22:50:55.338Z"
+      },
+      {
+        "symbol": "Reaper",
+        "pairAddress": "5xQ7UVUgFkKLQsqxV83DcZJqp7q6QN1C9KbyB9eLTif",
+        "entryTime": "2026-04-13T04:32:50.830Z"
       }
     ],
     "wins": 0,
@@ -27021,7 +27026,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T22:50:55.338Z",
-    "lastSeen": "2026-04-12T22:50:55.338Z",
+    "lastSeen": "2026-04-13T04:32:50.830Z",
     "confirmed": false
   },
   "9XWRiLX628ZTznED2pFcNgRWkWVVjctLR9tCxr5xW9KK": {
@@ -33084,6 +33089,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T04:32:17.545Z",
     "lastSeen": "2026-04-13T04:32:17.545Z",
+    "confirmed": false
+  },
+  "DVxs2C5ho1ouva77sC8f7SNmij9QDctFxvnUwQt5HciG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Reaper",
+        "pairAddress": "5xQ7UVUgFkKLQsqxV83DcZJqp7q6QN1C9KbyB9eLTif",
+        "entryTime": "2026-04-13T04:32:50.830Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T04:32:50.830Z",
+    "lastSeen": "2026-04-13T04:32:50.830Z",
     "confirmed": false
   }
 }
