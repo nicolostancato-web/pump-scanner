@@ -5614,7 +5614,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 16,
+    "appearances": 17,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5695,6 +5695,11 @@
         "symbol": "BabyBull",
         "pairAddress": "DbU5anybx94BSucWiKKtPJoq4vgKUVzLdB6RVnx8ZHC9",
         "entryTime": "2026-04-13T02:01:04.953Z"
+      },
+      {
+        "symbol": "Autism",
+        "pairAddress": "2KgwfPBRUTCJVbQdRbsryhnyKuGs51Apsm26ckm598QS",
+        "entryTime": "2026-04-13T04:23:08.684Z"
       }
     ],
     "wins": 0,
@@ -5702,7 +5707,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:04:22.421Z",
-    "lastSeen": "2026-04-13T02:01:04.953Z",
+    "lastSeen": "2026-04-13T04:23:08.684Z",
     "confirmed": true
   },
   "4rU73mGgsGYrTXHTDwvLqif9BLkVtv1tnEF9Gu4dFzCS": {
@@ -32860,6 +32865,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T04:22:40.180Z",
     "lastSeen": "2026-04-13T04:22:40.180Z",
+    "confirmed": false
+  },
+  "4KtUEfwhGF9TbvDmWy8rQBm3VgPKgRfYLQkYm5RBaUqL": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Autism",
+        "pairAddress": "2KgwfPBRUTCJVbQdRbsryhnyKuGs51Apsm26ckm598QS",
+        "entryTime": "2026-04-13T04:23:08.684Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T04:23:08.684Z",
+    "lastSeen": "2026-04-13T04:23:08.684Z",
     "confirmed": false
   }
 }
