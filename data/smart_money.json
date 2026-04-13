@@ -11893,7 +11893,7 @@
     "confirmed": false
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "🪑",
@@ -11904,6 +11904,11 @@
         "symbol": "CohenCoin",
         "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
         "entryTime": "2026-04-12T14:14:47.179Z"
+      },
+      {
+        "symbol": "DJT",
+        "pairAddress": "6CGkAfPdakLXPDuSgdBN1ZDPARAUo5droLLhK9uwwkcj",
+        "entryTime": "2026-04-13T02:46:56.568Z"
       }
     ],
     "wins": 0,
@@ -11911,8 +11916,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T06:36:01.852Z",
-    "lastSeen": "2026-04-12T14:14:47.179Z",
-    "confirmed": false
+    "lastSeen": "2026-04-13T02:46:56.568Z",
+    "confirmed": true
   },
   "Awch9PiL7nwQqKNjXHzJd1KvTkFtauVqQDSjdUTqe28n": {
     "appearances": 2,
