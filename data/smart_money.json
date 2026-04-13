@@ -12178,7 +12178,7 @@
     "confirmed": false
   },
   "GNoYNXQ66dnTqcR39nKi2QJSizjxvHHAy9GSbNszQuuq": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "🪑",
@@ -12194,6 +12194,11 @@
         "symbol": "RND",
         "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
         "entryTime": "2026-04-12T19:51:18.569Z"
+      },
+      {
+        "symbol": "DJT",
+        "pairAddress": "6CGkAfPdakLXPDuSgdBN1ZDPARAUo5droLLhK9uwwkcj",
+        "entryTime": "2026-04-13T02:20:55.743Z"
       }
     ],
     "wins": 0,
@@ -12201,7 +12206,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T07:55:53.809Z",
-    "lastSeen": "2026-04-12T19:51:18.569Z",
+    "lastSeen": "2026-04-13T02:20:55.743Z",
     "confirmed": true
   },
   "4dMB9n7gXRS4iQmVHwFDo7i1JaadTSTo2msBv6ph2cVA": {
