@@ -5344,5 +5344,22 @@
     "firstSeen": "2026-04-13T12:43:07.634Z",
     "lastSeen": "2026-04-13T12:43:07.634Z",
     "confirmed": false
+  },
+  "3pGnbD37rm5nv9Bb5K1mybdqoE81vTTonVW8xx17AXfN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SINA",
+        "pairAddress": "Dg8RzXpihL1kMqJYC6zwGE18DWfm3H8iSCrvMU8Hegte",
+        "entryTime": "2026-04-13T12:43:37.841Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T12:43:37.841Z",
+    "lastSeen": "2026-04-13T12:43:37.841Z",
+    "confirmed": false
   }
 }
