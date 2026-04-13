@@ -27053,7 +27053,7 @@
     "confirmed": false
   },
   "CnGDVG6qB1GbYFBVJJFBvoV1UtAyvniqX2jy52KiKgSr": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Hermes",
@@ -27064,6 +27064,11 @@
         "symbol": "Reaper",
         "pairAddress": "5xQ7UVUgFkKLQsqxV83DcZJqp7q6QN1C9KbyB9eLTif",
         "entryTime": "2026-04-13T04:32:50.830Z"
+      },
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T06:58:58.861Z"
       }
     ],
     "wins": 0,
@@ -27071,8 +27076,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T22:50:55.338Z",
-    "lastSeen": "2026-04-13T04:32:50.830Z",
-    "confirmed": false
+    "lastSeen": "2026-04-13T06:58:58.861Z",
+    "confirmed": true
   },
   "9XWRiLX628ZTznED2pFcNgRWkWVVjctLR9tCxr5xW9KK": {
     "appearances": 1,
