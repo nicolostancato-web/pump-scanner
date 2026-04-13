@@ -525,5 +525,22 @@
     "firstSeen": "2026-04-13T09:04:26.010Z",
     "lastSeen": "2026-04-13T09:04:26.010Z",
     "confirmed": false
+  },
+  "9cQGXFaqUJ5SjeCBvMveRcatA72F6rtpWxykPhkgabLk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "pumphouse",
+        "pairAddress": "FBPjamXRjKVPAcyuNRND9cUNceLx3ZNNYG4eojmDNVGz",
+        "entryTime": "2026-04-13T09:04:57.668Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T09:04:57.668Z",
+    "lastSeen": "2026-04-13T09:04:57.668Z",
+    "confirmed": false
   }
 }
