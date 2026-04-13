@@ -11900,12 +11900,17 @@
     "confirmed": false
   },
   "Awch9PiL7nwQqKNjXHzJd1KvTkFtauVqQDSjdUTqe28n": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "🪑",
         "pairAddress": "47yRWYckWUBUrbSN7AmhanMDhfydURQf5G3fjhotpjy5",
         "entryTime": "2026-04-12T06:36:01.852Z"
+      },
+      {
+        "symbol": "DJT",
+        "pairAddress": "6CGkAfPdakLXPDuSgdBN1ZDPARAUo5droLLhK9uwwkcj",
+        "entryTime": "2026-04-13T02:17:04.065Z"
       }
     ],
     "wins": 0,
@@ -11913,7 +11918,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T06:36:01.852Z",
-    "lastSeen": "2026-04-12T06:36:01.852Z",
+    "lastSeen": "2026-04-13T02:17:04.065Z",
     "confirmed": false
   },
   "DdEhpBQAHggLtWSgNFhokVQzrXubZ8etH3pyC9bxVhdV": {
