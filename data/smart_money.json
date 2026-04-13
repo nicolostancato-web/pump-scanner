@@ -6663,12 +6663,17 @@
     "confirmed": false
   },
   "73vRVg5T3jqcAY19PVuPcoe74qwKkj1i8ppFzQPZYWpz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "STC",
         "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
         "entryTime": "2026-04-12T02:41:35.312Z"
+      },
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T06:39:45.293Z"
       }
     ],
     "wins": 0,
@@ -6676,7 +6681,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:41:35.312Z",
-    "lastSeen": "2026-04-12T02:41:35.312Z",
+    "lastSeen": "2026-04-13T06:39:45.293Z",
     "confirmed": false
   },
   "5TQm1RToMWpcK3grgUNWuEKtd1h42JjnWExZ2bEEAbBA": {
@@ -36213,6 +36218,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T06:39:04.283Z",
     "lastSeen": "2026-04-13T06:39:04.283Z",
+    "confirmed": false
+  },
+  "45eEPhkN1Favsi4pPQLmcu5yM6hNmyZnRpuPfKXqcBJp": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T06:39:45.293Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T06:39:45.293Z",
+    "lastSeen": "2026-04-13T06:39:45.293Z",
     "confirmed": false
   }
 }
