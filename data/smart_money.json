@@ -8572,12 +8572,17 @@
     "confirmed": false
   },
   "83uLipv3gyQbzYzkfLmuYBx1jJhF99TuArRoUzXqnfoF": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "STC",
         "pairAddress": "BfcxnfNQF3cbZmdKbTNvL1fLD4dEjGhXCG9r6JS6EqB4",
         "entryTime": "2026-04-12T03:49:07.807Z"
+      },
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T07:49:18.112Z"
       }
     ],
     "wins": 0,
@@ -8585,7 +8590,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T03:49:07.807Z",
-    "lastSeen": "2026-04-12T03:49:07.807Z",
+    "lastSeen": "2026-04-13T07:49:18.112Z",
     "confirmed": false
   },
   "4TovuJNpesGEEHzAgbGtdVuMTzgMxTfJMcVpBxDULTDa": {
@@ -37931,6 +37936,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T07:48:37.763Z",
     "lastSeen": "2026-04-13T07:48:37.763Z",
+    "confirmed": false
+  },
+  "7WNnEkByEAamRj4PcpF6St28s9eYJZjwHf5PQTiUHJni": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T07:49:18.112Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T07:49:18.112Z",
+    "lastSeen": "2026-04-13T07:49:18.112Z",
     "confirmed": false
   }
 }
