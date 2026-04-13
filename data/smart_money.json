@@ -21359,12 +21359,17 @@
     "confirmed": false
   },
   "784wcFWsiNH9e48joMZYyMcBupdy5sU31UaVZotmucAy": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CohenCoin",
         "pairAddress": "3sf1YDPMGMVnkKDeL4wgbd2V8TYhHWKSCcRS9PmYLMGx",
         "entryTime": "2026-04-12T14:28:58.708Z"
+      },
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T07:32:44.502Z"
       }
     ],
     "wins": 0,
@@ -21372,7 +21377,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T14:28:58.708Z",
-    "lastSeen": "2026-04-12T14:28:58.708Z",
+    "lastSeen": "2026-04-13T07:32:44.502Z",
     "confirmed": false
   },
   "FNBmsYVJ3KJSnqRsJPxFU5yFUS9mvWBhKYEBYr4hhemu": {
@@ -37568,6 +37573,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T07:32:06.008Z",
     "lastSeen": "2026-04-13T07:32:06.008Z",
+    "confirmed": false
+  },
+  "CMPZRuntfVuZjURQobpTkmoQ55qhMoRi9yBSz3AcFGzM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T07:32:44.502Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T07:32:44.502Z",
+    "lastSeen": "2026-04-13T07:32:44.502Z",
     "confirmed": false
   }
 }
