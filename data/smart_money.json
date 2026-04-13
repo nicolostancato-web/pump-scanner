@@ -29516,5 +29516,22 @@
     "firstSeen": "2026-04-13T00:22:00.930Z",
     "lastSeen": "2026-04-13T00:22:00.930Z",
     "confirmed": false
+  },
+  "CGon1siMZTu4v2ZiauDqNYWKdY1PmMMxnte2192KLpkD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "REXIE",
+        "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
+        "entryTime": "2026-04-13T00:22:32.345Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T00:22:32.345Z",
+    "lastSeen": "2026-04-13T00:22:32.345Z",
+    "confirmed": false
   }
 }
