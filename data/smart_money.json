@@ -650,7 +650,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "JesusTremp",
@@ -666,6 +666,11 @@
         "symbol": "TRUMBULL",
         "pairAddress": "51mNSr4gkXzk6e1CUnfz2zwUZFY7m4aVv1Anyfx2yRK1",
         "entryTime": "2026-04-13T15:36:09.740Z"
+      },
+      {
+        "symbol": "SENDY",
+        "pairAddress": "DVq4xqvYfHrfSrc5TNdQ2h5rkY3sXY9UunXhp91A9Bnq",
+        "entryTime": "2026-04-13T23:51:07.844Z"
       }
     ],
     "wins": 0,
@@ -673,7 +678,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:12:42.051Z",
-    "lastSeen": "2026-04-13T15:36:09.740Z",
+    "lastSeen": "2026-04-13T23:51:07.844Z",
     "confirmed": true
   },
   "8wTw3CssZQvbj7mJ9MapcDT7Sk96WN7MiAKQP9eBr8Yu": {
@@ -14984,6 +14989,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T23:50:36.057Z",
     "lastSeen": "2026-04-13T23:50:36.057Z",
+    "confirmed": false
+  },
+  "35C11LXF2BPpVxDXLeTSYEUSC7vkaFtLxpW8x4zNat78": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SENDY",
+        "pairAddress": "DVq4xqvYfHrfSrc5TNdQ2h5rkY3sXY9UunXhp91A9Bnq",
+        "entryTime": "2026-04-13T23:51:07.844Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T23:51:07.844Z",
+    "lastSeen": "2026-04-13T23:51:07.844Z",
     "confirmed": false
   }
 }
