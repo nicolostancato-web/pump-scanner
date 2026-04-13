@@ -10818,12 +10818,17 @@
     "confirmed": false
   },
   "DmQHhGGxQRhZzW3xnNWu3yDtNCpLcqQvQXa7RzWauJYa": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MONKOO",
         "pairAddress": "EqjbMXVJqsCUNykbRRxWj9PuhGvJaKM6G7DEZMGqkWEk",
         "entryTime": "2026-04-12T05:35:30.861Z"
+      },
+      {
+        "symbol": "Reaper",
+        "pairAddress": "5xQ7UVUgFkKLQsqxV83DcZJqp7q6QN1C9KbyB9eLTif",
+        "entryTime": "2026-04-13T04:34:57.339Z"
       }
     ],
     "wins": 0,
@@ -10831,7 +10836,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T05:35:30.861Z",
-    "lastSeen": "2026-04-12T05:35:30.861Z",
+    "lastSeen": "2026-04-13T04:34:57.339Z",
     "confirmed": false
   },
   "J7kSK8txwhgzBLnzjm9p2hofbhzgZbochHmwJBJztnpM": {
@@ -33191,6 +33196,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T04:34:25.300Z",
     "lastSeen": "2026-04-13T04:34:25.300Z",
+    "confirmed": false
+  },
+  "9DnYP44qdz7KkzakhzeJyJJc1nXdNfVtVa9yEkeCPrdF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Reaper",
+        "pairAddress": "5xQ7UVUgFkKLQsqxV83DcZJqp7q6QN1C9KbyB9eLTif",
+        "entryTime": "2026-04-13T04:34:57.339Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T04:34:57.339Z",
+    "lastSeen": "2026-04-13T04:34:57.339Z",
     "confirmed": false
   }
 }
