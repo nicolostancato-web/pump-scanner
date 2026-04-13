@@ -7101,7 +7101,7 @@
     "confirmed": false
   },
   "GJXHLebN5FmYhvkMLKUCGBuLpmYGf5Gn9jGVoaZpTbGk": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "STC",
@@ -7112,6 +7112,11 @@
         "symbol": "YN",
         "pairAddress": "DALWM8Ph5yjigv2AtHYQCMAuCHXkZMQo3P3gqaJuv695",
         "entryTime": "2026-04-12T08:21:20.854Z"
+      },
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T07:35:49.971Z"
       }
     ],
     "wins": 0,
@@ -7119,8 +7124,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:58:45.948Z",
-    "lastSeen": "2026-04-12T08:21:20.854Z",
-    "confirmed": false
+    "lastSeen": "2026-04-13T07:35:49.971Z",
+    "confirmed": true
   },
   "DSnBndN49SkmJXg5v9Ss26nRLsNEoZxtc3vRvNbbBBCb": {
     "appearances": 1,
