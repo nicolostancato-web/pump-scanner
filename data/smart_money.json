@@ -10969,7 +10969,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 13,
+    "appearances": 14,
     "tokens": [
       {
         "symbol": "Audit",
@@ -11035,6 +11035,11 @@
         "symbol": "MIMI",
         "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
         "entryTime": "2026-04-13T06:51:16.186Z"
+      },
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T07:52:09.506Z"
       }
     ],
     "wins": 0,
@@ -11042,7 +11047,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T05:37:34.790Z",
-    "lastSeen": "2026-04-13T06:51:16.186Z",
+    "lastSeen": "2026-04-13T07:52:09.506Z",
     "confirmed": true
   },
   "APu3gwvqWyR6RqGin1512oQ7Q1taM6LixBGpPJAgaQAJ": {
