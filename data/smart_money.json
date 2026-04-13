@@ -26841,12 +26841,17 @@
     "confirmed": false
   },
   "VvtvZzR311BFvERz2exEcFEYrrnXSd8KpSzj7Ky9aM9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "IRT",
         "pairAddress": "DyotjeaW3tNzsDbJonaLDcpEFnojL4MuyufhtFLpYoaG",
         "entryTime": "2026-04-12T22:54:32.978Z"
+      },
+      {
+        "symbol": "REXIE",
+        "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
+        "entryTime": "2026-04-13T00:04:10.687Z"
       }
     ],
     "wins": 0,
@@ -26854,7 +26859,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T22:54:32.978Z",
-    "lastSeen": "2026-04-12T22:54:32.978Z",
+    "lastSeen": "2026-04-13T00:04:10.687Z",
     "confirmed": false
   },
   "oHRSkcqqLXFyRdB8v8vBdHUYCG6fSjpkTzuyXa1B9mr": {
@@ -29031,6 +29036,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T00:03:35.204Z",
     "lastSeen": "2026-04-13T00:03:35.204Z",
+    "confirmed": false
+  },
+  "zuu7NsWSquZGWTZwDAnUemUvGXukwFnUobmhxzusR2R": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "REXIE",
+        "pairAddress": "G9dyhD6XEBCKEZUcSDCExPxhF3TBZ7hU243hv7xAVXSz",
+        "entryTime": "2026-04-13T00:04:10.687Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T00:04:10.687Z",
+    "lastSeen": "2026-04-13T00:04:10.687Z",
     "confirmed": false
   }
 }
