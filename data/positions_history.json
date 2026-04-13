@@ -1061,7 +1061,61 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "DDWnytZRDW5nXmbBA6rbPgHh346GRvkiCrTMTy9b74nT",
+      "mint": "Dx6KR71Suy7oNiLVNbui3FCd8bxzVPAN5QWkUkunpump",
+      "name": "Garlicoin",
+      "symbol": "GRLC",
+      "dex": "pumpswap",
+      "entryPrice": 0.00001735,
+      "entryMcap": 17357,
+      "entryTime": 1776114874698,
+      "score": 66,
+      "ageAtEntry": 15,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/ddwnytzrdw5nxmbba6rbpghh346grvkicrtmty9b74nt",
+      "peakPrice": 0.00001735,
+      "peakMultiplier": 1,
+      "peakMcap": 17357,
+      "peakTime": 1776114874698,
+      "lastPrice": 0.00001198,
+      "lowestPrice": 0.00001198,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001198,
+      "closeMultiplier": 0.6904899135446686,
+      "closedAt": "2026-04-13T21:16:32.448Z",
+      "durationMs": 117750,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001198,
+        "closeMultiplier": 0.6904899135446686,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-13T21:16:32.448Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00001198,
+        "closeMultiplier": 0.6904899135446686,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-13T21:16:32.448Z"
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-13T20:25:11.501Z"
+  "lastSaved": "2026-04-13T21:16:33.879Z"
 }
