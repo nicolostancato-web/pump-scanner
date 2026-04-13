@@ -569,7 +569,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "pumphouse",
@@ -595,6 +595,11 @@
         "symbol": "Hikikomori",
         "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
         "entryTime": "2026-04-13T16:42:05.468Z"
+      },
+      {
+        "symbol": "Milka",
+        "pairAddress": "6eXx5tfsEMrwDjYApKqadkcioLAVG2dYAu6fduT1TNP3",
+        "entryTime": "2026-04-13T17:11:16.477Z"
       }
     ],
     "wins": 0,
@@ -602,7 +607,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:05:38.969Z",
-    "lastSeen": "2026-04-13T16:42:05.468Z",
+    "lastSeen": "2026-04-13T17:11:16.477Z",
     "confirmed": true
   },
   "85pLpaUF2R9SDkGYUMc69gcfo4Xa8GzUwKVg68A6UFoq": {
@@ -11047,6 +11052,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T17:08:31.398Z",
     "lastSeen": "2026-04-13T17:08:31.398Z",
+    "confirmed": false
+  },
+  "5LmHuW5ahxVH29QXZEM3j9rWCdcbv7YXBfW3Sr1LRPQQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Milka",
+        "pairAddress": "6eXx5tfsEMrwDjYApKqadkcioLAVG2dYAu6fduT1TNP3",
+        "entryTime": "2026-04-13T17:11:16.477Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T17:11:16.477Z",
+    "lastSeen": "2026-04-13T17:11:16.477Z",
     "confirmed": false
   }
 }
