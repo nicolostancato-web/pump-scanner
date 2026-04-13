@@ -38087,12 +38087,17 @@
     "confirmed": false
   },
   "HCkCxxiuENx394DzX9mSccmdAX7ZbajerFtDidz2zbH8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Rudi",
         "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
         "entryTime": "2026-04-13T07:50:29.285Z"
+      },
+      {
+        "symbol": "pumphouse",
+        "pairAddress": "FBPjamXRjKVPAcyuNRND9cUNceLx3ZNNYG4eojmDNVGz",
+        "entryTime": "2026-04-13T08:46:36.944Z"
       }
     ],
     "wins": 0,
@@ -38100,7 +38105,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T07:50:29.285Z",
-    "lastSeen": "2026-04-13T07:50:29.285Z",
+    "lastSeen": "2026-04-13T08:46:36.944Z",
     "confirmed": false
   },
   "8XeCsVAzMDJWMxDczBPA8pejjgn3g3TrAMWtdNDgnRg7": {
