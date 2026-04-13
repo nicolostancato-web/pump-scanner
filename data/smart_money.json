@@ -13381,12 +13381,17 @@
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BELIEF",
         "pairAddress": "HehzrczPii9azd1QzPLjsjwsnygHvHpfBYPcmEp3gugG",
         "entryTime": "2026-04-13T19:22:48.697Z"
+      },
+      {
+        "symbol": "SOMETHING",
+        "pairAddress": "5VNwgKVEJbL9mt5TfhWoBJHJevBgfWXGEh8jogRhz63S",
+        "entryTime": "2026-04-13T20:32:12.999Z"
       }
     ],
     "wins": 0,
@@ -13394,7 +13399,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T19:22:48.697Z",
-    "lastSeen": "2026-04-13T19:22:48.697Z",
+    "lastSeen": "2026-04-13T20:32:12.999Z",
     "confirmed": false
   },
   "8TPWakvWw4xQbk7uAYdNjZiDKKHgv9GE5GebzsbtUaHr": {
