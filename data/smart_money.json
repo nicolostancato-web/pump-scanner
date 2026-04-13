@@ -304,5 +304,22 @@
     "firstSeen": "2026-04-13T08:54:39.977Z",
     "lastSeen": "2026-04-13T08:54:39.977Z",
     "confirmed": false
+  },
+  "28pryh85shDtwFWoU2PyWSdaTveKkDSr2AkRxQGEarBW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "REDBULL",
+        "pairAddress": "5VYb6PsHzeTA4d46QQWYdn6Lp3ZKoqw5rJW8vsWQPpbr",
+        "entryTime": "2026-04-13T08:55:12.041Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T08:55:12.041Z",
+    "lastSeen": "2026-04-13T08:55:12.041Z",
+    "confirmed": false
   }
 }
