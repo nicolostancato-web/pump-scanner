@@ -4493,7 +4493,7 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -4519,6 +4519,11 @@
         "symbol": "RND",
         "pairAddress": "7znwA93ufnu9NGR9Gr1fcMpF6B7okh4vCKot1XNuFM4o",
         "entryTime": "2026-04-12T20:28:20.363Z"
+      },
+      {
+        "symbol": "BabyBull",
+        "pairAddress": "DbU5anybx94BSucWiKKtPJoq4vgKUVzLdB6RVnx8ZHC9",
+        "entryTime": "2026-04-13T02:07:35.212Z"
       }
     ],
     "wins": 0,
@@ -4526,7 +4531,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:47:44.252Z",
-    "lastSeen": "2026-04-12T20:28:20.363Z",
+    "lastSeen": "2026-04-13T02:07:35.212Z",
     "confirmed": true
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
