@@ -953,7 +953,61 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "5xQ7UVUgFkKLQsqxV83DcZJqp7q6QN1C9KbyB9eLTif",
+      "mint": "Fjdxjqx4Pb3MQWUzwgTwT6DvRQ9MtMSMdfFz27fvpump",
+      "name": "Lil Reaper",
+      "symbol": "Reaper",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002275,
+      "entryMcap": 227593,
+      "entryTime": 1776050440087,
+      "score": 75,
+      "ageAtEntry": 19,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/5xq7uvugfkklqsqxv83dczjqp7q6qn1c9kbyb9eltif",
+      "peakPrice": 0.0002275,
+      "peakMultiplier": 1,
+      "peakMcap": 227593,
+      "peakTime": 1776050440087,
+      "lastPrice": 0.0001454,
+      "lowestPrice": 0.0001454,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001454,
+      "closeMultiplier": 0.6391208791208791,
+      "closedAt": "2026-04-13T03:25:40.393Z",
+      "durationMs": 300306,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001454,
+        "closeMultiplier": 0.6391208791208791,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-13T03:25:40.393Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-13T03:02:44.962Z"
+  "lastSaved": "2026-04-13T03:25:41.706Z"
 }
