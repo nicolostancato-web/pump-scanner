@@ -3194,7 +3194,7 @@
     "confirmed": false
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -3205,6 +3205,11 @@
         "symbol": "GEM",
         "pairAddress": "C8ZtfQxMsUPmnPTtVn7qFqTx6pQcJ1advjtVQSg6Nksv",
         "entryTime": "2026-04-12T06:11:28.582Z"
+      },
+      {
+        "symbol": "Pekachu",
+        "pairAddress": "AHUdhcock7RWZBi5PFE4gkurStV7oBKCQYiLF1ooxqp",
+        "entryTime": "2026-04-13T00:32:17.714Z"
       }
     ],
     "wins": 0,
@@ -3212,8 +3217,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:15:35.316Z",
-    "lastSeen": "2026-04-12T06:11:28.582Z",
-    "confirmed": false
+    "lastSeen": "2026-04-13T00:32:17.714Z",
+    "confirmed": true
   },
   "GSeR1tGgmpZcnKETB7gpUJBgoEBE5srr3dfqLWVrjbuo": {
     "appearances": 1,
@@ -29865,6 +29870,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T00:31:43.669Z",
     "lastSeen": "2026-04-13T00:31:43.669Z",
+    "confirmed": false
+  },
+  "2VSCxjXzykbjVBKrBa3we4yjxWtKAUkd8hAgNwpPkKP7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Pekachu",
+        "pairAddress": "AHUdhcock7RWZBi5PFE4gkurStV7oBKCQYiLF1ooxqp",
+        "entryTime": "2026-04-13T00:32:17.714Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T00:32:17.714Z",
+    "lastSeen": "2026-04-13T00:32:17.714Z",
     "confirmed": false
   }
 }
