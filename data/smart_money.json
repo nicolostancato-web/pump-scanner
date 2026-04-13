@@ -4681,5 +4681,39 @@
     "firstSeen": "2026-04-13T12:06:01.267Z",
     "lastSeen": "2026-04-13T12:06:01.267Z",
     "confirmed": false
+  },
+  "D9iHL6hDFTtJfqNdwbigJpQbNWY8XcqRUSLA8Yxs2dMU": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SINA",
+        "pairAddress": "Dg8RzXpihL1kMqJYC6zwGE18DWfm3H8iSCrvMU8Hegte",
+        "entryTime": "2026-04-13T12:10:31.605Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T12:10:31.605Z",
+    "lastSeen": "2026-04-13T12:10:31.605Z",
+    "confirmed": false
+  },
+  "pWSGA7q72V8DuANsJNBTRFa3YHvzQLMAHtjKQD52Nka": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SINA",
+        "pairAddress": "Dg8RzXpihL1kMqJYC6zwGE18DWfm3H8iSCrvMU8Hegte",
+        "entryTime": "2026-04-13T12:10:31.605Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T12:10:31.605Z",
+    "lastSeen": "2026-04-13T12:10:31.605Z",
+    "confirmed": false
   }
 }
