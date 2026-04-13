@@ -2821,7 +2821,7 @@
     "confirmed": false
   },
   "2VVFbdf6RVcKNxMHtcBwskLwoKAEAqnHpNzWTGepyV7N": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -2842,6 +2842,11 @@
         "symbol": "Hermes",
         "pairAddress": "5dyariEFyBo8DtdnWssTHdHwEcGHd8TztcmUKtmFnNWH",
         "entryTime": "2026-04-12T23:09:17.876Z"
+      },
+      {
+        "symbol": "AIBABY",
+        "pairAddress": "EFgVjWSXPXjurTuQxbJ7BcWij6487d9jzfSCMQwL4M64",
+        "entryTime": "2026-04-13T07:24:23.237Z"
       }
     ],
     "wins": 0,
@@ -2849,7 +2854,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:10:42.211Z",
-    "lastSeen": "2026-04-12T23:09:17.876Z",
+    "lastSeen": "2026-04-13T07:24:23.237Z",
     "confirmed": true
   },
   "7GnHhoMHhCMYY8sBpNazKSDikTd3QG5Qp7LM3biyWYJQ": {
@@ -37320,6 +37325,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T07:23:48.169Z",
     "lastSeen": "2026-04-13T07:23:48.169Z",
+    "confirmed": false
+  },
+  "Fump8PPMrkmXwZPm7QTvhWVBLE9MkNHVSQVFwFr1QWXf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AIBABY",
+        "pairAddress": "EFgVjWSXPXjurTuQxbJ7BcWij6487d9jzfSCMQwL4M64",
+        "entryTime": "2026-04-13T07:24:23.237Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T07:24:23.237Z",
+    "lastSeen": "2026-04-13T07:24:23.237Z",
     "confirmed": false
   }
 }
