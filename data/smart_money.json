@@ -6192,5 +6192,22 @@
     "firstSeen": "2026-04-13T13:22:34.725Z",
     "lastSeen": "2026-04-13T13:22:34.725Z",
     "confirmed": false
+  },
+  "ALN4MgeQsh1QN5SU4ovHTY5KEDgkjghvy7bxEvr7sUkx": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "bulltire",
+        "pairAddress": "FDvPiRG5dUmpD5qg6UGRZp2k6HMGAqAGbVuZ3xTteUTo",
+        "entryTime": "2026-04-13T13:23:21.775Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T13:23:21.775Z",
+    "lastSeen": "2026-04-13T13:23:21.775Z",
+    "confirmed": false
   }
 }
