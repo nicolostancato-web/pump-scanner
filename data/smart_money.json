@@ -2960,7 +2960,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 16,
+    "appearances": 17,
     "tokens": [
       {
         "symbol": "ALONSHOUSE",
@@ -3041,6 +3041,11 @@
         "symbol": "MIMI",
         "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
         "entryTime": "2026-04-13T06:18:17.786Z"
+      },
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T07:43:37.756Z"
       }
     ],
     "wins": 0,
@@ -3048,7 +3053,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T00:12:16.607Z",
-    "lastSeen": "2026-04-13T06:18:17.786Z",
+    "lastSeen": "2026-04-13T07:43:37.756Z",
     "confirmed": true
   },
   "4Ce6DBKpY5muvvtgAvKxmxBv882w8zrHejE2GbGyozsS": {
@@ -37797,6 +37802,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T07:43:02.950Z",
     "lastSeen": "2026-04-13T07:43:02.950Z",
+    "confirmed": false
+  },
+  "8vJqvoTNRwTCaignY4JLyE6dkobyepyvehqLx364Njiv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Rudi",
+        "pairAddress": "DbKQVHEtNTr4zJB4QcAnfokJMHu3pQ6w9CYmHLZUhxCL",
+        "entryTime": "2026-04-13T07:43:37.756Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T07:43:37.756Z",
+    "lastSeen": "2026-04-13T07:43:37.756Z",
     "confirmed": false
   }
 }
