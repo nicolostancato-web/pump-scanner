@@ -10170,12 +10170,17 @@
     "confirmed": false
   },
   "AvQuWcqAVnoqRZm6a8XaN9vQfXHNTiJhTSpt6AuX4rGz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MONKOO",
         "pairAddress": "EqjbMXVJqsCUNykbRRxWj9PuhGvJaKM6G7DEZMGqkWEk",
         "entryTime": "2026-04-12T04:53:36.831Z"
+      },
+      {
+        "symbol": "REDBULL",
+        "pairAddress": "5VYb6PsHzeTA4d46QQWYdn6Lp3ZKoqw5rJW8vsWQPpbr",
+        "entryTime": "2026-04-13T08:48:14.061Z"
       }
     ],
     "wins": 0,
@@ -10183,7 +10188,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T04:53:36.831Z",
-    "lastSeen": "2026-04-12T04:53:36.831Z",
+    "lastSeen": "2026-04-13T08:48:14.061Z",
     "confirmed": false
   },
   "ApmSdms3aobHaHnPhdgs9KHXALYswxztFiJTc86ZWhRi": {
@@ -39466,6 +39471,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T08:47:40.580Z",
     "lastSeen": "2026-04-13T08:47:40.580Z",
+    "confirmed": false
+  },
+  "FYGMf3uRBgzC5ATUXCi7JuGfkFvjuDLX9eacqJJoyqzu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "REDBULL",
+        "pairAddress": "5VYb6PsHzeTA4d46QQWYdn6Lp3ZKoqw5rJW8vsWQPpbr",
+        "entryTime": "2026-04-13T08:48:14.061Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T08:48:14.061Z",
+    "lastSeen": "2026-04-13T08:48:14.061Z",
     "confirmed": false
   }
 }
