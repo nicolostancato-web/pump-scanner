@@ -5505,7 +5505,7 @@
     "confirmed": false
   },
   "ARqJ18xaBLrEJYARaYHxfRKSi1pB7dZjwq1NW6Fiuieb": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Zoomer",
@@ -5531,6 +5531,11 @@
         "symbol": "EDWARD",
         "pairAddress": "C9XrPo31zk7wSoBi6onjnxs9CHdSyds8bdeMqe3Q7QKe",
         "entryTime": "2026-04-12T22:09:00.362Z"
+      },
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T07:09:51.987Z"
       }
     ],
     "wins": 0,
@@ -5538,7 +5543,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:02:07.891Z",
-    "lastSeen": "2026-04-12T22:09:00.362Z",
+    "lastSeen": "2026-04-13T07:09:51.987Z",
     "confirmed": true
   },
   "8EaPHLRuxu6wUjuD5yHuXMQpCyBXbD2XzGuPyhBPq95a": {
@@ -5836,12 +5841,17 @@
     "confirmed": false
   },
   "484jSm6m5SALEjkP6R3q5p9rP8jow1Mx33k6NmckW9cX": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Zoomer",
         "pairAddress": "EvDD7gjtfLETpF8m8boLppTCHosWoyoy43AKSttyRia9",
         "entryTime": "2026-04-12T02:06:27.195Z"
+      },
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T07:09:51.987Z"
       }
     ],
     "wins": 0,
@@ -5849,7 +5859,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T02:06:27.195Z",
-    "lastSeen": "2026-04-12T02:06:27.195Z",
+    "lastSeen": "2026-04-13T07:09:51.987Z",
     "confirmed": false
   },
   "Ch5ZRVGyzka7R1Hx9XRRo2BrAA6V4rZjbtLVQLn9zjHQ": {
