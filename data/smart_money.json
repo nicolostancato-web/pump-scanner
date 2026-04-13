@@ -10854,7 +10854,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 11,
+    "appearances": 12,
     "tokens": [
       {
         "symbol": "Audit",
@@ -10910,6 +10910,11 @@
         "symbol": "BabyBull",
         "pairAddress": "DbU5anybx94BSucWiKKtPJoq4vgKUVzLdB6RVnx8ZHC9",
         "entryTime": "2026-04-13T02:10:49.476Z"
+      },
+      {
+        "symbol": "Autism",
+        "pairAddress": "2KgwfPBRUTCJVbQdRbsryhnyKuGs51Apsm26ckm598QS",
+        "entryTime": "2026-04-13T03:59:31.175Z"
       }
     ],
     "wins": 0,
@@ -10917,7 +10922,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T05:37:34.790Z",
-    "lastSeen": "2026-04-13T02:10:49.476Z",
+    "lastSeen": "2026-04-13T03:59:31.175Z",
     "confirmed": true
   },
   "APu3gwvqWyR6RqGin1512oQ7Q1taM6LixBGpPJAgaQAJ": {
@@ -31988,6 +31993,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T03:58:56.258Z",
     "lastSeen": "2026-04-13T03:58:56.258Z",
+    "confirmed": false
+  },
+  "atVg1smkGaXG9HaouzegcvyQRZV2vY2qdUZM4ktPb7H": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Autism",
+        "pairAddress": "2KgwfPBRUTCJVbQdRbsryhnyKuGs51Apsm26ckm598QS",
+        "entryTime": "2026-04-13T03:59:31.175Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T03:59:31.175Z",
+    "lastSeen": "2026-04-13T03:59:31.175Z",
     "confirmed": false
   }
 }
