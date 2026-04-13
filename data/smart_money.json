@@ -15203,12 +15203,17 @@
     "confirmed": false
   },
   "65iEyANVsggRd18ZnpffJejWAUCELhvU9Z9x6xu7o3Fp": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Nimbus",
         "pairAddress": "GSqp5fsmNUqXkRes7VoJT9tseGACPYZ9cWQTHtNBmHeJ",
         "entryTime": "2026-04-12T09:57:31.757Z"
+      },
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T07:10:31.972Z"
       }
     ],
     "wins": 0,
@@ -15216,7 +15221,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-12T09:57:31.757Z",
-    "lastSeen": "2026-04-12T09:57:31.757Z",
+    "lastSeen": "2026-04-13T07:10:31.972Z",
     "confirmed": false
   },
   "Aj9aLRk2RA3CHRBU78MkyNfNgqXbLGBiV8RLrBovNbAg": {
@@ -37084,6 +37089,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-13T07:09:16.995Z",
     "lastSeen": "2026-04-13T07:09:16.995Z",
+    "confirmed": false
+  },
+  "7YwPHCkqGXSfPQyE1ruvfUScwHYqVXt8iHS4LNFqxTFN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MIMI",
+        "pairAddress": "FrftoK3gUEcVrQyMT7ydqtQmezVPHSew52Nq6pSXPYk4",
+        "entryTime": "2026-04-13T07:10:31.972Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-13T07:10:31.972Z",
+    "lastSeen": "2026-04-13T07:10:31.972Z",
     "confirmed": false
   }
 }
