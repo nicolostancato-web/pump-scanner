@@ -2612,7 +2612,7 @@
     "confirmed": false
   },
   "Sirius6CrwpvKKokCejugLfjyUcqVPZawScz6DqxWjA": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "FI/RE",
@@ -2623,6 +2623,11 @@
         "symbol": "Son",
         "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
         "entryTime": "2026-04-14T03:17:31.038Z"
+      },
+      {
+        "symbol": "Work",
+        "pairAddress": "G6z1KjoHUQjRTHPKMXUgacKhyLvaLfXWyjst9zScRdKo",
+        "entryTime": "2026-04-14T06:08:30.847Z"
       }
     ],
     "wins": 0,
@@ -2630,8 +2635,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T10:54:32.005Z",
-    "lastSeen": "2026-04-14T03:17:31.038Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T06:08:30.847Z",
+    "confirmed": true
   },
   "3i51cKbLbaKAqvRJdCUaq9hsnvf9kqCfMujNgFj7nRKt": {
     "appearances": 1,
@@ -26547,6 +26552,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T06:05:08.630Z",
     "lastSeen": "2026-04-14T06:05:08.630Z",
+    "confirmed": false
+  },
+  "4w1tTQB8TY1FGCwt3WkeNy68kAgZRDm1NumEVjYDi6v1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Work",
+        "pairAddress": "G6z1KjoHUQjRTHPKMXUgacKhyLvaLfXWyjst9zScRdKo",
+        "entryTime": "2026-04-14T06:08:30.847Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T06:08:30.847Z",
+    "lastSeen": "2026-04-14T06:08:30.847Z",
     "confirmed": false
   }
 }
