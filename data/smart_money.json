@@ -5081,7 +5081,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Ising",
@@ -5102,6 +5102,11 @@
         "symbol": "M2M",
         "pairAddress": "7NzExuuB8tpdk4YtpS2JZQWVXTSMvowx7GQDS1PKwJMD",
         "entryTime": "2026-04-14T21:51:04.461Z"
+      },
+      {
+        "symbol": "CRYPTOCOIN",
+        "pairAddress": "6vNC23D22qu7LYYVb4iogoj1qLYKQ9cWzr9gFuDRFtbG",
+        "entryTime": "2026-04-14T22:32:23.670Z"
       }
     ],
     "wins": 0,
@@ -5109,7 +5114,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:00:46.746Z",
-    "lastSeen": "2026-04-14T21:51:04.461Z",
+    "lastSeen": "2026-04-14T22:32:23.670Z",
     "confirmed": true
   },
   "GkRg6NBKYFh3RXLUrvPv8143uaUTerHmL2QMuk3ui8Gq": {
@@ -19030,6 +19035,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T22:31:54.244Z",
     "lastSeen": "2026-04-14T22:31:54.244Z",
+    "confirmed": false
+  },
+  "2teQZwtmi4tcmQwf8kEf6gMDV4qPEhxeCdBxaVY7J8JH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CRYPTOCOIN",
+        "pairAddress": "6vNC23D22qu7LYYVb4iogoj1qLYKQ9cWzr9gFuDRFtbG",
+        "entryTime": "2026-04-14T22:32:23.670Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T22:32:23.670Z",
+    "lastSeen": "2026-04-14T22:32:23.670Z",
     "confirmed": false
   }
 }
