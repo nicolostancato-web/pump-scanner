@@ -4542,7 +4542,7 @@
     "confirmed": false
   },
   "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Wagie",
@@ -4573,6 +4573,11 @@
         "symbol": "INUUNC",
         "pairAddress": "DSxUSxL8sP39z8qRsKysHoacmngb7xddQeLW25h86zJb",
         "entryTime": "2026-04-14T10:49:24.874Z"
+      },
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T12:47:42.734Z"
       }
     ],
     "wins": 0,
@@ -4580,7 +4585,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T11:47:24.857Z",
-    "lastSeen": "2026-04-14T10:49:24.874Z",
+    "lastSeen": "2026-04-14T12:47:42.734Z",
     "confirmed": true
   },
   "CdFGzAt2b4YC2swXL81wY36TsyJ3MXou4V1WHg1tBeEa": {
@@ -39371,6 +39376,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T12:47:08.748Z",
     "lastSeen": "2026-04-14T12:47:08.748Z",
+    "confirmed": false
+  },
+  "H8ELaSsDcSdgAr6Tjts7RzUifZHxUbHkbDSgUSAdw64L": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T12:47:42.734Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T12:47:42.734Z",
+    "lastSeen": "2026-04-14T12:47:42.734Z",
     "confirmed": false
   }
 }
