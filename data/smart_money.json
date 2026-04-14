@@ -4414,7 +4414,7 @@
     "confirmed": true
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Ising",
@@ -4425,6 +4425,11 @@
         "symbol": "INU",
         "pairAddress": "FAtHYvFt7d3r3TfdAJhrJ7He5beSboug1FG5t1TWF3YR",
         "entryTime": "2026-04-14T17:13:21.264Z"
+      },
+      {
+        "symbol": "PSYCHO",
+        "pairAddress": "DCjCM1PyCagwqvvYa9sh1F3qgrVyDznvtv1GfJA4GSzS",
+        "entryTime": "2026-04-14T18:36:45.940Z"
       }
     ],
     "wins": 0,
@@ -4432,8 +4437,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:20:34.395Z",
-    "lastSeen": "2026-04-14T17:13:21.264Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T18:36:45.940Z",
+    "confirmed": true
   },
   "CT5WRRtZxsoVRBHc6art6HWrM4azWo4ofuiT853PtJTc": {
     "appearances": 1,
@@ -12306,6 +12311,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T18:36:13.673Z",
     "lastSeen": "2026-04-14T18:36:13.673Z",
+    "confirmed": false
+  },
+  "APHTyZqrfxii4p2g9T4hT1HUsQSTgrALp5bpRgazr2D9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PSYCHO",
+        "pairAddress": "DCjCM1PyCagwqvvYa9sh1F3qgrVyDznvtv1GfJA4GSzS",
+        "entryTime": "2026-04-14T18:36:45.940Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T18:36:45.940Z",
+    "lastSeen": "2026-04-14T18:36:45.940Z",
     "confirmed": false
   }
 }
