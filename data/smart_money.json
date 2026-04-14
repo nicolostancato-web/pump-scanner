@@ -384,7 +384,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "REDBULL",
@@ -400,6 +400,11 @@
         "symbol": "Fat",
         "pairAddress": "879ft48NMmZyfsNWQh7B4G2d4iaEjMiGyT1Gg2ivAYQe",
         "entryTime": "2026-04-13T21:32:04.955Z"
+      },
+      {
+        "symbol": "SENDY",
+        "pairAddress": "DVq4xqvYfHrfSrc5TNdQ2h5rkY3sXY9UunXhp91A9Bnq",
+        "entryTime": "2026-04-14T00:07:30.938Z"
       }
     ],
     "wins": 0,
@@ -407,7 +412,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T08:58:16.457Z",
-    "lastSeen": "2026-04-13T21:32:04.955Z",
+    "lastSeen": "2026-04-14T00:07:30.938Z",
     "confirmed": true
   },
   "5pKftcuKcCAWNyP8njNDmg7CTQWEFb2zdYoGc8q5fBpK": {
