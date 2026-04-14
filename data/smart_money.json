@@ -680,7 +680,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "JesusTremp",
@@ -706,6 +706,11 @@
         "symbol": "DUMBMONEY",
         "pairAddress": "6zZHQtPqiBzwm4qR21BHaKp5VJEYhzjccamfd6x8cjsP",
         "entryTime": "2026-04-14T00:53:03.496Z"
+      },
+      {
+        "symbol": "KIKI",
+        "pairAddress": "BWoxQfbFifwJpsit4wH54WLQmP3JASQ1MxJcinMfzszM",
+        "entryTime": "2026-04-14T03:31:20.451Z"
       }
     ],
     "wins": 0,
@@ -713,7 +718,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:12:42.051Z",
-    "lastSeen": "2026-04-14T00:53:03.496Z",
+    "lastSeen": "2026-04-14T03:31:20.451Z",
     "confirmed": true
   },
   "8wTw3CssZQvbj7mJ9MapcDT7Sk96WN7MiAKQP9eBr8Yu": {
@@ -22064,6 +22069,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T03:30:48.711Z",
     "lastSeen": "2026-04-14T03:30:48.711Z",
+    "confirmed": false
+  },
+  "GxNnUNYEMxECogm7CLseMGE1SBz9vQEUvpXtXGVjjN2K": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "KIKI",
+        "pairAddress": "BWoxQfbFifwJpsit4wH54WLQmP3JASQ1MxJcinMfzszM",
+        "entryTime": "2026-04-14T03:31:20.451Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T03:31:20.451Z",
+    "lastSeen": "2026-04-14T03:31:20.451Z",
     "confirmed": false
   }
 }
