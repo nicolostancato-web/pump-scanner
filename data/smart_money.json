@@ -8839,7 +8839,7 @@
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "INU",
@@ -8855,6 +8855,11 @@
         "symbol": "glep",
         "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
         "entryTime": "2026-04-14T20:45:16.570Z"
+      },
+      {
+        "symbol": "CRYPTOCOIN",
+        "pairAddress": "6vNC23D22qu7LYYVb4iogoj1qLYKQ9cWzr9gFuDRFtbG",
+        "entryTime": "2026-04-14T22:34:58.945Z"
       }
     ],
     "wins": 0,
@@ -8862,7 +8867,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T17:12:49.831Z",
-    "lastSeen": "2026-04-14T20:45:16.570Z",
+    "lastSeen": "2026-04-14T22:34:58.945Z",
     "confirmed": true
   },
   "48eWH4QFcHFjqyLNyFuSnZAQXacrkJ3RPuJq3tJ4r482": {
