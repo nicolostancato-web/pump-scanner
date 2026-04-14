@@ -13603,12 +13603,17 @@
     "confirmed": false
   },
   "2XnPFpxqYnVwdd8v68ez8mvpoMjkgY65LVsTy3WRoCGJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "friendship",
         "pairAddress": "2PsciTWr6G8E11jDDNvRqiRZMSUhzXWkEYvShx8EWXcQ",
         "entryTime": "2026-04-13T19:11:01.389Z"
+      },
+      {
+        "symbol": "bullunc",
+        "pairAddress": "EBoUXBkCUfG9D8aRP4GPBoBvDJgE9Mh1wFMfUEfXF9Sb",
+        "entryTime": "2026-04-14T07:35:49.495Z"
       }
     ],
     "wins": 0,
@@ -13616,7 +13621,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T19:11:01.389Z",
-    "lastSeen": "2026-04-13T19:11:01.389Z",
+    "lastSeen": "2026-04-14T07:35:49.495Z",
     "confirmed": false
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
@@ -27942,6 +27947,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T07:34:43.942Z",
     "lastSeen": "2026-04-14T07:34:43.942Z",
+    "confirmed": false
+  },
+  "HoxLcV3LtJMteMzqqmJ4UpjsFgLYnamQtJ1o7Z63SKTu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "bullunc",
+        "pairAddress": "EBoUXBkCUfG9D8aRP4GPBoBvDJgE9Mh1wFMfUEfXF9Sb",
+        "entryTime": "2026-04-14T07:35:49.495Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T07:35:49.495Z",
+    "lastSeen": "2026-04-14T07:35:49.495Z",
     "confirmed": false
   }
 }
