@@ -2903,12 +2903,17 @@
     "confirmed": false
   },
   "5baEHr9X6tLznWaqtNh1XX9zKdQK9Dwd86dNmowBe32z": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FI/RE",
         "pairAddress": "DVZ87SGdLaaborpbZQCrMmEcAZVDw6puntqyLsA4cSwp",
         "entryTime": "2026-04-13T11:04:52.034Z"
+      },
+      {
+        "symbol": "KIKI",
+        "pairAddress": "BWoxQfbFifwJpsit4wH54WLQmP3JASQ1MxJcinMfzszM",
+        "entryTime": "2026-04-14T03:21:18.927Z"
       }
     ],
     "wins": 0,
@@ -2916,7 +2921,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T11:04:52.034Z",
-    "lastSeen": "2026-04-13T11:04:52.034Z",
+    "lastSeen": "2026-04-14T03:21:18.927Z",
     "confirmed": false
   },
   "CkUZV387xnoGpF7wC2moMa6mPmAgCvTT4pWgzq4M9fCD": {
@@ -21481,6 +21486,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T03:20:46.120Z",
     "lastSeen": "2026-04-14T03:20:46.120Z",
+    "confirmed": false
+  },
+  "8PvGfb4v7nU66rr1bkfJbAsUuJGEmhHeXW9DWVG4YWKM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "KIKI",
+        "pairAddress": "BWoxQfbFifwJpsit4wH54WLQmP3JASQ1MxJcinMfzszM",
+        "entryTime": "2026-04-14T03:21:18.927Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T03:21:18.927Z",
+    "lastSeen": "2026-04-14T03:21:18.927Z",
     "confirmed": false
   }
 }
