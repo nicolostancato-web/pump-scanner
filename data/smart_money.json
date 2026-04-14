@@ -705,7 +705,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "JesusTremp",
@@ -746,6 +746,11 @@
         "symbol": "Coco",
         "pairAddress": "8pqXhf6RkhXFe5XKbESBX3tkNbAxYC8KKbPEtRKGotGV",
         "entryTime": "2026-04-14T08:00:10.197Z"
+      },
+      {
+        "symbol": "SIZE",
+        "pairAddress": "69PTr4DYnL1LP43WsyDti2bUxJ5Kv21kyznkKwURvADE",
+        "entryTime": "2026-04-14T08:10:31.166Z"
       }
     ],
     "wins": 0,
@@ -753,7 +758,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:12:42.051Z",
-    "lastSeen": "2026-04-14T08:00:10.197Z",
+    "lastSeen": "2026-04-14T08:10:31.166Z",
     "confirmed": true
   },
   "8wTw3CssZQvbj7mJ9MapcDT7Sk96WN7MiAKQP9eBr8Yu": {
@@ -29081,6 +29086,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T08:09:51.862Z",
     "lastSeen": "2026-04-14T08:09:51.862Z",
+    "confirmed": false
+  },
+  "HmrzQW6qkG6Qg84s98QHs2Rq7iHDQ9GKdKQDSFNa3vhf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SIZE",
+        "pairAddress": "69PTr4DYnL1LP43WsyDti2bUxJ5Kv21kyznkKwURvADE",
+        "entryTime": "2026-04-14T08:10:31.166Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T08:10:31.166Z",
+    "lastSeen": "2026-04-14T08:10:31.166Z",
     "confirmed": false
   }
 }
