@@ -85,12 +85,17 @@
     "confirmed": false
   },
   "DW7PDrnJS9zyPgVz8rVE1hUCnVCc3BRzVHifqNGbJZGm": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "REDBULL",
         "pairAddress": "5VYb6PsHzeTA4d46QQWYdn6Lp3ZKoqw5rJW8vsWQPpbr",
         "entryTime": "2026-04-13T08:50:55.409Z"
+      },
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T12:21:12.219Z"
       }
     ],
     "wins": 0,
@@ -98,7 +103,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T08:50:55.409Z",
-    "lastSeen": "2026-04-13T08:50:55.409Z",
+    "lastSeen": "2026-04-14T12:21:12.219Z",
     "confirmed": false
   },
   "jPJSi6vrWRexusxuv8MYBBpp6fhNAwmLMfyrULBp14c": {
@@ -38337,6 +38342,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T12:20:28.805Z",
     "lastSeen": "2026-04-14T12:20:28.805Z",
+    "confirmed": false
+  },
+  "BUnWbWh7eZS5upzBw1gctgszFqYwCFbpzLWDvXGnpJoY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T12:21:12.219Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T12:21:12.219Z",
+    "lastSeen": "2026-04-14T12:21:12.219Z",
     "confirmed": false
   }
 }
