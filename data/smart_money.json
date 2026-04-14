@@ -19281,12 +19281,17 @@
     "confirmed": false
   },
   "8SveFUanfbLRMsL6NAXa1LCMmLEsUc7q7KhFBufscG5Y": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Meeka",
         "pairAddress": "XdVXCZKLXd1uDeEBcW6ngh689XDKofPHLNvn2JrXggG",
         "entryTime": "2026-04-14T01:59:05.523Z"
+      },
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T03:16:15.135Z"
       }
     ],
     "wins": 0,
@@ -19294,7 +19299,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T01:59:05.523Z",
-    "lastSeen": "2026-04-14T01:59:05.523Z",
+    "lastSeen": "2026-04-14T03:16:15.135Z",
     "confirmed": false
   },
   "2FevJdh7nzzMrG4caYGurGc5bhguYfASmAmqFA4Zt54f": {
