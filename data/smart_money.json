@@ -7301,12 +7301,17 @@
     "confirmed": false
   },
   "GBLmmT1cisZgM691vVNor3oxmUXhq4K4xziesFHiXU2g": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "bulltire",
         "pairAddress": "FDvPiRG5dUmpD5qg6UGRZp2k6HMGAqAGbVuZ3xTteUTo",
         "entryTime": "2026-04-13T13:59:49.787Z"
+      },
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T12:18:08.798Z"
       }
     ],
     "wins": 0,
@@ -7314,7 +7319,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T13:59:49.787Z",
-    "lastSeen": "2026-04-13T13:59:49.787Z",
+    "lastSeen": "2026-04-14T12:18:08.798Z",
     "confirmed": false
   },
   "7dnyfDEx2dfLRP7K4cJunZpSdQu1HTTP3VQhrv4Fh9CW": {
