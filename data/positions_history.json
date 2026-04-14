@@ -1115,7 +1115,61 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4gCMaFRxxXzBzWUinadTSyreKahgKg4JvGVHFQu49Re5",
+      "mint": "HzBH6M6AJQN1C2CNHmpwuBDU3G8LDWj9XkcnnadHpump",
+      "name": "Donald J. Trump",
+      "symbol": "DJT",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001062,
+      "entryMcap": 106206,
+      "entryTime": 1776132524462,
+      "score": 65,
+      "ageAtEntry": 13,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/4gcmafrxxxzbzwuinadtsyrekahgkg4jvgvhfqu49re5",
+      "peakPrice": 0.0001062,
+      "peakMultiplier": 1,
+      "peakMcap": 106206,
+      "peakTime": 1776132524462,
+      "lastPrice": 0.0000664,
+      "lowestPrice": 0.0000664,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0000664,
+      "closeMultiplier": 0.6252354048964218,
+      "closedAt": "2026-04-14T02:11:43.146Z",
+      "durationMs": 178684,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0000664,
+        "closeMultiplier": 0.6252354048964218,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-14T02:11:43.146Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0000664,
+        "closeMultiplier": 0.6252354048964218,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-14T02:11:43.146Z"
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-13T21:16:33.879Z"
+  "lastSaved": "2026-04-14T02:11:44.484Z"
 }
