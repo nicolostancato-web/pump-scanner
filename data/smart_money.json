@@ -30992,5 +30992,22 @@
     "firstSeen": "2026-04-14T09:11:17.207Z",
     "lastSeen": "2026-04-14T09:11:17.207Z",
     "confirmed": false
+  },
+  "HCU3cuWmR4mXvcopTfuWnKoYV7wa14f6nbjiECcikjmF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TANK",
+        "pairAddress": "ANXLnoEqAdxprdYYerUvHCyhTSc2kCtEskiWzJp5AeUx",
+        "entryTime": "2026-04-14T09:11:49.866Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T09:11:49.866Z",
+    "lastSeen": "2026-04-14T09:11:49.866Z",
+    "confirmed": false
   }
 }
