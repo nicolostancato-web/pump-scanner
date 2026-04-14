@@ -23645,5 +23645,22 @@
     "firstSeen": "2026-04-14T04:07:00.100Z",
     "lastSeen": "2026-04-14T04:07:00.100Z",
     "confirmed": false
+  },
+  "7nrCoMZtB1aAPgKJvQ9kePZ4V7ukxRXFKs4nHBHJP5GA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GOAT",
+        "pairAddress": "AN9zv7VrrkwRUz19sgf3uQQhv9nYyBgR5sqWVbM279xW",
+        "entryTime": "2026-04-14T04:07:33.703Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T04:07:33.703Z",
+    "lastSeen": "2026-04-14T04:07:33.703Z",
+    "confirmed": false
   }
 }
