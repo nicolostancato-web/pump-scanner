@@ -18375,5 +18375,22 @@
     "firstSeen": "2026-04-14T22:08:01.165Z",
     "lastSeen": "2026-04-14T22:08:01.165Z",
     "confirmed": false
+  },
+  "2eRmET12vCMP3Ciqbms3jYakKjCYt8iVopQPkgfJTaB9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "M2M",
+        "pairAddress": "7NzExuuB8tpdk4YtpS2JZQWVXTSMvowx7GQDS1PKwJMD",
+        "entryTime": "2026-04-14T22:08:36.509Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T22:08:36.509Z",
+    "lastSeen": "2026-04-14T22:08:36.509Z",
+    "confirmed": false
   }
 }
