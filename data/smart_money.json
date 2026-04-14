@@ -13272,7 +13272,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "friendship",
@@ -13283,6 +13283,11 @@
         "symbol": "BELIEF",
         "pairAddress": "HehzrczPii9azd1QzPLjsjwsnygHvHpfBYPcmEp3gugG",
         "entryTime": "2026-04-13T19:17:31.801Z"
+      },
+      {
+        "symbol": "Work",
+        "pairAddress": "G6z1KjoHUQjRTHPKMXUgacKhyLvaLfXWyjst9zScRdKo",
+        "entryTime": "2026-04-14T06:04:31.177Z"
       }
     ],
     "wins": 0,
@@ -13290,8 +13295,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T18:49:57.767Z",
-    "lastSeen": "2026-04-13T19:17:31.801Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T06:04:31.177Z",
+    "confirmed": true
   },
   "8Zua2MyfbpBke3KfbKV1ZFwqbPH5tHSuTwxQn9KoCFc": {
     "appearances": 1,
@@ -26498,6 +26503,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T06:03:12.244Z",
     "lastSeen": "2026-04-14T06:03:12.244Z",
+    "confirmed": false
+  },
+  "JiankS6bPfP6a1KLDDRR6HR2xWACxoTGeR8Rz2HVUWe": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Work",
+        "pairAddress": "G6z1KjoHUQjRTHPKMXUgacKhyLvaLfXWyjst9zScRdKo",
+        "entryTime": "2026-04-14T06:04:31.177Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T06:04:31.177Z",
+    "lastSeen": "2026-04-14T06:04:31.177Z",
     "confirmed": false
   }
 }
