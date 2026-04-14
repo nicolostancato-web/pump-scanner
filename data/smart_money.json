@@ -20058,12 +20058,17 @@
     "confirmed": false
   },
   "YV4UrND8YREA6Mn4YQSBRqkX9sW7PDgAiVBLTbNEmrW": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Son",
         "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
         "entryTime": "2026-04-14T02:32:34.114Z"
+      },
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:10:32.737Z"
       }
     ],
     "wins": 0,
@@ -20071,7 +20076,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T02:32:34.114Z",
-    "lastSeen": "2026-04-14T02:32:34.114Z",
+    "lastSeen": "2026-04-14T11:10:32.737Z",
     "confirmed": false
   },
   "57ajSpPojhkmpBGRfW1967ecAxuztjXFdjjpf3fYSvUb": {
@@ -35585,6 +35590,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T11:09:53.705Z",
     "lastSeen": "2026-04-14T11:09:53.705Z",
+    "confirmed": false
+  },
+  "8Q14YsaFtgCNri1A7G6VekpqP6j84kAhaPbxcehG28ou": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:10:32.737Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T11:10:32.737Z",
+    "lastSeen": "2026-04-14T11:10:32.737Z",
     "confirmed": false
   }
 }
