@@ -10635,12 +10635,17 @@
     "confirmed": false
   },
   "HZBmjtgG8MDownvB9wTLTRN2stjozUBwDaBUhUpybvrm": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Hikikomori",
         "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
         "entryTime": "2026-04-13T16:42:41.466Z"
+      },
+      {
+        "symbol": "FU",
+        "pairAddress": "6vyvY9TcPovy2zjWRH1pXMY1H6opkVPgTaXvdKEYqHJs",
+        "entryTime": "2026-04-14T01:56:54.793Z"
       }
     ],
     "wins": 0,
@@ -10648,7 +10653,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T16:42:41.466Z",
-    "lastSeen": "2026-04-13T16:42:41.466Z",
+    "lastSeen": "2026-04-14T01:56:54.793Z",
     "confirmed": false
   },
   "EYVfaDGmLgCqYf8dGpD7yB8Kby5k7Eupo8TEsYM8eKpi": {
@@ -19060,6 +19065,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T01:56:22.329Z",
     "lastSeen": "2026-04-14T01:56:22.329Z",
+    "confirmed": false
+  },
+  "HA7TRxAuX9BC3op1m8MrniMktvfiDEo7uQrf3pzx7ghw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FU",
+        "pairAddress": "6vyvY9TcPovy2zjWRH1pXMY1H6opkVPgTaXvdKEYqHJs",
+        "entryTime": "2026-04-14T01:56:54.793Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T01:56:54.793Z",
+    "lastSeen": "2026-04-14T01:56:54.793Z",
     "confirmed": false
   }
 }
