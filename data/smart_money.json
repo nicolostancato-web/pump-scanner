@@ -705,7 +705,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "JesusTremp",
@@ -741,6 +741,11 @@
         "symbol": "Son",
         "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
         "entryTime": "2026-04-14T03:53:35.726Z"
+      },
+      {
+        "symbol": "Coco",
+        "pairAddress": "8pqXhf6RkhXFe5XKbESBX3tkNbAxYC8KKbPEtRKGotGV",
+        "entryTime": "2026-04-14T08:00:10.197Z"
       }
     ],
     "wins": 0,
@@ -748,7 +753,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:12:42.051Z",
-    "lastSeen": "2026-04-14T03:53:35.726Z",
+    "lastSeen": "2026-04-14T08:00:10.197Z",
     "confirmed": true
   },
   "8wTw3CssZQvbj7mJ9MapcDT7Sk96WN7MiAKQP9eBr8Yu": {
@@ -28786,6 +28791,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T07:59:33.169Z",
     "lastSeen": "2026-04-14T07:59:33.169Z",
+    "confirmed": false
+  },
+  "Fwdf5k79oYMQtwpJN5rRpFE39ZjQQaQyH3EUHZzj8vXs": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Coco",
+        "pairAddress": "8pqXhf6RkhXFe5XKbESBX3tkNbAxYC8KKbPEtRKGotGV",
+        "entryTime": "2026-04-14T08:00:10.197Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T08:00:10.197Z",
+    "lastSeen": "2026-04-14T08:00:10.197Z",
+    "confirmed": false
+  },
+  "CrrR3xujCw5vKAuCGV596p8iqLMbNcNKenRPEsh5QzTn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Coco",
+        "pairAddress": "8pqXhf6RkhXFe5XKbESBX3tkNbAxYC8KKbPEtRKGotGV",
+        "entryTime": "2026-04-14T08:00:10.197Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T08:00:10.197Z",
+    "lastSeen": "2026-04-14T08:00:10.197Z",
+    "confirmed": false
+  },
+  "BujJGmqzHjCJYULmLn4t2VaQirFhJcV8zZV6whHWQz9n": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Coco",
+        "pairAddress": "8pqXhf6RkhXFe5XKbESBX3tkNbAxYC8KKbPEtRKGotGV",
+        "entryTime": "2026-04-14T08:00:10.197Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T08:00:10.197Z",
+    "lastSeen": "2026-04-14T08:00:10.197Z",
     "confirmed": false
   }
 }
