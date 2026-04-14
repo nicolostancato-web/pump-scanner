@@ -1,15 +1,15 @@
 {
   "totalClosed": 29,
   "winRate": "6.9%",
-  "avgPeakMultiplier": "1.679",
-  "avgCloseMultiplier": "0.631",
+  "avgPeakMultiplier": "1.664",
+  "avgCloseMultiplier": "0.630",
   "optimalTP": 3,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
-      "captured": 9,
-      "rate": "31.0%",
-      "expectedValue": "9.3%"
+      "captured": 8,
+      "rate": "27.6%",
+      "expectedValue": "8.3%"
     },
     "+50%": {
       "captured": 7,
@@ -108,8 +108,8 @@
   },
   "byScore": {
     "65-70": {
-      "count": 15,
-      "avgPeak": "1.78x",
+      "count": 16,
+      "avgPeak": "1.73x",
       "wins2x": 2,
       "win2xRate": "13%"
     },
@@ -120,10 +120,10 @@
       "win2xRate": "0%"
     },
     "75-80": {
-      "count": 10,
-      "avgPeak": "1.75x",
+      "count": 9,
+      "avgPeak": "1.79x",
       "wins2x": 3,
-      "win2xRate": "30%"
+      "win2xRate": "33%"
     }
   },
   "byWhale": {
@@ -134,18 +134,18 @@
     },
     "noWhale": {
       "count": 29,
-      "avgPeak": "1.68x",
+      "avgPeak": "1.66x",
       "wins2x": 5
     }
   },
   "byAge": {
     "0-15min": {
-      "count": 6,
-      "avgPeak": "2.25x"
+      "count": 7,
+      "avgPeak": "2.07x"
     },
     "15-30min": {
-      "count": 12,
-      "avgPeak": "1.91x"
+      "count": 11,
+      "avgPeak": "1.96x"
     },
     "30-60min": {
       "count": 8,
@@ -156,6 +156,6 @@
       "avgPeak": "1.00x"
     }
   },
-  "recommendation": "📊 Analisi su 29 posizioni chiuse\n✅ Win rate (chiuse in positivo): 7%\n📈 Peak medio: 1.68x | Close medio: 0.63x\n🎯 Take Profit ottimale: +300% (expected value: 31.0%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: N/A vs 1.68x",
-  "lastUpdated": "2026-04-13T22:38:41.700Z"
+  "recommendation": "📊 Analisi su 29 posizioni chiuse\n✅ Win rate (chiuse in positivo): 7%\n📈 Peak medio: 1.66x | Close medio: 0.63x\n🎯 Take Profit ottimale: +300% (expected value: 31.0%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: N/A vs 1.66x",
+  "lastUpdated": "2026-04-14T02:11:44.486Z"
 }
