@@ -2761,12 +2761,17 @@
     "confirmed": false
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FI/RE",
         "pairAddress": "DVZ87SGdLaaborpbZQCrMmEcAZVDw6puntqyLsA4cSwp",
         "entryTime": "2026-04-13T10:57:02.800Z"
+      },
+      {
+        "symbol": "Coco",
+        "pairAddress": "8pqXhf6RkhXFe5XKbESBX3tkNbAxYC8KKbPEtRKGotGV",
+        "entryTime": "2026-04-14T08:01:34.537Z"
       }
     ],
     "wins": 0,
@@ -2774,7 +2779,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T10:57:02.800Z",
-    "lastSeen": "2026-04-13T10:57:02.800Z",
+    "lastSeen": "2026-04-14T08:01:34.537Z",
     "confirmed": false
   },
   "HUGzqZ1c1LuFkL7pXvuwnQ4Bayei1epewV6tpm1smz4J": {
@@ -28842,6 +28847,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T08:00:10.197Z",
     "lastSeen": "2026-04-14T08:00:10.197Z",
+    "confirmed": false
+  },
+  "7RhT1kGXMqzUUKQpabtB3zzefDgW1vg5z2SBve49Le5U": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Coco",
+        "pairAddress": "8pqXhf6RkhXFe5XKbESBX3tkNbAxYC8KKbPEtRKGotGV",
+        "entryTime": "2026-04-14T08:01:34.537Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T08:01:34.537Z",
+    "lastSeen": "2026-04-14T08:01:34.537Z",
     "confirmed": false
   }
 }
