@@ -614,7 +614,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "pumphouse",
@@ -660,6 +660,11 @@
         "symbol": "GOAT",
         "pairAddress": "AN9zv7VrrkwRUz19sgf3uQQhv9nYyBgR5sqWVbM279xW",
         "entryTime": "2026-04-14T03:57:51.612Z"
+      },
+      {
+        "symbol": "TANK",
+        "pairAddress": "ANXLnoEqAdxprdYYerUvHCyhTSc2kCtEskiWzJp5AeUx",
+        "entryTime": "2026-04-14T08:30:22.619Z"
       }
     ],
     "wins": 0,
@@ -667,7 +672,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:05:38.969Z",
-    "lastSeen": "2026-04-14T03:57:51.612Z",
+    "lastSeen": "2026-04-14T08:30:22.619Z",
     "confirmed": true
   },
   "85pLpaUF2R9SDkGYUMc69gcfo4Xa8GzUwKVg68A6UFoq": {
@@ -29808,6 +29813,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T08:29:45.811Z",
     "lastSeen": "2026-04-14T08:29:45.811Z",
+    "confirmed": false
+  },
+  "6KooQtzUp4tTBJ5Psd33Y8Wz1rtpPJ3cDT2NvvPmmZag": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TANK",
+        "pairAddress": "ANXLnoEqAdxprdYYerUvHCyhTSc2kCtEskiWzJp5AeUx",
+        "entryTime": "2026-04-14T08:30:22.619Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T08:30:22.619Z",
+    "lastSeen": "2026-04-14T08:30:22.619Z",
     "confirmed": false
   }
 }
