@@ -4453,12 +4453,17 @@
     "confirmed": false
   },
   "Awch9PiL7nwQqKNjXHzJd1KvTkFtauVqQDSjdUTqe28n": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Ising",
         "pairAddress": "4whoW6YU4rDwwMRFGCF2fWYYWWqSFP5B8S1UtjHpBMUf",
         "entryTime": "2026-04-14T14:23:36.803Z"
+      },
+      {
+        "symbol": "INU",
+        "pairAddress": "FAtHYvFt7d3r3TfdAJhrJ7He5beSboug1FG5t1TWF3YR",
+        "entryTime": "2026-04-14T17:42:12.908Z"
       }
     ],
     "wins": 0,
@@ -4466,7 +4471,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:23:36.803Z",
-    "lastSeen": "2026-04-14T14:23:36.803Z",
+    "lastSeen": "2026-04-14T17:42:12.908Z",
     "confirmed": false
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
