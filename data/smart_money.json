@@ -5628,7 +5628,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Ising",
@@ -5649,6 +5649,11 @@
         "symbol": "TrollPepe",
         "pairAddress": "DE2XxUqdBPGzyYa9PHuiaJ6gqKUY1q5L54qhM2xgboex",
         "entryTime": "2026-04-14T18:00:17.355Z"
+      },
+      {
+        "symbol": "SOLBOY",
+        "pairAddress": "5q4rohUEscF7rhP4UYVj8mww8X9cUsGqkF7CZyVDJVDi",
+        "entryTime": "2026-04-14T18:42:39.057Z"
       }
     ],
     "wins": 0,
@@ -5656,7 +5661,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:32:20.134Z",
-    "lastSeen": "2026-04-14T18:00:17.355Z",
+    "lastSeen": "2026-04-14T18:42:39.057Z",
     "confirmed": true
   },
   "3iTAJqpeQebgxa2XVjyQoQhp8tVFXFhQFvANVxB3yo6H": {
@@ -12598,6 +12603,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T18:42:05.200Z",
     "lastSeen": "2026-04-14T18:42:05.200Z",
+    "confirmed": false
+  },
+  "642PzHeJdLeZNts7FQUoQEe15qQWdCricKpDLL3vasxG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOLBOY",
+        "pairAddress": "5q4rohUEscF7rhP4UYVj8mww8X9cUsGqkF7CZyVDJVDi",
+        "entryTime": "2026-04-14T18:42:39.057Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T18:42:39.057Z",
+    "lastSeen": "2026-04-14T18:42:39.057Z",
     "confirmed": false
   }
 }
