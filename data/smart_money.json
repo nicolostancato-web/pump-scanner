@@ -4670,7 +4670,7 @@
     "confirmed": false
   },
   "JESUSL2s5BsffGNNn6wQtHART2iXVGjtGhKAwGw44bL": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Ising",
@@ -4686,6 +4686,11 @@
         "symbol": "pepunc",
         "pairAddress": "FDzDGckUcyucr6StWdS9GuHLAhZ5oEMuxognYtkR8XFC",
         "entryTime": "2026-04-14T19:30:04.779Z"
+      },
+      {
+        "symbol": "glep",
+        "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
+        "entryTime": "2026-04-14T20:45:52.099Z"
       }
     ],
     "wins": 0,
@@ -4693,7 +4698,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:34:55.463Z",
-    "lastSeen": "2026-04-14T19:30:04.779Z",
+    "lastSeen": "2026-04-14T20:45:52.099Z",
     "confirmed": true
   },
   "3KvsoNxgn64nsuHKPBHQJsguef3DgEkP2izE49k6CSAZ": {
