@@ -660,7 +660,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "JesusTremp",
@@ -681,6 +681,11 @@
         "symbol": "SENDY",
         "pairAddress": "DVq4xqvYfHrfSrc5TNdQ2h5rkY3sXY9UunXhp91A9Bnq",
         "entryTime": "2026-04-13T23:51:07.844Z"
+      },
+      {
+        "symbol": "DUMBMONEY",
+        "pairAddress": "6zZHQtPqiBzwm4qR21BHaKp5VJEYhzjccamfd6x8cjsP",
+        "entryTime": "2026-04-14T00:53:03.496Z"
       }
     ],
     "wins": 0,
@@ -688,7 +693,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:12:42.051Z",
-    "lastSeen": "2026-04-13T23:51:07.844Z",
+    "lastSeen": "2026-04-14T00:53:03.496Z",
     "confirmed": true
   },
   "8wTw3CssZQvbj7mJ9MapcDT7Sk96WN7MiAKQP9eBr8Yu": {
@@ -16976,6 +16981,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T00:50:25.867Z",
     "lastSeen": "2026-04-14T00:50:25.867Z",
+    "confirmed": false
+  },
+  "AFXE1WsBdAcy82rMYz26Ah6qzAbuzk1AM6xWRSxsCbSX": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DUMBMONEY",
+        "pairAddress": "6zZHQtPqiBzwm4qR21BHaKp5VJEYhzjccamfd6x8cjsP",
+        "entryTime": "2026-04-14T00:53:03.496Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T00:53:03.496Z",
+    "lastSeen": "2026-04-14T00:53:03.496Z",
     "confirmed": false
   }
 }
