@@ -5701,12 +5701,17 @@
     "confirmed": false
   },
   "AyMTHSbURADUynv9W83yypTNiNRzU59PpCWGkqyMegGQ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SINA",
         "pairAddress": "Dg8RzXpihL1kMqJYC6zwGE18DWfm3H8iSCrvMU8Hegte",
         "entryTime": "2026-04-13T12:49:23.657Z"
+      },
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T03:11:37.905Z"
       }
     ],
     "wins": 0,
@@ -5714,7 +5719,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T12:49:23.657Z",
-    "lastSeen": "2026-04-13T12:49:23.657Z",
+    "lastSeen": "2026-04-14T03:11:37.905Z",
     "confirmed": false
   },
   "G8GChkjHPCqZkREWsWUMKKQUkZCor4MGfmXKjWLR4wDx": {
@@ -21002,6 +21007,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T03:10:54.249Z",
     "lastSeen": "2026-04-14T03:10:54.249Z",
+    "confirmed": false
+  },
+  "KGqhAC8HJrSbRfTxLC3dBKr8S6jD5otHWXcqkN8LF9z": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T03:11:37.905Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T03:11:37.905Z",
+    "lastSeen": "2026-04-14T03:11:37.905Z",
     "confirmed": false
   }
 }
