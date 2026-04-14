@@ -21401,12 +21401,17 @@
     "confirmed": false
   },
   "5xPAAv4PgxXmmotkngiLmQfcJZ8QxNa1bc8QT6uiPsuF": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Son",
         "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
         "entryTime": "2026-04-14T03:12:09.611Z"
+      },
+      {
+        "symbol": "TANK",
+        "pairAddress": "ANXLnoEqAdxprdYYerUvHCyhTSc2kCtEskiWzJp5AeUx",
+        "entryTime": "2026-04-14T09:18:18.855Z"
       }
     ],
     "wins": 0,
@@ -21414,7 +21419,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T03:12:09.611Z",
-    "lastSeen": "2026-04-14T03:12:09.611Z",
+    "lastSeen": "2026-04-14T09:18:18.855Z",
     "confirmed": false
   },
   "D1nGnx5PDmXYqPpLvnvx5qQDXjrCQ94AZa8ZGFFSygGK": {
@@ -31365,6 +31370,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T09:17:42.361Z",
     "lastSeen": "2026-04-14T09:17:42.361Z",
+    "confirmed": false
+  },
+  "CHAuxrz8rucxJRyo5YuPYZrEbW2iKcL5raxDb6jSCt5p": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TANK",
+        "pairAddress": "ANXLnoEqAdxprdYYerUvHCyhTSc2kCtEskiWzJp5AeUx",
+        "entryTime": "2026-04-14T09:18:18.855Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T09:18:18.855Z",
+    "lastSeen": "2026-04-14T09:18:18.855Z",
     "confirmed": false
   }
 }
