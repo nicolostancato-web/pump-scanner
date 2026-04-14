@@ -321,12 +321,17 @@
     "confirmed": false
   },
   "28pryh85shDtwFWoU2PyWSdaTveKkDSr2AkRxQGEarBW": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "REDBULL",
         "pairAddress": "5VYb6PsHzeTA4d46QQWYdn6Lp3ZKoqw5rJW8vsWQPpbr",
         "entryTime": "2026-04-13T08:55:12.041Z"
+      },
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:50:41.338Z"
       }
     ],
     "wins": 0,
@@ -334,7 +339,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T08:55:12.041Z",
-    "lastSeen": "2026-04-13T08:55:12.041Z",
+    "lastSeen": "2026-04-14T11:50:41.338Z",
     "confirmed": false
   },
   "7wv159GwnzPihiMAb6YHqcyGQAdFgi7Wog6CMYPehRhG": {
@@ -29038,12 +29043,17 @@
     "confirmed": false
   },
   "BujJGmqzHjCJYULmLn4t2VaQirFhJcV8zZV6whHWQz9n": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Coco",
         "pairAddress": "8pqXhf6RkhXFe5XKbESBX3tkNbAxYC8KKbPEtRKGotGV",
         "entryTime": "2026-04-14T08:00:10.197Z"
+      },
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:50:41.338Z"
       }
     ],
     "wins": 0,
@@ -29051,7 +29061,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T08:00:10.197Z",
-    "lastSeen": "2026-04-14T08:00:10.197Z",
+    "lastSeen": "2026-04-14T11:50:41.338Z",
     "confirmed": false
   },
   "7RhT1kGXMqzUUKQpabtB3zzefDgW1vg5z2SBve49Le5U": {
