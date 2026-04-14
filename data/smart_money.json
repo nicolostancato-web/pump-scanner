@@ -8451,5 +8451,22 @@
     "firstSeen": "2026-04-14T17:04:02.283Z",
     "lastSeen": "2026-04-14T17:04:02.283Z",
     "confirmed": false
+  },
+  "4GNr7EWDWFGgw1pUTCjQ5zHp3bDtLpwhisFEAzhqb2dH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "INU",
+        "pairAddress": "FAtHYvFt7d3r3TfdAJhrJ7He5beSboug1FG5t1TWF3YR",
+        "entryTime": "2026-04-14T17:04:35.672Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T17:04:35.672Z",
+    "lastSeen": "2026-04-14T17:04:35.672Z",
+    "confirmed": false
   }
 }
