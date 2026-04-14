@@ -27369,12 +27369,17 @@
     "confirmed": false
   },
   "DJGSTGSgDmUPjzXXDNkrpw2ycVbNbHf1v5Dc2eSeSEKs": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "COOMER",
         "pairAddress": "H2NtdaYxq5pX3Zmp8YHbfvH6uddiHp1LQStKJNWYUi56",
         "entryTime": "2026-04-14T06:29:50.624Z"
+      },
+      {
+        "symbol": "SUBSTRATE",
+        "pairAddress": "AZXurVXig4NEz6Ye6GT21AKt76dmL2sTPAh1nhfpH8RK",
+        "entryTime": "2026-04-14T06:55:06.118Z"
       }
     ],
     "wins": 0,
@@ -27382,7 +27387,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T06:29:50.624Z",
-    "lastSeen": "2026-04-14T06:29:50.624Z",
+    "lastSeen": "2026-04-14T06:55:06.118Z",
     "confirmed": false
   },
   "BoYfJDbr5j8TYbr2w66DBNcXNhafHysbQngupVX4NArt": {
