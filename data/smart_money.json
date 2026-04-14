@@ -5164,5 +5164,22 @@
     "firstSeen": "2026-04-14T15:13:29.326Z",
     "lastSeen": "2026-04-14T15:13:29.326Z",
     "confirmed": false
+  },
+  "7eGkKeG9mp6ZJ7iEGXVqFEpy15ATw7dmx2ofWwrw56Xr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Ising",
+        "pairAddress": "4whoW6YU4rDwwMRFGCF2fWYYWWqSFP5B8S1UtjHpBMUf",
+        "entryTime": "2026-04-14T15:14:01.593Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T15:14:01.593Z",
+    "lastSeen": "2026-04-14T15:14:01.593Z",
+    "confirmed": false
   }
 }
