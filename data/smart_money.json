@@ -5543,12 +5543,17 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Ising",
         "pairAddress": "4whoW6YU4rDwwMRFGCF2fWYYWWqSFP5B8S1UtjHpBMUf",
         "entryTime": "2026-04-14T15:32:20.134Z"
+      },
+      {
+        "symbol": "ROCK",
+        "pairAddress": "AVziXmot4U2DcudLndMm3Ng9DjLSsbCbuUSKbPbWxGQZ",
+        "entryTime": "2026-04-14T16:31:30.780Z"
       }
     ],
     "wins": 0,
@@ -5556,7 +5561,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:32:20.134Z",
-    "lastSeen": "2026-04-14T15:32:20.134Z",
+    "lastSeen": "2026-04-14T16:31:30.780Z",
     "confirmed": false
   },
   "3iTAJqpeQebgxa2XVjyQoQhp8tVFXFhQFvANVxB3yo6H": {
@@ -6730,6 +6735,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T16:30:56.464Z",
     "lastSeen": "2026-04-14T16:30:56.464Z",
+    "confirmed": false
+  },
+  "4qZoeQBBWSUxv4hughLhZHwgeRw75Hbo1WuJH4f5CgsT": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ROCK",
+        "pairAddress": "AVziXmot4U2DcudLndMm3Ng9DjLSsbCbuUSKbPbWxGQZ",
+        "entryTime": "2026-04-14T16:31:30.780Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T16:31:30.780Z",
+    "lastSeen": "2026-04-14T16:31:30.780Z",
     "confirmed": false
   }
 }
