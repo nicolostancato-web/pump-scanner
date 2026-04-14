@@ -119,7 +119,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "unctire",
@@ -160,6 +160,11 @@
         "symbol": "CRYPTOCOIN",
         "pairAddress": "6vNC23D22qu7LYYVb4iogoj1qLYKQ9cWzr9gFuDRFtbG",
         "entryTime": "2026-04-14T22:29:19.848Z"
+      },
+      {
+        "symbol": "notunc",
+        "pairAddress": "F3F3RUDoGuk6pt6R7KprTeJKnwc2xKjaVcTZmF1a22To",
+        "entryTime": "2026-04-14T23:30:22.779Z"
       }
     ],
     "wins": 0,
@@ -167,7 +172,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T13:02:09.927Z",
-    "lastSeen": "2026-04-14T22:29:19.848Z",
+    "lastSeen": "2026-04-14T23:30:22.779Z",
     "confirmed": true
   },
   "7wDxeCXWnwu6Su5z5pYPzByr1HwsxBpLs2CUyK4HeBMi": {
@@ -21524,6 +21529,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T23:29:50.580Z",
     "lastSeen": "2026-04-14T23:29:50.580Z",
+    "confirmed": false
+  },
+  "EWwZKSuYRQEZqMeULzD4kZJvV6Zjf29gv2JLSMzJ1ZFM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "notunc",
+        "pairAddress": "F3F3RUDoGuk6pt6R7KprTeJKnwc2xKjaVcTZmF1a22To",
+        "entryTime": "2026-04-14T23:30:22.779Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T23:30:22.779Z",
+    "lastSeen": "2026-04-14T23:30:22.779Z",
     "confirmed": false
   }
 }
