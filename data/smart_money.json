@@ -24893,12 +24893,17 @@
     "confirmed": false
   },
   "Ff3r6GxahwpNbGf2dXjZCTv5AUV2tF1jzDxXrWtA7dy8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "GOAT",
         "pairAddress": "AN9zv7VrrkwRUz19sgf3uQQhv9nYyBgR5sqWVbM279xW",
         "entryTime": "2026-04-14T04:36:25.837Z"
+      },
+      {
+        "symbol": "SIZE",
+        "pairAddress": "69PTr4DYnL1LP43WsyDti2bUxJ5Kv21kyznkKwURvADE",
+        "entryTime": "2026-04-14T08:04:23.038Z"
       }
     ],
     "wins": 0,
@@ -24906,7 +24911,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T04:36:25.837Z",
-    "lastSeen": "2026-04-14T04:36:25.837Z",
+    "lastSeen": "2026-04-14T08:04:23.038Z",
     "confirmed": false
   },
   "APKJhUrrgeZ9Hsc4vYkdDW8jMj4FvynCZr7tYAiQQCS2": {
