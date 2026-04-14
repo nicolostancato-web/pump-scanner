@@ -119,7 +119,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "unctire",
@@ -130,6 +130,11 @@
         "symbol": "Ising",
         "pairAddress": "4whoW6YU4rDwwMRFGCF2fWYYWWqSFP5B8S1UtjHpBMUf",
         "entryTime": "2026-04-14T14:59:07.651Z"
+      },
+      {
+        "symbol": "pepunc",
+        "pairAddress": "FDzDGckUcyucr6StWdS9GuHLAhZ5oEMuxognYtkR8XFC",
+        "entryTime": "2026-04-14T19:50:35.363Z"
       }
     ],
     "wins": 0,
@@ -137,8 +142,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T13:02:09.927Z",
-    "lastSeen": "2026-04-14T14:59:07.651Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T19:50:35.363Z",
+    "confirmed": true
   },
   "7wDxeCXWnwu6Su5z5pYPzByr1HwsxBpLs2CUyK4HeBMi": {
     "appearances": 1,
