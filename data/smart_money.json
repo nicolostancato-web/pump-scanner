@@ -729,5 +729,22 @@
     "firstSeen": "2026-04-14T13:11:17.832Z",
     "lastSeen": "2026-04-14T13:11:17.832Z",
     "confirmed": false
+  },
+  "CsD48Ar8WujB7nV42GaEvgq3WXRZiEWsxSUDagr77gAb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T13:11:49.445Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T13:11:49.445Z",
+    "lastSeen": "2026-04-14T13:11:49.445Z",
+    "confirmed": false
   }
 }
