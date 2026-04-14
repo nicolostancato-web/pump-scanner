@@ -7340,7 +7340,7 @@
     "confirmed": false
   },
   "4cyvoMJEz59GRe3MkNrDBhdj5ib68jJxXeXCECQSCBCE": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "bulltire",
@@ -7356,6 +7356,11 @@
         "symbol": "GOAT",
         "pairAddress": "AN9zv7VrrkwRUz19sgf3uQQhv9nYyBgR5sqWVbM279xW",
         "entryTime": "2026-04-14T04:26:27.142Z"
+      },
+      {
+        "symbol": "bullunc",
+        "pairAddress": "EBoUXBkCUfG9D8aRP4GPBoBvDJgE9Mh1wFMfUEfXF9Sb",
+        "entryTime": "2026-04-14T06:14:45.270Z"
       }
     ],
     "wins": 0,
@@ -7363,7 +7368,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T14:08:05.496Z",
-    "lastSeen": "2026-04-14T04:26:27.142Z",
+    "lastSeen": "2026-04-14T06:14:45.270Z",
     "confirmed": true
   },
   "8jM1XH5QsXD7WohKGn1uNbYCn4PuPXiU3K7NEf85rEKU": {
