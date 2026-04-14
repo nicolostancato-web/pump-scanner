@@ -6374,7 +6374,7 @@
     "confirmed": false
   },
   "GFYLYgG9SserdYQM1oRrKzsAkkpaqYToBehYYoKQHkTy": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "bulltire",
@@ -6385,6 +6385,11 @@
         "symbol": "bullunc",
         "pairAddress": "EBoUXBkCUfG9D8aRP4GPBoBvDJgE9Mh1wFMfUEfXF9Sb",
         "entryTime": "2026-04-14T06:15:17.494Z"
+      },
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T12:01:46.413Z"
       }
     ],
     "wins": 0,
@@ -6392,8 +6397,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T13:17:15.508Z",
-    "lastSeen": "2026-04-14T06:15:17.494Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T12:01:46.413Z",
+    "confirmed": true
   },
   "Ap4RBppAXn5WukuS1k3yi4EY86SwezDSm7i8JKFShBGT": {
     "appearances": 1,
@@ -37689,6 +37694,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T12:01:07.302Z",
     "lastSeen": "2026-04-14T12:01:07.302Z",
+    "confirmed": false
+  },
+  "EJGwvfg5PVNBn9Gsb97qck3AoWFTHqTLK3oEorT96wpv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T12:01:46.413Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T12:01:46.413Z",
+    "lastSeen": "2026-04-14T12:01:46.413Z",
     "confirmed": false
   }
 }
