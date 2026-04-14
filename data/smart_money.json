@@ -4482,7 +4482,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Ising",
@@ -4503,6 +4503,11 @@
         "symbol": "glep",
         "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
         "entryTime": "2026-04-14T20:47:29.531Z"
+      },
+      {
+        "symbol": "uncni",
+        "pairAddress": "HqLX9rT6NFa2XgEi7BsQRzp5f1LgxtYaBSEusmt3Y2ys",
+        "entryTime": "2026-04-14T22:42:26.122Z"
       }
     ],
     "wins": 0,
@@ -4510,7 +4515,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:20:34.395Z",
-    "lastSeen": "2026-04-14T20:47:29.531Z",
+    "lastSeen": "2026-04-14T22:42:26.122Z",
     "confirmed": true
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
