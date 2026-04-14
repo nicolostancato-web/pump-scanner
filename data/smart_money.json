@@ -289,12 +289,17 @@
     "confirmed": false
   },
   "C4VC2yeHWbSFwUNQ9DPMzxNCfvgptAb6k2vLjo1zJTgV": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "unctire",
         "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
         "entryTime": "2026-04-14T13:04:44.588Z"
+      },
+      {
+        "symbol": "HONESTRUG",
+        "pairAddress": "5jBc57QofFLgWE8a64yfctF4tPr9P41Esa5smC4DbQzK",
+        "entryTime": "2026-04-14T13:55:43.316Z"
       }
     ],
     "wins": 0,
@@ -302,7 +307,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T13:04:44.588Z",
-    "lastSeen": "2026-04-14T13:04:44.588Z",
+    "lastSeen": "2026-04-14T13:55:43.316Z",
     "confirmed": false
   },
   "8SxJRtWMa9LparhmDwwwJVQ7tMdV6BMSDYbEx2p4CY7B": {
