@@ -685,7 +685,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "JesusTremp",
@@ -716,6 +716,11 @@
         "symbol": "KIKI",
         "pairAddress": "BWoxQfbFifwJpsit4wH54WLQmP3JASQ1MxJcinMfzszM",
         "entryTime": "2026-04-14T03:31:20.451Z"
+      },
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T03:53:35.726Z"
       }
     ],
     "wins": 0,
@@ -723,7 +728,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:12:42.051Z",
-    "lastSeen": "2026-04-14T03:31:20.451Z",
+    "lastSeen": "2026-04-14T03:53:35.726Z",
     "confirmed": true
   },
   "8wTw3CssZQvbj7mJ9MapcDT7Sk96WN7MiAKQP9eBr8Yu": {
@@ -22922,6 +22927,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T03:51:01.024Z",
     "lastSeen": "2026-04-14T03:51:01.024Z",
+    "confirmed": false
+  },
+  "DZriraRGf8bE5rnygj3yHiacgGzJp9ba7tgBxSrxnEBP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T03:53:35.726Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T03:53:35.726Z",
+    "lastSeen": "2026-04-14T03:53:35.726Z",
     "confirmed": false
   }
 }
