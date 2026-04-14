@@ -6177,5 +6177,22 @@
     "firstSeen": "2026-04-14T16:03:25.061Z",
     "lastSeen": "2026-04-14T16:03:25.061Z",
     "confirmed": false
+  },
+  "5dR1RBhdMqqfwNu5teemQZoZB6tycCsq4qo3jatJaEdY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BP",
+        "pairAddress": "JAdzLYCj2fqapCEJE8Vx2U3fkUBo1HkdGmiS3CA1395N",
+        "entryTime": "2026-04-14T16:04:02.224Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T16:04:02.224Z",
+    "lastSeen": "2026-04-14T16:04:02.224Z",
+    "confirmed": false
   }
 }
