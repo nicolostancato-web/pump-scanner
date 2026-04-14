@@ -27734,5 +27734,22 @@
     "firstSeen": "2026-04-14T07:01:53.932Z",
     "lastSeen": "2026-04-14T07:01:53.932Z",
     "confirmed": false
+  },
+  "4b48Rgg1P6RH5M5pdtvXgZ8E4LPpCqyKaZsiXxnmVAbP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "bullunc",
+        "pairAddress": "EBoUXBkCUfG9D8aRP4GPBoBvDJgE9Mh1wFMfUEfXF9Sb",
+        "entryTime": "2026-04-14T07:02:27.367Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T07:02:27.367Z",
+    "lastSeen": "2026-04-14T07:02:27.367Z",
+    "confirmed": false
   }
 }
