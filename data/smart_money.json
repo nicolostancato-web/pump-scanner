@@ -17446,5 +17446,22 @@
     "firstSeen": "2026-04-14T01:08:10.601Z",
     "lastSeen": "2026-04-14T01:08:10.601Z",
     "confirmed": false
+  },
+  "5sAmbApNwQZxHidauscmq1PPPjfcZQk2za85DEtXvmZn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DUMBMONEY",
+        "pairAddress": "6zZHQtPqiBzwm4qR21BHaKp5VJEYhzjccamfd6x8cjsP",
+        "entryTime": "2026-04-14T01:10:49.622Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T01:10:49.622Z",
+    "lastSeen": "2026-04-14T01:10:49.622Z",
+    "confirmed": false
   }
 }
