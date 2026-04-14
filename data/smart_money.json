@@ -8605,7 +8605,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "TRUMBULL",
@@ -8621,6 +8621,11 @@
         "symbol": "Milka",
         "pairAddress": "6eXx5tfsEMrwDjYApKqadkcioLAVG2dYAu6fduT1TNP3",
         "entryTime": "2026-04-13T18:29:55.509Z"
+      },
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T02:59:57.035Z"
       }
     ],
     "wins": 0,
@@ -8628,7 +8633,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T15:21:47.147Z",
-    "lastSeen": "2026-04-13T18:29:55.509Z",
+    "lastSeen": "2026-04-14T02:59:57.035Z",
     "confirmed": true
   },
   "5ZNVRpYGC8kmjzbCw1V1UcuNHzkMW53KY63NcUUG8AZ6": {
@@ -20489,6 +20494,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T02:58:56.219Z",
     "lastSeen": "2026-04-14T02:58:56.219Z",
+    "confirmed": false
+  },
+  "9c7A4dZ3YUavoKCJkNZFSGe3pZRbVNEof61JWe6SQjdN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T02:59:57.035Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T02:59:57.035Z",
+    "lastSeen": "2026-04-14T02:59:57.035Z",
     "confirmed": false
   }
 }
