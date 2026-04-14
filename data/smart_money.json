@@ -4374,7 +4374,7 @@
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Ising",
@@ -4390,6 +4390,11 @@
         "symbol": "pepunc",
         "pairAddress": "FDzDGckUcyucr6StWdS9GuHLAhZ5oEMuxognYtkR8XFC",
         "entryTime": "2026-04-14T19:31:08.328Z"
+      },
+      {
+        "symbol": "glep",
+        "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
+        "entryTime": "2026-04-14T20:52:05.732Z"
       }
     ],
     "wins": 0,
@@ -4397,7 +4402,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:18:55.872Z",
-    "lastSeen": "2026-04-14T19:31:08.328Z",
+    "lastSeen": "2026-04-14T20:52:05.732Z",
     "confirmed": true
   },
   "BWZ24i5aSCN5m7QcKKxYWzwdWnYL5bSxA51CUSiFzbXS": {
@@ -4712,7 +4717,7 @@
     "confirmed": true
   },
   "3KvsoNxgn64nsuHKPBHQJsguef3DgEkP2izE49k6CSAZ": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Ising",
@@ -4728,6 +4733,11 @@
         "symbol": "pepunc",
         "pairAddress": "FDzDGckUcyucr6StWdS9GuHLAhZ5oEMuxognYtkR8XFC",
         "entryTime": "2026-04-14T19:30:04.779Z"
+      },
+      {
+        "symbol": "glep",
+        "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
+        "entryTime": "2026-04-14T20:52:05.732Z"
       }
     ],
     "wins": 0,
@@ -4735,7 +4745,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:34:55.463Z",
-    "lastSeen": "2026-04-14T19:30:04.779Z",
+    "lastSeen": "2026-04-14T20:52:05.732Z",
     "confirmed": true
   },
   "8SveFUanfbLRMsL6NAXa1LCMmLEsUc7q7KhFBufscG5Y": {
@@ -4766,7 +4776,7 @@
     "confirmed": true
   },
   "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Ising",
@@ -4782,6 +4792,11 @@
         "symbol": "CHILLUNC",
         "pairAddress": "3unGi6w9uVovcY8Kuu7wxW1DDKqHpMLyZnmfJrrKeqsL",
         "entryTime": "2026-04-14T19:11:03.752Z"
+      },
+      {
+        "symbol": "glep",
+        "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
+        "entryTime": "2026-04-14T20:52:05.732Z"
       }
     ],
     "wins": 0,
@@ -4789,7 +4804,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:45:34.521Z",
-    "lastSeen": "2026-04-14T19:11:03.752Z",
+    "lastSeen": "2026-04-14T20:52:05.732Z",
     "confirmed": true
   },
   "D3ajqkacJe5qjfeDQqQc1n47NKA1PjEb7UAXf3FTtWuh": {
@@ -15198,12 +15213,17 @@
     "confirmed": false
   },
   "FireuLYd4yjJBhXQyBs3Mq6ZpNEjyHPNPG2eqhTP9RHV": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CHILLUNC",
         "pairAddress": "3unGi6w9uVovcY8Kuu7wxW1DDKqHpMLyZnmfJrrKeqsL",
         "entryTime": "2026-04-14T19:51:36.854Z"
+      },
+      {
+        "symbol": "glep",
+        "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
+        "entryTime": "2026-04-14T20:52:05.732Z"
       }
     ],
     "wins": 0,
@@ -15211,7 +15231,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T19:51:36.854Z",
-    "lastSeen": "2026-04-14T19:51:36.854Z",
+    "lastSeen": "2026-04-14T20:52:05.732Z",
     "confirmed": false
   },
   "HCoTKwF6TWF1Jbast3hqfYAigTMUL1aGbqEb1zB6SzBL": {
