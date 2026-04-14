@@ -2179,12 +2179,17 @@
     "confirmed": false
   },
   "FuksXcZdAAdM8DsF1CLbd39BYriYeqxSDfGyH9hkXg6Y": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "JesusTremp",
         "pairAddress": "5zpvGmFuRJ58yQCkjF91VfEFgWV2zdcsQAHACvRVrYv1",
         "entryTime": "2026-04-13T10:24:18.602Z"
+      },
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T11:59:30.482Z"
       }
     ],
     "wins": 0,
@@ -2192,7 +2197,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T10:24:18.602Z",
-    "lastSeen": "2026-04-13T10:24:18.602Z",
+    "lastSeen": "2026-04-14T11:59:30.482Z",
     "confirmed": false
   },
   "4qZfSTPTCLeEDYHw5CSvYQs6nxuBSUFYu4qX6ATQntcX": {
@@ -37616,6 +37621,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T11:58:57.519Z",
     "lastSeen": "2026-04-14T11:58:57.519Z",
+    "confirmed": false
+  },
+  "ApVn6A6epkazydvi8MtyNXvgdxqmkHxRFxRY8pDqbyaF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T11:59:30.482Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T11:59:30.482Z",
+    "lastSeen": "2026-04-14T11:59:30.482Z",
     "confirmed": false
   }
 }
