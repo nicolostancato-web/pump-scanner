@@ -11093,12 +11093,17 @@
     "confirmed": false
   },
   "6nu1VFfvhaZZ8PbrD5Vei326UzjCDgCpX6JdeQew6Phm": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Hikikomori",
         "pairAddress": "2Vz5gbTvguSZPhuBKARj1Vf1gVaeTC3TH9uNHwgPYv1s",
         "entryTime": "2026-04-13T16:48:06.747Z"
+      },
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:12:41.636Z"
       }
     ],
     "wins": 0,
@@ -11106,7 +11111,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T16:48:06.747Z",
-    "lastSeen": "2026-04-13T16:48:06.747Z",
+    "lastSeen": "2026-04-14T11:12:41.636Z",
     "confirmed": false
   },
   "AjJpS4jgrscw9ftFKEjeR6uuues8sTkGne1Pn9BUAtX6": {
