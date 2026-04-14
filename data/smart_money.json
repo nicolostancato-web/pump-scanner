@@ -624,7 +624,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "pumphouse",
@@ -675,6 +675,11 @@
         "symbol": "TANK",
         "pairAddress": "ANXLnoEqAdxprdYYerUvHCyhTSc2kCtEskiWzJp5AeUx",
         "entryTime": "2026-04-14T08:30:22.619Z"
+      },
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:24:43.264Z"
       }
     ],
     "wins": 0,
@@ -682,7 +687,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:05:38.969Z",
-    "lastSeen": "2026-04-14T08:30:22.619Z",
+    "lastSeen": "2026-04-14T11:24:43.264Z",
     "confirmed": true
   },
   "85pLpaUF2R9SDkGYUMc69gcfo4Xa8GzUwKVg68A6UFoq": {
@@ -36278,6 +36283,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T11:23:47.788Z",
     "lastSeen": "2026-04-14T11:23:47.788Z",
+    "confirmed": false
+  },
+  "5VSAAjxQKHiKc7K2zu5z2U3JvXWVCpmRFcUEn7unzRjG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:24:43.264Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T11:24:43.264Z",
+    "lastSeen": "2026-04-14T11:24:43.264Z",
     "confirmed": false
   }
 }
