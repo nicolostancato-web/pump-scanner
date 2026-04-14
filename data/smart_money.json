@@ -715,7 +715,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "JesusTremp",
@@ -766,6 +766,11 @@
         "symbol": "Poong",
         "pairAddress": "DorYmSLQP5TwTgVFxUjPkAg5PFSxGDRF9h7491q9zycG",
         "entryTime": "2026-04-14T10:17:13.256Z"
+      },
+      {
+        "symbol": "INUUNC",
+        "pairAddress": "DSxUSxL8sP39z8qRsKysHoacmngb7xddQeLW25h86zJb",
+        "entryTime": "2026-04-14T10:55:46.933Z"
       }
     ],
     "wins": 0,
@@ -773,7 +778,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:12:42.051Z",
-    "lastSeen": "2026-04-14T10:17:13.256Z",
+    "lastSeen": "2026-04-14T10:55:46.933Z",
     "confirmed": true
   },
   "8wTw3CssZQvbj7mJ9MapcDT7Sk96WN7MiAKQP9eBr8Yu": {
@@ -35004,6 +35009,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T10:53:13.010Z",
     "lastSeen": "2026-04-14T10:53:13.010Z",
+    "confirmed": false
+  },
+  "3qrBv71thK8s5hRHuk2xDWuBxkFdPN11DpCe72XvAuMh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "INUUNC",
+        "pairAddress": "DSxUSxL8sP39z8qRsKysHoacmngb7xddQeLW25h86zJb",
+        "entryTime": "2026-04-14T10:55:46.933Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T10:55:46.933Z",
+    "lastSeen": "2026-04-14T10:55:46.933Z",
     "confirmed": false
   }
 }
