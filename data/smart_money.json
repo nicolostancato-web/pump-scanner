@@ -20709,5 +20709,22 @@
     "firstSeen": "2026-04-14T03:04:08.069Z",
     "lastSeen": "2026-04-14T03:04:08.069Z",
     "confirmed": false
+  },
+  "AqDasKtHycLyYRvXwUtmWThdbb2HNmCXkR1wd7vhDNHC": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T03:04:44.034Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T03:04:44.034Z",
+    "lastSeen": "2026-04-14T03:04:44.034Z",
+    "confirmed": false
   }
 }
