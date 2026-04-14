@@ -4372,7 +4372,7 @@
     "confirmed": false
   },
   "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Wagie",
@@ -4388,6 +4388,11 @@
         "symbol": "SENDY",
         "pairAddress": "DVq4xqvYfHrfSrc5TNdQ2h5rkY3sXY9UunXhp91A9Bnq",
         "entryTime": "2026-04-14T00:17:59.421Z"
+      },
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T02:39:36.269Z"
       }
     ],
     "wins": 0,
@@ -4395,7 +4400,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T11:47:24.857Z",
-    "lastSeen": "2026-04-14T00:17:59.421Z",
+    "lastSeen": "2026-04-14T02:39:36.269Z",
     "confirmed": true
   },
   "CdFGzAt2b4YC2swXL81wY36TsyJ3MXou4V1WHg1tBeEa": {
@@ -19913,6 +19918,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T02:39:04.050Z",
     "lastSeen": "2026-04-14T02:39:04.050Z",
+    "confirmed": false
+  },
+  "G12RFbnqGo8BBYuMQUBbavGqq8g9hDvx7LA7PYUGpje2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T02:39:36.269Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T02:39:36.269Z",
+    "lastSeen": "2026-04-14T02:39:36.269Z",
     "confirmed": false
   }
 }
