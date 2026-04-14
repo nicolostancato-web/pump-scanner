@@ -17581,12 +17581,17 @@
     "confirmed": false
   },
   "61ZWfUn6Rp97VX5SK2WykdPrfQZxEg8VRbZ1QjcxkYq6": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "DUMBMONEY",
         "pairAddress": "6zZHQtPqiBzwm4qR21BHaKp5VJEYhzjccamfd6x8cjsP",
         "entryTime": "2026-04-14T00:54:42.388Z"
+      },
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T12:19:51.158Z"
       }
     ],
     "wins": 0,
@@ -17594,7 +17599,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T00:54:42.388Z",
-    "lastSeen": "2026-04-14T00:54:42.388Z",
+    "lastSeen": "2026-04-14T12:19:51.158Z",
     "confirmed": false
   },
   "42cXUfmYU7eWB4JPqkxQD5Uf3fykpGFkYcwyiXrp7aEm": {
@@ -38281,6 +38286,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T12:19:19.863Z",
     "lastSeen": "2026-04-14T12:19:19.863Z",
+    "confirmed": false
+  },
+  "DtMxxffFgkkNJpg8zqfML5hVhjkkYwsJhwhtKZtEsmVN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T12:19:51.158Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T12:19:51.158Z",
+    "lastSeen": "2026-04-14T12:19:51.158Z",
     "confirmed": false
   }
 }
