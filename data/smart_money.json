@@ -384,7 +384,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "REDBULL",
@@ -405,6 +405,11 @@
         "symbol": "SENDY",
         "pairAddress": "DVq4xqvYfHrfSrc5TNdQ2h5rkY3sXY9UunXhp91A9Bnq",
         "entryTime": "2026-04-14T00:07:30.938Z"
+      },
+      {
+        "symbol": "KIKI",
+        "pairAddress": "BWoxQfbFifwJpsit4wH54WLQmP3JASQ1MxJcinMfzszM",
+        "entryTime": "2026-04-14T03:36:27.776Z"
       }
     ],
     "wins": 0,
@@ -412,7 +417,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T08:58:16.457Z",
-    "lastSeen": "2026-04-14T00:07:30.938Z",
+    "lastSeen": "2026-04-14T03:36:27.776Z",
     "confirmed": true
   },
   "5pKftcuKcCAWNyP8njNDmg7CTQWEFb2zdYoGc8q5fBpK": {
@@ -22358,6 +22363,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T03:35:54.883Z",
     "lastSeen": "2026-04-14T03:35:54.883Z",
+    "confirmed": false
+  },
+  "2XbU6vbYLtFxW1Z9G4Z31wTd5GYx5UrJpMHBnyz7fz6g": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "KIKI",
+        "pairAddress": "BWoxQfbFifwJpsit4wH54WLQmP3JASQ1MxJcinMfzszM",
+        "entryTime": "2026-04-14T03:36:27.776Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T03:36:27.776Z",
+    "lastSeen": "2026-04-14T03:36:27.776Z",
     "confirmed": false
   }
 }
