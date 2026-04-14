@@ -5718,7 +5718,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Ising",
@@ -5744,6 +5744,11 @@
         "symbol": "SOLBOY",
         "pairAddress": "5q4rohUEscF7rhP4UYVj8mww8X9cUsGqkF7CZyVDJVDi",
         "entryTime": "2026-04-14T18:42:39.057Z"
+      },
+      {
+        "symbol": "trumpunc",
+        "pairAddress": "ACts9HXpSSFomzRsVGkGCDXbPXbQV44KodLvscUyyyvB",
+        "entryTime": "2026-04-14T20:14:39.278Z"
       }
     ],
     "wins": 0,
@@ -5751,7 +5756,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:32:20.134Z",
-    "lastSeen": "2026-04-14T18:42:39.057Z",
+    "lastSeen": "2026-04-14T20:14:39.278Z",
     "confirmed": true
   },
   "3iTAJqpeQebgxa2XVjyQoQhp8tVFXFhQFvANVxB3yo6H": {
@@ -15494,6 +15499,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T20:10:05.698Z",
     "lastSeen": "2026-04-14T20:10:05.698Z",
+    "confirmed": false
+  },
+  "DghaCbJaNRSLxd21ZnYwvMBYLJYFfcDRvtZvQhSQkpvo": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "trumpunc",
+        "pairAddress": "ACts9HXpSSFomzRsVGkGCDXbPXbQV44KodLvscUyyyvB",
+        "entryTime": "2026-04-14T20:14:39.278Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T20:14:39.278Z",
+    "lastSeen": "2026-04-14T20:14:39.278Z",
     "confirmed": false
   }
 }
