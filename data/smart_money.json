@@ -12109,12 +12109,17 @@
     "confirmed": false
   },
   "8L2y55D11k63CAftvW7uMM2mBhtMxLoLnivG9uY2bt8j": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Milka",
         "pairAddress": "6eXx5tfsEMrwDjYApKqadkcioLAVG2dYAu6fduT1TNP3",
         "entryTime": "2026-04-13T17:46:25.664Z"
+      },
+      {
+        "symbol": "SIZE",
+        "pairAddress": "69PTr4DYnL1LP43WsyDti2bUxJ5Kv21kyznkKwURvADE",
+        "entryTime": "2026-04-14T08:07:32.738Z"
       }
     ],
     "wins": 0,
@@ -12122,7 +12127,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T17:46:25.664Z",
-    "lastSeen": "2026-04-13T17:46:25.664Z",
+    "lastSeen": "2026-04-14T08:07:32.738Z",
     "confirmed": false
   },
   "6qWgysYddziTHZydJ2TDSDc4jzJDcvUgsRa1XiwdGnKU": {
@@ -28947,6 +28952,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T08:06:57.833Z",
     "lastSeen": "2026-04-14T08:06:57.833Z",
+    "confirmed": false
+  },
+  "NULLioEUhd89Jo5Acm9sX88bwjNjrsAVy6KWkXD7qZh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SIZE",
+        "pairAddress": "69PTr4DYnL1LP43WsyDti2bUxJ5Kv21kyznkKwURvADE",
+        "entryTime": "2026-04-14T08:07:32.738Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T08:07:32.738Z",
+    "lastSeen": "2026-04-14T08:07:32.738Z",
     "confirmed": false
   }
 }
