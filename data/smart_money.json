@@ -26488,12 +26488,17 @@
     "confirmed": false
   },
   "CzYQ2kFnBxsNEt9Zy34vQ3n5fSDhvA4o4XaTnq1rLvyr": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Work",
         "pairAddress": "G6z1KjoHUQjRTHPKMXUgacKhyLvaLfXWyjst9zScRdKo",
         "entryTime": "2026-04-14T06:01:58.054Z"
+      },
+      {
+        "symbol": "SUBSTRATE",
+        "pairAddress": "AZXurVXig4NEz6Ye6GT21AKt76dmL2sTPAh1nhfpH8RK",
+        "entryTime": "2026-04-14T06:24:06.335Z"
       }
     ],
     "wins": 0,
@@ -26501,7 +26506,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T06:01:58.054Z",
-    "lastSeen": "2026-04-14T06:01:58.054Z",
+    "lastSeen": "2026-04-14T06:24:06.335Z",
     "confirmed": false
   },
   "zeronaXJsbvPZFmzytV4RPXWBHQGMFcRCvoYaDNPiRL": {
