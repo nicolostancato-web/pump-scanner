@@ -6021,7 +6021,7 @@
     "confirmed": false
   },
   "4r33xEKAD2cNMrC9NyJy8nb4XmruUKebZ6LZZm65PVUZ": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "10PENCE",
@@ -6032,6 +6032,11 @@
         "symbol": "BELIEF",
         "pairAddress": "HehzrczPii9azd1QzPLjsjwsnygHvHpfBYPcmEp3gugG",
         "entryTime": "2026-04-13T19:28:33.712Z"
+      },
+      {
+        "symbol": "SNIFFER",
+        "pairAddress": "CJVRaez468UTGdKTsHc4b6debh6hYtNPae62Dp1HNE7w",
+        "entryTime": "2026-04-14T05:38:11.846Z"
       }
     ],
     "wins": 0,
@@ -6039,8 +6044,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T13:09:52.124Z",
-    "lastSeen": "2026-04-13T19:28:33.712Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T05:38:11.846Z",
+    "confirmed": true
   },
   "6KPYDyuRnpuKcm1TerUmwLd2BcaihvhF4Ccrr8beruu2": {
     "appearances": 2,
