@@ -4560,12 +4560,17 @@
     "confirmed": false
   },
   "JESUSL2s5BsffGNNn6wQtHART2iXVGjtGhKAwGw44bL": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Ising",
         "pairAddress": "4whoW6YU4rDwwMRFGCF2fWYYWWqSFP5B8S1UtjHpBMUf",
         "entryTime": "2026-04-14T14:34:55.463Z"
+      },
+      {
+        "symbol": "INU",
+        "pairAddress": "FAtHYvFt7d3r3TfdAJhrJ7He5beSboug1FG5t1TWF3YR",
+        "entryTime": "2026-04-14T17:12:15.681Z"
       }
     ],
     "wins": 0,
@@ -4573,7 +4578,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:34:55.463Z",
-    "lastSeen": "2026-04-14T14:34:55.463Z",
+    "lastSeen": "2026-04-14T17:12:15.681Z",
     "confirmed": false
   },
   "3KvsoNxgn64nsuHKPBHQJsguef3DgEkP2izE49k6CSAZ": {
