@@ -3856,12 +3856,17 @@
     "confirmed": false
   },
   "8VALoXS8gfwbHKFWvDYsXU3aNJdZuxeRD92tGAb8M1RU": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Wagie",
         "pairAddress": "HzYg9Fh8fvAbav4chabEsKjQPb1SYp19x6yvxGTJgune",
         "entryTime": "2026-04-13T11:26:57.974Z"
+      },
+      {
+        "symbol": "Work",
+        "pairAddress": "G6z1KjoHUQjRTHPKMXUgacKhyLvaLfXWyjst9zScRdKo",
+        "entryTime": "2026-04-14T06:09:37.933Z"
       }
     ],
     "wins": 0,
@@ -3869,7 +3874,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T11:26:57.974Z",
-    "lastSeen": "2026-04-13T11:26:57.974Z",
+    "lastSeen": "2026-04-14T06:09:37.933Z",
     "confirmed": false
   },
   "9PwqH8V5kgb3bVkcK8pjkVDcaTeP4Vpwg1LkuyMiD61c": {
