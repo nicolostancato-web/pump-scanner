@@ -3911,7 +3911,7 @@
     "confirmed": false
   },
   "8VALoXS8gfwbHKFWvDYsXU3aNJdZuxeRD92tGAb8M1RU": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Wagie",
@@ -3922,6 +3922,11 @@
         "symbol": "Work",
         "pairAddress": "G6z1KjoHUQjRTHPKMXUgacKhyLvaLfXWyjst9zScRdKo",
         "entryTime": "2026-04-14T06:09:37.933Z"
+      },
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:11:35.777Z"
       }
     ],
     "wins": 0,
@@ -3929,8 +3934,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T11:26:57.974Z",
-    "lastSeen": "2026-04-14T06:09:37.933Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T11:11:35.777Z",
+    "confirmed": true
   },
   "9PwqH8V5kgb3bVkcK8pjkVDcaTeP4Vpwg1LkuyMiD61c": {
     "appearances": 1,
@@ -35641,6 +35646,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T11:11:03.090Z",
     "lastSeen": "2026-04-14T11:11:03.090Z",
+    "confirmed": false
+  },
+  "56nYPDziKQa6emKrsL1droAA7qJiWxZjdKoVY83F376p": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:11:35.777Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T11:11:35.777Z",
+    "lastSeen": "2026-04-14T11:11:35.777Z",
     "confirmed": false
   }
 }
