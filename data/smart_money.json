@@ -4619,7 +4619,7 @@
     "confirmed": false
   },
   "8SveFUanfbLRMsL6NAXa1LCMmLEsUc7q7KhFBufscG5Y": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Ising",
@@ -4630,6 +4630,11 @@
         "symbol": "INU",
         "pairAddress": "FAtHYvFt7d3r3TfdAJhrJ7He5beSboug1FG5t1TWF3YR",
         "entryTime": "2026-04-14T17:28:16.930Z"
+      },
+      {
+        "symbol": "TrollPepe",
+        "pairAddress": "DE2XxUqdBPGzyYa9PHuiaJ6gqKUY1q5L54qhM2xgboex",
+        "entryTime": "2026-04-14T17:48:05.465Z"
       }
     ],
     "wins": 0,
@@ -4637,8 +4642,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:45:34.521Z",
-    "lastSeen": "2026-04-14T17:28:16.930Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T17:48:05.465Z",
+    "confirmed": true
   },
   "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666": {
     "appearances": 2,
@@ -9644,6 +9649,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T17:47:32.748Z",
     "lastSeen": "2026-04-14T17:47:32.748Z",
+    "confirmed": false
+  },
+  "GSqCLV71dggBXRuXXAcX6HpNugLhRuAPNcrZsV679ZZg": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TrollPepe",
+        "pairAddress": "DE2XxUqdBPGzyYa9PHuiaJ6gqKUY1q5L54qhM2xgboex",
+        "entryTime": "2026-04-14T17:48:05.465Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T17:48:05.465Z",
+    "lastSeen": "2026-04-14T17:48:05.465Z",
     "confirmed": false
   }
 }
