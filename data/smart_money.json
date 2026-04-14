@@ -17616,12 +17616,17 @@
     "confirmed": false
   },
   "7ztfru1ejJW8hyRb166sggdQY2P6i6K4b1PJMydYyTfD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "M2M",
         "pairAddress": "7NzExuuB8tpdk4YtpS2JZQWVXTSMvowx7GQDS1PKwJMD",
         "entryTime": "2026-04-14T21:44:52.080Z"
+      },
+      {
+        "symbol": "PEPE6900",
+        "pairAddress": "EZzizGukT7fArHeEXPZp7tWZEDVtiM4BuVQ8mePezs7E",
+        "entryTime": "2026-04-14T23:03:26.579Z"
       }
     ],
     "wins": 0,
@@ -17629,7 +17634,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T21:44:52.080Z",
-    "lastSeen": "2026-04-14T21:44:52.080Z",
+    "lastSeen": "2026-04-14T23:03:26.579Z",
     "confirmed": false
   },
   "GSKw25wYFCr5gmRo6FiVRZuFEHTs7tLUbPRK6EtL8MYv": {
@@ -20168,6 +20173,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T23:02:54.866Z",
     "lastSeen": "2026-04-14T23:02:54.866Z",
+    "confirmed": false
+  },
+  "3XXMSTfC8naAEyW42B4Fi9TAuMVDiaCq3q8vu5gxLgXT": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PEPE6900",
+        "pairAddress": "EZzizGukT7fArHeEXPZp7tWZEDVtiM4BuVQ8mePezs7E",
+        "entryTime": "2026-04-14T23:03:26.579Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T23:03:26.579Z",
+    "lastSeen": "2026-04-14T23:03:26.579Z",
     "confirmed": false
   }
 }
