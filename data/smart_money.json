@@ -22595,5 +22595,22 @@
     "firstSeen": "2026-04-14T03:40:15.382Z",
     "lastSeen": "2026-04-14T03:40:15.382Z",
     "confirmed": false
+  },
+  "2pPRzYLXPKvjCqi1R5KmjQCndBLuSqCFLPaj8LRviMjp": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "KIKI",
+        "pairAddress": "BWoxQfbFifwJpsit4wH54WLQmP3JASQ1MxJcinMfzszM",
+        "entryTime": "2026-04-14T03:40:50.319Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T03:40:50.319Z",
+    "lastSeen": "2026-04-14T03:40:50.319Z",
+    "confirmed": false
   }
 }
