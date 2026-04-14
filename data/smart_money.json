@@ -4621,7 +4621,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Ising",
@@ -4642,6 +4642,11 @@
         "symbol": "fds",
         "pairAddress": "G5CdcQ3vz2LdiVzALwzKxQvsebyFWzXKsD2RLd7x6pn7",
         "entryTime": "2026-04-14T18:37:56.844Z"
+      },
+      {
+        "symbol": "glep",
+        "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
+        "entryTime": "2026-04-14T20:46:26.452Z"
       }
     ],
     "wins": 0,
@@ -4649,7 +4654,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:25:50.720Z",
-    "lastSeen": "2026-04-14T18:37:56.844Z",
+    "lastSeen": "2026-04-14T20:46:26.452Z",
     "confirmed": true
   },
   "DdEhpBQAHggLtWSgNFhokVQzrXubZ8etH3pyC9bxVhdV": {
