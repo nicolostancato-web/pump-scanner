@@ -24640,12 +24640,17 @@
     "confirmed": false
   },
   "ACZQNfoEbNZfTrM8zHERrfrf3vJh4eh6jV2NKBjnPPNY": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "GOAT",
         "pairAddress": "AN9zv7VrrkwRUz19sgf3uQQhv9nYyBgR5sqWVbM279xW",
         "entryTime": "2026-04-14T04:31:39.086Z"
+      },
+      {
+        "symbol": "COOMER",
+        "pairAddress": "H2NtdaYxq5pX3Zmp8YHbfvH6uddiHp1LQStKJNWYUi56",
+        "entryTime": "2026-04-14T06:29:20.500Z"
       }
     ],
     "wins": 0,
@@ -24653,7 +24658,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T04:31:39.086Z",
-    "lastSeen": "2026-04-14T04:31:39.086Z",
+    "lastSeen": "2026-04-14T06:29:20.500Z",
     "confirmed": false
   },
   "9y9nsHVJK3QeMLMF33CEDAkei8d278p6zQexco4YtcWA": {
@@ -27282,6 +27287,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T06:28:47.262Z",
     "lastSeen": "2026-04-14T06:28:47.262Z",
+    "confirmed": false
+  },
+  "D2vSzcbnR8QzwqoUX79fhSmvAPPe2CL6dd9sAE4r3fA8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "COOMER",
+        "pairAddress": "H2NtdaYxq5pX3Zmp8YHbfvH6uddiHp1LQStKJNWYUi56",
+        "entryTime": "2026-04-14T06:29:20.500Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T06:29:20.500Z",
+    "lastSeen": "2026-04-14T06:29:20.500Z",
     "confirmed": false
   }
 }
