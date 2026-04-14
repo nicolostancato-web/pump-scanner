@@ -5559,7 +5559,7 @@
     "confirmed": false
   },
   "7XPu5j9LPRi9CythzNeC8EDbSHounnFY6tD7duJrqbKz": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Ising",
@@ -5570,6 +5570,11 @@
         "symbol": "CHILLUNC",
         "pairAddress": "3unGi6w9uVovcY8Kuu7wxW1DDKqHpMLyZnmfJrrKeqsL",
         "entryTime": "2026-04-14T19:10:30.213Z"
+      },
+      {
+        "symbol": "pepunc",
+        "pairAddress": "FDzDGckUcyucr6StWdS9GuHLAhZ5oEMuxognYtkR8XFC",
+        "entryTime": "2026-04-14T19:30:38.220Z"
       }
     ],
     "wins": 0,
@@ -5577,8 +5582,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:26:12.194Z",
-    "lastSeen": "2026-04-14T19:10:30.213Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T19:30:38.220Z",
+    "confirmed": true
   },
   "8fCT1XifEHjYXcp7smBDDEZ9MLihwCPygCt23PjMhJgF": {
     "appearances": 1,
