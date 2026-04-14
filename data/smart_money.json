@@ -20452,12 +20452,17 @@
     "confirmed": false
   },
   "7rtiKSUDLBm59b1SBmD9oajcP8xE64vAGSMbAN5CXy1q": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Son",
         "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
         "entryTime": "2026-04-14T02:49:45.563Z"
+      },
+      {
+        "symbol": "GOAT",
+        "pairAddress": "AN9zv7VrrkwRUz19sgf3uQQhv9nYyBgR5sqWVbM279xW",
+        "entryTime": "2026-04-14T05:02:55.876Z"
       }
     ],
     "wins": 0,
@@ -20465,7 +20470,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T02:49:45.563Z",
-    "lastSeen": "2026-04-14T02:49:45.563Z",
+    "lastSeen": "2026-04-14T05:02:55.876Z",
     "confirmed": false
   },
   "4rGpdDD5ecGcGrreY1U7EdLwDfM1RC4QYEo55QuncYEj": {
