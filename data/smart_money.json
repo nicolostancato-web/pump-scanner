@@ -506,7 +506,7 @@
     "confirmed": false
   },
   "8avtb3GZapmpYWUjXoJYCXfATRBhH8SGQkyDSoqF6CPC": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "pumphouse",
@@ -517,6 +517,11 @@
         "symbol": "bulltire",
         "pairAddress": "FDvPiRG5dUmpD5qg6UGRZp2k6HMGAqAGbVuZ3xTteUTo",
         "entryTime": "2026-04-13T14:08:52.281Z"
+      },
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T02:25:45.374Z"
       }
     ],
     "wins": 0,
@@ -524,8 +529,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:01:56.788Z",
-    "lastSeen": "2026-04-13T14:08:52.281Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T02:25:45.374Z",
+    "confirmed": true
   },
   "BzvD3Cc1XyoRV7fiuGyPUfaeF79AsCABXQ9fFP9cgJhk": {
     "appearances": 2,
@@ -19512,6 +19517,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T02:25:13.120Z",
     "lastSeen": "2026-04-14T02:25:13.120Z",
+    "confirmed": false
+  },
+  "CHpxmgTzLk7eg8ZvgW73dfjgXLxsKmkvRDecTM2HtSCD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T02:25:45.374Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T02:25:45.374Z",
+    "lastSeen": "2026-04-14T02:25:45.374Z",
     "confirmed": false
   }
 }
