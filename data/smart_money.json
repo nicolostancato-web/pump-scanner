@@ -3717,12 +3717,17 @@
     "confirmed": false
   },
   "8LQVeXRWgPQt85Hhapy6CP8jzXj3o3rwo1LLJ9jmTiD4": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FI/RE",
         "pairAddress": "DVZ87SGdLaaborpbZQCrMmEcAZVDw6puntqyLsA4cSwp",
         "entryTime": "2026-04-13T11:21:12.038Z"
+      },
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:38:18.574Z"
       }
     ],
     "wins": 0,
@@ -3730,7 +3735,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T11:21:12.038Z",
-    "lastSeen": "2026-04-13T11:21:12.038Z",
+    "lastSeen": "2026-04-14T11:38:18.574Z",
     "confirmed": false
   },
   "AfHNjAnXJKkQ4yrBDop77A3UaLZgFmGKhaSDZC4Msrvk": {
