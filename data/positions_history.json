@@ -1169,7 +1169,61 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8gAC5ZQ3tvK4dip821C33YV9xJhqpyQSdjqfzhDizXDJ",
+      "mint": "FVX9ZzDgUQL2U1wAm7tCU4xiqwQSUBpe14AzTtWDpump",
+      "name": "UNC PEPE",
+      "symbol": "UNCPEPE",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001641,
+      "entryMcap": 164191,
+      "entryTime": 1776195557818,
+      "score": 67,
+      "ageAtEntry": 34,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8gac5zq3tvk4dip821c33yv9xjhqpyqsdjqfzhdizxdj",
+      "peakPrice": 0.0001641,
+      "peakMultiplier": 1,
+      "peakMcap": 164191,
+      "peakTime": 1776195557818,
+      "lastPrice": 0.00009026,
+      "lowestPrice": 0.00009026,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00009026,
+      "closeMultiplier": 0.5500304692260817,
+      "closedAt": "2026-04-14T19:44:17.928Z",
+      "durationMs": 300110,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00009026,
+        "closeMultiplier": 0.5500304692260817,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-14T19:44:17.928Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-14T02:11:44.484Z"
+  "lastSaved": "2026-04-14T19:44:19.290Z"
 }
