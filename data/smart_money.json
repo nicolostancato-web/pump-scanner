@@ -3744,12 +3744,17 @@
     "confirmed": false
   },
   "AfHNjAnXJKkQ4yrBDop77A3UaLZgFmGKhaSDZC4Msrvk": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FI/RE",
         "pairAddress": "DVZ87SGdLaaborpbZQCrMmEcAZVDw6puntqyLsA4cSwp",
         "entryTime": "2026-04-13T11:21:43.290Z"
+      },
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:46:08.036Z"
       }
     ],
     "wins": 0,
@@ -3757,7 +3762,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T11:21:43.290Z",
-    "lastSeen": "2026-04-13T11:21:43.290Z",
+    "lastSeen": "2026-04-14T11:46:08.036Z",
     "confirmed": false
   },
   "A4nrqRjZiwnr5BiimELGCat1SF5ZZMDZnYw2ThQR9R28": {
@@ -37275,6 +37280,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T11:45:33.629Z",
     "lastSeen": "2026-04-14T11:45:33.629Z",
+    "confirmed": false
+  },
+  "GvcBy66ZtjXH9fVgmNaE3SKDUm4RgMrm63Mx9sRdkgQw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:46:08.036Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T11:46:08.036Z",
+    "lastSeen": "2026-04-14T11:46:08.036Z",
     "confirmed": false
   }
 }
