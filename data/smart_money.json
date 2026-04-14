@@ -16930,12 +16930,17 @@
     "confirmed": false
   },
   "4TPmJ32b5dKvKwsMyPGoh1VsoHhbBtTdams8gTzQ6a49": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SENDY",
         "pairAddress": "DVq4xqvYfHrfSrc5TNdQ2h5rkY3sXY9UunXhp91A9Bnq",
         "entryTime": "2026-04-14T00:36:25.397Z"
+      },
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:31:42.209Z"
       }
     ],
     "wins": 0,
@@ -16943,7 +16948,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T00:36:25.397Z",
-    "lastSeen": "2026-04-14T00:36:25.397Z",
+    "lastSeen": "2026-04-14T11:31:42.209Z",
     "confirmed": false
   },
   "5VzPyNvpszhhxZ5iPJPexU5XsBgXfeq8Xev9Dq8fQpkW": {
@@ -36628,6 +36633,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T11:31:06.206Z",
     "lastSeen": "2026-04-14T11:31:06.206Z",
+    "confirmed": false
+  },
+  "4eBPW5akd7UhRWeQmRxPXUe1h9c1eYY8VU9wHHEgfN1A": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:31:42.209Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T11:31:42.209Z",
+    "lastSeen": "2026-04-14T11:31:42.209Z",
     "confirmed": false
   }
 }
