@@ -4541,7 +4541,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Ising",
@@ -4557,6 +4557,11 @@
         "symbol": "INU",
         "pairAddress": "FAtHYvFt7d3r3TfdAJhrJ7He5beSboug1FG5t1TWF3YR",
         "entryTime": "2026-04-14T17:05:46.832Z"
+      },
+      {
+        "symbol": "fds",
+        "pairAddress": "G5CdcQ3vz2LdiVzALwzKxQvsebyFWzXKsD2RLd7x6pn7",
+        "entryTime": "2026-04-14T18:37:56.844Z"
       }
     ],
     "wins": 0,
@@ -4564,7 +4569,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:25:50.720Z",
-    "lastSeen": "2026-04-14T17:05:46.832Z",
+    "lastSeen": "2026-04-14T18:37:56.844Z",
     "confirmed": true
   },
   "DdEhpBQAHggLtWSgNFhokVQzrXubZ8etH3pyC9bxVhdV": {
@@ -12350,6 +12355,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T18:37:22.920Z",
     "lastSeen": "2026-04-14T18:37:22.920Z",
+    "confirmed": false
+  },
+  "HjcnuFK1z7EBpn3sQYcERpBjnCgWZuvw3Ss5wSALN8km": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "fds",
+        "pairAddress": "G5CdcQ3vz2LdiVzALwzKxQvsebyFWzXKsD2RLd7x6pn7",
+        "entryTime": "2026-04-14T18:37:56.844Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T18:37:56.844Z",
+    "lastSeen": "2026-04-14T18:37:56.844Z",
     "confirmed": false
   }
 }
