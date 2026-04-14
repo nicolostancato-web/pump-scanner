@@ -8269,7 +8269,7 @@
     "confirmed": false
   },
   "7KjC6pHMA3wjxnnTV5nGspGwTQm6TJjZTGLNi7wMWwo8": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "TRUMBULL",
@@ -8280,6 +8280,11 @@
         "symbol": "Meeka",
         "pairAddress": "XdVXCZKLXd1uDeEBcW6ngh689XDKofPHLNvn2JrXggG",
         "entryTime": "2026-04-14T02:15:20.968Z"
+      },
+      {
+        "symbol": "bullunc",
+        "pairAddress": "EBoUXBkCUfG9D8aRP4GPBoBvDJgE9Mh1wFMfUEfXF9Sb",
+        "entryTime": "2026-04-14T07:37:44.092Z"
       }
     ],
     "wins": 0,
@@ -8287,8 +8292,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T14:49:05.566Z",
-    "lastSeen": "2026-04-14T02:15:20.968Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T07:37:44.092Z",
+    "confirmed": true
   },
   "6v5vmsyWxrmSNYc3oubyq4Y3TRcthpL7mNazhJSitU9E": {
     "appearances": 1,
@@ -28071,6 +28076,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T07:37:32.202Z",
     "lastSeen": "2026-04-14T07:37:32.202Z",
+    "confirmed": false
+  },
+  "3PLT3YxMJ8mwh4oqjZobqpoas1xvUJiJkqkgrnwzqp1g": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "bullunc",
+        "pairAddress": "EBoUXBkCUfG9D8aRP4GPBoBvDJgE9Mh1wFMfUEfXF9Sb",
+        "entryTime": "2026-04-14T07:37:44.092Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T07:37:44.092Z",
+    "lastSeen": "2026-04-14T07:37:44.092Z",
     "confirmed": false
   }
 }
