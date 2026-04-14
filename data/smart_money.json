@@ -17582,5 +17582,22 @@
     "firstSeen": "2026-04-14T01:13:56.531Z",
     "lastSeen": "2026-04-14T01:13:56.531Z",
     "confirmed": false
+  },
+  "EDpiXsMTkxrDiECteCHibKmqLvhurmTfenrn2FLZJx5T": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNC67",
+        "pairAddress": "4Wb6SfAqA1GSEfuinsApWnMziGPbwqsTCDv2GbSpNepi",
+        "entryTime": "2026-04-14T01:14:30.224Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T01:14:30.224Z",
+    "lastSeen": "2026-04-14T01:14:30.224Z",
+    "confirmed": false
   }
 }
