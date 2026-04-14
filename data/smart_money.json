@@ -6381,12 +6381,17 @@
     "confirmed": false
   },
   "7WRH59rrtg86pMmSfTCMe6NNy1USTTs3sBQGhe4y9jWf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BAGS",
         "pairAddress": "8UdS5MDKSFK4TnzS25PA1M7xVWRGE3EkoCwgroheC6df",
         "entryTime": "2026-04-14T16:17:33.954Z"
+      },
+      {
+        "symbol": "PEPE",
+        "pairAddress": "4wXMVPTDzuccZpd43xaTg9CF5e5Mp2hBV8P8oS4Z2SQU",
+        "entryTime": "2026-04-14T16:36:51.843Z"
       }
     ],
     "wins": 0,
@@ -6394,7 +6399,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T16:17:33.954Z",
-    "lastSeen": "2026-04-14T16:17:33.954Z",
+    "lastSeen": "2026-04-14T16:36:51.843Z",
     "confirmed": false
   },
   "8BmXR567ufAiGe4siBvP1WkN8m4upjzRjSby3hwrWdYu": {
@@ -6922,6 +6927,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T16:36:20.721Z",
     "lastSeen": "2026-04-14T16:36:20.721Z",
+    "confirmed": false
+  },
+  "5k9YQanGgBJX9FbBPRN8A2vcMdACnJgZ7fTY9nJvqscP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PEPE",
+        "pairAddress": "4wXMVPTDzuccZpd43xaTg9CF5e5Mp2hBV8P8oS4Z2SQU",
+        "entryTime": "2026-04-14T16:36:51.843Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T16:36:51.843Z",
+    "lastSeen": "2026-04-14T16:36:51.843Z",
     "confirmed": false
   }
 }
