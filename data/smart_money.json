@@ -358,7 +358,7 @@
     "confirmed": false
   },
   "72jgtrWTT7uZo5x2A5T2i7WGDvQUwwqhpYTY3aGGBWMz": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "unctire",
@@ -369,6 +369,11 @@
         "symbol": "glep",
         "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
         "entryTime": "2026-04-14T20:40:53.856Z"
+      },
+      {
+        "symbol": "M2M",
+        "pairAddress": "7NzExuuB8tpdk4YtpS2JZQWVXTSMvowx7GQDS1PKwJMD",
+        "entryTime": "2026-04-14T21:48:43.248Z"
       }
     ],
     "wins": 0,
@@ -376,8 +381,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T13:05:20.485Z",
-    "lastSeen": "2026-04-14T20:40:53.856Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T21:48:43.248Z",
+    "confirmed": true
   },
   "BpTr8Z9vBAXCWRLRwTqC7XkWjrgSsV9AYjk38TmGhMf2": {
     "appearances": 1,
