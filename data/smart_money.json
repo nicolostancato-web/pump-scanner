@@ -28754,12 +28754,17 @@
     "confirmed": false
   },
   "GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "bullunc",
         "pairAddress": "EBoUXBkCUfG9D8aRP4GPBoBvDJgE9Mh1wFMfUEfXF9Sb",
         "entryTime": "2026-04-14T07:54:18.191Z"
+      },
+      {
+        "symbol": "SIZE",
+        "pairAddress": "69PTr4DYnL1LP43WsyDti2bUxJ5Kv21kyznkKwURvADE",
+        "entryTime": "2026-04-14T08:13:31.440Z"
       }
     ],
     "wins": 0,
@@ -28767,7 +28772,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T07:54:18.191Z",
-    "lastSeen": "2026-04-14T07:54:18.191Z",
+    "lastSeen": "2026-04-14T08:13:31.440Z",
     "confirmed": false
   },
   "HsbfWi2exg5w6RfGFmy91uCkcH4X2KQxtew4wY4d4Sva": {
@@ -29198,6 +29203,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T08:12:24.257Z",
     "lastSeen": "2026-04-14T08:12:24.257Z",
+    "confirmed": false
+  },
+  "2dRR9CaNrEsHm3UqZacEf8AoDuDx4NGQyMhGxG71NzkN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SIZE",
+        "pairAddress": "69PTr4DYnL1LP43WsyDti2bUxJ5Kv21kyznkKwURvADE",
+        "entryTime": "2026-04-14T08:13:31.440Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T08:13:31.440Z",
+    "lastSeen": "2026-04-14T08:13:31.440Z",
+    "confirmed": false
+  },
+  "111AS4wxTjgyv2usx4fo61DAQeU4SRKacspYuhMSrLp": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SIZE",
+        "pairAddress": "69PTr4DYnL1LP43WsyDti2bUxJ5Kv21kyznkKwURvADE",
+        "entryTime": "2026-04-14T08:13:31.440Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T08:13:31.440Z",
+    "lastSeen": "2026-04-14T08:13:31.440Z",
+    "confirmed": false
+  },
+  "1118tS84L5gihFxTuD11pGh5x3iUck8YjLRTkDhXf7g": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SIZE",
+        "pairAddress": "69PTr4DYnL1LP43WsyDti2bUxJ5Kv21kyznkKwURvADE",
+        "entryTime": "2026-04-14T08:13:31.440Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T08:13:31.440Z",
+    "lastSeen": "2026-04-14T08:13:31.440Z",
     "confirmed": false
   }
 }
