@@ -8865,7 +8865,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "TRUMBULL",
@@ -8901,6 +8901,11 @@
         "symbol": "bullunc",
         "pairAddress": "EBoUXBkCUfG9D8aRP4GPBoBvDJgE9Mh1wFMfUEfXF9Sb",
         "entryTime": "2026-04-14T07:05:45.300Z"
+      },
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:23:12.263Z"
       }
     ],
     "wins": 0,
@@ -8908,7 +8913,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T15:21:47.147Z",
-    "lastSeen": "2026-04-14T07:05:45.300Z",
+    "lastSeen": "2026-04-14T11:23:12.263Z",
     "confirmed": true
   },
   "5ZNVRpYGC8kmjzbCw1V1UcuNHzkMW53KY63NcUUG8AZ6": {
@@ -36222,6 +36227,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T11:22:39.530Z",
     "lastSeen": "2026-04-14T11:22:39.530Z",
+    "confirmed": false
+  },
+  "6G1hoFNUChKLxmM2faw2U2NbeZguCis33Wdo4YFML5ix": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PFPs",
+        "pairAddress": "5ik9xubLL9uzPMQGv1YcDWWACVCn4mxWBcSkowG9enhS",
+        "entryTime": "2026-04-14T11:23:12.263Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T11:23:12.263Z",
+    "lastSeen": "2026-04-14T11:23:12.263Z",
     "confirmed": false
   }
 }
