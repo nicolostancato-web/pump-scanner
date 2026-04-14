@@ -8507,12 +8507,17 @@
     "confirmed": false
   },
   "5yqrzkVB8uFNUkYx1WJh1ULVvwFfMxC7SsKozecshXTN": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "INU",
         "pairAddress": "FAtHYvFt7d3r3TfdAJhrJ7He5beSboug1FG5t1TWF3YR",
         "entryTime": "2026-04-14T17:00:35.986Z"
+      },
+      {
+        "symbol": "glep",
+        "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
+        "entryTime": "2026-04-14T21:09:45.601Z"
       }
     ],
     "wins": 0,
@@ -8520,7 +8525,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T17:00:35.986Z",
-    "lastSeen": "2026-04-14T17:00:35.986Z",
+    "lastSeen": "2026-04-14T21:09:45.601Z",
     "confirmed": false
   },
   "ARqJ18xaBLrEJYARaYHxfRKSi1pB7dZjwq1NW6Fiuieb": {
@@ -17078,6 +17083,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T21:03:40.702Z",
     "lastSeen": "2026-04-14T21:03:40.702Z",
+    "confirmed": false
+  },
+  "7XDbDBUTPVDimBjphevrtLTLgR84AosUC2Wa5FCAyBdi": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "glep",
+        "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
+        "entryTime": "2026-04-14T21:09:45.601Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T21:09:45.601Z",
+    "lastSeen": "2026-04-14T21:09:45.601Z",
     "confirmed": false
   }
 }
