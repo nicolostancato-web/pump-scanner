@@ -17118,5 +17118,22 @@
     "firstSeen": "2026-04-14T21:12:18.348Z",
     "lastSeen": "2026-04-14T21:12:18.348Z",
     "confirmed": false
+  },
+  "GoGwzcrERJPqEu1bQ1EL3Xfwr4ZqLBPvDgKZhnC4goq6": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "glep",
+        "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
+        "entryTime": "2026-04-14T21:20:50.940Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T21:20:50.940Z",
+    "lastSeen": "2026-04-14T21:20:50.940Z",
+    "confirmed": false
   }
 }
