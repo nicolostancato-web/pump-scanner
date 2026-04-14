@@ -18551,5 +18551,22 @@
     "firstSeen": "2026-04-14T01:42:27.347Z",
     "lastSeen": "2026-04-14T01:42:27.347Z",
     "confirmed": false
+  },
+  "HBjSM3MguUbRxeWRg62qjQPKBhjMVbVBqTcj4rZ4vs1P": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "xchat",
+        "pairAddress": "AH1EhH4D52nWvcFjhznkgMNwEnyAV69XwEQKRNHpZVm8",
+        "entryTime": "2026-04-14T01:42:58.839Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T01:42:58.839Z",
+    "lastSeen": "2026-04-14T01:42:58.839Z",
+    "confirmed": false
   }
 }
