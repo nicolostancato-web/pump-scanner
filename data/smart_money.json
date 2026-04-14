@@ -18105,12 +18105,17 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "M2M",
         "pairAddress": "7NzExuuB8tpdk4YtpS2JZQWVXTSMvowx7GQDS1PKwJMD",
         "entryTime": "2026-04-14T21:55:17.492Z"
+      },
+      {
+        "symbol": "CRYPTOCOIN",
+        "pairAddress": "6vNC23D22qu7LYYVb4iogoj1qLYKQ9cWzr9gFuDRFtbG",
+        "entryTime": "2026-04-14T22:26:39.104Z"
       }
     ],
     "wins": 0,
@@ -18118,7 +18123,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T21:55:17.492Z",
-    "lastSeen": "2026-04-14T21:55:17.492Z",
+    "lastSeen": "2026-04-14T22:26:39.104Z",
     "confirmed": false
   },
   "4y52bXRkk4uQMU3BLxb8YhnJ4NbYTo6RD7FiWLpwVfHp": {
@@ -18816,6 +18821,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T22:26:06.241Z",
     "lastSeen": "2026-04-14T22:26:06.241Z",
+    "confirmed": false
+  },
+  "12zoMgUT6jkaB2PL5gnpUqRuL9ov33nC9RbwqqEgfJiB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CRYPTOCOIN",
+        "pairAddress": "6vNC23D22qu7LYYVb4iogoj1qLYKQ9cWzr9gFuDRFtbG",
+        "entryTime": "2026-04-14T22:26:39.104Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T22:26:39.104Z",
+    "lastSeen": "2026-04-14T22:26:39.104Z",
     "confirmed": false
   }
 }
