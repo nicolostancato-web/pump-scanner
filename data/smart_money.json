@@ -4417,7 +4417,7 @@
     "confirmed": false
   },
   "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Wagie",
@@ -4438,6 +4438,11 @@
         "symbol": "Son",
         "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
         "entryTime": "2026-04-14T02:39:36.269Z"
+      },
+      {
+        "symbol": "GOAT",
+        "pairAddress": "AN9zv7VrrkwRUz19sgf3uQQhv9nYyBgR5sqWVbM279xW",
+        "entryTime": "2026-04-14T04:28:09.390Z"
       }
     ],
     "wins": 0,
@@ -4445,7 +4450,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T11:47:24.857Z",
-    "lastSeen": "2026-04-14T02:39:36.269Z",
+    "lastSeen": "2026-04-14T04:28:09.390Z",
     "confirmed": true
   },
   "CdFGzAt2b4YC2swXL81wY36TsyJ3MXou4V1WHg1tBeEa": {
