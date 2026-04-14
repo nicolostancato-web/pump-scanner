@@ -10618,12 +10618,17 @@
     "confirmed": false
   },
   "CvRw2LQ8cJasvtKGXhhjCWAu1r2U5jpTjm2DuBVFrEjf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TrollPepe",
         "pairAddress": "DE2XxUqdBPGzyYa9PHuiaJ6gqKUY1q5L54qhM2xgboex",
         "entryTime": "2026-04-14T18:03:57.206Z"
+      },
+      {
+        "symbol": "trumpunc",
+        "pairAddress": "ACts9HXpSSFomzRsVGkGCDXbPXbQV44KodLvscUyyyvB",
+        "entryTime": "2026-04-14T20:27:14.024Z"
       }
     ],
     "wins": 0,
@@ -10631,7 +10636,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T18:03:57.206Z",
-    "lastSeen": "2026-04-14T18:03:57.206Z",
+    "lastSeen": "2026-04-14T20:27:14.024Z",
     "confirmed": false
   },
   "7LKqqV5aAVx5NHoex9Kv6tFYhbgFD8SZhJec57jNgbf1": {
