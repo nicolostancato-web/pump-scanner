@@ -17361,5 +17361,22 @@
     "firstSeen": "2026-04-14T01:03:27.018Z",
     "lastSeen": "2026-04-14T01:03:27.018Z",
     "confirmed": false
+  },
+  "qbAdHAAVHJStiFmRmhT5g1VxbciqVSxYsXsxP5s4S5B": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SENDY",
+        "pairAddress": "DVq4xqvYfHrfSrc5TNdQ2h5rkY3sXY9UunXhp91A9Bnq",
+        "entryTime": "2026-04-14T01:03:56.620Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T01:03:56.620Z",
+    "lastSeen": "2026-04-14T01:03:56.620Z",
+    "confirmed": false
   }
 }
