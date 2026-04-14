@@ -27003,12 +27003,17 @@
     "confirmed": false
   },
   "G6wQuhQzGKESWBiyA55DRGrNZtyBjrWmZsX4hemZgLmS": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "bullunc",
         "pairAddress": "EBoUXBkCUfG9D8aRP4GPBoBvDJgE9Mh1wFMfUEfXF9Sb",
         "entryTime": "2026-04-14T06:10:50.552Z"
+      },
+      {
+        "symbol": "unctire",
+        "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
+        "entryTime": "2026-04-14T12:05:39.129Z"
       }
     ],
     "wins": 0,
@@ -27016,7 +27021,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T06:10:50.552Z",
-    "lastSeen": "2026-04-14T06:10:50.552Z",
+    "lastSeen": "2026-04-14T12:05:39.129Z",
     "confirmed": false
   },
   "Bb9m3EuVQQDS3tB41DKEdQHPkmWt6EBB4P4hLMQvvkno": {
