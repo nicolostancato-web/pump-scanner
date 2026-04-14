@@ -17049,12 +17049,17 @@
     "confirmed": false
   },
   "AFXE1WsBdAcy82rMYz26Ah6qzAbuzk1AM6xWRSxsCbSX": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "DUMBMONEY",
         "pairAddress": "6zZHQtPqiBzwm4qR21BHaKp5VJEYhzjccamfd6x8cjsP",
         "entryTime": "2026-04-14T00:53:03.496Z"
+      },
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T03:15:42.639Z"
       }
     ],
     "wins": 0,
@@ -17062,7 +17067,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T00:53:03.496Z",
-    "lastSeen": "2026-04-14T00:53:03.496Z",
+    "lastSeen": "2026-04-14T03:15:42.639Z",
     "confirmed": false
   },
   "4LeCShVmNepeygd4jU8w81n7VhGgmP2Y8PxdaS4hr5S7": {
@@ -21245,6 +21250,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T03:15:10.042Z",
     "lastSeen": "2026-04-14T03:15:10.042Z",
+    "confirmed": false
+  },
+  "5VvcsHRUjLbihAVN9SSLnNuCS7Mo73uu8JryCCRDHLGq": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T03:15:42.639Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T03:15:42.639Z",
+    "lastSeen": "2026-04-14T03:15:42.639Z",
     "confirmed": false
   }
 }
