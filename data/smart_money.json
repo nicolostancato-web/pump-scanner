@@ -13459,7 +13459,7 @@
     "confirmed": true
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "friendship",
@@ -13470,6 +13470,11 @@
         "symbol": "BELIEF",
         "pairAddress": "HehzrczPii9azd1QzPLjsjwsnygHvHpfBYPcmEp3gugG",
         "entryTime": "2026-04-13T19:23:20.975Z"
+      },
+      {
+        "symbol": "SUBSTRATE",
+        "pairAddress": "AZXurVXig4NEz6Ye6GT21AKt76dmL2sTPAh1nhfpH8RK",
+        "entryTime": "2026-04-14T06:36:42.207Z"
       }
     ],
     "wins": 0,
@@ -13477,8 +13482,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T19:01:46.765Z",
-    "lastSeen": "2026-04-13T19:23:20.975Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T06:36:42.207Z",
+    "confirmed": true
   },
   "HA4KTnvVm9NDwDyHDccbjxm4dkCrLaCbhwVEMcjMAhnT": {
     "appearances": 1,
@@ -21466,12 +21471,17 @@
     "confirmed": false
   },
   "784wcFWsiNH9e48joMZYyMcBupdy5sU31UaVZotmucAy": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Son",
         "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
         "entryTime": "2026-04-14T03:15:10.042Z"
+      },
+      {
+        "symbol": "SUBSTRATE",
+        "pairAddress": "AZXurVXig4NEz6Ye6GT21AKt76dmL2sTPAh1nhfpH8RK",
+        "entryTime": "2026-04-14T06:36:42.207Z"
       }
     ],
     "wins": 0,
@@ -21479,7 +21489,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T03:15:10.042Z",
-    "lastSeen": "2026-04-14T03:15:10.042Z",
+    "lastSeen": "2026-04-14T06:36:42.207Z",
     "confirmed": false
   },
   "5VvcsHRUjLbihAVN9SSLnNuCS7Mo73uu8JryCCRDHLGq": {
