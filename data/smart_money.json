@@ -4681,7 +4681,7 @@
     "confirmed": true
   },
   "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Ising",
@@ -4692,6 +4692,11 @@
         "symbol": "INU",
         "pairAddress": "FAtHYvFt7d3r3TfdAJhrJ7He5beSboug1FG5t1TWF3YR",
         "entryTime": "2026-04-14T17:25:07.082Z"
+      },
+      {
+        "symbol": "CHILLUNC",
+        "pairAddress": "3unGi6w9uVovcY8Kuu7wxW1DDKqHpMLyZnmfJrrKeqsL",
+        "entryTime": "2026-04-14T19:11:03.752Z"
       }
     ],
     "wins": 0,
@@ -4699,8 +4704,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T14:45:34.521Z",
-    "lastSeen": "2026-04-14T17:25:07.082Z",
-    "confirmed": false
+    "lastSeen": "2026-04-14T19:11:03.752Z",
+    "confirmed": true
   },
   "D3ajqkacJe5qjfeDQqQc1n47NKA1PjEb7UAXf3FTtWuh": {
     "appearances": 1,
