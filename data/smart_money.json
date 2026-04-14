@@ -594,7 +594,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "pumphouse",
@@ -630,6 +630,11 @@
         "symbol": "SENDY",
         "pairAddress": "DVq4xqvYfHrfSrc5TNdQ2h5rkY3sXY9UunXhp91A9Bnq",
         "entryTime": "2026-04-14T01:01:08.497Z"
+      },
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T03:05:15.652Z"
       }
     ],
     "wins": 0,
@@ -637,7 +642,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-13T09:05:38.969Z",
-    "lastSeen": "2026-04-14T01:01:08.497Z",
+    "lastSeen": "2026-04-14T03:05:15.652Z",
     "confirmed": true
   },
   "85pLpaUF2R9SDkGYUMc69gcfo4Xa8GzUwKVg68A6UFoq": {
@@ -20725,6 +20730,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T03:04:44.034Z",
     "lastSeen": "2026-04-14T03:04:44.034Z",
+    "confirmed": false
+  },
+  "5kbF4BLa2SD59SqZ85HLcv5RYrPwmUbTB8jEjyFPwp24": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Son",
+        "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
+        "entryTime": "2026-04-14T03:05:15.652Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T03:05:15.652Z",
+    "lastSeen": "2026-04-14T03:05:15.652Z",
     "confirmed": false
   }
 }
