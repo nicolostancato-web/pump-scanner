@@ -20009,12 +20009,17 @@
     "confirmed": false
   },
   "GDAtwgeoSik1aAnqPSehe8mgL4fZRhQmYfyxGw5tZ7tX": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Son",
         "pairAddress": "A7ux5BxvCshs8j1wnoiBDQqyE5R2R9cqQ8YiRVU97ZGL",
         "entryTime": "2026-04-14T02:31:57.505Z"
+      },
+      {
+        "symbol": "INUUNC",
+        "pairAddress": "DSxUSxL8sP39z8qRsKysHoacmngb7xddQeLW25h86zJb",
+        "entryTime": "2026-04-14T10:59:28.955Z"
       }
     ],
     "wins": 0,
@@ -20022,7 +20027,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T02:31:57.505Z",
-    "lastSeen": "2026-04-14T02:31:57.505Z",
+    "lastSeen": "2026-04-14T10:59:28.955Z",
     "confirmed": false
   },
   "GwJGJnERXF4XswqE2tmFjQBiNhgTmicGuuo5BCspNH8j": {
@@ -35077,6 +35082,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-14T10:58:57.243Z",
     "lastSeen": "2026-04-14T10:58:57.243Z",
+    "confirmed": false
+  },
+  "2LiPUBYZDrm3vczWoFc9MwTCEZY5aJ2S7178Z7eFyGGR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "INUUNC",
+        "pairAddress": "DSxUSxL8sP39z8qRsKysHoacmngb7xddQeLW25h86zJb",
+        "entryTime": "2026-04-14T10:59:28.955Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-14T10:59:28.955Z",
+    "lastSeen": "2026-04-14T10:59:28.955Z",
     "confirmed": false
   }
 }
