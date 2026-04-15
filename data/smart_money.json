@@ -392,7 +392,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -418,6 +418,11 @@
         "symbol": "BULLCOIN",
         "pairAddress": "4JZp6Uu7t4CrFEtzv7hz2TxHD4yv8ybAvs9xcqxAgSR2",
         "entryTime": "2026-04-15T14:38:24.901Z"
+      },
+      {
+        "symbol": "MaaS",
+        "pairAddress": "3tFzQUgjdmAWhrcXVp8HLEgRobRseY8hvRcXx9cguXGR",
+        "entryTime": "2026-04-15T15:59:21.575Z"
       }
     ],
     "wins": 0,
@@ -425,7 +430,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:19:21.580Z",
-    "lastSeen": "2026-04-15T14:38:24.901Z",
+    "lastSeen": "2026-04-15T15:59:21.575Z",
     "confirmed": true
   },
   "8L2y55D11k63CAftvW7uMM2mBhtMxLoLnivG9uY2bt8j": {
@@ -15452,6 +15457,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T15:58:49.932Z",
     "lastSeen": "2026-04-15T15:58:49.932Z",
+    "confirmed": false
+  },
+  "99QbDV2M2x2ovjWgEDTdjVkJRi7BJkALSyYmTvBo7rpg": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MaaS",
+        "pairAddress": "3tFzQUgjdmAWhrcXVp8HLEgRobRseY8hvRcXx9cguXGR",
+        "entryTime": "2026-04-15T15:59:21.575Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T15:59:21.575Z",
+    "lastSeen": "2026-04-15T15:59:21.575Z",
     "confirmed": false
   }
 }
