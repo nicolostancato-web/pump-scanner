@@ -898,7 +898,7 @@
     "confirmed": false
   },
   "8wY9HAMpKQrXuPx99rrB8oGdUSX1WyZtP5mH59CVsdVC": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Dumpling",
@@ -909,6 +909,11 @@
         "symbol": "OG",
         "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
         "entryTime": "2026-04-15T13:04:17.432Z"
+      },
+      {
+        "symbol": "STUBBY",
+        "pairAddress": "3Nddxo7TPheV3uJVbiRJU28yzXuLh3ohmXn4zmt9bTtS",
+        "entryTime": "2026-04-15T18:54:48.766Z"
       }
     ],
     "wins": 0,
@@ -916,8 +921,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:32:49.145Z",
-    "lastSeen": "2026-04-15T13:04:17.432Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T18:54:48.766Z",
+    "confirmed": true
   },
   "CVJNyMugMq9a4PwdiSuQjnN3Ay2PZoVWtB2BF4sg1jbJ": {
     "appearances": 1,
@@ -21448,6 +21453,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T18:54:17.636Z",
     "lastSeen": "2026-04-15T18:54:17.636Z",
+    "confirmed": false
+  },
+  "EUcNYMdmLcnaaPocJPXn5ZYxNW5ggggW3zWcxwQMRhsr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "STUBBY",
+        "pairAddress": "3Nddxo7TPheV3uJVbiRJU28yzXuLh3ohmXn4zmt9bTtS",
+        "entryTime": "2026-04-15T18:54:48.766Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T18:54:48.766Z",
+    "lastSeen": "2026-04-15T18:54:48.766Z",
     "confirmed": false
   }
 }
