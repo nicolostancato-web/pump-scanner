@@ -796,7 +796,7 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -812,6 +812,11 @@
         "symbol": "NORMIE",
         "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
         "entryTime": "2026-04-15T20:01:55.772Z"
+      },
+      {
+        "symbol": "ONEUNC",
+        "pairAddress": "HWqHWRwfsq8xSEQj9RF6YLuZUKuJ8qQkxokA6PyTJNp5",
+        "entryTime": "2026-04-15T23:34:12.498Z"
       }
     ],
     "wins": 0,
@@ -819,7 +824,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:27:37.497Z",
-    "lastSeen": "2026-04-15T20:01:55.772Z",
+    "lastSeen": "2026-04-15T23:34:12.498Z",
     "confirmed": true
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
