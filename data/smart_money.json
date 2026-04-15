@@ -21519,7 +21519,7 @@
     "confirmed": false
   },
   "945GwtwhQFjeEK62eJYBWSfFMouPToz6dKXRmxUiUrsB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "notunc",
@@ -21530,6 +21530,11 @@
         "symbol": "Venus",
         "pairAddress": "Km1qYYPv7kpaEKmK4DV56bgxTJMrT4YrsCSrVLeaJWS",
         "entryTime": "2026-04-15T00:35:49.324Z"
+      },
+      {
+        "symbol": "SNI",
+        "pairAddress": "7HzZhvrASFyLjB3G4zaVdns11jhimTSAKN6UZU2FEu24",
+        "entryTime": "2026-04-15T03:16:50.467Z"
       }
     ],
     "wins": 0,
@@ -21537,8 +21542,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T23:27:43.282Z",
-    "lastSeen": "2026-04-15T00:35:49.324Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T03:16:50.467Z",
+    "confirmed": true
   },
   "G6xEq3tmKAHKMRYAQcQd6VkvXNj2U8HbFmvqKLgV6gry": {
     "appearances": 1,
@@ -23754,12 +23759,17 @@
     "confirmed": false
   },
   "AyRp4Ff45fYhWz2fWmFbarUGCzYBfeTtvT1YFDnPXP8c": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Sadie",
         "pairAddress": "DQrGRSvc9WCbtx37LBin8bfSdZu44KLZmGFNbN1MkmrD",
         "entryTime": "2026-04-15T00:19:51.508Z"
+      },
+      {
+        "symbol": "SNI",
+        "pairAddress": "7HzZhvrASFyLjB3G4zaVdns11jhimTSAKN6UZU2FEu24",
+        "entryTime": "2026-04-15T03:16:50.467Z"
       }
     ],
     "wins": 0,
@@ -23767,7 +23777,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T00:19:51.508Z",
-    "lastSeen": "2026-04-15T00:19:51.508Z",
+    "lastSeen": "2026-04-15T03:16:50.467Z",
     "confirmed": false
   },
   "GKVq9ryLYvZvWsR6uBkizcB7v4WvW2JNsUVs2K2tfLHW": {
