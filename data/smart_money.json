@@ -1710,7 +1710,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -1721,6 +1721,11 @@
         "symbol": "NPC",
         "pairAddress": "2GF2dT8x1H5oL74SUYkf4y7k93LxpqtAupbrWzVZ7mvu",
         "entryTime": "2026-04-15T10:45:50.991Z"
+      },
+      {
+        "symbol": "OG",
+        "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
+        "entryTime": "2026-04-15T13:14:11.324Z"
       }
     ],
     "wins": 0,
@@ -1728,8 +1733,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:47:48.263Z",
-    "lastSeen": "2026-04-15T10:45:50.991Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T13:14:11.324Z",
+    "confirmed": true
   },
   "9iTMM6ga58JsLu5bgfnYjzYMxPPMzB48rQeCt2vT2mr9": {
     "appearances": 1,
@@ -9118,6 +9123,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T13:13:27.382Z",
     "lastSeen": "2026-04-15T13:13:27.382Z",
+    "confirmed": false
+  },
+  "8uinUbVfAjRPtkxa6VSa9hBsDUQKEyp8htmoKp1tr6s6": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "OG",
+        "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
+        "entryTime": "2026-04-15T13:14:11.324Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T13:14:11.324Z",
+    "lastSeen": "2026-04-15T13:14:11.324Z",
     "confirmed": false
   }
 }
