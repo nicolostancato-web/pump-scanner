@@ -1057,7 +1057,7 @@
     "confirmed": false
   },
   "9me4CdSHkkpwEv3eM3UcAyaEABsh2jgWprqZMVyKQFiv": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -1073,6 +1073,11 @@
         "symbol": "uncsheikh",
         "pairAddress": "FfKZfub5KigMvoVkAhwWVL5fTbB7TnkxvTsUhbvxESh1",
         "entryTime": "2026-04-15T12:00:55.851Z"
+      },
+      {
+        "symbol": "BOOMER",
+        "pairAddress": "6BkKNx3wyniKTrXvQRvcqPkiLXro4QBxQBRsmNXaiVtg",
+        "entryTime": "2026-04-15T15:31:35.957Z"
       }
     ],
     "wins": 0,
@@ -1080,7 +1085,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:37:03.965Z",
-    "lastSeen": "2026-04-15T12:00:55.851Z",
+    "lastSeen": "2026-04-15T15:31:35.957Z",
     "confirmed": true
   },
   "BMKv1duNdphCcf6HyeEdgSzbtby42HCfEMTyZoJ4VJjE": {
