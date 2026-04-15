@@ -823,7 +823,7 @@
     "confirmed": true
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -834,6 +834,11 @@
         "symbol": "NORMIE",
         "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
         "entryTime": "2026-04-15T20:01:55.772Z"
+      },
+      {
+        "symbol": "ONEUNC",
+        "pairAddress": "HWqHWRwfsq8xSEQj9RF6YLuZUKuJ8qQkxokA6PyTJNp5",
+        "entryTime": "2026-04-15T23:33:39.559Z"
       }
     ],
     "wins": 0,
@@ -841,8 +846,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:28:06.283Z",
-    "lastSeen": "2026-04-15T20:01:55.772Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T23:33:39.559Z",
+    "confirmed": true
   },
   "Gnq3NtyyjyfZu9uFpEaVyUeLcnEbGQqMifrra1MDpJWn": {
     "appearances": 1,
@@ -22660,12 +22665,17 @@
     "confirmed": false
   },
   "ArBA13STtyQzLc4HnwuBFvjRWgS5mGeKFCBHPxKmp6zk": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "NORMIE",
         "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
         "entryTime": "2026-04-15T20:04:55.570Z"
+      },
+      {
+        "symbol": "ONEUNC",
+        "pairAddress": "HWqHWRwfsq8xSEQj9RF6YLuZUKuJ8qQkxokA6PyTJNp5",
+        "entryTime": "2026-04-15T23:33:39.559Z"
       }
     ],
     "wins": 0,
@@ -22673,7 +22683,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T20:04:55.570Z",
-    "lastSeen": "2026-04-15T20:04:55.570Z",
+    "lastSeen": "2026-04-15T23:33:39.559Z",
     "confirmed": false
   },
   "CFGu6QkwnCBkVjDUPosktxwd9auZt2Zcmu13Sriv6vT8": {
