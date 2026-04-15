@@ -25660,12 +25660,17 @@
     "confirmed": false
   },
   "8EaPHLRuxu6wUjuD5yHuXMQpCyBXbD2XzGuPyhBPq95a": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Venus",
         "pairAddress": "Km1qYYPv7kpaEKmK4DV56bgxTJMrT4YrsCSrVLeaJWS",
         "entryTime": "2026-04-15T00:51:05.851Z"
+      },
+      {
+        "symbol": "HORMUZ",
+        "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
+        "entryTime": "2026-04-15T04:23:30.313Z"
       }
     ],
     "wins": 0,
@@ -25673,7 +25678,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T00:51:05.851Z",
-    "lastSeen": "2026-04-15T00:51:05.851Z",
+    "lastSeen": "2026-04-15T04:23:30.313Z",
     "confirmed": false
   },
   "6KzFpZB7KyVa2bD6khqjpuBtTe66ocCmq1ERVPguaa41": {
