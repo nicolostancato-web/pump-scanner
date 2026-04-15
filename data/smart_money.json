@@ -18549,12 +18549,17 @@
     "confirmed": false
   },
   "BnCV7gJCFGoHCcyvsWyM64HGcp2rXQXT5CvwxEk1V5YL": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "S&P500",
         "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
         "entryTime": "2026-04-15T17:21:18.449Z"
+      },
+      {
+        "symbol": "Chad",
+        "pairAddress": "FTmQ83ai7JqPqhA7RSnd8DRK33ukHxh2hRuMnBS2tzeW",
+        "entryTime": "2026-04-15T17:41:16.186Z"
       }
     ],
     "wins": 0,
@@ -18562,7 +18567,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T17:21:18.449Z",
-    "lastSeen": "2026-04-15T17:21:18.449Z",
+    "lastSeen": "2026-04-15T17:41:16.186Z",
     "confirmed": false
   },
   "CirP41pveoqzKMvF6akxurmqVM3ARgkUM6pVBJTPPHBV": {
