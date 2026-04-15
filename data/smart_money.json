@@ -465,12 +465,17 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Conviction",
         "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
         "entryTime": "2026-04-15T08:20:15.885Z"
+      },
+      {
+        "symbol": "Azure",
+        "pairAddress": "5jNNGdHY1FfteXgGycXBCTTC6s19N8jqGtZxhadeUwqP",
+        "entryTime": "2026-04-15T12:00:01.935Z"
       }
     ],
     "wins": 0,
@@ -478,7 +483,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:20:15.885Z",
-    "lastSeen": "2026-04-15T08:20:15.885Z",
+    "lastSeen": "2026-04-15T12:00:01.935Z",
     "confirmed": false
   },
   "E8RVKMwhgvsQ5H3DuxrkE2wwamqfo7Z7Gu7KEdLUaxQ3": {
