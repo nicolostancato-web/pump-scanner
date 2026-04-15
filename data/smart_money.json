@@ -5893,7 +5893,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "Ising",
@@ -5934,6 +5934,11 @@
         "symbol": "notunc",
         "pairAddress": "F3F3RUDoGuk6pt6R7KprTeJKnwc2xKjaVcTZmF1a22To",
         "entryTime": "2026-04-14T23:30:55.850Z"
+      },
+      {
+        "symbol": "Sadie",
+        "pairAddress": "DQrGRSvc9WCbtx37LBin8bfSdZu44KLZmGFNbN1MkmrD",
+        "entryTime": "2026-04-15T00:15:04.683Z"
       }
     ],
     "wins": 0,
@@ -5941,7 +5946,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:32:20.134Z",
-    "lastSeen": "2026-04-14T23:30:55.850Z",
+    "lastSeen": "2026-04-15T00:15:04.683Z",
     "confirmed": true
   },
   "3iTAJqpeQebgxa2XVjyQoQhp8tVFXFhQFvANVxB3yo6H": {
@@ -23466,6 +23471,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T00:14:36.460Z",
     "lastSeen": "2026-04-15T00:14:36.460Z",
+    "confirmed": false
+  },
+  "7X2MfgPgYT9e98HnERJ2JQeqAmG3uFkwFrorQtu8UGjH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Sadie",
+        "pairAddress": "DQrGRSvc9WCbtx37LBin8bfSdZu44KLZmGFNbN1MkmrD",
+        "entryTime": "2026-04-15T00:15:04.683Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T00:15:04.683Z",
+    "lastSeen": "2026-04-15T00:15:04.683Z",
     "confirmed": false
   }
 }
