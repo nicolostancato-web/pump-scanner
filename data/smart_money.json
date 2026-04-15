@@ -18700,5 +18700,22 @@
     "firstSeen": "2026-04-15T17:22:44.403Z",
     "lastSeen": "2026-04-15T17:22:44.403Z",
     "confirmed": false
+  },
+  "2Rzi3AJzzU5NgZNJkeRHEVe1wpitzRnZJ91ei96eJE2W": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "S&P500",
+        "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
+        "entryTime": "2026-04-15T17:23:01.889Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T17:23:01.889Z",
+    "lastSeen": "2026-04-15T17:23:01.889Z",
+    "confirmed": false
   }
 }
