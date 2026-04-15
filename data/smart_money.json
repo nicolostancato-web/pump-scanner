@@ -6563,12 +6563,17 @@
     "confirmed": false
   },
   "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Azure",
         "pairAddress": "5jNNGdHY1FfteXgGycXBCTTC6s19N8jqGtZxhadeUwqP",
         "entryTime": "2026-04-15T11:12:01.635Z"
+      },
+      {
+        "symbol": "PEACE",
+        "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
+        "entryTime": "2026-04-15T19:46:07.246Z"
       }
     ],
     "wins": 0,
@@ -6576,7 +6581,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:12:01.635Z",
-    "lastSeen": "2026-04-15T11:12:01.635Z",
+    "lastSeen": "2026-04-15T19:46:07.246Z",
     "confirmed": false
   },
   "B9EFz7fk2PNcQZoLoEpAtwQeqAbZJgSdY6yzps9RZ34R": {
