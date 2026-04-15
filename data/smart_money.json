@@ -14729,7 +14729,7 @@
     "confirmed": false
   },
   "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "CHILLUNC",
@@ -14745,6 +14745,11 @@
         "symbol": "HORMUZ",
         "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
         "entryTime": "2026-04-15T03:56:44.630Z"
+      },
+      {
+        "symbol": "yn",
+        "pairAddress": "DisTFmuqW8E4WWpaDqfZAvUTzt9BVYmsvTHrFDaVBabX",
+        "entryTime": "2026-04-15T06:22:42.247Z"
       }
     ],
     "wins": 0,
@@ -14752,7 +14757,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T19:29:32.563Z",
-    "lastSeen": "2026-04-15T03:56:44.630Z",
+    "lastSeen": "2026-04-15T06:22:42.247Z",
     "confirmed": true
   },
   "63sRnDcHMcXoSkpCy7sn6TM3pVqNdYBiGRPqQoEaUyAM": {
@@ -37780,6 +37785,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T06:22:12.714Z",
     "lastSeen": "2026-04-15T06:22:12.714Z",
+    "confirmed": false
+  },
+  "3BaGtAJBCLxzXHNcs6kHXE93wks1fK34EqGp2ejLbk6u": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "yn",
+        "pairAddress": "DisTFmuqW8E4WWpaDqfZAvUTzt9BVYmsvTHrFDaVBabX",
+        "entryTime": "2026-04-15T06:22:42.247Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T06:22:42.247Z",
+    "lastSeen": "2026-04-15T06:22:42.247Z",
     "confirmed": false
   }
 }
