@@ -7316,12 +7316,17 @@
     "confirmed": false
   },
   "8pY1AukbuPgUE3EetyLa59rFLMimJGT94ZzbMEZcQF4w": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "uncsheikh",
         "pairAddress": "FfKZfub5KigMvoVkAhwWVL5fTbB7TnkxvTsUhbvxESh1",
         "entryTime": "2026-04-15T12:29:28.680Z"
+      },
+      {
+        "symbol": "Oto",
+        "pairAddress": "8oJfBoeELxHtwUvqTvSuQtPcQACKaNH8wbCgkoBQFBgj",
+        "entryTime": "2026-04-15T15:37:25.756Z"
       }
     ],
     "wins": 0,
@@ -7329,7 +7334,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T12:29:28.680Z",
-    "lastSeen": "2026-04-15T12:29:28.680Z",
+    "lastSeen": "2026-04-15T15:37:25.756Z",
     "confirmed": false
   },
   "F2PwqVWt5suMqgGirLfd9jrNia7khTSSpQ3n1nsEDSCg": {
@@ -14470,6 +14475,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T15:35:57.971Z",
     "lastSeen": "2026-04-15T15:35:57.971Z",
+    "confirmed": false
+  },
+  "8LQVeXRWgPQt85Hhapy6CP8jzXj3o3rwo1LLJ9jmTiD4": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Oto",
+        "pairAddress": "8oJfBoeELxHtwUvqTvSuQtPcQACKaNH8wbCgkoBQFBgj",
+        "entryTime": "2026-04-15T15:37:25.756Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T15:37:25.756Z",
+    "lastSeen": "2026-04-15T15:37:25.756Z",
     "confirmed": false
   }
 }
