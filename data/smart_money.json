@@ -19166,12 +19166,17 @@
     "confirmed": false
   },
   "8PT5d82ZsYQFZXfAgNv67iPXcSHMbWqPe69Ru53dhXkn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CRYPTOCOIN",
         "pairAddress": "6vNC23D22qu7LYYVb4iogoj1qLYKQ9cWzr9gFuDRFtbG",
         "entryTime": "2026-04-14T22:28:16.718Z"
+      },
+      {
+        "symbol": "HORMUZ",
+        "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
+        "entryTime": "2026-04-15T03:58:57.583Z"
       }
     ],
     "wins": 0,
@@ -19179,7 +19184,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T22:28:16.718Z",
-    "lastSeen": "2026-04-14T22:28:16.718Z",
+    "lastSeen": "2026-04-15T03:58:57.583Z",
     "confirmed": false
   },
   "6yDGqd9uPUnFnoWYx4nPU4B9ut8vYAe6yvyUrwQJc61E": {
@@ -33787,6 +33792,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T03:58:22.034Z",
     "lastSeen": "2026-04-15T03:58:22.034Z",
+    "confirmed": false
+  },
+  "G1rxorPCXdCmZLtNJmgKvRqYB9nn8AoKbU15bL76H3mZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HORMUZ",
+        "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
+        "entryTime": "2026-04-15T03:58:57.583Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T03:58:57.583Z",
+    "lastSeen": "2026-04-15T03:58:57.583Z",
     "confirmed": false
   }
 }
