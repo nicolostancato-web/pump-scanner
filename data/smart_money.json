@@ -32357,5 +32357,22 @@
     "firstSeen": "2026-04-15T03:22:41.104Z",
     "lastSeen": "2026-04-15T03:22:41.104Z",
     "confirmed": false
+  },
+  "7Fo8UywyvHUviBXBdocVRnVLE6fHfneyoqJJk7JEKQKs": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SNI",
+        "pairAddress": "7HzZhvrASFyLjB3G4zaVdns11jhimTSAKN6UZU2FEu24",
+        "entryTime": "2026-04-15T03:23:17.257Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T03:23:17.257Z",
+    "lastSeen": "2026-04-15T03:23:17.257Z",
+    "confirmed": false
   }
 }
