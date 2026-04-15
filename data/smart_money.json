@@ -1670,12 +1670,17 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Namduong",
         "pairAddress": "BvAEDEiDSFJdiZBQVzWKkqyiV3DtwttyBQihqjyYatWX",
         "entryTime": "2026-04-15T08:47:48.263Z"
+      },
+      {
+        "symbol": "NPC",
+        "pairAddress": "2GF2dT8x1H5oL74SUYkf4y7k93LxpqtAupbrWzVZ7mvu",
+        "entryTime": "2026-04-15T10:45:50.991Z"
       }
     ],
     "wins": 0,
@@ -1683,7 +1688,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:47:48.263Z",
-    "lastSeen": "2026-04-15T08:47:48.263Z",
+    "lastSeen": "2026-04-15T10:45:50.991Z",
     "confirmed": false
   },
   "9iTMM6ga58JsLu5bgfnYjzYMxPPMzB48rQeCt2vT2mr9": {
