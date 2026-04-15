@@ -17305,12 +17305,17 @@
     "confirmed": false
   },
   "GoGwzcrERJPqEu1bQ1EL3Xfwr4ZqLBPvDgKZhnC4goq6": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "glep",
         "pairAddress": "FxhurU9a8UGQFNeyc6P2jcj9YkxbB1y22zZF9oEpoNui",
         "entryTime": "2026-04-14T21:20:50.940Z"
+      },
+      {
+        "symbol": "SPRINGULAR",
+        "pairAddress": "8mesvHDht4jRkddTFC1ecHudGmhvmYZW4k3ysQ7LXwd6",
+        "entryTime": "2026-04-15T01:58:46.820Z"
       }
     ],
     "wins": 0,
@@ -17318,7 +17323,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T21:20:50.940Z",
-    "lastSeen": "2026-04-14T21:20:50.940Z",
+    "lastSeen": "2026-04-15T01:58:46.820Z",
     "confirmed": false
   },
   "7sfJynGJvHFNGHUuEhwLtE47YVu6EYLHoqrYCWeUQedX": {
@@ -28028,6 +28033,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T01:58:15.280Z",
     "lastSeen": "2026-04-15T01:58:15.280Z",
+    "confirmed": false
+  },
+  "Dt1Yt2fNVMnYyeD1nhdPu7dAxdwkiXLt9bjrZ5RgToRP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SPRINGULAR",
+        "pairAddress": "8mesvHDht4jRkddTFC1ecHudGmhvmYZW4k3ysQ7LXwd6",
+        "entryTime": "2026-04-15T01:58:46.820Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T01:58:46.820Z",
+    "lastSeen": "2026-04-15T01:58:46.820Z",
     "confirmed": false
   }
 }
