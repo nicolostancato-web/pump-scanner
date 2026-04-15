@@ -12061,5 +12061,22 @@
     "firstSeen": "2026-04-15T14:44:59.433Z",
     "lastSeen": "2026-04-15T14:44:59.433Z",
     "confirmed": false
+  },
+  "9rpZPtXZmhWfsA5fF2WEgp4vAVW1mv54Xo9SuYjfUJ14": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BULLCOIN",
+        "pairAddress": "4JZp6Uu7t4CrFEtzv7hz2TxHD4yv8ybAvs9xcqxAgSR2",
+        "entryTime": "2026-04-15T14:45:32.178Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T14:45:32.178Z",
+    "lastSeen": "2026-04-15T14:45:32.178Z",
+    "confirmed": false
   }
 }
