@@ -823,12 +823,17 @@
     "confirmed": false
   },
   "8wY9HAMpKQrXuPx99rrB8oGdUSX1WyZtP5mH59CVsdVC": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Dumpling",
         "pairAddress": "6Xg9NBn6y8RRfWN48149bj6mrR4SpSW6WSfCVARgdyx7",
         "entryTime": "2026-04-15T08:32:49.145Z"
+      },
+      {
+        "symbol": "OG",
+        "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
+        "entryTime": "2026-04-15T13:04:17.432Z"
       }
     ],
     "wins": 0,
@@ -836,7 +841,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:32:49.145Z",
-    "lastSeen": "2026-04-15T08:32:49.145Z",
+    "lastSeen": "2026-04-15T13:04:17.432Z",
     "confirmed": false
   },
   "CVJNyMugMq9a4PwdiSuQjnN3Ay2PZoVWtB2BF4sg1jbJ": {
