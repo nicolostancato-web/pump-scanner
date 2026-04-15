@@ -9328,12 +9328,17 @@
     "confirmed": false
   },
   "7cSvt3V7Kb83WnWhfHoXxKyUaJBbD9wM4Y1XxojMPQRX": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "OG",
         "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
         "entryTime": "2026-04-15T13:16:46.808Z"
+      },
+      {
+        "symbol": "AI",
+        "pairAddress": "C8AbXmp3rFXTnDpBSgH82CBFPvMvw3jNCF5fEeFcKqkA",
+        "entryTime": "2026-04-15T16:24:48.464Z"
       }
     ],
     "wins": 0,
@@ -9341,7 +9346,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T13:16:46.808Z",
-    "lastSeen": "2026-04-15T13:16:46.808Z",
+    "lastSeen": "2026-04-15T16:24:48.464Z",
     "confirmed": false
   },
   "DSx8TEEk2MNBzg7atnK7UBRNRJKasFzSPwBBE6UVQDiD": {
