@@ -32342,12 +32342,17 @@
     "confirmed": false
   },
   "GRvqrgPN6ojznx9z2MWCpkHkPrfQKnS3MKL4cUysjJh6": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SNI",
         "pairAddress": "7HzZhvrASFyLjB3G4zaVdns11jhimTSAKN6UZU2FEu24",
         "entryTime": "2026-04-15T03:21:22.693Z"
+      },
+      {
+        "symbol": "Uptrend",
+        "pairAddress": "2sRVY8Ch16H3dkSzYSkJoYKSAi6miGnMZSTvDmUANqV5",
+        "entryTime": "2026-04-15T04:36:37.002Z"
       }
     ],
     "wins": 0,
@@ -32355,7 +32360,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T03:21:22.693Z",
-    "lastSeen": "2026-04-15T03:21:22.693Z",
+    "lastSeen": "2026-04-15T04:36:37.002Z",
     "confirmed": false
   },
   "JDi872jfWBuXXinF2WYAYEKismmTFFc8yCWJEJYDjExJ": {
@@ -35263,6 +35268,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T04:36:02.891Z",
     "lastSeen": "2026-04-15T04:36:02.891Z",
+    "confirmed": false
+  },
+  "CEoYRP7UEXGDYEFcE1wiosdZJBxKzGwS1FySqNZAybot": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Uptrend",
+        "pairAddress": "2sRVY8Ch16H3dkSzYSkJoYKSAi6miGnMZSTvDmUANqV5",
+        "entryTime": "2026-04-15T04:36:37.002Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T04:36:37.002Z",
+    "lastSeen": "2026-04-15T04:36:37.002Z",
     "confirmed": false
   }
 }
