@@ -8846,12 +8846,17 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "INU",
         "pairAddress": "FAtHYvFt7d3r3TfdAJhrJ7He5beSboug1FG5t1TWF3YR",
         "entryTime": "2026-04-14T17:00:35.986Z"
+      },
+      {
+        "symbol": "Conviction",
+        "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
+        "entryTime": "2026-04-15T07:52:53.766Z"
       }
     ],
     "wins": 0,
@@ -8859,7 +8864,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T17:00:35.986Z",
-    "lastSeen": "2026-04-14T17:00:35.986Z",
+    "lastSeen": "2026-04-15T07:52:53.766Z",
     "confirmed": false
   },
   "9czA1YHyxBph599EPSx1egQCnun1ZSkjtxuno2HC5kWx": {
@@ -38770,6 +38775,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T07:52:20.969Z",
     "lastSeen": "2026-04-15T07:52:20.969Z",
+    "confirmed": false
+  },
+  "8xAoXBHXMK7Y2y2LXLyGYvs3h8jDepTHZCWddqBGcBQG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Conviction",
+        "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
+        "entryTime": "2026-04-15T07:52:53.766Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T07:52:53.766Z",
+    "lastSeen": "2026-04-15T07:52:53.766Z",
     "confirmed": false
   }
 }
