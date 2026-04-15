@@ -5793,7 +5793,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "NPC",
@@ -5834,6 +5834,11 @@
         "symbol": "Chad",
         "pairAddress": "FTmQ83ai7JqPqhA7RSnd8DRK33ukHxh2hRuMnBS2tzeW",
         "entryTime": "2026-04-15T17:42:27.234Z"
+      },
+      {
+        "symbol": "PEACE",
+        "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
+        "entryTime": "2026-04-15T18:37:18.304Z"
       }
     ],
     "wins": 0,
@@ -5841,7 +5846,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:35:57.332Z",
-    "lastSeen": "2026-04-15T17:42:27.234Z",
+    "lastSeen": "2026-04-15T18:37:18.304Z",
     "confirmed": true
   },
   "Edi7nMMycY3Asn8dPj9vKkpcqAh4kTxvWX6T7vYccprc": {
@@ -20328,6 +20333,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T18:36:28.691Z",
     "lastSeen": "2026-04-15T18:36:28.691Z",
+    "confirmed": false
+  },
+  "B9q5jrSBo85s3aRrFk78ZLWs9q8ajRLcvVC7VUmZ3SMi": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PEACE",
+        "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
+        "entryTime": "2026-04-15T18:37:18.304Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T18:37:18.304Z",
+    "lastSeen": "2026-04-15T18:37:18.304Z",
     "confirmed": false
   }
 }
