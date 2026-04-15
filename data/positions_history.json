@@ -1223,7 +1223,61 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8mesvHDht4jRkddTFC1ecHudGmhvmYZW4k3ysQ7LXwd6",
+      "mint": "AE9rJurtxQ7WuRMziWf41udzG53JQxTPXUqaUg8BRAM",
+      "name": "Springularity",
+      "symbol": "SPRINGULAR",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001131,
+      "entryMcap": 113157,
+      "entryTime": 1776217301461,
+      "score": 65,
+      "ageAtEntry": 59,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8mesvhdht4jrkddtfc1echudgmhvmyzw4k3ysq7lxwd6",
+      "peakPrice": 0.0001165,
+      "peakMultiplier": 1.0300618921308577,
+      "peakMcap": 116530,
+      "peakTime": 1776217660439,
+      "lastPrice": 0.00007571,
+      "lowestPrice": 0.00007571,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00007571,
+      "closeMultiplier": 0.6694076038903626,
+      "closedAt": "2026-04-15T01:57:40.550Z",
+      "durationMs": 959089,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00007571,
+        "closeMultiplier": 0.6694076038903626,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-15T01:57:40.550Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-14T19:44:19.290Z"
+  "lastSaved": "2026-04-15T01:57:41.809Z"
 }
