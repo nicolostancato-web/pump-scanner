@@ -1805,7 +1805,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -1831,6 +1831,11 @@
         "symbol": "nephew",
         "pairAddress": "CdPQA5srD6mGnrt3jzW1LUMb5ibqWDyiJbetoenbQHPF",
         "entryTime": "2026-04-15T16:34:37.914Z"
+      },
+      {
+        "symbol": "STUBBY",
+        "pairAddress": "3Nddxo7TPheV3uJVbiRJU28yzXuLh3ohmXn4zmt9bTtS",
+        "entryTime": "2026-04-15T18:38:59.260Z"
       }
     ],
     "wins": 0,
@@ -1838,7 +1843,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:47:48.263Z",
-    "lastSeen": "2026-04-15T16:34:37.914Z",
+    "lastSeen": "2026-04-15T18:38:59.260Z",
     "confirmed": true
   },
   "9iTMM6ga58JsLu5bgfnYjzYMxPPMzB48rQeCt2vT2mr9": {
@@ -20384,6 +20389,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T18:38:28.220Z",
     "lastSeen": "2026-04-15T18:38:28.220Z",
+    "confirmed": false
+  },
+  "ENdaSxos7ZdkKBNdFcpyVjjRHEqwuyj5p7uuj5QhrZvN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "STUBBY",
+        "pairAddress": "3Nddxo7TPheV3uJVbiRJU28yzXuLh3ohmXn4zmt9bTtS",
+        "entryTime": "2026-04-15T18:38:59.260Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T18:38:59.260Z",
+    "lastSeen": "2026-04-15T18:38:59.260Z",
     "confirmed": false
   }
 }
