@@ -33234,5 +33234,22 @@
     "firstSeen": "2026-04-15T03:42:55.385Z",
     "lastSeen": "2026-04-15T03:42:55.385Z",
     "confirmed": false
+  },
+  "GNY24tVPsfFHmr1rLN8BV6x2ruae6KBhqZJvfN5bUBZ1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SNI",
+        "pairAddress": "7HzZhvrASFyLjB3G4zaVdns11jhimTSAKN6UZU2FEu24",
+        "entryTime": "2026-04-15T03:43:30.299Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T03:43:30.299Z",
+    "lastSeen": "2026-04-15T03:43:30.299Z",
+    "confirmed": false
   }
 }
