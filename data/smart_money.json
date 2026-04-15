@@ -119,12 +119,17 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Conviction",
         "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
         "entryTime": "2026-04-15T08:15:30.724Z"
+      },
+      {
+        "symbol": "Namduong",
+        "pairAddress": "BvAEDEiDSFJdiZBQVzWKkqyiV3DtwttyBQihqjyYatWX",
+        "entryTime": "2026-04-15T08:37:03.965Z"
       }
     ],
     "wins": 0,
@@ -132,7 +137,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:15:30.724Z",
-    "lastSeen": "2026-04-15T08:15:30.724Z",
+    "lastSeen": "2026-04-15T08:37:03.965Z",
     "confirmed": false
   },
   "3SeeUFYiKQt1MbPJs4vv28dHBTJUD2sJBmXemVQAXsRD": {
@@ -959,6 +964,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:36:34.954Z",
     "lastSeen": "2026-04-15T08:36:34.954Z",
+    "confirmed": false
+  },
+  "9me4CdSHkkpwEv3eM3UcAyaEABsh2jgWprqZMVyKQFiv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Namduong",
+        "pairAddress": "BvAEDEiDSFJdiZBQVzWKkqyiV3DtwttyBQihqjyYatWX",
+        "entryTime": "2026-04-15T08:37:03.965Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T08:37:03.965Z",
+    "lastSeen": "2026-04-15T08:37:03.965Z",
     "confirmed": false
   }
 }
