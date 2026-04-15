@@ -397,7 +397,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -433,6 +433,11 @@
         "symbol": "S&P500",
         "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
         "entryTime": "2026-04-15T17:13:00.921Z"
+      },
+      {
+        "symbol": "Chad",
+        "pairAddress": "FTmQ83ai7JqPqhA7RSnd8DRK33ukHxh2hRuMnBS2tzeW",
+        "entryTime": "2026-04-15T17:48:31.260Z"
       }
     ],
     "wins": 0,
@@ -440,7 +445,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:19:21.580Z",
-    "lastSeen": "2026-04-15T17:13:00.921Z",
+    "lastSeen": "2026-04-15T17:48:31.260Z",
     "confirmed": true
   },
   "8L2y55D11k63CAftvW7uMM2mBhtMxLoLnivG9uY2bt8j": {
@@ -18913,6 +18918,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T17:47:55.577Z",
     "lastSeen": "2026-04-15T17:47:55.577Z",
+    "confirmed": false
+  },
+  "BTLtTyCbLq4GMn9wiV92k4NkHZxxe55jZ7xfAMoCjmej": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Chad",
+        "pairAddress": "FTmQ83ai7JqPqhA7RSnd8DRK33ukHxh2hRuMnBS2tzeW",
+        "entryTime": "2026-04-15T17:48:31.260Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T17:48:31.260Z",
+    "lastSeen": "2026-04-15T17:48:31.260Z",
     "confirmed": false
   }
 }
