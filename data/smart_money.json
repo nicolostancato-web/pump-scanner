@@ -508,7 +508,7 @@
     "confirmed": false
   },
   "7XEo2KxFzxrKQnYibhx6PsPgvKewJHsBsSATEaGbfY4P": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -519,6 +519,11 @@
         "symbol": "Dumpling",
         "pairAddress": "6Xg9NBn6y8RRfWN48149bj6mrR4SpSW6WSfCVARgdyx7",
         "entryTime": "2026-04-15T08:34:27.831Z"
+      },
+      {
+        "symbol": "PEACE",
+        "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
+        "entryTime": "2026-04-15T19:20:32.478Z"
       }
     ],
     "wins": 0,
@@ -526,8 +531,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:20:15.885Z",
-    "lastSeen": "2026-04-15T08:34:27.831Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T19:20:32.478Z",
+    "confirmed": true
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
     "appearances": 4,
