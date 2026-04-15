@@ -6545,7 +6545,7 @@
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Azure",
@@ -6556,6 +6556,11 @@
         "symbol": "Fortnite",
         "pairAddress": "GaM7jQoBejvXq7B6T6nuxwGZpsXAPi1wrjefMUJVbgeL",
         "entryTime": "2026-04-15T22:11:56.151Z"
+      },
+      {
+        "symbol": "ONEUNC",
+        "pairAddress": "HWqHWRwfsq8xSEQj9RF6YLuZUKuJ8qQkxokA6PyTJNp5",
+        "entryTime": "2026-04-15T23:34:42.778Z"
       }
     ],
     "wins": 0,
@@ -6563,8 +6568,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:04:55.655Z",
-    "lastSeen": "2026-04-15T22:11:56.151Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T23:34:42.778Z",
+    "confirmed": true
   },
   "6G9oPtxrSvZTYymrVydgKTiJJ3Bnf3k5PDntuF31qDTH": {
     "appearances": 1,
