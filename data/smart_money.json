@@ -6452,7 +6452,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "niggunc",
@@ -6468,6 +6468,11 @@
         "symbol": "Oto",
         "pairAddress": "8oJfBoeELxHtwUvqTvSuQtPcQACKaNH8wbCgkoBQFBgj",
         "entryTime": "2026-04-15T15:36:41.610Z"
+      },
+      {
+        "symbol": "ONEUNC",
+        "pairAddress": "HWqHWRwfsq8xSEQj9RF6YLuZUKuJ8qQkxokA6PyTJNp5",
+        "entryTime": "2026-04-15T23:18:53.462Z"
       }
     ],
     "wins": 0,
@@ -6475,7 +6480,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:56:28.526Z",
-    "lastSeen": "2026-04-15T15:36:41.610Z",
+    "lastSeen": "2026-04-15T23:18:53.462Z",
     "confirmed": true
   },
   "CWyozqSyM4p9qcSKNkBc2w5365NjbyPGffWYhWtNRTg9": {
