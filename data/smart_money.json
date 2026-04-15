@@ -5656,7 +5656,7 @@
     "confirmed": false
   },
   "7XPu5j9LPRi9CythzNeC8EDbSHounnFY6tD7duJrqbKz": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "NPC",
@@ -5667,6 +5667,11 @@
         "symbol": "BOOMER",
         "pairAddress": "6BkKNx3wyniKTrXvQRvcqPkiLXro4QBxQBRsmNXaiVtg",
         "entryTime": "2026-04-15T15:21:59.194Z"
+      },
+      {
+        "symbol": "S&P500",
+        "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
+        "entryTime": "2026-04-15T18:02:20.908Z"
       }
     ],
     "wins": 0,
@@ -5674,8 +5679,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:33:56.195Z",
-    "lastSeen": "2026-04-15T15:21:59.194Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T18:02:20.908Z",
+    "confirmed": true
   },
   "4WrbmwwqgnsCJ96gyTdvWUVzUykQnJECZFbx6VYoLhEg": {
     "appearances": 1,
@@ -19353,6 +19358,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T18:01:39.731Z",
     "lastSeen": "2026-04-15T18:01:39.731Z",
+    "confirmed": false
+  },
+  "EQontm2fWxmU8AvV1Mq8fXPgGtpTnEyfJHLsufE9DNWe": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "S&P500",
+        "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
+        "entryTime": "2026-04-15T18:02:20.908Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T18:02:20.908Z",
+    "lastSeen": "2026-04-15T18:02:20.908Z",
     "confirmed": false
   }
 }
