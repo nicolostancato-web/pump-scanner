@@ -1137,7 +1137,7 @@
     "confirmed": false
   },
   "9me4CdSHkkpwEv3eM3UcAyaEABsh2jgWprqZMVyKQFiv": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -1173,6 +1173,11 @@
         "symbol": "S&P500",
         "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
         "entryTime": "2026-04-15T17:16:30.599Z"
+      },
+      {
+        "symbol": "chud",
+        "pairAddress": "AKudszKEUoqbB8v8Lo7fQcyeU6WktitL5N6BF5mGKzU",
+        "entryTime": "2026-04-15T21:37:52.816Z"
       }
     ],
     "wins": 0,
@@ -1180,7 +1185,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:37:03.965Z",
-    "lastSeen": "2026-04-15T17:16:30.599Z",
+    "lastSeen": "2026-04-15T21:37:52.816Z",
     "confirmed": true
   },
   "BMKv1duNdphCcf6HyeEdgSzbtby42HCfEMTyZoJ4VJjE": {
@@ -22869,6 +22874,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T20:49:08.378Z",
     "lastSeen": "2026-04-15T20:49:08.378Z",
+    "confirmed": false
+  },
+  "GR6WgpuwT7qzLA32xqPnGwitcFvKsEoCNVq5s2uiZYBC": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "chud",
+        "pairAddress": "AKudszKEUoqbB8v8Lo7fQcyeU6WktitL5N6BF5mGKzU",
+        "entryTime": "2026-04-15T21:37:52.816Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T21:37:52.816Z",
+    "lastSeen": "2026-04-15T21:37:52.816Z",
     "confirmed": false
   }
 }
