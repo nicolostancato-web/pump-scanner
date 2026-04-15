@@ -6777,12 +6777,17 @@
     "confirmed": false
   },
   "Awch9PiL7nwQqKNjXHzJd1KvTkFtauVqQDSjdUTqe28n": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Azure",
         "pairAddress": "5jNNGdHY1FfteXgGycXBCTTC6s19N8jqGtZxhadeUwqP",
         "entryTime": "2026-04-15T11:48:40.144Z"
+      },
+      {
+        "symbol": "NORMIE",
+        "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
+        "entryTime": "2026-04-15T20:01:22.638Z"
       }
     ],
     "wins": 0,
@@ -6790,7 +6795,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:48:40.144Z",
-    "lastSeen": "2026-04-15T11:48:40.144Z",
+    "lastSeen": "2026-04-15T20:01:22.638Z",
     "confirmed": false
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
@@ -22462,6 +22467,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T19:58:50.232Z",
     "lastSeen": "2026-04-15T19:58:50.232Z",
+    "confirmed": false
+  },
+  "6hEnYQrLDVg7h9mYd6NVBwDh3qd7FuZbMaKBntwkx4Sd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "NORMIE",
+        "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
+        "entryTime": "2026-04-15T20:01:22.638Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T20:01:22.638Z",
+    "lastSeen": "2026-04-15T20:01:22.638Z",
     "confirmed": false
   }
 }
