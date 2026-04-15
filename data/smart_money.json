@@ -9178,12 +9178,17 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "INU",
         "pairAddress": "FAtHYvFt7d3r3TfdAJhrJ7He5beSboug1FG5t1TWF3YR",
         "entryTime": "2026-04-14T17:16:59.833Z"
+      },
+      {
+        "symbol": "Conviction",
+        "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
+        "entryTime": "2026-04-15T08:12:29.443Z"
       }
     ],
     "wins": 0,
@@ -9191,7 +9196,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T17:16:59.833Z",
-    "lastSeen": "2026-04-14T17:16:59.833Z",
+    "lastSeen": "2026-04-15T08:12:29.443Z",
     "confirmed": false
   },
   "9c7A4dZ3YUavoKCJkNZFSGe3pZRbVNEof61JWe6SQjdN": {
