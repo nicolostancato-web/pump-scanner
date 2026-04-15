@@ -490,7 +490,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -506,6 +506,11 @@
         "symbol": "uncsheikh",
         "pairAddress": "FfKZfub5KigMvoVkAhwWVL5fTbB7TnkxvTsUhbvxESh1",
         "entryTime": "2026-04-15T12:23:46.910Z"
+      },
+      {
+        "symbol": "Oto",
+        "pairAddress": "8oJfBoeELxHtwUvqTvSuQtPcQACKaNH8wbCgkoBQFBgj",
+        "entryTime": "2026-04-15T15:26:09.534Z"
       }
     ],
     "wins": 0,
@@ -513,7 +518,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:20:15.885Z",
-    "lastSeen": "2026-04-15T12:23:46.910Z",
+    "lastSeen": "2026-04-15T15:26:09.534Z",
     "confirmed": true
   },
   "E8RVKMwhgvsQ5H3DuxrkE2wwamqfo7Z7Gu7KEdLUaxQ3": {
