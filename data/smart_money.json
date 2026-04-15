@@ -19145,5 +19145,39 @@
     "firstSeen": "2026-04-15T17:55:02.284Z",
     "lastSeen": "2026-04-15T17:55:02.284Z",
     "confirmed": false
+  },
+  "DBXKqYQGKdR8gj8sLhK6Qo7tj5kxwhgN3GvbZm439FDn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "S&P500",
+        "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
+        "entryTime": "2026-04-15T17:57:37.759Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T17:57:37.759Z",
+    "lastSeen": "2026-04-15T17:57:37.759Z",
+    "confirmed": false
+  },
+  "2vjYCADseHQUSoDgT7jBN8uoa7DQTtPqkn4rHCuUQzRa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "S&P500",
+        "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
+        "entryTime": "2026-04-15T17:57:37.759Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T17:57:37.759Z",
+    "lastSeen": "2026-04-15T17:57:37.759Z",
+    "confirmed": false
   }
 }
