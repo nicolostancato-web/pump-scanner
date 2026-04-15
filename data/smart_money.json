@@ -5592,7 +5592,7 @@
     "confirmed": false
   },
   "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "NPC",
@@ -5603,6 +5603,11 @@
         "symbol": "uncsheikh",
         "pairAddress": "FfKZfub5KigMvoVkAhwWVL5fTbB7TnkxvTsUhbvxESh1",
         "entryTime": "2026-04-15T12:11:25.274Z"
+      },
+      {
+        "symbol": "PEACE",
+        "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
+        "entryTime": "2026-04-15T19:42:53.701Z"
       }
     ],
     "wins": 0,
@@ -5610,8 +5615,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:29:31.817Z",
-    "lastSeen": "2026-04-15T12:11:25.274Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T19:42:53.701Z",
+    "confirmed": true
   },
   "7AT8Xeo1cG12etFJgM1xsKSjxbHJHCNdgkgugn9zwiGt": {
     "appearances": 1,
