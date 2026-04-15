@@ -931,12 +931,17 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "unctire",
         "pairAddress": "A8XFKjkTMCJ7Xx1Vk2yZnWKEQ5embmMKVBL2Bz6CyztD",
         "entryTime": "2026-04-14T13:13:15.350Z"
+      },
+      {
+        "symbol": "CRIMEFURIE",
+        "pairAddress": "H5TGH9JeExDL9ZSZZr6ngeiiLvwNj6cyaELemSy4uvao",
+        "entryTime": "2026-04-15T07:10:36.391Z"
       }
     ],
     "wins": 0,
@@ -944,7 +949,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T13:13:15.350Z",
-    "lastSeen": "2026-04-14T13:13:15.350Z",
+    "lastSeen": "2026-04-15T07:10:36.391Z",
     "confirmed": false
   },
   "EczNt1SmehGPyqjdguk47J3Bv7Cjct7edWjXf3961kno": {
@@ -38276,6 +38281,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T07:10:05.651Z",
     "lastSeen": "2026-04-15T07:10:05.651Z",
+    "confirmed": false
+  },
+  "3qG9H9TkaUxq4cx4auY7xdGJNAvKjHFW75EaUPjCRWV7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CRIMEFURIE",
+        "pairAddress": "H5TGH9JeExDL9ZSZZr6ngeiiLvwNj6cyaELemSy4uvao",
+        "entryTime": "2026-04-15T07:10:36.391Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T07:10:36.391Z",
+    "lastSeen": "2026-04-15T07:10:36.391Z",
     "confirmed": false
   }
 }
