@@ -1087,7 +1087,7 @@
     "confirmed": false
   },
   "9me4CdSHkkpwEv3eM3UcAyaEABsh2jgWprqZMVyKQFiv": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -1118,6 +1118,11 @@
         "symbol": "HO",
         "pairAddress": "EfcuSJkNWoDVfYBNyR2822nfizJpnzMJAMFoJkhJUaVq",
         "entryTime": "2026-04-15T16:56:46.398Z"
+      },
+      {
+        "symbol": "S&P500",
+        "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
+        "entryTime": "2026-04-15T17:16:30.599Z"
       }
     ],
     "wins": 0,
@@ -1125,7 +1130,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:37:03.965Z",
-    "lastSeen": "2026-04-15T16:56:46.398Z",
+    "lastSeen": "2026-04-15T17:16:30.599Z",
     "confirmed": true
   },
   "BMKv1duNdphCcf6HyeEdgSzbtby42HCfEMTyZoJ4VJjE": {
