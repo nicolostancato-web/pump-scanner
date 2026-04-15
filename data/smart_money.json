@@ -28118,7 +28118,7 @@
     "confirmed": false
   },
   "8L2y55D11k63CAftvW7uMM2mBhtMxLoLnivG9uY2bt8j": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Venus",
@@ -28129,6 +28129,11 @@
         "symbol": "HORMUZ",
         "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
         "entryTime": "2026-04-15T04:30:10.865Z"
+      },
+      {
+        "symbol": "Conviction",
+        "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
+        "entryTime": "2026-04-15T08:06:03.550Z"
       }
     ],
     "wins": 0,
@@ -28136,8 +28141,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T01:34:14.097Z",
-    "lastSeen": "2026-04-15T04:30:10.865Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T08:06:03.550Z",
+    "confirmed": true
   },
   "8phmJpnrV7CvkpfX8HC9nW5qyxKp8Gyddw6RNVk4XtYd": {
     "appearances": 1,
@@ -39300,6 +39305,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:05:30.915Z",
     "lastSeen": "2026-04-15T08:05:30.915Z",
+    "confirmed": false
+  },
+  "AECEbNJ3gQZseMnnwmg3RjPVrNSwdhTUTGjbL5TKQC6M": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Conviction",
+        "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
+        "entryTime": "2026-04-15T08:06:03.550Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T08:06:03.550Z",
+    "lastSeen": "2026-04-15T08:06:03.550Z",
     "confirmed": false
   }
 }
