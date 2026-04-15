@@ -5628,7 +5628,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "NPC",
@@ -5639,6 +5639,11 @@
         "symbol": "uncsheikh",
         "pairAddress": "FfKZfub5KigMvoVkAhwWVL5fTbB7TnkxvTsUhbvxESh1",
         "entryTime": "2026-04-15T12:10:03.464Z"
+      },
+      {
+        "symbol": "OG",
+        "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
+        "entryTime": "2026-04-15T12:57:22.383Z"
       }
     ],
     "wins": 0,
@@ -5646,8 +5651,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:35:57.332Z",
-    "lastSeen": "2026-04-15T12:10:03.464Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T12:57:22.383Z",
+    "confirmed": true
   },
   "Edi7nMMycY3Asn8dPj9vKkpcqAh4kTxvWX6T7vYccprc": {
     "appearances": 1,
@@ -8360,6 +8365,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T12:56:47.323Z",
     "lastSeen": "2026-04-15T12:56:47.323Z",
+    "confirmed": false
+  },
+  "4GNr7EWDWFGgw1pUTCjQ5zHp3bDtLpwhisFEAzhqb2dH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "OG",
+        "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
+        "entryTime": "2026-04-15T12:57:22.383Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T12:57:22.383Z",
+    "lastSeen": "2026-04-15T12:57:22.383Z",
+    "confirmed": false
+  },
+  "GgUVz3kTCq4zB7Fdm8mrBC5JkN1V17ZVucX5RBx6Q1yZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "OG",
+        "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
+        "entryTime": "2026-04-15T12:57:22.383Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T12:57:22.383Z",
+    "lastSeen": "2026-04-15T12:57:22.383Z",
     "confirmed": false
   }
 }
