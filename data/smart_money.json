@@ -6376,12 +6376,17 @@
     "confirmed": false
   },
   "Bgokg3jutarxEMWQVospwUucSQfpG6Jw27jRbMxcvU2q": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Azure",
         "pairAddress": "5jNNGdHY1FfteXgGycXBCTTC6s19N8jqGtZxhadeUwqP",
         "entryTime": "2026-04-15T11:16:16.887Z"
+      },
+      {
+        "symbol": "uncsheikh",
+        "pairAddress": "FfKZfub5KigMvoVkAhwWVL5fTbB7TnkxvTsUhbvxESh1",
+        "entryTime": "2026-04-15T12:37:11.594Z"
       }
     ],
     "wins": 0,
@@ -6389,7 +6394,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:16:16.887Z",
-    "lastSeen": "2026-04-15T11:16:16.887Z",
+    "lastSeen": "2026-04-15T12:37:11.594Z",
     "confirmed": false
   },
   "HbENDjynrJJV73nWamR9bfMzgmG4K9UBZzTCeEkja3xA": {
