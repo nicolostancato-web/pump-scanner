@@ -22995,12 +22995,17 @@
     "confirmed": false
   },
   "49AyuVKRvCmgXpxAb1raXYa5MhMHDyMRnTLZrpkBaUvD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Sadie",
         "pairAddress": "DQrGRSvc9WCbtx37LBin8bfSdZu44KLZmGFNbN1MkmrD",
         "entryTime": "2026-04-15T00:01:10.373Z"
+      },
+      {
+        "symbol": "HORMUZ",
+        "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
+        "entryTime": "2026-04-15T04:18:23.843Z"
       }
     ],
     "wins": 0,
@@ -23008,7 +23013,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T00:01:10.373Z",
-    "lastSeen": "2026-04-15T00:01:10.373Z",
+    "lastSeen": "2026-04-15T04:18:23.843Z",
     "confirmed": false
   },
   "EK85P3ajFqXdizYHRYfWQk8Gw1bs3dDEJg5CCUiLrk8o": {
@@ -34570,6 +34575,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T04:17:42.398Z",
     "lastSeen": "2026-04-15T04:17:42.398Z",
+    "confirmed": false
+  },
+  "7Ed4z6fBzd7P1WXKs6WdxkLKujdfFPf41vKjEBoey5Ef": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HORMUZ",
+        "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
+        "entryTime": "2026-04-15T04:18:23.843Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T04:18:23.843Z",
+    "lastSeen": "2026-04-15T04:18:23.843Z",
     "confirmed": false
   }
 }
