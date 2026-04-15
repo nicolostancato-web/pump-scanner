@@ -424,7 +424,7 @@
     "confirmed": true
   },
   "8L2y55D11k63CAftvW7uMM2mBhtMxLoLnivG9uY2bt8j": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -440,6 +440,11 @@
         "symbol": "BULLCOIN",
         "pairAddress": "4JZp6Uu7t4CrFEtzv7hz2TxHD4yv8ybAvs9xcqxAgSR2",
         "entryTime": "2026-04-15T14:38:24.901Z"
+      },
+      {
+        "symbol": "Oto",
+        "pairAddress": "8oJfBoeELxHtwUvqTvSuQtPcQACKaNH8wbCgkoBQFBgj",
+        "entryTime": "2026-04-15T15:36:41.610Z"
       }
     ],
     "wins": 0,
@@ -447,7 +452,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:19:21.580Z",
-    "lastSeen": "2026-04-15T14:38:24.901Z",
+    "lastSeen": "2026-04-15T15:36:41.610Z",
     "confirmed": true
   },
   "Bu2SDdZAuF7ugcj3mxeVWnSPGQMGQiqNa3LiHSBbe6bG": {
@@ -6232,7 +6237,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "niggunc",
@@ -6243,6 +6248,11 @@
         "symbol": "BULLCOIN",
         "pairAddress": "4JZp6Uu7t4CrFEtzv7hz2TxHD4yv8ybAvs9xcqxAgSR2",
         "entryTime": "2026-04-15T14:46:25.056Z"
+      },
+      {
+        "symbol": "Oto",
+        "pairAddress": "8oJfBoeELxHtwUvqTvSuQtPcQACKaNH8wbCgkoBQFBgj",
+        "entryTime": "2026-04-15T15:36:41.610Z"
       }
     ],
     "wins": 0,
@@ -6250,8 +6260,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:56:28.526Z",
-    "lastSeen": "2026-04-15T14:46:25.056Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T15:36:41.610Z",
+    "confirmed": true
   },
   "CWyozqSyM4p9qcSKNkBc2w5365NjbyPGffWYhWtNRTg9": {
     "appearances": 1,
