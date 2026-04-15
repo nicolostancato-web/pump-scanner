@@ -18666,12 +18666,17 @@
     "confirmed": false
   },
   "GEBsDVsiynTD7zW5cNr9Ed71HYthm4Xef3Jmr9JTZJyg": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "S&P500",
         "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
         "entryTime": "2026-04-15T17:22:26.026Z"
+      },
+      {
+        "symbol": "HOLD",
+        "pairAddress": "AVRGHfwfFTS81tQvp2FiP2BQNbj8B4eaNu7QKUDGXa9w",
+        "entryTime": "2026-04-15T17:53:52.360Z"
       }
     ],
     "wins": 0,
@@ -18679,7 +18684,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T17:22:26.026Z",
-    "lastSeen": "2026-04-15T17:22:26.026Z",
+    "lastSeen": "2026-04-15T17:53:52.360Z",
     "confirmed": false
   },
   "ECXNDfHwo6dW3JR69AfeDP55J19RbRcHmGLfVjXMcPEA": {
@@ -19071,6 +19076,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T17:53:17.966Z",
     "lastSeen": "2026-04-15T17:53:17.966Z",
+    "confirmed": false
+  },
+  "6s4hBLFGGYfm5eCgCMQsTwQt9L2EU5Aw3ErCvUBYs16Y": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HOLD",
+        "pairAddress": "AVRGHfwfFTS81tQvp2FiP2BQNbj8B4eaNu7QKUDGXa9w",
+        "entryTime": "2026-04-15T17:53:52.360Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T17:53:52.360Z",
+    "lastSeen": "2026-04-15T17:53:52.360Z",
     "confirmed": false
   }
 }
