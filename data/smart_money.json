@@ -5191,7 +5191,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Ising",
@@ -5227,6 +5227,11 @@
         "symbol": "Venus",
         "pairAddress": "Km1qYYPv7kpaEKmK4DV56bgxTJMrT4YrsCSrVLeaJWS",
         "entryTime": "2026-04-15T01:27:01.133Z"
+      },
+      {
+        "symbol": "HORMUZ",
+        "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
+        "entryTime": "2026-04-15T05:03:31.482Z"
       }
     ],
     "wins": 0,
@@ -5234,7 +5239,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:00:46.746Z",
-    "lastSeen": "2026-04-15T01:27:01.133Z",
+    "lastSeen": "2026-04-15T05:03:31.482Z",
     "confirmed": true
   },
   "GkRg6NBKYFh3RXLUrvPv8143uaUTerHmL2QMuk3ui8Gq": {
@@ -36231,6 +36236,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T05:00:55.929Z",
     "lastSeen": "2026-04-15T05:00:55.929Z",
+    "confirmed": false
+  },
+  "FDG13NSURbzif7MA3f7QbXn8LectzPTThmdDZ56ug5v5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HORMUZ",
+        "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
+        "entryTime": "2026-04-15T05:03:31.482Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T05:03:31.482Z",
+    "lastSeen": "2026-04-15T05:03:31.482Z",
     "confirmed": false
   }
 }
