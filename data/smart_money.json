@@ -22782,12 +22782,17 @@
     "confirmed": false
   },
   "JESUSL2s5BsffGNNn6wQtHART2iXVGjtGhKAwGw44bL": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "NORMIE",
         "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
         "entryTime": "2026-04-15T20:31:50.185Z"
+      },
+      {
+        "symbol": "ONEUNC",
+        "pairAddress": "HWqHWRwfsq8xSEQj9RF6YLuZUKuJ8qQkxokA6PyTJNp5",
+        "entryTime": "2026-04-15T23:35:14.649Z"
       }
     ],
     "wins": 0,
@@ -22795,7 +22800,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T20:31:50.185Z",
-    "lastSeen": "2026-04-15T20:31:50.185Z",
+    "lastSeen": "2026-04-15T23:35:14.649Z",
     "confirmed": false
   },
   "2tLB1o8eo5VTd5okJkdPxNZBd7QN1vsPgMHvo6YrZscu": {
