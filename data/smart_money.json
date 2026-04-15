@@ -9685,5 +9685,22 @@
     "firstSeen": "2026-04-15T13:36:31.073Z",
     "lastSeen": "2026-04-15T13:36:31.073Z",
     "confirmed": false
+  },
+  "6ePq4pB7fww8iXDzpuvHuD2uPycsfJNDMhvQ85BAaTP3": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "OG",
+        "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
+        "entryTime": "2026-04-15T13:37:11.928Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T13:37:11.928Z",
+    "lastSeen": "2026-04-15T13:37:11.928Z",
+    "confirmed": false
   }
 }
