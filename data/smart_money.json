@@ -17292,12 +17292,17 @@
     "confirmed": false
   },
   "7sfJynGJvHFNGHUuEhwLtE47YVu6EYLHoqrYCWeUQedX": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "M2M",
         "pairAddress": "7NzExuuB8tpdk4YtpS2JZQWVXTSMvowx7GQDS1PKwJMD",
         "entryTime": "2026-04-14T21:23:23.065Z"
+      },
+      {
+        "symbol": "Venus",
+        "pairAddress": "Km1qYYPv7kpaEKmK4DV56bgxTJMrT4YrsCSrVLeaJWS",
+        "entryTime": "2026-04-15T00:10:48.557Z"
       }
     ],
     "wins": 0,
@@ -17305,7 +17310,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T21:23:23.065Z",
-    "lastSeen": "2026-04-14T21:23:23.065Z",
+    "lastSeen": "2026-04-15T00:10:48.557Z",
     "confirmed": false
   },
   "44kdzNHg3XTFz4syy5SDVmu4Gy2DDaXZErqqNieMbBFH": {
@@ -23223,6 +23228,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T00:10:17.619Z",
     "lastSeen": "2026-04-15T00:10:17.619Z",
+    "confirmed": false
+  },
+  "8JrrtWwJmJQmn22Qgb8WKFA2o612zGJ15cGXxm8JBdzv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Venus",
+        "pairAddress": "Km1qYYPv7kpaEKmK4DV56bgxTJMrT4YrsCSrVLeaJWS",
+        "entryTime": "2026-04-15T00:10:48.557Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T00:10:48.557Z",
+    "lastSeen": "2026-04-15T00:10:48.557Z",
     "confirmed": false
   }
 }
