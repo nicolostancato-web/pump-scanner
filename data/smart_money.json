@@ -4595,7 +4595,7 @@
     "confirmed": false
   },
   "4KoH8zJkyiwqN7uySncZkbME5ZmAFttSABaF23wWNBDL": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -4606,6 +4606,11 @@
         "symbol": "STUBBY",
         "pairAddress": "3Nddxo7TPheV3uJVbiRJU28yzXuLh3ohmXn4zmt9bTtS",
         "entryTime": "2026-04-15T18:34:28.302Z"
+      },
+      {
+        "symbol": "PEACE",
+        "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
+        "entryTime": "2026-04-15T19:02:00.328Z"
       }
     ],
     "wins": 0,
@@ -4613,8 +4618,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:00:03.314Z",
-    "lastSeen": "2026-04-15T18:34:28.302Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T19:02:00.328Z",
+    "confirmed": true
   },
   "CKWfCpXrLhBu1Le6udEtLJ3hmqYLEJZg3W2XEaH9ZuS7": {
     "appearances": 1,
@@ -21786,6 +21791,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T19:01:29.647Z",
     "lastSeen": "2026-04-15T19:01:29.647Z",
+    "confirmed": false
+  },
+  "GxJBYM2cpR6DGTeLKkVWhWGTndTNSwE3Edp9Z5Lh8Bma": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PEACE",
+        "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
+        "entryTime": "2026-04-15T19:02:00.328Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T19:02:00.328Z",
+    "lastSeen": "2026-04-15T19:02:00.328Z",
     "confirmed": false
   }
 }
