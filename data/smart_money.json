@@ -774,12 +774,17 @@
     "confirmed": false
   },
   "BoYfJDbr5j8TYbr2w66DBNcXNhafHysbQngupVX4NArt": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Conviction",
         "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
         "entryTime": "2026-04-15T08:32:18.880Z"
+      },
+      {
+        "symbol": "uncsheikh",
+        "pairAddress": "FfKZfub5KigMvoVkAhwWVL5fTbB7TnkxvTsUhbvxESh1",
+        "entryTime": "2026-04-15T12:11:57.680Z"
       }
     ],
     "wins": 0,
@@ -787,7 +792,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:32:18.880Z",
-    "lastSeen": "2026-04-15T08:32:18.880Z",
+    "lastSeen": "2026-04-15T12:11:57.680Z",
     "confirmed": false
   },
   "3i51cKbLbaKAqvRJdCUaq9hsnvf9kqCfMujNgFj7nRKt": {
