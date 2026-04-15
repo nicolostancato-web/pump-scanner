@@ -5648,7 +5648,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "NPC",
@@ -5664,6 +5664,11 @@
         "symbol": "OG",
         "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
         "entryTime": "2026-04-15T12:57:22.383Z"
+      },
+      {
+        "symbol": "BOOMER",
+        "pairAddress": "6BkKNx3wyniKTrXvQRvcqPkiLXro4QBxQBRsmNXaiVtg",
+        "entryTime": "2026-04-15T14:26:39.423Z"
       }
     ],
     "wins": 0,
@@ -5671,7 +5676,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:35:57.332Z",
-    "lastSeen": "2026-04-15T12:57:22.383Z",
+    "lastSeen": "2026-04-15T14:26:39.423Z",
     "confirmed": true
   },
   "Edi7nMMycY3Asn8dPj9vKkpcqAh4kTxvWX6T7vYccprc": {
@@ -11258,6 +11263,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T14:25:10.697Z",
     "lastSeen": "2026-04-15T14:25:10.697Z",
+    "confirmed": false
+  },
+  "3CkXhAJoHURwuAgzLvqxyJBSMEotnwHC21PcuXDJRNcv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BOOMER",
+        "pairAddress": "6BkKNx3wyniKTrXvQRvcqPkiLXro4QBxQBRsmNXaiVtg",
+        "entryTime": "2026-04-15T14:26:39.423Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T14:26:39.423Z",
+    "lastSeen": "2026-04-15T14:26:39.423Z",
     "confirmed": false
   }
 }
