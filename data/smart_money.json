@@ -5548,12 +5548,17 @@
     "confirmed": false
   },
   "3CGKDphL9KVvFKdPaFA2HaHzmxvdNQobrgo8mYFZL8n1": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Ising",
         "pairAddress": "4whoW6YU4rDwwMRFGCF2fWYYWWqSFP5B8S1UtjHpBMUf",
         "entryTime": "2026-04-14T15:14:33.758Z"
+      },
+      {
+        "symbol": "SALUTE",
+        "pairAddress": "FwkE8Ad7YDnFPk8kznGjV6MjtyaKurJfFwMhzCyrEpGF",
+        "entryTime": "2026-04-15T02:23:29.789Z"
       }
     ],
     "wins": 0,
@@ -5561,7 +5566,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:14:33.758Z",
-    "lastSeen": "2026-04-14T15:14:33.758Z",
+    "lastSeen": "2026-04-15T02:23:29.789Z",
     "confirmed": false
   },
   "Ca14hbLB1VPQjEKoyZxihVXry4StPGxUbNsDksJid9Se": {
@@ -29350,6 +29355,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T02:22:54.756Z",
     "lastSeen": "2026-04-15T02:22:54.756Z",
+    "confirmed": false
+  },
+  "6yQv4TQDSED9u6bDWJm2kwHoqdaEGKmWVFoH7VyjVcu4": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SALUTE",
+        "pairAddress": "FwkE8Ad7YDnFPk8kznGjV6MjtyaKurJfFwMhzCyrEpGF",
+        "entryTime": "2026-04-15T02:23:29.789Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T02:23:29.789Z",
+    "lastSeen": "2026-04-15T02:23:29.789Z",
     "confirmed": false
   }
 }
