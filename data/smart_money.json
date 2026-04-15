@@ -14614,12 +14614,17 @@
     "confirmed": false
   },
   "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CHILLUNC",
         "pairAddress": "3unGi6w9uVovcY8Kuu7wxW1DDKqHpMLyZnmfJrrKeqsL",
         "entryTime": "2026-04-14T19:29:32.563Z"
+      },
+      {
+        "symbol": "SNI",
+        "pairAddress": "7HzZhvrASFyLjB3G4zaVdns11jhimTSAKN6UZU2FEu24",
+        "entryTime": "2026-04-15T02:53:26.373Z"
       }
     ],
     "wins": 0,
@@ -14627,7 +14632,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T19:29:32.563Z",
-    "lastSeen": "2026-04-14T19:29:32.563Z",
+    "lastSeen": "2026-04-15T02:53:26.373Z",
     "confirmed": false
   },
   "63sRnDcHMcXoSkpCy7sn6TM3pVqNdYBiGRPqQoEaUyAM": {
@@ -30701,6 +30706,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T02:52:55.994Z",
     "lastSeen": "2026-04-15T02:52:55.994Z",
+    "confirmed": false
+  },
+  "2uCzA5crj2t5u3mDEmLZjfagMwRR7RjSW2DkkyYzWX8z": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SNI",
+        "pairAddress": "7HzZhvrASFyLjB3G4zaVdns11jhimTSAKN6UZU2FEu24",
+        "entryTime": "2026-04-15T02:53:26.373Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T02:53:26.373Z",
+    "lastSeen": "2026-04-15T02:53:26.373Z",
     "confirmed": false
   }
 }
