@@ -25933,5 +25933,22 @@
     "firstSeen": "2026-04-15T00:59:22.819Z",
     "lastSeen": "2026-04-15T00:59:22.819Z",
     "confirmed": false
+  },
+  "4cN9Yhc4hcyQxV3tngYubScB5c1b2mvP5eRzDqKqgkz3": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Venus",
+        "pairAddress": "Km1qYYPv7kpaEKmK4DV56bgxTJMrT4YrsCSrVLeaJWS",
+        "entryTime": "2026-04-15T00:59:56.007Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T00:59:56.007Z",
+    "lastSeen": "2026-04-15T00:59:56.007Z",
+    "confirmed": false
   }
 }
