@@ -22931,5 +22931,22 @@
     "firstSeen": "2026-04-15T21:38:59.159Z",
     "lastSeen": "2026-04-15T21:38:59.159Z",
     "confirmed": false
+  },
+  "GcXQWvesAvWo9diDKHm4Y6iDHAgVKXSfRCpfJNPqhYwM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "chud",
+        "pairAddress": "AKudszKEUoqbB8v8Lo7fQcyeU6WktitL5N6BF5mGKzU",
+        "entryTime": "2026-04-15T21:39:32.085Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T21:39:32.085Z",
+    "lastSeen": "2026-04-15T21:39:32.085Z",
+    "confirmed": false
   }
 }
