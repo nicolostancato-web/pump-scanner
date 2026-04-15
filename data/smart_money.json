@@ -6584,5 +6584,22 @@
     "firstSeen": "2026-04-15T11:56:26.586Z",
     "lastSeen": "2026-04-15T11:56:26.586Z",
     "confirmed": false
+  },
+  "CzYQ2kFnBxsNEt9Zy34vQ3n5fSDhvA4o4XaTnq1rLvyr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Azure",
+        "pairAddress": "5jNNGdHY1FfteXgGycXBCTTC6s19N8jqGtZxhadeUwqP",
+        "entryTime": "2026-04-15T11:59:00.803Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T11:59:00.803Z",
+    "lastSeen": "2026-04-15T11:59:00.803Z",
+    "confirmed": false
   }
 }
