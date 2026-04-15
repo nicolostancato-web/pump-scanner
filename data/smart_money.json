@@ -5968,7 +5968,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "Ising",
@@ -6019,6 +6019,11 @@
         "symbol": "Venus",
         "pairAddress": "Km1qYYPv7kpaEKmK4DV56bgxTJMrT4YrsCSrVLeaJWS",
         "entryTime": "2026-04-15T00:37:21.123Z"
+      },
+      {
+        "symbol": "Uptrend",
+        "pairAddress": "2sRVY8Ch16H3dkSzYSkJoYKSAi6miGnMZSTvDmUANqV5",
+        "entryTime": "2026-04-15T04:40:02.392Z"
       }
     ],
     "wins": 0,
@@ -6026,7 +6031,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:32:20.134Z",
-    "lastSeen": "2026-04-15T00:37:21.123Z",
+    "lastSeen": "2026-04-15T04:40:02.392Z",
     "confirmed": true
   },
   "3iTAJqpeQebgxa2XVjyQoQhp8tVFXFhQFvANVxB3yo6H": {
@@ -35438,6 +35443,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T04:39:31.026Z",
     "lastSeen": "2026-04-15T04:39:31.026Z",
+    "confirmed": false
+  },
+  "xWUEQFhcxHoEiHkRaVAee8bfpwn1ErjeBMiBqnnHCa5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Uptrend",
+        "pairAddress": "2sRVY8Ch16H3dkSzYSkJoYKSAi6miGnMZSTvDmUANqV5",
+        "entryTime": "2026-04-15T04:40:02.392Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T04:40:02.392Z",
+    "lastSeen": "2026-04-15T04:40:02.392Z",
     "confirmed": false
   }
 }
