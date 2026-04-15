@@ -34284,5 +34284,22 @@
     "firstSeen": "2026-04-15T04:09:30.024Z",
     "lastSeen": "2026-04-15T04:09:30.024Z",
     "confirmed": false
+  },
+  "57VNT64mhzkFr5mkZQjVhZTLMRn1ocMAqFj1eGB73d4h": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HORMUZ",
+        "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
+        "entryTime": "2026-04-15T04:10:00.301Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T04:10:00.301Z",
+    "lastSeen": "2026-04-15T04:10:00.301Z",
+    "confirmed": false
   }
 }
