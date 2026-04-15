@@ -17996,12 +17996,17 @@
     "confirmed": false
   },
   "JBQ5jCzXuxNCGruVckBxMf1GFJYPKsETzjgefvHcehFV": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "M2M",
         "pairAddress": "7NzExuuB8tpdk4YtpS2JZQWVXTSMvowx7GQDS1PKwJMD",
         "entryTime": "2026-04-14T21:46:35.970Z"
+      },
+      {
+        "symbol": "CRIMEFURIE",
+        "pairAddress": "H5TGH9JeExDL9ZSZZr6ngeiiLvwNj6cyaELemSy4uvao",
+        "entryTime": "2026-04-15T07:18:51.229Z"
       }
     ],
     "wins": 0,
@@ -18009,7 +18014,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T21:46:35.970Z",
-    "lastSeen": "2026-04-14T21:46:35.970Z",
+    "lastSeen": "2026-04-15T07:18:51.229Z",
     "confirmed": false
   },
   "J4i9zs1aASyVvDw4ph7z7ZHzHRD6jfmSnqVFqTwisYwn": {
