@@ -716,7 +716,7 @@
     "confirmed": false
   },
   "STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "unctire",
@@ -732,6 +732,11 @@
         "symbol": "Venus",
         "pairAddress": "Km1qYYPv7kpaEKmK4DV56bgxTJMrT4YrsCSrVLeaJWS",
         "entryTime": "2026-04-15T00:10:17.619Z"
+      },
+      {
+        "symbol": "SALUTE",
+        "pairAddress": "FwkE8Ad7YDnFPk8kznGjV6MjtyaKurJfFwMhzCyrEpGF",
+        "entryTime": "2026-04-15T02:17:34.162Z"
       }
     ],
     "wins": 0,
@@ -739,7 +744,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T13:10:13.840Z",
-    "lastSeen": "2026-04-15T00:10:17.619Z",
+    "lastSeen": "2026-04-15T02:17:34.162Z",
     "confirmed": true
   },
   "19NeLVJXWsHJFQ3rajDbfdPaCvPmRFYGsedDCvoBUwe": {
@@ -29022,6 +29027,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T02:16:52.086Z",
     "lastSeen": "2026-04-15T02:16:52.086Z",
+    "confirmed": false
+  },
+  "956nXhT1sZYcqQPCqZpoGaBBKyUZMAsN46boJXGoakG5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SALUTE",
+        "pairAddress": "FwkE8Ad7YDnFPk8kznGjV6MjtyaKurJfFwMhzCyrEpGF",
+        "entryTime": "2026-04-15T02:17:34.162Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T02:17:34.162Z",
+    "lastSeen": "2026-04-15T02:17:34.162Z",
     "confirmed": false
   }
 }
