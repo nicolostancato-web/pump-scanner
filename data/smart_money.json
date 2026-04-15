@@ -4375,5 +4375,22 @@
     "firstSeen": "2026-04-15T10:00:03.314Z",
     "lastSeen": "2026-04-15T10:00:03.314Z",
     "confirmed": false
+  },
+  "CKWfCpXrLhBu1Le6udEtLJ3hmqYLEJZg3W2XEaH9ZuS7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Namduong",
+        "pairAddress": "BvAEDEiDSFJdiZBQVzWKkqyiV3DtwttyBQihqjyYatWX",
+        "entryTime": "2026-04-15T10:02:54.784Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T10:02:54.784Z",
+    "lastSeen": "2026-04-15T10:02:54.784Z",
+    "confirmed": false
   }
 }
