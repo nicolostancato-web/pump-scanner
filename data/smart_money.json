@@ -2677,12 +2677,17 @@
     "confirmed": false
   },
   "7rbxsXchaL1Jz46BXbF88k1hBYoWHLaKo8YbofMndW46": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Namduong",
         "pairAddress": "BvAEDEiDSFJdiZBQVzWKkqyiV3DtwttyBQihqjyYatWX",
         "entryTime": "2026-04-15T09:04:54.608Z"
+      },
+      {
+        "symbol": "S&P500",
+        "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
+        "entryTime": "2026-04-15T17:58:13.073Z"
       }
     ],
     "wins": 0,
@@ -2690,7 +2695,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T09:04:54.608Z",
-    "lastSeen": "2026-04-15T09:04:54.608Z",
+    "lastSeen": "2026-04-15T17:58:13.073Z",
     "confirmed": false
   },
   "HhAVdeD8BCMjZ7R3FS1rZHTbgCAKNLKqHgRgmGEyRVks": {
@@ -19178,6 +19183,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T17:57:37.759Z",
     "lastSeen": "2026-04-15T17:57:37.759Z",
+    "confirmed": false
+  },
+  "DUHSfyQ5ZomNvuf6cBrrePwfPhMr4jhZQFU8Wa55WUdf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "S&P500",
+        "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
+        "entryTime": "2026-04-15T17:58:13.073Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T17:58:13.073Z",
+    "lastSeen": "2026-04-15T17:58:13.073Z",
+    "confirmed": false
+  },
+  "678hhfkqm2mUVjJQmxMPhwCwDnqtVahbSXcCLyFBfRZw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "S&P500",
+        "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
+        "entryTime": "2026-04-15T17:58:13.073Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T17:58:13.073Z",
+    "lastSeen": "2026-04-15T17:58:13.073Z",
+    "confirmed": false
+  },
+  "CUZhyXd1jqvAKeo6rPJYSf9bYeQPKzzv4aGPnEwuWtPV": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "S&P500",
+        "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
+        "entryTime": "2026-04-15T17:58:13.073Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T17:58:13.073Z",
+    "lastSeen": "2026-04-15T17:58:13.073Z",
     "confirmed": false
   }
 }
