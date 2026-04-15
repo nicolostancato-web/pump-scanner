@@ -1277,7 +1277,61 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "FTmQ83ai7JqPqhA7RSnd8DRK33ukHxh2hRuMnBS2tzeW",
+      "mint": "6BQraGFJaqKuXTJ4xy5xAdrsvPYeMXWXK77vYrs9pump",
+      "name": "Yes chad",
+      "symbol": "Chad",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000687,
+      "entryMcap": 68706,
+      "entryTime": 1776274134544,
+      "score": 68,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/ftmq83ai7jqpqha7rsnd8drk33ukhxh2hrumnbs2tzew",
+      "peakPrice": 0.00007645,
+      "peakMultiplier": 1.1128093158660843,
+      "peakMcap": 76453,
+      "peakTime": 1776274193559,
+      "lastPrice": 0.00003149,
+      "lowestPrice": 0.00003149,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003149,
+      "closeMultiplier": 0.4583697234352256,
+      "closedAt": "2026-04-15T17:39:53.708Z",
+      "durationMs": 659164,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003149,
+        "closeMultiplier": 0.4583697234352256,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-15T17:39:53.707Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00003149,
+        "closeMultiplier": 0.4583697234352256,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-15T17:39:53.707Z"
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-15T01:57:41.809Z"
+  "lastSaved": "2026-04-15T17:39:55.014Z"
 }
