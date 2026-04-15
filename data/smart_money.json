@@ -17834,12 +17834,17 @@
     "confirmed": false
   },
   "3hABxPaFS81TSFv7E49VwQaGk9Cv5kBunbWdrYFKPP5R": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "M2M",
         "pairAddress": "7NzExuuB8tpdk4YtpS2JZQWVXTSMvowx7GQDS1PKwJMD",
         "entryTime": "2026-04-14T21:43:09.174Z"
+      },
+      {
+        "symbol": "Conviction",
+        "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
+        "entryTime": "2026-04-15T08:13:35.268Z"
       }
     ],
     "wins": 0,
@@ -17847,7 +17852,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T21:43:09.174Z",
-    "lastSeen": "2026-04-14T21:43:09.174Z",
+    "lastSeen": "2026-04-15T08:13:35.268Z",
     "confirmed": false
   },
   "8RoA7bBFJMbEz6BEo6ZNQ2PDVuNxioXJN4pddnbx9ETW": {
