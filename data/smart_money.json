@@ -4893,12 +4893,17 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "NPC",
         "pairAddress": "2GF2dT8x1H5oL74SUYkf4y7k93LxpqtAupbrWzVZ7mvu",
         "entryTime": "2026-04-15T10:17:12.538Z"
+      },
+      {
+        "symbol": "Azure",
+        "pairAddress": "5jNNGdHY1FfteXgGycXBCTTC6s19N8jqGtZxhadeUwqP",
+        "entryTime": "2026-04-15T11:15:12.300Z"
       }
     ],
     "wins": 0,
@@ -4906,7 +4911,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:17:12.538Z",
-    "lastSeen": "2026-04-15T10:17:12.538Z",
+    "lastSeen": "2026-04-15T11:15:12.300Z",
     "confirmed": false
   },
   "Fw7uPmKDbvigT6bk6zrt3C3GMvMG9G2i1ntRkgCXwCaw": {
@@ -6284,6 +6289,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:14:37.210Z",
     "lastSeen": "2026-04-15T11:14:37.210Z",
+    "confirmed": false
+  },
+  "HYmzXLvWzt5MTYTSLaTJ7hMEGvjFdHVUFkPN9VPxLssF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Azure",
+        "pairAddress": "5jNNGdHY1FfteXgGycXBCTTC6s19N8jqGtZxhadeUwqP",
+        "entryTime": "2026-04-15T11:15:12.300Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T11:15:12.300Z",
+    "lastSeen": "2026-04-15T11:15:12.300Z",
     "confirmed": false
   }
 }
