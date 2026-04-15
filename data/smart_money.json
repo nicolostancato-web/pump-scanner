@@ -814,5 +814,22 @@
     "firstSeen": "2026-04-15T08:33:23.818Z",
     "lastSeen": "2026-04-15T08:33:23.818Z",
     "confirmed": false
+  },
+  "CE3Xf85XJjyvFCXKaVfFtgUf9DMMQ144j2MAki4ZX24A": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Dumpling",
+        "pairAddress": "6Xg9NBn6y8RRfWN48149bj6mrR4SpSW6WSfCVARgdyx7",
+        "entryTime": "2026-04-15T08:33:52.326Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T08:33:52.326Z",
+    "lastSeen": "2026-04-15T08:33:52.326Z",
+    "confirmed": false
   }
 }
