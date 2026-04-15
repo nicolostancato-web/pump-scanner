@@ -875,5 +875,22 @@
     "firstSeen": "2026-04-15T08:35:02.638Z",
     "lastSeen": "2026-04-15T08:35:02.638Z",
     "confirmed": false
+  },
+  "9TRencEqoURr15Kbk9ugxHtYe7wjsphr3vyCumGn5k6v": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Conviction",
+        "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
+        "entryTime": "2026-04-15T08:35:37.990Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T08:35:37.990Z",
+    "lastSeen": "2026-04-15T08:35:37.990Z",
+    "confirmed": false
   }
 }
