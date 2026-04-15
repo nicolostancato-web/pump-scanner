@@ -19301,12 +19301,17 @@
     "confirmed": false
   },
   "HZBmjtgG8MDownvB9wTLTRN2stjozUBwDaBUhUpybvrm": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "S&P500",
         "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
         "entryTime": "2026-04-15T17:59:47.161Z"
+      },
+      {
+        "symbol": "STUBBY",
+        "pairAddress": "3Nddxo7TPheV3uJVbiRJU28yzXuLh3ohmXn4zmt9bTtS",
+        "entryTime": "2026-04-15T18:30:58.136Z"
       }
     ],
     "wins": 0,
@@ -19314,7 +19319,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T17:59:47.161Z",
-    "lastSeen": "2026-04-15T17:59:47.161Z",
+    "lastSeen": "2026-04-15T18:30:58.136Z",
     "confirmed": false
   },
   "CaVtMUZaCiuQuGVvz7nTqr3KSKiutjZ6a18QhrH9f91p": {
@@ -20097,6 +20102,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T18:29:57.085Z",
     "lastSeen": "2026-04-15T18:29:57.085Z",
+    "confirmed": false
+  },
+  "98Wx5maVKo9qmhdESEbQXUWvHxcYfnDdb9JUeLVieSEK": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "STUBBY",
+        "pairAddress": "3Nddxo7TPheV3uJVbiRJU28yzXuLh3ohmXn4zmt9bTtS",
+        "entryTime": "2026-04-15T18:30:58.136Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T18:30:58.136Z",
+    "lastSeen": "2026-04-15T18:30:58.136Z",
+    "confirmed": false
+  },
+  "Ek6NY2xo9ee8HynyViEpd8BjScxyVzNs1WDaNKXgmWmR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "STUBBY",
+        "pairAddress": "3Nddxo7TPheV3uJVbiRJU28yzXuLh3ohmXn4zmt9bTtS",
+        "entryTime": "2026-04-15T18:30:58.136Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T18:30:58.136Z",
+    "lastSeen": "2026-04-15T18:30:58.136Z",
     "confirmed": false
   }
 }
