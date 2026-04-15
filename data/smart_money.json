@@ -5231,7 +5231,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "Ising",
@@ -5282,6 +5282,11 @@
         "symbol": "CRIMEFURIE",
         "pairAddress": "H5TGH9JeExDL9ZSZZr6ngeiiLvwNj6cyaELemSy4uvao",
         "entryTime": "2026-04-15T07:19:31.162Z"
+      },
+      {
+        "symbol": "Conviction",
+        "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
+        "entryTime": "2026-04-15T08:09:03.230Z"
       }
     ],
     "wins": 0,
@@ -5289,7 +5294,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:00:46.746Z",
-    "lastSeen": "2026-04-15T07:19:31.162Z",
+    "lastSeen": "2026-04-15T08:09:03.230Z",
     "confirmed": true
   },
   "GkRg6NBKYFh3RXLUrvPv8143uaUTerHmL2QMuk3ui8Gq": {
@@ -39458,6 +39463,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:08:31.734Z",
     "lastSeen": "2026-04-15T08:08:31.734Z",
+    "confirmed": false
+  },
+  "DCqspVmPjVE55RsYEqTqD2oErXAoAvdtBxn54Zd7D15M": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Conviction",
+        "pairAddress": "F7cyhQxqh7DroePi8tg8hPJcnMb6WtFdeTdJQq9cYqa7",
+        "entryTime": "2026-04-15T08:09:03.230Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T08:09:03.230Z",
+    "lastSeen": "2026-04-15T08:09:03.230Z",
     "confirmed": false
   }
 }
