@@ -5527,5 +5527,22 @@
     "firstSeen": "2026-04-15T10:34:55.550Z",
     "lastSeen": "2026-04-15T10:34:55.550Z",
     "confirmed": false
+  },
+  "HFJyj4WoSCu1UnzrqRBUW8Qy4tXB44ZA2r221gg2C4i": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "NPC",
+        "pairAddress": "2GF2dT8x1H5oL74SUYkf4y7k93LxpqtAupbrWzVZ7mvu",
+        "entryTime": "2026-04-15T10:35:26.068Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T10:35:26.068Z",
+    "lastSeen": "2026-04-15T10:35:26.068Z",
+    "confirmed": false
   }
 }
