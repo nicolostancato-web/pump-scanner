@@ -1331,7 +1331,70 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4pWy2ncv5doNcRyTKfwAiP8yRBnHGncaYAfi5qK7kU2X",
+      "mint": "3kxd4PxrL3AWCsfShsdXz4bsNMxJnVnD5BBNz2485bTm",
+      "name": "Donald Chicken",
+      "symbol": "CLUCK",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002338,
+      "entryMcap": 233872,
+      "entryTime": 1776290268614,
+      "score": 65,
+      "ageAtEntry": 46,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/4pwy2ncv5doncrytkfwaip8yrbnhgncayafi5qk7ku2x",
+      "peakPrice": 0.0002338,
+      "peakMultiplier": 1,
+      "peakMcap": 233872,
+      "peakTime": 1776290268614,
+      "lastPrice": 0.00007278,
+      "lowestPrice": 0.00007278,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00007278,
+      "closeMultiplier": 0.3112917023096664,
+      "closedAt": "2026-04-15T22:03:47.588Z",
+      "durationMs": 358974,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00007278,
+        "closeMultiplier": 0.3112917023096664,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-15T22:03:47.588Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -30,
+        "momentum": 1.4704347826086956,
+        "floatRotation": 0.06620997810768284,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-15T17:39:55.014Z"
+  "lastSaved": "2026-04-15T22:03:48.881Z"
 }
