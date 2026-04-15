@@ -18265,7 +18265,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "M2M",
@@ -18281,6 +18281,11 @@
         "symbol": "notunc",
         "pairAddress": "F3F3RUDoGuk6pt6R7KprTeJKnwc2xKjaVcTZmF1a22To",
         "entryTime": "2026-04-14T23:33:34.461Z"
+      },
+      {
+        "symbol": "SPRINGULAR",
+        "pairAddress": "8mesvHDht4jRkddTFC1ecHudGmhvmYZW4k3ysQ7LXwd6",
+        "entryTime": "2026-04-15T02:00:04.866Z"
       }
     ],
     "wins": 0,
@@ -18288,7 +18293,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T21:55:17.492Z",
-    "lastSeen": "2026-04-14T23:33:34.461Z",
+    "lastSeen": "2026-04-15T02:00:04.866Z",
     "confirmed": true
   },
   "4y52bXRkk4uQMU3BLxb8YhnJ4NbYTo6RD7FiWLpwVfHp": {
@@ -28084,6 +28089,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T01:59:29.761Z",
     "lastSeen": "2026-04-15T01:59:29.761Z",
+    "confirmed": false
+  },
+  "CsWv5os1AmN2eGnf93otDa5cJz3UmU8qbf1qs8idDFak": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SPRINGULAR",
+        "pairAddress": "8mesvHDht4jRkddTFC1ecHudGmhvmYZW4k3ysQ7LXwd6",
+        "entryTime": "2026-04-15T02:00:04.866Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T02:00:04.866Z",
+    "lastSeen": "2026-04-15T02:00:04.866Z",
     "confirmed": false
   }
 }
