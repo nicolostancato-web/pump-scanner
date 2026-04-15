@@ -5211,7 +5211,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "Ising",
@@ -5252,6 +5252,11 @@
         "symbol": "HORMUZ",
         "pairAddress": "H5vSEUesbNPGtp4EwoLjatwFZ39ojQnsHJkGNsTXryTo",
         "entryTime": "2026-04-15T05:03:31.482Z"
+      },
+      {
+        "symbol": "yn",
+        "pairAddress": "DisTFmuqW8E4WWpaDqfZAvUTzt9BVYmsvTHrFDaVBabX",
+        "entryTime": "2026-04-15T06:19:52.602Z"
       }
     ],
     "wins": 0,
@@ -5259,7 +5264,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-14T15:00:46.746Z",
-    "lastSeen": "2026-04-15T05:03:31.482Z",
+    "lastSeen": "2026-04-15T06:19:52.602Z",
     "confirmed": true
   },
   "GkRg6NBKYFh3RXLUrvPv8143uaUTerHmL2QMuk3ui8Gq": {
