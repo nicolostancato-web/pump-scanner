@@ -6569,7 +6569,7 @@
     "confirmed": false
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Azure",
@@ -6580,6 +6580,11 @@
         "symbol": "uncsheikh",
         "pairAddress": "FfKZfub5KigMvoVkAhwWVL5fTbB7TnkxvTsUhbvxESh1",
         "entryTime": "2026-04-15T12:31:52.760Z"
+      },
+      {
+        "symbol": "BULLCOIN",
+        "pairAddress": "4JZp6Uu7t4CrFEtzv7hz2TxHD4yv8ybAvs9xcqxAgSR2",
+        "entryTime": "2026-04-15T14:32:31.012Z"
       }
     ],
     "wins": 0,
@@ -6587,8 +6592,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:53:19.608Z",
-    "lastSeen": "2026-04-15T12:31:52.760Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T14:32:31.012Z",
+    "confirmed": true
   },
   "C6AFSY2gz3CRFaLD3jr8Y4j7qvwv8hndTBhJvdZ8hthq": {
     "appearances": 1,
@@ -11450,6 +11455,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T14:31:51.916Z",
     "lastSeen": "2026-04-15T14:31:51.916Z",
+    "confirmed": false
+  },
+  "836MkeVKB8LKyfYHPY1qrNdWS55MWUaCLiFrvDSt9tG7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BULLCOIN",
+        "pairAddress": "4JZp6Uu7t4CrFEtzv7hz2TxHD4yv8ybAvs9xcqxAgSR2",
+        "entryTime": "2026-04-15T14:32:31.012Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T14:32:31.012Z",
+    "lastSeen": "2026-04-15T14:32:31.012Z",
     "confirmed": false
   }
 }
