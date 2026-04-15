@@ -1394,7 +1394,70 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "43aBs3TNHQAF7L9b14RV27rAJ5EAT1hFrgfUT2deWNBb",
+      "mint": "W5RvAsdwY4kQoP3LiZ9k8mdAE9orCiCmaimdQ1Xpump",
+      "name": "Meme Index Lambo Fund",
+      "symbol": "MILF",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001426,
+      "entryMcap": 142632,
+      "entryTime": 1776293475079,
+      "score": 65,
+      "ageAtEntry": 76,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/43abs3tnhqaf7l9b14rv27raj5eat1hfrgfut2dewnbb",
+      "peakPrice": 0.0001426,
+      "peakMultiplier": 1,
+      "peakMcap": 142632,
+      "peakTime": 1776293475079,
+      "lastPrice": 0.00008513,
+      "lowestPrice": 0.00008513,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00008513,
+      "closeMultiplier": 0.5969845722300141,
+      "closedAt": "2026-04-15T23:09:14.183Z",
+      "durationMs": 1079104,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00008513,
+        "closeMultiplier": 0.5969845722300141,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-15T23:09:14.183Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -6,
+        "momentum": 2,
+        "floatRotation": 0.20694900162656346,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-15T22:03:48.881Z"
+  "lastSaved": "2026-04-15T23:09:15.567Z"
 }
