@@ -3324,12 +3324,17 @@
     "confirmed": false
   },
   "7N6VMQChyBz2PAUnDK4dEwE54XCF5chGiabnwCukFEZ8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Namduong",
         "pairAddress": "BvAEDEiDSFJdiZBQVzWKkqyiV3DtwttyBQihqjyYatWX",
         "entryTime": "2026-04-15T09:27:55.105Z"
+      },
+      {
+        "symbol": "niggunc",
+        "pairAddress": "8CM9gkn4u7o5rwUuw9ChUqqmHaYtQn11Hj3s2VfTJXFh",
+        "entryTime": "2026-04-15T11:01:31.348Z"
       }
     ],
     "wins": 0,
@@ -3337,7 +3342,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T09:27:55.105Z",
-    "lastSeen": "2026-04-15T09:27:55.105Z",
+    "lastSeen": "2026-04-15T11:01:31.348Z",
     "confirmed": false
   },
   "FnJyjEKBzi1JsAP6jYQ9KeTCzXVcmvR56BgqmiUXtZLj": {
@@ -6160,6 +6165,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:59:00.274Z",
     "lastSeen": "2026-04-15T10:59:00.274Z",
+    "confirmed": false
+  },
+  "B1BwjSSnrqFVXoi1z7urLZSsxM45Fgj5VMdUyerg2v9v": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "niggunc",
+        "pairAddress": "8CM9gkn4u7o5rwUuw9ChUqqmHaYtQn11Hj3s2VfTJXFh",
+        "entryTime": "2026-04-15T11:01:31.348Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-15T11:01:31.348Z",
+    "lastSeen": "2026-04-15T11:01:31.348Z",
     "confirmed": false
   }
 }
