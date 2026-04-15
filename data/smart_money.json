@@ -387,7 +387,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -408,6 +408,11 @@
         "symbol": "NPC",
         "pairAddress": "2GF2dT8x1H5oL74SUYkf4y7k93LxpqtAupbrWzVZ7mvu",
         "entryTime": "2026-04-15T10:25:21.295Z"
+      },
+      {
+        "symbol": "BULLCOIN",
+        "pairAddress": "4JZp6Uu7t4CrFEtzv7hz2TxHD4yv8ybAvs9xcqxAgSR2",
+        "entryTime": "2026-04-15T14:38:24.901Z"
       }
     ],
     "wins": 0,
@@ -415,11 +420,11 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:19:21.580Z",
-    "lastSeen": "2026-04-15T10:25:21.295Z",
+    "lastSeen": "2026-04-15T14:38:24.901Z",
     "confirmed": true
   },
   "8L2y55D11k63CAftvW7uMM2mBhtMxLoLnivG9uY2bt8j": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -430,6 +435,11 @@
         "symbol": "OG",
         "pairAddress": "7aqhkfqxhr5wkADTVA3G392f1XNr7aC5B9KvpyJWRFCT",
         "entryTime": "2026-04-15T13:57:06.992Z"
+      },
+      {
+        "symbol": "BULLCOIN",
+        "pairAddress": "4JZp6Uu7t4CrFEtzv7hz2TxHD4yv8ybAvs9xcqxAgSR2",
+        "entryTime": "2026-04-15T14:38:24.901Z"
       }
     ],
     "wins": 0,
@@ -437,8 +447,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:19:21.580Z",
-    "lastSeen": "2026-04-15T13:57:06.992Z",
-    "confirmed": false
+    "lastSeen": "2026-04-15T14:38:24.901Z",
+    "confirmed": true
   },
   "Bu2SDdZAuF7ugcj3mxeVWnSPGQMGQiqNa3LiHSBbe6bG": {
     "appearances": 1,
