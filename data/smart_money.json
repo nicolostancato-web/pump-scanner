@@ -22611,12 +22611,17 @@
     "confirmed": false
   },
   "8qNuyLmHumocXjnHXA1eFyuqpo6RzFeWdSS6EH6m55PV": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "NORMIE",
         "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
         "entryTime": "2026-04-15T20:04:19.344Z"
+      },
+      {
+        "symbol": "Fortnite",
+        "pairAddress": "GaM7jQoBejvXq7B6T6nuxwGZpsXAPi1wrjefMUJVbgeL",
+        "entryTime": "2026-04-15T22:21:26.163Z"
       }
     ],
     "wins": 0,
@@ -22624,7 +22629,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T20:04:19.344Z",
-    "lastSeen": "2026-04-15T20:04:19.344Z",
+    "lastSeen": "2026-04-15T22:21:26.163Z",
     "confirmed": false
   },
   "2sT2usN51Zdoqt6wvTHFa8AySdLAi2rsGybsHwegVnX9": {
