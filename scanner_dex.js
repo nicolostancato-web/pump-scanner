@@ -382,7 +382,7 @@ function checkSmartMoney(buyers) {
 }
 
 // ─── PAPER TRADING: OPEN POSITION ────────────────────────────────────────────
-function openPosition(pair, score, whaleWallet, buyers) {
+function openPosition(pair, score, whaleWallet, buyers, v4Data) {
   const pairAddress = pair.pairAddress;
   const entryPrice  = parseFloat(pair.priceUsd) || 0;
   if (entryPrice === 0) return;
@@ -438,6 +438,8 @@ function openPosition(pair, score, whaleWallet, buyers) {
       closeReason:     null,
       closedAt:        null
     },
+    // V4-minimal parallel tracking (no effect on V1/V2/V3)
+    v4: v4Data || { eligible: false, score_v4: null, momentum: null, floatRotation: null, uniqueBuyers: 0, concentration: 1, wouldEnter: false },
     // X (Twitter) data — populated async after open
     xFollowers:    null,
     xAgeDays:      null,
@@ -602,7 +604,15 @@ async function sendPositionUpdate(pos, currentMcap, status) {
                             ? ((pos.v3.closeMultiplier >= 1 ? '🟢 +' : '🔴 -') + Math.abs((pos.v3.closeMultiplier - 1) * 100).toFixed(0) + '%')
                             : (pos.v3.active ? '🔵 Running' : ''),
       'V3 vs V1':       (!pos.v3 || !pos.v3.eligible || pos.v3.closeMultiplier === null || pos.closeMultiplier === null) ? '' :
-                          ((pos.v3.closeMultiplier - pos.closeMultiplier) * 100 >= 0 ? '+' : '') + ((pos.v3.closeMultiplier - pos.closeMultiplier) * 100).toFixed(0) + '%'
+                          ((pos.v3.closeMultiplier - pos.closeMultiplier) * 100 >= 0 ? '+' : '') + ((pos.v3.closeMultiplier - pos.closeMultiplier) * 100).toFixed(0) + '%',
+      // V4-minimal parallel tracking
+      'V4 Eligible':    pos.v4 ? (pos.v4.eligible ? 'YES' : 'NO') : '',
+      'V4 Score':       pos.v4 && pos.v4.score_v4 !== null ? pos.v4.score_v4 : '',
+      'V4 Momentum':    pos.v4 && pos.v4.momentum !== null ? pos.v4.momentum.toFixed(2) : '',
+      'V4 Float Rot':   pos.v4 && pos.v4.floatRotation !== null ? pos.v4.floatRotation.toFixed(3) : '',
+      'V4 Buyers':      pos.v4 ? pos.v4.uniqueBuyers : '',
+      'V4 Conc %':      pos.v4 && pos.v4.concentration !== null ? Math.round(pos.v4.concentration * 100) : '',
+      'V4 WouldEnter':  pos.v4 ? (pos.v4.wouldEnter ? 'YES' : 'NO') : ''
     });
     console.log(`📡 Tracker: ${pos.symbol} → ${status}`);
   } catch (e) { console.log(`⚠️ Tracker failed: ${pos.symbol} ${e.message}`); }
@@ -1011,6 +1021,74 @@ function scoreToken(pair, whaleWallet) {
   return { score: Math.max(0, Math.min(score, 110)), reasons };
 }
 
+// ─── V4-MINIMAL SCORING ───────────────────────────────────────────────────────
+// Parallel tracking only — does NOT affect V1/V2/V3 logic
+// Signals: Early Momentum + Float Rotation + Buyer Structure
+function computeV4(pair, buyers) {
+  const ageMin      = pair.ageMinutes || 0;
+  const priceChg5m  = parseFloat(pair.priceChange?.m5) || 0;
+  const vol5m       = parseFloat(pair.volume?.m5) || 0;
+  const mcap        = parseFloat(pair.marketCap) || parseFloat(pair.fdv) || 1;
+  const liquidity   = parseFloat(pair.liquidity?.usd) || 0;
+
+  // ── Raw signals
+  const momentum      = priceChg5m / Math.max(ageMin, 1);
+  const floatRotation = vol5m / Math.max(mcap, 1);
+
+  // Buyer structure from Solana RPC wallet list
+  const walletCounts = {};
+  for (const w of (buyers || [])) walletCounts[w] = (walletCounts[w] || 0) + 1;
+  const uniqueBuyers  = Object.keys(walletCounts).length;
+  const totalTx       = (buyers || []).length;
+  const topWalletTx   = totalTx > 0 ? Math.max(...Object.values(walletCounts)) : 0;
+  const concentration = totalTx > 0 ? topWalletTx / totalTx : 1;
+
+  // ── Hard filters (eligible = passed all binary gates)
+  const smartMoneyPresent = checkSmartMoney(buyers) !== null;
+  const eligible = (
+    ageMin <= 25 &&
+    liquidity >= MIN_LIQUIDITY_USD &&
+    uniqueBuyers >= 3 &&
+    (concentration <= 0.70 || smartMoneyPresent)
+  );
+
+  // ── Score calculation (range: -60 → +85)
+  let score = 0;
+
+  // Signal 1: Early Momentum (-20 → +30)
+  if      (momentum >= 3.0) score += 30;
+  else if (momentum >= 1.5) score += 20;
+  else if (momentum >= 0.5) score += 10;
+  else if (momentum >= 0.1) score += 3;
+  else                      score -= 20;  // token fermo
+
+  // Signal 2: Float Rotation (-10 → +25)
+  if      (floatRotation >= 1.5) score += 25;
+  else if (floatRotation >= 0.8) score += 18;
+  else if (floatRotation >= 0.3) score += 10;
+  else if (floatRotation >= 0.1) score += 4;
+  else                           score -= 10;  // volume irrilevante
+
+  // Signal 3: Buyer Structure (-30 → +30)
+  // Unique buyers count
+  if      (uniqueBuyers >= 15) score += 20;
+  else if (uniqueBuyers >= 10) score += 13;
+  else if (uniqueBuyers >= 6)  score += 7;
+  else if (uniqueBuyers >= 3)  score += 2;
+  else                         score -= 15;
+  // Wallet concentration
+  if      (concentration < 0.20) score += 10;
+  else if (concentration < 0.40) score += 5;
+  else if (concentration < 0.60) score += 0;
+  else                           score -= 15;
+
+  const wouldEnter = eligible && score >= 35;
+
+  return { eligible, score_v4: score, momentum, floatRotation, uniqueBuyers, concentration, wouldEnter };
+}
+
+
+
 // ─── SEND ALERT ───────────────────────────────────────────────────────────────
 async function sendAlert(pair, score, reasons, whaleWallet) {
   const socials  = pair.info?.socials || [];
@@ -1147,7 +1225,9 @@ async function scan() {
         alertedTokens.add(pairAddress);
         console.log(`🐳 WHALE ALERT: ${symbol}`);
         await sendAlert(pair, score, reasons, whaleWallet);
-        openPosition(pair, score, whaleWallet, buyers);
+        const v4DataWhale = computeV4(pair, buyers);
+        console.log(`  [V4] elig=${v4DataWhale.eligible} score=${v4DataWhale.score_v4} mom=${v4DataWhale.momentum.toFixed(2)} rot=${v4DataWhale.floatRotation.toFixed(3)} buyers=${v4DataWhale.uniqueBuyers} conc=${Math.round(v4DataWhale.concentration*100)}% would=${v4DataWhale.wouldEnter}`);
+        openPosition(pair, score, whaleWallet, buyers, v4DataWhale);
         continue;
       }
 
@@ -1155,7 +1235,9 @@ async function scan() {
       if (score >= MIN_SCORE) {
         alertedTokens.add(pairAddress);
         await sendAlert(pair, score, reasons, null);
-        openPosition(pair, score, null, buyers);
+        const v4Data = computeV4(pair, buyers);
+        console.log(`  [V4] elig=${v4Data.eligible} score=${v4Data.score_v4} mom=${v4Data.momentum.toFixed(2)} rot=${v4Data.floatRotation.toFixed(3)} buyers=${v4Data.uniqueBuyers} conc=${Math.round(v4Data.concentration*100)}% would=${v4Data.wouldEnter}`);
+        openPosition(pair, score, null, buyers, v4Data);
       }
     }
 
