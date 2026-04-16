@@ -6854,7 +6854,7 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "YOLO",
@@ -6865,6 +6865,11 @@
         "symbol": "coin.ai",
         "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
         "entryTime": "2026-04-16T14:07:37.459Z"
+      },
+      {
+        "symbol": "SOYJAK",
+        "pairAddress": "GmetXHWRtedHMZzu9QfX4faThfYhkxkK2v9FWq7fxdPL",
+        "entryTime": "2026-04-16T14:25:37.236Z"
       }
     ],
     "wins": 0,
@@ -6872,8 +6877,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T12:23:44.234Z",
-    "lastSeen": "2026-04-16T14:07:37.459Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T14:25:37.236Z",
+    "confirmed": true
   },
   "LASTvjDWkbXM1RwUCiniHqGLSEH5xJinDRs56wNPQr9": {
     "appearances": 1,
