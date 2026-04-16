@@ -5948,7 +5948,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 11,
+    "appearances": 12,
     "tokens": [
       {
         "symbol": "NPC",
@@ -6004,6 +6004,11 @@
         "symbol": "Republicans",
         "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
         "entryTime": "2026-04-16T00:51:57.239Z"
+      },
+      {
+        "symbol": "Sigmoid",
+        "pairAddress": "DAEtdGityUVPVHbkF6SiqKBHYS9RH1jbdLkjaHqeoMq8",
+        "entryTime": "2026-04-16T01:52:00.651Z"
       }
     ],
     "wins": 0,
@@ -6011,7 +6016,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:35:57.332Z",
-    "lastSeen": "2026-04-16T00:51:57.239Z",
+    "lastSeen": "2026-04-16T01:52:00.651Z",
     "confirmed": true
   },
   "Edi7nMMycY3Asn8dPj9vKkpcqAh4kTxvWX6T7vYccprc": {
@@ -27067,6 +27072,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T01:51:33.681Z",
     "lastSeen": "2026-04-16T01:51:33.681Z",
+    "confirmed": false
+  },
+  "CeJ6LF6meXEi6Fk1jTihqPRPab32S83JQNTyPBNnePp1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Sigmoid",
+        "pairAddress": "DAEtdGityUVPVHbkF6SiqKBHYS9RH1jbdLkjaHqeoMq8",
+        "entryTime": "2026-04-16T01:52:00.651Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T01:52:00.651Z",
+    "lastSeen": "2026-04-16T01:52:00.651Z",
+    "confirmed": false
+  },
+  "5oKVzRD7nETWiSeDhAAreFCSd77Z7brQWrfPsssYyBD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Sigmoid",
+        "pairAddress": "DAEtdGityUVPVHbkF6SiqKBHYS9RH1jbdLkjaHqeoMq8",
+        "entryTime": "2026-04-16T01:52:00.651Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T01:52:00.651Z",
+    "lastSeen": "2026-04-16T01:52:00.651Z",
+    "confirmed": false
+  },
+  "7ZJqzopk8hCWADdwPj8uxYwqnKF3J499JeQT54HrXhDg": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Sigmoid",
+        "pairAddress": "DAEtdGityUVPVHbkF6SiqKBHYS9RH1jbdLkjaHqeoMq8",
+        "entryTime": "2026-04-16T01:52:00.651Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T01:52:00.651Z",
+    "lastSeen": "2026-04-16T01:52:00.651Z",
     "confirmed": false
   }
 }
