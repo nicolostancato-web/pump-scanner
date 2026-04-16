@@ -15730,12 +15730,17 @@
     "confirmed": false
   },
   "H4L1B6qg5vv9Pb5wvqcxbaw9bEpJSEWAQVfJjQgwqvtJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PND",
         "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
         "entryTime": "2026-04-16T18:27:51.227Z"
+      },
+      {
+        "symbol": "bro",
+        "pairAddress": "5mFdmSGqDR9TaYpVnJ84iZpDDvWBuLn3nFLMNUJc8f3u",
+        "entryTime": "2026-04-16T23:45:41.026Z"
       }
     ],
     "wins": 0,
@@ -15743,7 +15748,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:27:51.227Z",
-    "lastSeen": "2026-04-16T18:27:51.227Z",
+    "lastSeen": "2026-04-16T23:45:41.026Z",
     "confirmed": false
   },
   "6qEuFx2kduYGGUVAfN6TwWxpVavn6NrW5pNVMUnwX4TG": {
@@ -22305,6 +22310,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T23:45:00.458Z",
     "lastSeen": "2026-04-16T23:45:00.458Z",
+    "confirmed": false
+  },
+  "2ToeZzagpc2cVcBfK7bUmwFuhd6t227e8PWctLDaq5eu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "bro",
+        "pairAddress": "5mFdmSGqDR9TaYpVnJ84iZpDDvWBuLn3nFLMNUJc8f3u",
+        "entryTime": "2026-04-16T23:45:41.026Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T23:45:41.026Z",
+    "lastSeen": "2026-04-16T23:45:41.026Z",
     "confirmed": false
   }
 }
