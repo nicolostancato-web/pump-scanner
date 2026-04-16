@@ -6740,7 +6740,7 @@
     "confirmed": false
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Azure",
@@ -6756,6 +6756,11 @@
         "symbol": "Fortnite",
         "pairAddress": "GaM7jQoBejvXq7B6T6nuxwGZpsXAPi1wrjefMUJVbgeL",
         "entryTime": "2026-04-15T22:13:05.187Z"
+      },
+      {
+        "symbol": "MARVIN",
+        "pairAddress": "7ZgDJx7uTXFXuG7wdEoAhAaA2z14NmddA7Go1gLu43qR",
+        "entryTime": "2026-04-16T00:11:40.241Z"
       }
     ],
     "wins": 0,
@@ -6763,7 +6768,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:21:24.246Z",
-    "lastSeen": "2026-04-15T22:13:05.187Z",
+    "lastSeen": "2026-04-16T00:11:40.241Z",
     "confirmed": true
   },
   "4r33xEKAD2cNMrC9NyJy8nb4XmruUKebZ6LZZm65PVUZ": {
