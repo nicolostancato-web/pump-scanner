@@ -4718,12 +4718,17 @@
     "confirmed": false
   },
   "CE3Xf85XJjyvFCXKaVfFtgUf9DMMQ144j2MAki4ZX24A": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "nep",
         "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
         "entryTime": "2026-04-16T10:56:49.574Z"
+      },
+      {
+        "symbol": "Hyrax",
+        "pairAddress": "CDtSSHyt3vYoT75zdaiB4K9vk2VRodLDevMLKHQ1HrZS",
+        "entryTime": "2026-04-16T16:17:50.367Z"
       }
     ],
     "wins": 0,
@@ -4731,7 +4736,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:56:49.574Z",
-    "lastSeen": "2026-04-16T10:56:49.574Z",
+    "lastSeen": "2026-04-16T16:17:50.367Z",
     "confirmed": false
   },
   "DKPP85iBWqcT3ApWVHfJzKs7bqchebTyGmL5N1pBV9AC": {
@@ -12484,6 +12489,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T16:17:16.434Z",
     "lastSeen": "2026-04-16T16:17:16.434Z",
+    "confirmed": false
+  },
+  "Ao9D9xuKxhHfTGCd3ZeBPJ3aBRUAicKKnXZ3feH6uuGC": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Hyrax",
+        "pairAddress": "CDtSSHyt3vYoT75zdaiB4K9vk2VRodLDevMLKHQ1HrZS",
+        "entryTime": "2026-04-16T16:17:50.367Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T16:17:50.367Z",
+    "lastSeen": "2026-04-16T16:17:50.367Z",
     "confirmed": false
   }
 }
