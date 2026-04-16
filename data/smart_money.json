@@ -22886,12 +22886,17 @@
     "confirmed": false
   },
   "DiABLotEDhe6xPv5FSTn64N5sVPWViURFJu7BfLgcfq7": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "NORMIE",
         "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
         "entryTime": "2026-04-15T20:17:20.597Z"
+      },
+      {
+        "symbol": "Republicans",
+        "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
+        "entryTime": "2026-04-16T01:13:00.408Z"
       }
     ],
     "wins": 0,
@@ -22899,7 +22904,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T20:17:20.597Z",
-    "lastSeen": "2026-04-15T20:17:20.597Z",
+    "lastSeen": "2026-04-16T01:13:00.408Z",
     "confirmed": false
   },
   "8TPWakvWw4xQbk7uAYdNjZiDKKHgv9GE5GebzsbtUaHr": {
