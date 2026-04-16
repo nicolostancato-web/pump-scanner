@@ -8058,12 +8058,17 @@
     "confirmed": false
   },
   "8EaPHLRuxu6wUjuD5yHuXMQpCyBXbD2XzGuPyhBPq95a": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BGF",
         "pairAddress": "5ZysSWCdsUTV9dK4JYYgzko5TcJK9Zy1FZ5mfubc1Bk1",
         "entryTime": "2026-04-16T13:42:08.302Z"
+      },
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:40:54.235Z"
       }
     ],
     "wins": 0,
@@ -8071,7 +8076,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T13:42:08.302Z",
-    "lastSeen": "2026-04-16T13:42:08.302Z",
+    "lastSeen": "2026-04-16T22:40:54.235Z",
     "confirmed": false
   },
   "D2yBSi22faZoQ3o96k93dZGQWD2WG5Spt8jyDzkMtfVE": {
