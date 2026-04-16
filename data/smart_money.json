@@ -6921,12 +6921,17 @@
     "confirmed": false
   },
   "4r33xEKAD2cNMrC9NyJy8nb4XmruUKebZ6LZZm65PVUZ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "YOLO",
         "pairAddress": "LYLthRLjPU8ZRSfjArMtcdeaidfxoJsmCiaZgSANEqV",
         "entryTime": "2026-04-16T12:02:07.273Z"
+      },
+      {
+        "symbol": "income",
+        "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
+        "entryTime": "2026-04-16T18:54:11.658Z"
       }
     ],
     "wins": 0,
@@ -6934,7 +6939,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T12:02:07.273Z",
-    "lastSeen": "2026-04-16T12:02:07.273Z",
+    "lastSeen": "2026-04-16T18:54:11.658Z",
     "confirmed": false
   },
   "CmejK7hp2ESbFDi3Zb559kQ2wvFmNDmgZwmdZrZDPcUE": {
