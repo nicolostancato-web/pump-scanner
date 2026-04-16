@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 11,
+    "appearances": 12,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -600,6 +600,11 @@
         "symbol": "PND",
         "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
         "entryTime": "2026-04-16T18:06:14.170Z"
+      },
+      {
+        "symbol": "REPLYGUY",
+        "pairAddress": "HJBu8CY6GKCcZ4cVSzpaMXE2f2qTmHb2UR3sC6CkSmuo",
+        "entryTime": "2026-04-16T20:12:39.050Z"
       }
     ],
     "wins": 0,
@@ -607,7 +612,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-16T18:06:14.170Z",
+    "lastSeen": "2026-04-16T20:12:39.050Z",
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
@@ -16383,6 +16388,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T20:11:59.656Z",
     "lastSeen": "2026-04-16T20:11:59.656Z",
+    "confirmed": false
+  },
+  "DqXyfarvJKVuEiLRF4oufCGxmjamwpbwtsUgoYfSE1Sb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "REPLYGUY",
+        "pairAddress": "HJBu8CY6GKCcZ4cVSzpaMXE2f2qTmHb2UR3sC6CkSmuo",
+        "entryTime": "2026-04-16T20:12:39.050Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T20:12:39.050Z",
+    "lastSeen": "2026-04-16T20:12:39.050Z",
     "confirmed": false
   }
 }
