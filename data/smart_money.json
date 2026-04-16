@@ -4152,7 +4152,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "cuz",
@@ -4183,6 +4183,11 @@
         "symbol": "Hyrax",
         "pairAddress": "CDtSSHyt3vYoT75zdaiB4K9vk2VRodLDevMLKHQ1HrZS",
         "entryTime": "2026-04-16T16:19:02.939Z"
+      },
+      {
+        "symbol": "dug",
+        "pairAddress": "FWMfTZoUprGJ6NFJxNNmpqedBGnYnFPR12FRQJMgXJQP",
+        "entryTime": "2026-04-16T17:22:13.304Z"
       }
     ],
     "wins": 0,
@@ -4190,7 +4195,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:25:41.059Z",
-    "lastSeen": "2026-04-16T16:19:02.939Z",
+    "lastSeen": "2026-04-16T17:22:13.304Z",
     "confirmed": true
   },
   "8a6MmbYU8eyR3dFofvVj54XcrYt9CuxSanuH4S967AMj": {
@@ -13526,6 +13531,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:21:07.732Z",
     "lastSeen": "2026-04-16T17:21:07.732Z",
+    "confirmed": false
+  },
+  "G8qHjFCsnKoiyjW9wfeWxJQMQ7KV3Nk3pLVfW5ZfQidN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "dug",
+        "pairAddress": "FWMfTZoUprGJ6NFJxNNmpqedBGnYnFPR12FRQJMgXJQP",
+        "entryTime": "2026-04-16T17:22:13.304Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T17:22:13.304Z",
+    "lastSeen": "2026-04-16T17:22:13.304Z",
     "confirmed": false
   }
 }
