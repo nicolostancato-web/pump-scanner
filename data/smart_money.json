@@ -5807,7 +5807,7 @@
     "confirmed": false
   },
   "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "NPC",
@@ -5828,6 +5828,11 @@
         "symbol": "Republicans",
         "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
         "entryTime": "2026-04-16T00:55:40.109Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T05:22:51.206Z"
       }
     ],
     "wins": 0,
@@ -5835,7 +5840,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:29:31.817Z",
-    "lastSeen": "2026-04-16T00:55:40.109Z",
+    "lastSeen": "2026-04-16T05:22:51.206Z",
     "confirmed": true
   },
   "7AT8Xeo1cG12etFJgM1xsKSjxbHJHCNdgkgugn9zwiGt": {
@@ -33803,6 +33808,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T05:22:20.188Z",
     "lastSeen": "2026-04-16T05:22:20.188Z",
+    "confirmed": false
+  },
+  "GZSDcDKTVjh1fZnDkidPKyEtARZaopFsAKd6BuwBhDYb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T05:22:51.206Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T05:22:51.206Z",
+    "lastSeen": "2026-04-16T05:22:51.206Z",
     "confirmed": false
   }
 }
