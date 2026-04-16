@@ -6507,7 +6507,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "niggunc",
@@ -6528,6 +6528,11 @@
         "symbol": "ONEUNC",
         "pairAddress": "HWqHWRwfsq8xSEQj9RF6YLuZUKuJ8qQkxokA6PyTJNp5",
         "entryTime": "2026-04-15T23:18:53.462Z"
+      },
+      {
+        "symbol": "Republicans",
+        "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
+        "entryTime": "2026-04-16T00:53:01.643Z"
       }
     ],
     "wins": 0,
@@ -6535,7 +6540,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:56:28.526Z",
-    "lastSeen": "2026-04-15T23:18:53.462Z",
+    "lastSeen": "2026-04-16T00:53:01.643Z",
     "confirmed": true
   },
   "CWyozqSyM4p9qcSKNkBc2w5365NjbyPGffWYhWtNRTg9": {
@@ -25208,6 +25213,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T00:52:28.789Z",
     "lastSeen": "2026-04-16T00:52:28.789Z",
+    "confirmed": false
+  },
+  "CvRw2LQ8cJasvtKGXhhjCWAu1r2U5jpTjm2DuBVFrEjf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Republicans",
+        "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
+        "entryTime": "2026-04-16T00:53:01.643Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T00:53:01.643Z",
+    "lastSeen": "2026-04-16T00:53:01.643Z",
     "confirmed": false
   }
 }
