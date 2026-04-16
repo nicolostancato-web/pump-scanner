@@ -868,7 +868,7 @@
     "confirmed": true
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -894,6 +894,11 @@
         "symbol": "Republicans",
         "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
         "entryTime": "2026-04-16T01:04:53.920Z"
+      },
+      {
+        "symbol": "monkey",
+        "pairAddress": "6FwSkpNduhFLwScqWQpKWuZyy9kJjY9ktxpXNANkPYDj",
+        "entryTime": "2026-04-16T03:16:26.163Z"
       }
     ],
     "wins": 0,
@@ -901,7 +906,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:28:06.283Z",
-    "lastSeen": "2026-04-16T01:04:53.920Z",
+    "lastSeen": "2026-04-16T03:16:26.163Z",
     "confirmed": true
   },
   "Gnq3NtyyjyfZu9uFpEaVyUeLcnEbGQqMifrra1MDpJWn": {
@@ -30855,6 +30860,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T03:06:45.176Z",
     "lastSeen": "2026-04-16T03:06:45.176Z",
+    "confirmed": false
+  },
+  "Ax135JYwUrBgR31fwY9k3D7qgDR7odUJU4xj78MbtEPQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "monkey",
+        "pairAddress": "6FwSkpNduhFLwScqWQpKWuZyy9kJjY9ktxpXNANkPYDj",
+        "entryTime": "2026-04-16T03:16:26.163Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T03:16:26.163Z",
+    "lastSeen": "2026-04-16T03:16:26.163Z",
     "confirmed": false
   }
 }
