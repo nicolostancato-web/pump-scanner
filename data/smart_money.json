@@ -20122,7 +20122,7 @@
     "confirmed": false
   },
   "Sirius6CrwpvKKokCejugLfjyUcqVPZawScz6DqxWjA": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "pump",
@@ -20133,6 +20133,11 @@
         "symbol": "MARVIN",
         "pairAddress": "7ZgDJx7uTXFXuG7wdEoAhAaA2z14NmddA7Go1gLu43qR",
         "entryTime": "2026-04-15T23:35:51.293Z"
+      },
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T04:54:37.489Z"
       }
     ],
     "wins": 0,
@@ -20140,8 +20145,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T18:06:23.118Z",
-    "lastSeen": "2026-04-15T23:35:51.293Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T04:54:37.489Z",
+    "confirmed": true
   },
   "9edCgkECHPCQLXTsTSqRDgCmPsSxaT8qn2fgxEhBUpXK": {
     "appearances": 1,
