@@ -15486,12 +15486,17 @@
     "confirmed": false
   },
   "Aceu1hasWohYv1aQfzZWLAY8MGdQNAF2tFbSKqXLXBSS": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PND",
         "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
         "entryTime": "2026-04-16T18:27:15.838Z"
+      },
+      {
+        "symbol": "DOGE",
+        "pairAddress": "AU1X9xu3zeQBDqEfsMvHpkxVk8PTqAo84THNsJ7eT3Qg",
+        "entryTime": "2026-04-16T20:41:41.817Z"
       }
     ],
     "wins": 0,
@@ -15499,7 +15504,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:27:15.838Z",
-    "lastSeen": "2026-04-16T18:27:15.838Z",
+    "lastSeen": "2026-04-16T20:41:41.817Z",
     "confirmed": false
   },
   "nonofjCpDeEbRWnA82HENffi74FEGo4XTn41v2XWiJh": {
@@ -17557,6 +17562,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T20:41:08.133Z",
     "lastSeen": "2026-04-16T20:41:08.133Z",
+    "confirmed": false
+  },
+  "35txx4wywATMwxBsaRP2NZoP148pjhitq8wSBbDfD2ji": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DOGE",
+        "pairAddress": "AU1X9xu3zeQBDqEfsMvHpkxVk8PTqAo84THNsJ7eT3Qg",
+        "entryTime": "2026-04-16T20:41:41.817Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T20:41:41.817Z",
+    "lastSeen": "2026-04-16T20:41:41.817Z",
     "confirmed": false
   }
 }
