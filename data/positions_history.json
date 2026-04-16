@@ -1709,7 +1709,70 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "51yBeS3XfTEq8vFASefEfY6CGiHuytXAXnwTwQLzuj8W",
+      "mint": "9hWD4nm9pdBZy5NiGvw56AJF3QuooARRwuRQJDKCpump",
+      "name": "UNCGOJO",
+      "symbol": "UNCGOJO",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001493,
+      "entryMcap": 149350,
+      "entryTime": 1776346436560,
+      "score": 75,
+      "ageAtEntry": 17,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/51ybes3xfteq8vfasefefy6cgihuytxaxnwtwqlzuj8w",
+      "peakPrice": 0.0001493,
+      "peakMultiplier": 1,
+      "peakMcap": 149350,
+      "peakTime": 1776346436560,
+      "lastPrice": 0.00007508,
+      "lowestPrice": 0.00007508,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00007508,
+      "closeMultiplier": 0.5028801071667783,
+      "closedAt": "2026-04-16T13:36:55.706Z",
+      "durationMs": 179146,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00007508,
+        "closeMultiplier": 0.5028801071667783,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-16T13:36:55.706Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 3.9970588235294118,
+        "floatRotation": 0.4793066622028791,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-16T13:23:43.329Z"
+  "lastSaved": "2026-04-16T13:36:57.011Z"
 }
