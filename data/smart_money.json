@@ -12670,5 +12670,22 @@
     "firstSeen": "2026-04-16T16:21:35.837Z",
     "lastSeen": "2026-04-16T16:21:35.837Z",
     "confirmed": false
+  },
+  "34BjYuB7JEgjTgHT5VrDH7E4EmHAytNQY8y6mpjrJG7c": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Hyrax",
+        "pairAddress": "CDtSSHyt3vYoT75zdaiB4K9vk2VRodLDevMLKHQ1HrZS",
+        "entryTime": "2026-04-16T16:22:18.130Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T16:22:18.130Z",
+    "lastSeen": "2026-04-16T16:22:18.130Z",
+    "confirmed": false
   }
 }
