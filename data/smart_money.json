@@ -31725,12 +31725,17 @@
     "confirmed": false
   },
   "B42cQdUdmuv5g8ogDCA3JDtJysV2yXy2xGKMMmD29b67": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "unt",
         "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
         "entryTime": "2026-04-16T04:11:01.429Z"
+      },
+      {
+        "symbol": "goyslop",
+        "pairAddress": "FspLNMmQxifYfhqqT4kCiWXqaawcUreFXQJy3tWxv3Yi",
+        "entryTime": "2026-04-16T04:32:04.627Z"
       }
     ],
     "wins": 0,
@@ -31738,7 +31743,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T04:11:01.429Z",
-    "lastSeen": "2026-04-16T04:11:01.429Z",
+    "lastSeen": "2026-04-16T04:32:04.627Z",
     "confirmed": false
   },
   "CrgANHEtCp43119dc6QKycr1kL1JvtzMEFN7UpB5FvPw": {
@@ -32351,6 +32356,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T04:29:32.649Z",
     "lastSeen": "2026-04-16T04:29:32.649Z",
+    "confirmed": false
+  },
+  "26s474YydS67TZadqtEvgQuDEmEsBkHLHNDXm96SGN8E": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "goyslop",
+        "pairAddress": "FspLNMmQxifYfhqqT4kCiWXqaawcUreFXQJy3tWxv3Yi",
+        "entryTime": "2026-04-16T04:32:04.627Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T04:32:04.627Z",
+    "lastSeen": "2026-04-16T04:32:04.627Z",
     "confirmed": false
   }
 }
