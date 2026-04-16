@@ -13626,12 +13626,17 @@
     "confirmed": false
   },
   "zeronaXJsbvPZFmzytV4RPXWBHQGMFcRCvoYaDNPiRL": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ACTU",
         "pairAddress": "GUcWN8PJvu5XvFaGyd5H2TsqwRc8cBLP19T3wLEY5VgW",
         "entryTime": "2026-04-16T17:00:56.849Z"
+      },
+      {
+        "symbol": "income",
+        "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
+        "entryTime": "2026-04-16T19:16:53.488Z"
       }
     ],
     "wins": 0,
@@ -13639,7 +13644,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:00:56.849Z",
-    "lastSeen": "2026-04-16T17:00:56.849Z",
+    "lastSeen": "2026-04-16T19:16:53.488Z",
     "confirmed": false
   },
   "8gBBrhYwrLTEyLUU6C2MXJYtzGfk92GbBeu698nB4z6W": {
