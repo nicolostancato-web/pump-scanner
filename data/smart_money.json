@@ -9829,7 +9829,7 @@
     "confirmed": false
   },
   "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SOYJAK",
@@ -9840,6 +9840,11 @@
         "symbol": "Pope",
         "pairAddress": "7hRzhTzXPkMDwA8ymCrnA2rpS1L2y18CpqbJK1TCH4b2",
         "entryTime": "2026-04-16T15:11:45.660Z"
+      },
+      {
+        "symbol": "PND",
+        "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
+        "entryTime": "2026-04-16T18:16:12.298Z"
       }
     ],
     "wins": 0,
@@ -9847,8 +9852,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:46:48.006Z",
-    "lastSeen": "2026-04-16T15:11:45.660Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T18:16:12.298Z",
+    "confirmed": true
   },
   "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
     "appearances": 2,
@@ -14856,6 +14861,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:15:39.834Z",
     "lastSeen": "2026-04-16T18:15:39.834Z",
+    "confirmed": false
+  },
+  "5UQJdMyb7GPMxWjBusVCT7YarzJ7rgyp4N1PR2FHaG77": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PND",
+        "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
+        "entryTime": "2026-04-16T18:16:12.298Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T18:16:12.298Z",
+    "lastSeen": "2026-04-16T18:16:12.298Z",
     "confirmed": false
   }
 }
