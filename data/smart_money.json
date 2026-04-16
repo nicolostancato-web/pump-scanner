@@ -2363,7 +2363,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "mexicunc",
@@ -2379,6 +2379,11 @@
         "symbol": "human",
         "pairAddress": "6K7gaVgSDL3h9iKz4Tpzf25m6LhPhvrEZST3U1Ee3G4x",
         "entryTime": "2026-04-16T21:29:29.209Z"
+      },
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:14:04.389Z"
       }
     ],
     "wins": 0,
@@ -2386,7 +2391,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:16:09.822Z",
-    "lastSeen": "2026-04-16T21:29:29.209Z",
+    "lastSeen": "2026-04-16T22:14:04.389Z",
     "confirmed": true
   },
   "4GQHft29J7DvfgkefRYy1HT8EpudUyMnApAUQYU47i5A": {
