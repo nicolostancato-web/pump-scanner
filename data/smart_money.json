@@ -25391,12 +25391,17 @@
     "confirmed": false
   },
   "CvRw2LQ8cJasvtKGXhhjCWAu1r2U5jpTjm2DuBVFrEjf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Republicans",
         "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
         "entryTime": "2026-04-16T00:53:01.643Z"
+      },
+      {
+        "symbol": "LOLCAT",
+        "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
+        "entryTime": "2026-04-16T02:18:09.203Z"
       }
     ],
     "wins": 0,
@@ -25404,7 +25409,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T00:53:01.643Z",
-    "lastSeen": "2026-04-16T00:53:01.643Z",
+    "lastSeen": "2026-04-16T02:18:09.203Z",
     "confirmed": false
   },
   "8TdoJCgD9MrBEZuPpwfQf1WfTbSb9RsUHHmsNfTo5wuV": {
@@ -28397,6 +28402,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T02:17:37.226Z",
     "lastSeen": "2026-04-16T02:17:37.226Z",
+    "confirmed": false
+  },
+  "5AbrXZ4Xsx2xVzGUbKKGLsiyjbR49QEGzPUzE5osepbd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LOLCAT",
+        "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
+        "entryTime": "2026-04-16T02:18:09.203Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T02:18:09.203Z",
+    "lastSeen": "2026-04-16T02:18:09.203Z",
     "confirmed": false
   }
 }
