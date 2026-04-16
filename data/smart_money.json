@@ -20475,5 +20475,22 @@
     "firstSeen": "2026-04-16T22:18:47.755Z",
     "lastSeen": "2026-04-16T22:18:47.755Z",
     "confirmed": false
+  },
+  "3wUJJ2ejFH7SJ4sUTZoC31PveQLy7R8fL2cAA6dQJTcE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:19:20.528Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T22:19:20.528Z",
+    "lastSeen": "2026-04-16T22:19:20.528Z",
+    "confirmed": false
   }
 }
