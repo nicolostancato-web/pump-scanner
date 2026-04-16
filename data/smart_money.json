@@ -6845,12 +6845,17 @@
     "confirmed": false
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "YOLO",
         "pairAddress": "LYLthRLjPU8ZRSfjArMtcdeaidfxoJsmCiaZgSANEqV",
         "entryTime": "2026-04-16T13:10:27.626Z"
+      },
+      {
+        "symbol": "coin.ai",
+        "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
+        "entryTime": "2026-04-16T14:06:59.501Z"
       }
     ],
     "wins": 0,
@@ -6858,7 +6863,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T13:10:27.626Z",
-    "lastSeen": "2026-04-16T13:10:27.626Z",
+    "lastSeen": "2026-04-16T14:06:59.501Z",
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
@@ -8746,6 +8751,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:06:23.626Z",
     "lastSeen": "2026-04-16T14:06:23.626Z",
+    "confirmed": false
+  },
+  "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "coin.ai",
+        "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
+        "entryTime": "2026-04-16T14:06:59.501Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T14:06:59.501Z",
+    "lastSeen": "2026-04-16T14:06:59.501Z",
     "confirmed": false
   }
 }
