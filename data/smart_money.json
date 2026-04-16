@@ -417,7 +417,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -468,6 +468,11 @@
         "symbol": "unt",
         "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
         "entryTime": "2026-04-16T04:13:27.099Z"
+      },
+      {
+        "symbol": "goyslop",
+        "pairAddress": "FspLNMmQxifYfhqqT4kCiWXqaawcUreFXQJy3tWxv3Yi",
+        "entryTime": "2026-04-16T04:37:35.548Z"
       }
     ],
     "wins": 0,
@@ -475,7 +480,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:19:21.580Z",
-    "lastSeen": "2026-04-16T04:13:27.099Z",
+    "lastSeen": "2026-04-16T04:37:35.548Z",
     "confirmed": true
   },
   "8L2y55D11k63CAftvW7uMM2mBhtMxLoLnivG9uY2bt8j": {
@@ -3134,7 +3139,7 @@
     "confirmed": false
   },
   "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -3145,6 +3150,11 @@
         "symbol": "STUBBY",
         "pairAddress": "3Nddxo7TPheV3uJVbiRJU28yzXuLh3ohmXn4zmt9bTtS",
         "entryTime": "2026-04-15T18:29:24.215Z"
+      },
+      {
+        "symbol": "goyslop",
+        "pairAddress": "FspLNMmQxifYfhqqT4kCiWXqaawcUreFXQJy3tWxv3Yi",
+        "entryTime": "2026-04-16T04:37:35.548Z"
       }
     ],
     "wins": 0,
@@ -3152,8 +3162,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T09:10:26.862Z",
-    "lastSeen": "2026-04-15T18:29:24.215Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T04:37:35.548Z",
+    "confirmed": true
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
     "appearances": 6,
