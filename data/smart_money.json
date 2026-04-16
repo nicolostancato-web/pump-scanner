@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -570,6 +570,11 @@
         "symbol": "YOLO",
         "pairAddress": "LYLthRLjPU8ZRSfjArMtcdeaidfxoJsmCiaZgSANEqV",
         "entryTime": "2026-04-16T11:46:12.655Z"
+      },
+      {
+        "symbol": "CLI",
+        "pairAddress": "FNTVFY7wi6ZLcXWs6RiF8YAKJ6M4C1PDdTemddRfbd9Q",
+        "entryTime": "2026-04-16T14:14:47.229Z"
       }
     ],
     "wins": 0,
@@ -577,7 +582,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-16T11:46:12.655Z",
+    "lastSeen": "2026-04-16T14:14:47.229Z",
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
