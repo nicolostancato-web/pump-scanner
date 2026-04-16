@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -590,6 +590,11 @@
         "symbol": "dug",
         "pairAddress": "FWMfTZoUprGJ6NFJxNNmpqedBGnYnFPR12FRQJMgXJQP",
         "entryTime": "2026-04-16T17:26:42.872Z"
+      },
+      {
+        "symbol": "WTOR",
+        "pairAddress": "GtDATEUisJNjz6NYFTyPMryRNKovUAU7NxVq4eLYCS6S",
+        "entryTime": "2026-04-16T17:31:25.831Z"
       }
     ],
     "wins": 0,
@@ -597,7 +602,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-16T17:26:42.872Z",
+    "lastSeen": "2026-04-16T17:31:25.831Z",
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
@@ -13893,6 +13898,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:30:23.882Z",
     "lastSeen": "2026-04-16T17:30:23.882Z",
+    "confirmed": false
+  },
+  "945GwtwhQFjeEK62eJYBWSfFMouPToz6dKXRmxUiUrsB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WTOR",
+        "pairAddress": "GtDATEUisJNjz6NYFTyPMryRNKovUAU7NxVq4eLYCS6S",
+        "entryTime": "2026-04-16T17:31:25.831Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T17:31:25.831Z",
+    "lastSeen": "2026-04-16T17:31:25.831Z",
     "confirmed": false
   }
 }
