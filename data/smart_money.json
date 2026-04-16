@@ -6790,7 +6790,7 @@
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Azure",
@@ -6826,6 +6826,11 @@
         "symbol": "monkey",
         "pairAddress": "6FwSkpNduhFLwScqWQpKWuZyy9kJjY9ktxpXNANkPYDj",
         "entryTime": "2026-04-16T03:30:18.235Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T05:47:05.502Z"
       }
     ],
     "wins": 0,
@@ -6833,7 +6838,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:04:55.655Z",
-    "lastSeen": "2026-04-16T03:30:18.235Z",
+    "lastSeen": "2026-04-16T05:47:05.502Z",
     "confirmed": true
   },
   "6G9oPtxrSvZTYymrVydgKTiJJ3Bnf3k5PDntuF31qDTH": {
