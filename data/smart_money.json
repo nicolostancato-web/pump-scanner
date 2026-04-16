@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 12,
+    "appearances": 13,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -605,6 +605,11 @@
         "symbol": "REPLYGUY",
         "pairAddress": "HJBu8CY6GKCcZ4cVSzpaMXE2f2qTmHb2UR3sC6CkSmuo",
         "entryTime": "2026-04-16T20:12:39.050Z"
+      },
+      {
+        "symbol": "human",
+        "pairAddress": "6K7gaVgSDL3h9iKz4Tpzf25m6LhPhvrEZST3U1Ee3G4x",
+        "entryTime": "2026-04-16T21:02:33.614Z"
       }
     ],
     "wins": 0,
@@ -612,7 +617,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-16T20:12:39.050Z",
+    "lastSeen": "2026-04-16T21:02:33.614Z",
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
