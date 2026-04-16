@@ -6623,7 +6623,7 @@
     "confirmed": false
   },
   "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Azure",
@@ -6634,6 +6634,11 @@
         "symbol": "PEACE",
         "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
         "entryTime": "2026-04-15T19:46:07.246Z"
+      },
+      {
+        "symbol": "MARVIN",
+        "pairAddress": "7ZgDJx7uTXFXuG7wdEoAhAaA2z14NmddA7Go1gLu43qR",
+        "entryTime": "2026-04-16T00:10:26.813Z"
       }
     ],
     "wins": 0,
@@ -6641,8 +6646,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:12:01.635Z",
-    "lastSeen": "2026-04-15T19:46:07.246Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T00:10:26.813Z",
+    "confirmed": true
   },
   "B9EFz7fk2PNcQZoLoEpAtwQeqAbZJgSdY6yzps9RZ34R": {
     "appearances": 1,
