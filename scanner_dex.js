@@ -1214,13 +1214,14 @@ async function scan() {
 
       // Pre-score con soli dati DexScreener (senza buyer/whale) per decidere se fare RPC
       const { score: preScore } = scoreToken(pair, null);
-      const needsRPC = preScore >= 35 || WHALE_ALERT_IMMED; // RPC solo su token interessanti
+      const needsRPC = preScore >= 35; // RPC solo su token interessanti
       if (!needsRPC) {
         console.log(`  ${symbol} | pre-score:${preScore} < 35 → skip RPC`);
       }
 
-      // Fetch buyers per whale check + learning (solo se token merita analisi)
-      const buyers = needsRPC ? await getBuyersForPair(pairAddress, symbol) : [];
+      // Fetch buyers — usa il token mint (baseToken.address), non il pool address
+      const mintAddress = pair.baseToken?.address || pairAddress;
+      const buyers = needsRPC ? await getBuyersForPair(mintAddress, symbol) : [];
       const whaleWallet = buyers.length > 0 ? checkWhaleInBuyers(buyers) : null;
 
       // Track buyers as potential smart money (tutti i token, non solo alert)
