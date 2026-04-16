@@ -32802,5 +32802,22 @@
     "firstSeen": "2026-04-16T04:43:22.738Z",
     "lastSeen": "2026-04-16T04:43:22.738Z",
     "confirmed": false
+  },
+  "7j5Kzz9mj1wrYAtfsYewNHdmksmjMWb9c3WH1VQkWtqP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T04:43:59.953Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T04:43:59.953Z",
+    "lastSeen": "2026-04-16T04:43:59.953Z",
+    "confirmed": false
   }
 }
