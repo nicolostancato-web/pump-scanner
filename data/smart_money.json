@@ -7408,12 +7408,17 @@
     "confirmed": true
   },
   "CT5WRRtZxsoVRBHc6art6HWrM4azWo4ofuiT853PtJTc": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Azure",
         "pairAddress": "5jNNGdHY1FfteXgGycXBCTTC6s19N8jqGtZxhadeUwqP",
         "entryTime": "2026-04-15T11:59:32.111Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T05:46:33.022Z"
       }
     ],
     "wins": 0,
@@ -7421,7 +7426,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:59:32.111Z",
-    "lastSeen": "2026-04-15T11:59:32.111Z",
+    "lastSeen": "2026-04-16T05:46:33.022Z",
     "confirmed": false
   },
   "HVCCKWVTHhqViDHZQLPPqDqdTdyupFekK9bEY9UA7LhN": {
@@ -31185,12 +31190,17 @@
     "confirmed": false
   },
   "GNoYNXQ66dnTqcR39nKi2QJSizjxvHHAy9GSbNszQuuq": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "monkey",
         "pairAddress": "6FwSkpNduhFLwScqWQpKWuZyy9kJjY9ktxpXNANkPYDj",
         "entryTime": "2026-04-16T03:16:57.025Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T05:46:33.022Z"
       }
     ],
     "wins": 0,
@@ -31198,7 +31208,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T03:16:57.025Z",
-    "lastSeen": "2026-04-16T03:16:57.025Z",
+    "lastSeen": "2026-04-16T05:46:33.022Z",
     "confirmed": false
   },
   "4nJXRbBzzw94hSGZJgcc6can9TLn1oQikAsnaKA9J72h": {
