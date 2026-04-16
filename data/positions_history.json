@@ -1646,7 +1646,70 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8h3d6sDUy5TaPQcPedPN7UNEHDkVrdRC3qc36XujBWLZ",
+      "mint": "GyyCws5C6N86averWjwk7pTf2uECGA5BpYEmE2cUpump",
+      "name": "unc sam",
+      "symbol": "uncsam",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001658,
+      "entryMcap": 165846,
+      "entryTime": 1776345343075,
+      "score": 65,
+      "ageAtEntry": 69,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8h3d6sduy5tapqcpedpn7unehdkvrdrc3qc36xujbwlz",
+      "peakPrice": 0.0001658,
+      "peakMultiplier": 1,
+      "peakMcap": 165846,
+      "peakTime": 1776345343075,
+      "lastPrice": 0.0001083,
+      "lowestPrice": 0.0001083,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001083,
+      "closeMultiplier": 0.6531966224366708,
+      "closedAt": "2026-04-16T13:23:41.992Z",
+      "durationMs": 478917,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001083,
+        "closeMultiplier": 0.6531966224366708,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-16T13:23:41.992Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -23,
+        "momentum": 0.42985507246376814,
+        "floatRotation": 0.1782705642584084,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-16T13:05:40.704Z"
+  "lastSaved": "2026-04-16T13:23:43.329Z"
 }
