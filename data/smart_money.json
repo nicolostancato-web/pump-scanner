@@ -14126,7 +14126,7 @@
     "confirmed": false
   },
   "8w1Zdm1GEzMXatN9hYERByrJWqqtpUHioMcVqZ57zYKH": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "dug",
@@ -14142,6 +14142,11 @@
         "symbol": "skeletunc",
         "pairAddress": "3MkHMxZ8FEaDduUUo7bv9fA5vkXvVYhf7AqMds1pmQZV",
         "entryTime": "2026-04-16T23:39:24.427Z"
+      },
+      {
+        "symbol": "squeeze",
+        "pairAddress": "Dbqey6Q9dj79MZms3iT5Nb7sPFpSHkagPHr64paUzbWJ",
+        "entryTime": "2026-04-16T23:58:26.754Z"
       }
     ],
     "wins": 0,
@@ -14149,7 +14154,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:25:58.543Z",
-    "lastSeen": "2026-04-16T23:39:24.427Z",
+    "lastSeen": "2026-04-16T23:58:26.754Z",
     "confirmed": true
   },
   "FaYD8GTrLMEJz9as3JRBAfR8wbpqC4FYZUmKiADEqiam": {
