@@ -17928,12 +17928,17 @@
     "confirmed": false
   },
   "9LeCGrYnM2wVphFmrZ8vyEkgz1wuCnMcLEb4pjVrR2Dc": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AI",
         "pairAddress": "C8AbXmp3rFXTnDpBSgH82CBFPvMvw3jNCF5fEeFcKqkA",
         "entryTime": "2026-04-15T16:45:42.446Z"
+      },
+      {
+        "symbol": "goslunc",
+        "pairAddress": "Bd3w6kt6RDBvLnCJkQmJmus5MB48c9ivykjrWNYMVvX4",
+        "entryTime": "2026-04-16T06:37:01.132Z"
       }
     ],
     "wins": 0,
@@ -17941,7 +17946,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T16:45:42.446Z",
-    "lastSeen": "2026-04-15T16:45:42.446Z",
+    "lastSeen": "2026-04-16T06:37:01.132Z",
     "confirmed": false
   },
   "2sgykdyQ3R1uCRUzwxwf9mR62khiLiQDoU9aretX6chx": {
@@ -34093,6 +34098,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T06:36:25.008Z",
     "lastSeen": "2026-04-16T06:36:25.008Z",
+    "confirmed": false
+  },
+  "5AteGXr97szMMbQVjuZUxYMRrAzRXYxJWPe6usKJstgs": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "goslunc",
+        "pairAddress": "Bd3w6kt6RDBvLnCJkQmJmus5MB48c9ivykjrWNYMVvX4",
+        "entryTime": "2026-04-16T06:37:01.132Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T06:37:01.132Z",
+    "lastSeen": "2026-04-16T06:37:01.132Z",
     "confirmed": false
   }
 }
