@@ -17782,5 +17782,22 @@
     "firstSeen": "2026-04-16T20:46:20.007Z",
     "lastSeen": "2026-04-16T20:46:20.007Z",
     "confirmed": false
+  },
+  "8qVB14NdqX6LesPEoPJWcJPdM6rYP9g8bL18iGF1Ea9T": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "human",
+        "pairAddress": "6K7gaVgSDL3h9iKz4Tpzf25m6LhPhvrEZST3U1Ee3G4x",
+        "entryTime": "2026-04-16T20:47:01.028Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T20:47:01.028Z",
+    "lastSeen": "2026-04-16T20:47:01.028Z",
+    "confirmed": false
   }
 }
