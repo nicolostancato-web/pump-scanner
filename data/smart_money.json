@@ -129,7 +129,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -175,6 +175,11 @@
         "symbol": "unt",
         "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
         "entryTime": "2026-04-16T04:02:31.077Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T05:36:11.433Z"
       }
     ],
     "wins": 0,
@@ -182,7 +187,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:15:30.724Z",
-    "lastSeen": "2026-04-16T04:02:31.077Z",
+    "lastSeen": "2026-04-16T05:36:11.433Z",
     "confirmed": true
   },
   "3SeeUFYiKQt1MbPJs4vv28dHBTJUD2sJBmXemVQAXsRD": {
@@ -7057,7 +7062,7 @@
     "confirmed": true
   },
   "4r33xEKAD2cNMrC9NyJy8nb4XmruUKebZ6LZZm65PVUZ": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Azure",
@@ -7088,6 +7093,11 @@
         "symbol": "monkey",
         "pairAddress": "6FwSkpNduhFLwScqWQpKWuZyy9kJjY9ktxpXNANkPYDj",
         "entryTime": "2026-04-16T03:20:33.721Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T05:36:11.433Z"
       }
     ],
     "wins": 0,
@@ -7095,7 +7105,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:21:24.246Z",
-    "lastSeen": "2026-04-16T03:20:33.721Z",
+    "lastSeen": "2026-04-16T05:36:11.433Z",
     "confirmed": true
   },
   "FireuLYd4yjJBhXQyBs3Mq6ZpNEjyHPNPG2eqhTP9RHV": {
