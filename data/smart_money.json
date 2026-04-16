@@ -11987,5 +11987,22 @@
     "firstSeen": "2026-04-16T15:56:59.703Z",
     "lastSeen": "2026-04-16T15:56:59.703Z",
     "confirmed": false
+  },
+  "BPNQQY2rgsPr1YFXnaNcErKAxfuFAu4zbdc8NQh67i7w": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Pope",
+        "pairAddress": "7hRzhTzXPkMDwA8ymCrnA2rpS1L2y18CpqbJK1TCH4b2",
+        "entryTime": "2026-04-16T15:57:32.324Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T15:57:32.324Z",
+    "lastSeen": "2026-04-16T15:57:32.324Z",
+    "confirmed": false
   }
 }
