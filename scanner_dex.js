@@ -235,69 +235,93 @@ async function tryRefreshWhalesFromGMGN() {
 
 // ─── WHALE HELPERS ────────────────────────────────────────────────────────────
 // Solana public RPC — estrae i signer delle ultime N transazioni sul pair
-async function getBuyersForPair(pairAddress) {
+async function getBuyersForPair(pairAddress, symbol) {
+  const tag = symbol ? `[${symbol}]` : `[${pairAddress.slice(0,8)}]`;
   try {
     // Step 1: prendi le ultime firme di transazione
+    const sigsBody = JSON.stringify({
+      jsonrpc: '2.0', id: 1,
+      method: 'getSignaturesForAddress',
+      params: [pairAddress, { limit: 20 }]
+    });
     const sigsRes = await new Promise((resolve, reject) => {
-      const body = JSON.stringify({
-        jsonrpc: '2.0', id: 1,
-        method: 'getSignaturesForAddress',
-        params: [pairAddress, { limit: MAX_TRADES_CHECK }]
-      });
       const req = https.request({
         hostname: 'api.mainnet-beta.solana.com',
         path: '/', method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) }
+        headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(sigsBody) }
       }, (res) => {
         let d = '';
         res.on('data', c => d += c);
         res.on('end', () => { try { resolve(JSON.parse(d)); } catch { resolve({}); } });
       });
       req.on('error', reject);
-      req.setTimeout(8000, () => { req.destroy(); reject(new Error('RPC timeout')); });
-      req.write(body); req.end();
+      req.setTimeout(8000, () => { req.destroy(); reject(new Error('RPC timeout sigs')); });
+      req.write(sigsBody); req.end();
     });
 
-    const sigs = (sigsRes?.result || []).filter(s => !s.err).slice(0, 20).map(s => s.signature);
-    if (sigs.length === 0) return [];
-
-    // Step 2: per ogni firma, estrai il primo signer (= il buyer/seller)
-    // Usiamo getTransaction in batch per efficienza (max 5 alla volta)
-    const buyers = new Set();
-    const batch = sigs.slice(0, 10); // max 10 tx per non bloccare
-    for (const sig of batch) {
-      try {
-        const txRes = await new Promise((resolve, reject) => {
-          const body = JSON.stringify({
-            jsonrpc: '2.0', id: 1,
-            method: 'getTransaction',
-            params: [sig, { encoding: 'jsonParsed', maxSupportedTransactionVersion: 0 }]
-          });
-          const req = https.request({
-            hostname: 'api.mainnet-beta.solana.com',
-            path: '/', method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) }
-          }, (res) => {
-            let d = '';
-            res.on('data', c => d += c);
-            res.on('end', () => { try { resolve(JSON.parse(d)); } catch { resolve({}); } });
-          });
-          req.on('error', reject);
-          req.setTimeout(6000, () => { req.destroy(); reject(new Error('tx timeout')); });
-          req.write(body); req.end();
-        });
-        const accountKeys = txRes?.result?.transaction?.message?.accountKeys || [];
-        // Il primo signer è il fee payer / buyer
-        const signer = accountKeys.find(a => a.signer === true || a.signer === 'true');
-        if (signer?.pubkey) buyers.add(signer.pubkey);
-      } catch { /* skip questa tx */ }
+    const sigs = (sigsRes?.result || []).filter(s => !s.err).slice(0, 10).map(s => s.signature);
+    if (sigs.length === 0) {
+      console.log(`  👥 ${tag} buyers=0 (no sigs from RPC)`);
+      return [];
     }
 
+    // Step 2: BATCH — tutte le getTransaction in una sola HTTP call
+    const batchPayload = sigs.map((sig, i) => ({
+      jsonrpc: '2.0', id: i,
+      method: 'getTransaction',
+      params: [sig, { encoding: 'jsonParsed', maxSupportedTransactionVersion: 0 }]
+    }));
+    const batchBody = JSON.stringify(batchPayload);
+
+    const batchRes = await new Promise((resolve, reject) => {
+      const req = https.request({
+        hostname: 'api.mainnet-beta.solana.com',
+        path: '/', method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(batchBody) }
+      }, (res) => {
+        if (res.statusCode === 429) {
+          console.log(`  ⚠️ ${tag} RPC 429 Too Many Requests — buyers=[] fallback`);
+          resolve(null);
+          return;
+        }
+        let d = '';
+        res.on('data', c => d += c);
+        res.on('end', () => {
+          try { resolve(JSON.parse(d)); }
+          catch { console.log(`  ⚠️ ${tag} batch JSON parse error`); resolve(null); }
+        });
+      });
+      req.on('error', (e) => { console.log(`  ⚠️ ${tag} RPC error: ${e.message}`); resolve(null); });
+      req.setTimeout(12000, () => { req.destroy(); console.log(`  ⚠️ ${tag} RPC timeout batch`); resolve(null); });
+      req.write(batchBody); req.end();
+    });
+
+    if (!batchRes || !Array.isArray(batchRes)) {
+      console.log(`  👥 ${tag} buyers=0 (batch failed)`);
+      return [];
+    }
+
+    // Estrai signer da ogni tx
+    const buyers = new Set();
+    let nullCount = 0;
+    for (const item of batchRes) {
+      const tx = item?.result;
+      if (!tx) { nullCount++; continue; }
+      const accountKeys = tx?.transaction?.message?.accountKeys || [];
+      const signer = accountKeys.find(a => a.signer === true);
+      if (signer?.pubkey) buyers.add(signer.pubkey);
+    }
+    if (nullCount > 0) console.log(`  ⚠️ ${tag} ${nullCount}/${batchRes.length} tx null (troppo vecchie?)`);
+
     const result = [...buyers];
-    if (result.length > 0) console.log(`  👥 buyers: ${result.length} wallet da Solana RPC`);
+    if (result.length > 0) {
+      console.log(`  👥 ${tag} buyers=${result.length} wallet (batch ${sigs.length} tx)`);
+    } else {
+      console.log(`  👥 ${tag} buyers=0 (nessun signer estratto da ${sigs.length} tx)`);
+    }
     return result;
   } catch (e) {
-    console.log(`  ⚠️ getBuyersForPair: ${e.message}`);
+    console.log(`  ⚠️ ${tag} getBuyersForPair error: ${e.message}`);
     return [];
   }
 }
@@ -1188,8 +1212,15 @@ async function scan() {
       if (pairAge > MAX_TOKEN_AGE_HRS * 60) continue;
       if (liquidity < MIN_LIQUIDITY_USD) continue;
 
-      // Fetch buyers per whale check + learning
-      const buyers     = await getBuyersForPair(pairAddress);
+      // Pre-score con soli dati DexScreener (senza buyer/whale) per decidere se fare RPC
+      const { score: preScore } = scoreToken(pair, null);
+      const needsRPC = preScore >= 35 || WHALE_ALERT_IMMED; // RPC solo su token interessanti
+      if (!needsRPC) {
+        console.log(`  ${symbol} | pre-score:${preScore} < 35 → skip RPC`);
+      }
+
+      // Fetch buyers per whale check + learning (solo se token merita analisi)
+      const buyers = needsRPC ? await getBuyersForPair(pairAddress, symbol) : [];
       const whaleWallet = buyers.length > 0 ? checkWhaleInBuyers(buyers) : null;
 
       // Track buyers as potential smart money (tutti i token, non solo alert)
