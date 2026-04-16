@@ -4474,12 +4474,17 @@
     "confirmed": false
   },
   "Ax6KctU1h6GZQB7XMDidQryhuktwNoEjx7sVmekaeNtc": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "nep",
         "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
         "entryTime": "2026-04-16T10:47:26.544Z"
+      },
+      {
+        "symbol": "WTOR",
+        "pairAddress": "GtDATEUisJNjz6NYFTyPMryRNKovUAU7NxVq4eLYCS6S",
+        "entryTime": "2026-04-16T18:02:28.823Z"
       }
     ],
     "wins": 0,
@@ -4487,7 +4492,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:47:26.544Z",
-    "lastSeen": "2026-04-16T10:47:26.544Z",
+    "lastSeen": "2026-04-16T18:02:28.823Z",
     "confirmed": false
   },
   "AkEoqSQZcKvLBNADBmsr4fyw3RjReMSQBXMMd2U3XKdS": {
