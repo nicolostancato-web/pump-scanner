@@ -32577,12 +32577,17 @@
     "confirmed": false
   },
   "AGEtqFqzQZr14Zg8vwZSMTjUmr1LAdGjq6LNaUi5jGEM": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "unt",
         "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
         "entryTime": "2026-04-16T04:29:32.649Z"
+      },
+      {
+        "symbol": "uncpunk",
+        "pairAddress": "568Ty66uDLiRUvxM4RCvM6SoSuWmx5kht2tNJ8PKjTNg",
+        "entryTime": "2026-04-16T07:02:27.291Z"
       }
     ],
     "wins": 0,
@@ -32590,7 +32595,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T04:29:32.649Z",
-    "lastSeen": "2026-04-16T04:29:32.649Z",
+    "lastSeen": "2026-04-16T07:02:27.291Z",
     "confirmed": false
   },
   "26s474YydS67TZadqtEvgQuDEmEsBkHLHNDXm96SGN8E": {
@@ -35146,6 +35151,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T07:01:51.045Z",
     "lastSeen": "2026-04-16T07:01:51.045Z",
+    "confirmed": false
+  },
+  "EfWqLoBNzrSPoYy3fbin9kjWzid1SLvA3U8xCfDQH3AP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "uncpunk",
+        "pairAddress": "568Ty66uDLiRUvxM4RCvM6SoSuWmx5kht2tNJ8PKjTNg",
+        "entryTime": "2026-04-16T07:02:27.291Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T07:02:27.291Z",
+    "lastSeen": "2026-04-16T07:02:27.291Z",
     "confirmed": false
   }
 }
