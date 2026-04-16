@@ -6906,5 +6906,22 @@
     "firstSeen": "2026-04-16T13:24:57.773Z",
     "lastSeen": "2026-04-16T13:24:57.773Z",
     "confirmed": false
+  },
+  "4yZqkDBPn2tpxS59s6v7KjFmPFEeSx7F7pwsEK5Cqmtm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BGF",
+        "pairAddress": "5ZysSWCdsUTV9dK4JYYgzko5TcJK9Zy1FZ5mfubc1Bk1",
+        "entryTime": "2026-04-16T13:25:04.060Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T13:25:04.060Z",
+    "lastSeen": "2026-04-16T13:25:04.060Z",
+    "confirmed": false
   }
 }
