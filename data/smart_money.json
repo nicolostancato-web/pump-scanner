@@ -29448,12 +29448,17 @@
     "confirmed": false
   },
   "3xuzr6bajRYsWu2A9Y5EFmfS7XLddVG9i5MRcKY9dxw3": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "LOLCAT",
         "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
         "entryTime": "2026-04-16T02:32:34.885Z"
+      },
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T05:07:33.938Z"
       }
     ],
     "wins": 0,
@@ -29461,7 +29466,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T02:32:34.885Z",
-    "lastSeen": "2026-04-16T02:32:34.885Z",
+    "lastSeen": "2026-04-16T05:07:33.938Z",
     "confirmed": false
   },
   "9uQLtp71How1s6wyDfYQw4aYXW5Zomd86Eus54XWHU3i": {
