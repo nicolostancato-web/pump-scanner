@@ -1940,7 +1940,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -1986,6 +1986,11 @@
         "symbol": "LOLCAT",
         "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
         "entryTime": "2026-04-16T02:11:04.936Z"
+      },
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T05:11:12.063Z"
       }
     ],
     "wins": 0,
@@ -1993,7 +1998,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:47:48.263Z",
-    "lastSeen": "2026-04-16T02:11:04.936Z",
+    "lastSeen": "2026-04-16T05:11:12.063Z",
     "confirmed": true
   },
   "9iTMM6ga58JsLu5bgfnYjzYMxPPMzB48rQeCt2vT2mr9": {
