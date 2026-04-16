@@ -16250,5 +16250,22 @@
     "firstSeen": "2026-04-16T19:58:17.490Z",
     "lastSeen": "2026-04-16T19:58:17.490Z",
     "confirmed": false
+  },
+  "9jNwi67EqjhKQf6n1ap4ejRdr2gMDdi3YDu1HtspJVBw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "income",
+        "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
+        "entryTime": "2026-04-16T20:04:50.198Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T20:04:50.198Z",
+    "lastSeen": "2026-04-16T20:04:50.198Z",
+    "confirmed": false
   }
 }
