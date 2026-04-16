@@ -7875,12 +7875,17 @@
     "confirmed": false
   },
   "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BGF",
         "pairAddress": "5ZysSWCdsUTV9dK4JYYgzko5TcJK9Zy1FZ5mfubc1Bk1",
         "entryTime": "2026-04-16T13:46:08.879Z"
+      },
+      {
+        "symbol": "SOYJAK",
+        "pairAddress": "GmetXHWRtedHMZzu9QfX4faThfYhkxkK2v9FWq7fxdPL",
+        "entryTime": "2026-04-16T14:47:41.432Z"
       }
     ],
     "wins": 0,
@@ -7888,7 +7893,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T13:46:08.879Z",
-    "lastSeen": "2026-04-16T13:46:08.879Z",
+    "lastSeen": "2026-04-16T14:47:41.432Z",
     "confirmed": false
   },
   "9W8FutrPbumE8XYUz1zuuA2ww8gp8CA51C77G99F3Ukk": {
@@ -9623,6 +9628,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:46:48.006Z",
     "lastSeen": "2026-04-16T14:46:48.006Z",
+    "confirmed": false
+  },
+  "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOYJAK",
+        "pairAddress": "GmetXHWRtedHMZzu9QfX4faThfYhkxkK2v9FWq7fxdPL",
+        "entryTime": "2026-04-16T14:47:41.432Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T14:47:41.432Z",
+    "lastSeen": "2026-04-16T14:47:41.432Z",
     "confirmed": false
   }
 }
