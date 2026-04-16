@@ -16201,12 +16201,17 @@
     "confirmed": false
   },
   "G4Kwmz4W2mCosjKKDz7kQuavVNd8PrpYBtTay27r9wk1": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "income",
         "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
         "entryTime": "2026-04-16T19:10:57.031Z"
+      },
+      {
+        "symbol": "DOGE",
+        "pairAddress": "AU1X9xu3zeQBDqEfsMvHpkxVk8PTqAo84THNsJ7eT3Qg",
+        "entryTime": "2026-04-16T21:37:19.700Z"
       }
     ],
     "wins": 0,
@@ -16214,7 +16219,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T19:10:57.031Z",
-    "lastSeen": "2026-04-16T19:10:57.031Z",
+    "lastSeen": "2026-04-16T21:37:19.700Z",
     "confirmed": false
   },
   "7dGrdJRYtsNR8UYxZ3TnifXGjGc9eRYLq9sELwYpuuUu": {
