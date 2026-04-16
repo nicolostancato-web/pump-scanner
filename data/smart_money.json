@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 14,
+    "appearances": 15,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -615,6 +615,11 @@
         "symbol": "SIDELINED",
         "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
         "entryTime": "2026-04-16T22:21:03.872Z"
+      },
+      {
+        "symbol": "bro",
+        "pairAddress": "5mFdmSGqDR9TaYpVnJ84iZpDDvWBuLn3nFLMNUJc8f3u",
+        "entryTime": "2026-04-16T23:34:11.404Z"
       }
     ],
     "wins": 0,
@@ -622,7 +627,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-16T22:21:03.872Z",
+    "lastSeen": "2026-04-16T23:34:11.404Z",
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
@@ -21877,6 +21882,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T23:33:34.116Z",
     "lastSeen": "2026-04-16T23:33:34.116Z",
+    "confirmed": false
+  },
+  "HP3eZRZ5mRyo9uUR8opZKzrwkNk1P8SnsHhDf2L9UTkY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "bro",
+        "pairAddress": "5mFdmSGqDR9TaYpVnJ84iZpDDvWBuLn3nFLMNUJc8f3u",
+        "entryTime": "2026-04-16T23:34:11.404Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T23:34:11.404Z",
+    "lastSeen": "2026-04-16T23:34:11.404Z",
     "confirmed": false
   }
 }
