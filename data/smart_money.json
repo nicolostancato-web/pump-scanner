@@ -18992,12 +18992,17 @@
     "confirmed": false
   },
   "2YoKhLdeKonfRAZqRPEsfooCQE41YFbXJcPnHqdLW4bk": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "S&P500",
         "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
         "entryTime": "2026-04-15T17:19:47.015Z"
+      },
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T03:56:32.429Z"
       }
     ],
     "wins": 0,
@@ -19005,7 +19010,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T17:19:47.015Z",
-    "lastSeen": "2026-04-15T17:19:47.015Z",
+    "lastSeen": "2026-04-16T03:56:32.429Z",
     "confirmed": false
   },
   "FWGMX6yEgGSGZLH4pzFPWPNFy7GT8qnk29VZmRqo4tK1": {
@@ -31241,6 +31246,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T03:56:01.700Z",
     "lastSeen": "2026-04-16T03:56:01.700Z",
+    "confirmed": false
+  },
+  "Fakjy1aS7b13cnoDs9XgWqeC4MKMQpoGuCfZpweNeBFo": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T03:56:32.429Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T03:56:32.429Z",
+    "lastSeen": "2026-04-16T03:56:32.429Z",
     "confirmed": false
   }
 }
