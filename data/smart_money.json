@@ -21243,12 +21243,17 @@
     "confirmed": false
   },
   "HqFwLTKrZg6C9c8mRq2QPY61Hgaw8px6h4WaTyPtn98m": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "STUBBY",
         "pairAddress": "3Nddxo7TPheV3uJVbiRJU28yzXuLh3ohmXn4zmt9bTtS",
         "entryTime": "2026-04-15T18:42:37.401Z"
+      },
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T04:11:36.017Z"
       }
     ],
     "wins": 0,
@@ -21256,7 +21261,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T18:42:37.401Z",
-    "lastSeen": "2026-04-15T18:42:37.401Z",
+    "lastSeen": "2026-04-16T04:11:36.017Z",
     "confirmed": false
   },
   "CGRjc4QzJjkuWV2mPsN9uEEm12Qtp731Vst2eZUgWL3f": {
