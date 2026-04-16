@@ -19060,5 +19060,22 @@
     "firstSeen": "2026-04-16T21:28:23.561Z",
     "lastSeen": "2026-04-16T21:28:23.561Z",
     "confirmed": false
+  },
+  "4pKXFBRxJEBA2KZTq2fQKxo2tQcogQi6EHmgfR8HSrea": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "human",
+        "pairAddress": "6K7gaVgSDL3h9iKz4Tpzf25m6LhPhvrEZST3U1Ee3G4x",
+        "entryTime": "2026-04-16T21:28:56.883Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T21:28:56.883Z",
+    "lastSeen": "2026-04-16T21:28:56.883Z",
+    "confirmed": false
   }
 }
