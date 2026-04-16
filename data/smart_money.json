@@ -6665,7 +6665,7 @@
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Azure",
@@ -6691,6 +6691,11 @@
         "symbol": "Republicans",
         "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
         "entryTime": "2026-04-16T01:12:27.241Z"
+      },
+      {
+        "symbol": "RFK",
+        "pairAddress": "4sK21Pg46xb16fuPA4V8itAw8nzguKwsUgovEDc2PWSw",
+        "entryTime": "2026-04-16T03:10:18.971Z"
       }
     ],
     "wins": 0,
@@ -6698,7 +6703,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:04:55.655Z",
-    "lastSeen": "2026-04-16T01:12:27.241Z",
+    "lastSeen": "2026-04-16T03:10:18.971Z",
     "confirmed": true
   },
   "6G9oPtxrSvZTYymrVydgKTiJJ3Bnf3k5PDntuF31qDTH": {
@@ -23092,7 +23097,7 @@
     "confirmed": false
   },
   "JESUSL2s5BsffGNNn6wQtHART2iXVGjtGhKAwGw44bL": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "NORMIE",
@@ -23103,6 +23108,11 @@
         "symbol": "ONEUNC",
         "pairAddress": "HWqHWRwfsq8xSEQj9RF6YLuZUKuJ8qQkxokA6PyTJNp5",
         "entryTime": "2026-04-15T23:35:14.649Z"
+      },
+      {
+        "symbol": "RFK",
+        "pairAddress": "4sK21Pg46xb16fuPA4V8itAw8nzguKwsUgovEDc2PWSw",
+        "entryTime": "2026-04-16T03:10:18.971Z"
       }
     ],
     "wins": 0,
@@ -23110,8 +23120,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T20:31:50.185Z",
-    "lastSeen": "2026-04-15T23:35:14.649Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T03:10:18.971Z",
+    "confirmed": true
   },
   "2tLB1o8eo5VTd5okJkdPxNZBd7QN1vsPgMHvo6YrZscu": {
     "appearances": 1,
