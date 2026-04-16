@@ -7467,7 +7467,7 @@
     "confirmed": true
   },
   "6KPYDyuRnpuKcm1TerUmwLd2BcaihvhF4Ccrr8beruu2": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Azure",
@@ -7478,6 +7478,11 @@
         "symbol": "NORMIE",
         "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
         "entryTime": "2026-04-15T20:29:12.199Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T06:26:05.360Z"
       }
     ],
     "wins": 0,
@@ -7485,8 +7490,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T12:05:28.955Z",
-    "lastSeen": "2026-04-15T20:29:12.199Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T06:26:05.360Z",
+    "confirmed": true
   },
   "G3Ssw9mYX8u48CcnvQhZHCH85ABxbXwKmNkLZsB8GvKa": {
     "appearances": 1,
