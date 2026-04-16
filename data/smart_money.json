@@ -2163,7 +2163,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "mexicunc",
@@ -2184,6 +2184,11 @@
         "symbol": "ACTU",
         "pairAddress": "GUcWN8PJvu5XvFaGyd5H2TsqwRc8cBLP19T3wLEY5VgW",
         "entryTime": "2026-04-16T16:54:54.458Z"
+      },
+      {
+        "symbol": "S◎Lmates",
+        "pairAddress": "BExYYmPQeVpToCjgGMLWNJsFx7cyRbNvQmpStcQeu264",
+        "entryTime": "2026-04-16T20:39:20.440Z"
       }
     ],
     "wins": 0,
@@ -2191,7 +2196,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:08:52.453Z",
-    "lastSeen": "2026-04-16T16:54:54.458Z",
+    "lastSeen": "2026-04-16T20:39:20.440Z",
     "confirmed": true
   },
   "ERrywqPL3gNdFkX4EmdXgNARwHHcGvjJWYh1ongFXb3S": {
@@ -17433,6 +17438,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T20:38:45.045Z",
     "lastSeen": "2026-04-16T20:38:45.045Z",
+    "confirmed": false
+  },
+  "7nGaLhy2efnXnrxH6P5Ck4dWMejh38QPBb1bCfjUy4Za": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "S◎Lmates",
+        "pairAddress": "BExYYmPQeVpToCjgGMLWNJsFx7cyRbNvQmpStcQeu264",
+        "entryTime": "2026-04-16T20:39:20.440Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T20:39:20.440Z",
+    "lastSeen": "2026-04-16T20:39:20.440Z",
     "confirmed": false
   }
 }
