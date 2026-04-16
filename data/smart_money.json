@@ -5948,7 +5948,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 12,
+    "appearances": 13,
     "tokens": [
       {
         "symbol": "NPC",
@@ -6009,6 +6009,11 @@
         "symbol": "Sigmoid",
         "pairAddress": "DAEtdGityUVPVHbkF6SiqKBHYS9RH1jbdLkjaHqeoMq8",
         "entryTime": "2026-04-16T01:52:00.651Z"
+      },
+      {
+        "symbol": "LOLCAT",
+        "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
+        "entryTime": "2026-04-16T02:02:50.453Z"
       }
     ],
     "wins": 0,
@@ -6016,7 +6021,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:35:57.332Z",
-    "lastSeen": "2026-04-16T01:52:00.651Z",
+    "lastSeen": "2026-04-16T02:02:50.453Z",
     "confirmed": true
   },
   "Edi7nMMycY3Asn8dPj9vKkpcqAh4kTxvWX6T7vYccprc": {
@@ -27740,6 +27745,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T02:02:14.590Z",
     "lastSeen": "2026-04-16T02:02:14.590Z",
+    "confirmed": false
+  },
+  "9ecWJdGnozyNsXsfD4qRFTysifSccTKGswuf9TXFUBR2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LOLCAT",
+        "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
+        "entryTime": "2026-04-16T02:02:50.453Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T02:02:50.453Z",
+    "lastSeen": "2026-04-16T02:02:50.453Z",
     "confirmed": false
   }
 }
