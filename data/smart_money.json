@@ -913,7 +913,7 @@
     "confirmed": true
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -944,6 +944,11 @@
         "symbol": "monkey",
         "pairAddress": "6FwSkpNduhFLwScqWQpKWuZyy9kJjY9ktxpXNANkPYDj",
         "entryTime": "2026-04-16T03:16:26.163Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T05:51:45.053Z"
       }
     ],
     "wins": 0,
@@ -951,7 +956,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:28:06.283Z",
-    "lastSeen": "2026-04-16T03:16:26.163Z",
+    "lastSeen": "2026-04-16T05:51:45.053Z",
     "confirmed": true
   },
   "Gnq3NtyyjyfZu9uFpEaVyUeLcnEbGQqMifrra1MDpJWn": {
