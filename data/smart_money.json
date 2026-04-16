@@ -586,7 +586,7 @@
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -607,6 +607,11 @@
         "symbol": "YOLO",
         "pairAddress": "LYLthRLjPU8ZRSfjArMtcdeaidfxoJsmCiaZgSANEqV",
         "entryTime": "2026-04-16T11:53:55.187Z"
+      },
+      {
+        "symbol": "CLI",
+        "pairAddress": "FNTVFY7wi6ZLcXWs6RiF8YAKJ6M4C1PDdTemddRfbd9Q",
+        "entryTime": "2026-04-16T14:19:08.782Z"
       }
     ],
     "wins": 0,
@@ -614,7 +619,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-16T11:53:55.187Z",
+    "lastSeen": "2026-04-16T14:19:08.782Z",
     "confirmed": true
   },
   "Cgqq5us7akPoWbSdMb8Jd6tp13cW79XWuuhqBthYnW9D": {
@@ -9233,6 +9238,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:18:31.624Z",
     "lastSeen": "2026-04-16T14:18:31.624Z",
+    "confirmed": false
+  },
+  "FiZgRT6HUbwaBcVzhCHeReAFNWe7jS578pz8MeD1NHcU": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CLI",
+        "pairAddress": "FNTVFY7wi6ZLcXWs6RiF8YAKJ6M4C1PDdTemddRfbd9Q",
+        "entryTime": "2026-04-16T14:19:08.782Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T14:19:08.782Z",
+    "lastSeen": "2026-04-16T14:19:08.782Z",
     "confirmed": false
   }
 }
