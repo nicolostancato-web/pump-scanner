@@ -4431,7 +4431,7 @@
     "confirmed": false
   },
   "V4EJdEa4kujVQbQuptHTYorKefV3JFakpPwLQsB6GqD": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "nep",
@@ -4442,6 +4442,11 @@
         "symbol": "uncsam",
         "pairAddress": "8h3d6sDUy5TaPQcPedPN7UNEHDkVrdRC3qc36XujBWLZ",
         "entryTime": "2026-04-16T13:26:11.239Z"
+      },
+      {
+        "symbol": "coin.ai",
+        "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
+        "entryTime": "2026-04-16T14:10:35.296Z"
       }
     ],
     "wins": 0,
@@ -4449,8 +4454,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:49:39.462Z",
-    "lastSeen": "2026-04-16T13:26:11.239Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T14:10:35.296Z",
+    "confirmed": true
   },
   "aiRhBhiJQ5gqga3CxbdVXfEvmwJN8CkK3tS7RkivaFN": {
     "appearances": 1,
@@ -8839,6 +8844,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:09:24.882Z",
     "lastSeen": "2026-04-16T14:09:24.882Z",
+    "confirmed": false
+  },
+  "HfvbM2WGswTcS8oF4P4dqxJVUr78r7Z8HefQvkC4ss2k": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "coin.ai",
+        "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
+        "entryTime": "2026-04-16T14:10:35.296Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T14:10:35.296Z",
+    "lastSeen": "2026-04-16T14:10:35.296Z",
     "confirmed": false
   }
 }
