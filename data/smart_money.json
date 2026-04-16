@@ -6011,5 +6011,22 @@
     "firstSeen": "2026-04-16T11:33:47.140Z",
     "lastSeen": "2026-04-16T11:33:47.140Z",
     "confirmed": false
+  },
+  "CQ1178wkepoYc1KyotiPwaM4cY6xFHsbsN8PzUmBQuba": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "nep",
+        "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
+        "entryTime": "2026-04-16T11:34:31.513Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T11:34:31.513Z",
+    "lastSeen": "2026-04-16T11:34:31.513Z",
+    "confirmed": false
   }
 }
