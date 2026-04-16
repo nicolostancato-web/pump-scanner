@@ -22934,7 +22934,7 @@
     "confirmed": false
   },
   "Cr6v6hzmEGhxEHUiVtQRuVTj65cGRzhmKZ6mru8ARY1r": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "NORMIE",
@@ -22955,6 +22955,11 @@
         "symbol": "RFK",
         "pairAddress": "4sK21Pg46xb16fuPA4V8itAw8nzguKwsUgovEDc2PWSw",
         "entryTime": "2026-04-16T03:15:24.488Z"
+      },
+      {
+        "symbol": "monkey",
+        "pairAddress": "6FwSkpNduhFLwScqWQpKWuZyy9kJjY9ktxpXNANkPYDj",
+        "entryTime": "2026-04-16T03:29:39.212Z"
       }
     ],
     "wins": 0,
@@ -22962,7 +22967,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T20:03:46.481Z",
-    "lastSeen": "2026-04-16T03:15:24.488Z",
+    "lastSeen": "2026-04-16T03:29:39.212Z",
     "confirmed": true
   },
   "8qNuyLmHumocXjnHXA1eFyuqpo6RzFeWdSS6EH6m55PV": {
