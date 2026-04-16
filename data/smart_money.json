@@ -14845,12 +14845,17 @@
     "confirmed": false
   },
   "AvpKU44i8WMwynCdKgMLLm6dVg3FGcXJV81eKnYPEgTr": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BOOMER",
         "pairAddress": "6BkKNx3wyniKTrXvQRvcqPkiLXro4QBxQBRsmNXaiVtg",
         "entryTime": "2026-04-15T15:33:23.429Z"
+      },
+      {
+        "symbol": "LOLCAT",
+        "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
+        "entryTime": "2026-04-16T02:39:11.032Z"
       }
     ],
     "wins": 0,
@@ -14858,7 +14863,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T15:33:23.429Z",
-    "lastSeen": "2026-04-15T15:33:23.429Z",
+    "lastSeen": "2026-04-16T02:39:11.032Z",
     "confirmed": false
   },
   "D4NtfjWBX9vwumWSoRf3fqf7Lr6crxXo6MQgRFm7Ek6L": {
@@ -29532,6 +29537,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T02:38:38.117Z",
     "lastSeen": "2026-04-16T02:38:38.117Z",
+    "confirmed": false
+  },
+  "7dYaNHK8yrsgXdM1RxddttePTLmfJr6KV5fCEoaT575E": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LOLCAT",
+        "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
+        "entryTime": "2026-04-16T02:39:11.032Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T02:39:11.032Z",
+    "lastSeen": "2026-04-16T02:39:11.032Z",
     "confirmed": false
   }
 }
