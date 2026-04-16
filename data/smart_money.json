@@ -3096,7 +3096,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -3117,6 +3117,11 @@
         "symbol": "MARVIN",
         "pairAddress": "7ZgDJx7uTXFXuG7wdEoAhAaA2z14NmddA7Go1gLu43qR",
         "entryTime": "2026-04-16T00:32:31.728Z"
+      },
+      {
+        "symbol": "Republicans",
+        "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
+        "entryTime": "2026-04-16T01:13:31.485Z"
       }
     ],
     "wins": 0,
@@ -3124,7 +3129,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T09:10:26.862Z",
-    "lastSeen": "2026-04-16T00:32:31.728Z",
+    "lastSeen": "2026-04-16T01:13:31.485Z",
     "confirmed": true
   },
   "8pFKnu31Y95iu69JGJMHD1WnLHtnjaxhhXE4jt1KVLgw": {
