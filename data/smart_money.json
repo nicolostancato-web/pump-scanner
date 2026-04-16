@@ -2930,7 +2930,7 @@
     "confirmed": false
   },
   "JESUSL2s5BsffGNNn6wQtHART2iXVGjtGhKAwGw44bL": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "cunt",
@@ -2941,6 +2941,11 @@
         "symbol": "YOLO",
         "pairAddress": "LYLthRLjPU8ZRSfjArMtcdeaidfxoJsmCiaZgSANEqV",
         "entryTime": "2026-04-16T12:01:31.429Z"
+      },
+      {
+        "symbol": "SOYJAK",
+        "pairAddress": "GmetXHWRtedHMZzu9QfX4faThfYhkxkK2v9FWq7fxdPL",
+        "entryTime": "2026-04-16T14:23:06.330Z"
       }
     ],
     "wins": 0,
@@ -2948,8 +2953,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:44:12.915Z",
-    "lastSeen": "2026-04-16T12:01:31.429Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T14:23:06.330Z",
+    "confirmed": true
   },
   "3PL2ECVLrutt2J6ANMHvDon4WFhWvwWqMiy4jMJcZvPG": {
     "appearances": 1,
