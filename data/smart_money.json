@@ -2570,5 +2570,22 @@
     "firstSeen": "2026-04-16T09:30:41.958Z",
     "lastSeen": "2026-04-16T09:30:41.958Z",
     "confirmed": false
+  },
+  "HuQsgkCN2VsSZoaJ2NRf2TCY2hrdjFiXiRnTPueJ96Nm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "mexicunc",
+        "pairAddress": "CZLsBMRQDA9DjRbUbrd2sDLHvgWQ8TwoTbbDRvUp3wiV",
+        "entryTime": "2026-04-16T09:31:41.651Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T09:31:41.651Z",
+    "lastSeen": "2026-04-16T09:31:41.651Z",
+    "confirmed": false
   }
 }
