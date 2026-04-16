@@ -7082,7 +7082,7 @@
     "confirmed": true
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "YOLO",
@@ -7093,6 +7093,11 @@
         "symbol": "SOYJAK",
         "pairAddress": "GmetXHWRtedHMZzu9QfX4faThfYhkxkK2v9FWq7fxdPL",
         "entryTime": "2026-04-16T14:22:31.208Z"
+      },
+      {
+        "symbol": "ACTU",
+        "pairAddress": "GUcWN8PJvu5XvFaGyd5H2TsqwRc8cBLP19T3wLEY5VgW",
+        "entryTime": "2026-04-16T16:57:59.185Z"
       }
     ],
     "wins": 0,
@@ -7100,8 +7105,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T13:13:06.267Z",
-    "lastSeen": "2026-04-16T14:22:31.208Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T16:57:59.185Z",
+    "confirmed": true
   },
   "EYd57E77Kx54tSvMjLeM45EvgGdoEormokGJyFGq2iVK": {
     "appearances": 1,
