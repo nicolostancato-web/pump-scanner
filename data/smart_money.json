@@ -768,7 +768,7 @@
     "confirmed": false
   },
   "4c6hRms1SYueq2yK9Ly5kRPWRuPZMzni62ZKq3CzpwHE": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "mexicunc",
@@ -779,6 +779,11 @@
         "symbol": "cunt",
         "pairAddress": "9FXt3bt9yUSSjzUzouEVmvQK1A9xd2SVD9bYhtr3GTL",
         "entryTime": "2026-04-16T10:00:26.505Z"
+      },
+      {
+        "symbol": "nep",
+        "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
+        "entryTime": "2026-04-16T10:59:05.152Z"
       }
     ],
     "wins": 0,
@@ -786,11 +791,11 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:47:53.645Z",
-    "lastSeen": "2026-04-16T10:00:26.505Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T10:59:05.152Z",
+    "confirmed": true
   },
   "DDsKAb8NkzECeTKGV4m4KSTsNvu6Jf8UhqQbksnmxwkV": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "mexicunc",
@@ -801,6 +806,11 @@
         "symbol": "cunt",
         "pairAddress": "9FXt3bt9yUSSjzUzouEVmvQK1A9xd2SVD9bYhtr3GTL",
         "entryTime": "2026-04-16T10:04:41.754Z"
+      },
+      {
+        "symbol": "nep",
+        "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
+        "entryTime": "2026-04-16T10:59:05.152Z"
       }
     ],
     "wins": 0,
@@ -808,8 +818,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:47:53.645Z",
-    "lastSeen": "2026-04-16T10:04:41.754Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T10:59:05.152Z",
+    "confirmed": true
   },
   "4S76sKkuEvCSbhbn7m829natmX3a96ek6PTcWbGKGvVH": {
     "appearances": 1,
