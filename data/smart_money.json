@@ -23112,7 +23112,7 @@
     "confirmed": false
   },
   "G4LRMaoDqE4pZ3AVLny5gsKtcFYndsQDgnYfSRiAbCS5": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "NORMIE",
@@ -23123,6 +23123,11 @@
         "symbol": "Republicans",
         "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
         "entryTime": "2026-04-16T01:15:16.976Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T05:36:54.186Z"
       }
     ],
     "wins": 0,
@@ -23130,8 +23135,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T20:03:11.999Z",
-    "lastSeen": "2026-04-16T01:15:16.976Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T05:36:54.186Z",
+    "confirmed": true
   },
   "Cr6v6hzmEGhxEHUiVtQRuVTj65cGRzhmKZ6mru8ARY1r": {
     "appearances": 5,
