@@ -22399,12 +22399,17 @@
     "confirmed": false
   },
   "HT7Dv7dJRsfH43rjVWNnW6339ZjEYidx1SugEDm7NyiR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PEACE",
         "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
         "entryTime": "2026-04-15T18:57:33.183Z"
+      },
+      {
+        "symbol": "monke",
+        "pairAddress": "HwBSC6cr2CXWWvWRMCaUkGdC6tpf5fshauFE79iCFbsh",
+        "entryTime": "2026-04-16T07:34:40.696Z"
       }
     ],
     "wins": 0,
@@ -22412,7 +22417,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T18:57:33.183Z",
-    "lastSeen": "2026-04-15T18:57:33.183Z",
+    "lastSeen": "2026-04-16T07:34:40.696Z",
     "confirmed": false
   },
   "5dM4YnJtm1DKbeaVEUD1ZtGUg8h1qeMk9Jd7YvAixeXf": {
@@ -36534,6 +36539,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T07:34:07.178Z",
     "lastSeen": "2026-04-16T07:34:07.178Z",
+    "confirmed": false
+  },
+  "7FJDJ1HaQfL3GAcMCzoBrJ9Accnf5GUYYwfEPCBCDcVK": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "monke",
+        "pairAddress": "HwBSC6cr2CXWWvWRMCaUkGdC6tpf5fshauFE79iCFbsh",
+        "entryTime": "2026-04-16T07:34:40.696Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T07:34:40.696Z",
+    "lastSeen": "2026-04-16T07:34:40.696Z",
     "confirmed": false
   }
 }
