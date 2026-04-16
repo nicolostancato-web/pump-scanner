@@ -19998,12 +19998,17 @@
     "confirmed": false
   },
   "678hhfkqm2mUVjJQmxMPhwCwDnqtVahbSXcCLyFBfRZw": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "S&P500",
         "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
         "entryTime": "2026-04-15T17:58:13.073Z"
+      },
+      {
+        "symbol": "monke",
+        "pairAddress": "HwBSC6cr2CXWWvWRMCaUkGdC6tpf5fshauFE79iCFbsh",
+        "entryTime": "2026-04-16T07:34:07.178Z"
       }
     ],
     "wins": 0,
@@ -20011,7 +20016,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T17:58:13.073Z",
-    "lastSeen": "2026-04-15T17:58:13.073Z",
+    "lastSeen": "2026-04-16T07:34:07.178Z",
     "confirmed": false
   },
   "CUZhyXd1jqvAKeo6rPJYSf9bYeQPKzzv4aGPnEwuWtPV": {
@@ -36512,6 +36517,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T07:33:20.761Z",
     "lastSeen": "2026-04-16T07:33:20.761Z",
+    "confirmed": false
+  },
+  "6hzFXLmLuNAwwFZDJg1YV2yFH2noJUwgyGTxvF2h1ziy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "monke",
+        "pairAddress": "HwBSC6cr2CXWWvWRMCaUkGdC6tpf5fshauFE79iCFbsh",
+        "entryTime": "2026-04-16T07:34:07.178Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T07:34:07.178Z",
+    "lastSeen": "2026-04-16T07:34:07.178Z",
     "confirmed": false
   }
 }
