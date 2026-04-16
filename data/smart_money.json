@@ -2228,12 +2228,17 @@
     "confirmed": false
   },
   "4cyvoMJEz59GRe3MkNrDBhdj5ib68jJxXeXCECQSCBCE": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Namduong",
         "pairAddress": "BvAEDEiDSFJdiZBQVzWKkqyiV3DtwttyBQihqjyYatWX",
         "entryTime": "2026-04-15T08:55:09.254Z"
+      },
+      {
+        "symbol": "Republicans",
+        "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
+        "entryTime": "2026-04-16T01:03:18.931Z"
       }
     ],
     "wins": 0,
@@ -2241,7 +2246,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:55:09.254Z",
-    "lastSeen": "2026-04-15T08:55:09.254Z",
+    "lastSeen": "2026-04-16T01:03:18.931Z",
     "confirmed": false
   },
   "7YZoQEKaEEzeYKqybNPUfMVc9WbtxaNyLThEiAp6jw4H": {
