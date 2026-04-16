@@ -16451,7 +16451,7 @@
     "confirmed": false
   },
   "8L2y55D11k63CAftvW7uMM2mBhtMxLoLnivG9uY2bt8j": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "income",
@@ -16467,6 +16467,11 @@
         "symbol": "human",
         "pairAddress": "6K7gaVgSDL3h9iKz4Tpzf25m6LhPhvrEZST3U1Ee3G4x",
         "entryTime": "2026-04-16T20:58:41.159Z"
+      },
+      {
+        "symbol": "bro",
+        "pairAddress": "5mFdmSGqDR9TaYpVnJ84iZpDDvWBuLn3nFLMNUJc8f3u",
+        "entryTime": "2026-04-16T23:27:10.616Z"
       }
     ],
     "wins": 0,
@@ -16474,7 +16479,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T19:36:57.696Z",
-    "lastSeen": "2026-04-16T20:58:41.159Z",
+    "lastSeen": "2026-04-16T23:27:10.616Z",
     "confirmed": true
   },
   "DCr4TfmxaMEc7h85ZkrRJagNTWcLm2doGwuxAkLvjskV": {
