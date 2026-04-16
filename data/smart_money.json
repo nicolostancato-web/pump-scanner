@@ -1870,7 +1870,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -1906,6 +1906,11 @@
         "symbol": "PEACE",
         "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
         "entryTime": "2026-04-15T19:21:46.249Z"
+      },
+      {
+        "symbol": "Republicans",
+        "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
+        "entryTime": "2026-04-16T00:52:28.789Z"
       }
     ],
     "wins": 0,
@@ -1913,7 +1918,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:47:48.263Z",
-    "lastSeen": "2026-04-15T19:21:46.249Z",
+    "lastSeen": "2026-04-16T00:52:28.789Z",
     "confirmed": true
   },
   "9iTMM6ga58JsLu5bgfnYjzYMxPPMzB48rQeCt2vT2mr9": {
@@ -25186,6 +25191,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T00:51:57.239Z",
     "lastSeen": "2026-04-16T00:51:57.239Z",
+    "confirmed": false
+  },
+  "C3LrfGimqAY8fqMmsuZ3mmP3prXXE8sCerwvqyxaRZNa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Republicans",
+        "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
+        "entryTime": "2026-04-16T00:52:28.789Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T00:52:28.789Z",
+    "lastSeen": "2026-04-16T00:52:28.789Z",
     "confirmed": false
   }
 }
