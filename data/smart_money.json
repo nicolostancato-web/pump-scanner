@@ -7047,7 +7047,7 @@
     "confirmed": false
   },
   "Awch9PiL7nwQqKNjXHzJd1KvTkFtauVqQDSjdUTqe28n": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Azure",
@@ -7068,6 +7068,11 @@
         "symbol": "Republicans",
         "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
         "entryTime": "2026-04-16T01:05:55.127Z"
+      },
+      {
+        "symbol": "RFK",
+        "pairAddress": "4sK21Pg46xb16fuPA4V8itAw8nzguKwsUgovEDc2PWSw",
+        "entryTime": "2026-04-16T03:14:49.428Z"
       }
     ],
     "wins": 0,
@@ -7075,7 +7080,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:48:40.144Z",
-    "lastSeen": "2026-04-16T01:05:55.127Z",
+    "lastSeen": "2026-04-16T03:14:49.428Z",
     "confirmed": true
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
