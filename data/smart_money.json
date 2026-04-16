@@ -6612,7 +6612,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "niggunc",
@@ -6643,6 +6643,11 @@
         "symbol": "LOLCAT",
         "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
         "entryTime": "2026-04-16T02:35:07.219Z"
+      },
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T04:06:31.972Z"
       }
     ],
     "wins": 0,
@@ -6650,7 +6655,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:56:28.526Z",
-    "lastSeen": "2026-04-16T02:35:07.219Z",
+    "lastSeen": "2026-04-16T04:06:31.972Z",
     "confirmed": true
   },
   "CWyozqSyM4p9qcSKNkBc2w5365NjbyPGffWYhWtNRTg9": {
@@ -31509,6 +31514,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T04:05:56.894Z",
     "lastSeen": "2026-04-16T04:05:56.894Z",
+    "confirmed": false
+  },
+  "AmyQtiy5esQBwwWCFeE52SYati9SYsoX8eCCmgJwFtzt": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T04:06:31.972Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T04:06:31.972Z",
+    "lastSeen": "2026-04-16T04:06:31.972Z",
     "confirmed": false
   }
 }
