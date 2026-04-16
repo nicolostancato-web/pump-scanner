@@ -2924,12 +2924,17 @@
     "confirmed": false
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "cunt",
         "pairAddress": "9FXt3bt9yUSSjzUzouEVmvQK1A9xd2SVD9bYhtr3GTL",
         "entryTime": "2026-04-16T09:43:18.956Z"
+      },
+      {
+        "symbol": "ACTU",
+        "pairAddress": "GUcWN8PJvu5XvFaGyd5H2TsqwRc8cBLP19T3wLEY5VgW",
+        "entryTime": "2026-04-16T16:55:30.565Z"
       }
     ],
     "wins": 0,
@@ -2937,7 +2942,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:43:18.956Z",
-    "lastSeen": "2026-04-16T09:43:18.956Z",
+    "lastSeen": "2026-04-16T16:55:30.565Z",
     "confirmed": false
   },
   "ArBA13STtyQzLc4HnwuBFvjRWgS5mGeKFCBHPxKmp6zk": {
