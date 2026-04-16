@@ -2795,7 +2795,7 @@
     "confirmed": false
   },
   "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "cunt",
@@ -2806,6 +2806,11 @@
         "symbol": "YOLO",
         "pairAddress": "LYLthRLjPU8ZRSfjArMtcdeaidfxoJsmCiaZgSANEqV",
         "entryTime": "2026-04-16T11:44:28.752Z"
+      },
+      {
+        "symbol": "income",
+        "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
+        "entryTime": "2026-04-16T18:35:17.604Z"
       }
     ],
     "wins": 0,
@@ -2813,8 +2818,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:34:47.959Z",
-    "lastSeen": "2026-04-16T11:44:28.752Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T18:35:17.604Z",
+    "confirmed": true
   },
   "9fasCqz4yRErTZPEWBUuoYoKZzzSziEGSjAjnj1YHoGh": {
     "appearances": 1,
