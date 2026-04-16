@@ -5337,12 +5337,17 @@
     "confirmed": false
   },
   "4cruXTMUAtGyFaDSYLxrfRzqD2AddazscUoqDQ6hZLG2": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "nep",
         "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
         "entryTime": "2026-04-16T11:12:28.996Z"
+      },
+      {
+        "symbol": "coin.ai",
+        "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
+        "entryTime": "2026-04-16T14:09:56.869Z"
       }
     ],
     "wins": 0,
@@ -5350,7 +5355,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T11:12:28.996Z",
-    "lastSeen": "2026-04-16T11:12:28.996Z",
+    "lastSeen": "2026-04-16T14:09:56.869Z",
     "confirmed": false
   },
   "BXFZ5NwQVoLJCBB1XcandwnamQbD47hsk227w5Xo6srF": {
