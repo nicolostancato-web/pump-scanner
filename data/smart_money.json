@@ -10744,12 +10744,17 @@
     "confirmed": false
   },
   "2fHT9wBhywYonsanbhBz3drj7eizbTDNUVh71X5o13JD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Pope",
         "pairAddress": "7hRzhTzXPkMDwA8ymCrnA2rpS1L2y18CpqbJK1TCH4b2",
         "entryTime": "2026-04-16T15:01:39.001Z"
+      },
+      {
+        "symbol": "S◎Lmates",
+        "pairAddress": "BExYYmPQeVpToCjgGMLWNJsFx7cyRbNvQmpStcQeu264",
+        "entryTime": "2026-04-16T20:29:54.315Z"
       }
     ],
     "wins": 0,
@@ -10757,7 +10762,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T15:01:39.001Z",
-    "lastSeen": "2026-04-16T15:01:39.001Z",
+    "lastSeen": "2026-04-16T20:29:54.315Z",
     "confirmed": false
   },
   "7iZcpYwoK31X9ZHHRW5BGbPLKQbAx1M4uXt27kioNkwg": {
@@ -16959,6 +16964,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T20:29:13.389Z",
     "lastSeen": "2026-04-16T20:29:13.389Z",
+    "confirmed": false
+  },
+  "EPzrZMVwdDTANGjPNwXPNwg4cvAAh2Vg3A64X7yG1EUV": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "S◎Lmates",
+        "pairAddress": "BExYYmPQeVpToCjgGMLWNJsFx7cyRbNvQmpStcQeu264",
+        "entryTime": "2026-04-16T20:29:54.315Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T20:29:54.315Z",
+    "lastSeen": "2026-04-16T20:29:54.315Z",
     "confirmed": false
   }
 }
