@@ -6378,5 +6378,22 @@
     "firstSeen": "2026-04-16T11:44:28.752Z",
     "lastSeen": "2026-04-16T11:44:28.752Z",
     "confirmed": false
+  },
+  "CHP1hQSfo9yVZKLoHj8RpL5rdnz5WzLUYHQQe47RcjEo": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "YOLO",
+        "pairAddress": "LYLthRLjPU8ZRSfjArMtcdeaidfxoJsmCiaZgSANEqV",
+        "entryTime": "2026-04-16T11:45:02.889Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T11:45:02.889Z",
+    "lastSeen": "2026-04-16T11:45:02.889Z",
+    "confirmed": false
   }
 }
