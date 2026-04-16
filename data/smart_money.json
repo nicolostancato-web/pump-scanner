@@ -2038,12 +2038,17 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "mexicunc",
         "pairAddress": "CZLsBMRQDA9DjRbUbrd2sDLHvgWQ8TwoTbbDRvUp3wiV",
         "entryTime": "2026-04-16T09:08:52.453Z"
+      },
+      {
+        "symbol": "cunt",
+        "pairAddress": "9FXt3bt9yUSSjzUzouEVmvQK1A9xd2SVD9bYhtr3GTL",
+        "entryTime": "2026-04-16T10:09:13.954Z"
       }
     ],
     "wins": 0,
@@ -2051,7 +2056,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:08:52.453Z",
-    "lastSeen": "2026-04-16T09:08:52.453Z",
+    "lastSeen": "2026-04-16T10:09:13.954Z",
     "confirmed": false
   },
   "ERrywqPL3gNdFkX4EmdXgNARwHHcGvjJWYh1ongFXb3S": {
@@ -3327,6 +3332,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:06:21.975Z",
     "lastSeen": "2026-04-16T10:06:21.975Z",
+    "confirmed": false
+  },
+  "4Gjdbs97L8ZpkvpsgkCanYRbYwVeBGRb4zXhcC6Nygwp": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "cunt",
+        "pairAddress": "9FXt3bt9yUSSjzUzouEVmvQK1A9xd2SVD9bYhtr3GTL",
+        "entryTime": "2026-04-16T10:09:13.954Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T10:09:13.954Z",
+    "lastSeen": "2026-04-16T10:09:13.954Z",
+    "confirmed": false
+  },
+  "Fv9ViPTjfWAgiA9tF5gkrwjodytSh2qMhfu8S2bMrvr1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "cunt",
+        "pairAddress": "9FXt3bt9yUSSjzUzouEVmvQK1A9xd2SVD9bYhtr3GTL",
+        "entryTime": "2026-04-16T10:09:13.954Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T10:09:13.954Z",
+    "lastSeen": "2026-04-16T10:09:13.954Z",
+    "confirmed": false
+  },
+  "6UXR3qtr9NvRDDCQxfR67q7a2Kz28ewLUi9R13PgjYsw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "cunt",
+        "pairAddress": "9FXt3bt9yUSSjzUzouEVmvQK1A9xd2SVD9bYhtr3GTL",
+        "entryTime": "2026-04-16T10:09:13.954Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T10:09:13.954Z",
+    "lastSeen": "2026-04-16T10:09:13.954Z",
     "confirmed": false
   }
 }
