@@ -6972,7 +6972,7 @@
     "confirmed": false
   },
   "Awch9PiL7nwQqKNjXHzJd1KvTkFtauVqQDSjdUTqe28n": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Azure",
@@ -6988,6 +6988,11 @@
         "symbol": "MARVIN",
         "pairAddress": "7ZgDJx7uTXFXuG7wdEoAhAaA2z14NmddA7Go1gLu43qR",
         "entryTime": "2026-04-16T00:27:42.542Z"
+      },
+      {
+        "symbol": "Republicans",
+        "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
+        "entryTime": "2026-04-16T01:05:55.127Z"
       }
     ],
     "wins": 0,
@@ -6995,7 +7000,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:48:40.144Z",
-    "lastSeen": "2026-04-16T00:27:42.542Z",
+    "lastSeen": "2026-04-16T01:05:55.127Z",
     "confirmed": true
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
