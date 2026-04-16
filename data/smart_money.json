@@ -831,7 +831,7 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -862,6 +862,11 @@
         "symbol": "Republicans",
         "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
         "entryTime": "2026-04-16T01:14:43.785Z"
+      },
+      {
+        "symbol": "monkey",
+        "pairAddress": "6FwSkpNduhFLwScqWQpKWuZyy9kJjY9ktxpXNANkPYDj",
+        "entryTime": "2026-04-16T03:38:50.444Z"
       }
     ],
     "wins": 0,
@@ -869,7 +874,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:27:37.497Z",
-    "lastSeen": "2026-04-16T01:14:43.785Z",
+    "lastSeen": "2026-04-16T03:38:50.444Z",
     "confirmed": true
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
