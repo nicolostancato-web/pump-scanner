@@ -15631,7 +15631,7 @@
     "confirmed": false
   },
   "Aceu1hasWohYv1aQfzZWLAY8MGdQNAF2tFbSKqXLXBSS": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "PND",
@@ -15642,6 +15642,11 @@
         "symbol": "DOGE",
         "pairAddress": "AU1X9xu3zeQBDqEfsMvHpkxVk8PTqAo84THNsJ7eT3Qg",
         "entryTime": "2026-04-16T20:41:41.817Z"
+      },
+      {
+        "symbol": "bro",
+        "pairAddress": "5mFdmSGqDR9TaYpVnJ84iZpDDvWBuLn3nFLMNUJc8f3u",
+        "entryTime": "2026-04-16T22:54:13.079Z"
       }
     ],
     "wins": 0,
@@ -15649,8 +15654,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:27:15.838Z",
-    "lastSeen": "2026-04-16T20:41:41.817Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T22:54:13.079Z",
+    "confirmed": true
   },
   "nonofjCpDeEbRWnA82HENffi74FEGo4XTn41v2XWiJh": {
     "appearances": 2,
