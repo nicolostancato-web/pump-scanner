@@ -12059,7 +12059,7 @@
     "confirmed": false
   },
   "6ogJ3VFREMqDX4HWCL5k9QjtZbxjKp7eXJPE8vUma2Ks": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Pope",
@@ -12070,6 +12070,11 @@
         "symbol": "Hyrax",
         "pairAddress": "CDtSSHyt3vYoT75zdaiB4K9vk2VRodLDevMLKHQ1HrZS",
         "entryTime": "2026-04-16T16:16:39.240Z"
+      },
+      {
+        "symbol": "PND",
+        "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
+        "entryTime": "2026-04-16T18:20:49.937Z"
       }
     ],
     "wins": 0,
@@ -12077,8 +12082,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T15:50:58.098Z",
-    "lastSeen": "2026-04-16T16:16:39.240Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T18:20:49.937Z",
+    "confirmed": true
   },
   "GuSXbGv88Q5wr37D6EF9g9vFQeg5tcbGCXxv3yaoMbHe": {
     "appearances": 1,
@@ -15053,6 +15058,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:20:15.846Z",
     "lastSeen": "2026-04-16T18:20:15.846Z",
+    "confirmed": false
+  },
+  "Atp38ntYUi9kZp3WNd1K2Los6tkUkTkbMhDkTrxeyzxc": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PND",
+        "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
+        "entryTime": "2026-04-16T18:20:49.937Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T18:20:49.937Z",
+    "lastSeen": "2026-04-16T18:20:49.937Z",
     "confirmed": false
   }
 }
