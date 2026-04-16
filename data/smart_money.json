@@ -2874,12 +2874,17 @@
     "confirmed": false
   },
   "HhAVdeD8BCMjZ7R3FS1rZHTbgCAKNLKqHgRgmGEyRVks": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Namduong",
         "pairAddress": "BvAEDEiDSFJdiZBQVzWKkqyiV3DtwttyBQihqjyYatWX",
         "entryTime": "2026-04-15T09:05:22.916Z"
+      },
+      {
+        "symbol": "7y68979fyg",
+        "pairAddress": "2bW7Pv2XSyNqq1874aEVwEni6aEEHvRWqbVXAnmLvR4y",
+        "entryTime": "2026-04-16T04:16:04.738Z"
       }
     ],
     "wins": 0,
@@ -2887,7 +2892,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T09:05:22.916Z",
-    "lastSeen": "2026-04-15T09:05:22.916Z",
+    "lastSeen": "2026-04-16T04:16:04.738Z",
     "confirmed": false
   },
   "BLa2pZk4rWzDgVFSqCWUxQw9SzEpBsA66KwF7k3ucUyn": {
@@ -18053,7 +18058,7 @@
     "confirmed": false
   },
   "EGG91JKvJj6reUNnqDY6eudGSb8zMoh5JEqdtHZkeB2c": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "AI",
@@ -18064,6 +18069,11 @@
         "symbol": "S&P500",
         "pairAddress": "9X6DhWLnmpY32qLMvSMzNrfwNNCq8YeLCk2MBuFTywwR",
         "entryTime": "2026-04-15T17:16:07.959Z"
+      },
+      {
+        "symbol": "7y68979fyg",
+        "pairAddress": "2bW7Pv2XSyNqq1874aEVwEni6aEEHvRWqbVXAnmLvR4y",
+        "entryTime": "2026-04-16T04:16:04.738Z"
       }
     ],
     "wins": 0,
@@ -18071,8 +18081,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T16:53:20.806Z",
-    "lastSeen": "2026-04-15T17:16:07.959Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T04:16:04.738Z",
+    "confirmed": true
   },
   "7m3t4NibB6TKkWYLEGiUCmWM7We76euAhFiTZjan4Xsp": {
     "appearances": 1,
