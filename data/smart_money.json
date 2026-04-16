@@ -2786,7 +2786,7 @@
     "confirmed": false
   },
   "Cr6v6hzmEGhxEHUiVtQRuVTj65cGRzhmKZ6mru8ARY1r": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "cunt",
@@ -2797,6 +2797,11 @@
         "symbol": "coin.ai",
         "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
         "entryTime": "2026-04-16T14:08:49.244Z"
+      },
+      {
+        "symbol": "SOYJAK",
+        "pairAddress": "GmetXHWRtedHMZzu9QfX4faThfYhkxkK2v9FWq7fxdPL",
+        "entryTime": "2026-04-16T14:29:03.879Z"
       }
     ],
     "wins": 0,
@@ -2804,8 +2809,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:37:51.210Z",
-    "lastSeen": "2026-04-16T14:08:49.244Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T14:29:03.879Z",
+    "confirmed": true
   },
   "CSgKbSTFNyf2oUvySASR4APiW5G41z4TCxhwqB1STenz": {
     "appearances": 1,
