@@ -9552,12 +9552,17 @@
     "confirmed": false
   },
   "7V3EARA5CuL62c6kvXg8Whkp5ojmeSTQ8cDYMwneRPEU": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOYJAK",
         "pairAddress": "GmetXHWRtedHMZzu9QfX4faThfYhkxkK2v9FWq7fxdPL",
         "entryTime": "2026-04-16T14:29:46.707Z"
+      },
+      {
+        "symbol": "ACTU",
+        "pairAddress": "GUcWN8PJvu5XvFaGyd5H2TsqwRc8cBLP19T3wLEY5VgW",
+        "entryTime": "2026-04-16T16:48:25.539Z"
       }
     ],
     "wins": 0,
@@ -9565,7 +9570,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:29:46.707Z",
-    "lastSeen": "2026-04-16T14:29:46.707Z",
+    "lastSeen": "2026-04-16T16:48:25.539Z",
     "confirmed": false
   },
   "HN89PeoNQANfWWqosYVAyaL4buA4sM2529KJrZR26Z3c": {
