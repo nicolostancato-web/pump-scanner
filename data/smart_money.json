@@ -14157,5 +14157,22 @@
     "firstSeen": "2026-04-16T17:45:48.179Z",
     "lastSeen": "2026-04-16T17:45:48.179Z",
     "confirmed": false
+  },
+  "4viNBB4cyJxngMWkcnBbMaBmNUq2Q7JMw1t6tjY5tYfu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "dug",
+        "pairAddress": "FWMfTZoUprGJ6NFJxNNmpqedBGnYnFPR12FRQJMgXJQP",
+        "entryTime": "2026-04-16T17:46:21.570Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T17:46:21.570Z",
+    "lastSeen": "2026-04-16T17:46:21.570Z",
+    "confirmed": false
   }
 }
