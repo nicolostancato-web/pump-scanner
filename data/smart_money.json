@@ -1596,7 +1596,7 @@
     "confirmed": false
   },
   "4MGEgHqkHA9suyKUidYU91vojPDdyULTVrtuMUSsUofg": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -1607,6 +1607,11 @@
         "symbol": "uncsheikh",
         "pairAddress": "FfKZfub5KigMvoVkAhwWVL5fTbB7TnkxvTsUhbvxESh1",
         "entryTime": "2026-04-15T12:23:46.910Z"
+      },
+      {
+        "symbol": "jjaemu",
+        "pairAddress": "BnRxRswhcES8Ss8Aj9HpUS4QS7LUGn7dvVhKecFxAYVR",
+        "entryTime": "2026-04-16T07:38:08.798Z"
       }
     ],
     "wins": 0,
@@ -1614,8 +1619,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:42:15.073Z",
-    "lastSeen": "2026-04-15T12:23:46.910Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T07:38:08.798Z",
+    "confirmed": true
   },
   "7KjC6pHMA3wjxnnTV5nGspGwTQm6TJjZTGLNi7wMWwo8": {
     "appearances": 1,
@@ -36649,6 +36654,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T07:37:35.185Z",
     "lastSeen": "2026-04-16T07:37:35.185Z",
+    "confirmed": false
+  },
+  "HHtHfXJVvLjia7SjXtGbkioebpYknETFS1AvA7VrL5f1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "jjaemu",
+        "pairAddress": "BnRxRswhcES8Ss8Aj9HpUS4QS7LUGn7dvVhKecFxAYVR",
+        "entryTime": "2026-04-16T07:38:08.798Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T07:38:08.798Z",
+    "lastSeen": "2026-04-16T07:38:08.798Z",
     "confirmed": false
   }
 }
