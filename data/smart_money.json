@@ -13205,12 +13205,17 @@
     "confirmed": false
   },
   "G8Sm1a8XDuhwU7xE1mix1ejt6byYnaooTJdHpjzzE337": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Hyrax",
         "pairAddress": "CDtSSHyt3vYoT75zdaiB4K9vk2VRodLDevMLKHQ1HrZS",
         "entryTime": "2026-04-16T16:25:08.210Z"
+      },
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:43:24.146Z"
       }
     ],
     "wins": 0,
@@ -13218,7 +13223,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T16:25:08.210Z",
-    "lastSeen": "2026-04-16T16:25:08.210Z",
+    "lastSeen": "2026-04-16T22:43:24.146Z",
     "confirmed": false
   },
   "CnGDVG6qB1GbYFBVJJFBvoV1UtAyvniqX2jy52KiKgSr": {
@@ -14911,12 +14916,17 @@
     "confirmed": false
   },
   "7az7tZcVDPnBCQgdKRH9eMEfDrAb8txkXb9ARSKk6G7X": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PND",
         "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
         "entryTime": "2026-04-16T18:11:36.824Z"
+      },
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:43:24.146Z"
       }
     ],
     "wins": 0,
@@ -14924,7 +14934,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:11:36.824Z",
-    "lastSeen": "2026-04-16T18:11:36.824Z",
+    "lastSeen": "2026-04-16T22:43:24.146Z",
     "confirmed": false
   },
   "8H1yLTVvZCCxgsaYTwAhQnZCs3mReK7SkgSnNvaVTqfy": {
