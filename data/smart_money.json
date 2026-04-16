@@ -11633,12 +11633,17 @@
     "confirmed": false
   },
   "2VVFbdf6RVcKNxMHtcBwskLwoKAEAqnHpNzWTGepyV7N": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Pope",
         "pairAddress": "7hRzhTzXPkMDwA8ymCrnA2rpS1L2y18CpqbJK1TCH4b2",
         "entryTime": "2026-04-16T15:23:38.135Z"
+      },
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:34:16.140Z"
       }
     ],
     "wins": 0,
@@ -11646,7 +11651,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T15:23:38.135Z",
-    "lastSeen": "2026-04-16T15:23:38.135Z",
+    "lastSeen": "2026-04-16T22:34:16.140Z",
     "confirmed": false
   },
   "22GdbKLfiKTeuXCQaV9t7Xb1947FQLCKTwigcRasMxDY": {
