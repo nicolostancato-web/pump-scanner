@@ -3904,5 +3904,22 @@
     "firstSeen": "2026-04-16T10:23:54.717Z",
     "lastSeen": "2026-04-16T10:23:54.717Z",
     "confirmed": false
+  },
+  "6SSU1ebFBZxAL8ktWrSCjuhvf1t6m6D4xumHHNfoBfgm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "cuz",
+        "pairAddress": "6w3ih7fjgqUPwGJzV1e8eFYG4bXLfXomuWrPHPMqyjhN",
+        "entryTime": "2026-04-16T10:24:27.860Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T10:24:27.860Z",
+    "lastSeen": "2026-04-16T10:24:27.860Z",
+    "confirmed": false
   }
 }
