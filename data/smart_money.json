@@ -4067,7 +4067,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "cuz",
@@ -4083,6 +4083,11 @@
         "symbol": "coin.ai",
         "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
         "entryTime": "2026-04-16T14:11:10.666Z"
+      },
+      {
+        "symbol": "CLI",
+        "pairAddress": "FNTVFY7wi6ZLcXWs6RiF8YAKJ6M4C1PDdTemddRfbd9Q",
+        "entryTime": "2026-04-16T14:20:17.822Z"
       }
     ],
     "wins": 0,
@@ -4090,7 +4095,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:25:41.059Z",
-    "lastSeen": "2026-04-16T14:11:10.666Z",
+    "lastSeen": "2026-04-16T14:20:17.822Z",
     "confirmed": true
   },
   "8a6MmbYU8eyR3dFofvVj54XcrYt9CuxSanuH4S967AMj": {
