@@ -417,7 +417,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -463,6 +463,11 @@
         "symbol": "Republicans",
         "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
         "entryTime": "2026-04-16T00:50:55.071Z"
+      },
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T04:13:27.099Z"
       }
     ],
     "wins": 0,
@@ -470,7 +475,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:19:21.580Z",
-    "lastSeen": "2026-04-16T00:50:55.071Z",
+    "lastSeen": "2026-04-16T04:13:27.099Z",
     "confirmed": true
   },
   "8L2y55D11k63CAftvW7uMM2mBhtMxLoLnivG9uY2bt8j": {
@@ -27746,12 +27751,17 @@
     "confirmed": false
   },
   "AexoQ39n73UiPVQiZjbGPh5Pb7WESsNY477vNEbJsHbq": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "LOLCAT",
         "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
         "entryTime": "2026-04-16T01:57:12.989Z"
+      },
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T04:13:27.099Z"
       }
     ],
     "wins": 0,
@@ -27759,7 +27769,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T01:57:12.989Z",
-    "lastSeen": "2026-04-16T01:57:12.989Z",
+    "lastSeen": "2026-04-16T04:13:27.099Z",
     "confirmed": false
   },
   "94rHM9zuP1SmWyp2f3GWpUsZDXdoz9gHuGK2fxzX5xPG": {
