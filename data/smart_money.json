@@ -7187,7 +7187,7 @@
     "confirmed": false
   },
   "Awch9PiL7nwQqKNjXHzJd1KvTkFtauVqQDSjdUTqe28n": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Azure",
@@ -7218,6 +7218,11 @@
         "symbol": "monkey",
         "pairAddress": "6FwSkpNduhFLwScqWQpKWuZyy9kJjY9ktxpXNANkPYDj",
         "entryTime": "2026-04-16T03:25:06.546Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T05:26:33.308Z"
       }
     ],
     "wins": 0,
@@ -7225,7 +7230,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:48:40.144Z",
-    "lastSeen": "2026-04-16T03:25:06.546Z",
+    "lastSeen": "2026-04-16T05:26:33.308Z",
     "confirmed": true
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
