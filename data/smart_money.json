@@ -17075,12 +17075,17 @@
     "confirmed": false
   },
   "5uQLBgN9SzL2hPtKJMw1R36cpSWy2Pt2mFruyQaxJeo9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "REPLYGUY",
         "pairAddress": "HJBu8CY6GKCcZ4cVSzpaMXE2f2qTmHb2UR3sC6CkSmuo",
         "entryTime": "2026-04-16T20:26:08.030Z"
+      },
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T23:00:54.670Z"
       }
     ],
     "wins": 0,
@@ -17088,7 +17093,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T20:26:08.030Z",
-    "lastSeen": "2026-04-16T20:26:08.030Z",
+    "lastSeen": "2026-04-16T23:00:54.670Z",
     "confirmed": false
   },
   "5Qb37QC8Z7Zc9NuSi9EndUcbsbpL27M55ThrZdVqGQok": {
