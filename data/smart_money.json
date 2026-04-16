@@ -9615,7 +9615,7 @@
     "confirmed": false
   },
   "Fgej4SPuW282TdrQRfizRHAeRasNqCtAWZizL3jDqMdS": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "CLI",
@@ -9631,6 +9631,11 @@
         "symbol": "WTOR",
         "pairAddress": "GtDATEUisJNjz6NYFTyPMryRNKovUAU7NxVq4eLYCS6S",
         "entryTime": "2026-04-16T17:37:22.456Z"
+      },
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:14:35.496Z"
       }
     ],
     "wins": 0,
@@ -9638,7 +9643,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:17:55.300Z",
-    "lastSeen": "2026-04-16T17:37:22.456Z",
+    "lastSeen": "2026-04-16T22:14:35.496Z",
     "confirmed": true
   },
   "74XGZUpJxvVCUaMkEFHMcqy5J2mEyJjTZgkvwNbUzaXz": {
@@ -20357,6 +20362,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T22:13:34.422Z",
     "lastSeen": "2026-04-16T22:13:34.422Z",
+    "confirmed": false
+  },
+  "99obWvUkWDVWUPMoJTtUjSemv8p62vuFnT89opAv4hL3": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:14:35.496Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T22:14:35.496Z",
+    "lastSeen": "2026-04-16T22:14:35.496Z",
     "confirmed": false
   }
 }
