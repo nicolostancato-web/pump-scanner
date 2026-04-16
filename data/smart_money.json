@@ -571,7 +571,7 @@
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -582,6 +582,11 @@
         "symbol": "cunt",
         "pairAddress": "9FXt3bt9yUSSjzUzouEVmvQK1A9xd2SVD9bYhtr3GTL",
         "entryTime": "2026-04-16T10:10:05.604Z"
+      },
+      {
+        "symbol": "nep",
+        "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
+        "entryTime": "2026-04-16T10:57:19.684Z"
       }
     ],
     "wins": 0,
@@ -589,8 +594,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-16T10:10:05.604Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T10:57:19.684Z",
+    "confirmed": true
   },
   "Cgqq5us7akPoWbSdMb8Jd6tp13cW79XWuuhqBthYnW9D": {
     "appearances": 1,
@@ -4574,6 +4579,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:56:49.574Z",
     "lastSeen": "2026-04-16T10:56:49.574Z",
+    "confirmed": false
+  },
+  "9ia6wN5Jp9J9wfRWMGhpjRtX8H3PBQvp6gYvsrQLo8MF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "nep",
+        "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
+        "entryTime": "2026-04-16T10:57:19.684Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T10:57:19.684Z",
+    "lastSeen": "2026-04-16T10:57:19.684Z",
     "confirmed": false
   }
 }
