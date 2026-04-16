@@ -2512,7 +2512,7 @@
     "confirmed": false
   },
   "8EaPHLRuxu6wUjuD5yHuXMQpCyBXbD2XzGuPyhBPq95a": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -2523,6 +2523,11 @@
         "symbol": "MARVIN",
         "pairAddress": "7ZgDJx7uTXFXuG7wdEoAhAaA2z14NmddA7Go1gLu43qR",
         "entryTime": "2026-04-16T00:28:16.679Z"
+      },
+      {
+        "symbol": "Republicans",
+        "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
+        "entryTime": "2026-04-16T00:51:25.311Z"
       }
     ],
     "wins": 0,
@@ -2530,8 +2535,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:59:46.231Z",
-    "lastSeen": "2026-04-16T00:28:16.679Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T00:51:25.311Z",
+    "confirmed": true
   },
   "CZid7HAXAtu9D2YUZp4BHoQYRg4JDEP9qH2jSUZtNMja": {
     "appearances": 1,
@@ -22772,12 +22777,17 @@
     "confirmed": false
   },
   "CFGu6QkwnCBkVjDUPosktxwd9auZt2Zcmu13Sriv6vT8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "NORMIE",
         "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
         "entryTime": "2026-04-15T20:07:32.502Z"
+      },
+      {
+        "symbol": "Republicans",
+        "pairAddress": "1xJ6quHgi7qLVvxyoWom8rGNwQFR6nKRvs4KrYU47d6",
+        "entryTime": "2026-04-16T00:51:25.311Z"
       }
     ],
     "wins": 0,
@@ -22785,7 +22795,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T20:07:32.502Z",
-    "lastSeen": "2026-04-15T20:07:32.502Z",
+    "lastSeen": "2026-04-16T00:51:25.311Z",
     "confirmed": false
   },
   "9LFiTup5RpWNLgUcDbF87YFHqT9as43AYG8LG39Yj9p3": {
