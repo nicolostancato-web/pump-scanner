@@ -2886,7 +2886,7 @@
     "confirmed": false
   },
   "Cr6v6hzmEGhxEHUiVtQRuVTj65cGRzhmKZ6mru8ARY1r": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "cunt",
@@ -2912,6 +2912,11 @@
         "symbol": "income",
         "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
         "entryTime": "2026-04-16T19:06:16.787Z"
+      },
+      {
+        "symbol": "DOGE",
+        "pairAddress": "AU1X9xu3zeQBDqEfsMvHpkxVk8PTqAo84THNsJ7eT3Qg",
+        "entryTime": "2026-04-16T21:44:54.983Z"
       }
     ],
     "wins": 0,
@@ -2919,7 +2924,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:37:51.210Z",
-    "lastSeen": "2026-04-16T19:06:16.787Z",
+    "lastSeen": "2026-04-16T21:44:54.983Z",
     "confirmed": true
   },
   "CSgKbSTFNyf2oUvySASR4APiW5G41z4TCxhwqB1STenz": {
