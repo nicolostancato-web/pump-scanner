@@ -5857,7 +5857,7 @@
     "confirmed": false
   },
   "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "NPC",
@@ -5883,6 +5883,11 @@
         "symbol": "xBelieve",
         "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
         "entryTime": "2026-04-16T05:22:51.206Z"
+      },
+      {
+        "symbol": "uncpunk",
+        "pairAddress": "568Ty66uDLiRUvxM4RCvM6SoSuWmx5kht2tNJ8PKjTNg",
+        "entryTime": "2026-04-16T07:19:24.448Z"
       }
     ],
     "wins": 0,
@@ -5890,7 +5895,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:29:31.817Z",
-    "lastSeen": "2026-04-16T05:22:51.206Z",
+    "lastSeen": "2026-04-16T07:19:24.448Z",
     "confirmed": true
   },
   "7AT8Xeo1cG12etFJgM1xsKSjxbHJHCNdgkgugn9zwiGt": {
@@ -35909,6 +35914,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T07:18:51.155Z",
     "lastSeen": "2026-04-16T07:18:51.155Z",
+    "confirmed": false
+  },
+  "9SBXCKn7suAoiptP3gu6Uu1rEfP3rXTP4kJb2McHqZib": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "uncpunk",
+        "pairAddress": "568Ty66uDLiRUvxM4RCvM6SoSuWmx5kht2tNJ8PKjTNg",
+        "entryTime": "2026-04-16T07:19:24.448Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T07:19:24.448Z",
+    "lastSeen": "2026-04-16T07:19:24.448Z",
     "confirmed": false
   }
 }
