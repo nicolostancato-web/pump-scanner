@@ -5377,5 +5377,22 @@
     "firstSeen": "2026-04-16T11:14:21.140Z",
     "lastSeen": "2026-04-16T11:14:21.140Z",
     "confirmed": false
+  },
+  "2hmZrzwT1DxFGZqYVYnTnpnyGyQTfxXUkuCR4qBm4dJG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "nep",
+        "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
+        "entryTime": "2026-04-16T11:16:58.207Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T11:16:58.207Z",
+    "lastSeen": "2026-04-16T11:16:58.207Z",
+    "confirmed": false
   }
 }
