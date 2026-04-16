@@ -20307,7 +20307,7 @@
     "confirmed": false
   },
   "Sirius6CrwpvKKokCejugLfjyUcqVPZawScz6DqxWjA": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "pump",
@@ -20323,6 +20323,11 @@
         "symbol": "unt",
         "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
         "entryTime": "2026-04-16T04:54:37.489Z"
+      },
+      {
+        "symbol": "jjaemu",
+        "pairAddress": "BnRxRswhcES8Ss8Aj9HpUS4QS7LUGn7dvVhKecFxAYVR",
+        "entryTime": "2026-04-16T07:36:59.417Z"
       }
     ],
     "wins": 0,
@@ -20330,7 +20335,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T18:06:23.118Z",
-    "lastSeen": "2026-04-16T04:54:37.489Z",
+    "lastSeen": "2026-04-16T07:36:59.417Z",
     "confirmed": true
   },
   "9edCgkECHPCQLXTsTSqRDgCmPsSxaT8qn2fgxEhBUpXK": {
@@ -36605,6 +36610,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T07:36:25.269Z",
     "lastSeen": "2026-04-16T07:36:25.269Z",
+    "confirmed": false
+  },
+  "AbZzp19tXezhaXmoxAayX5K82g2rW5vCDXTVxyncz8Rq": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "jjaemu",
+        "pairAddress": "BnRxRswhcES8Ss8Aj9HpUS4QS7LUGn7dvVhKecFxAYVR",
+        "entryTime": "2026-04-16T07:36:59.417Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T07:36:59.417Z",
+    "lastSeen": "2026-04-16T07:36:59.417Z",
     "confirmed": false
   }
 }
