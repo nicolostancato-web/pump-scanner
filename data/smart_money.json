@@ -8934,12 +8934,17 @@
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "coin.ai",
         "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
         "entryTime": "2026-04-16T14:06:59.501Z"
+      },
+      {
+        "symbol": "ACTU",
+        "pairAddress": "GUcWN8PJvu5XvFaGyd5H2TsqwRc8cBLP19T3wLEY5VgW",
+        "entryTime": "2026-04-16T16:31:23.987Z"
       }
     ],
     "wins": 0,
@@ -8947,7 +8952,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:06:59.501Z",
-    "lastSeen": "2026-04-16T14:06:59.501Z",
+    "lastSeen": "2026-04-16T16:31:23.987Z",
     "confirmed": false
   },
   "3JBq2H8XxxMRjU3gx9i2s4EBCqMfy6TuHyH2ZfU1hiQa": {
@@ -13121,6 +13126,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T16:29:54.734Z",
     "lastSeen": "2026-04-16T16:29:54.734Z",
+    "confirmed": false
+  },
+  "9KsC5PBseC7UcjeCkEJ8g8zfeyf3zYBcE5FUbqEiu5ok": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ACTU",
+        "pairAddress": "GUcWN8PJvu5XvFaGyd5H2TsqwRc8cBLP19T3wLEY5VgW",
+        "entryTime": "2026-04-16T16:31:23.987Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T16:31:23.987Z",
+    "lastSeen": "2026-04-16T16:31:23.987Z",
     "confirmed": false
   }
 }
