@@ -19522,12 +19522,17 @@
     "confirmed": false
   },
   "GAKjtJeQh8gkdtPzDoYZzAZS1GauEvwmHTfPT6GiAEm6": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Chad",
         "pairAddress": "FTmQ83ai7JqPqhA7RSnd8DRK33ukHxh2hRuMnBS2tzeW",
         "entryTime": "2026-04-15T17:40:41.753Z"
+      },
+      {
+        "symbol": "xBelieve",
+        "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
+        "entryTime": "2026-04-16T06:16:55.791Z"
       }
     ],
     "wins": 0,
@@ -19535,7 +19540,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T17:40:41.753Z",
-    "lastSeen": "2026-04-15T17:40:41.753Z",
+    "lastSeen": "2026-04-16T06:16:55.791Z",
     "confirmed": false
   },
   "8kAck9M3EHBWcGCjzFt1SRCkhamJumGU64sSiewDbHN3": {
