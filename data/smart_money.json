@@ -8025,7 +8025,7 @@
     "confirmed": false
   },
   "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "BGF",
@@ -8041,6 +8041,11 @@
         "symbol": "Pope",
         "pairAddress": "7hRzhTzXPkMDwA8ymCrnA2rpS1L2y18CpqbJK1TCH4b2",
         "entryTime": "2026-04-16T15:13:00.737Z"
+      },
+      {
+        "symbol": "WTOR",
+        "pairAddress": "GtDATEUisJNjz6NYFTyPMryRNKovUAU7NxVq4eLYCS6S",
+        "entryTime": "2026-04-16T17:40:10.418Z"
       }
     ],
     "wins": 0,
@@ -8048,7 +8053,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T13:46:08.879Z",
-    "lastSeen": "2026-04-16T15:13:00.737Z",
+    "lastSeen": "2026-04-16T17:40:10.418Z",
     "confirmed": true
   },
   "9W8FutrPbumE8XYUz1zuuA2ww8gp8CA51C77G99F3Ukk": {
@@ -13988,6 +13993,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:37:22.456Z",
     "lastSeen": "2026-04-16T17:37:22.456Z",
+    "confirmed": false
+  },
+  "EZ4SCntoEHhXRCbszeDdYUCRbRBtaeTriLpaowJDVuGd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WTOR",
+        "pairAddress": "GtDATEUisJNjz6NYFTyPMryRNKovUAU7NxVq4eLYCS6S",
+        "entryTime": "2026-04-16T17:40:10.418Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T17:40:10.418Z",
+    "lastSeen": "2026-04-16T17:40:10.418Z",
     "confirmed": false
   }
 }
