@@ -35932,5 +35932,22 @@
     "firstSeen": "2026-04-16T07:19:24.448Z",
     "lastSeen": "2026-04-16T07:19:24.448Z",
     "confirmed": false
+  },
+  "CSFH2aBVkEEzhKeUZVJHu8kZ6CBWyfw6w88uVs1P2cCm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "uncpunk",
+        "pairAddress": "568Ty66uDLiRUvxM4RCvM6SoSuWmx5kht2tNJ8PKjTNg",
+        "entryTime": "2026-04-16T07:20:03.322Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T07:20:03.322Z",
+    "lastSeen": "2026-04-16T07:20:03.322Z",
+    "confirmed": false
   }
 }
