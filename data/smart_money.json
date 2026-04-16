@@ -2544,12 +2544,17 @@
     "confirmed": false
   },
   "7ztfru1ejJW8hyRb166sggdQY2P6i6K4b1PJMydYyTfD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "mexicunc",
         "pairAddress": "CZLsBMRQDA9DjRbUbrd2sDLHvgWQ8TwoTbbDRvUp3wiV",
         "entryTime": "2026-04-16T09:24:32.577Z"
+      },
+      {
+        "symbol": "Nancy",
+        "pairAddress": "9ccNvaRPh1kK3PpkGPvnmoHqAaU5q3V8CNB2N4etUeww",
+        "entryTime": "2026-04-16T16:32:03.060Z"
       }
     ],
     "wins": 0,
@@ -2557,7 +2562,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:24:32.577Z",
-    "lastSeen": "2026-04-16T09:24:32.577Z",
+    "lastSeen": "2026-04-16T16:32:03.060Z",
     "confirmed": false
   },
   "EsbQNGGYhFNVzaEdVRR1th7dqPv3jdPkrfXVaHzxwP4Q": {
@@ -13143,6 +13148,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T16:31:23.987Z",
     "lastSeen": "2026-04-16T16:31:23.987Z",
+    "confirmed": false
+  },
+  "EGgkmi2EZUoT8ffmhaVQUb5Xck2Ypuym4hgRzqEn1MLS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Nancy",
+        "pairAddress": "9ccNvaRPh1kK3PpkGPvnmoHqAaU5q3V8CNB2N4etUeww",
+        "entryTime": "2026-04-16T16:32:03.060Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T16:32:03.060Z",
+    "lastSeen": "2026-04-16T16:32:03.060Z",
     "confirmed": false
   }
 }
