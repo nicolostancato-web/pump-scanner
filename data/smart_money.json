@@ -3332,7 +3332,7 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "cunt",
@@ -3343,6 +3343,11 @@
         "symbol": "cuz",
         "pairAddress": "6w3ih7fjgqUPwGJzV1e8eFYG4bXLfXomuWrPHPMqyjhN",
         "entryTime": "2026-04-16T10:20:50.412Z"
+      },
+      {
+        "symbol": "Pope",
+        "pairAddress": "7hRzhTzXPkMDwA8ymCrnA2rpS1L2y18CpqbJK1TCH4b2",
+        "entryTime": "2026-04-16T15:20:46.004Z"
       }
     ],
     "wins": 0,
@@ -3350,8 +3355,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:02:42.424Z",
-    "lastSeen": "2026-04-16T10:20:50.412Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T15:20:46.004Z",
+    "confirmed": true
   },
   "AtWrs1XhD8e2zwhNYebnrXGNPKySJZXUDTk7jWN7RTbw": {
     "appearances": 1,
@@ -11099,6 +11104,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T15:18:10.145Z",
     "lastSeen": "2026-04-16T15:18:10.145Z",
+    "confirmed": false
+  },
+  "3pq9HFyivkaydvJTLwPyajokmceFNZQrSThyuoiSs2Kr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Pope",
+        "pairAddress": "7hRzhTzXPkMDwA8ymCrnA2rpS1L2y18CpqbJK1TCH4b2",
+        "entryTime": "2026-04-16T15:20:46.004Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T15:20:46.004Z",
+    "lastSeen": "2026-04-16T15:20:46.004Z",
     "confirmed": false
   }
 }
