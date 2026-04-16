@@ -13232,12 +13232,17 @@
     "confirmed": false
   },
   "CnGDVG6qB1GbYFBVJJFBvoV1UtAyvniqX2jy52KiKgSr": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Hyrax",
         "pairAddress": "CDtSSHyt3vYoT75zdaiB4K9vk2VRodLDevMLKHQ1HrZS",
         "entryTime": "2026-04-16T16:25:08.210Z"
+      },
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:45:06.057Z"
       }
     ],
     "wins": 0,
@@ -13245,7 +13250,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T16:25:08.210Z",
-    "lastSeen": "2026-04-16T16:25:08.210Z",
+    "lastSeen": "2026-04-16T22:45:06.057Z",
     "confirmed": false
   },
   "8nY5oHVkNvBpek38mH8yMLQ2q98X8bNvgFV7F2ra2rDx": {
