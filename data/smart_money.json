@@ -1975,7 +1975,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -2026,6 +2026,11 @@
         "symbol": "unt",
         "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
         "entryTime": "2026-04-16T05:11:12.063Z"
+      },
+      {
+        "symbol": "uncpunk",
+        "pairAddress": "568Ty66uDLiRUvxM4RCvM6SoSuWmx5kht2tNJ8PKjTNg",
+        "entryTime": "2026-04-16T06:50:32.217Z"
       }
     ],
     "wins": 0,
@@ -2033,7 +2038,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:47:48.263Z",
-    "lastSeen": "2026-04-16T05:11:12.063Z",
+    "lastSeen": "2026-04-16T06:50:32.217Z",
     "confirmed": true
   },
   "9iTMM6ga58JsLu5bgfnYjzYMxPPMzB48rQeCt2vT2mr9": {
