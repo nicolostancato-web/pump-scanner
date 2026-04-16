@@ -4800,7 +4800,7 @@
     "confirmed": false
   },
   "4KoH8zJkyiwqN7uySncZkbME5ZmAFttSABaF23wWNBDL": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Namduong",
@@ -4816,6 +4816,11 @@
         "symbol": "PEACE",
         "pairAddress": "DfZRJANvGBirpbbGiHAkBZr2GyqXWfGFJQ3n78rzrMny",
         "entryTime": "2026-04-15T19:02:00.328Z"
+      },
+      {
+        "symbol": "unt",
+        "pairAddress": "14JDGv7GGKXc17ek3WbfYFcjmzeWCboHurszNf9SCq3o",
+        "entryTime": "2026-04-16T04:57:09.535Z"
       }
     ],
     "wins": 0,
@@ -4823,7 +4828,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:00:03.314Z",
-    "lastSeen": "2026-04-15T19:02:00.328Z",
+    "lastSeen": "2026-04-16T04:57:09.535Z",
     "confirmed": true
   },
   "CKWfCpXrLhBu1Le6udEtLJ3hmqYLEJZg3W2XEaH9ZuS7": {
