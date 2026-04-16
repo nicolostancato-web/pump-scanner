@@ -14410,12 +14410,17 @@
     "confirmed": false
   },
   "hnu5iBK8UoHb51UFsH1RYTUAYdrhjHvV5YMTf9T1CYN": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "dug",
         "pairAddress": "FWMfTZoUprGJ6NFJxNNmpqedBGnYnFPR12FRQJMgXJQP",
         "entryTime": "2026-04-16T17:45:14.901Z"
+      },
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:33:09.444Z"
       }
     ],
     "wins": 0,
@@ -14423,7 +14428,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:45:14.901Z",
-    "lastSeen": "2026-04-16T17:45:14.901Z",
+    "lastSeen": "2026-04-16T22:33:09.444Z",
     "confirmed": false
   },
   "AytNxaaTHw4o2AjE4Pk4nKAJv97My8QhJX1yiQ6NpdY6": {
@@ -20873,6 +20878,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T22:32:36.901Z",
     "lastSeen": "2026-04-16T22:32:36.901Z",
+    "confirmed": false
+  },
+  "CWKpGa1nUjWfVHzf2zypCuiy7hAD1Vrbojw55BE3R7B1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SIDELINED",
+        "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
+        "entryTime": "2026-04-16T22:33:09.444Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T22:33:09.444Z",
+    "lastSeen": "2026-04-16T22:33:09.444Z",
     "confirmed": false
   }
 }
