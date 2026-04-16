@@ -6123,7 +6123,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 16,
+    "appearances": 17,
     "tokens": [
       {
         "symbol": "NPC",
@@ -6204,6 +6204,11 @@
         "symbol": "goslunc",
         "pairAddress": "Bd3w6kt6RDBvLnCJkQmJmus5MB48c9ivykjrWNYMVvX4",
         "entryTime": "2026-04-16T06:35:53.107Z"
+      },
+      {
+        "symbol": "jjaemu",
+        "pairAddress": "BnRxRswhcES8Ss8Aj9HpUS4QS7LUGn7dvVhKecFxAYVR",
+        "entryTime": "2026-04-16T07:37:35.185Z"
       }
     ],
     "wins": 0,
@@ -6211,7 +6216,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T10:35:57.332Z",
-    "lastSeen": "2026-04-16T06:35:53.107Z",
+    "lastSeen": "2026-04-16T07:37:35.185Z",
     "confirmed": true
   },
   "Edi7nMMycY3Asn8dPj9vKkpcqAh4kTxvWX6T7vYccprc": {
@@ -36627,6 +36632,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T07:36:59.417Z",
     "lastSeen": "2026-04-16T07:36:59.417Z",
+    "confirmed": false
+  },
+  "3qFPS5MoHB6eq1Vg95qKitQqvPMdXYHv21LD761rF4ei": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "jjaemu",
+        "pairAddress": "BnRxRswhcES8Ss8Aj9HpUS4QS7LUGn7dvVhKecFxAYVR",
+        "entryTime": "2026-04-16T07:37:35.185Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T07:37:35.185Z",
+    "lastSeen": "2026-04-16T07:37:35.185Z",
     "confirmed": false
   }
 }
