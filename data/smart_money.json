@@ -801,7 +801,7 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -822,6 +822,11 @@
         "symbol": "ONEUNC",
         "pairAddress": "HWqHWRwfsq8xSEQj9RF6YLuZUKuJ8qQkxokA6PyTJNp5",
         "entryTime": "2026-04-15T23:34:12.498Z"
+      },
+      {
+        "symbol": "MARVIN",
+        "pairAddress": "7ZgDJx7uTXFXuG7wdEoAhAaA2z14NmddA7Go1gLu43qR",
+        "entryTime": "2026-04-16T00:37:01.430Z"
       }
     ],
     "wins": 0,
@@ -829,7 +834,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:27:37.497Z",
-    "lastSeen": "2026-04-15T23:34:12.498Z",
+    "lastSeen": "2026-04-16T00:37:01.430Z",
     "confirmed": true
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
