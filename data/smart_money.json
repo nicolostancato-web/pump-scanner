@@ -129,7 +129,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -180,6 +180,11 @@
         "symbol": "xBelieve",
         "pairAddress": "9X6Rkx93r5hHGCtQ1yL1raPt412ZFSdc6YABiAoZ3gai",
         "entryTime": "2026-04-16T05:36:11.433Z"
+      },
+      {
+        "symbol": "uncpunk",
+        "pairAddress": "568Ty66uDLiRUvxM4RCvM6SoSuWmx5kht2tNJ8PKjTNg",
+        "entryTime": "2026-04-16T07:24:43.527Z"
       }
     ],
     "wins": 0,
@@ -187,7 +192,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:15:30.724Z",
-    "lastSeen": "2026-04-16T05:36:11.433Z",
+    "lastSeen": "2026-04-16T07:24:43.527Z",
     "confirmed": true
   },
   "3SeeUFYiKQt1MbPJs4vv28dHBTJUD2sJBmXemVQAXsRD": {
