@@ -9495,12 +9495,17 @@
     "confirmed": false
   },
   "44kdzNHg3XTFz4syy5SDVmu4Gy2DDaXZErqqNieMbBFH": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOYJAK",
         "pairAddress": "GmetXHWRtedHMZzu9QfX4faThfYhkxkK2v9FWq7fxdPL",
         "entryTime": "2026-04-16T14:44:53.295Z"
+      },
+      {
+        "symbol": "Phantom",
+        "pairAddress": "HHCJgUEqndKRDzjf2DrCNPCT8rGqaNgmNW8VhdzsRDuZ",
+        "entryTime": "2026-04-16T14:53:43.598Z"
       }
     ],
     "wins": 0,
@@ -9508,7 +9513,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:44:53.295Z",
-    "lastSeen": "2026-04-16T14:44:53.295Z",
+    "lastSeen": "2026-04-16T14:53:43.598Z",
     "confirmed": false
   },
   "DrnuP46qcf7b7utTY9Esm46SwkTFhYu4TrtRGTyvkE67": {
@@ -9968,6 +9973,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:53:08.452Z",
     "lastSeen": "2026-04-16T14:53:08.452Z",
+    "confirmed": false
+  },
+  "8JrrtWwJmJQmn22Qgb8WKFA2o612zGJ15cGXxm8JBdzv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Phantom",
+        "pairAddress": "HHCJgUEqndKRDzjf2DrCNPCT8rGqaNgmNW8VhdzsRDuZ",
+        "entryTime": "2026-04-16T14:53:43.598Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T14:53:43.598Z",
+    "lastSeen": "2026-04-16T14:53:43.598Z",
     "confirmed": false
   }
 }
