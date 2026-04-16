@@ -2905,7 +2905,7 @@
     "confirmed": false
   },
   "8qNuyLmHumocXjnHXA1eFyuqpo6RzFeWdSS6EH6m55PV": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "cunt",
@@ -2916,6 +2916,11 @@
         "symbol": "YOLO",
         "pairAddress": "LYLthRLjPU8ZRSfjArMtcdeaidfxoJsmCiaZgSANEqV",
         "entryTime": "2026-04-16T11:58:16.196Z"
+      },
+      {
+        "symbol": "income",
+        "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
+        "entryTime": "2026-04-16T18:59:20.888Z"
       }
     ],
     "wins": 0,
@@ -2923,8 +2928,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:42:42.460Z",
-    "lastSeen": "2026-04-16T11:58:16.196Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T18:59:20.888Z",
+    "confirmed": true
   },
   "GZ3TfSYi5Cv6ywvPYZvdansestqqcoCAyEA5gCWKdqUf": {
     "appearances": 2,
@@ -16029,6 +16034,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:58:56.913Z",
     "lastSeen": "2026-04-16T18:58:56.913Z",
+    "confirmed": false
+  },
+  "DdEhpBQAHggLtWSgNFhokVQzrXubZ8etH3pyC9bxVhdV": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "income",
+        "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
+        "entryTime": "2026-04-16T18:59:20.888Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T18:59:20.888Z",
+    "lastSeen": "2026-04-16T18:59:20.888Z",
     "confirmed": false
   }
 }
