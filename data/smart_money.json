@@ -9031,12 +9031,17 @@
     "confirmed": false
   },
   "3JBq2H8XxxMRjU3gx9i2s4EBCqMfy6TuHyH2ZfU1hiQa": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "coin.ai",
         "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
         "entryTime": "2026-04-16T14:08:49.244Z"
+      },
+      {
+        "symbol": "WTOR",
+        "pairAddress": "GtDATEUisJNjz6NYFTyPMryRNKovUAU7NxVq4eLYCS6S",
+        "entryTime": "2026-04-16T17:41:31.139Z"
       }
     ],
     "wins": 0,
@@ -9044,7 +9049,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:08:49.244Z",
-    "lastSeen": "2026-04-16T14:08:49.244Z",
+    "lastSeen": "2026-04-16T17:41:31.139Z",
     "confirmed": false
   },
   "6XBdbmuGp2MFP3GX8bgQXkQEHrBg5Z49SLGqcs1iTLtf": {
@@ -14044,6 +14049,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:40:50.916Z",
     "lastSeen": "2026-04-16T17:40:50.916Z",
+    "confirmed": false
+  },
+  "7JToSJ8HPogKARq7mNqtU5XpVo8hZ5avpq33DaEPnREe": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WTOR",
+        "pairAddress": "GtDATEUisJNjz6NYFTyPMryRNKovUAU7NxVq4eLYCS6S",
+        "entryTime": "2026-04-16T17:41:31.139Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T17:41:31.139Z",
+    "lastSeen": "2026-04-16T17:41:31.139Z",
     "confirmed": false
   }
 }
