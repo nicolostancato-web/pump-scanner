@@ -566,12 +566,17 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Pibble",
         "pairAddress": "96HKJYnsfF3rT8GfL1SiLtVL9GvGLPUvSb4brwqAtZYb",
         "entryTime": "2026-04-16T08:44:03.322Z"
+      },
+      {
+        "symbol": "cunt",
+        "pairAddress": "9FXt3bt9yUSSjzUzouEVmvQK1A9xd2SVD9bYhtr3GTL",
+        "entryTime": "2026-04-16T10:10:05.604Z"
       }
     ],
     "wins": 0,
@@ -579,7 +584,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-16T08:44:03.322Z",
+    "lastSeen": "2026-04-16T10:10:05.604Z",
     "confirmed": false
   },
   "Cgqq5us7akPoWbSdMb8Jd6tp13cW79XWuuhqBthYnW9D": {
