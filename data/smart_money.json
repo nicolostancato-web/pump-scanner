@@ -15813,5 +15813,22 @@
     "firstSeen": "2026-04-16T18:39:09.793Z",
     "lastSeen": "2026-04-16T18:39:09.793Z",
     "confirmed": false
+  },
+  "3sLowLGsvTVTaCa7kq7h5fgdBnA2f2ZxyqqADCDzWqay": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PND",
+        "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
+        "entryTime": "2026-04-16T18:39:45.108Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T18:39:45.108Z",
+    "lastSeen": "2026-04-16T18:39:45.108Z",
+    "confirmed": false
   }
 }
