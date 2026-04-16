@@ -23976,12 +23976,17 @@
     "confirmed": false
   },
   "6tvnR6LGwa68gSLiQgTBQbtZKo9bcpKrZWubV1dc1Pg8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MILF",
         "pairAddress": "43aBs3TNHQAF7L9b14RV27rAJ5EAT1hFrgfUT2deWNBb",
         "entryTime": "2026-04-15T22:17:21.596Z"
+      },
+      {
+        "symbol": "LOLCAT",
+        "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
+        "entryTime": "2026-04-16T02:53:29.950Z"
       }
     ],
     "wins": 0,
@@ -23989,7 +23994,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T22:17:21.596Z",
-    "lastSeen": "2026-04-15T22:17:21.596Z",
+    "lastSeen": "2026-04-16T02:53:29.950Z",
     "confirmed": false
   },
   "7bVUthj3TbhrFHM2qGMRs4Nn3eYE6AE8E6DqLpis7Px4": {
