@@ -2492,12 +2492,17 @@
     "confirmed": false
   },
   "8EaPHLRuxu6wUjuD5yHuXMQpCyBXbD2XzGuPyhBPq95a": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Namduong",
         "pairAddress": "BvAEDEiDSFJdiZBQVzWKkqyiV3DtwttyBQihqjyYatWX",
         "entryTime": "2026-04-15T08:59:46.231Z"
+      },
+      {
+        "symbol": "MARVIN",
+        "pairAddress": "7ZgDJx7uTXFXuG7wdEoAhAaA2z14NmddA7Go1gLu43qR",
+        "entryTime": "2026-04-16T00:28:16.679Z"
       }
     ],
     "wins": 0,
@@ -2505,7 +2510,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:59:46.231Z",
-    "lastSeen": "2026-04-15T08:59:46.231Z",
+    "lastSeen": "2026-04-16T00:28:16.679Z",
     "confirmed": false
   },
   "CZid7HAXAtu9D2YUZp4BHoQYRg4JDEP9qH2jSUZtNMja": {
@@ -25034,6 +25039,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T00:18:25.446Z",
     "lastSeen": "2026-04-16T00:18:25.446Z",
+    "confirmed": false
+  },
+  "EspEBppJDkV2jrQvz5Wn3bKBidqr6rEyAQYDMBvePQap": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MARVIN",
+        "pairAddress": "7ZgDJx7uTXFXuG7wdEoAhAaA2z14NmddA7Go1gLu43qR",
+        "entryTime": "2026-04-16T00:28:16.679Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T00:28:16.679Z",
+    "lastSeen": "2026-04-16T00:28:16.679Z",
     "confirmed": false
   }
 }
