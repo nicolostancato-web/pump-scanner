@@ -124,7 +124,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -160,6 +160,11 @@
         "symbol": "pump",
         "pairAddress": "384u1wqaEMFCpTdG16hqcW3She4bn1sMNnTRubWK731E",
         "entryTime": "2026-04-15T18:18:25.674Z"
+      },
+      {
+        "symbol": "LOLCAT",
+        "pairAddress": "7w1uhYW6nqPcbpR76NSQr7VR5andF3DxChZ5BgwpoQms",
+        "entryTime": "2026-04-16T02:23:29.435Z"
       }
     ],
     "wins": 0,
@@ -167,7 +172,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:15:30.724Z",
-    "lastSeen": "2026-04-15T18:18:25.674Z",
+    "lastSeen": "2026-04-16T02:23:29.435Z",
     "confirmed": true
   },
   "3SeeUFYiKQt1MbPJs4vv28dHBTJUD2sJBmXemVQAXsRD": {
