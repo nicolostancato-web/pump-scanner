@@ -2368,7 +2368,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "mexicunc",
@@ -2389,6 +2389,11 @@
         "symbol": "SIDELINED",
         "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
         "entryTime": "2026-04-16T22:14:04.389Z"
+      },
+      {
+        "symbol": "bro",
+        "pairAddress": "5mFdmSGqDR9TaYpVnJ84iZpDDvWBuLn3nFLMNUJc8f3u",
+        "entryTime": "2026-04-16T22:47:44.874Z"
       }
     ],
     "wins": 0,
@@ -2396,7 +2401,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:16:09.822Z",
-    "lastSeen": "2026-04-16T22:14:04.389Z",
+    "lastSeen": "2026-04-16T22:47:44.874Z",
     "confirmed": true
   },
   "4GQHft29J7DvfgkefRYy1HT8EpudUyMnApAUQYU47i5A": {
@@ -21168,6 +21173,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T22:44:05.800Z",
     "lastSeen": "2026-04-16T22:44:05.800Z",
+    "confirmed": false
+  },
+  "4og5Nid9hhePGqrq4SyzPaDzkQXZAwNdyr44mucjhTb7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "bro",
+        "pairAddress": "5mFdmSGqDR9TaYpVnJ84iZpDDvWBuLn3nFLMNUJc8f3u",
+        "entryTime": "2026-04-16T22:47:44.874Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T22:47:44.874Z",
+    "lastSeen": "2026-04-16T22:47:44.874Z",
+    "confirmed": false
+  },
+  "GXecNAvw1wzWoZATM1ki18i8g4PNqkWKGz2kPV4uA5mP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Goose",
+        "pairAddress": "6adwGBC4ZHWKN8KznqtR46iWmJtS8Jv86qyA7J3Hbcxk",
+        "entryTime": "2026-04-16T22:47:44.927Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T22:47:44.927Z",
+    "lastSeen": "2026-04-16T22:47:44.927Z",
+    "confirmed": false
+  },
+  "DvG1Vth4LfwjoetRpaTfqtEhLqtLWwEyFiCUGbAk9NBG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Goose",
+        "pairAddress": "6adwGBC4ZHWKN8KznqtR46iWmJtS8Jv86qyA7J3Hbcxk",
+        "entryTime": "2026-04-16T22:47:44.927Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T22:47:44.927Z",
+    "lastSeen": "2026-04-16T22:47:44.927Z",
     "confirmed": false
   }
 }
