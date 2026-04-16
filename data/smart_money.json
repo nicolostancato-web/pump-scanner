@@ -1778,12 +1778,17 @@
     "confirmed": false
   },
   "ADaox5ogKHbLiuwvsECYqcTMCfFgpb6Jx5bpZC1HfZZn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Namduong",
         "pairAddress": "BvAEDEiDSFJdiZBQVzWKkqyiV3DtwttyBQihqjyYatWX",
         "entryTime": "2026-04-15T08:45:21.195Z"
+      },
+      {
+        "symbol": "goslunc",
+        "pairAddress": "Bd3w6kt6RDBvLnCJkQmJmus5MB48c9ivykjrWNYMVvX4",
+        "entryTime": "2026-04-16T06:34:39.776Z"
       }
     ],
     "wins": 0,
@@ -1791,7 +1796,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T08:45:21.195Z",
-    "lastSeen": "2026-04-15T08:45:21.195Z",
+    "lastSeen": "2026-04-16T06:34:39.776Z",
     "confirmed": false
   },
   "2ZQRK9R98HEcNzfwfSVBkpwS9gfTQEEMeidrHUuZbNNb": {
@@ -33947,6 +33952,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-16T05:23:24.934Z",
     "lastSeen": "2026-04-16T05:23:24.934Z",
+    "confirmed": false
+  },
+  "4kvXUWn9Wn5SYK2rLavBgDcq8pkPziD3iwKT7Ffy1pxp": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "goslunc",
+        "pairAddress": "Bd3w6kt6RDBvLnCJkQmJmus5MB48c9ivykjrWNYMVvX4",
+        "entryTime": "2026-04-16T06:34:39.776Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T06:34:39.776Z",
+    "lastSeen": "2026-04-16T06:34:39.776Z",
+    "confirmed": false
+  },
+  "4yprrDK572xd7ajyKFPgBGKMXaxc8RFZ16mTCnyNgYVn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "goslunc",
+        "pairAddress": "Bd3w6kt6RDBvLnCJkQmJmus5MB48c9ivykjrWNYMVvX4",
+        "entryTime": "2026-04-16T06:34:39.776Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T06:34:39.776Z",
+    "lastSeen": "2026-04-16T06:34:39.776Z",
+    "confirmed": false
+  },
+  "8TJsRfnn7vB4g4P56vD4xezLka3dFzSCdSV3VEpecg8s": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "goslunc",
+        "pairAddress": "Bd3w6kt6RDBvLnCJkQmJmus5MB48c9ivykjrWNYMVvX4",
+        "entryTime": "2026-04-16T06:34:39.776Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-16T06:34:39.776Z",
+    "lastSeen": "2026-04-16T06:34:39.776Z",
     "confirmed": false
   }
 }
