@@ -6887,7 +6887,7 @@
     "confirmed": false
   },
   "Awch9PiL7nwQqKNjXHzJd1KvTkFtauVqQDSjdUTqe28n": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Azure",
@@ -6898,6 +6898,11 @@
         "symbol": "NORMIE",
         "pairAddress": "2DWWbkvtAPSPZfYAgGxswxvJdJ5gzs9PZxEsLzjSchKg",
         "entryTime": "2026-04-15T20:01:22.638Z"
+      },
+      {
+        "symbol": "MARVIN",
+        "pairAddress": "7ZgDJx7uTXFXuG7wdEoAhAaA2z14NmddA7Go1gLu43qR",
+        "entryTime": "2026-04-16T00:27:42.542Z"
       }
     ],
     "wins": 0,
@@ -6905,8 +6910,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-15T11:48:40.144Z",
-    "lastSeen": "2026-04-15T20:01:22.638Z",
-    "confirmed": false
+    "lastSeen": "2026-04-16T00:27:42.542Z",
+    "confirmed": true
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
     "appearances": 3,
