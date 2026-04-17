@@ -34181,12 +34181,17 @@
     "confirmed": false
   },
   "DE2fwHWYM5seJKzTSFxwSqaKmKfqs221WnvAN5MUr4Lo": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "HALLU",
         "pairAddress": "6FoP64ERJJhMjnktSSpUcRFQiyKJLDDHnYcqLGhqK1Kn",
         "entryTime": "2026-04-17T12:08:19.168Z"
+      },
+      {
+        "symbol": "211",
+        "pairAddress": "7jNTQHQW5Nmd6VfHyWazPYpn3NgGXtu213iDEYMEztB6",
+        "entryTime": "2026-04-17T14:15:27.430Z"
       }
     ],
     "wins": 0,
@@ -34194,7 +34199,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T12:08:19.168Z",
-    "lastSeen": "2026-04-17T12:08:19.168Z",
+    "lastSeen": "2026-04-17T14:15:27.430Z",
     "confirmed": false
   },
   "x6vGSrye669WRKcwJBQyrbMZsmqX7Te4pxAHhnKzwEi": {
