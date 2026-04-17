@@ -15650,12 +15650,17 @@
     "confirmed": false
   },
   "Be9F2Yw4WUD1kSHw5C9oSak3mRHCTNvo4Zuo1DaKNDjz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PND",
         "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
         "entryTime": "2026-04-16T18:15:39.834Z"
+      },
+      {
+        "symbol": "XOGE",
+        "pairAddress": "HYMBxgAMemQqfsGxZK8bZxeWLJo2Z9nk98JV7txDiTD1",
+        "entryTime": "2026-04-17T11:51:10.125Z"
       }
     ],
     "wins": 0,
@@ -15663,7 +15668,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:15:39.834Z",
-    "lastSeen": "2026-04-16T18:15:39.834Z",
+    "lastSeen": "2026-04-17T11:51:10.125Z",
     "confirmed": false
   },
   "ELNBEFnubmbWHDYMz1UEQovdTagK4jTjvKcedPA26dDh": {
@@ -33815,6 +33820,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T11:50:36.247Z",
     "lastSeen": "2026-04-17T11:50:36.247Z",
+    "confirmed": false
+  },
+  "14JDJp2zwz4Epc6EtqQHZpw3CXVJ5YaSkST7iEky9kZE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "XOGE",
+        "pairAddress": "HYMBxgAMemQqfsGxZK8bZxeWLJo2Z9nk98JV7txDiTD1",
+        "entryTime": "2026-04-17T11:51:10.125Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T11:51:10.125Z",
+    "lastSeen": "2026-04-17T11:51:10.125Z",
     "confirmed": false
   }
 }
