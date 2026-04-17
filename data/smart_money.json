@@ -17764,12 +17764,17 @@
     "confirmed": false
   },
   "JBzU99LYekSFhThpv4xHWDo4aC9eM1QKHULhio3owv7T": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "REPLYGUY",
         "pairAddress": "HJBu8CY6GKCcZ4cVSzpaMXE2f2qTmHb2UR3sC6CkSmuo",
         "entryTime": "2026-04-16T20:26:41.027Z"
+      },
+      {
+        "symbol": "FAT",
+        "pairAddress": "Ezu5snbdL2GG4cfsinvTGeLb6oP5s2auETC1r9BVEpFq",
+        "entryTime": "2026-04-17T14:41:11.834Z"
       }
     ],
     "wins": 0,
@@ -17777,7 +17782,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T20:26:41.027Z",
-    "lastSeen": "2026-04-16T20:26:41.027Z",
+    "lastSeen": "2026-04-17T14:41:11.834Z",
     "confirmed": false
   },
   "B8LZgH1NKbNbeVrenmT6PuGKhf8KWzQjCSxaH4Ef8U9": {
@@ -36297,6 +36302,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T14:40:38.899Z",
     "lastSeen": "2026-04-17T14:40:38.899Z",
+    "confirmed": false
+  },
+  "9iiAJKVkCu8bby4tKzPuoKpNfytVBVF46AYhBeUSsCG1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FAT",
+        "pairAddress": "Ezu5snbdL2GG4cfsinvTGeLb6oP5s2auETC1r9BVEpFq",
+        "entryTime": "2026-04-17T14:41:11.834Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T14:41:11.834Z",
+    "lastSeen": "2026-04-17T14:41:11.834Z",
     "confirmed": false
   }
 }
