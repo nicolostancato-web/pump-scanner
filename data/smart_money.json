@@ -23419,12 +23419,17 @@
     "confirmed": false
   },
   "6BLeFz6M1Lnz9bXAEZUXKFdxNjFZie7VAEzZaCBHmPgd": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MTV",
         "pairAddress": "AgNobXk85dRMMZceCDsrnZ9ofELjFUXcYAxk48av53Yq",
         "entryTime": "2026-04-17T00:12:02.506Z"
+      },
+      {
+        "symbol": "211",
+        "pairAddress": "7jNTQHQW5Nmd6VfHyWazPYpn3NgGXtu213iDEYMEztB6",
+        "entryTime": "2026-04-17T14:19:51.619Z"
       }
     ],
     "wins": 0,
@@ -23432,7 +23437,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T00:12:02.506Z",
-    "lastSeen": "2026-04-17T00:12:02.506Z",
+    "lastSeen": "2026-04-17T14:19:51.619Z",
     "confirmed": false
   },
   "2Lwj8J455nw3Y7E4RhYYjczWzXMTmMRoKLsPdu9MhGC6": {
@@ -34164,12 +34169,17 @@
     "confirmed": false
   },
   "4cUDssJadhJvcuWRfocmNoQ1433VRBB1aqvoiwFZHsJ9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "HALLU",
         "pairAddress": "6FoP64ERJJhMjnktSSpUcRFQiyKJLDDHnYcqLGhqK1Kn",
         "entryTime": "2026-04-17T12:07:42.593Z"
+      },
+      {
+        "symbol": "211",
+        "pairAddress": "7jNTQHQW5Nmd6VfHyWazPYpn3NgGXtu213iDEYMEztB6",
+        "entryTime": "2026-04-17T14:19:51.619Z"
       }
     ],
     "wins": 0,
@@ -34177,7 +34187,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T12:07:42.593Z",
-    "lastSeen": "2026-04-17T12:07:42.593Z",
+    "lastSeen": "2026-04-17T14:19:51.619Z",
     "confirmed": false
   },
   "DE2fwHWYM5seJKzTSFxwSqaKmKfqs221WnvAN5MUr4Lo": {
