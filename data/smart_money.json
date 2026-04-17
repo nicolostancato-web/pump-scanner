@@ -20733,7 +20733,7 @@
     "confirmed": false
   },
   "E9RXTAXtXHwyuguYkRu7BVkYDN6Gp4JzNzopwBLHQTDq": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SIDELINED",
@@ -20744,6 +20744,11 @@
         "symbol": "Meowl",
         "pairAddress": "AA4Wx26cnC8zk3nxacczbQa49LqubbN6JdN6WY1xK29j",
         "entryTime": "2026-04-17T00:52:31.945Z"
+      },
+      {
+        "symbol": "WOLANA",
+        "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
+        "entryTime": "2026-04-17T03:32:00.099Z"
       }
     ],
     "wins": 0,
@@ -20751,8 +20756,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T22:16:15.241Z",
-    "lastSeen": "2026-04-17T00:52:31.945Z",
-    "confirmed": false
+    "lastSeen": "2026-04-17T03:32:00.099Z",
+    "confirmed": true
   },
   "2sNk6jjxWHEeFsv335CHihHQCfBgPmCfxKXPugeDJ3Se": {
     "appearances": 1,
@@ -27727,6 +27732,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T03:31:22.976Z",
     "lastSeen": "2026-04-17T03:31:22.976Z",
+    "confirmed": false
+  },
+  "BLbhvrtUEJky6AQ27d2KuxnpDSTfdH4iM4yBmWeZrpjD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WOLANA",
+        "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
+        "entryTime": "2026-04-17T03:32:00.099Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T03:32:00.099Z",
+    "lastSeen": "2026-04-17T03:32:00.099Z",
     "confirmed": false
   }
 }
