@@ -3934,12 +3934,17 @@
     "confirmed": false
   },
   "E84bqTUdsZhHMvsHneFeJwyqTixydzw3zwBUdkUSHGED": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Nintondo",
         "pairAddress": "74WaddAj6PJsLu4sMd6q4sxgL56toVGwDzpq3sT1DxfW",
         "entryTime": "2026-04-17T20:28:08.346Z"
+      },
+      {
+        "symbol": "ENEMIES",
+        "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
+        "entryTime": "2026-04-17T21:52:03.834Z"
       }
     ],
     "wins": 0,
@@ -3947,7 +3952,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:28:08.346Z",
-    "lastSeen": "2026-04-17T20:28:08.346Z",
+    "lastSeen": "2026-04-17T21:52:03.834Z",
     "confirmed": false
   },
   "94pWH1cBfy67WUanGJYHuBtY5hF5BhENiT1V42HwhMUX": {
@@ -5036,6 +5041,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:51:33.021Z",
     "lastSeen": "2026-04-17T21:51:33.021Z",
+    "confirmed": false
+  },
+  "Gkq5WGpoVsSbe289bjGoinYd9wDCDzwNr9G2FfcD8vuM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ENEMIES",
+        "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
+        "entryTime": "2026-04-17T21:52:03.834Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T21:52:03.834Z",
+    "lastSeen": "2026-04-17T21:52:03.834Z",
     "confirmed": false
   }
 }
