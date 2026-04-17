@@ -1520,7 +1520,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "HUMAN",
@@ -1536,6 +1536,11 @@
         "symbol": "Aetherion",
         "pairAddress": "93hQFQwpvj7Y7T4ezUFaNnorzWQh8JiMtxhNFpsoFEMK",
         "entryTime": "2026-04-17T22:23:07.223Z"
+      },
+      {
+        "symbol": "SOLDEVMOLT",
+        "pairAddress": "dFyuVKx5kab7TVhHNziEYncvn9SerKw4oi19u8XJQ5p",
+        "entryTime": "2026-04-17T23:04:50.612Z"
       }
     ],
     "wins": 0,
@@ -1543,7 +1548,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:49:17.444Z",
-    "lastSeen": "2026-04-17T22:23:07.223Z",
+    "lastSeen": "2026-04-17T23:04:50.612Z",
     "confirmed": true
   },
   "2GDsdk2UTQ4tqngqWumPCFbMp3nJj3JDXpAzuoncDYHU": {
@@ -6927,6 +6932,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:04:16.348Z",
     "lastSeen": "2026-04-17T23:04:16.348Z",
+    "confirmed": false
+  },
+  "4r33xEKAD2cNMrC9NyJy8nb4XmruUKebZ6LZZm65PVUZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOLDEVMOLT",
+        "pairAddress": "dFyuVKx5kab7TVhHNziEYncvn9SerKw4oi19u8XJQ5p",
+        "entryTime": "2026-04-17T23:04:50.612Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T23:04:50.612Z",
+    "lastSeen": "2026-04-17T23:04:50.612Z",
     "confirmed": false
   }
 }
