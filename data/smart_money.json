@@ -28311,12 +28311,17 @@
     "confirmed": false
   },
   "GUhLacfqQKjd8JzCaggd8BK3Dqmk5guAkDrMK5wUDPtC": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "WOLANA",
         "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
         "entryTime": "2026-04-17T03:42:55.917Z"
+      },
+      {
+        "symbol": "habibi",
+        "pairAddress": "47y1ZJrKCyHkeGD24zKt5VBfozpAuxoMev9UWWkWikJL",
+        "entryTime": "2026-04-17T04:40:21.056Z"
       }
     ],
     "wins": 0,
@@ -28324,7 +28329,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T03:42:55.917Z",
-    "lastSeen": "2026-04-17T03:42:55.917Z",
+    "lastSeen": "2026-04-17T04:40:21.056Z",
     "confirmed": false
   },
   "9WXWkz5iV1yGbn1oR3EXNhcg3D1SKMXu4rLzCBh9TM2J": {
@@ -29668,6 +29673,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T04:39:45.128Z",
     "lastSeen": "2026-04-17T04:39:45.128Z",
+    "confirmed": false
+  },
+  "A3iNLQzVMsfWBQDkDridWwzMJkDWbWDADjkiXddDtv2Y": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "habibi",
+        "pairAddress": "47y1ZJrKCyHkeGD24zKt5VBfozpAuxoMev9UWWkWikJL",
+        "entryTime": "2026-04-17T04:40:21.056Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T04:40:21.056Z",
+    "lastSeen": "2026-04-17T04:40:21.056Z",
     "confirmed": false
   }
 }
