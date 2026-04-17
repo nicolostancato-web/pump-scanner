@@ -4444,7 +4444,7 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "إلمو",
@@ -4455,6 +4455,11 @@
         "symbol": "Aetherion",
         "pairAddress": "93hQFQwpvj7Y7T4ezUFaNnorzWQh8JiMtxhNFpsoFEMK",
         "entryTime": "2026-04-17T22:28:44.657Z"
+      },
+      {
+        "symbol": "asteraura",
+        "pairAddress": "BfRXGYDonE4etKdyuVLAL7cMHj8psSyWj4rWGkChfgib",
+        "entryTime": "2026-04-17T23:54:38.683Z"
       }
     ],
     "wins": 0,
@@ -4462,8 +4467,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:12:48.125Z",
-    "lastSeen": "2026-04-17T22:28:44.657Z",
-    "confirmed": false
+    "lastSeen": "2026-04-17T23:54:38.683Z",
+    "confirmed": true
   },
   "5tBTAtVB2QhK5QrrAciwfQooFyrPin9QhDDJMPWRf5ZY": {
     "appearances": 1,
