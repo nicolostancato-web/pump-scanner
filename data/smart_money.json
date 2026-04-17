@@ -4389,12 +4389,17 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "إلمو",
         "pairAddress": "GemBcfbJrpeWL4hCU88NTEFeRvaNJAFojtq1bTFhJL6r",
         "entryTime": "2026-04-17T21:12:48.125Z"
+      },
+      {
+        "symbol": "Aetherion",
+        "pairAddress": "93hQFQwpvj7Y7T4ezUFaNnorzWQh8JiMtxhNFpsoFEMK",
+        "entryTime": "2026-04-17T22:28:44.657Z"
       }
     ],
     "wins": 0,
@@ -4402,7 +4407,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:12:48.125Z",
-    "lastSeen": "2026-04-17T21:12:48.125Z",
+    "lastSeen": "2026-04-17T22:28:44.657Z",
     "confirmed": false
   },
   "5tBTAtVB2QhK5QrrAciwfQooFyrPin9QhDDJMPWRf5ZY": {
