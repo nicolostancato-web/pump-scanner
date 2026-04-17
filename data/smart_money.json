@@ -338,5 +338,22 @@
     "firstSeen": "2026-04-17T18:19:59.830Z",
     "lastSeen": "2026-04-17T18:19:59.830Z",
     "confirmed": false
+  },
+  "C4m7Gb31eMqEispjchQK9zbxpLyCJe4nU8PKppZ6hpfa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DINO",
+        "pairAddress": "32gmq7QPLvQAXAa872QaYUxbQQN1RKjzVUwXCdqpZgk9",
+        "entryTime": "2026-04-17T18:20:32.295Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T18:20:32.295Z",
+    "lastSeen": "2026-04-17T18:20:32.295Z",
+    "confirmed": false
   }
 }
