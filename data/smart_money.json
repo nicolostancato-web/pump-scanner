@@ -34836,12 +34836,17 @@
     "confirmed": false
   },
   "2XWN493EAoPp9m9Qe8j6L2Bn6a3QhczjMZ2p8ka4GSVD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Asteroid",
         "pairAddress": "81q9gwLhEzR86p43UCjovyT2rfGNFCNQAmyuijkg8Q2F",
         "entryTime": "2026-04-17T13:02:57.352Z"
+      },
+      {
+        "symbol": "MLGA",
+        "pairAddress": "6UUGutseh9PrKwyMtzrgDuzJQLZgG8DQuCaYoX19n9vj",
+        "entryTime": "2026-04-17T15:03:57.379Z"
       }
     ],
     "wins": 0,
@@ -34849,7 +34854,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T13:02:57.352Z",
-    "lastSeen": "2026-04-17T13:02:57.352Z",
+    "lastSeen": "2026-04-17T15:03:57.379Z",
     "confirmed": false
   },
   "H5oNU2KZECkPEowtPBMvxygCvQmKBUpHQB1h9fxHVhqQ": {
@@ -36696,6 +36701,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T15:03:23.835Z",
     "lastSeen": "2026-04-17T15:03:23.835Z",
+    "confirmed": false
+  },
+  "E1B5cdnubkYUdvqFePRoMF9PJioQRoi2hUVu4yRoLsUn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MLGA",
+        "pairAddress": "6UUGutseh9PrKwyMtzrgDuzJQLZgG8DQuCaYoX19n9vj",
+        "entryTime": "2026-04-17T15:03:57.379Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T15:03:57.379Z",
+    "lastSeen": "2026-04-17T15:03:57.379Z",
     "confirmed": false
   }
 }
