@@ -22659,5 +22659,22 @@
     "firstSeen": "2026-04-17T00:04:40.834Z",
     "lastSeen": "2026-04-17T00:04:40.834Z",
     "confirmed": false
+  },
+  "9BxFUM6VbprqvsGv7yw5zaYDVbt97LUuXWHk5dQ27eN1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "squeeze",
+        "pairAddress": "Dbqey6Q9dj79MZms3iT5Nb7sPFpSHkagPHr64paUzbWJ",
+        "entryTime": "2026-04-17T00:05:13.550Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T00:05:13.550Z",
+    "lastSeen": "2026-04-17T00:05:13.550Z",
+    "confirmed": false
   }
 }
