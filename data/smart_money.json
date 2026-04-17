@@ -5319,5 +5319,22 @@
     "firstSeen": "2026-04-17T22:03:10.987Z",
     "lastSeen": "2026-04-17T22:03:10.987Z",
     "confirmed": false
+  },
+  "xpMs4fnb6287GvscKUPB2wzEUAyzmqVaPKQyCGDSDsa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ENEMIES",
+        "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
+        "entryTime": "2026-04-17T22:03:41.391Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T22:03:41.391Z",
+    "lastSeen": "2026-04-17T22:03:41.391Z",
+    "confirmed": false
   }
 }
