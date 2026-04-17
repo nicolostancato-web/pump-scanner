@@ -1530,7 +1530,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "HUMAN",
@@ -1551,6 +1551,11 @@
         "symbol": "SOLDEVMOLT",
         "pairAddress": "dFyuVKx5kab7TVhHNziEYncvn9SerKw4oi19u8XJQ5p",
         "entryTime": "2026-04-17T23:04:50.612Z"
+      },
+      {
+        "symbol": "asteraura",
+        "pairAddress": "BfRXGYDonE4etKdyuVLAL7cMHj8psSyWj4rWGkChfgib",
+        "entryTime": "2026-04-17T23:53:01.553Z"
       }
     ],
     "wins": 0,
@@ -1558,7 +1563,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:49:17.444Z",
-    "lastSeen": "2026-04-17T23:04:50.612Z",
+    "lastSeen": "2026-04-17T23:53:01.553Z",
     "confirmed": true
   },
   "2GDsdk2UTQ4tqngqWumPCFbMp3nJj3JDXpAzuoncDYHU": {
@@ -8084,6 +8089,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:52:32.315Z",
     "lastSeen": "2026-04-17T23:52:32.315Z",
+    "confirmed": false
+  },
+  "6JFwecbEdBqeXX9RSKQw4AyxtykcD8zMthgVHHcSyNC8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "asteraura",
+        "pairAddress": "BfRXGYDonE4etKdyuVLAL7cMHj8psSyWj4rWGkChfgib",
+        "entryTime": "2026-04-17T23:53:01.553Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T23:53:01.553Z",
+    "lastSeen": "2026-04-17T23:53:01.553Z",
     "confirmed": false
   }
 }
