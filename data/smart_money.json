@@ -5819,12 +5819,17 @@
     "confirmed": false
   },
   "HnnfuREPudg1gRPBPiFyzQukTY9SQpsBdidq86vVtR4E": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "nep",
         "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
         "entryTime": "2026-04-16T11:11:20.094Z"
+      },
+      {
+        "symbol": "BREAD",
+        "pairAddress": "BGnCzMZ4wXM7qYuuTM8s3onbkzMw3xyvWdZcU2M2rSsr",
+        "entryTime": "2026-04-17T12:05:04.736Z"
       }
     ],
     "wins": 0,
@@ -5832,7 +5837,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T11:11:20.094Z",
-    "lastSeen": "2026-04-16T11:11:20.094Z",
+    "lastSeen": "2026-04-17T12:05:04.736Z",
     "confirmed": false
   },
   "674u3222Eap78MXzSVPNwdyBDb59CzotN7Crme2ABUUC": {
@@ -34007,6 +34012,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T12:04:29.845Z",
     "lastSeen": "2026-04-17T12:04:29.845Z",
+    "confirmed": false
+  },
+  "5EDofFwkYrLVdYyfPNbCKrFsqTEaD3xyXyXpYAGviGfU": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BREAD",
+        "pairAddress": "BGnCzMZ4wXM7qYuuTM8s3onbkzMw3xyvWdZcU2M2rSsr",
+        "entryTime": "2026-04-17T12:05:04.736Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T12:05:04.736Z",
+    "lastSeen": "2026-04-17T12:05:04.736Z",
     "confirmed": false
   }
 }
