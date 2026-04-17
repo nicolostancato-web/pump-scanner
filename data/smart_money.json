@@ -3657,7 +3657,7 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "cunt",
@@ -3673,6 +3673,11 @@
         "symbol": "Pope",
         "pairAddress": "7hRzhTzXPkMDwA8ymCrnA2rpS1L2y18CpqbJK1TCH4b2",
         "entryTime": "2026-04-16T15:20:46.004Z"
+      },
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "81q9gwLhEzR86p43UCjovyT2rfGNFCNQAmyuijkg8Q2F",
+        "entryTime": "2026-04-17T12:57:55.396Z"
       }
     ],
     "wins": 0,
@@ -3680,7 +3685,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:02:42.424Z",
-    "lastSeen": "2026-04-16T15:20:46.004Z",
+    "lastSeen": "2026-04-17T12:57:55.396Z",
     "confirmed": true
   },
   "AtWrs1XhD8e2zwhNYebnrXGNPKySJZXUDTk7jWN7RTbw": {
@@ -34571,6 +34576,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T12:33:21.063Z",
     "lastSeen": "2026-04-17T12:33:21.063Z",
+    "confirmed": false
+  },
+  "21UPtorpVuYqhtXYUeZYn2SPA3BMxQyPcN26YpXpauNo": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "81q9gwLhEzR86p43UCjovyT2rfGNFCNQAmyuijkg8Q2F",
+        "entryTime": "2026-04-17T12:57:55.396Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T12:57:55.396Z",
+    "lastSeen": "2026-04-17T12:57:55.396Z",
     "confirmed": false
   }
 }
