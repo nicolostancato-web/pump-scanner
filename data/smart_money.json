@@ -2423,7 +2423,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "mexicunc",
@@ -2464,6 +2464,11 @@
         "symbol": "WOLANA",
         "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
         "entryTime": "2026-04-17T03:39:11.202Z"
+      },
+      {
+        "symbol": "GMR",
+        "pairAddress": "ALTKP7y7mRj2qDybALPt1NABAZapP9ma4qnGE1jD5Hpm",
+        "entryTime": "2026-04-17T05:58:54.474Z"
       }
     ],
     "wins": 0,
@@ -2471,7 +2476,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:16:09.822Z",
-    "lastSeen": "2026-04-17T03:39:11.202Z",
+    "lastSeen": "2026-04-17T05:58:54.474Z",
     "confirmed": true
   },
   "4GQHft29J7DvfgkefRYy1HT8EpudUyMnApAUQYU47i5A": {
@@ -30178,6 +30183,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T05:54:22.454Z",
     "lastSeen": "2026-04-17T05:54:22.454Z",
+    "confirmed": false
+  },
+  "H8di9faaF48vuER5FQG8qRH4VhUHnbUqs3MTYh6seeib": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "A9aWUTdyVV1RrCWWg4mWBMFmAsaPPpR8c5pJEnpxovBj",
+        "entryTime": "2026-04-17T05:58:54.409Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T05:58:54.409Z",
+    "lastSeen": "2026-04-17T05:58:54.409Z",
+    "confirmed": false
+  },
+  "GxAiM4NEmH1GdGvGSggD8eUW5jYc1u2q6NK2s3sLWdgM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GMR",
+        "pairAddress": "ALTKP7y7mRj2qDybALPt1NABAZapP9ma4qnGE1jD5Hpm",
+        "entryTime": "2026-04-17T05:58:54.474Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T05:58:54.474Z",
+    "lastSeen": "2026-04-17T05:58:54.474Z",
     "confirmed": false
   }
 }
