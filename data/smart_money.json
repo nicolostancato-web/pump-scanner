@@ -3969,7 +3969,7 @@
     "confirmed": false
   },
   "E84bqTUdsZhHMvsHneFeJwyqTixydzw3zwBUdkUSHGED": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Nintondo",
@@ -3980,6 +3980,11 @@
         "symbol": "ENEMIES",
         "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
         "entryTime": "2026-04-17T21:52:03.834Z"
+      },
+      {
+        "symbol": "Conviction",
+        "pairAddress": "8FoFdEGeeKc4h53UfXmuMm3vjxMM9ppTVGkkd4EVSzzF",
+        "entryTime": "2026-04-17T23:08:24.085Z"
       }
     ],
     "wins": 0,
@@ -3987,8 +3992,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:28:08.346Z",
-    "lastSeen": "2026-04-17T21:52:03.834Z",
-    "confirmed": false
+    "lastSeen": "2026-04-17T23:08:24.085Z",
+    "confirmed": true
   },
   "94pWH1cBfy67WUanGJYHuBtY5hF5BhENiT1V42HwhMUX": {
     "appearances": 1,
@@ -6983,6 +6988,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:05:55.167Z",
     "lastSeen": "2026-04-17T23:05:55.167Z",
+    "confirmed": false
+  },
+  "Ad8YGs4QWV3PfjtvTVgTKfxa2JhEtgRPESqi9XBaQHMF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Conviction",
+        "pairAddress": "8FoFdEGeeKc4h53UfXmuMm3vjxMM9ppTVGkkd4EVSzzF",
+        "entryTime": "2026-04-17T23:08:24.085Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T23:08:24.085Z",
+    "lastSeen": "2026-04-17T23:08:24.085Z",
     "confirmed": false
   }
 }
