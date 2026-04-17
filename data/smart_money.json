@@ -676,7 +676,7 @@
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 16,
+    "appearances": 17,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -757,6 +757,11 @@
         "symbol": "XOGE",
         "pairAddress": "HYMBxgAMemQqfsGxZK8bZxeWLJo2Z9nk98JV7txDiTD1",
         "entryTime": "2026-04-17T11:41:59.597Z"
+      },
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "81q9gwLhEzR86p43UCjovyT2rfGNFCNQAmyuijkg8Q2F",
+        "entryTime": "2026-04-17T13:02:57.352Z"
       }
     ],
     "wins": 0,
@@ -764,7 +769,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-17T11:41:59.597Z",
+    "lastSeen": "2026-04-17T13:02:57.352Z",
     "confirmed": true
   },
   "Cgqq5us7akPoWbSdMb8Jd6tp13cW79XWuuhqBthYnW9D": {
@@ -34688,6 +34693,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T13:02:23.662Z",
     "lastSeen": "2026-04-17T13:02:23.662Z",
+    "confirmed": false
+  },
+  "2XWN493EAoPp9m9Qe8j6L2Bn6a3QhczjMZ2p8ka4GSVD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "81q9gwLhEzR86p43UCjovyT2rfGNFCNQAmyuijkg8Q2F",
+        "entryTime": "2026-04-17T13:02:57.352Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T13:02:57.352Z",
+    "lastSeen": "2026-04-17T13:02:57.352Z",
     "confirmed": false
   }
 }
