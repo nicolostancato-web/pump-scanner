@@ -6373,12 +6373,17 @@
     "confirmed": false
   },
   "AfHNjAnXJKkQ4yrBDop77A3UaLZgFmGKhaSDZC4Msrvk": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "nep",
         "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
         "entryTime": "2026-04-16T11:27:07.950Z"
+      },
+      {
+        "symbol": "XOGE",
+        "pairAddress": "HYMBxgAMemQqfsGxZK8bZxeWLJo2Z9nk98JV7txDiTD1",
+        "entryTime": "2026-04-17T11:49:20.786Z"
       }
     ],
     "wins": 0,
@@ -6386,7 +6391,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T11:27:07.950Z",
-    "lastSeen": "2026-04-16T11:27:07.950Z",
+    "lastSeen": "2026-04-17T11:49:20.786Z",
     "confirmed": false
   },
   "GynLTAvSeDaX3vfHYqS6snyEEBnXmqYRYUj9DmcR7Qb2": {
@@ -33759,6 +33764,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T11:48:14.993Z",
     "lastSeen": "2026-04-17T11:48:14.993Z",
+    "confirmed": false
+  },
+  "g7K7NDcUh3ucEfqCBPuVrjKT8LL3m6Cmcr9w3aEAzEf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "XOGE",
+        "pairAddress": "HYMBxgAMemQqfsGxZK8bZxeWLJo2Z9nk98JV7txDiTD1",
+        "entryTime": "2026-04-17T11:49:20.786Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T11:49:20.786Z",
+    "lastSeen": "2026-04-17T11:49:20.786Z",
     "confirmed": false
   }
 }
