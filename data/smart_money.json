@@ -14046,7 +14046,7 @@
     "confirmed": false
   },
   "zeronaXJsbvPZFmzytV4RPXWBHQGMFcRCvoYaDNPiRL": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ACTU",
@@ -14057,6 +14057,11 @@
         "symbol": "income",
         "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
         "entryTime": "2026-04-16T19:16:53.488Z"
+      },
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "A9aWUTdyVV1RrCWWg4mWBMFmAsaPPpR8c5pJEnpxovBj",
+        "entryTime": "2026-04-17T04:51:55.595Z"
       }
     ],
     "wins": 0,
@@ -14064,8 +14069,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:00:56.849Z",
-    "lastSeen": "2026-04-16T19:16:53.488Z",
-    "confirmed": false
+    "lastSeen": "2026-04-17T04:51:55.595Z",
+    "confirmed": true
   },
   "8gBBrhYwrLTEyLUU6C2MXJYtzGfk92GbBeu698nB4z6W": {
     "appearances": 1,
