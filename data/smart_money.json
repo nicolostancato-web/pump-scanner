@@ -6208,12 +6208,17 @@
     "confirmed": false
   },
   "4TPmJ32b5dKvKwsMyPGoh1VsoHhbBtTdams8gTzQ6a49": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "nep",
         "pairAddress": "FY2JbNzt9FBNzd3fkVR34mcLUFMWXr1zVsYZFQ5U9L6n",
         "entryTime": "2026-04-16T11:19:22.667Z"
+      },
+      {
+        "symbol": "ELONMUSK",
+        "pairAddress": "2ANhA4ffA6aTT22K1ro9V3efaAhcesb6sAdk4RB9UG7K",
+        "entryTime": "2026-04-17T16:19:49.307Z"
       }
     ],
     "wins": 0,
@@ -6221,7 +6226,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T11:19:22.667Z",
-    "lastSeen": "2026-04-16T11:19:22.667Z",
+    "lastSeen": "2026-04-17T16:19:49.307Z",
     "confirmed": false
   },
   "CDZuHUqdbzF4zuFcLRhSyVvywssJRxUXXAN8yMca9Ud": {
@@ -37619,6 +37624,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T16:19:02.518Z",
     "lastSeen": "2026-04-17T16:19:02.518Z",
+    "confirmed": false
+  },
+  "65Q4Etns65yJoA8VV8qim7wKxxaupgZucVj9E3Nd4oTR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ELONMUSK",
+        "pairAddress": "2ANhA4ffA6aTT22K1ro9V3efaAhcesb6sAdk4RB9UG7K",
+        "entryTime": "2026-04-17T16:19:49.307Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T16:19:49.307Z",
+    "lastSeen": "2026-04-17T16:19:49.307Z",
     "confirmed": false
   }
 }
