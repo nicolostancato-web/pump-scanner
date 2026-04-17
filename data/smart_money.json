@@ -37250,5 +37250,22 @@
     "firstSeen": "2026-04-17T15:31:15.219Z",
     "lastSeen": "2026-04-17T15:31:15.219Z",
     "confirmed": false
+  },
+  "G2L78CFXuC4QiTZMEFHGTivZgQ2fwgbca7dJW4Q9rwbr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "unc",
+        "pairAddress": "scBraW1t6mKEM4Kdrxknfqo9gZ7p8iZjE81PFpKFtGo",
+        "entryTime": "2026-04-17T15:33:15.500Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T15:33:15.500Z",
+    "lastSeen": "2026-04-17T15:33:15.500Z",
+    "confirmed": false
   }
 }
