@@ -7094,7 +7094,7 @@
     "confirmed": true
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "YOLO",
@@ -7120,6 +7120,11 @@
         "symbol": "ASTEROID",
         "pairAddress": "91tDWyGdurPekG8JCWCfzJn7aGfLgb9zb711fHpyGR2j",
         "entryTime": "2026-04-17T04:18:32.134Z"
+      },
+      {
+        "symbol": "ASTROID",
+        "pairAddress": "BXyYmcCr3YgSnHMnHpbqDofptH5csJs7si9fq4wfjY2o",
+        "entryTime": "2026-04-17T07:30:39.858Z"
       }
     ],
     "wins": 0,
@@ -7127,7 +7132,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T11:54:28.043Z",
-    "lastSeen": "2026-04-17T04:18:32.134Z",
+    "lastSeen": "2026-04-17T07:30:39.858Z",
     "confirmed": true
   },
   "8c3sWHwi96ZCP9rJqaRJUmCsYexbTHheGMaKth31m1m": {
