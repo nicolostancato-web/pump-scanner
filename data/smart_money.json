@@ -12790,7 +12790,7 @@
     "confirmed": false
   },
   "6a7tbRtWETeGrzWmLTUFkRAMQ2p9HxN4xCaSinRYnFXZ": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Pope",
@@ -12801,6 +12801,11 @@
         "symbol": "ASTROID",
         "pairAddress": "BXyYmcCr3YgSnHMnHpbqDofptH5csJs7si9fq4wfjY2o",
         "entryTime": "2026-04-17T06:49:24.209Z"
+      },
+      {
+        "symbol": "ASSTEROID",
+        "pairAddress": "CbCD1iisoHynQ6wUGFqKTA4eiTG5PpuFnZmVrm63oGS2",
+        "entryTime": "2026-04-17T11:11:46.678Z"
       }
     ],
     "wins": 0,
@@ -12808,8 +12813,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T15:56:20.380Z",
-    "lastSeen": "2026-04-17T06:49:24.209Z",
-    "confirmed": false
+    "lastSeen": "2026-04-17T11:11:46.678Z",
+    "confirmed": true
   },
   "Cmjcob1NByxKETDGkJgeVKECCe1X87d5sN4ZuwFKxS5q": {
     "appearances": 1,
