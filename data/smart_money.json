@@ -1052,5 +1052,22 @@
     "firstSeen": "2026-04-17T18:39:28.986Z",
     "lastSeen": "2026-04-17T18:39:28.986Z",
     "confirmed": false
+  },
+  "79MoTXF84kAwcKZ3e6T4vTHBUvvzeXyh4ygKTRsuLvCr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "小行星",
+        "pairAddress": "CxQZ1F5YvFj1rz8rUjdRhboBrdznJBDKyC5bnazuvaAj",
+        "entryTime": "2026-04-17T18:39:57.415Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T18:39:57.415Z",
+    "lastSeen": "2026-04-17T18:39:57.415Z",
+    "confirmed": false
   }
 }
