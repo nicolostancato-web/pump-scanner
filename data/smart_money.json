@@ -9875,7 +9875,7 @@
     "confirmed": false
   },
   "wcC1TpGVDG1nyCdApsipX2vGid4sv1vBBsxqeC7shJD": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "coin.ai",
@@ -9886,6 +9886,11 @@
         "symbol": "Foot",
         "pairAddress": "fSoZEqv3FXfFkc3G6jhZTGYzTrmfLVA9nUL7nw2ue5F",
         "entryTime": "2026-04-17T12:24:04.115Z"
+      },
+      {
+        "symbol": "FAT",
+        "pairAddress": "Ezu5snbdL2GG4cfsinvTGeLb6oP5s2auETC1r9BVEpFq",
+        "entryTime": "2026-04-17T14:43:56.678Z"
       }
     ],
     "wins": 0,
@@ -9893,8 +9898,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:12:43.344Z",
-    "lastSeen": "2026-04-17T12:24:04.115Z",
-    "confirmed": false
+    "lastSeen": "2026-04-17T14:43:56.678Z",
+    "confirmed": true
   },
   "9BDSb5YGkM5DvzQJFbw43yPCuAEXihHwnWmvZ7sXt3oB": {
     "appearances": 1,
@@ -36319,6 +36324,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T14:41:11.834Z",
     "lastSeen": "2026-04-17T14:41:11.834Z",
+    "confirmed": false
+  },
+  "6Yt9oYXxs9B8KTGRbF1p5zX1TP9Urm9JacrbAcRxzrh5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FAT",
+        "pairAddress": "Ezu5snbdL2GG4cfsinvTGeLb6oP5s2auETC1r9BVEpFq",
+        "entryTime": "2026-04-17T14:43:56.678Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T14:43:56.678Z",
+    "lastSeen": "2026-04-17T14:43:56.678Z",
     "confirmed": false
   }
 }
