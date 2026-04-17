@@ -8463,7 +8463,7 @@
     "confirmed": false
   },
   "8EaPHLRuxu6wUjuD5yHuXMQpCyBXbD2XzGuPyhBPq95a": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "BGF",
@@ -8489,6 +8489,11 @@
         "symbol": "ASSTEROID",
         "pairAddress": "CbCD1iisoHynQ6wUGFqKTA4eiTG5PpuFnZmVrm63oGS2",
         "entryTime": "2026-04-17T11:15:17.681Z"
+      },
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "81q9gwLhEzR86p43UCjovyT2rfGNFCNQAmyuijkg8Q2F",
+        "entryTime": "2026-04-17T12:59:05.477Z"
       }
     ],
     "wins": 0,
@@ -8496,7 +8501,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T13:42:08.302Z",
-    "lastSeen": "2026-04-17T11:15:17.681Z",
+    "lastSeen": "2026-04-17T12:59:05.477Z",
     "confirmed": true
   },
   "D2yBSi22faZoQ3o96k93dZGQWD2WG5Spt8jyDzkMtfVE": {
@@ -34610,6 +34615,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T12:58:30.180Z",
     "lastSeen": "2026-04-17T12:58:30.180Z",
+    "confirmed": false
+  },
+  "69ovXf31X5DjR92jZJNJCQjYKxcKNNrnj3Zhd7g1dCcM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "81q9gwLhEzR86p43UCjovyT2rfGNFCNQAmyuijkg8Q2F",
+        "entryTime": "2026-04-17T12:59:05.477Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T12:59:05.477Z",
+    "lastSeen": "2026-04-17T12:59:05.477Z",
     "confirmed": false
   }
 }
