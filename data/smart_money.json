@@ -16327,12 +16327,17 @@
     "confirmed": false
   },
   "G4LRMaoDqE4pZ3AVLny5gsKtcFYndsQDgnYfSRiAbCS5": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "income",
         "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
         "entryTime": "2026-04-16T18:51:22.028Z"
+      },
+      {
+        "symbol": "BONER",
+        "pairAddress": "HxZNPLaSjSQD8GHTyeWeTnheaVdsBb5dx9yei3jpxGwP",
+        "entryTime": "2026-04-17T00:32:25.964Z"
       }
     ],
     "wins": 0,
@@ -16340,7 +16345,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:51:22.028Z",
-    "lastSeen": "2026-04-16T18:51:22.028Z",
+    "lastSeen": "2026-04-17T00:32:25.964Z",
     "confirmed": false
   },
   "39KwYt6BVzB2Pm4RCERYDowPqhK8eXfAsg9B7D7V17Vd": {
