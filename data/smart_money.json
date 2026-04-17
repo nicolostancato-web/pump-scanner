@@ -481,12 +481,17 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "小行星",
         "pairAddress": "CxQZ1F5YvFj1rz8rUjdRhboBrdznJBDKyC5bnazuvaAj",
         "entryTime": "2026-04-17T18:24:59.429Z"
+      },
+      {
+        "symbol": "BUZZTEROID",
+        "pairAddress": "7GEV6p45fR8DZmVWT5PLMyH65KwNU6UQhY73MDCQiYRK",
+        "entryTime": "2026-04-17T19:18:37.070Z"
       }
     ],
     "wins": 0,
@@ -494,7 +499,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-17T18:24:59.429Z",
+    "lastSeen": "2026-04-17T19:18:37.070Z",
     "confirmed": false
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
@@ -2569,6 +2574,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T19:18:06.772Z",
     "lastSeen": "2026-04-17T19:18:06.772Z",
+    "confirmed": false
+  },
+  "4ZpEHDjGQMdK9Q4F4xWqeugd62MSvmwdM9rq3sJ7zWCF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BUZZTEROID",
+        "pairAddress": "7GEV6p45fR8DZmVWT5PLMyH65KwNU6UQhY73MDCQiYRK",
+        "entryTime": "2026-04-17T19:18:37.070Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T19:18:37.070Z",
+    "lastSeen": "2026-04-17T19:18:37.070Z",
     "confirmed": false
   }
 }
