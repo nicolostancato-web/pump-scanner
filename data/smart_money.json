@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 22,
+    "appearances": 23,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -655,6 +655,11 @@
         "symbol": "ASSTEROID",
         "pairAddress": "CbCD1iisoHynQ6wUGFqKTA4eiTG5PpuFnZmVrm63oGS2",
         "entryTime": "2026-04-17T10:52:20.200Z"
+      },
+      {
+        "symbol": "Asteraura",
+        "pairAddress": "JBYUvJLghWJ3sFYdGrevrqKXp2cdq6bbD9ocTF7XswVo",
+        "entryTime": "2026-04-17T11:20:20.720Z"
       }
     ],
     "wins": 0,
@@ -662,7 +667,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-17T10:52:20.200Z",
+    "lastSeen": "2026-04-17T11:20:20.720Z",
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
@@ -33136,6 +33141,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T11:19:45.999Z",
     "lastSeen": "2026-04-17T11:19:45.999Z",
+    "confirmed": false
+  },
+  "EKWGUjbP7GT6qyWh4qwz5AWYVSS1qDos4QhXNS1QRQZH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Asteraura",
+        "pairAddress": "JBYUvJLghWJ3sFYdGrevrqKXp2cdq6bbD9ocTF7XswVo",
+        "entryTime": "2026-04-17T11:20:20.720Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T11:20:20.720Z",
+    "lastSeen": "2026-04-17T11:20:20.720Z",
     "confirmed": false
   }
 }
