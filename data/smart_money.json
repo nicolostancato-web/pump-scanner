@@ -21008,7 +21008,7 @@
     "confirmed": false
   },
   "E9RXTAXtXHwyuguYkRu7BVkYDN6Gp4JzNzopwBLHQTDq": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "SIDELINED",
@@ -21024,6 +21024,11 @@
         "symbol": "WOLANA",
         "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
         "entryTime": "2026-04-17T03:32:00.099Z"
+      },
+      {
+        "symbol": "TRUMPROID",
+        "pairAddress": "A8JNyrC3r2KLRrNZd7dWz23hEeyxLv2xSd1vE6ByXDks",
+        "entryTime": "2026-04-17T08:48:31.070Z"
       }
     ],
     "wins": 0,
@@ -21031,7 +21036,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T22:16:15.241Z",
-    "lastSeen": "2026-04-17T03:32:00.099Z",
+    "lastSeen": "2026-04-17T08:48:31.070Z",
     "confirmed": true
   },
   "2sNk6jjxWHEeFsv335CHihHQCfBgPmCfxKXPugeDJ3Se": {
@@ -32029,6 +32034,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T08:47:54.133Z",
     "lastSeen": "2026-04-17T08:47:54.133Z",
+    "confirmed": false
+  },
+  "5PGCapM4CjgsJX5CmxKV5tmLmDKjABGfFCT9FHLdz6DM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRUMPROID",
+        "pairAddress": "A8JNyrC3r2KLRrNZd7dWz23hEeyxLv2xSd1vE6ByXDks",
+        "entryTime": "2026-04-17T08:48:31.070Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T08:48:31.070Z",
+    "lastSeen": "2026-04-17T08:48:31.070Z",
     "confirmed": false
   }
 }
