@@ -18893,12 +18893,17 @@
     "confirmed": false
   },
   "4mgbh1w7nMqfDbpXUE9RNrxqVmNhT16hpUTNzTLt4YTL": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "human",
         "pairAddress": "6K7gaVgSDL3h9iKz4Tpzf25m6LhPhvrEZST3U1Ee3G4x",
         "entryTime": "2026-04-16T21:07:42.092Z"
+      },
+      {
+        "symbol": "UNCS",
+        "pairAddress": "G9DacWBs9rcfKRJoa1JNbZ2BPWaJTKBD48FqxsXpAUCp",
+        "entryTime": "2026-04-17T05:05:22.220Z"
       }
     ],
     "wins": 0,
@@ -18906,7 +18911,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T21:07:42.092Z",
-    "lastSeen": "2026-04-16T21:07:42.092Z",
+    "lastSeen": "2026-04-17T05:05:22.220Z",
     "confirmed": false
   },
   "6W5i8MkwLaVyfTU2vETMX8A3KerFc4HBpnWeWM8J55gC": {
@@ -29839,6 +29844,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T04:56:15.305Z",
     "lastSeen": "2026-04-17T04:56:15.305Z",
+    "confirmed": false
+  },
+  "GgKCKKnUcgzwXDqBX6aLfrhSi5efSJ8smmDMJGKg7KK7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNCS",
+        "pairAddress": "G9DacWBs9rcfKRJoa1JNbZ2BPWaJTKBD48FqxsXpAUCp",
+        "entryTime": "2026-04-17T05:05:22.220Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T05:05:22.220Z",
+    "lastSeen": "2026-04-17T05:05:22.220Z",
     "confirmed": false
   }
 }
