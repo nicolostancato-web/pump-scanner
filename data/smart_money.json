@@ -6987,7 +6987,7 @@
     "confirmed": true
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "YOLO",
@@ -7028,6 +7028,11 @@
         "symbol": "pigeon",
         "pairAddress": "7v2iCjCa7DSFJS1PwgTJy2eKeWuebkrHqJci8HT4Crr7",
         "entryTime": "2026-04-17T02:46:58.494Z"
+      },
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "9c85wHhsQDNpZnNbYYoZxoYYzhJ71tzqaM3poMjqzfBa",
+        "entryTime": "2026-04-17T04:05:22.842Z"
       }
     ],
     "wins": 0,
@@ -7035,7 +7040,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T11:54:28.043Z",
-    "lastSeen": "2026-04-17T02:46:58.494Z",
+    "lastSeen": "2026-04-17T04:05:22.842Z",
     "confirmed": true
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
@@ -28795,6 +28800,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T04:04:45.807Z",
     "lastSeen": "2026-04-17T04:04:45.807Z",
+    "confirmed": false
+  },
+  "HAPtxPtD8zbWERNkCzs9N88dcwKgAeb1JmW12Yvg5AKz": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WOLANA",
+        "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
+        "entryTime": "2026-04-17T04:05:22.675Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T04:05:22.675Z",
+    "lastSeen": "2026-04-17T04:05:22.675Z",
     "confirmed": false
   }
 }
