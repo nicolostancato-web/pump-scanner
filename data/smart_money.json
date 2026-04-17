@@ -36787,5 +36787,22 @@
     "firstSeen": "2026-04-17T15:09:09.362Z",
     "lastSeen": "2026-04-17T15:09:09.362Z",
     "confirmed": false
+  },
+  "7dV3UUEG56fRPj59AS1Lhuu3M4MWr8cQ9q5ZnQxpZ35n": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "INF",
+        "pairAddress": "2z9dP72EqfsrsDBX7kwGtvhdvLbdFRVwiB5xUsjRXQYG",
+        "entryTime": "2026-04-17T15:10:01.506Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T15:10:01.506Z",
+    "lastSeen": "2026-04-17T15:10:01.506Z",
+    "confirmed": false
   }
 }
