@@ -408,7 +408,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "DINO",
@@ -424,6 +424,11 @@
         "symbol": "BUZZTEROID",
         "pairAddress": "7GEV6p45fR8DZmVWT5PLMyH65KwNU6UQhY73MDCQiYRK",
         "entryTime": "2026-04-17T19:19:04.167Z"
+      },
+      {
+        "symbol": "Nintondo",
+        "pairAddress": "74WaddAj6PJsLu4sMd6q4sxgL56toVGwDzpq3sT1DxfW",
+        "entryTime": "2026-04-17T20:27:10.342Z"
       }
     ],
     "wins": 0,
@@ -431,7 +436,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:23:59.505Z",
-    "lastSeen": "2026-04-17T19:19:04.167Z",
+    "lastSeen": "2026-04-17T20:27:10.342Z",
     "confirmed": true
   },
   "FpPguUPCC4if8YnJe481WnVN4j7oQkbJ248UzunrKS6C": {
@@ -3862,6 +3867,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:26:31.123Z",
     "lastSeen": "2026-04-17T20:26:31.123Z",
+    "confirmed": false
+  },
+  "225uuNus5bN5rrVzr3xmscibHAdon3J2yy4oYc2RPvdj": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Nintondo",
+        "pairAddress": "74WaddAj6PJsLu4sMd6q4sxgL56toVGwDzpq3sT1DxfW",
+        "entryTime": "2026-04-17T20:27:10.342Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T20:27:10.342Z",
+    "lastSeen": "2026-04-17T20:27:10.342Z",
     "confirmed": false
   }
 }
