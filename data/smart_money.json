@@ -25784,5 +25784,22 @@
     "firstSeen": "2026-04-17T02:09:39.090Z",
     "lastSeen": "2026-04-17T02:09:39.090Z",
     "confirmed": false
+  },
+  "AtJ8MmxV8FYzQExvnyktpvmMp7dMPc5hNEcQTLdPPs7b": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Optimistic",
+        "pairAddress": "GjY94HK6voLSgiTFTGiJ6RzPDBzmmVYEL5NpodFVzRsx",
+        "entryTime": "2026-04-17T02:10:09.183Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T02:10:09.183Z",
+    "lastSeen": "2026-04-17T02:10:09.183Z",
+    "confirmed": false
   }
 }
