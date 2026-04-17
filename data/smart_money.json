@@ -12675,12 +12675,17 @@
     "confirmed": false
   },
   "6a7tbRtWETeGrzWmLTUFkRAMQ2p9HxN4xCaSinRYnFXZ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Pope",
         "pairAddress": "7hRzhTzXPkMDwA8ymCrnA2rpS1L2y18CpqbJK1TCH4b2",
         "entryTime": "2026-04-16T15:56:20.380Z"
+      },
+      {
+        "symbol": "ASTROID",
+        "pairAddress": "BXyYmcCr3YgSnHMnHpbqDofptH5csJs7si9fq4wfjY2o",
+        "entryTime": "2026-04-17T06:49:24.209Z"
       }
     ],
     "wins": 0,
@@ -12688,7 +12693,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T15:56:20.380Z",
-    "lastSeen": "2026-04-16T15:56:20.380Z",
+    "lastSeen": "2026-04-17T06:49:24.209Z",
     "confirmed": false
   },
   "Cmjcob1NByxKETDGkJgeVKECCe1X87d5sN4ZuwFKxS5q": {
@@ -30725,6 +30730,57 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T06:44:48.454Z",
     "lastSeen": "2026-04-17T06:44:48.454Z",
+    "confirmed": false
+  },
+  "953UW7kaTtZycfe36M3ZwPQ5Y7C9NrUfyacSj3A7PWqA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Jude",
+        "pairAddress": "2cM852qbaXtVD93jp9T341VXde5jw5FHSdEJtt5zdRpH",
+        "entryTime": "2026-04-17T06:49:24.148Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T06:49:24.148Z",
+    "lastSeen": "2026-04-17T06:49:24.148Z",
+    "confirmed": false
+  },
+  "43sAoCYRZWuKDbgTiHvNEYLZuzwAhcczifu3wtW1mcs2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Jude",
+        "pairAddress": "2cM852qbaXtVD93jp9T341VXde5jw5FHSdEJtt5zdRpH",
+        "entryTime": "2026-04-17T06:49:24.148Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T06:49:24.148Z",
+    "lastSeen": "2026-04-17T06:49:24.148Z",
+    "confirmed": false
+  },
+  "FFQ9dmr4GSVyuHgpiPEqYeWskdcUJNkySLPG64r8Gq5F": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASTROID",
+        "pairAddress": "BXyYmcCr3YgSnHMnHpbqDofptH5csJs7si9fq4wfjY2o",
+        "entryTime": "2026-04-17T06:49:24.209Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T06:49:24.209Z",
+    "lastSeen": "2026-04-17T06:49:24.209Z",
     "confirmed": false
   }
 }
