@@ -4272,12 +4272,17 @@
     "confirmed": false
   },
   "undwZZbXFTXAizTeeNpmygJDa4pWopEr1UCDSWpyo4y": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "إلمو",
         "pairAddress": "GemBcfbJrpeWL4hCU88NTEFeRvaNJAFojtq1bTFhJL6r",
         "entryTime": "2026-04-17T21:04:02.901Z"
+      },
+      {
+        "symbol": "Aetherion",
+        "pairAddress": "93hQFQwpvj7Y7T4ezUFaNnorzWQh8JiMtxhNFpsoFEMK",
+        "entryTime": "2026-04-17T22:17:42.567Z"
       }
     ],
     "wins": 0,
@@ -4285,7 +4290,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:04:02.901Z",
-    "lastSeen": "2026-04-17T21:04:02.901Z",
+    "lastSeen": "2026-04-17T22:17:42.567Z",
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
@@ -5408,6 +5413,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T22:15:12.359Z",
     "lastSeen": "2026-04-17T22:15:12.359Z",
+    "confirmed": false
+  },
+  "MoDM2qbBmFtwfSZWFEHdLCeBdrzCPnpsGsYN3F4WvpS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Aetherion",
+        "pairAddress": "93hQFQwpvj7Y7T4ezUFaNnorzWQh8JiMtxhNFpsoFEMK",
+        "entryTime": "2026-04-17T22:17:42.567Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T22:17:42.567Z",
+    "lastSeen": "2026-04-17T22:17:42.567Z",
     "confirmed": false
   }
 }
