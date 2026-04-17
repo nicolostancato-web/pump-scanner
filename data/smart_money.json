@@ -10239,7 +10239,7 @@
     "confirmed": false
   },
   "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "SOYJAK",
@@ -10260,6 +10260,11 @@
         "symbol": "SIDELINED",
         "pairAddress": "3KRpL2nUUEB4b13ZWHAoMXGuxjGTEr1dJ19vSLKzG1nE",
         "entryTime": "2026-04-16T22:05:06.903Z"
+      },
+      {
+        "symbol": "WOLANA",
+        "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
+        "entryTime": "2026-04-17T03:56:37.240Z"
       }
     ],
     "wins": 0,
@@ -10267,7 +10272,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:46:48.006Z",
-    "lastSeen": "2026-04-16T22:05:06.903Z",
+    "lastSeen": "2026-04-17T03:56:37.240Z",
     "confirmed": true
   },
   "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
@@ -18609,12 +18614,17 @@
     "confirmed": false
   },
   "73zaQkRov4pqrcoUGZ519S3Q94Wmn23tsau9M9g1dAAc": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "human",
         "pairAddress": "6K7gaVgSDL3h9iKz4Tpzf25m6LhPhvrEZST3U1Ee3G4x",
         "entryTime": "2026-04-16T21:03:37.995Z"
+      },
+      {
+        "symbol": "WOLANA",
+        "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
+        "entryTime": "2026-04-17T03:56:37.240Z"
       }
     ],
     "wins": 0,
@@ -18622,7 +18632,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T21:03:37.995Z",
-    "lastSeen": "2026-04-16T21:03:37.995Z",
+    "lastSeen": "2026-04-17T03:56:37.240Z",
     "confirmed": false
   },
   "7e2NFDrYmjP6PMA39HFRR5y9ZVi9kXoKZ2NCdoZqtvtu": {
