@@ -6850,12 +6850,17 @@
     "confirmed": false
   },
   "ARqJ18xaBLrEJYARaYHxfRKSi1pB7dZjwq1NW6Fiuieb": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "YOLO",
         "pairAddress": "LYLthRLjPU8ZRSfjArMtcdeaidfxoJsmCiaZgSANEqV",
         "entryTime": "2026-04-16T11:41:39.235Z"
+      },
+      {
+        "symbol": "neetcat",
+        "pairAddress": "GkUX6XNirqUu2iw6fXmeqBQPbBKUGiCgoyThT7KYdi4E",
+        "entryTime": "2026-04-17T13:11:24.107Z"
       }
     ],
     "wins": 0,
@@ -6863,7 +6868,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T11:41:39.235Z",
-    "lastSeen": "2026-04-16T11:41:39.235Z",
+    "lastSeen": "2026-04-17T13:11:24.107Z",
     "confirmed": false
   },
   "7ZnzYhM3eq8d9dZjdENf5TKk8XWhZLf24f9CJ64wTMy1": {
@@ -16308,7 +16313,7 @@
     "confirmed": false
   },
   "8SveFUanfbLRMsL6NAXa1LCMmLEsUc7q7KhFBufscG5Y": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "PND",
@@ -16324,6 +16329,11 @@
         "symbol": "Joe",
         "pairAddress": "CagvaJ4nf11gK5t9AiHX3uYnDV9qS6n1jhyNx1epJm9H",
         "entryTime": "2026-04-17T08:47:20.569Z"
+      },
+      {
+        "symbol": "neetcat",
+        "pairAddress": "GkUX6XNirqUu2iw6fXmeqBQPbBKUGiCgoyThT7KYdi4E",
+        "entryTime": "2026-04-17T13:11:24.107Z"
       }
     ],
     "wins": 0,
@@ -16331,7 +16341,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:28:57.572Z",
-    "lastSeen": "2026-04-17T08:47:20.569Z",
+    "lastSeen": "2026-04-17T13:11:24.107Z",
     "confirmed": true
   },
   "AyRp4Ff45fYhWz2fWmFbarUGCzYBfeTtvT1YFDnPXP8c": {
