@@ -36695,12 +36695,17 @@
     "confirmed": false
   },
   "HYRq1mq1db4EiHarNiZiuPdFugj5oq9s3XKhQF9f7uVh": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MLGA",
         "pairAddress": "6UUGutseh9PrKwyMtzrgDuzJQLZgG8DQuCaYoX19n9vj",
         "entryTime": "2026-04-17T15:03:23.835Z"
+      },
+      {
+        "symbol": "INF",
+        "pairAddress": "2z9dP72EqfsrsDBX7kwGtvhdvLbdFRVwiB5xUsjRXQYG",
+        "entryTime": "2026-04-17T15:16:24.969Z"
       }
     ],
     "wins": 0,
@@ -36708,7 +36713,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T15:03:23.835Z",
-    "lastSeen": "2026-04-17T15:03:23.835Z",
+    "lastSeen": "2026-04-17T15:16:24.969Z",
     "confirmed": false
   },
   "4chaKUUDRWAU8u8LgAHya3Mn73hSgpWdRWX4kAhh9DPH": {
@@ -36947,6 +36952,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T15:13:48.942Z",
     "lastSeen": "2026-04-17T15:13:48.942Z",
+    "confirmed": false
+  },
+  "CgvccnWzj3hcFLrDsTPPHPi8vmXCTTyy2VxpVdP8aZRT": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "INF",
+        "pairAddress": "2z9dP72EqfsrsDBX7kwGtvhdvLbdFRVwiB5xUsjRXQYG",
+        "entryTime": "2026-04-17T15:16:24.969Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T15:16:24.969Z",
+    "lastSeen": "2026-04-17T15:16:24.969Z",
     "confirmed": false
   }
 }
