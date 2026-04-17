@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 15,
+    "appearances": 16,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -620,6 +620,11 @@
         "symbol": "bro",
         "pairAddress": "5mFdmSGqDR9TaYpVnJ84iZpDDvWBuLn3nFLMNUJc8f3u",
         "entryTime": "2026-04-16T23:34:11.404Z"
+      },
+      {
+        "symbol": "Meowl",
+        "pairAddress": "AA4Wx26cnC8zk3nxacczbQa49LqubbN6JdN6WY1xK29j",
+        "entryTime": "2026-04-17T01:21:09.705Z"
       }
     ],
     "wins": 0,
@@ -627,7 +632,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-16T23:34:11.404Z",
+    "lastSeen": "2026-04-17T01:21:09.705Z",
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
@@ -24544,6 +24549,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T01:20:39.456Z",
     "lastSeen": "2026-04-17T01:20:39.456Z",
+    "confirmed": false
+  },
+  "2HAmSeR5tudG1bEvCqUF2W9xiK8zF1BtJLfmWPVQhtDd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Meowl",
+        "pairAddress": "AA4Wx26cnC8zk3nxacczbQa49LqubbN6JdN6WY1xK29j",
+        "entryTime": "2026-04-17T01:21:09.705Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T01:21:09.705Z",
+    "lastSeen": "2026-04-17T01:21:09.705Z",
+    "confirmed": false
+  },
+  "9fnBvjThXpRNR2Tgqo2Dne2CRha41xzmdbUphJ3Nz2Hu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "pigeon",
+        "pairAddress": "7v2iCjCa7DSFJS1PwgTJy2eKeWuebkrHqJci8HT4Crr7",
+        "entryTime": "2026-04-17T01:21:09.732Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T01:21:09.732Z",
+    "lastSeen": "2026-04-17T01:21:09.732Z",
     "confirmed": false
   }
 }
