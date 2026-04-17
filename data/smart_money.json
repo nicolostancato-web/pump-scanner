@@ -651,7 +651,7 @@
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 14,
+    "appearances": 15,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -722,6 +722,11 @@
         "symbol": "ASTEROID",
         "pairAddress": "A9aWUTdyVV1RrCWWg4mWBMFmAsaPPpR8c5pJEnpxovBj",
         "entryTime": "2026-04-17T04:58:49.392Z"
+      },
+      {
+        "symbol": "XERO",
+        "pairAddress": "EPVZgVcMSgdbbYPmuHsNFag8s56S1zGDNRkJj9cADMys",
+        "entryTime": "2026-04-17T06:11:09.071Z"
       }
     ],
     "wins": 0,
@@ -729,7 +734,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-17T04:58:49.392Z",
+    "lastSeen": "2026-04-17T06:11:09.071Z",
     "confirmed": true
   },
   "Cgqq5us7akPoWbSdMb8Jd6tp13cW79XWuuhqBthYnW9D": {
