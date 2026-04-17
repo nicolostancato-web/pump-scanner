@@ -1255,12 +1255,17 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "小行星",
         "pairAddress": "CxQZ1F5YvFj1rz8rUjdRhboBrdznJBDKyC5bnazuvaAj",
         "entryTime": "2026-04-17T18:42:08.359Z"
+      },
+      {
+        "symbol": "Conviction",
+        "pairAddress": "8FoFdEGeeKc4h53UfXmuMm3vjxMM9ppTVGkkd4EVSzzF",
+        "entryTime": "2026-04-17T23:08:56.882Z"
       }
     ],
     "wins": 0,
@@ -1268,7 +1273,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:42:08.359Z",
-    "lastSeen": "2026-04-17T18:42:08.359Z",
+    "lastSeen": "2026-04-17T23:08:56.882Z",
     "confirmed": false
   },
   "GM9mqi5EKFeF4ToX7WiCdPW8R1WzJiBvScgyhJU69VZT": {
@@ -7005,6 +7010,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:08:24.085Z",
     "lastSeen": "2026-04-17T23:08:24.085Z",
+    "confirmed": false
+  },
+  "482e3xJhQFKBE398vuFF2TBVfH5sde6vo4kfWttw4ow2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Conviction",
+        "pairAddress": "8FoFdEGeeKc4h53UfXmuMm3vjxMM9ppTVGkkd4EVSzzF",
+        "entryTime": "2026-04-17T23:08:56.882Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T23:08:56.882Z",
+    "lastSeen": "2026-04-17T23:08:56.882Z",
     "confirmed": false
   }
 }
