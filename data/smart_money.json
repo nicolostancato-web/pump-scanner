@@ -5369,7 +5369,7 @@
     "confirmed": false
   },
   "52oc72vjNbpUhF7jNE1pPAvc17JwBTyxybFp3u7PvetG": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "nep",
@@ -5385,6 +5385,11 @@
         "symbol": "Jude",
         "pairAddress": "2cM852qbaXtVD93jp9T341VXde5jw5FHSdEJtt5zdRpH",
         "entryTime": "2026-04-17T07:12:58.037Z"
+      },
+      {
+        "symbol": "XOGE",
+        "pairAddress": "HYMBxgAMemQqfsGxZK8bZxeWLJo2Z9nk98JV7txDiTD1",
+        "entryTime": "2026-04-17T11:48:48.138Z"
       }
     ],
     "wins": 0,
@@ -5392,7 +5397,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T11:01:31.555Z",
-    "lastSeen": "2026-04-17T07:12:58.037Z",
+    "lastSeen": "2026-04-17T11:48:48.138Z",
     "confirmed": true
   },
   "HZBmjtgG8MDownvB9wTLTRN2stjozUBwDaBUhUpybvrm": {
