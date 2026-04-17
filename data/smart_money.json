@@ -5279,7 +5279,7 @@
     "confirmed": false
   },
   "52oc72vjNbpUhF7jNE1pPAvc17JwBTyxybFp3u7PvetG": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "nep",
@@ -5290,6 +5290,11 @@
         "symbol": "WOLANA",
         "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
         "entryTime": "2026-04-17T03:42:55.917Z"
+      },
+      {
+        "symbol": "Jude",
+        "pairAddress": "2cM852qbaXtVD93jp9T341VXde5jw5FHSdEJtt5zdRpH",
+        "entryTime": "2026-04-17T07:12:58.037Z"
       }
     ],
     "wins": 0,
@@ -5297,8 +5302,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T11:01:31.555Z",
-    "lastSeen": "2026-04-17T03:42:55.917Z",
-    "confirmed": false
+    "lastSeen": "2026-04-17T07:12:58.037Z",
+    "confirmed": true
   },
   "HZBmjtgG8MDownvB9wTLTRN2stjozUBwDaBUhUpybvrm": {
     "appearances": 3,
@@ -31359,6 +31364,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T07:10:22.234Z",
     "lastSeen": "2026-04-17T07:10:22.234Z",
+    "confirmed": false
+  },
+  "FmbiNbq21EznBJAnTj8KNdCCk6xFi9vCCyhWJqWEDxFV": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Jude",
+        "pairAddress": "2cM852qbaXtVD93jp9T341VXde5jw5FHSdEJtt5zdRpH",
+        "entryTime": "2026-04-17T07:12:58.037Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T07:12:58.037Z",
+    "lastSeen": "2026-04-17T07:12:58.037Z",
     "confirmed": false
   }
 }
