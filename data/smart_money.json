@@ -11469,7 +11469,7 @@
     "confirmed": false
   },
   "2fHT9wBhywYonsanbhBz3drj7eizbTDNUVh71X5o13JD": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Pope",
@@ -11490,6 +11490,11 @@
         "symbol": "INF",
         "pairAddress": "2z9dP72EqfsrsDBX7kwGtvhdvLbdFRVwiB5xUsjRXQYG",
         "entryTime": "2026-04-17T15:10:41.894Z"
+      },
+      {
+        "symbol": "EUPHORIA",
+        "pairAddress": "4HabHfds5pfLsaZhnyh3wiDEvX4kM6hqri8RfU95kEna",
+        "entryTime": "2026-04-17T16:45:12.243Z"
       }
     ],
     "wins": 0,
@@ -11497,7 +11502,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T15:01:39.001Z",
-    "lastSeen": "2026-04-17T15:10:41.894Z",
+    "lastSeen": "2026-04-17T16:45:12.243Z",
     "confirmed": true
   },
   "7iZcpYwoK31X9ZHHRW5BGbPLKQbAx1M4uXt27kioNkwg": {
@@ -38327,6 +38332,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T16:44:35.666Z",
     "lastSeen": "2026-04-17T16:44:35.666Z",
+    "confirmed": false
+  },
+  "2c66oW2QSoUvQVavGmqYGvVvK5YBZfGSAWJacBmF4Wfc": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "EUPHORIA",
+        "pairAddress": "4HabHfds5pfLsaZhnyh3wiDEvX4kM6hqri8RfU95kEna",
+        "entryTime": "2026-04-17T16:45:12.243Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T16:45:12.243Z",
+    "lastSeen": "2026-04-17T16:45:12.243Z",
     "confirmed": false
   }
 }
