@@ -15099,12 +15099,17 @@
     "confirmed": false
   },
   "3kUYSWfV6RoQnJWszaUXnMiuAaztqfC5tmEGgCF9JGu8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PND",
         "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
         "entryTime": "2026-04-16T17:56:41.785Z"
+      },
+      {
+        "symbol": "neetcat",
+        "pairAddress": "GkUX6XNirqUu2iw6fXmeqBQPbBKUGiCgoyThT7KYdi4E",
+        "entryTime": "2026-04-17T13:02:23.662Z"
       }
     ],
     "wins": 0,
@@ -15112,7 +15117,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:56:41.785Z",
-    "lastSeen": "2026-04-16T17:56:41.785Z",
+    "lastSeen": "2026-04-17T13:02:23.662Z",
     "confirmed": false
   },
   "6dEFEdTCp1j4VJ4idyqBSmdYyzxrUSS8kxB8EKLTuD6K": {
@@ -34666,6 +34671,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T13:01:47.054Z",
     "lastSeen": "2026-04-17T13:01:47.054Z",
+    "confirmed": false
+  },
+  "67HXgfBFeXKwH9mMx8zWmrth59icdpbAfHx8GaNfgaPV": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "neetcat",
+        "pairAddress": "GkUX6XNirqUu2iw6fXmeqBQPbBKUGiCgoyThT7KYdi4E",
+        "entryTime": "2026-04-17T13:02:23.662Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T13:02:23.662Z",
+    "lastSeen": "2026-04-17T13:02:23.662Z",
     "confirmed": false
   }
 }
