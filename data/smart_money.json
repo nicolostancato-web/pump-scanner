@@ -3070,12 +3070,17 @@
     "confirmed": false
   },
   "FvEiNCudRa6o9kS6ysS9KzoHUhoRR3RsWcDmJXRked3A": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "policunc",
         "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
         "entryTime": "2026-04-17T19:58:47.653Z"
+      },
+      {
+        "symbol": "RETAIL",
+        "pairAddress": "45eK66Qf4dqPVxmH4B9ifRUDEqrJA29FGs1omGcYinnD",
+        "entryTime": "2026-04-17T22:52:11.525Z"
       }
     ],
     "wins": 0,
@@ -3083,7 +3088,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T19:58:47.653Z",
-    "lastSeen": "2026-04-17T19:58:47.653Z",
+    "lastSeen": "2026-04-17T22:52:11.525Z",
     "confirmed": false
   },
   "GNFSEKbuCVw2dSJcj2yGGhWmUiGoqrrkg7xxNvBWk3L8": {
@@ -6310,6 +6315,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T22:51:42.587Z",
     "lastSeen": "2026-04-17T22:51:42.587Z",
+    "confirmed": false
+  },
+  "EMsjWo6UhTs7LZDP1UMdQTPBgj6ZwmMqMbeYa8gdb5tN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "RETAIL",
+        "pairAddress": "45eK66Qf4dqPVxmH4B9ifRUDEqrJA29FGs1omGcYinnD",
+        "entryTime": "2026-04-17T22:52:11.525Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T22:52:11.525Z",
+    "lastSeen": "2026-04-17T22:52:11.525Z",
     "confirmed": false
   }
 }
