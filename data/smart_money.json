@@ -742,12 +742,17 @@
     "confirmed": false
   },
   "DeTroMcp7tL4oBEMNSYTWMHSu9ZJheHy9AnjXZgZwomR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Galícia",
         "pairAddress": "Gr8Xav61FtoKHdbFSUEeh2Txvfyybf9bE2SJo7k8S2Wp",
         "entryTime": "2026-04-17T18:30:54.366Z"
+      },
+      {
+        "symbol": "runner",
+        "pairAddress": "6Vpprqt6GKa8Lm8kdd6eYRaktardnDXHRko6PxoVhDba",
+        "entryTime": "2026-04-17T21:31:01.570Z"
       }
     ],
     "wins": 0,
@@ -755,7 +760,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:30:54.366Z",
-    "lastSeen": "2026-04-17T18:30:54.366Z",
+    "lastSeen": "2026-04-17T21:31:01.570Z",
     "confirmed": false
   },
   "Dp9edokxBsL7f8RYbDP8Xmvt43C6WyE5K6eZHVxJi54x": {
@@ -4538,6 +4543,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:30:24.224Z",
     "lastSeen": "2026-04-17T21:30:24.224Z",
+    "confirmed": false
+  },
+  "NCNShQ6fdCftobLd7F9mUy5urf5tM6YijRrEyi46iuB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "runner",
+        "pairAddress": "6Vpprqt6GKa8Lm8kdd6eYRaktardnDXHRko6PxoVhDba",
+        "entryTime": "2026-04-17T21:31:01.570Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T21:31:01.570Z",
+    "lastSeen": "2026-04-17T21:31:01.570Z",
     "confirmed": false
   }
 }
