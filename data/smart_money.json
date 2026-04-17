@@ -10277,7 +10277,7 @@
     "confirmed": true
   },
   "DrnuP46qcf7b7utTY9Esm46SwkTFhYu4TrtRGTyvkE67": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SOYJAK",
@@ -10288,6 +10288,11 @@
         "symbol": "WOLANA",
         "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
         "entryTime": "2026-04-17T03:45:25.200Z"
+      },
+      {
+        "symbol": "TRUMPROID",
+        "pairAddress": "A8JNyrC3r2KLRrNZd7dWz23hEeyxLv2xSd1vE6ByXDks",
+        "entryTime": "2026-04-17T08:46:08.433Z"
       }
     ],
     "wins": 0,
@@ -10295,8 +10300,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:44:53.295Z",
-    "lastSeen": "2026-04-17T03:45:25.200Z",
-    "confirmed": false
+    "lastSeen": "2026-04-17T08:46:08.433Z",
+    "confirmed": true
   },
   "9oeiNrdg4pR529T6Bs7Y24fBURrzjCxeeNiAh5UEc6ar": {
     "appearances": 1,
@@ -31929,6 +31934,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T08:45:33.471Z",
     "lastSeen": "2026-04-17T08:45:33.471Z",
+    "confirmed": false
+  },
+  "r76R6gVw6g1MZkE7BR9C3bjxR23SzXig1hW6j9e2cTm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRUMPROID",
+        "pairAddress": "A8JNyrC3r2KLRrNZd7dWz23hEeyxLv2xSd1vE6ByXDks",
+        "entryTime": "2026-04-17T08:46:08.433Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T08:46:08.433Z",
+    "lastSeen": "2026-04-17T08:46:08.433Z",
     "confirmed": false
   }
 }
