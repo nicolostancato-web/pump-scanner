@@ -10613,7 +10613,7 @@
     "confirmed": false
   },
   "CvRw2LQ8cJasvtKGXhhjCWAu1r2U5jpTjm2DuBVFrEjf": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SOYJAK",
@@ -10624,6 +10624,11 @@
         "symbol": "Optimistic",
         "pairAddress": "GjY94HK6voLSgiTFTGiJ6RzPDBzmmVYEL5NpodFVzRsx",
         "entryTime": "2026-04-17T01:59:11.319Z"
+      },
+      {
+        "symbol": "Flōki",
+        "pairAddress": "GnEX7gSoEuVBe8eb3TSE9RNsYvraXe5iYzDqdLNmxE6D",
+        "entryTime": "2026-04-17T18:00:50.802Z"
       }
     ],
     "wins": 0,
@@ -10631,8 +10636,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:46:07.032Z",
-    "lastSeen": "2026-04-17T01:59:11.319Z",
-    "confirmed": false
+    "lastSeen": "2026-04-17T18:00:50.802Z",
+    "confirmed": true
   },
   "HvFdDWS3RqymRAVx1ZdoL2RjiC38r5dtt19Z8op5jqDK": {
     "appearances": 1,
@@ -39178,6 +39183,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:00:06.272Z",
     "lastSeen": "2026-04-17T18:00:06.272Z",
+    "confirmed": false
+  },
+  "2be6FcNqBS3g1fBdFYrTt5AXLov8naTmPyu4FxM94kdy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Flōki",
+        "pairAddress": "GnEX7gSoEuVBe8eb3TSE9RNsYvraXe5iYzDqdLNmxE6D",
+        "entryTime": "2026-04-17T18:00:50.802Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T18:00:50.802Z",
+    "lastSeen": "2026-04-17T18:00:50.802Z",
     "confirmed": false
   }
 }
