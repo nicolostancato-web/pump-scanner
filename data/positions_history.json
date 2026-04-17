@@ -1898,7 +1898,70 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "6KEMSWKzvqGC5cACxPrjMqWfJG9oWq7MZm2Hk5oHauLK",
+      "mint": "3QYMtgn5aJzYLdAUBC8hFx4hmGDiHoyJTYUTsnPspump",
+      "name": "lor",
+      "symbol": "lor",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000801,
+      "entryMcap": 80101,
+      "entryTime": 1776419435184,
+      "score": 65,
+      "ageAtEntry": 48,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/6kemswkzvqgc5cacxprjmqwfjg9owq7mzm2hk5ohaulk",
+      "peakPrice": 0.0000801,
+      "peakMultiplier": 1,
+      "peakMcap": 80101,
+      "peakTime": 1776419435184,
+      "lastPrice": 0.00001944,
+      "lowestPrice": 0.00001944,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001944,
+      "closeMultiplier": 0.24269662921348317,
+      "closedAt": "2026-04-17T09:53:34.459Z",
+      "durationMs": 179275,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001944,
+        "closeMultiplier": 0.24269662921348317,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-17T09:53:34.459Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -23,
+        "momentum": 0.405,
+        "floatRotation": 0.2743175490942685,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-17T09:48:02.467Z"
+  "lastSaved": "2026-04-17T09:53:35.692Z"
 }
