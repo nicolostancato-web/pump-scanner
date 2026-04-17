@@ -5635,5 +5635,22 @@
     "firstSeen": "2026-04-17T22:21:12.415Z",
     "lastSeen": "2026-04-17T22:21:12.415Z",
     "confirmed": false
+  },
+  "EHSP4C3Xzm3srDs2L3td7YJBT7fTSekdm64o7reQeHCr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Aetherion",
+        "pairAddress": "93hQFQwpvj7Y7T4ezUFaNnorzWQh8JiMtxhNFpsoFEMK",
+        "entryTime": "2026-04-17T22:21:38.721Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T22:21:38.721Z",
+    "lastSeen": "2026-04-17T22:21:38.721Z",
+    "confirmed": false
   }
 }
