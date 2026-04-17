@@ -32973,12 +32973,17 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ASSTEROID",
         "pairAddress": "CbCD1iisoHynQ6wUGFqKTA4eiTG5PpuFnZmVrm63oGS2",
         "entryTime": "2026-04-17T11:06:12.489Z"
+      },
+      {
+        "symbol": "Baba",
+        "pairAddress": "CBzqEmzAxLNKtDehLDqnm1bnppaXM99hySZyUaQYxqdf",
+        "entryTime": "2026-04-17T13:42:13.660Z"
       }
     ],
     "wins": 0,
@@ -32986,7 +32991,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T11:06:12.489Z",
-    "lastSeen": "2026-04-17T11:06:12.489Z",
+    "lastSeen": "2026-04-17T13:42:13.660Z",
     "confirmed": false
   },
   "DqzrYQmi2vuVPsEqWmiiPx4sJNzXwWr2xKmdxNSk65Z5": {
@@ -35596,6 +35601,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T13:40:13.448Z",
     "lastSeen": "2026-04-17T13:40:13.448Z",
+    "confirmed": false
+  },
+  "BxK9849mTEYUZkd4kuMzZD8RdRpEXrehh1VEhCjaPCDm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Baba",
+        "pairAddress": "CBzqEmzAxLNKtDehLDqnm1bnppaXM99hySZyUaQYxqdf",
+        "entryTime": "2026-04-17T13:42:13.660Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T13:42:13.660Z",
+    "lastSeen": "2026-04-17T13:42:13.660Z",
     "confirmed": false
   }
 }
