@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 20,
+    "appearances": 21,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -645,6 +645,11 @@
         "symbol": "ASTEROID ",
         "pairAddress": "2sZH7KDfjZC2vVHNbNKuEfNBvzuSpkSDeaxcQt65GLW5",
         "entryTime": "2026-04-17T07:58:56.740Z"
+      },
+      {
+        "symbol": "lor",
+        "pairAddress": "6KEMSWKzvqGC5cACxPrjMqWfJG9oWq7MZm2Hk5oHauLK",
+        "entryTime": "2026-04-17T09:30:30.957Z"
       }
     ],
     "wins": 0,
@@ -652,7 +657,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-17T07:58:56.740Z",
+    "lastSeen": "2026-04-17T09:30:30.957Z",
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
