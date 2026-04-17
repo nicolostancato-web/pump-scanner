@@ -9414,7 +9414,7 @@
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "coin.ai",
@@ -9430,6 +9430,11 @@
         "symbol": "BONER",
         "pairAddress": "HxZNPLaSjSQD8GHTyeWeTnheaVdsBb5dx9yei3jpxGwP",
         "entryTime": "2026-04-17T00:31:45.975Z"
+      },
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "91tDWyGdurPekG8JCWCfzJn7aGfLgb9zb711fHpyGR2j",
+        "entryTime": "2026-04-17T04:12:31.747Z"
       }
     ],
     "wins": 0,
@@ -9437,7 +9442,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:06:59.501Z",
-    "lastSeen": "2026-04-17T00:31:45.975Z",
+    "lastSeen": "2026-04-17T04:12:31.747Z",
     "confirmed": true
   },
   "3JBq2H8XxxMRjU3gx9i2s4EBCqMfy6TuHyH2ZfU1hiQa": {
@@ -28936,6 +28941,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T04:09:55.366Z",
     "lastSeen": "2026-04-17T04:09:55.366Z",
+    "confirmed": false
+  },
+  "47E7NG9r3rsAoBRmc9f6tSR7VE5UVLiz7D3KmjLiTdKn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "91tDWyGdurPekG8JCWCfzJn7aGfLgb9zb711fHpyGR2j",
+        "entryTime": "2026-04-17T04:12:31.747Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T04:12:31.747Z",
+    "lastSeen": "2026-04-17T04:12:31.747Z",
     "confirmed": false
   }
 }
