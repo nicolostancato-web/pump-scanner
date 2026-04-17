@@ -4542,7 +4542,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 20,
+    "appearances": 21,
     "tokens": [
       {
         "symbol": "cuz",
@@ -4643,6 +4643,11 @@
         "symbol": "DELPHAI",
         "pairAddress": "7GEp56S2sbt9patmzuG4YtredUjReSGKr7PDEfFkYZCh",
         "entryTime": "2026-04-17T16:43:53.452Z"
+      },
+      {
+        "symbol": "Hope",
+        "pairAddress": "AvqnQWAZ95VxtgCBki6A7vddswJbfERaPhr4aX4m4f74",
+        "entryTime": "2026-04-17T17:29:51.050Z"
       }
     ],
     "wins": 0,
@@ -4650,7 +4655,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:25:41.059Z",
-    "lastSeen": "2026-04-17T16:43:53.452Z",
+    "lastSeen": "2026-04-17T17:29:51.050Z",
     "confirmed": true
   },
   "8a6MmbYU8eyR3dFofvVj54XcrYt9CuxSanuH4S967AMj": {
@@ -38699,6 +38704,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T17:26:32.382Z",
     "lastSeen": "2026-04-17T17:26:32.382Z",
+    "confirmed": false
+  },
+  "4keacT9CrFxXVwBsBurDRnBAip7hZMQBYkUoBRFzYzui": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETH",
+        "pairAddress": "F9d7APnaqmNvCH6LHw2CBAD1YVrcJyLw5TmaCZzL1V2N",
+        "entryTime": "2026-04-17T17:29:51.777Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T17:29:51.777Z",
+    "lastSeen": "2026-04-17T17:29:51.777Z",
+    "confirmed": false
+  },
+  "DCC5S1CHB6iwECvFJWSMMR2aB316nbZKPFubgaTDiHcP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETH",
+        "pairAddress": "F9d7APnaqmNvCH6LHw2CBAD1YVrcJyLw5TmaCZzL1V2N",
+        "entryTime": "2026-04-17T17:29:51.777Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T17:29:51.777Z",
+    "lastSeen": "2026-04-17T17:29:51.777Z",
     "confirmed": false
   }
 }
