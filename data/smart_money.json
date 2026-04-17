@@ -5927,5 +5927,22 @@
     "firstSeen": "2026-04-17T22:34:58.537Z",
     "lastSeen": "2026-04-17T22:34:58.537Z",
     "confirmed": false
+  },
+  "8pY1AukbuPgUE3EetyLa59rFLMimJGT94ZzbMEZcQF4w": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AFD",
+        "pairAddress": "EdVafdsMMTwvuWiXb3EfNSQpPvy2Fbkn6hKhGg57cSoD",
+        "entryTime": "2026-04-17T22:35:27.042Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T22:35:27.042Z",
+    "lastSeen": "2026-04-17T22:35:27.042Z",
+    "confirmed": false
   }
 }
