@@ -559,12 +559,17 @@
     "confirmed": false
   },
   "C7ML4W7cegR8oBD3K2qeE5WmLgP2BGd8s81Sd78GZxN5": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "小行星",
         "pairAddress": "CxQZ1F5YvFj1rz8rUjdRhboBrdznJBDKyC5bnazuvaAj",
         "entryTime": "2026-04-17T18:28:01.719Z"
+      },
+      {
+        "symbol": "policunc",
+        "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
+        "entryTime": "2026-04-17T20:00:53.432Z"
       }
     ],
     "wins": 0,
@@ -572,7 +577,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:28:01.719Z",
-    "lastSeen": "2026-04-17T18:28:01.719Z",
+    "lastSeen": "2026-04-17T20:00:53.432Z",
     "confirmed": false
   },
   "EEhu7YZ6w8Jrx5vH5ctb8LkFBL9EKzumAFGshvUPu8A2": {
@@ -3094,6 +3099,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T19:59:52.757Z",
     "lastSeen": "2026-04-17T19:59:52.757Z",
+    "confirmed": false
+  },
+  "CRjNG1t5SzSms2QkuCBhD2G1Jr28c1BExvUxjdGQ5xbQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "policunc",
+        "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
+        "entryTime": "2026-04-17T20:00:53.432Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T20:00:53.432Z",
+    "lastSeen": "2026-04-17T20:00:53.432Z",
     "confirmed": false
   }
 }
