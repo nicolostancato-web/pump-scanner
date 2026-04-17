@@ -1613,7 +1613,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "HUMAN",
@@ -1629,6 +1629,11 @@
         "symbol": "Aetherion",
         "pairAddress": "93hQFQwpvj7Y7T4ezUFaNnorzWQh8JiMtxhNFpsoFEMK",
         "entryTime": "2026-04-17T22:34:29.171Z"
+      },
+      {
+        "symbol": "Popdog",
+        "pairAddress": "8dZTpasCwuN16WbzDgCSQtykA8adUrmwrmGE16XpUSUb",
+        "entryTime": "2026-04-17T23:36:41.280Z"
       }
     ],
     "wins": 0,
@@ -1636,7 +1641,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:55:14.990Z",
-    "lastSeen": "2026-04-17T22:34:29.171Z",
+    "lastSeen": "2026-04-17T23:36:41.280Z",
     "confirmed": true
   },
   "82QuQ8mpqKnkvhsXcfRQ4CnLXip6RxXCYrKAxzucZaG1": {
@@ -7858,6 +7863,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:36:10.507Z",
     "lastSeen": "2026-04-17T23:36:10.507Z",
+    "confirmed": false
+  },
+  "7DiZFgjDZJym31cJ73HXi4MwNpQQkLhZUjBhJg71ifh5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Popdog",
+        "pairAddress": "8dZTpasCwuN16WbzDgCSQtykA8adUrmwrmGE16XpUSUb",
+        "entryTime": "2026-04-17T23:36:41.280Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T23:36:41.280Z",
+    "lastSeen": "2026-04-17T23:36:41.280Z",
     "confirmed": false
   }
 }
