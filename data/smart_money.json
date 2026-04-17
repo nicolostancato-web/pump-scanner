@@ -3688,12 +3688,17 @@
     "confirmed": false
   },
   "446aZcB4fiPrw5WyhjYVUBrQmGpX9qCP1sc4ru8zmnmf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "policunc",
         "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
         "entryTime": "2026-04-17T20:15:53.425Z"
+      },
+      {
+        "symbol": "إلمو",
+        "pairAddress": "GemBcfbJrpeWL4hCU88NTEFeRvaNJAFojtq1bTFhJL6r",
+        "entryTime": "2026-04-17T21:03:26.943Z"
       }
     ],
     "wins": 0,
@@ -3701,7 +3706,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:15:53.425Z",
-    "lastSeen": "2026-04-17T20:15:53.425Z",
+    "lastSeen": "2026-04-17T21:03:26.943Z",
     "confirmed": false
   },
   "qvZrWd4K1Pq1eWjJ6J2DE2suAPxCkvvp4gQjoD28gGF": {
@@ -4195,6 +4200,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:00:24.813Z",
     "lastSeen": "2026-04-17T21:00:24.813Z",
+    "confirmed": false
+  },
+  "DULT2qC5mH15gxTKbrFgxEVHrNeKbkAkNYoq4gU5knL8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "إلمو",
+        "pairAddress": "GemBcfbJrpeWL4hCU88NTEFeRvaNJAFojtq1bTFhJL6r",
+        "entryTime": "2026-04-17T21:03:26.943Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T21:03:26.943Z",
+    "lastSeen": "2026-04-17T21:03:26.943Z",
     "confirmed": false
   }
 }
