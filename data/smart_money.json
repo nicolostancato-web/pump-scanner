@@ -4492,7 +4492,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 15,
+    "appearances": 16,
     "tokens": [
       {
         "symbol": "cuz",
@@ -4568,6 +4568,11 @@
         "symbol": "neetcat",
         "pairAddress": "GkUX6XNirqUu2iw6fXmeqBQPbBKUGiCgoyThT7KYdi4E",
         "entryTime": "2026-04-17T13:19:46.285Z"
+      },
+      {
+        "symbol": "Baba",
+        "pairAddress": "CBzqEmzAxLNKtDehLDqnm1bnppaXM99hySZyUaQYxqdf",
+        "entryTime": "2026-04-17T13:39:03.498Z"
       }
     ],
     "wins": 0,
@@ -4575,7 +4580,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T10:25:41.059Z",
-    "lastSeen": "2026-04-17T13:19:46.285Z",
+    "lastSeen": "2026-04-17T13:39:03.498Z",
     "confirmed": true
   },
   "8a6MmbYU8eyR3dFofvVj54XcrYt9CuxSanuH4S967AMj": {
@@ -35518,6 +35523,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T13:38:19.101Z",
     "lastSeen": "2026-04-17T13:38:19.101Z",
+    "confirmed": false
+  },
+  "TwCo2LkMcLRfzsuXf1Nu7MMXNnCha4D16YH4nLL86LF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Baba",
+        "pairAddress": "CBzqEmzAxLNKtDehLDqnm1bnppaXM99hySZyUaQYxqdf",
+        "entryTime": "2026-04-17T13:39:03.498Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T13:39:03.498Z",
+    "lastSeen": "2026-04-17T13:39:03.498Z",
     "confirmed": false
   }
 }
