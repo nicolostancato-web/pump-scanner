@@ -8415,7 +8415,7 @@
     "confirmed": false
   },
   "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "BGF",
@@ -8436,6 +8436,11 @@
         "symbol": "WTOR",
         "pairAddress": "GtDATEUisJNjz6NYFTyPMryRNKovUAU7NxVq4eLYCS6S",
         "entryTime": "2026-04-16T17:40:10.418Z"
+      },
+      {
+        "symbol": "WOLANA",
+        "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
+        "entryTime": "2026-04-17T03:50:44.344Z"
       }
     ],
     "wins": 0,
@@ -8443,7 +8448,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T13:46:08.879Z",
-    "lastSeen": "2026-04-16T17:40:10.418Z",
+    "lastSeen": "2026-04-17T03:50:44.344Z",
     "confirmed": true
   },
   "9W8FutrPbumE8XYUz1zuuA2ww8gp8CA51C77G99F3Ukk": {
@@ -28430,6 +28435,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T03:50:11.799Z",
     "lastSeen": "2026-04-17T03:50:11.799Z",
+    "confirmed": false
+  },
+  "4kkd2jiYEaCJ1qERWqqwoExCBDQB1WD8Un4FbPps9hrL": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WOLANA",
+        "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
+        "entryTime": "2026-04-17T03:50:44.344Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T03:50:44.344Z",
+    "lastSeen": "2026-04-17T03:50:44.344Z",
     "confirmed": false
   }
 }
