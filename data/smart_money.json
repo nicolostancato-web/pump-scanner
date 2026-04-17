@@ -7124,7 +7124,7 @@
     "confirmed": false
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "YOLO",
@@ -7135,6 +7135,11 @@
         "symbol": "income",
         "pairAddress": "64nf4gdnJb3goo9HEMmghhKRavXGteBTzFBBe8ZYF76B",
         "entryTime": "2026-04-16T18:50:28.993Z"
+      },
+      {
+        "symbol": "pigeon",
+        "pairAddress": "7v2iCjCa7DSFJS1PwgTJy2eKeWuebkrHqJci8HT4Crr7",
+        "entryTime": "2026-04-17T03:04:41.056Z"
       }
     ],
     "wins": 0,
@@ -7142,8 +7147,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T12:01:31.429Z",
-    "lastSeen": "2026-04-16T18:50:28.993Z",
-    "confirmed": false
+    "lastSeen": "2026-04-17T03:04:41.056Z",
+    "confirmed": true
   },
   "4r33xEKAD2cNMrC9NyJy8nb4XmruUKebZ6LZZm65PVUZ": {
     "appearances": 2,
