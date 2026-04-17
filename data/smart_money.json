@@ -15953,12 +15953,17 @@
     "confirmed": false
   },
   "8SveFUanfbLRMsL6NAXa1LCMmLEsUc7q7KhFBufscG5Y": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PND",
         "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
         "entryTime": "2026-04-16T18:28:57.572Z"
+      },
+      {
+        "symbol": "WOLANA",
+        "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
+        "entryTime": "2026-04-17T03:47:18.894Z"
       }
     ],
     "wins": 0,
@@ -15966,7 +15971,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T18:28:57.572Z",
-    "lastSeen": "2026-04-16T18:28:57.572Z",
+    "lastSeen": "2026-04-17T03:47:18.894Z",
     "confirmed": false
   },
   "AyRp4Ff45fYhWz2fWmFbarUGCzYBfeTtvT1YFDnPXP8c": {
