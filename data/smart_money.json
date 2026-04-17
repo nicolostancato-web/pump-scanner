@@ -34370,5 +34370,22 @@
     "firstSeen": "2026-04-17T12:19:56.120Z",
     "lastSeen": "2026-04-17T12:19:56.120Z",
     "confirmed": false
+  },
+  "58eKfumgV5MJAQwV91GXkjmPaeBchnSTWVqu2vcS95ZS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BREAD",
+        "pairAddress": "BGnCzMZ4wXM7qYuuTM8s3onbkzMw3xyvWdZcU2M2rSsr",
+        "entryTime": "2026-04-17T12:20:39.194Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T12:20:39.194Z",
+    "lastSeen": "2026-04-17T12:20:39.194Z",
+    "confirmed": false
   }
 }
