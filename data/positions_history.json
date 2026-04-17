@@ -1961,7 +1961,70 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4SN5Hw3Riz1i56xY1hwptk19aS2TnRho3Xj1z2KsLWdV",
+      "mint": "9VLqJCUXFgdjyzPc5BhQqRwLZ6uKp54BKfSQtgyVpump",
+      "name": "Just a chill asteroid ",
+      "symbol": "CHILLASTER",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001145,
+      "entryMcap": 114546,
+      "entryTime": 1776420506217,
+      "score": 70,
+      "ageAtEntry": 60,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/4sn5hw3riz1i56xy1hwptk19as2tnrho3xj1z2kslwdv",
+      "peakPrice": 0.0001184,
+      "peakMultiplier": 1.034061135371179,
+      "peakMcap": 118426,
+      "peakTime": 1776420564895,
+      "lastPrice": 0.00006826,
+      "lowestPrice": 0.00006826,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00006826,
+      "closeMultiplier": 0.5961572052401747,
+      "closedAt": "2026-04-17T10:29:25.229Z",
+      "durationMs": 1259012,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00006826,
+        "closeMultiplier": 0.5961572052401747,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-17T10:29:25.229Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": 0.4703333333333333,
+        "floatRotation": 0.5090108777259791,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-17T09:53:35.692Z"
+  "lastSaved": "2026-04-17T10:29:26.470Z"
 }
