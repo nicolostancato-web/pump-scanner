@@ -408,7 +408,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "DINO",
@@ -434,6 +434,11 @@
         "symbol": "إلمو",
         "pairAddress": "GemBcfbJrpeWL4hCU88NTEFeRvaNJAFojtq1bTFhJL6r",
         "entryTime": "2026-04-17T21:18:17.406Z"
+      },
+      {
+        "symbol": "ENEMIES",
+        "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
+        "entryTime": "2026-04-17T21:56:51.931Z"
       }
     ],
     "wins": 0,
@@ -441,7 +446,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:23:59.505Z",
-    "lastSeen": "2026-04-17T21:18:17.406Z",
+    "lastSeen": "2026-04-17T21:56:51.931Z",
     "confirmed": true
   },
   "FpPguUPCC4if8YnJe481WnVN4j7oQkbJ248UzunrKS6C": {
@@ -5160,6 +5165,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:54:20.763Z",
     "lastSeen": "2026-04-17T21:54:20.763Z",
+    "confirmed": false
+  },
+  "Fgej4SPuW282TdrQRfizRHAeRasNqCtAWZizL3jDqMdS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ENEMIES",
+        "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
+        "entryTime": "2026-04-17T21:56:51.931Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T21:56:51.931Z",
+    "lastSeen": "2026-04-17T21:56:51.931Z",
     "confirmed": false
   }
 }
