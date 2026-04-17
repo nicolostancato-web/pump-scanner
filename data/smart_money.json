@@ -581,12 +581,17 @@
     "confirmed": false
   },
   "EEhu7YZ6w8Jrx5vH5ctb8LkFBL9EKzumAFGshvUPu8A2": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Galícia",
         "pairAddress": "Gr8Xav61FtoKHdbFSUEeh2Txvfyybf9bE2SJo7k8S2Wp",
         "entryTime": "2026-04-17T18:28:39.511Z"
+      },
+      {
+        "symbol": "policunc",
+        "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
+        "entryTime": "2026-04-17T20:06:48.512Z"
       }
     ],
     "wins": 0,
@@ -594,7 +599,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:28:39.511Z",
-    "lastSeen": "2026-04-17T18:28:39.511Z",
+    "lastSeen": "2026-04-17T20:06:48.512Z",
     "confirmed": false
   },
   "ECjtUQnnVds5AcfhMo1epFaCwQz5kAqvTWkBq2o2oMfq": {
@@ -3286,6 +3291,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:06:16.836Z",
     "lastSeen": "2026-04-17T20:06:16.836Z",
+    "confirmed": false
+  },
+  "z2XYk8A4t7cZQdVprAc9vAdSRfUPffAAqg8d6LEcLag": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "policunc",
+        "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
+        "entryTime": "2026-04-17T20:06:48.512Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T20:06:48.512Z",
+    "lastSeen": "2026-04-17T20:06:48.512Z",
     "confirmed": false
   }
 }
