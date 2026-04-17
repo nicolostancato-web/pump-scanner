@@ -9810,12 +9810,17 @@
     "confirmed": false
   },
   "wcC1TpGVDG1nyCdApsipX2vGid4sv1vBBsxqeC7shJD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "coin.ai",
         "pairAddress": "AsccyqT5hJ2tu9D3yqqvRKRXCHRhuRvdCTzUdLdaVD3a",
         "entryTime": "2026-04-16T14:12:43.344Z"
+      },
+      {
+        "symbol": "Foot",
+        "pairAddress": "fSoZEqv3FXfFkc3G6jhZTGYzTrmfLVA9nUL7nw2ue5F",
+        "entryTime": "2026-04-17T12:24:04.115Z"
       }
     ],
     "wins": 0,
@@ -9823,7 +9828,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T14:12:43.344Z",
-    "lastSeen": "2026-04-16T14:12:43.344Z",
+    "lastSeen": "2026-04-17T12:24:04.115Z",
     "confirmed": false
   },
   "9BDSb5YGkM5DvzQJFbw43yPCuAEXihHwnWmvZ7sXt3oB": {
@@ -15135,12 +15140,17 @@
     "confirmed": false
   },
   "x4T7hgJqNDBC1cVBeo42hZkQAdSLKwxV8wv9QiDHN2j": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PND",
         "pairAddress": "HcjzaKv4a8RHZVS8FrXzJQwURbvgQo3Wg6B1mNQwgp2D",
         "entryTime": "2026-04-16T17:57:14.453Z"
+      },
+      {
+        "symbol": "Foot",
+        "pairAddress": "fSoZEqv3FXfFkc3G6jhZTGYzTrmfLVA9nUL7nw2ue5F",
+        "entryTime": "2026-04-17T12:24:04.115Z"
       }
     ],
     "wins": 0,
@@ -15148,7 +15158,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:57:14.453Z",
-    "lastSeen": "2026-04-16T17:57:14.453Z",
+    "lastSeen": "2026-04-17T12:24:04.115Z",
     "confirmed": false
   },
   "9QvzxBW36MDWRbHES7Q6aZpd8xqQcV5Rva8Hi9iN5g8K": {
