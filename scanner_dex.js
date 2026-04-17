@@ -1214,9 +1214,11 @@ async function scan() {
 
       // Pre-score con soli dati DexScreener (senza buyer/whale) per decidere se fare RPC
       const { score: preScore } = scoreToken(pair, null);
-      const needsRPC = preScore >= 35; // RPC solo su token interessanti
+      const ageOk = pairAge <= 30; // token vecchi non hanno tx recenti su RPC
+      const needsRPC = preScore >= 35 && ageOk;
       if (!needsRPC) {
-        console.log(`  ${symbol} | pre-score:${preScore} < 35 → skip RPC`);
+        const reason = !ageOk ? `età ${Math.round(pairAge)}min > 30` : `pre-score:${preScore} < 35`;
+        console.log(`  ${symbol} | ${reason} → skip RPC`);
       }
 
       // Fetch buyers — usa il token mint (baseToken.address), non il pool address
