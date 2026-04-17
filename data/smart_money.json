@@ -6948,12 +6948,17 @@
     "confirmed": false
   },
   "3pzGHton9d2hr2grPavffpoxShGEXAH5nTbno3rGQaHL": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "YOLO",
         "pairAddress": "LYLthRLjPU8ZRSfjArMtcdeaidfxoJsmCiaZgSANEqV",
         "entryTime": "2026-04-16T11:44:28.752Z"
+      },
+      {
+        "symbol": "ASSTEROID",
+        "pairAddress": "CbCD1iisoHynQ6wUGFqKTA4eiTG5PpuFnZmVrm63oGS2",
+        "entryTime": "2026-04-17T11:06:12.489Z"
       }
     ],
     "wins": 0,
@@ -6961,7 +6966,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T11:44:28.752Z",
-    "lastSeen": "2026-04-16T11:44:28.752Z",
+    "lastSeen": "2026-04-17T11:06:12.489Z",
     "confirmed": false
   },
   "CHP1hQSfo9yVZKLoHj8RpL5rdnz5WzLUYHQQe47RcjEo": {
@@ -32805,6 +32810,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T11:03:36.691Z",
     "lastSeen": "2026-04-17T11:03:36.691Z",
+    "confirmed": false
+  },
+  "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASSTEROID",
+        "pairAddress": "CbCD1iisoHynQ6wUGFqKTA4eiTG5PpuFnZmVrm63oGS2",
+        "entryTime": "2026-04-17T11:06:12.489Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T11:06:12.489Z",
+    "lastSeen": "2026-04-17T11:06:12.489Z",
     "confirmed": false
   }
 }
