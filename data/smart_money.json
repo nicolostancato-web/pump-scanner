@@ -14775,12 +14775,17 @@
     "confirmed": false
   },
   "FuksXcZdAAdM8DsF1CLbd39BYriYeqxSDfGyH9hkXg6Y": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "dug",
         "pairAddress": "FWMfTZoUprGJ6NFJxNNmpqedBGnYnFPR12FRQJMgXJQP",
         "entryTime": "2026-04-16T17:27:20.966Z"
+      },
+      {
+        "symbol": "SOLANA",
+        "pairAddress": "HwKF1Q45rXYjBm84wfz6FsCK5MVPaHFZiPnLDM9nk5Nf",
+        "entryTime": "2026-04-17T16:35:00.356Z"
       }
     ],
     "wins": 0,
@@ -14788,7 +14793,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T17:27:20.966Z",
-    "lastSeen": "2026-04-16T17:27:20.966Z",
+    "lastSeen": "2026-04-17T16:35:00.356Z",
     "confirmed": false
   },
   "3WJxRaaKF1iC41yfN5zZzhck6hb5dUV9vJWCB77GmcPu": {
@@ -38127,6 +38132,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T16:34:25.373Z",
     "lastSeen": "2026-04-17T16:34:25.373Z",
+    "confirmed": false
+  },
+  "BJ5izG14YabuND91s2bp4schnAu2sk4q6BPdVtbyeAqU": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOLANA",
+        "pairAddress": "HwKF1Q45rXYjBm84wfz6FsCK5MVPaHFZiPnLDM9nk5Nf",
+        "entryTime": "2026-04-17T16:35:00.356Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T16:35:00.356Z",
+    "lastSeen": "2026-04-17T16:35:00.356Z",
     "confirmed": false
   }
 }
