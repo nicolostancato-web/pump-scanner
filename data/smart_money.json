@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 18,
+    "appearances": 19,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -635,6 +635,11 @@
         "symbol": "WOLANA",
         "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
         "entryTime": "2026-04-17T03:41:47.618Z"
+      },
+      {
+        "symbol": "UNCS",
+        "pairAddress": "G9DacWBs9rcfKRJoa1JNbZ2BPWaJTKBD48FqxsXpAUCp",
+        "entryTime": "2026-04-17T05:11:53.762Z"
       }
     ],
     "wins": 0,
@@ -642,7 +647,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-17T03:41:47.618Z",
+    "lastSeen": "2026-04-17T05:11:53.762Z",
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
@@ -3175,7 +3180,7 @@
     "confirmed": true
   },
   "JESUSL2s5BsffGNNn6wQtHART2iXVGjtGhKAwGw44bL": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "cunt",
@@ -3206,6 +3211,11 @@
         "symbol": "REPLYGUY",
         "pairAddress": "HJBu8CY6GKCcZ4cVSzpaMXE2f2qTmHb2UR3sC6CkSmuo",
         "entryTime": "2026-04-16T20:07:24.741Z"
+      },
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "91tDWyGdurPekG8JCWCfzJn7aGfLgb9zb711fHpyGR2j",
+        "entryTime": "2026-04-17T05:11:53.709Z"
       }
     ],
     "wins": 0,
@@ -3213,7 +3223,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:44:12.915Z",
-    "lastSeen": "2026-04-16T20:07:24.741Z",
+    "lastSeen": "2026-04-17T05:11:53.709Z",
     "confirmed": true
   },
   "3PL2ECVLrutt2J6ANMHvDon4WFhWvwWqMiy4jMJcZvPG": {
@@ -29900,6 +29910,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T05:07:18.681Z",
     "lastSeen": "2026-04-17T05:07:18.681Z",
+    "confirmed": false
+  },
+  "H1rXAm2EetDJvUVb136QHtQNW5PmGcuDawNnNgzjeXxY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNCS",
+        "pairAddress": "G9DacWBs9rcfKRJoa1JNbZ2BPWaJTKBD48FqxsXpAUCp",
+        "entryTime": "2026-04-17T05:11:53.762Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T05:11:53.762Z",
+    "lastSeen": "2026-04-17T05:11:53.762Z",
     "confirmed": false
   }
 }
