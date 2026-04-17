@@ -8243,7 +8243,7 @@
     "confirmed": false
   },
   "8EaPHLRuxu6wUjuD5yHuXMQpCyBXbD2XzGuPyhBPq95a": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "BGF",
@@ -8259,6 +8259,11 @@
         "symbol": "WOLANA",
         "pairAddress": "GrYsf8YLmoPog5EGgVp1woxuZM4dq9Fy3RLe9PZ1y4VS",
         "entryTime": "2026-04-17T03:31:22.976Z"
+      },
+      {
+        "symbol": "habibi",
+        "pairAddress": "47y1ZJrKCyHkeGD24zKt5VBfozpAuxoMev9UWWkWikJL",
+        "entryTime": "2026-04-17T04:38:34.638Z"
       }
     ],
     "wins": 0,
@@ -8266,7 +8271,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T13:42:08.302Z",
-    "lastSeen": "2026-04-17T03:31:22.976Z",
+    "lastSeen": "2026-04-17T04:38:34.638Z",
     "confirmed": true
   },
   "D2yBSi22faZoQ3o96k93dZGQWD2WG5Spt8jyDzkMtfVE": {
