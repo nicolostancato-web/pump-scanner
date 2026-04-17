@@ -3443,12 +3443,17 @@
     "confirmed": false
   },
   "9JKk2rhPEyc5SWmvyinAB1VQuLmzmyoihVEP9ckbuBsW": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "cunt",
         "pairAddress": "9FXt3bt9yUSSjzUzouEVmvQK1A9xd2SVD9bYhtr3GTL",
         "entryTime": "2026-04-16T09:57:46.940Z"
+      },
+      {
+        "symbol": "neetcat",
+        "pairAddress": "GkUX6XNirqUu2iw6fXmeqBQPbBKUGiCgoyThT7KYdi4E",
+        "entryTime": "2026-04-17T13:21:00.916Z"
       }
     ],
     "wins": 0,
@@ -3456,7 +3461,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:57:46.940Z",
-    "lastSeen": "2026-04-16T09:57:46.940Z",
+    "lastSeen": "2026-04-17T13:21:00.916Z",
     "confirmed": false
   },
   "2Jy2VdYU6YmSKL2fAk59iTBHavGUu41HNRMekdwcVUVg": {
