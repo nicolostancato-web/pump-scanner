@@ -676,7 +676,7 @@
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 17,
+    "appearances": 18,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -762,6 +762,11 @@
         "symbol": "Asteroid",
         "pairAddress": "81q9gwLhEzR86p43UCjovyT2rfGNFCNQAmyuijkg8Q2F",
         "entryTime": "2026-04-17T13:02:57.352Z"
+      },
+      {
+        "symbol": "neetcat",
+        "pairAddress": "GkUX6XNirqUu2iw6fXmeqBQPbBKUGiCgoyThT7KYdi4E",
+        "entryTime": "2026-04-17T13:24:37.248Z"
       }
     ],
     "wins": 0,
@@ -769,7 +774,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-17T13:02:57.352Z",
+    "lastSeen": "2026-04-17T13:24:37.248Z",
     "confirmed": true
   },
   "Cgqq5us7akPoWbSdMb8Jd6tp13cW79XWuuhqBthYnW9D": {
@@ -35248,6 +35253,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T13:23:52.513Z",
     "lastSeen": "2026-04-17T13:23:52.513Z",
+    "confirmed": false
+  },
+  "3AYQkRc5FDT1cNg42mxquKzD3rvRUaKqoAk9ryu8jBMH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "neetcat",
+        "pairAddress": "GkUX6XNirqUu2iw6fXmeqBQPbBKUGiCgoyThT7KYdi4E",
+        "entryTime": "2026-04-17T13:24:37.248Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T13:24:37.248Z",
+    "lastSeen": "2026-04-17T13:24:37.248Z",
     "confirmed": false
   }
 }
