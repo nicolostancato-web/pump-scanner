@@ -854,12 +854,17 @@
     "confirmed": false
   },
   "7XPu5j9LPRi9CythzNeC8EDbSHounnFY6tD7duJrqbKz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "mexicunc",
         "pairAddress": "CZLsBMRQDA9DjRbUbrd2sDLHvgWQ8TwoTbbDRvUp3wiV",
         "entryTime": "2026-04-16T08:45:08.110Z"
+      },
+      {
+        "symbol": "SOLANA",
+        "pairAddress": "HwKF1Q45rXYjBm84wfz6FsCK5MVPaHFZiPnLDM9nk5Nf",
+        "entryTime": "2026-04-17T16:16:37.718Z"
       }
     ],
     "wins": 0,
@@ -867,7 +872,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:45:08.110Z",
-    "lastSeen": "2026-04-16T08:45:08.110Z",
+    "lastSeen": "2026-04-17T16:16:37.718Z",
     "confirmed": false
   },
   "6psMrLbL6dbr2YtBhCdYMjp5MP31QxhTCJGCFKxFqhAA": {
@@ -35540,12 +35545,17 @@
     "confirmed": false
   },
   "446aZcB4fiPrw5WyhjYVUBrQmGpX9qCP1sc4ru8zmnmf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "neetcat",
         "pairAddress": "GkUX6XNirqUu2iw6fXmeqBQPbBKUGiCgoyThT7KYdi4E",
         "entryTime": "2026-04-17T13:27:32.118Z"
+      },
+      {
+        "symbol": "SOLANA",
+        "pairAddress": "HwKF1Q45rXYjBm84wfz6FsCK5MVPaHFZiPnLDM9nk5Nf",
+        "entryTime": "2026-04-17T16:16:37.718Z"
       }
     ],
     "wins": 0,
@@ -35553,7 +35563,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T13:27:32.118Z",
-    "lastSeen": "2026-04-17T13:27:32.118Z",
+    "lastSeen": "2026-04-17T16:16:37.718Z",
     "confirmed": false
   },
   "Fh1BCqt8dVMjF7pJiJuj2vsMtiqVVNS1j8PKcg8uxnse": {
