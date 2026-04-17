@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 19,
+    "appearances": 20,
     "tokens": [
       {
         "symbol": "Pibble",
@@ -640,6 +640,11 @@
         "symbol": "UNCS",
         "pairAddress": "G9DacWBs9rcfKRJoa1JNbZ2BPWaJTKBD48FqxsXpAUCp",
         "entryTime": "2026-04-17T05:11:53.762Z"
+      },
+      {
+        "symbol": "ASTEROID ",
+        "pairAddress": "2sZH7KDfjZC2vVHNbNKuEfNBvzuSpkSDeaxcQt65GLW5",
+        "entryTime": "2026-04-17T07:58:56.740Z"
       }
     ],
     "wins": 0,
@@ -647,7 +652,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T08:44:03.322Z",
-    "lastSeen": "2026-04-17T05:11:53.762Z",
+    "lastSeen": "2026-04-17T07:58:56.740Z",
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
