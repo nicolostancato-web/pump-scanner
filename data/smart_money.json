@@ -2458,7 +2458,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "mexicunc",
@@ -2509,6 +2509,11 @@
         "symbol": "TRUMPROID",
         "pairAddress": "A8JNyrC3r2KLRrNZd7dWz23hEeyxLv2xSd1vE6ByXDks",
         "entryTime": "2026-04-17T08:46:48.327Z"
+      },
+      {
+        "symbol": "XOGE",
+        "pairAddress": "HYMBxgAMemQqfsGxZK8bZxeWLJo2Z9nk98JV7txDiTD1",
+        "entryTime": "2026-04-17T11:38:21.078Z"
       }
     ],
     "wins": 0,
@@ -2516,7 +2521,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T09:16:09.822Z",
-    "lastSeen": "2026-04-17T08:46:48.327Z",
+    "lastSeen": "2026-04-17T11:38:21.078Z",
     "confirmed": true
   },
   "4GQHft29J7DvfgkefRYy1HT8EpudUyMnApAUQYU47i5A": {
@@ -33406,6 +33411,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T11:37:46.513Z",
     "lastSeen": "2026-04-17T11:37:46.513Z",
+    "confirmed": false
+  },
+  "9UGBe1iq2nEMHwdxg9zY3Ra89yLY2a3LxYwM764R1M2d": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "XOGE",
+        "pairAddress": "HYMBxgAMemQqfsGxZK8bZxeWLJo2Z9nk98JV7txDiTD1",
+        "entryTime": "2026-04-17T11:38:21.078Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T11:38:21.078Z",
+    "lastSeen": "2026-04-17T11:38:21.078Z",
     "confirmed": false
   }
 }
