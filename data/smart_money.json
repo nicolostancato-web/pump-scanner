@@ -406,5 +406,39 @@
     "firstSeen": "2026-04-17T18:23:33.691Z",
     "lastSeen": "2026-04-17T18:23:33.691Z",
     "confirmed": false
+  },
+  "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DINO",
+        "pairAddress": "32gmq7QPLvQAXAa872QaYUxbQQN1RKjzVUwXCdqpZgk9",
+        "entryTime": "2026-04-17T18:23:59.505Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T18:23:59.505Z",
+    "lastSeen": "2026-04-17T18:23:59.505Z",
+    "confirmed": false
+  },
+  "FpPguUPCC4if8YnJe481WnVN4j7oQkbJ248UzunrKS6C": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DINO",
+        "pairAddress": "32gmq7QPLvQAXAa872QaYUxbQQN1RKjzVUwXCdqpZgk9",
+        "entryTime": "2026-04-17T18:23:59.505Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T18:23:59.505Z",
+    "lastSeen": "2026-04-17T18:23:59.505Z",
+    "confirmed": false
   }
 }
