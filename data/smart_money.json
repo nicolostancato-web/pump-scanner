@@ -34234,5 +34234,22 @@
     "firstSeen": "2026-04-17T12:14:24.556Z",
     "lastSeen": "2026-04-17T12:14:24.556Z",
     "confirmed": false
+  },
+  "CrDCpJ7iFjEm8nUjXnbP4jx2xx7w21fgaB5sTRAXaQLw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HALLU",
+        "pairAddress": "6FoP64ERJJhMjnktSSpUcRFQiyKJLDDHnYcqLGhqK1Kn",
+        "entryTime": "2026-04-17T12:14:57.794Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T12:14:57.794Z",
+    "lastSeen": "2026-04-17T12:14:57.794Z",
+    "confirmed": false
   }
 }
