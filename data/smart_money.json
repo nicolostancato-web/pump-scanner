@@ -32060,12 +32060,17 @@
     "confirmed": false
   },
   "GEBsDVsiynTD7zW5cNr9Ed71HYthm4Xef3Jmr9JTZJyg": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Joe",
         "pairAddress": "CagvaJ4nf11gK5t9AiHX3uYnDV9qS6n1jhyNx1epJm9H",
         "entryTime": "2026-04-17T08:40:17.707Z"
+      },
+      {
+        "symbol": "Baba",
+        "pairAddress": "CBzqEmzAxLNKtDehLDqnm1bnppaXM99hySZyUaQYxqdf",
+        "entryTime": "2026-04-17T13:48:00.213Z"
       }
     ],
     "wins": 0,
@@ -32073,7 +32078,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T08:40:17.707Z",
-    "lastSeen": "2026-04-17T08:40:17.707Z",
+    "lastSeen": "2026-04-17T13:48:00.213Z",
     "confirmed": false
   },
   "EqK9AoMgh1uScB8yjAFc4sxnLLJC3CoZE8zqH6DAMJwa": {
