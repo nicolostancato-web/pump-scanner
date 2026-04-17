@@ -11635,12 +11635,17 @@
     "confirmed": false
   },
   "F7RV6aBWfniixoFkQNWmRwznDj2vae2XbusFfvMMjtbE": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Pope",
         "pairAddress": "7hRzhTzXPkMDwA8ymCrnA2rpS1L2y18CpqbJK1TCH4b2",
         "entryTime": "2026-04-16T15:12:24.402Z"
+      },
+      {
+        "symbol": "ASSTEROID",
+        "pairAddress": "CbCD1iisoHynQ6wUGFqKTA4eiTG5PpuFnZmVrm63oGS2",
+        "entryTime": "2026-04-17T10:57:16.866Z"
       }
     ],
     "wins": 0,
@@ -11648,7 +11653,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-16T15:12:24.402Z",
-    "lastSeen": "2026-04-16T15:12:24.402Z",
+    "lastSeen": "2026-04-17T10:57:16.866Z",
     "confirmed": false
   },
   "4mZ5Wnz8MinwHjDEYVch79ApyMzdGKgYX5qfKV9RoNNx": {
@@ -32671,6 +32676,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-17T10:56:42.306Z",
     "lastSeen": "2026-04-17T10:56:42.306Z",
+    "confirmed": false
+  },
+  "CDT9RP1NUMuF9vNHL18Yi9EsN4pKeDDnbRSKt1oxtFer": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASSTEROID",
+        "pairAddress": "CbCD1iisoHynQ6wUGFqKTA4eiTG5PpuFnZmVrm63oGS2",
+        "entryTime": "2026-04-17T10:57:16.866Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T10:57:16.866Z",
+    "lastSeen": "2026-04-17T10:57:16.866Z",
     "confirmed": false
   }
 }
