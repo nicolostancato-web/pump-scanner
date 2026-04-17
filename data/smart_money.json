@@ -3202,5 +3202,22 @@
     "firstSeen": "2026-04-17T20:04:42.858Z",
     "lastSeen": "2026-04-17T20:04:42.858Z",
     "confirmed": false
+  },
+  "3LcK6ubV6GA7KBH2saFt3jgqyXFwQpNwaytvCfigUWb6": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "policunc",
+        "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
+        "entryTime": "2026-04-17T20:05:14.707Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-17T20:05:14.707Z",
+    "lastSeen": "2026-04-17T20:05:14.707Z",
+    "confirmed": false
   }
 }
