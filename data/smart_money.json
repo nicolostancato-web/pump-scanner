@@ -14508,12 +14508,17 @@
     "confirmed": false
   },
   "97ChqDtWkUucs22HVknvCpgakoRvPRVHujtDM7WsZf3m": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AstroDOGE",
         "pairAddress": "81a6s3yu9DXDuucwNu2JErvQGgF6A9DuLWNE3YS8VqTc",
         "entryTime": "2026-04-18T03:37:32.783Z"
+      },
+      {
+        "symbol": "Dicknald",
+        "pairAddress": "9pYuyQhYJxLw8CvGSFmziRQQQrZFPwNVPs5T4Py4QPTZ",
+        "entryTime": "2026-04-18T14:47:47.200Z"
       }
     ],
     "wins": 0,
@@ -14521,7 +14526,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T03:37:32.783Z",
-    "lastSeen": "2026-04-18T03:37:32.783Z",
+    "lastSeen": "2026-04-18T14:47:47.200Z",
     "confirmed": false
   },
   "AGzooPJWE9ENJjfQzUDRYr4wUJuisfvN5pj2cVUhgksR": {
@@ -23621,6 +23626,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T14:35:12.886Z",
     "lastSeen": "2026-04-18T14:35:12.886Z",
+    "confirmed": false
+  },
+  "AbLuJPekZyUXatqzLg74r4RDsJ4z9qT5sicKepyXxv7V": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Dicknald",
+        "pairAddress": "9pYuyQhYJxLw8CvGSFmziRQQQrZFPwNVPs5T4Py4QPTZ",
+        "entryTime": "2026-04-18T14:47:47.200Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T14:47:47.200Z",
+    "lastSeen": "2026-04-18T14:47:47.200Z",
     "confirmed": false
   }
 }
