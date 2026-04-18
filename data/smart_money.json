@@ -18638,12 +18638,17 @@
     "confirmed": false
   },
   "HcyQ36FF8XYkz6mVY9MN3XNySMDxZbs6PHg64oiB4SWs": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Picante",
         "pairAddress": "6oPgzs1KmZptuQqM9U1gywpo2yLXt7DP8CCz71T8taon",
         "entryTime": "2026-04-18T08:36:50.829Z"
+      },
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "9djLwbgWmhGXam4bLxEoX3AcRKybpkyUsiGk32zhMpWt",
+        "entryTime": "2026-04-18T20:51:38.523Z"
       }
     ],
     "wins": 0,
@@ -18651,7 +18656,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T08:36:50.829Z",
-    "lastSeen": "2026-04-18T08:36:50.829Z",
+    "lastSeen": "2026-04-18T20:51:38.523Z",
     "confirmed": false
   },
   "ERDwSZttEMkCtFaUmRngERzDcHKkWHNsMfxfyYujcyek": {
@@ -30057,6 +30062,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T20:51:01.038Z",
     "lastSeen": "2026-04-18T20:51:01.038Z",
+    "confirmed": false
+  },
+  "5Wn4QwFqnZ39pCyPFrRbm8JQPTtFBMXEZkC1kVEJLa9z": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "9djLwbgWmhGXam4bLxEoX3AcRKybpkyUsiGk32zhMpWt",
+        "entryTime": "2026-04-18T20:51:38.523Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T20:51:38.523Z",
+    "lastSeen": "2026-04-18T20:51:38.523Z",
     "confirmed": false
   }
 }
