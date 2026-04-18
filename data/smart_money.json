@@ -546,7 +546,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "小行星",
@@ -582,6 +582,11 @@
         "symbol": "MU",
         "pairAddress": "CVobaSQwttoSVtXz24bFp7WG5BBDiDXsT3Y5AWCZf1Ph",
         "entryTime": "2026-04-18T04:36:16.579Z"
+      },
+      {
+        "symbol": "THINKING",
+        "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
+        "entryTime": "2026-04-18T05:32:04.432Z"
       }
     ],
     "wins": 0,
@@ -589,7 +594,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-18T04:36:16.579Z",
+    "lastSeen": "2026-04-18T05:32:04.432Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
@@ -15755,6 +15760,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:31:33.281Z",
     "lastSeen": "2026-04-18T05:31:33.281Z",
+    "confirmed": false
+  },
+  "CC1Vo9y9183zoiyckDwmwwNYhTB8vfyP7UGjZUR1wX4m": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "THINKING",
+        "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
+        "entryTime": "2026-04-18T05:32:04.432Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T05:32:04.432Z",
+    "lastSeen": "2026-04-18T05:32:04.432Z",
     "confirmed": false
   }
 }
