@@ -596,7 +596,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "小行星",
@@ -637,6 +637,11 @@
         "symbol": "THINKING",
         "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
         "entryTime": "2026-04-18T05:32:04.432Z"
+      },
+      {
+        "symbol": "PIGEON",
+        "pairAddress": "GAWhPE4VGyb3ZxuQxT8UEmu9cUeXcWXJCj3qW8UQGq1h",
+        "entryTime": "2026-04-18T10:32:45.553Z"
       }
     ],
     "wins": 0,
@@ -644,7 +649,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-18T05:32:04.432Z",
+    "lastSeen": "2026-04-18T10:32:45.553Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
@@ -19587,6 +19592,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T10:32:11.587Z",
     "lastSeen": "2026-04-18T10:32:11.587Z",
+    "confirmed": false
+  },
+  "2YUQ33mz9cdss3DRmHnKNJLudpPFfwmUh1uH7JWqkfV5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PIGEON",
+        "pairAddress": "GAWhPE4VGyb3ZxuQxT8UEmu9cUeXcWXJCj3qW8UQGq1h",
+        "entryTime": "2026-04-18T10:32:45.553Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T10:32:45.553Z",
+    "lastSeen": "2026-04-18T10:32:45.553Z",
     "confirmed": false
   }
 }
