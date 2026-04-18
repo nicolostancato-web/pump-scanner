@@ -6458,12 +6458,17 @@
     "confirmed": false
   },
   "1aDerPKk87xJHCAqTY5bGxF5Xet2MG476y4Zmq2WJ8Y": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Aetherion",
         "pairAddress": "93hQFQwpvj7Y7T4ezUFaNnorzWQh8JiMtxhNFpsoFEMK",
         "entryTime": "2026-04-17T22:34:29.171Z"
+      },
+      {
+        "symbol": "dad",
+        "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
+        "entryTime": "2026-04-18T18:20:56.656Z"
       }
     ],
     "wins": 0,
@@ -6471,7 +6476,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T22:34:29.171Z",
-    "lastSeen": "2026-04-17T22:34:29.171Z",
+    "lastSeen": "2026-04-18T18:20:56.656Z",
     "confirmed": false
   },
   "EX6C1wx2mA9x767puzMaKZLVqhHBGVGGXQnA4CpsXTLR": {
@@ -20180,7 +20185,7 @@
     "confirmed": false
   },
   "DFrFyujUhhLVkbqSgaGd8MUzq3CGoEp2XWmCjyc5Rk47": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "PIGEON",
@@ -20196,6 +20201,11 @@
         "symbol": "YOSHI",
         "pairAddress": "7Z4HDuVvzXWhuUsnfWzGtbnuzUmCbsTUeSFrC5iut1tC",
         "entryTime": "2026-04-18T16:43:16.744Z"
+      },
+      {
+        "symbol": "dad",
+        "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
+        "entryTime": "2026-04-18T18:20:56.656Z"
       }
     ],
     "wins": 0,
@@ -20203,7 +20213,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T10:38:52.990Z",
-    "lastSeen": "2026-04-18T16:43:16.744Z",
+    "lastSeen": "2026-04-18T18:20:56.656Z",
     "confirmed": true
   },
   "GeWb1wn3m82uD1113joaTj172o48Bc7NtM4xrvnZZnqH": {
