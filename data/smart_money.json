@@ -501,7 +501,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "小行星",
@@ -522,6 +522,11 @@
         "symbol": "CHILLASTER",
         "pairAddress": "HAZddE5RW9ejzUUPbdSp9C27xnxDFYQpQSzfJCs26Ns2",
         "entryTime": "2026-04-17T23:23:51.721Z"
+      },
+      {
+        "symbol": "ASTRALYX",
+        "pairAddress": "794xY9hHXAuHiTVCgzGimChGXWRUu9JyHvWinXhDEgcW",
+        "entryTime": "2026-04-18T00:23:32.245Z"
       }
     ],
     "wins": 0,
@@ -529,7 +534,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-17T23:23:51.721Z",
+    "lastSeen": "2026-04-18T00:23:32.245Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
