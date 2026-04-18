@@ -316,7 +316,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 11,
+    "appearances": 12,
     "tokens": [
       {
         "symbol": "DINO",
@@ -372,6 +372,11 @@
         "symbol": "PIGEON",
         "pairAddress": "GAWhPE4VGyb3ZxuQxT8UEmu9cUeXcWXJCj3qW8UQGq1h",
         "entryTime": "2026-04-18T10:37:47.816Z"
+      },
+      {
+        "symbol": "Iwazаru",
+        "pairAddress": "BeYyM8hCtZTv5nx3ybmHtrwH5vT8ZyN2DqnFk3uRDops",
+        "entryTime": "2026-04-18T11:53:11.902Z"
       }
     ],
     "wins": 0,
@@ -379,7 +384,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-18T10:37:47.816Z",
+    "lastSeen": "2026-04-18T11:53:11.902Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
