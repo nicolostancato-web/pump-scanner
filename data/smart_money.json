@@ -8009,12 +8009,17 @@
     "confirmed": false
   },
   "436h85qXhByXQG4pkxdrD4CYQFRuJ3UPR5YdfUuL6v24": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Popdog",
         "pairAddress": "8dZTpasCwuN16WbzDgCSQtykA8adUrmwrmGE16XpUSUb",
         "entryTime": "2026-04-17T23:36:10.507Z"
+      },
+      {
+        "symbol": "RETARDIO",
+        "pairAddress": "ySPogQayciJCcWhz5f33RYReCC113HP5o38vuK7P1PG",
+        "entryTime": "2026-04-18T05:24:07.470Z"
       }
     ],
     "wins": 0,
@@ -8022,7 +8027,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:36:10.507Z",
-    "lastSeen": "2026-04-17T23:36:10.507Z",
+    "lastSeen": "2026-04-18T05:24:07.470Z",
     "confirmed": false
   },
   "7DiZFgjDZJym31cJ73HXi4MwNpQQkLhZUjBhJg71ifh5": {
@@ -15677,6 +15682,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:23:36.617Z",
     "lastSeen": "2026-04-18T05:23:36.617Z",
+    "confirmed": false
+  },
+  "FkhLC2QQJ84x2UECvGBn1VgGACpNELXuNe5JD65zcTzP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "RETARDIO",
+        "pairAddress": "ySPogQayciJCcWhz5f33RYReCC113HP5o38vuK7P1PG",
+        "entryTime": "2026-04-18T05:24:07.470Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T05:24:07.470Z",
+    "lastSeen": "2026-04-18T05:24:07.470Z",
     "confirmed": false
   }
 }
