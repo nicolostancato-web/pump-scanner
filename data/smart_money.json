@@ -4778,7 +4778,7 @@
     "confirmed": false
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "إلمو",
@@ -4789,6 +4789,11 @@
         "symbol": "Iwazаru",
         "pairAddress": "BeYyM8hCtZTv5nx3ybmHtrwH5vT8ZyN2DqnFk3uRDops",
         "entryTime": "2026-04-18T11:55:53.063Z"
+      },
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:13:08.266Z"
       }
     ],
     "wins": 0,
@@ -4796,8 +4801,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:17:48.276Z",
-    "lastSeen": "2026-04-18T11:55:53.063Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T15:13:08.266Z",
+    "confirmed": true
   },
   "CjoUCAgVumQCL95he2wgdS7PpHayxDimBjMT7knwVP3i": {
     "appearances": 1,
