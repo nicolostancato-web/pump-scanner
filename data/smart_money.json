@@ -4619,12 +4619,17 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "إلمو",
         "pairAddress": "GemBcfbJrpeWL4hCU88NTEFeRvaNJAFojtq1bTFhJL6r",
         "entryTime": "2026-04-17T21:06:35.889Z"
+      },
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:10:33.382Z"
       }
     ],
     "wins": 0,
@@ -4632,7 +4637,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:06:35.889Z",
-    "lastSeen": "2026-04-17T21:06:35.889Z",
+    "lastSeen": "2026-04-18T15:10:33.382Z",
     "confirmed": false
   },
   "popsP556X4XMXK5m8P39axrL7QayAGPDU8AKYVE8kxS": {
@@ -24161,6 +24166,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T15:08:43.100Z",
     "lastSeen": "2026-04-18T15:08:43.100Z",
+    "confirmed": false
+  },
+  "H3rUiKEFPnTM6CHCmJqKt4Nd1xeFATK9aUmU4sbD5za7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:10:33.382Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T15:10:33.382Z",
+    "lastSeen": "2026-04-18T15:10:33.382Z",
     "confirmed": false
   }
 }
