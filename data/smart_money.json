@@ -13923,12 +13923,17 @@
     "confirmed": false
   },
   "6AJMyhDWvn3yPYp4yqcRxSoczizdMdCTvqkSRjfAPuXA": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ASSTEROID",
         "pairAddress": "7d1RPXhD6Ryvkt2aAwDXmw6xD1MDxbbm5YkkhHZ8dLsd",
         "entryTime": "2026-04-18T03:00:18.817Z"
+      },
+      {
+        "symbol": "PIGON",
+        "pairAddress": "CHWdLWeaSVqRJhQtQDVwX6tqxYP1wTHCquTMtNebrgR3",
+        "entryTime": "2026-04-18T16:25:37.257Z"
       }
     ],
     "wins": 0,
@@ -13936,7 +13941,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T03:00:18.817Z",
-    "lastSeen": "2026-04-18T03:00:18.817Z",
+    "lastSeen": "2026-04-18T16:25:37.257Z",
     "confirmed": false
   },
   "27UmEs8uQ2zY83BWzLZ9JRvbXYLZxAWtwwDvbGeqjWcg": {
@@ -25631,6 +25636,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T16:24:59.853Z",
     "lastSeen": "2026-04-18T16:24:59.853Z",
+    "confirmed": false
+  },
+  "BKQfR4RFUKmAMN2jsrRV4MnVUHmmnqkyGN2P275QRHt": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PIGON",
+        "pairAddress": "CHWdLWeaSVqRJhQtQDVwX6tqxYP1wTHCquTMtNebrgR3",
+        "entryTime": "2026-04-18T16:25:37.257Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T16:25:37.257Z",
+    "lastSeen": "2026-04-18T16:25:37.257Z",
     "confirmed": false
   }
 }
