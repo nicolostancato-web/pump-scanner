@@ -158,7 +158,7 @@
     "confirmed": false
   },
   "DrnuP46qcf7b7utTY9Esm46SwkTFhYu4TrtRGTyvkE67": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Flōki",
@@ -169,6 +169,11 @@
         "symbol": "ASSTEROID",
         "pairAddress": "7d1RPXhD6Ryvkt2aAwDXmw6xD1MDxbbm5YkkhHZ8dLsd",
         "entryTime": "2026-04-18T03:02:55.989Z"
+      },
+      {
+        "symbol": "HODL",
+        "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
+        "entryTime": "2026-04-18T23:43:06.636Z"
       }
     ],
     "wins": 0,
@@ -176,8 +181,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:11:12.217Z",
-    "lastSeen": "2026-04-18T03:02:55.989Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T23:43:06.636Z",
+    "confirmed": true
   },
   "64WggRbJisnEUKBuy3nVjiK7ttiKzRNN73RQavEsfBCy": {
     "appearances": 1,
@@ -32364,6 +32369,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T23:42:36.951Z",
     "lastSeen": "2026-04-18T23:42:36.951Z",
+    "confirmed": false
+  },
+  "B5UYetbYJeU1mxJMTsUGrFgLzfSbZuhd4VCwcMDC7cbZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HODL",
+        "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
+        "entryTime": "2026-04-18T23:43:06.636Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T23:43:06.636Z",
+    "lastSeen": "2026-04-18T23:43:06.636Z",
     "confirmed": false
   }
 }
