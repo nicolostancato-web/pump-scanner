@@ -29900,12 +29900,17 @@
     "confirmed": false
   },
   "Aiz8BvMt9WudK8vCZQVYDBkkLTYim7san4578p6xVwud": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Asteroid",
         "pairAddress": "9djLwbgWmhGXam4bLxEoX3AcRKybpkyUsiGk32zhMpWt",
         "entryTime": "2026-04-18T20:47:45.430Z"
+      },
+      {
+        "symbol": "PNUTEROID",
+        "pairAddress": "8EUcUD2JF7bdwhBu86ouWok7znhKV4gETFFydGzbvABr",
+        "entryTime": "2026-04-18T20:59:35.990Z"
       }
     ],
     "wins": 0,
@@ -29913,7 +29918,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T20:47:45.430Z",
-    "lastSeen": "2026-04-18T20:47:45.430Z",
+    "lastSeen": "2026-04-18T20:59:35.990Z",
     "confirmed": false
   },
   "DbYrxndAAhHRNS59XxhQwibNth4e6hNSgPxk8J23g5yd": {
@@ -30441,6 +30446,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T20:59:04.347Z",
     "lastSeen": "2026-04-18T20:59:04.347Z",
+    "confirmed": false
+  },
+  "6MB5TaB2AvHKQF9ryc7hsPw94t8ay7Xm5jvKmNMmihHA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PNUTEROID",
+        "pairAddress": "8EUcUD2JF7bdwhBu86ouWok7znhKV4gETFFydGzbvABr",
+        "entryTime": "2026-04-18T20:59:35.990Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T20:59:35.990Z",
+    "lastSeen": "2026-04-18T20:59:35.990Z",
     "confirmed": false
   }
 }
