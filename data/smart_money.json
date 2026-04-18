@@ -16423,12 +16423,17 @@
     "confirmed": false
   },
   "3wrvBt8wFyy4dxMxKpwYpUtv2xzubsCMdUJsTDM6Bhnc": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "THINKING",
         "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
         "entryTime": "2026-04-18T05:41:46.715Z"
+      },
+      {
+        "symbol": "PUMP",
+        "pairAddress": "EL6Czfd4Dovs6pe3xaBCyW3F479ymGTj99XYiiqdZCrX",
+        "entryTime": "2026-04-18T17:33:05.366Z"
       }
     ],
     "wins": 0,
@@ -16436,7 +16441,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:41:46.715Z",
-    "lastSeen": "2026-04-18T05:41:46.715Z",
+    "lastSeen": "2026-04-18T17:33:05.366Z",
     "confirmed": false
   },
   "9VWaqnRrXuhYc8KoxVJc1xnNQC9hTsQNh9VbExEdWo3A": {
@@ -26498,6 +26503,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T17:32:33.134Z",
     "lastSeen": "2026-04-18T17:32:33.134Z",
+    "confirmed": false
+  },
+  "AydxDYQ9ze5ny6MFsCTiPY3ZkJ2U4tytiPnUUSFQZjXJ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PUMP",
+        "pairAddress": "EL6Czfd4Dovs6pe3xaBCyW3F479ymGTj99XYiiqdZCrX",
+        "entryTime": "2026-04-18T17:33:05.366Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T17:33:05.366Z",
+    "lastSeen": "2026-04-18T17:33:05.366Z",
     "confirmed": false
   }
 }
