@@ -4734,7 +4734,7 @@
     "confirmed": true
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "إلمو",
@@ -4750,6 +4750,11 @@
         "symbol": "asteraura",
         "pairAddress": "BfRXGYDonE4etKdyuVLAL7cMHj8psSyWj4rWGkChfgib",
         "entryTime": "2026-04-17T23:54:38.683Z"
+      },
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:13:41.789Z"
       }
     ],
     "wins": 0,
@@ -4757,7 +4762,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:12:48.125Z",
-    "lastSeen": "2026-04-17T23:54:38.683Z",
+    "lastSeen": "2026-04-18T15:13:41.789Z",
     "confirmed": true
   },
   "5tBTAtVB2QhK5QrrAciwfQooFyrPin9QhDDJMPWRf5ZY": {
@@ -19615,12 +19620,17 @@
     "confirmed": false
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Picante",
         "pairAddress": "96mT8gwobVST2Xa1Has48TJzrUy313vqqASYUDo2hazG",
         "entryTime": "2026-04-18T09:20:37.422Z"
+      },
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:13:41.789Z"
       }
     ],
     "wins": 0,
@@ -19628,7 +19638,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T09:20:37.422Z",
-    "lastSeen": "2026-04-18T09:20:37.422Z",
+    "lastSeen": "2026-04-18T15:13:41.789Z",
     "confirmed": false
   },
   "ArBA13STtyQzLc4HnwuBFvjRWgS5mGeKFCBHPxKmp6zk": {
