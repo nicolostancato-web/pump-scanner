@@ -16304,12 +16304,17 @@
     "confirmed": false
   },
   "5aLY85pyxiuX3fd4RgM3Yc1e3MAL6b7UgaZz6MS3JUfG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "THINKING",
         "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
         "entryTime": "2026-04-18T05:45:19.189Z"
+      },
+      {
+        "symbol": "Nietzsche",
+        "pairAddress": "4hqDFxC6t8tNzE8n8st5JZ9tVghQsgLDFAkqEc9mnQmU",
+        "entryTime": "2026-04-18T12:05:50.048Z"
       }
     ],
     "wins": 0,
@@ -16317,7 +16322,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:45:19.189Z",
-    "lastSeen": "2026-04-18T05:45:19.189Z",
+    "lastSeen": "2026-04-18T12:05:50.048Z",
     "confirmed": false
   },
   "Y69ncHARF1Mi5d12SMF8tCxXEfH5rbKA4uyTpb3Hq3Z": {
