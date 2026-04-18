@@ -15680,12 +15680,17 @@
     "confirmed": false
   },
   "E9RXTAXtXHwyuguYkRu7BVkYDN6Gp4JzNzopwBLHQTDq": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MU",
         "pairAddress": "CVobaSQwttoSVtXz24bFp7WG5BBDiDXsT3Y5AWCZf1Ph",
         "entryTime": "2026-04-18T04:36:16.579Z"
+      },
+      {
+        "symbol": "HODL",
+        "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
+        "entryTime": "2026-04-18T23:33:34.302Z"
       }
     ],
     "wins": 0,
@@ -15693,7 +15698,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T04:36:16.579Z",
-    "lastSeen": "2026-04-18T04:36:16.579Z",
+    "lastSeen": "2026-04-18T23:33:34.302Z",
     "confirmed": false
   },
   "AJ1Z2itq8E8k92hvkBDH2KLMNpkVsQh3AzScQqWqZ4fL": {
@@ -32023,6 +32028,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T23:32:54.435Z",
     "lastSeen": "2026-04-18T23:32:54.435Z",
+    "confirmed": false
+  },
+  "6fyDeNgTdoLPoMWztGFRMtJ4hy5MD2DXqvz7UMAHXbed": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HODL",
+        "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
+        "entryTime": "2026-04-18T23:33:34.302Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T23:33:34.302Z",
+    "lastSeen": "2026-04-18T23:33:34.302Z",
     "confirmed": false
   }
 }
