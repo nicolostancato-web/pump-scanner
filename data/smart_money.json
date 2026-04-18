@@ -5431,7 +5431,7 @@
     "confirmed": false
   },
   "3hABxPaFS81TSFv7E49VwQaGk9Cv5kBunbWdrYFKPP5R": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ENEMIES",
@@ -5442,6 +5442,11 @@
         "symbol": "sonion",
         "pairAddress": "D5aHHC9LUoJqLQT3ZXDP3xZ4fgPch3PRPxV5LAJj8RiD",
         "entryTime": "2026-04-18T00:19:48.194Z"
+      },
+      {
+        "symbol": "TRENCHES",
+        "pairAddress": "A2HGRYyCYgTUttVcaNzFxsogcK2BvHQRbNDWZRrUH2WL",
+        "entryTime": "2026-04-18T16:10:22.116Z"
       }
     ],
     "wins": 0,
@@ -5449,8 +5454,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:50:31.127Z",
-    "lastSeen": "2026-04-18T00:19:48.194Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T16:10:22.116Z",
+    "confirmed": true
   },
   "49ywc2WyTpa1Qbb5mc67a3ToiyZps6YWTUxKBk3ZQ9Ep": {
     "appearances": 1,
@@ -25176,6 +25181,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T16:09:45.507Z",
     "lastSeen": "2026-04-18T16:09:45.507Z",
+    "confirmed": false
+  },
+  "2xkksgBia39Q8idD4AA7Ao7G7pqqz73nEZnT9JrKzvTY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRENCHES",
+        "pairAddress": "A2HGRYyCYgTUttVcaNzFxsogcK2BvHQRbNDWZRrUH2WL",
+        "entryTime": "2026-04-18T16:10:22.116Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T16:10:22.116Z",
+    "lastSeen": "2026-04-18T16:10:22.116Z",
     "confirmed": false
   }
 }
