@@ -5293,12 +5293,17 @@
     "confirmed": false
   },
   "Fgej4SPuW282TdrQRfizRHAeRasNqCtAWZizL3jDqMdS": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ENEMIES",
         "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
         "entryTime": "2026-04-17T21:56:51.931Z"
+      },
+      {
+        "symbol": "LIFE",
+        "pairAddress": "6MhJk9qL1kp3zvG4qmp4ZJPE3DU7KhQvWDTo3DF796vR",
+        "entryTime": "2026-04-18T02:29:44.723Z"
       }
     ],
     "wins": 0,
@@ -5306,7 +5311,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:56:51.931Z",
-    "lastSeen": "2026-04-17T21:56:51.931Z",
+    "lastSeen": "2026-04-18T02:29:44.723Z",
     "confirmed": false
   },
   "9p526ehY7iNfVwh836jNUFhxawfc9YuajRvSv8JD95np": {
@@ -12268,6 +12273,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T02:27:13.577Z",
     "lastSeen": "2026-04-18T02:27:13.577Z",
+    "confirmed": false
+  },
+  "7s3UinMhMVCQ28XqjUjLbmHqTTkRWCkuDbf3zPcjT35r": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LIFE",
+        "pairAddress": "6MhJk9qL1kp3zvG4qmp4ZJPE3DU7KhQvWDTo3DF796vR",
+        "entryTime": "2026-04-18T02:29:44.723Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T02:29:44.723Z",
+    "lastSeen": "2026-04-18T02:29:44.723Z",
     "confirmed": false
   }
 }
