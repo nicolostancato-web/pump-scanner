@@ -2087,12 +2087,17 @@
     "confirmed": false
   },
   "C5DKCrhEhDY27Ke2Hq93faSmVWKYPVJeVTdimgU8hmz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ELONNATION",
         "pairAddress": "3d6e7NYwG3wMaLZHv9wrVvC6YncY9uf65h9iNAH29L7i",
         "entryTime": "2026-04-17T19:02:50.658Z"
+      },
+      {
+        "symbol": "METEOR",
+        "pairAddress": "B6KoBNREJrXj5qwZxweSt3fJo2BCKNHrP87QRCRb4tHQ",
+        "entryTime": "2026-04-18T10:50:58.514Z"
       }
     ],
     "wins": 0,
@@ -2100,7 +2105,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T19:02:50.658Z",
-    "lastSeen": "2026-04-17T19:02:50.658Z",
+    "lastSeen": "2026-04-18T10:50:58.514Z",
     "confirmed": false
   },
   "A9T3QtkrX2apaZaAHXbQ3J2EBCC1AbuQdgRXoWmTELNb": {
@@ -19981,6 +19986,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T10:50:10.393Z",
     "lastSeen": "2026-04-18T10:50:10.393Z",
+    "confirmed": false
+  },
+  "EtaC7NLUZwAqMhEwFToLM55jppexaxp97kZgNX2ur8s2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "METEOR",
+        "pairAddress": "B6KoBNREJrXj5qwZxweSt3fJo2BCKNHrP87QRCRb4tHQ",
+        "entryTime": "2026-04-18T10:50:58.514Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T10:50:58.514Z",
+    "lastSeen": "2026-04-18T10:50:58.514Z",
     "confirmed": false
   }
 }
