@@ -321,7 +321,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 22,
+    "appearances": 23,
     "tokens": [
       {
         "symbol": "DINO",
@@ -432,6 +432,11 @@
         "symbol": "Asteroid",
         "pairAddress": "9djLwbgWmhGXam4bLxEoX3AcRKybpkyUsiGk32zhMpWt",
         "entryTime": "2026-04-18T20:48:59.507Z"
+      },
+      {
+        "symbol": "TESLAROID",
+        "pairAddress": "BGZjHGUsChMykJdC5MmpYEpiDuXPjwFRC7kEZ1b68hRh",
+        "entryTime": "2026-04-18T21:25:07.942Z"
       }
     ],
     "wins": 0,
@@ -439,7 +444,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-18T20:48:59.507Z",
+    "lastSeen": "2026-04-18T21:25:07.942Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
@@ -30718,6 +30723,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T21:24:35.895Z",
     "lastSeen": "2026-04-18T21:24:35.895Z",
+    "confirmed": false
+  },
+  "HBE3wJYD6H879LzJtZouyns3sfoDfGpGndJ48T7CkE7H": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TESLAROID",
+        "pairAddress": "BGZjHGUsChMykJdC5MmpYEpiDuXPjwFRC7kEZ1b68hRh",
+        "entryTime": "2026-04-18T21:25:07.942Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T21:25:07.942Z",
+    "lastSeen": "2026-04-18T21:25:07.942Z",
     "confirmed": false
   }
 }
