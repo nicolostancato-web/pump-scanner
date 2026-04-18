@@ -7144,7 +7144,7 @@
     "confirmed": false
   },
   "44kdzNHg3XTFz4syy5SDVmu4Gy2DDaXZErqqNieMbBFH": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "RETAIL",
@@ -7160,6 +7160,11 @@
         "symbol": "ASSTEROID",
         "pairAddress": "7d1RPXhD6Ryvkt2aAwDXmw6xD1MDxbbm5YkkhHZ8dLsd",
         "entryTime": "2026-04-18T03:03:25.589Z"
+      },
+      {
+        "symbol": "HODL",
+        "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
+        "entryTime": "2026-04-18T23:40:28.465Z"
       }
     ],
     "wins": 0,
@@ -7167,7 +7172,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T22:54:39.914Z",
-    "lastSeen": "2026-04-18T03:03:25.589Z",
+    "lastSeen": "2026-04-18T23:40:28.465Z",
     "confirmed": true
   },
   "213vt5UFpDEJpUSm8KSy6HdNnaGLePhEd6wkmTtbD4kS": {
