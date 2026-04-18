@@ -11756,12 +11756,17 @@
     "confirmed": false
   },
   "3PPz75Zc1Q5cMTkwuxph9Kunth1NfJPJaBTFdiE1Aj2D": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AST",
         "pairAddress": "3iNTr1YTEGCVpR4Bu49XWvAowaGuf52KzSR5QqZoBWCw",
         "entryTime": "2026-04-18T02:05:05.128Z"
+      },
+      {
+        "symbol": "DUMBSOLANA",
+        "pairAddress": "7uXbYxxMUMKq1WRRQfVYvPRFKapuwTNszvvSXvzqLfYa",
+        "entryTime": "2026-04-18T09:07:34.932Z"
       }
     ],
     "wins": 0,
@@ -11769,7 +11774,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T02:05:05.128Z",
-    "lastSeen": "2026-04-18T02:05:05.128Z",
+    "lastSeen": "2026-04-18T09:07:34.932Z",
     "confirmed": false
   },
   "EH95dUG3GtfnPEXf5d6UyVqZs9ALsLqmCZKgVE2etHTt": {
@@ -19154,6 +19159,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T09:07:02.584Z",
     "lastSeen": "2026-04-18T09:07:02.584Z",
+    "confirmed": false
+  },
+  "8YEXuC5eKm1iBmdBxLhqQRjaEu27np6aEvo2D5VM7jRk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DUMBSOLANA",
+        "pairAddress": "7uXbYxxMUMKq1WRRQfVYvPRFKapuwTNszvvSXvzqLfYa",
+        "entryTime": "2026-04-18T09:07:34.932Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T09:07:34.932Z",
+    "lastSeen": "2026-04-18T09:07:34.932Z",
     "confirmed": false
   }
 }
