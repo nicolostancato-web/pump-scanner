@@ -731,7 +731,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 16,
+    "appearances": 17,
     "tokens": [
       {
         "symbol": "小行星",
@@ -812,6 +812,11 @@
         "symbol": "Chud",
         "pairAddress": "7fktRknqm8kMemBZcPMJbdhdADstzgmDktbseVvuDVBc",
         "entryTime": "2026-04-18T20:39:45.745Z"
+      },
+      {
+        "symbol": "peppe",
+        "pairAddress": "4jcmzajMcD5sX8bjtq9NYu3vjwcbWwdcgikATWh2mDdQ",
+        "entryTime": "2026-04-18T23:52:02.801Z"
       }
     ],
     "wins": 0,
@@ -819,7 +824,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-18T20:39:45.745Z",
+    "lastSeen": "2026-04-18T23:52:02.801Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
@@ -32639,6 +32644,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T23:51:29.255Z",
     "lastSeen": "2026-04-18T23:51:29.255Z",
+    "confirmed": false
+  },
+  "9WcDiPqdmu2hGxgTZoFecgEiziia53vMRwc6JCCy1upn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "peppe",
+        "pairAddress": "4jcmzajMcD5sX8bjtq9NYu3vjwcbWwdcgikATWh2mDdQ",
+        "entryTime": "2026-04-18T23:52:02.801Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T23:52:02.801Z",
+    "lastSeen": "2026-04-18T23:52:02.801Z",
     "confirmed": false
   }
 }
