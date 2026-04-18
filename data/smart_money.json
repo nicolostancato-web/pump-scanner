@@ -23478,12 +23478,17 @@
     "confirmed": false
   },
   "B4Qrs8vZBiKuSo9QsZ1dJ5BHtRb7cSAichSQCMXVMfXW": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CALL",
         "pairAddress": "G3ptL8BZjStta991rPe1P3LhqAvE8HAu6tha8MJcwJ6x",
         "entryTime": "2026-04-18T14:10:44.375Z"
+      },
+      {
+        "symbol": "BULLRUN",
+        "pairAddress": "BbfH5aJq75XjULhXxrfzDYeC4tsY6MnZP86g15GyjR9V",
+        "entryTime": "2026-04-18T18:36:30.425Z"
       }
     ],
     "wins": 0,
@@ -23491,7 +23496,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T14:10:44.375Z",
-    "lastSeen": "2026-04-18T14:10:44.375Z",
+    "lastSeen": "2026-04-18T18:36:30.425Z",
     "confirmed": false
   },
   "ATLDgLjb4nSXnJnBxFE2gHhoJUwxVp522pcytWzNPu1M": {
@@ -28063,6 +28068,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T18:35:51.383Z",
     "lastSeen": "2026-04-18T18:35:51.383Z",
+    "confirmed": false
+  },
+  "3o2yEsDvon4DbWaLkUmLTdjLY4PFMAVy8G9o9irHzPZa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BULLRUN",
+        "pairAddress": "BbfH5aJq75XjULhXxrfzDYeC4tsY6MnZP86g15GyjR9V",
+        "entryTime": "2026-04-18T18:36:30.425Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T18:36:30.425Z",
+    "lastSeen": "2026-04-18T18:36:30.425Z",
     "confirmed": false
   }
 }
