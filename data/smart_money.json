@@ -5241,12 +5241,17 @@
     "confirmed": false
   },
   "7Av9ZNtMB95yUjHTkvQBVn1XEkaPCU1ukxuUUURm4aRv": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ENEMIES",
         "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
         "entryTime": "2026-04-17T21:44:08.783Z"
+      },
+      {
+        "symbol": "SNOW",
+        "pairAddress": "4PUhwb6qAGV4RPGNcoSnhLuxtTfHncJbM4yRAGHGht54",
+        "entryTime": "2026-04-18T18:34:36.007Z"
       }
     ],
     "wins": 0,
@@ -5254,7 +5259,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:44:08.783Z",
-    "lastSeen": "2026-04-17T21:44:08.783Z",
+    "lastSeen": "2026-04-18T18:34:36.007Z",
     "confirmed": false
   },
   "G1YkrzVubYsBsFTDjrnwEL5ukw4nVRsSQiGGGxHn51km": {
@@ -27973,6 +27978,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T18:32:01.950Z",
     "lastSeen": "2026-04-18T18:32:01.950Z",
+    "confirmed": false
+  },
+  "kEFiAX3jo5NmemysQov342TZ9mGh6yp92GDRjhA8XDf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SNOW",
+        "pairAddress": "4PUhwb6qAGV4RPGNcoSnhLuxtTfHncJbM4yRAGHGht54",
+        "entryTime": "2026-04-18T18:34:36.007Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T18:34:36.007Z",
+    "lastSeen": "2026-04-18T18:34:36.007Z",
     "confirmed": false
   }
 }
