@@ -4019,7 +4019,7 @@
     "confirmed": false
   },
   "E84bqTUdsZhHMvsHneFeJwyqTixydzw3zwBUdkUSHGED": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Nintondo",
@@ -4035,6 +4035,11 @@
         "symbol": "Conviction",
         "pairAddress": "8FoFdEGeeKc4h53UfXmuMm3vjxMM9ppTVGkkd4EVSzzF",
         "entryTime": "2026-04-17T23:08:24.085Z"
+      },
+      {
+        "symbol": "LIFE",
+        "pairAddress": "6MhJk9qL1kp3zvG4qmp4ZJPE3DU7KhQvWDTo3DF796vR",
+        "entryTime": "2026-04-18T02:35:13.732Z"
       }
     ],
     "wins": 0,
@@ -4042,7 +4047,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:28:08.346Z",
-    "lastSeen": "2026-04-17T23:08:24.085Z",
+    "lastSeen": "2026-04-18T02:35:13.732Z",
     "confirmed": true
   },
   "94pWH1cBfy67WUanGJYHuBtY5hF5BhENiT1V42HwhMUX": {
