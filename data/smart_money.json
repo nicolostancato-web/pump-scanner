@@ -15720,12 +15720,17 @@
     "confirmed": false
   },
   "2uL3momjt8CS5kp4WtoDb9zAJ2Qc4WhfyccagLDJyNtn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "RETARDIO",
         "pairAddress": "ySPogQayciJCcWhz5f33RYReCC113HP5o38vuK7P1PG",
         "entryTime": "2026-04-18T05:16:55.185Z"
+      },
+      {
+        "symbol": "Nietzsche",
+        "pairAddress": "4hqDFxC6t8tNzE8n8st5JZ9tVghQsgLDFAkqEc9mnQmU",
+        "entryTime": "2026-04-18T11:54:16.011Z"
       }
     ],
     "wins": 0,
@@ -15733,7 +15738,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:16:55.185Z",
-    "lastSeen": "2026-04-18T05:16:55.185Z",
+    "lastSeen": "2026-04-18T11:54:16.011Z",
     "confirmed": false
   },
   "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h": {
@@ -20769,6 +20774,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T11:53:45.343Z",
     "lastSeen": "2026-04-18T11:53:45.343Z",
+    "confirmed": false
+  },
+  "HEEf4JUguMz5yvsshQZkMJ8VKm5WRUsYhLwNSCMuoaJ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Nietzsche",
+        "pairAddress": "4hqDFxC6t8tNzE8n8st5JZ9tVghQsgLDFAkqEc9mnQmU",
+        "entryTime": "2026-04-18T11:54:16.011Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T11:54:16.011Z",
+    "lastSeen": "2026-04-18T11:54:16.011Z",
     "confirmed": false
   }
 }
