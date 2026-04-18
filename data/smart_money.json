@@ -3677,12 +3677,17 @@
     "confirmed": false
   },
   "D1YHdfRi8TqFvz483hkePiSMaVVe6aW2cDByjEo8i4Cf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "policunc",
         "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
         "entryTime": "2026-04-17T20:06:16.836Z"
+      },
+      {
+        "symbol": "Mãhina",
+        "pairAddress": "5dyPsxygiEKNPwbyLk8zErCgY97j8apwBQoCe2CXyxjT",
+        "entryTime": "2026-04-18T17:22:05.450Z"
       }
     ],
     "wins": 0,
@@ -3690,7 +3695,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:06:16.836Z",
-    "lastSeen": "2026-04-17T20:06:16.836Z",
+    "lastSeen": "2026-04-18T17:22:05.450Z",
     "confirmed": false
   },
   "z2XYk8A4t7cZQdVprAc9vAdSRfUPffAAqg8d6LEcLag": {
@@ -26381,6 +26386,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T17:21:29.329Z",
     "lastSeen": "2026-04-18T17:21:29.329Z",
+    "confirmed": false
+  },
+  "CxJza7v9CWYnjgRbH8tu9eHBZa7YYajnYRk1YwmH3Wf1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Mãhina",
+        "pairAddress": "5dyPsxygiEKNPwbyLk8zErCgY97j8apwBQoCe2CXyxjT",
+        "entryTime": "2026-04-18T17:22:05.450Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T17:22:05.450Z",
+    "lastSeen": "2026-04-18T17:22:05.450Z",
     "confirmed": false
   }
 }
