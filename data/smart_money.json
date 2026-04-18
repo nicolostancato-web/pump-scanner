@@ -316,7 +316,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "DINO",
@@ -342,6 +342,11 @@
         "symbol": "MU",
         "pairAddress": "CVobaSQwttoSVtXz24bFp7WG5BBDiDXsT3Y5AWCZf1Ph",
         "entryTime": "2026-04-18T04:42:29.800Z"
+      },
+      {
+        "symbol": "Slop OS",
+        "pairAddress": "4adB4vfEwgxBBajLPg2qXCQxUmFvcdebV3t27G8EHDrc",
+        "entryTime": "2026-04-18T04:57:37.326Z"
       }
     ],
     "wins": 0,
@@ -349,7 +354,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-18T04:42:29.800Z",
+    "lastSeen": "2026-04-18T04:57:37.326Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
@@ -15140,6 +15145,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T04:43:03.179Z",
     "lastSeen": "2026-04-18T04:43:03.179Z",
+    "confirmed": false
+  },
+  "2EsjTosWtwtj3rHvWAu6qfTZxyWtsiYgHgpmeUnDZDVY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Slop OS",
+        "pairAddress": "4adB4vfEwgxBBajLPg2qXCQxUmFvcdebV3t27G8EHDrc",
+        "entryTime": "2026-04-18T04:57:37.326Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T04:57:37.326Z",
+    "lastSeen": "2026-04-18T04:57:37.326Z",
     "confirmed": false
   }
 }
