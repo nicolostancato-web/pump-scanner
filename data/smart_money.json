@@ -316,7 +316,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "DINO",
@@ -367,6 +367,11 @@
         "symbol": "Picante",
         "pairAddress": "6oPgzs1KmZptuQqM9U1gywpo2yLXt7DP8CCz71T8taon",
         "entryTime": "2026-04-18T08:40:40.710Z"
+      },
+      {
+        "symbol": "PIGEON",
+        "pairAddress": "GAWhPE4VGyb3ZxuQxT8UEmu9cUeXcWXJCj3qW8UQGq1h",
+        "entryTime": "2026-04-18T10:37:47.816Z"
       }
     ],
     "wins": 0,
@@ -374,7 +379,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-18T08:40:40.710Z",
+    "lastSeen": "2026-04-18T10:37:47.816Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
