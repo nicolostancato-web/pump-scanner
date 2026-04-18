@@ -1788,7 +1788,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "HUMAN",
@@ -1814,6 +1814,11 @@
         "symbol": "LIFE",
         "pairAddress": "6MhJk9qL1kp3zvG4qmp4ZJPE3DU7KhQvWDTo3DF796vR",
         "entryTime": "2026-04-18T02:42:21.107Z"
+      },
+      {
+        "symbol": "Iwazаru",
+        "pairAddress": "BeYyM8hCtZTv5nx3ybmHtrwH5vT8ZyN2DqnFk3uRDops",
+        "entryTime": "2026-04-18T12:01:35.127Z"
       }
     ],
     "wins": 0,
@@ -1821,7 +1826,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:55:14.990Z",
-    "lastSeen": "2026-04-18T02:42:21.107Z",
+    "lastSeen": "2026-04-18T12:01:35.127Z",
     "confirmed": true
   },
   "82QuQ8mpqKnkvhsXcfRQ4CnLXip6RxXCYrKAxzucZaG1": {
@@ -20891,6 +20896,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T11:58:24.233Z",
     "lastSeen": "2026-04-18T11:58:24.233Z",
+    "confirmed": false
+  },
+  "vCnueWKkNQquUc7gBpiyeJ85JJK3RXAbhpT7VvG2rNw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Iwazаru",
+        "pairAddress": "BeYyM8hCtZTv5nx3ybmHtrwH5vT8ZyN2DqnFk3uRDops",
+        "entryTime": "2026-04-18T12:01:35.127Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T12:01:35.127Z",
+    "lastSeen": "2026-04-18T12:01:35.127Z",
     "confirmed": false
   }
 }
