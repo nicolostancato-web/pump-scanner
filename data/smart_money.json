@@ -15817,7 +15817,7 @@
     "confirmed": false
   },
   "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "RETARDIO",
@@ -15828,6 +15828,11 @@
         "symbol": "THINKING",
         "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
         "entryTime": "2026-04-18T05:35:36.527Z"
+      },
+      {
+        "symbol": "CALL",
+        "pairAddress": "G3ptL8BZjStta991rPe1P3LhqAvE8HAu6tha8MJcwJ6x",
+        "entryTime": "2026-04-18T14:08:41.595Z"
       }
     ],
     "wins": 0,
@@ -15835,8 +15840,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:17:25.502Z",
-    "lastSeen": "2026-04-18T05:35:36.527Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T14:08:41.595Z",
+    "confirmed": true
   },
   "AB2mhjempNsJ389J6F82XumpQ5zAZ8jtYik7WKqUEHXE": {
     "appearances": 1,
