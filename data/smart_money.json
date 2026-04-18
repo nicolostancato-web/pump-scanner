@@ -8848,12 +8848,17 @@
     "confirmed": false
   },
   "dfFJwF9if7fDrDqmxdLcS7f5iFsTxFsfaZoiTdvkg3z": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ASTRALYX",
         "pairAddress": "794xY9hHXAuHiTVCgzGimChGXWRUu9JyHvWinXhDEgcW",
         "entryTime": "2026-04-18T00:22:30.010Z"
+      },
+      {
+        "symbol": "incel",
+        "pairAddress": "BnnaNxFoksKWh7DgVnrHaYqMFXTRm6noazFLS72o3Pbs",
+        "entryTime": "2026-04-18T01:14:29.315Z"
       }
     ],
     "wins": 0,
@@ -8861,7 +8866,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T00:22:30.010Z",
-    "lastSeen": "2026-04-18T00:22:30.010Z",
+    "lastSeen": "2026-04-18T01:14:29.315Z",
     "confirmed": false
   },
   "4cruXTMUAtGyFaDSYLxrfRzqD2AddazscUoqDQ6hZLG2": {
@@ -9491,6 +9496,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T01:14:01.020Z",
     "lastSeen": "2026-04-18T01:14:01.020Z",
+    "confirmed": false
+  },
+  "JAEWQzHmfESDLdBAgjzy5Vq17m82D7iTYTrfhCHKsGwR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "incel",
+        "pairAddress": "BnnaNxFoksKWh7DgVnrHaYqMFXTRm6noazFLS72o3Pbs",
+        "entryTime": "2026-04-18T01:14:29.315Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T01:14:29.315Z",
+    "lastSeen": "2026-04-18T01:14:29.315Z",
     "confirmed": false
   }
 }
