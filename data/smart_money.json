@@ -1355,7 +1355,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "小行星",
@@ -1376,6 +1376,11 @@
         "symbol": "THINKING",
         "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
         "entryTime": "2026-04-18T05:43:17.384Z"
+      },
+      {
+        "symbol": "SOLANALIFE",
+        "pairAddress": "7JC8hTFgPZASiRpsqkz8pShxwiZXt3t4kTCnjMbFfvFb",
+        "entryTime": "2026-04-18T06:55:41.757Z"
       }
     ],
     "wins": 0,
@@ -1383,7 +1388,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:42:08.359Z",
-    "lastSeen": "2026-04-18T05:43:17.384Z",
+    "lastSeen": "2026-04-18T06:55:41.757Z",
     "confirmed": true
   },
   "GM9mqi5EKFeF4ToX7WiCdPW8R1WzJiBvScgyhJU69VZT": {
