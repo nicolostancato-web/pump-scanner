@@ -10201,7 +10201,7 @@
     "confirmed": false
   },
   "49AyuVKRvCmgXpxAb1raXYa5MhMHDyMRnTLZrpkBaUvD": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ASTEROID",
@@ -10212,6 +10212,11 @@
         "symbol": "777",
         "pairAddress": "ANpN7LjntgjxvQRbEFZAbhqXs2pj5v2ifCLfzCkcAVjY",
         "entryTime": "2026-04-18T02:09:44.956Z"
+      },
+      {
+        "symbol": "Airdrop",
+        "pairAddress": "HshScA4xBRN6Uvp4hseea6pKYPSK9b1oL3Tryxzsoxip",
+        "entryTime": "2026-04-18T12:34:58.082Z"
       }
     ],
     "wins": 0,
@@ -10219,8 +10224,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T01:27:15.519Z",
-    "lastSeen": "2026-04-18T02:09:44.956Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T12:34:58.082Z",
+    "confirmed": true
   },
   "3yEyQwSjWkzWnVykwBwkVB7mVarUgbRoPDjjLhxrHoSw": {
     "appearances": 1,
@@ -21460,6 +21465,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T12:34:24.891Z",
     "lastSeen": "2026-04-18T12:34:24.891Z",
+    "confirmed": false
+  },
+  "5eCfTXJjehdufFpS4LNP167zbxGC8DaY45GbdLgRvjWb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Airdrop",
+        "pairAddress": "HshScA4xBRN6Uvp4hseea6pKYPSK9b1oL3Tryxzsoxip",
+        "entryTime": "2026-04-18T12:34:58.082Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T12:34:58.082Z",
+    "lastSeen": "2026-04-18T12:34:58.082Z",
     "confirmed": false
   }
 }
