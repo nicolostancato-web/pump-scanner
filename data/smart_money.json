@@ -5319,7 +5319,7 @@
     "confirmed": true
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "ENEMIES",
@@ -5340,6 +5340,11 @@
         "symbol": "Nietzsche",
         "pairAddress": "4hqDFxC6t8tNzE8n8st5JZ9tVghQsgLDFAkqEc9mnQmU",
         "entryTime": "2026-04-18T12:03:43.629Z"
+      },
+      {
+        "symbol": "PIGON",
+        "pairAddress": "CHWdLWeaSVqRJhQtQDVwX6tqxYP1wTHCquTMtNebrgR3",
+        "entryTime": "2026-04-18T16:26:44.855Z"
       }
     ],
     "wins": 0,
@@ -5347,7 +5352,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:48:47.326Z",
-    "lastSeen": "2026-04-18T12:03:43.629Z",
+    "lastSeen": "2026-04-18T16:26:44.855Z",
     "confirmed": true
   },
   "38iyBM2PCnzd7A8LjhjgeH9GEUvgKGcdQqxz46NNkD27": {
@@ -25675,6 +25680,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T16:26:12.279Z",
     "lastSeen": "2026-04-18T16:26:12.279Z",
+    "confirmed": false
+  },
+  "FY3iuyJUxrM9vpK7TZeqNyZQ5yA7ymDSSdqfQimALLED": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PIGON",
+        "pairAddress": "CHWdLWeaSVqRJhQtQDVwX6tqxYP1wTHCquTMtNebrgR3",
+        "entryTime": "2026-04-18T16:26:44.855Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T16:26:44.855Z",
+    "lastSeen": "2026-04-18T16:26:44.855Z",
     "confirmed": false
   }
 }
