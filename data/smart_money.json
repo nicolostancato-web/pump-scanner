@@ -321,7 +321,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 21,
+    "appearances": 22,
     "tokens": [
       {
         "symbol": "DINO",
@@ -427,6 +427,11 @@
         "symbol": "dad",
         "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
         "entryTime": "2026-04-18T18:21:29.346Z"
+      },
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "9djLwbgWmhGXam4bLxEoX3AcRKybpkyUsiGk32zhMpWt",
+        "entryTime": "2026-04-18T20:48:59.507Z"
       }
     ],
     "wins": 0,
@@ -434,7 +439,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-18T18:21:29.346Z",
+    "lastSeen": "2026-04-18T20:48:59.507Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
@@ -29933,6 +29938,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T20:48:20.338Z",
     "lastSeen": "2026-04-18T20:48:20.338Z",
+    "confirmed": false
+  },
+  "ESBxS9pS1MabvG6sxbd6V3T8suwRYy9CPmEad4kpQjfz": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "9djLwbgWmhGXam4bLxEoX3AcRKybpkyUsiGk32zhMpWt",
+        "entryTime": "2026-04-18T20:48:59.507Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T20:48:59.507Z",
+    "lastSeen": "2026-04-18T20:48:59.507Z",
     "confirmed": false
   }
 }
