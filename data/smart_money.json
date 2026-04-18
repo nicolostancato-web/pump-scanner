@@ -12729,12 +12729,17 @@
     "confirmed": false
   },
   "2Jy2VdYU6YmSKL2fAk59iTBHavGUu41HNRMekdwcVUVg": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "LIFE",
         "pairAddress": "6MhJk9qL1kp3zvG4qmp4ZJPE3DU7KhQvWDTo3DF796vR",
         "entryTime": "2026-04-18T02:42:21.107Z"
+      },
+      {
+        "symbol": "Slop OS",
+        "pairAddress": "4adB4vfEwgxBBajLPg2qXCQxUmFvcdebV3t27G8EHDrc",
+        "entryTime": "2026-04-18T05:00:10.552Z"
       }
     ],
     "wins": 0,
@@ -12742,7 +12747,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T02:42:21.107Z",
-    "lastSeen": "2026-04-18T02:42:21.107Z",
+    "lastSeen": "2026-04-18T05:00:10.552Z",
     "confirmed": false
   },
   "7z49bgfyWFpX3qiyg8D2ohXh6UgJ2ucX1K6yu5Xjz6yf": {
@@ -15162,6 +15167,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T04:57:37.326Z",
     "lastSeen": "2026-04-18T04:57:37.326Z",
+    "confirmed": false
+  },
+  "CY1oRH8QLGtM9JCLv5m7wTLHFDnBdxv3QRv3GXaTmwq6": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Slop OS",
+        "pairAddress": "4adB4vfEwgxBBajLPg2qXCQxUmFvcdebV3t27G8EHDrc",
+        "entryTime": "2026-04-18T05:00:10.552Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T05:00:10.552Z",
+    "lastSeen": "2026-04-18T05:00:10.552Z",
     "confirmed": false
   }
 }
