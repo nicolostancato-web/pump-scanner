@@ -7682,12 +7682,17 @@
     "confirmed": false
   },
   "qmC1gusK2b5pYNDp1Aw5nDdZx9WTLVs7KHQoq6AAxFN": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Conviction",
         "pairAddress": "8FoFdEGeeKc4h53UfXmuMm3vjxMM9ppTVGkkd4EVSzzF",
         "entryTime": "2026-04-17T23:10:00.472Z"
+      },
+      {
+        "symbol": "ASSTROID",
+        "pairAddress": "88D9N63mqEYwX13PqZttFkpWD2SXVfQe3vxjjMDZ7f5P",
+        "entryTime": "2026-04-18T19:34:23.636Z"
       }
     ],
     "wins": 0,
@@ -7695,7 +7700,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:10:00.472Z",
-    "lastSeen": "2026-04-17T23:10:00.472Z",
+    "lastSeen": "2026-04-18T19:34:23.636Z",
     "confirmed": false
   },
   "DiABLotEDhe6xPv5FSTn64N5sVPWViURFJu7BfLgcfq7": {
@@ -28542,6 +28547,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T19:33:52.693Z",
     "lastSeen": "2026-04-18T19:33:52.693Z",
+    "confirmed": false
+  },
+  "9hQJeYRmuGhc1sT3dWmw85iVnoG1W3yQABhK45Ct8DkL": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASSTROID",
+        "pairAddress": "88D9N63mqEYwX13PqZttFkpWD2SXVfQe3vxjjMDZ7f5P",
+        "entryTime": "2026-04-18T19:34:23.636Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T19:34:23.636Z",
+    "lastSeen": "2026-04-18T19:34:23.636Z",
     "confirmed": false
   }
 }
