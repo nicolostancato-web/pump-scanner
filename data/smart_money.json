@@ -10299,12 +10299,17 @@
     "confirmed": false
   },
   "3GXgYpctqdwUYWbwFLkUan8C4vx4VYZbH5tXC6HS41vU": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TripleUnch",
         "pairAddress": "ALpha8neawWWKuRARzkpNiM2dLE9k3ou76RMKiaMSAbM",
         "entryTime": "2026-04-18T01:22:09.946Z"
+      },
+      {
+        "symbol": "QSAFE",
+        "pairAddress": "GQGc31ZgYVZfe1d8fxEnAXkS5t2MQ7dFFoqTZY4Wk3LE",
+        "entryTime": "2026-04-18T19:11:09.801Z"
       }
     ],
     "wins": 0,
@@ -10312,7 +10317,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T01:22:09.946Z",
-    "lastSeen": "2026-04-18T01:22:09.946Z",
+    "lastSeen": "2026-04-18T19:11:09.801Z",
     "confirmed": false
   },
   "AtdGxP5nGR5xupPhPBRpiou8B8ympiaWjcQpnfaNedbp": {
@@ -28384,6 +28389,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T19:10:36.265Z",
     "lastSeen": "2026-04-18T19:10:36.265Z",
+    "confirmed": false
+  },
+  "2u13ZC3fVxGomk49Pg3ADekeShUAKMQXmmZxbkQF4nQ6": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "QSAFE",
+        "pairAddress": "GQGc31ZgYVZfe1d8fxEnAXkS5t2MQ7dFFoqTZY4Wk3LE",
+        "entryTime": "2026-04-18T19:11:09.801Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T19:11:09.801Z",
+    "lastSeen": "2026-04-18T19:11:09.801Z",
     "confirmed": false
   }
 }
