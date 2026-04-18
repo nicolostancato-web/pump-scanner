@@ -803,12 +803,17 @@
     "confirmed": false
   },
   "ECjtUQnnVds5AcfhMo1epFaCwQz5kAqvTWkBq2o2oMfq": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Galícia",
         "pairAddress": "Gr8Xav61FtoKHdbFSUEeh2Txvfyybf9bE2SJo7k8S2Wp",
         "entryTime": "2026-04-17T18:28:39.511Z"
+      },
+      {
+        "symbol": "GM",
+        "pairAddress": "9RakoPzwGYeLSSWwSuM2fVMvm1vWWw6ivTZfQxKhvkrC",
+        "entryTime": "2026-04-18T15:38:15.372Z"
       }
     ],
     "wins": 0,
@@ -816,7 +821,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:28:39.511Z",
-    "lastSeen": "2026-04-17T18:28:39.511Z",
+    "lastSeen": "2026-04-18T15:38:15.372Z",
     "confirmed": false
   },
   "98FxdytuAGTauntV2MTahTrBdoJWAZyfhZ3zmdyFFf7i": {
