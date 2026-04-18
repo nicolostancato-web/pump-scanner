@@ -5129,12 +5129,17 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ENEMIES",
         "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
         "entryTime": "2026-04-17T21:48:47.326Z"
+      },
+      {
+        "symbol": "Picante",
+        "pairAddress": "6oPgzs1KmZptuQqM9U1gywpo2yLXt7DP8CCz71T8taon",
+        "entryTime": "2026-04-18T08:40:10.152Z"
       }
     ],
     "wins": 0,
@@ -5142,7 +5147,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:48:47.326Z",
-    "lastSeen": "2026-04-17T21:48:47.326Z",
+    "lastSeen": "2026-04-18T08:40:10.152Z",
     "confirmed": false
   },
   "38iyBM2PCnzd7A8LjhjgeH9GEUvgKGcdQqxz46NNkD27": {
@@ -18228,6 +18233,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T08:39:38.266Z",
     "lastSeen": "2026-04-18T08:39:38.266Z",
+    "confirmed": false
+  },
+  "9bXPGyCdqmLP7XMrXYpNkq7aFvm5NxYBpJqDtKeWSfna": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Picante",
+        "pairAddress": "6oPgzs1KmZptuQqM9U1gywpo2yLXt7DP8CCz71T8taon",
+        "entryTime": "2026-04-18T08:40:10.152Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T08:40:10.152Z",
+    "lastSeen": "2026-04-18T08:40:10.152Z",
     "confirmed": false
   }
 }
