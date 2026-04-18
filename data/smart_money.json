@@ -316,7 +316,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 18,
+    "appearances": 19,
     "tokens": [
       {
         "symbol": "DINO",
@@ -407,6 +407,11 @@
         "symbol": "YOSHI",
         "pairAddress": "7Z4HDuVvzXWhuUsnfWzGtbnuzUmCbsTUeSFrC5iut1tC",
         "entryTime": "2026-04-18T16:45:01.555Z"
+      },
+      {
+        "symbol": "FFD",
+        "pairAddress": "BCkoaZaQmkP68aeP83N2sVYjLJxAU1o2mY4k7jVB4huP",
+        "entryTime": "2026-04-18T17:25:27.325Z"
       }
     ],
     "wins": 0,
@@ -414,7 +419,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-18T16:45:01.555Z",
+    "lastSeen": "2026-04-18T17:25:27.325Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
@@ -26437,6 +26442,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T17:22:49.745Z",
     "lastSeen": "2026-04-18T17:22:49.745Z",
+    "confirmed": false
+  },
+  "2v8bjvhdvCRqP9CMaJHAiSaP8LHuxQgS99ej2gyAJCM3": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FFD",
+        "pairAddress": "BCkoaZaQmkP68aeP83N2sVYjLJxAU1o2mY4k7jVB4huP",
+        "entryTime": "2026-04-18T17:25:27.325Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T17:25:27.325Z",
+    "lastSeen": "2026-04-18T17:25:27.325Z",
     "confirmed": false
   }
 }
