@@ -22764,7 +22764,7 @@
     "confirmed": false
   },
   "zWJ5aMqndkXZ2ry3g2SgFQAtu1cmXBLoCyzvBqKvUeq": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "LIFE",
@@ -22775,6 +22775,11 @@
         "symbol": "CALL",
         "pairAddress": "G3ptL8BZjStta991rPe1P3LhqAvE8HAu6tha8MJcwJ6x",
         "entryTime": "2026-04-18T14:03:29.596Z"
+      },
+      {
+        "symbol": "dad",
+        "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
+        "entryTime": "2026-04-18T18:06:20.017Z"
       }
     ],
     "wins": 0,
@@ -22782,8 +22787,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T13:28:33.467Z",
-    "lastSeen": "2026-04-18T14:03:29.596Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T18:06:20.017Z",
+    "confirmed": true
   },
   "9Uz7VyeBFmEU8sKnCwFsGC8AczjmLqnxZjQG7Vsm79sZ": {
     "appearances": 1,
@@ -23250,12 +23255,17 @@
     "confirmed": false
   },
   "2mRYZQP4FvB3BWEBfoDB2g5eUPbPco3Tjs6i4N4cHhog": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CALL",
         "pairAddress": "G3ptL8BZjStta991rPe1P3LhqAvE8HAu6tha8MJcwJ6x",
         "entryTime": "2026-04-18T14:02:15.308Z"
+      },
+      {
+        "symbol": "dad",
+        "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
+        "entryTime": "2026-04-18T18:06:20.017Z"
       }
     ],
     "wins": 0,
@@ -23263,7 +23273,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T14:02:15.308Z",
-    "lastSeen": "2026-04-18T14:02:15.308Z",
+    "lastSeen": "2026-04-18T18:06:20.017Z",
     "confirmed": false
   },
   "58zhRfb4wWh71sEiSCuvG34WK4zYioVh4wQfWdB5nkET": {
