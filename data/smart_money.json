@@ -1878,7 +1878,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "HUMAN",
@@ -1919,6 +1919,11 @@
         "symbol": "PIGON",
         "pairAddress": "CHWdLWeaSVqRJhQtQDVwX6tqxYP1wTHCquTMtNebrgR3",
         "entryTime": "2026-04-18T16:26:12.279Z"
+      },
+      {
+        "symbol": "Mãhina",
+        "pairAddress": "5dyPsxygiEKNPwbyLk8zErCgY97j8apwBQoCe2CXyxjT",
+        "entryTime": "2026-04-18T17:10:30.328Z"
       }
     ],
     "wins": 0,
@@ -1926,7 +1931,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:55:14.990Z",
-    "lastSeen": "2026-04-18T16:26:12.279Z",
+    "lastSeen": "2026-04-18T17:10:30.328Z",
     "confirmed": true
   },
   "82QuQ8mpqKnkvhsXcfRQ4CnLXip6RxXCYrKAxzucZaG1": {
