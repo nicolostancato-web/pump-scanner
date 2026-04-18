@@ -321,7 +321,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 20,
+    "appearances": 21,
     "tokens": [
       {
         "symbol": "DINO",
@@ -422,6 +422,11 @@
         "symbol": "PUMP",
         "pairAddress": "EL6Czfd4Dovs6pe3xaBCyW3F479ymGTj99XYiiqdZCrX",
         "entryTime": "2026-04-18T17:32:33.134Z"
+      },
+      {
+        "symbol": "dad",
+        "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
+        "entryTime": "2026-04-18T18:21:29.346Z"
       }
     ],
     "wins": 0,
@@ -429,7 +434,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-18T17:32:33.134Z",
+    "lastSeen": "2026-04-18T18:21:29.346Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
@@ -4069,7 +4074,7 @@
     "confirmed": false
   },
   "52oc72vjNbpUhF7jNE1pPAvc17JwBTyxybFp3u7PvetG": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "policunc",
@@ -4085,6 +4090,11 @@
         "symbol": "LOCO",
         "pairAddress": "7LiuPMuU89f9yfCxUvB1Vqcg6yZJNVQSF2WGt1tehrZ1",
         "entryTime": "2026-04-18T08:18:15.326Z"
+      },
+      {
+        "symbol": "dad",
+        "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
+        "entryTime": "2026-04-18T18:21:29.346Z"
       }
     ],
     "wins": 0,
@@ -4092,7 +4102,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:14:56.631Z",
-    "lastSeen": "2026-04-18T08:18:15.326Z",
+    "lastSeen": "2026-04-18T18:21:29.346Z",
     "confirmed": true
   },
   "3FhVYQ7ajmVxUtnqTL5UNQeKHNf3mR6CdRGXg5oCHrDW": {
