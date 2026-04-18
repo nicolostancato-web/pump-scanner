@@ -19469,5 +19469,22 @@
     "firstSeen": "2026-04-18T10:02:00.441Z",
     "lastSeen": "2026-04-18T10:02:00.441Z",
     "confirmed": false
+  },
+  "6AGp6zbGNuyZpmzeswv9KCNU15Rf37UQDqDqFAeHmS8d": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PIGEON",
+        "pairAddress": "GAWhPE4VGyb3ZxuQxT8UEmu9cUeXcWXJCj3qW8UQGq1h",
+        "entryTime": "2026-04-18T10:24:33.453Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T10:24:33.453Z",
+    "lastSeen": "2026-04-18T10:24:33.453Z",
+    "confirmed": false
   }
 }
