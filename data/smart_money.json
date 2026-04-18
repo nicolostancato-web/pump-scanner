@@ -27834,12 +27834,17 @@
     "confirmed": false
   },
   "STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SNOW",
         "pairAddress": "4PUhwb6qAGV4RPGNcoSnhLuxtTfHncJbM4yRAGHGht54",
         "entryTime": "2026-04-18T18:26:26.545Z"
+      },
+      {
+        "symbol": "ASSTROID",
+        "pairAddress": "88D9N63mqEYwX13PqZttFkpWD2SXVfQe3vxjjMDZ7f5P",
+        "entryTime": "2026-04-18T19:46:45.083Z"
       }
     ],
     "wins": 0,
@@ -27847,7 +27852,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T18:26:26.545Z",
-    "lastSeen": "2026-04-18T18:26:26.545Z",
+    "lastSeen": "2026-04-18T19:46:45.083Z",
     "confirmed": false
   },
   "5XUHyTD4JgYdbmzTXVyCkSsvWgpyZc9LhAxPaEXfFCdU": {
@@ -29004,6 +29009,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T19:46:11.454Z",
     "lastSeen": "2026-04-18T19:46:11.454Z",
+    "confirmed": false
+  },
+  "5wBiCT1BxGuXjSmMUC3HJhH2QLhfnad5whbt9trZMx48": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASSTROID",
+        "pairAddress": "88D9N63mqEYwX13PqZttFkpWD2SXVfQe3vxjjMDZ7f5P",
+        "entryTime": "2026-04-18T19:46:45.083Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T19:46:45.083Z",
+    "lastSeen": "2026-04-18T19:46:45.083Z",
     "confirmed": false
   }
 }
