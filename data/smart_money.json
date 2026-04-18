@@ -4558,7 +4558,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "إلمو",
@@ -4569,6 +4569,11 @@
         "symbol": "SOLDEVMOLT",
         "pairAddress": "dFyuVKx5kab7TVhHNziEYncvn9SerKw4oi19u8XJQ5p",
         "entryTime": "2026-04-17T23:10:47.352Z"
+      },
+      {
+        "symbol": "Picante",
+        "pairAddress": "9nyH9kgD2S2fQHuorxYatBAVh2d1JHxSKgmXUcAFrG59",
+        "entryTime": "2026-04-18T10:01:14.285Z"
       }
     ],
     "wins": 0,
@@ -4576,8 +4581,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:09:38.300Z",
-    "lastSeen": "2026-04-17T23:10:47.352Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T10:01:14.285Z",
+    "confirmed": true
   },
   "327677XqTEwYxo8kaQxAJUWvUvzpVoSjiMXMc8u4wQS6": {
     "appearances": 1,
