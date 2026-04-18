@@ -681,7 +681,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 15,
+    "appearances": 16,
     "tokens": [
       {
         "symbol": "小行星",
@@ -757,6 +757,11 @@
         "symbol": "$BITCOIN",
         "pairAddress": "AbJV5BoH6gyp33evZ8mByr9GTVEzpWy9GUJxQ835uLiS",
         "entryTime": "2026-04-18T20:16:27.172Z"
+      },
+      {
+        "symbol": "Chud",
+        "pairAddress": "7fktRknqm8kMemBZcPMJbdhdADstzgmDktbseVvuDVBc",
+        "entryTime": "2026-04-18T20:39:45.745Z"
       }
     ],
     "wins": 0,
@@ -764,7 +769,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-18T20:16:27.172Z",
+    "lastSeen": "2026-04-18T20:39:45.745Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
@@ -29787,6 +29792,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T20:37:44.593Z",
     "lastSeen": "2026-04-18T20:37:44.593Z",
+    "confirmed": false
+  },
+  "5QTwRNbF13ywp5BTiA56jLY2eCoqN9qW3kSBvjYmbDCi": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Chud",
+        "pairAddress": "7fktRknqm8kMemBZcPMJbdhdADstzgmDktbseVvuDVBc",
+        "entryTime": "2026-04-18T20:39:45.745Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T20:39:45.745Z",
+    "lastSeen": "2026-04-18T20:39:45.745Z",
     "confirmed": false
   }
 }
