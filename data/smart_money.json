@@ -11579,5 +11579,22 @@
     "firstSeen": "2026-04-18T02:06:11.649Z",
     "lastSeen": "2026-04-18T02:06:11.649Z",
     "confirmed": false
+  },
+  "5ViRxV9jtEqcUDJJtD8BNZ9QFtMPhoEhNnWhJRwNk3pb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AST",
+        "pairAddress": "3iNTr1YTEGCVpR4Bu49XWvAowaGuf52KzSR5QqZoBWCw",
+        "entryTime": "2026-04-18T02:06:39.296Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T02:06:39.296Z",
+    "lastSeen": "2026-04-18T02:06:39.296Z",
+    "confirmed": false
   }
 }
