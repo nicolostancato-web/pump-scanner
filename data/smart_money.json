@@ -1735,7 +1735,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "HUMAN",
@@ -1766,6 +1766,11 @@
         "symbol": "Picante",
         "pairAddress": "96mT8gwobVST2Xa1Has48TJzrUy313vqqASYUDo2hazG",
         "entryTime": "2026-04-18T09:20:37.422Z"
+      },
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:08:43.100Z"
       }
     ],
     "wins": 0,
@@ -1773,7 +1778,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:49:17.444Z",
-    "lastSeen": "2026-04-18T09:20:37.422Z",
+    "lastSeen": "2026-04-18T15:08:43.100Z",
     "confirmed": true
   },
   "2GDsdk2UTQ4tqngqWumPCFbMp3nJj3JDXpAzuoncDYHU": {
@@ -24129,6 +24134,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T15:06:10.035Z",
     "lastSeen": "2026-04-18T15:06:10.035Z",
+    "confirmed": false
+  },
+  "ACDmD1SeAp1PmLsPySydELFkpmJBZoSPkUDVANSjHVvt": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:08:43.100Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T15:08:43.100Z",
+    "lastSeen": "2026-04-18T15:08:43.100Z",
     "confirmed": false
   }
 }
