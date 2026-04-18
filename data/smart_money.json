@@ -7069,12 +7069,17 @@
     "confirmed": false
   },
   "4arwn6LhVHpb6Chh58A7bMdyGBkjoyhtQTDBAe9eVEDG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "RETAIL",
         "pairAddress": "45eK66Qf4dqPVxmH4B9ifRUDEqrJA29FGs1omGcYinnD",
         "entryTime": "2026-04-17T23:03:48.346Z"
+      },
+      {
+        "symbol": "THINKING",
+        "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
+        "entryTime": "2026-04-18T05:44:47.433Z"
       }
     ],
     "wins": 0,
@@ -7082,7 +7087,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:03:48.346Z",
-    "lastSeen": "2026-04-17T23:03:48.346Z",
+    "lastSeen": "2026-04-18T05:44:47.433Z",
     "confirmed": false
   },
   "DdjDnL82N5uYGJvxuNWz1GGitQU92netHcgEv7vFpbZ1": {
@@ -16074,6 +16079,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:44:15.565Z",
     "lastSeen": "2026-04-18T05:44:15.565Z",
+    "confirmed": false
+  },
+  "FAC47aj3qgxUu2jDrNfChwyyXpeFNLcDkwRSB5a2fbL6": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "THINKING",
+        "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
+        "entryTime": "2026-04-18T05:44:47.433Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T05:44:47.433Z",
+    "lastSeen": "2026-04-18T05:44:47.433Z",
     "confirmed": false
   }
 }
