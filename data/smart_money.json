@@ -29280,5 +29280,39 @@
     "firstSeen": "2026-04-18T20:07:05.042Z",
     "lastSeen": "2026-04-18T20:07:05.042Z",
     "confirmed": false
+  },
+  "HJhHHKkGxKzMkaP5yRhbtTzhw5ofwGp2vZWY7wpM3CZt": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "$BITCOIN",
+        "pairAddress": "AbJV5BoH6gyp33evZ8mByr9GTVEzpWy9GUJxQ835uLiS",
+        "entryTime": "2026-04-18T20:09:41.157Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T20:09:41.157Z",
+    "lastSeen": "2026-04-18T20:09:41.157Z",
+    "confirmed": false
+  },
+  "AxA7ADrwiYj3Qr4qxYyoxVuWzL9LxiQN9CWWGwXQu3Xk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "$BITCOIN",
+        "pairAddress": "AbJV5BoH6gyp33evZ8mByr9GTVEzpWy9GUJxQ835uLiS",
+        "entryTime": "2026-04-18T20:09:41.157Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T20:09:41.157Z",
+    "lastSeen": "2026-04-18T20:09:41.157Z",
+    "confirmed": false
   }
 }
