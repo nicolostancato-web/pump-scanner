@@ -16117,7 +16117,7 @@
     "confirmed": false
   },
   "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "RETARDIO",
@@ -16133,6 +16133,11 @@
         "symbol": "CALL",
         "pairAddress": "G3ptL8BZjStta991rPe1P3LhqAvE8HAu6tha8MJcwJ6x",
         "entryTime": "2026-04-18T14:08:41.595Z"
+      },
+      {
+        "symbol": "ASSTROID",
+        "pairAddress": "88D9N63mqEYwX13PqZttFkpWD2SXVfQe3vxjjMDZ7f5P",
+        "entryTime": "2026-04-18T19:52:51.154Z"
       }
     ],
     "wins": 0,
@@ -16140,7 +16145,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:17:25.502Z",
-    "lastSeen": "2026-04-18T14:08:41.595Z",
+    "lastSeen": "2026-04-18T19:52:51.154Z",
     "confirmed": true
   },
   "AB2mhjempNsJ389J6F82XumpQ5zAZ8jtYik7WKqUEHXE": {
@@ -29094,6 +29099,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T19:52:03.074Z",
     "lastSeen": "2026-04-18T19:52:03.074Z",
+    "confirmed": false
+  },
+  "GntN6CrFgLGHmAPWGvqEJhnSFN7tnzg5e6P3iDPJC7rM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASSTROID",
+        "pairAddress": "88D9N63mqEYwX13PqZttFkpWD2SXVfQe3vxjjMDZ7f5P",
+        "entryTime": "2026-04-18T19:52:51.154Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T19:52:51.154Z",
+    "lastSeen": "2026-04-18T19:52:51.154Z",
     "confirmed": false
   }
 }
