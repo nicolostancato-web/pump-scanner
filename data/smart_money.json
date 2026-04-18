@@ -316,7 +316,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 17,
+    "appearances": 18,
     "tokens": [
       {
         "symbol": "DINO",
@@ -402,6 +402,11 @@
         "symbol": "TRENCHES",
         "pairAddress": "A2HGRYyCYgTUttVcaNzFxsogcK2BvHQRbNDWZRrUH2WL",
         "entryTime": "2026-04-18T15:53:42.302Z"
+      },
+      {
+        "symbol": "YOSHI",
+        "pairAddress": "7Z4HDuVvzXWhuUsnfWzGtbnuzUmCbsTUeSFrC5iut1tC",
+        "entryTime": "2026-04-18T16:45:01.555Z"
       }
     ],
     "wins": 0,
@@ -409,7 +414,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-18T15:53:42.302Z",
+    "lastSeen": "2026-04-18T16:45:01.555Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
@@ -25999,6 +26004,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T16:44:22.937Z",
     "lastSeen": "2026-04-18T16:44:22.937Z",
+    "confirmed": false
+  },
+  "D8mEBRvdCZ9uZg3TYAcDo1d5Pr4PjfPCjqRhucYZzqdd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "YOSHI",
+        "pairAddress": "7Z4HDuVvzXWhuUsnfWzGtbnuzUmCbsTUeSFrC5iut1tC",
+        "entryTime": "2026-04-18T16:45:01.555Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T16:45:01.555Z",
+    "lastSeen": "2026-04-18T16:45:01.555Z",
     "confirmed": false
   }
 }
