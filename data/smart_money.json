@@ -1380,7 +1380,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "小行星",
@@ -1406,6 +1406,11 @@
         "symbol": "SOLANALIFE",
         "pairAddress": "7JC8hTFgPZASiRpsqkz8pShxwiZXt3t4kTCnjMbFfvFb",
         "entryTime": "2026-04-18T06:55:41.757Z"
+      },
+      {
+        "symbol": "LIFE",
+        "pairAddress": "3MQknVgaFRH1kWvRrrJopFmsaGeNzw5UN97yf7RkxT9U",
+        "entryTime": "2026-04-18T08:45:45.058Z"
       }
     ],
     "wins": 0,
@@ -1413,7 +1418,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:42:08.359Z",
-    "lastSeen": "2026-04-18T06:55:41.757Z",
+    "lastSeen": "2026-04-18T08:45:45.058Z",
     "confirmed": true
   },
   "GM9mqi5EKFeF4ToX7WiCdPW8R1WzJiBvScgyhJU69VZT": {
@@ -18306,6 +18311,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T08:45:11.986Z",
     "lastSeen": "2026-04-18T08:45:11.986Z",
+    "confirmed": false
+  },
+  "FmmfAiFx9kvYQ5iQxRrJTXiMDe4obf9khi5MdieYMBq1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LIFE",
+        "pairAddress": "3MQknVgaFRH1kWvRrrJopFmsaGeNzw5UN97yf7RkxT9U",
+        "entryTime": "2026-04-18T08:45:45.058Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T08:45:45.058Z",
+    "lastSeen": "2026-04-18T08:45:45.058Z",
     "confirmed": false
   }
 }
