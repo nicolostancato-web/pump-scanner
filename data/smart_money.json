@@ -20000,12 +20000,17 @@
     "confirmed": false
   },
   "DFrFyujUhhLVkbqSgaGd8MUzq3CGoEp2XWmCjyc5Rk47": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PIGEON",
         "pairAddress": "GAWhPE4VGyb3ZxuQxT8UEmu9cUeXcWXJCj3qW8UQGq1h",
         "entryTime": "2026-04-18T10:38:52.990Z"
+      },
+      {
+        "symbol": "TRENCHES",
+        "pairAddress": "A2HGRYyCYgTUttVcaNzFxsogcK2BvHQRbNDWZRrUH2WL",
+        "entryTime": "2026-04-18T15:48:01.710Z"
       }
     ],
     "wins": 0,
@@ -20013,7 +20018,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T10:38:52.990Z",
-    "lastSeen": "2026-04-18T10:38:52.990Z",
+    "lastSeen": "2026-04-18T15:48:01.710Z",
     "confirmed": false
   },
   "GeWb1wn3m82uD1113joaTj172o48Bc7NtM4xrvnZZnqH": {
@@ -24862,6 +24867,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T15:47:28.596Z",
     "lastSeen": "2026-04-18T15:47:28.596Z",
+    "confirmed": false
+  },
+  "GTfW9HNe85KvbwExt6enhEToH4k1CdYM3sEVK9hUi88W": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRENCHES",
+        "pairAddress": "A2HGRYyCYgTUttVcaNzFxsogcK2BvHQRbNDWZRrUH2WL",
+        "entryTime": "2026-04-18T15:48:01.710Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T15:48:01.710Z",
+    "lastSeen": "2026-04-18T15:48:01.710Z",
     "confirmed": false
   }
 }
