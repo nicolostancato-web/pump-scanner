@@ -6032,12 +6032,17 @@
     "confirmed": false
   },
   "Fx5PZJqi5sjZ8QvpsLuhmFmjuH64HEX3J37dLYt335tT": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ASTERSTAR",
         "pairAddress": "GtD3qi2FmRumLYDtRCgJyvE7bnjAo1v3UNhFaYbgzyo8",
         "entryTime": "2026-04-17T22:14:41.458Z"
+      },
+      {
+        "symbol": "PVE",
+        "pairAddress": "5Mwivsn3EmW5QrgrvJ5Ld9LXuibwpAPEZrTTMzF8raqo",
+        "entryTime": "2026-04-18T22:53:50.675Z"
       }
     ],
     "wins": 0,
@@ -6045,7 +6050,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T22:14:41.458Z",
-    "lastSeen": "2026-04-17T22:14:41.458Z",
+    "lastSeen": "2026-04-18T22:53:50.675Z",
     "confirmed": false
   },
   "CR4Y5YQ2Dy8kdKCCYd32goMmG762FqFaBb5uVbQdxaKc": {
@@ -31672,6 +31677,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T22:51:16.992Z",
     "lastSeen": "2026-04-18T22:51:16.992Z",
+    "confirmed": false
+  },
+  "BRGBSRgZS9a9L9Dov5hhDA65uvtT7bvbztLfuPtnxBZn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PVE",
+        "pairAddress": "5Mwivsn3EmW5QrgrvJ5Ld9LXuibwpAPEZrTTMzF8raqo",
+        "entryTime": "2026-04-18T22:53:50.675Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T22:53:50.675Z",
+    "lastSeen": "2026-04-18T22:53:50.675Z",
     "confirmed": false
   }
 }
