@@ -7370,7 +7370,7 @@
     "confirmed": false
   },
   "4r33xEKAD2cNMrC9NyJy8nb4XmruUKebZ6LZZm65PVUZ": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "SOLDEVMOLT",
@@ -7386,6 +7386,11 @@
         "symbol": "Picante",
         "pairAddress": "96mT8gwobVST2Xa1Has48TJzrUy313vqqASYUDo2hazG",
         "entryTime": "2026-04-18T09:19:50.232Z"
+      },
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:23:20.407Z"
       }
     ],
     "wins": 0,
@@ -7393,7 +7398,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:04:50.612Z",
-    "lastSeen": "2026-04-18T09:19:50.232Z",
+    "lastSeen": "2026-04-18T15:23:20.407Z",
     "confirmed": true
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
