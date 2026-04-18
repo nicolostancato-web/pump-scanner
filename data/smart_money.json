@@ -4884,12 +4884,17 @@
     "confirmed": false
   },
   "5UNuXzAiwViELDnXtasJ4BA1ZNe2UL34MtwpH7nR2X71": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ENEMIES",
         "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
         "entryTime": "2026-04-17T21:45:16.693Z"
+      },
+      {
+        "symbol": "Gruk",
+        "pairAddress": "5ozeSTPSZwkcpDrZU17uTnrTR7s9gV7oz9jQowCSK93P",
+        "entryTime": "2026-04-18T00:36:14.415Z"
       }
     ],
     "wins": 0,
@@ -4897,7 +4902,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:45:16.693Z",
-    "lastSeen": "2026-04-17T21:45:16.693Z",
+    "lastSeen": "2026-04-18T00:36:14.415Z",
     "confirmed": false
   },
   "3PawkvKjazEkiDww94USD5aZdfbfdnPPa6qhJCyXc1xE": {
@@ -8988,6 +8993,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T00:25:53.153Z",
     "lastSeen": "2026-04-18T00:25:53.153Z",
+    "confirmed": false
+  },
+  "GfMiTmN4vDvhLkY9tSLg1fCxrjYkm4DB7w4TAGMy53Eq": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Gruk",
+        "pairAddress": "5ozeSTPSZwkcpDrZU17uTnrTR7s9gV7oz9jQowCSK93P",
+        "entryTime": "2026-04-18T00:36:14.415Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T00:36:14.415Z",
+    "lastSeen": "2026-04-18T00:36:14.415Z",
     "confirmed": false
   }
 }
