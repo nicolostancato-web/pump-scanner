@@ -9842,5 +9842,22 @@
     "firstSeen": "2026-04-18T01:26:14.050Z",
     "lastSeen": "2026-04-18T01:26:14.050Z",
     "confirmed": false
+  },
+  "HfzZjeCZkohgL1pEamP5Vp3xv4W3bXrjGYW9c9f7aANk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "8sv3CPognVVfib5G16gn2E99wH2PN4KVT6bKo1RrXsHc",
+        "entryTime": "2026-04-18T01:26:44.714Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T01:26:44.714Z",
+    "lastSeen": "2026-04-18T01:26:44.714Z",
+    "confirmed": false
   }
 }
