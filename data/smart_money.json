@@ -681,7 +681,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 14,
+    "appearances": 15,
     "tokens": [
       {
         "symbol": "小行星",
@@ -752,6 +752,11 @@
         "symbol": "dad",
         "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
         "entryTime": "2026-04-18T18:19:15.460Z"
+      },
+      {
+        "symbol": "$BITCOIN",
+        "pairAddress": "AbJV5BoH6gyp33evZ8mByr9GTVEzpWy9GUJxQ835uLiS",
+        "entryTime": "2026-04-18T20:16:27.172Z"
       }
     ],
     "wins": 0,
@@ -759,7 +764,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-18T18:19:15.460Z",
+    "lastSeen": "2026-04-18T20:16:27.172Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
@@ -29381,6 +29386,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T20:13:33.278Z",
     "lastSeen": "2026-04-18T20:13:33.278Z",
+    "confirmed": false
+  },
+  "6CkZFFJTZ8EBFRfnCYjmeKMmZPyopcASrQ965eCyMTMC": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "$BITCOIN",
+        "pairAddress": "AbJV5BoH6gyp33evZ8mByr9GTVEzpWy9GUJxQ835uLiS",
+        "entryTime": "2026-04-18T20:16:27.172Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T20:16:27.172Z",
+    "lastSeen": "2026-04-18T20:16:27.172Z",
     "confirmed": false
   }
 }
