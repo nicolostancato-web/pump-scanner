@@ -7065,12 +7065,17 @@
     "confirmed": false
   },
   "4r33xEKAD2cNMrC9NyJy8nb4XmruUKebZ6LZZm65PVUZ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOLDEVMOLT",
         "pairAddress": "dFyuVKx5kab7TVhHNziEYncvn9SerKw4oi19u8XJQ5p",
         "entryTime": "2026-04-17T23:04:50.612Z"
+      },
+      {
+        "symbol": "SOULANA",
+        "pairAddress": "mHKFT88yj3sr1cY9XaG6QCXarW1JSDg7f8HpV1Z9Bhm",
+        "entryTime": "2026-04-18T03:41:36.453Z"
       }
     ],
     "wins": 0,
@@ -7078,7 +7083,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:04:50.612Z",
-    "lastSeen": "2026-04-17T23:04:50.612Z",
+    "lastSeen": "2026-04-18T03:41:36.453Z",
     "confirmed": false
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
