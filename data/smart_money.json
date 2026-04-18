@@ -14647,12 +14647,17 @@
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOULANA",
         "pairAddress": "mHKFT88yj3sr1cY9XaG6QCXarW1JSDg7f8HpV1Z9Bhm",
         "entryTime": "2026-04-18T03:42:06.864Z"
+      },
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:09:21.989Z"
       }
     ],
     "wins": 0,
@@ -14660,7 +14665,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T03:42:06.864Z",
-    "lastSeen": "2026-04-18T03:42:06.864Z",
+    "lastSeen": "2026-04-18T15:09:21.989Z",
     "confirmed": false
   },
   "DjR8EteyixDPtvg8rVF74ro6gVbV3Voup7dEvmcTwzWo": {
