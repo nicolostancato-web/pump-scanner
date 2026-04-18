@@ -18506,12 +18506,17 @@
     "confirmed": false
   },
   "HpFAMDBzsWwk5X9wGqnvzu69FdpMXNkf9Uagj6cQV77U": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "LIFE",
         "pairAddress": "3MQknVgaFRH1kWvRrrJopFmsaGeNzw5UN97yf7RkxT9U",
         "entryTime": "2026-04-18T08:33:02.702Z"
+      },
+      {
+        "symbol": "$BITCOIN",
+        "pairAddress": "AbJV5BoH6gyp33evZ8mByr9GTVEzpWy9GUJxQ835uLiS",
+        "entryTime": "2026-04-18T20:17:36.152Z"
       }
     ],
     "wins": 0,
@@ -18519,7 +18524,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T08:33:02.702Z",
-    "lastSeen": "2026-04-18T08:33:02.702Z",
+    "lastSeen": "2026-04-18T20:17:36.152Z",
     "confirmed": false
   },
   "5y4UEmiE1KZ4a6m34PTdq1Nd3s9YRyqeNUMC6mPqQWk1": {
@@ -29437,6 +29442,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T20:17:03.977Z",
     "lastSeen": "2026-04-18T20:17:03.977Z",
+    "confirmed": false
+  },
+  "7pBBeAxC62yYqpDEF5iYdFFH6zaLG5oV8eFmDbJWCUxm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "$BITCOIN",
+        "pairAddress": "AbJV5BoH6gyp33evZ8mByr9GTVEzpWy9GUJxQ835uLiS",
+        "entryTime": "2026-04-18T20:17:36.152Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T20:17:36.152Z",
+    "lastSeen": "2026-04-18T20:17:36.152Z",
     "confirmed": false
   }
 }
