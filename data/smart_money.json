@@ -8467,7 +8467,7 @@
     "confirmed": false
   },
   "EPmWr32kWWX8twXt9ENMCmL7Y4UTt6oXqhXm2MbQ34rZ": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Popdog",
@@ -8478,6 +8478,11 @@
         "symbol": "WSM",
         "pairAddress": "AyKA4oxCpdrz5WXP11dpLQY973XWeF9r6nxM21hFy4B8",
         "entryTime": "2026-04-18T17:55:28.670Z"
+      },
+      {
+        "symbol": "ASSTROID",
+        "pairAddress": "88D9N63mqEYwX13PqZttFkpWD2SXVfQe3vxjjMDZ7f5P",
+        "entryTime": "2026-04-18T19:43:17.292Z"
       }
     ],
     "wins": 0,
@@ -8485,8 +8490,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:36:10.507Z",
-    "lastSeen": "2026-04-18T17:55:28.670Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T19:43:17.292Z",
+    "confirmed": true
   },
   "436h85qXhByXQG4pkxdrD4CYQFRuJ3UPR5YdfUuL6v24": {
     "appearances": 3,
