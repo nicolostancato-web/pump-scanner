@@ -1840,7 +1840,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "HUMAN",
@@ -1876,6 +1876,11 @@
         "symbol": "GM",
         "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
         "entryTime": "2026-04-18T15:08:43.100Z"
+      },
+      {
+        "symbol": "skals",
+        "pairAddress": "GzcJ89VuRHFq9My8yZHwKUpGYH83z5SFLFmKmUnprDvk",
+        "entryTime": "2026-04-18T21:47:17.753Z"
       }
     ],
     "wins": 0,
@@ -1883,7 +1888,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:49:17.444Z",
-    "lastSeen": "2026-04-18T15:08:43.100Z",
+    "lastSeen": "2026-04-18T21:47:17.753Z",
     "confirmed": true
   },
   "2GDsdk2UTQ4tqngqWumPCFbMp3nJj3JDXpAzuoncDYHU": {
