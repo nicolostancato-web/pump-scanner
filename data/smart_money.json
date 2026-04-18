@@ -8331,7 +8331,7 @@
     "confirmed": false
   },
   "9RAufBfjGQjDfrwxeyKmZWPADHSb8HcoqCdrmpqvCr1g": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "CHILLASTER",
@@ -8347,6 +8347,11 @@
         "symbol": "abundance",
         "pairAddress": "12NoHN3ZtZvemdxZ5YUr7zU4RPDfZfqWzKsNojWGmd2e",
         "entryTime": "2026-04-18T20:04:19.607Z"
+      },
+      {
+        "symbol": "WINNINGUNC",
+        "pairAddress": "FYmKAJ8H1nMMcgTxe23HHPyKjKP7LYxcaS1BpKjVaZyY",
+        "entryTime": "2026-04-18T20:30:07.829Z"
       }
     ],
     "wins": 0,
@@ -8354,7 +8359,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:33:56.881Z",
-    "lastSeen": "2026-04-18T20:04:19.607Z",
+    "lastSeen": "2026-04-18T20:30:07.829Z",
     "confirmed": true
   },
   "BLLtE2mDyjFTyLzQwSCgobzKXJkEtKhZj3ibWqPZhsCi": {
