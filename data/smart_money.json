@@ -7061,12 +7061,17 @@
     "confirmed": false
   },
   "Ad8YGs4QWV3PfjtvTVgTKfxa2JhEtgRPESqi9XBaQHMF": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Conviction",
         "pairAddress": "8FoFdEGeeKc4h53UfXmuMm3vjxMM9ppTVGkkd4EVSzzF",
         "entryTime": "2026-04-17T23:08:24.085Z"
+      },
+      {
+        "symbol": "DICKER",
+        "pairAddress": "D3yXd5oqSRPGHoEkkwEm3L74qb9SzbNXtmdpkNAjH6dm",
+        "entryTime": "2026-04-18T01:42:04.115Z"
       }
     ],
     "wins": 0,
@@ -7074,7 +7079,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:08:24.085Z",
-    "lastSeen": "2026-04-17T23:08:24.085Z",
+    "lastSeen": "2026-04-18T01:42:04.115Z",
     "confirmed": false
   },
   "482e3xJhQFKBE398vuFF2TBVfH5sde6vo4kfWttw4ow2": {
@@ -10208,6 +10213,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T01:37:34.266Z",
     "lastSeen": "2026-04-18T01:37:34.266Z",
+    "confirmed": false
+  },
+  "7XURCfraWRfNoNBk9wNqFmoWUdCGrDZXrGoWSc7WE5Nv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DICKER",
+        "pairAddress": "D3yXd5oqSRPGHoEkkwEm3L74qb9SzbNXtmdpkNAjH6dm",
+        "entryTime": "2026-04-18T01:42:04.115Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T01:42:04.115Z",
+    "lastSeen": "2026-04-18T01:42:04.115Z",
     "confirmed": false
   }
 }
