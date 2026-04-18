@@ -7104,12 +7104,17 @@
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOLDEVMOLT",
         "pairAddress": "dFyuVKx5kab7TVhHNziEYncvn9SerKw4oi19u8XJQ5p",
         "entryTime": "2026-04-17T23:05:55.167Z"
+      },
+      {
+        "symbol": "SOULANA",
+        "pairAddress": "mHKFT88yj3sr1cY9XaG6QCXarW1JSDg7f8HpV1Z9Bhm",
+        "entryTime": "2026-04-18T03:42:06.864Z"
       }
     ],
     "wins": 0,
@@ -7117,7 +7122,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:05:55.167Z",
-    "lastSeen": "2026-04-17T23:05:55.167Z",
+    "lastSeen": "2026-04-18T03:42:06.864Z",
     "confirmed": false
   },
   "Ad8YGs4QWV3PfjtvTVgTKfxa2JhEtgRPESqi9XBaQHMF": {
@@ -14264,6 +14269,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T03:39:09.065Z",
     "lastSeen": "2026-04-18T03:39:09.065Z",
+    "confirmed": false
+  },
+  "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOULANA",
+        "pairAddress": "mHKFT88yj3sr1cY9XaG6QCXarW1JSDg7f8HpV1Z9Bhm",
+        "entryTime": "2026-04-18T03:42:06.864Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T03:42:06.864Z",
+    "lastSeen": "2026-04-18T03:42:06.864Z",
     "confirmed": false
   }
 }
