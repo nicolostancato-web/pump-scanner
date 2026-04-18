@@ -12148,12 +12148,17 @@
     "confirmed": false
   },
   "GGXXgSYnwwBJoJVnGtTSCgW94ceG5KDs2zvqX84Pd2KS": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "777",
         "pairAddress": "ANpN7LjntgjxvQRbEFZAbhqXs2pj5v2ifCLfzCkcAVjY",
         "entryTime": "2026-04-18T02:19:05.664Z"
+      },
+      {
+        "symbol": "CHILLASTER",
+        "pairAddress": "FF4V55rCsRG6FQ8NDEYJw3U5VkpuZcrLBW9tNuJj1VuL",
+        "entryTime": "2026-04-18T04:15:23.274Z"
       }
     ],
     "wins": 0,
@@ -12161,7 +12166,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T02:19:05.664Z",
-    "lastSeen": "2026-04-18T02:19:05.664Z",
+    "lastSeen": "2026-04-18T04:15:23.274Z",
     "confirmed": false
   },
   "qV9ooB7JBsnDYepQnDYWt92ZAhayRpC9SNpmoNp2xLq": {
