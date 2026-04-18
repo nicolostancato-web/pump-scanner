@@ -14344,12 +14344,17 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AstroDOGE",
         "pairAddress": "81a6s3yu9DXDuucwNu2JErvQGgF6A9DuLWNE3YS8VqTc",
         "entryTime": "2026-04-18T03:29:47.775Z"
+      },
+      {
+        "symbol": "PumpLife",
+        "pairAddress": "8C7AjhKLWKQi4mAs3o4oikZo7wGxk7PV1NQLyhJnt5RD",
+        "entryTime": "2026-04-18T12:56:31.598Z"
       }
     ],
     "wins": 0,
@@ -14357,7 +14362,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T03:29:47.775Z",
-    "lastSeen": "2026-04-18T03:29:47.775Z",
+    "lastSeen": "2026-04-18T12:56:31.598Z",
     "confirmed": false
   },
   "9jBnUP489cLemcGF3sdbNkaZtJYYJhaLzGCQ2g2YMdWF": {
@@ -21747,6 +21752,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T12:47:58.404Z",
     "lastSeen": "2026-04-18T12:47:58.404Z",
+    "confirmed": false
+  },
+  "9dGAgKNk5gRqEvZ4cAShRS46Z97XFPJMb8dFVpg4LmGf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PumpLife",
+        "pairAddress": "8C7AjhKLWKQi4mAs3o4oikZo7wGxk7PV1NQLyhJnt5RD",
+        "entryTime": "2026-04-18T12:56:31.598Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T12:56:31.598Z",
+    "lastSeen": "2026-04-18T12:56:31.598Z",
     "confirmed": false
   }
 }
