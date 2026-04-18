@@ -12914,7 +12914,7 @@
     "confirmed": false
   },
   "2Jy2VdYU6YmSKL2fAk59iTBHavGUu41HNRMekdwcVUVg": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "LIFE",
@@ -12925,6 +12925,11 @@
         "symbol": "Slop OS",
         "pairAddress": "4adB4vfEwgxBBajLPg2qXCQxUmFvcdebV3t27G8EHDrc",
         "entryTime": "2026-04-18T05:00:10.552Z"
+      },
+      {
+        "symbol": "Brik",
+        "pairAddress": "CiHq7H4B9i4WMrdH4xspkXvnYAmBpjCciNAKb2LzP6TC",
+        "entryTime": "2026-04-18T11:25:25.524Z"
       }
     ],
     "wins": 0,
@@ -12932,8 +12937,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T02:42:21.107Z",
-    "lastSeen": "2026-04-18T05:00:10.552Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T11:25:25.524Z",
+    "confirmed": true
   },
   "7z49bgfyWFpX3qiyg8D2ohXh6UgJ2ucX1K6yu5Xjz6yf": {
     "appearances": 1,
@@ -20234,6 +20239,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T11:22:41.222Z",
     "lastSeen": "2026-04-18T11:22:41.222Z",
+    "confirmed": false
+  },
+  "4rTTd8kEX7tgD8g4z39jxXQipxPqQrDhCAkWAETBdS8i": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Brik",
+        "pairAddress": "CiHq7H4B9i4WMrdH4xspkXvnYAmBpjCciNAKb2LzP6TC",
+        "entryTime": "2026-04-18T11:25:25.524Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T11:25:25.524Z",
+    "lastSeen": "2026-04-18T11:25:25.524Z",
     "confirmed": false
   }
 }
