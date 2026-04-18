@@ -29494,5 +29494,22 @@
     "firstSeen": "2026-04-18T20:20:06.413Z",
     "lastSeen": "2026-04-18T20:20:06.413Z",
     "confirmed": false
+  },
+  "Ae4E5hs7FNpWsRyQnX3poQVr6XeNsngEuXaFnQuN2VRs": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "$BITCOIN",
+        "pairAddress": "AbJV5BoH6gyp33evZ8mByr9GTVEzpWy9GUJxQ835uLiS",
+        "entryTime": "2026-04-18T20:20:38.446Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T20:20:38.446Z",
+    "lastSeen": "2026-04-18T20:20:38.446Z",
+    "confirmed": false
   }
 }
