@@ -19940,12 +19940,17 @@
     "confirmed": false
   },
   "GTNEWBCZB5SGBAmqMTDxdpioq2rFUrudVYcFTXARMwya": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PIGEON",
         "pairAddress": "GAWhPE4VGyb3ZxuQxT8UEmu9cUeXcWXJCj3qW8UQGq1h",
         "entryTime": "2026-04-18T10:44:28.818Z"
+      },
+      {
+        "symbol": "Apple April",
+        "pairAddress": "HpCXC83sznNuifkbs1BpHwLVZ5aQBoYgC5UXUDKxac4G",
+        "entryTime": "2026-04-18T12:21:59.748Z"
       }
     ],
     "wins": 0,
@@ -19953,7 +19958,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T10:44:28.818Z",
-    "lastSeen": "2026-04-18T10:44:28.818Z",
+    "lastSeen": "2026-04-18T12:21:59.748Z",
     "confirmed": false
   },
   "EGJ6UbQMvejXg2MjQ2na8BxRDFHCjA6JGcFHaWCoWo2d": {
@@ -21183,6 +21188,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T12:21:27.326Z",
     "lastSeen": "2026-04-18T12:21:27.326Z",
+    "confirmed": false
+  },
+  "6oqxLHxT3GfynLcjAsfg5MJ9fQ6KiNubs5UfseThTPgv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Apple April",
+        "pairAddress": "HpCXC83sznNuifkbs1BpHwLVZ5aQBoYgC5UXUDKxac4G",
+        "entryTime": "2026-04-18T12:21:59.748Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T12:21:59.748Z",
+    "lastSeen": "2026-04-18T12:21:59.748Z",
     "confirmed": false
   }
 }
