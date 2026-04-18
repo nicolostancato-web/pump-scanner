@@ -9513,12 +9513,17 @@
     "confirmed": false
   },
   "2Ju1JhcvpaPDL8r7n7P1hdXM8n8sQGgKsybpUv4S8sEg": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "sonion",
         "pairAddress": "D5aHHC9LUoJqLQT3ZXDP3xZ4fgPch3PRPxV5LAJj8RiD",
         "entryTime": "2026-04-18T00:20:52.537Z"
+      },
+      {
+        "symbol": "HODL",
+        "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
+        "entryTime": "2026-04-18T23:39:51.615Z"
       }
     ],
     "wins": 0,
@@ -9526,7 +9531,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T00:20:52.537Z",
-    "lastSeen": "2026-04-18T00:20:52.537Z",
+    "lastSeen": "2026-04-18T23:39:51.615Z",
     "confirmed": false
   },
   "EAVecPP4id21WrdPLQpqezNdJNbE3rjH6VutyCm24gSH": {
@@ -14769,7 +14774,7 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "AstroDOGE",
@@ -14785,6 +14790,11 @@
         "symbol": "PVE",
         "pairAddress": "5Mwivsn3EmW5QrgrvJ5Ld9LXuibwpAPEZrTTMzF8raqo",
         "entryTime": "2026-04-18T22:44:57.368Z"
+      },
+      {
+        "symbol": "HODL",
+        "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
+        "entryTime": "2026-04-18T23:39:51.615Z"
       }
     ],
     "wins": 0,
@@ -14792,7 +14802,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T03:29:47.775Z",
-    "lastSeen": "2026-04-18T22:44:57.368Z",
+    "lastSeen": "2026-04-18T23:39:51.615Z",
     "confirmed": true
   },
   "9jBnUP489cLemcGF3sdbNkaZtJYYJhaLzGCQ2g2YMdWF": {
