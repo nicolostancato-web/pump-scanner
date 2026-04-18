@@ -671,7 +671,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 13,
+    "appearances": 14,
     "tokens": [
       {
         "symbol": "小行星",
@@ -737,6 +737,11 @@
         "symbol": "Mãhina",
         "pairAddress": "5dyPsxygiEKNPwbyLk8zErCgY97j8apwBQoCe2CXyxjT",
         "entryTime": "2026-04-18T17:21:29.329Z"
+      },
+      {
+        "symbol": "dad",
+        "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
+        "entryTime": "2026-04-18T18:19:15.460Z"
       }
     ],
     "wins": 0,
@@ -744,7 +749,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-18T17:21:29.329Z",
+    "lastSeen": "2026-04-18T18:19:15.460Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
@@ -27593,6 +27598,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T18:18:38.055Z",
     "lastSeen": "2026-04-18T18:18:38.055Z",
+    "confirmed": false
+  },
+  "CFjE7QkhLRozPNg8JdMjp6NSzN5be9dcTuLSeXXSSfdW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "dad",
+        "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
+        "entryTime": "2026-04-18T18:19:15.460Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T18:19:15.460Z",
+    "lastSeen": "2026-04-18T18:19:15.460Z",
     "confirmed": false
   }
 }
