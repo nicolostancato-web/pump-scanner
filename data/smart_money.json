@@ -25588,12 +25588,17 @@
     "confirmed": false
   },
   "EGG91JKvJj6reUNnqDY6eudGSb8zMoh5JEqdtHZkeB2c": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "WHERE",
         "pairAddress": "EvwdD1T8fCu22yo9igTdnsftT1tNLbJbMpVUtH1SudbA",
         "entryTime": "2026-04-18T16:22:48.109Z"
+      },
+      {
+        "symbol": "PUMP",
+        "pairAddress": "EL6Czfd4Dovs6pe3xaBCyW3F479ymGTj99XYiiqdZCrX",
+        "entryTime": "2026-04-18T17:35:43.363Z"
       }
     ],
     "wins": 0,
@@ -25601,7 +25606,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T16:22:48.109Z",
-    "lastSeen": "2026-04-18T16:22:48.109Z",
+    "lastSeen": "2026-04-18T17:35:43.363Z",
     "confirmed": false
   },
   "8gCH86NLvFHtxJeuYnHLFTJteCKswbhmLF4LGe9DRvv9": {
@@ -26520,6 +26525,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T17:33:05.366Z",
     "lastSeen": "2026-04-18T17:33:05.366Z",
+    "confirmed": false
+  },
+  "DMRQcKfSQQP5pki9MggVEKiz1ZMa6AzWaT1yVzcgM9tr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PUMP",
+        "pairAddress": "EL6Czfd4Dovs6pe3xaBCyW3F479ymGTj99XYiiqdZCrX",
+        "entryTime": "2026-04-18T17:35:43.363Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T17:35:43.363Z",
+    "lastSeen": "2026-04-18T17:35:43.363Z",
     "confirmed": false
   }
 }
