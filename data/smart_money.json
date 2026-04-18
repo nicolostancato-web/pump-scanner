@@ -5999,7 +5999,7 @@
     "confirmed": false
   },
   "ARqJ18xaBLrEJYARaYHxfRKSi1pB7dZjwq1NW6Fiuieb": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Aetherion",
@@ -6010,6 +6010,11 @@
         "symbol": "ascend",
         "pairAddress": "BLQjyXc1qoUzxwDK4re3Jsmm3LreztECrM25m5JK4KLg",
         "entryTime": "2026-04-18T03:57:08.798Z"
+      },
+      {
+        "symbol": "Picante",
+        "pairAddress": "6oPgzs1KmZptuQqM9U1gywpo2yLXt7DP8CCz71T8taon",
+        "entryTime": "2026-04-18T08:38:59.629Z"
       }
     ],
     "wins": 0,
@@ -6017,8 +6022,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T22:24:10.008Z",
-    "lastSeen": "2026-04-18T03:57:08.798Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T08:38:59.629Z",
+    "confirmed": true
   },
   "9XQZJLtcAthyfhGiRBTYQKGAGkAGxfazLQoPuRBC4AFr": {
     "appearances": 1,
@@ -18172,6 +18177,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T08:38:29.798Z",
     "lastSeen": "2026-04-18T08:38:29.798Z",
+    "confirmed": false
+  },
+  "8vuX59XTYVqNMMWsCYRd3rjbbFBgSznzw5X3NWPyfAxX": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Picante",
+        "pairAddress": "6oPgzs1KmZptuQqM9U1gywpo2yLXt7DP8CCz71T8taon",
+        "entryTime": "2026-04-18T08:38:59.629Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T08:38:59.629Z",
+    "lastSeen": "2026-04-18T08:38:59.629Z",
     "confirmed": false
   }
 }
