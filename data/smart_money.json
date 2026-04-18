@@ -8035,12 +8035,17 @@
     "confirmed": false
   },
   "JB1jKxrpEJMfpRxdZAfybY8rBq6ExznNQGBQ4kKepU8w": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Popdog",
         "pairAddress": "8dZTpasCwuN16WbzDgCSQtykA8adUrmwrmGE16XpUSUb",
         "entryTime": "2026-04-17T23:43:27.256Z"
+      },
+      {
+        "symbol": "DICKER",
+        "pairAddress": "D3yXd5oqSRPGHoEkkwEm3L74qb9SzbNXtmdpkNAjH6dm",
+        "entryTime": "2026-04-18T01:42:35.610Z"
       }
     ],
     "wins": 0,
@@ -8048,7 +8053,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:43:27.256Z",
-    "lastSeen": "2026-04-17T23:43:27.256Z",
+    "lastSeen": "2026-04-18T01:42:35.610Z",
     "confirmed": false
   },
   "HXyrdkKGayP8XreGPdQh8gMMR72eCS9G6M6VzMRtEic4": {
@@ -10230,6 +10235,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T01:42:04.115Z",
     "lastSeen": "2026-04-18T01:42:04.115Z",
+    "confirmed": false
+  },
+  "E3d3DRvKcqFibnwctkvx8C2NJUWiyPuqLwq8k3eFnrvZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DICKER",
+        "pairAddress": "D3yXd5oqSRPGHoEkkwEm3L74qb9SzbNXtmdpkNAjH6dm",
+        "entryTime": "2026-04-18T01:42:35.610Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T01:42:35.610Z",
+    "lastSeen": "2026-04-18T01:42:35.610Z",
     "confirmed": false
   }
 }
