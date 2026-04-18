@@ -4972,12 +4972,17 @@
     "confirmed": false
   },
   "5tySgpR3iHbyr6Ee3RfkKTkPEsSSVTMBLacKxfgi8MD3": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ENEMIES",
         "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
         "entryTime": "2026-04-17T21:48:16.390Z"
+      },
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "8sv3CPognVVfib5G16gn2E99wH2PN4KVT6bKo1RrXsHc",
+        "entryTime": "2026-04-18T01:37:03.942Z"
       }
     ],
     "wins": 0,
@@ -4985,7 +4990,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:48:16.390Z",
-    "lastSeen": "2026-04-17T21:48:16.390Z",
+    "lastSeen": "2026-04-18T01:37:03.942Z",
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
@@ -10152,6 +10157,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T01:36:33.411Z",
     "lastSeen": "2026-04-18T01:36:33.411Z",
+    "confirmed": false
+  },
+  "9kPqfswVV2aa7mLp4imzrZopvCTB78UekXVaEXY5sqB9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "8sv3CPognVVfib5G16gn2E99wH2PN4KVT6bKo1RrXsHc",
+        "entryTime": "2026-04-18T01:37:03.942Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T01:37:03.942Z",
+    "lastSeen": "2026-04-18T01:37:03.942Z",
     "confirmed": false
   }
 }
