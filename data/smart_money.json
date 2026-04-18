@@ -16804,7 +16804,7 @@
     "confirmed": false
   },
   "5aLY85pyxiuX3fd4RgM3Yc1e3MAL6b7UgaZz6MS3JUfG": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "THINKING",
@@ -16815,6 +16815,11 @@
         "symbol": "Nietzsche",
         "pairAddress": "4hqDFxC6t8tNzE8n8st5JZ9tVghQsgLDFAkqEc9mnQmU",
         "entryTime": "2026-04-18T12:05:50.048Z"
+      },
+      {
+        "symbol": "HODL",
+        "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
+        "entryTime": "2026-04-18T23:46:07.443Z"
       }
     ],
     "wins": 0,
@@ -16822,8 +16827,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:45:19.189Z",
-    "lastSeen": "2026-04-18T12:05:50.048Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T23:46:07.443Z",
+    "confirmed": true
   },
   "Y69ncHARF1Mi5d12SMF8tCxXEfH5rbKA4uyTpb3Hq3Z": {
     "appearances": 1,
@@ -32420,6 +32425,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T23:43:36.301Z",
     "lastSeen": "2026-04-18T23:43:36.301Z",
+    "confirmed": false
+  },
+  "5ek1R2jhNssTpEXS6bi3mZ7VaTxv8M6qkNUFgq5uXgLC": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "peppe",
+        "pairAddress": "4jcmzajMcD5sX8bjtq9NYu3vjwcbWwdcgikATWh2mDdQ",
+        "entryTime": "2026-04-18T23:46:07.408Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T23:46:07.408Z",
+    "lastSeen": "2026-04-18T23:46:07.408Z",
+    "confirmed": false
+  },
+  "6A8fS4R5nRA2gkB6cyziJJUUMUJubuHvxUXWQVHyGuhc": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HODL",
+        "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
+        "entryTime": "2026-04-18T23:46:07.443Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T23:46:07.443Z",
+    "lastSeen": "2026-04-18T23:46:07.443Z",
     "confirmed": false
   }
 }
