@@ -631,7 +631,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "小行星",
@@ -682,6 +682,11 @@
         "symbol": "CALL",
         "pairAddress": "G3ptL8BZjStta991rPe1P3LhqAvE8HAu6tha8MJcwJ6x",
         "entryTime": "2026-04-18T14:15:37.255Z"
+      },
+      {
+        "symbol": "Dicknald",
+        "pairAddress": "9pYuyQhYJxLw8CvGSFmziRQQQrZFPwNVPs5T4Py4QPTZ",
+        "entryTime": "2026-04-18T14:49:32.787Z"
       }
     ],
     "wins": 0,
@@ -689,7 +694,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-18T14:15:37.255Z",
+    "lastSeen": "2026-04-18T14:49:32.787Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
