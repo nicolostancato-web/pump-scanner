@@ -1328,12 +1328,17 @@
     "confirmed": false
   },
   "8qNuyLmHumocXjnHXA1eFyuqpo6RzFeWdSS6EH6m55PV": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "小行星",
         "pairAddress": "CxQZ1F5YvFj1rz8rUjdRhboBrdznJBDKyC5bnazuvaAj",
         "entryTime": "2026-04-17T18:40:33.426Z"
+      },
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:14:16.119Z"
       }
     ],
     "wins": 0,
@@ -1341,7 +1346,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:40:33.426Z",
-    "lastSeen": "2026-04-17T18:40:33.426Z",
+    "lastSeen": "2026-04-18T15:14:16.119Z",
     "confirmed": false
   },
   "6tnUKsW3ncZnoxfrYmzhBZyCW6cDgXt2U58a3UYPfVov": {
