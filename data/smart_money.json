@@ -5434,12 +5434,17 @@
     "confirmed": false
   },
   "4wfMGwXy5kN9nb2RbYdUNk468xjYrAJFkL6ERuL7zXMv": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ENEMIES",
         "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
         "entryTime": "2026-04-17T22:03:10.987Z"
+      },
+      {
+        "symbol": "LIFE",
+        "pairAddress": "6MhJk9qL1kp3zvG4qmp4ZJPE3DU7KhQvWDTo3DF796vR",
+        "entryTime": "2026-04-18T02:31:28.430Z"
       }
     ],
     "wins": 0,
@@ -5447,7 +5452,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T22:03:10.987Z",
-    "lastSeen": "2026-04-17T22:03:10.987Z",
+    "lastSeen": "2026-04-18T02:31:28.430Z",
     "confirmed": false
   },
   "xpMs4fnb6287GvscKUPB2wzEUAyzmqVaPKQyCGDSDsa": {
