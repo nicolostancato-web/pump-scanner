@@ -17271,12 +17271,17 @@
     "confirmed": false
   },
   "BTacsXqq4UYZNdPcfedZPLtJsXjF87LfYLoLAcVXNegp": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOLANALIFE",
         "pairAddress": "7JC8hTFgPZASiRpsqkz8pShxwiZXt3t4kTCnjMbFfvFb",
         "entryTime": "2026-04-18T06:48:02.596Z"
+      },
+      {
+        "symbol": "FFD",
+        "pairAddress": "BCkoaZaQmkP68aeP83N2sVYjLJxAU1o2mY4k7jVB4huP",
+        "entryTime": "2026-04-18T17:42:43.549Z"
       }
     ],
     "wins": 0,
@@ -17284,7 +17289,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T06:48:02.596Z",
-    "lastSeen": "2026-04-18T06:48:02.596Z",
+    "lastSeen": "2026-04-18T17:42:43.549Z",
     "confirmed": false
   },
   "QcfEcSUmAnwbVbZ6eVzkoazHKePaAJK6Sf96xC7Hba6": {
