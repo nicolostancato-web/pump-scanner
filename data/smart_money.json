@@ -3801,12 +3801,17 @@
     "confirmed": false
   },
   "CiQizNJ6vpx4cZix81YDrecoWALV2AVmNsmgbanb33T9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "policunc",
         "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
         "entryTime": "2026-04-17T20:12:21.584Z"
+      },
+      {
+        "symbol": "CALL",
+        "pairAddress": "G3ptL8BZjStta991rPe1P3LhqAvE8HAu6tha8MJcwJ6x",
+        "entryTime": "2026-04-18T14:14:25.269Z"
       }
     ],
     "wins": 0,
@@ -3814,7 +3819,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:12:21.584Z",
-    "lastSeen": "2026-04-17T20:12:21.584Z",
+    "lastSeen": "2026-04-18T14:14:25.269Z",
     "confirmed": false
   },
   "57n2gowQsQ7LtHTd36jPHwCWLCvWdk467AXzmFnfKGNv": {
@@ -23220,6 +23225,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T14:13:53.036Z",
     "lastSeen": "2026-04-18T14:13:53.036Z",
+    "confirmed": false
+  },
+  "BWAC3wJPKh85jVnKDdkk6LpxdxNB3KbPLze6zS7ALg5L": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CALL",
+        "pairAddress": "G3ptL8BZjStta991rPe1P3LhqAvE8HAu6tha8MJcwJ6x",
+        "entryTime": "2026-04-18T14:14:25.269Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T14:14:25.269Z",
+    "lastSeen": "2026-04-18T14:14:25.269Z",
     "confirmed": false
   }
 }
