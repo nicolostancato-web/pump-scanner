@@ -4697,7 +4697,7 @@
     "confirmed": false
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "إلمو",
@@ -4713,6 +4713,11 @@
         "symbol": "Picante",
         "pairAddress": "96mT8gwobVST2Xa1Has48TJzrUy313vqqASYUDo2hazG",
         "entryTime": "2026-04-18T09:19:50.232Z"
+      },
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:10:01.060Z"
       }
     ],
     "wins": 0,
@@ -4720,7 +4725,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:10:11.613Z",
-    "lastSeen": "2026-04-18T09:19:50.232Z",
+    "lastSeen": "2026-04-18T15:10:01.060Z",
     "confirmed": true
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
