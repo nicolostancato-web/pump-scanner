@@ -4592,7 +4592,7 @@
     "confirmed": false
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "إلمو",
@@ -4603,6 +4603,11 @@
         "symbol": "Aetherion",
         "pairAddress": "93hQFQwpvj7Y7T4ezUFaNnorzWQh8JiMtxhNFpsoFEMK",
         "entryTime": "2026-04-17T22:23:39.010Z"
+      },
+      {
+        "symbol": "Picante",
+        "pairAddress": "96mT8gwobVST2Xa1Has48TJzrUy313vqqASYUDo2hazG",
+        "entryTime": "2026-04-18T09:19:50.232Z"
       }
     ],
     "wins": 0,
@@ -4610,8 +4615,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:10:11.613Z",
-    "lastSeen": "2026-04-17T22:23:39.010Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T09:19:50.232Z",
+    "confirmed": true
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
     "appearances": 3,
@@ -7210,7 +7215,7 @@
     "confirmed": false
   },
   "4r33xEKAD2cNMrC9NyJy8nb4XmruUKebZ6LZZm65PVUZ": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SOLDEVMOLT",
@@ -7221,6 +7226,11 @@
         "symbol": "SOULANA",
         "pairAddress": "mHKFT88yj3sr1cY9XaG6QCXarW1JSDg7f8HpV1Z9Bhm",
         "entryTime": "2026-04-18T03:41:36.453Z"
+      },
+      {
+        "symbol": "Picante",
+        "pairAddress": "96mT8gwobVST2Xa1Has48TJzrUy313vqqASYUDo2hazG",
+        "entryTime": "2026-04-18T09:19:50.232Z"
       }
     ],
     "wins": 0,
@@ -7228,8 +7238,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:04:50.612Z",
-    "lastSeen": "2026-04-18T03:41:36.453Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T09:19:50.232Z",
+    "confirmed": true
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
     "appearances": 1,
