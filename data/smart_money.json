@@ -6224,7 +6224,7 @@
     "confirmed": false
   },
   "ARqJ18xaBLrEJYARaYHxfRKSi1pB7dZjwq1NW6Fiuieb": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Aetherion",
@@ -6245,6 +6245,11 @@
         "symbol": "TRENCHES",
         "pairAddress": "A2HGRYyCYgTUttVcaNzFxsogcK2BvHQRbNDWZRrUH2WL",
         "entryTime": "2026-04-18T15:53:42.302Z"
+      },
+      {
+        "symbol": "PIGON",
+        "pairAddress": "CHWdLWeaSVqRJhQtQDVwX6tqxYP1wTHCquTMtNebrgR3",
+        "entryTime": "2026-04-18T16:27:18.712Z"
       }
     ],
     "wins": 0,
@@ -6252,7 +6257,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T22:24:10.008Z",
-    "lastSeen": "2026-04-18T15:53:42.302Z",
+    "lastSeen": "2026-04-18T16:27:18.712Z",
     "confirmed": true
   },
   "9XQZJLtcAthyfhGiRBTYQKGAGkAGxfazLQoPuRBC4AFr": {
