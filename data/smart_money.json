@@ -1295,7 +1295,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "小行星",
@@ -1306,6 +1306,11 @@
         "symbol": "Conviction",
         "pairAddress": "8FoFdEGeeKc4h53UfXmuMm3vjxMM9ppTVGkkd4EVSzzF",
         "entryTime": "2026-04-17T23:08:56.882Z"
+      },
+      {
+        "symbol": "ASSTEROID",
+        "pairAddress": "7d1RPXhD6Ryvkt2aAwDXmw6xD1MDxbbm5YkkhHZ8dLsd",
+        "entryTime": "2026-04-18T03:07:29.870Z"
       }
     ],
     "wins": 0,
@@ -1313,8 +1318,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:42:08.359Z",
-    "lastSeen": "2026-04-17T23:08:56.882Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T03:07:29.870Z",
+    "confirmed": true
   },
   "GM9mqi5EKFeF4ToX7WiCdPW8R1WzJiBvScgyhJU69VZT": {
     "appearances": 1,
@@ -13591,6 +13596,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T03:04:57.562Z",
     "lastSeen": "2026-04-18T03:04:57.562Z",
+    "confirmed": false
+  },
+  "BfijUEZBsVTcbRSEa3U1wtLLr2cvTWrDJh4kJqr65CNH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASSTEROID",
+        "pairAddress": "7d1RPXhD6Ryvkt2aAwDXmw6xD1MDxbbm5YkkhHZ8dLsd",
+        "entryTime": "2026-04-18T03:07:29.870Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T03:07:29.870Z",
+    "lastSeen": "2026-04-18T03:07:29.870Z",
     "confirmed": false
   }
 }
