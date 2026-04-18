@@ -24243,5 +24243,22 @@
     "firstSeen": "2026-04-18T15:20:09.706Z",
     "lastSeen": "2026-04-18T15:20:09.706Z",
     "confirmed": false
+  },
+  "EKMyLLujPDEQLLc7Xvx7ojc5rr5nFQPkvpoYK7bENH2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GM",
+        "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
+        "entryTime": "2026-04-18T15:20:49.044Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T15:20:49.044Z",
+    "lastSeen": "2026-04-18T15:20:49.044Z",
+    "confirmed": false
   }
 }
