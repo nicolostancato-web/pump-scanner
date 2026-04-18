@@ -158,12 +158,17 @@
     "confirmed": false
   },
   "DrnuP46qcf7b7utTY9Esm46SwkTFhYu4TrtRGTyvkE67": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Flōki",
         "pairAddress": "GnEX7gSoEuVBe8eb3TSE9RNsYvraXe5iYzDqdLNmxE6D",
         "entryTime": "2026-04-17T18:11:12.217Z"
+      },
+      {
+        "symbol": "ASSTEROID",
+        "pairAddress": "7d1RPXhD6Ryvkt2aAwDXmw6xD1MDxbbm5YkkhHZ8dLsd",
+        "entryTime": "2026-04-18T03:02:55.989Z"
       }
     ],
     "wins": 0,
@@ -171,7 +176,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:11:12.217Z",
-    "lastSeen": "2026-04-17T18:11:12.217Z",
+    "lastSeen": "2026-04-18T03:02:55.989Z",
     "confirmed": false
   },
   "64WggRbJisnEUKBuy3nVjiK7ttiKzRNN73RQavEsfBCy": {
@@ -13479,6 +13484,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T03:00:18.817Z",
     "lastSeen": "2026-04-18T03:00:18.817Z",
+    "confirmed": false
+  },
+  "AutXwWXYo1AEzfGA27uXYfsJqfPyF86TGHmmr4Y8WLnA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASSTEROID",
+        "pairAddress": "7d1RPXhD6Ryvkt2aAwDXmw6xD1MDxbbm5YkkhHZ8dLsd",
+        "entryTime": "2026-04-18T03:02:55.989Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T03:02:55.989Z",
+    "lastSeen": "2026-04-18T03:02:55.989Z",
     "confirmed": false
   }
 }
