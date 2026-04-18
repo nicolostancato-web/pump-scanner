@@ -22922,5 +22922,39 @@
     "firstSeen": "2026-04-18T14:01:07.959Z",
     "lastSeen": "2026-04-18T14:01:07.959Z",
     "confirmed": false
+  },
+  "2dAHGmJ1LqMZjXHU5Gf6uL2NKk7QfjFmnVnhvMTAUZAX": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CALL",
+        "pairAddress": "G3ptL8BZjStta991rPe1P3LhqAvE8HAu6tha8MJcwJ6x",
+        "entryTime": "2026-04-18T14:01:40.867Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T14:01:40.867Z",
+    "lastSeen": "2026-04-18T14:01:40.867Z",
+    "confirmed": false
+  },
+  "2q7QZApkE8148gSxvXTXPeWHFtRGXvwbeCP1sWeuRdP4": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CALL",
+        "pairAddress": "G3ptL8BZjStta991rPe1P3LhqAvE8HAu6tha8MJcwJ6x",
+        "entryTime": "2026-04-18T14:01:40.867Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T14:01:40.867Z",
+    "lastSeen": "2026-04-18T14:01:40.867Z",
+    "confirmed": false
   }
 }
