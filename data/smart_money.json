@@ -316,7 +316,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 12,
+    "appearances": 13,
     "tokens": [
       {
         "symbol": "DINO",
@@ -377,6 +377,11 @@
         "symbol": "Iwazаru",
         "pairAddress": "BeYyM8hCtZTv5nx3ybmHtrwH5vT8ZyN2DqnFk3uRDops",
         "entryTime": "2026-04-18T11:53:11.902Z"
+      },
+      {
+        "symbol": "Airdrop",
+        "pairAddress": "HshScA4xBRN6Uvp4hseea6pKYPSK9b1oL3Tryxzsoxip",
+        "entryTime": "2026-04-18T12:41:03.779Z"
       }
     ],
     "wins": 0,
@@ -384,7 +389,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-18T11:53:11.902Z",
+    "lastSeen": "2026-04-18T12:41:03.779Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
@@ -20975,12 +20980,17 @@
     "confirmed": false
   },
   "GPNasA5C5BE64Vquf5Rk2qZ86T8jTp8gQM3uJPFHPadD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Nietzsche",
         "pairAddress": "4hqDFxC6t8tNzE8n8st5JZ9tVghQsgLDFAkqEc9mnQmU",
         "entryTime": "2026-04-18T12:02:39.453Z"
+      },
+      {
+        "symbol": "Airdrop",
+        "pairAddress": "HshScA4xBRN6Uvp4hseea6pKYPSK9b1oL3Tryxzsoxip",
+        "entryTime": "2026-04-18T12:41:03.779Z"
       }
     ],
     "wins": 0,
@@ -20988,7 +20998,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T12:02:39.453Z",
-    "lastSeen": "2026-04-18T12:02:39.453Z",
+    "lastSeen": "2026-04-18T12:41:03.779Z",
     "confirmed": false
   },
   "B3JUJAW2bXX6WK1S1BL3GJ2zZAtnt2rTfvgf2nc4ebNm": {
