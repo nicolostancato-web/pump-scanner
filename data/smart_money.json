@@ -10691,7 +10691,7 @@
     "confirmed": false
   },
   "GLXTWMeC4yMSpYNvBu2YbzhwmnV1SX1S5YMPvp5uuYAM": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "DICKER",
@@ -10702,6 +10702,11 @@
         "symbol": "PONZE",
         "pairAddress": "H8Y8reeoABHc9rQnF5cyX6wmfcr2DtxQnpiC6JZsRGnE",
         "entryTime": "2026-04-18T03:42:38.235Z"
+      },
+      {
+        "symbol": "THINKING",
+        "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
+        "entryTime": "2026-04-18T05:31:33.281Z"
       }
     ],
     "wins": 0,
@@ -10709,8 +10714,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T01:47:51.638Z",
-    "lastSeen": "2026-04-18T03:42:38.235Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T05:31:33.281Z",
+    "confirmed": true
   },
   "2QzvAKv22pMwxtkCggAF6WArGU7ZvPvgsSVeHgRHCz22": {
     "appearances": 1,
@@ -15733,6 +15738,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:28:44.624Z",
     "lastSeen": "2026-04-18T05:28:44.624Z",
+    "confirmed": false
+  },
+  "8AFfM3BqzCQZ2yx29vt4R7n3xG2YEV9d936iqF366Xa2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "THINKING",
+        "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
+        "entryTime": "2026-04-18T05:31:33.281Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T05:31:33.281Z",
+    "lastSeen": "2026-04-18T05:31:33.281Z",
     "confirmed": false
   }
 }
