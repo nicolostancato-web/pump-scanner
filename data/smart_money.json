@@ -8286,12 +8286,17 @@
     "confirmed": false
   },
   "3TVXXNBKSaSXhQBYTzxp88LnNG1ZoNdGHWcCM7xjVSat": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Popdog",
         "pairAddress": "8dZTpasCwuN16WbzDgCSQtykA8adUrmwrmGE16XpUSUb",
         "entryTime": "2026-04-17T23:42:21.467Z"
+      },
+      {
+        "symbol": "Nietzsche",
+        "pairAddress": "4hqDFxC6t8tNzE8n8st5JZ9tVghQsgLDFAkqEc9mnQmU",
+        "entryTime": "2026-04-18T11:54:46.722Z"
       }
     ],
     "wins": 0,
@@ -8299,7 +8304,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:42:21.467Z",
-    "lastSeen": "2026-04-17T23:42:21.467Z",
+    "lastSeen": "2026-04-18T11:54:46.722Z",
     "confirmed": false
   },
   "9cxUqDbkHDHHGqzCBycJQ1EfTp1cSxdeV14APStAMaJZ": {
@@ -20791,6 +20796,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T11:54:16.011Z",
     "lastSeen": "2026-04-18T11:54:16.011Z",
+    "confirmed": false
+  },
+  "CoHRNehxDgWeoeUkZTaW2jBPVF8GHRY9X97yHndbMkpT": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Nietzsche",
+        "pairAddress": "4hqDFxC6t8tNzE8n8st5JZ9tVghQsgLDFAkqEc9mnQmU",
+        "entryTime": "2026-04-18T11:54:46.722Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T11:54:46.722Z",
+    "lastSeen": "2026-04-18T11:54:46.722Z",
     "confirmed": false
   }
 }
