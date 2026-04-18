@@ -85,12 +85,17 @@
     "confirmed": false
   },
   "F1AMKRPq84Ce7yzKBzNNg9UoMLz9Z5osVVzq6uq8Fohh": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Flōki",
         "pairAddress": "GnEX7gSoEuVBe8eb3TSE9RNsYvraXe5iYzDqdLNmxE6D",
         "entryTime": "2026-04-17T18:10:11.013Z"
+      },
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "8sv3CPognVVfib5G16gn2E99wH2PN4KVT6bKo1RrXsHc",
+        "entryTime": "2026-04-18T01:32:32.464Z"
       }
     ],
     "wins": 0,
@@ -98,7 +103,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:10:11.013Z",
-    "lastSeen": "2026-04-17T18:10:11.013Z",
+    "lastSeen": "2026-04-18T01:32:32.464Z",
     "confirmed": false
   },
   "Gd7wHVzVp9yWQ84JmgG9Hm7N8F1p4z6aFvWQLpd2wjvB": {
