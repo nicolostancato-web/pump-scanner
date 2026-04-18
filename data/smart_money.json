@@ -5199,7 +5199,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ENEMIES",
@@ -5210,6 +5210,11 @@
         "symbol": "Picante",
         "pairAddress": "6oPgzs1KmZptuQqM9U1gywpo2yLXt7DP8CCz71T8taon",
         "entryTime": "2026-04-18T08:40:10.152Z"
+      },
+      {
+        "symbol": "Iwazаru",
+        "pairAddress": "BeYyM8hCtZTv5nx3ybmHtrwH5vT8ZyN2DqnFk3uRDops",
+        "entryTime": "2026-04-18T11:58:59.769Z"
       }
     ],
     "wins": 0,
@@ -5217,8 +5222,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:48:47.326Z",
-    "lastSeen": "2026-04-18T08:40:10.152Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T11:58:59.769Z",
+    "confirmed": true
   },
   "38iyBM2PCnzd7A8LjhjgeH9GEUvgKGcdQqxz46NNkD27": {
     "appearances": 1,
