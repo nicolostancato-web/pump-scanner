@@ -11913,12 +11913,17 @@
     "confirmed": false
   },
   "7UcP56BNfy5Pu8rz7qbz4i8mgBkXKqKP44pMQPL18SrR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "777",
         "pairAddress": "ANpN7LjntgjxvQRbEFZAbhqXs2pj5v2ifCLfzCkcAVjY",
         "entryTime": "2026-04-18T02:15:47.171Z"
+      },
+      {
+        "symbol": "ASSTEROID",
+        "pairAddress": "7d1RPXhD6Ryvkt2aAwDXmw6xD1MDxbbm5YkkhHZ8dLsd",
+        "entryTime": "2026-04-18T02:51:48.916Z"
       }
     ],
     "wins": 0,
@@ -11926,7 +11931,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T02:15:47.171Z",
-    "lastSeen": "2026-04-18T02:15:47.171Z",
+    "lastSeen": "2026-04-18T02:51:48.916Z",
     "confirmed": false
   },
   "GPcR5kJMFGZ2tLXJxsE5WWF1zueNZhXhBhaebQbg1Bei": {
