@@ -27049,5 +27049,22 @@
     "firstSeen": "2026-04-18T17:58:45.783Z",
     "lastSeen": "2026-04-18T17:58:45.783Z",
     "confirmed": false
+  },
+  "5CPnfVBzfYXP98E4gM9PmSNbgBDJYfPdcT2ruDnAJCRy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WSM",
+        "pairAddress": "AyKA4oxCpdrz5WXP11dpLQY973XWeF9r6nxM21hFy4B8",
+        "entryTime": "2026-04-18T17:59:18.145Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T17:59:18.145Z",
+    "lastSeen": "2026-04-18T17:59:18.145Z",
+    "confirmed": false
   }
 }
