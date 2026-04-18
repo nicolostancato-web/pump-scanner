@@ -17594,12 +17594,17 @@
     "confirmed": false
   },
   "Hcx51PcYmXXTGctreVfBnNeHKMCVWzP2CyYac1UmMWjA": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOLANALIFE",
         "pairAddress": "7JC8hTFgPZASiRpsqkz8pShxwiZXt3t4kTCnjMbFfvFb",
         "entryTime": "2026-04-18T06:59:53.447Z"
+      },
+      {
+        "symbol": "PUMP",
+        "pairAddress": "EL6Czfd4Dovs6pe3xaBCyW3F479ymGTj99XYiiqdZCrX",
+        "entryTime": "2026-04-18T17:36:22.672Z"
       }
     ],
     "wins": 0,
@@ -17607,7 +17612,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T06:59:53.447Z",
-    "lastSeen": "2026-04-18T06:59:53.447Z",
+    "lastSeen": "2026-04-18T17:36:22.672Z",
     "confirmed": false
   },
   "3LYtEmYerFPeXgu1c9Y4553oMk2qVdcxiwWzDjzMkwPx": {
@@ -26542,6 +26547,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T17:35:43.363Z",
     "lastSeen": "2026-04-18T17:35:43.363Z",
+    "confirmed": false
+  },
+  "55pDJX2q9avts4rJDCDrry6TFK4CQp2JHYGxPe7tsJPj": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PUMP",
+        "pairAddress": "EL6Czfd4Dovs6pe3xaBCyW3F479ymGTj99XYiiqdZCrX",
+        "entryTime": "2026-04-18T17:36:22.672Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T17:36:22.672Z",
+    "lastSeen": "2026-04-18T17:36:22.672Z",
     "confirmed": false
   }
 }
