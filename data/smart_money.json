@@ -8884,7 +8884,7 @@
     "confirmed": false
   },
   "EmfcSeyFt2jHstsYWit6ATQBYDP2Q5qqY5hwv44ZBdTi": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ASTRALYX",
@@ -8895,6 +8895,11 @@
         "symbol": "PONZE",
         "pairAddress": "H8Y8reeoABHc9rQnF5cyX6wmfcr2DtxQnpiC6JZsRGnE",
         "entryTime": "2026-04-18T03:42:38.235Z"
+      },
+      {
+        "symbol": "THINKING",
+        "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
+        "entryTime": "2026-04-18T05:43:47.273Z"
       }
     ],
     "wins": 0,
@@ -8902,8 +8907,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T00:20:21.084Z",
-    "lastSeen": "2026-04-18T03:42:38.235Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T05:43:47.273Z",
+    "confirmed": true
   },
   "BnzR3585JFQPvneUgn3nnK2cMsHjYAbEzm5fSAj6N3BS": {
     "appearances": 1,
@@ -16018,6 +16023,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T05:43:17.384Z",
     "lastSeen": "2026-04-18T05:43:17.384Z",
+    "confirmed": false
+  },
+  "4KuQvk8ihrgDa4CSYmXCcGumdnCK1LYSYH5Co2NTwSva": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "THINKING",
+        "pairAddress": "9aip67mW5oQTaJSL9Ev2sZ9uCpoYAqFyaSEDv9JCZCz1",
+        "entryTime": "2026-04-18T05:43:47.273Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T05:43:47.273Z",
+    "lastSeen": "2026-04-18T05:43:47.273Z",
     "confirmed": false
   }
 }
