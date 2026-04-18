@@ -458,7 +458,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "DINO",
@@ -509,6 +509,11 @@
         "symbol": "SOLANALIFE",
         "pairAddress": "7JC8hTFgPZASiRpsqkz8pShxwiZXt3t4kTCnjMbFfvFb",
         "entryTime": "2026-04-18T06:50:39.275Z"
+      },
+      {
+        "symbol": "DA",
+        "pairAddress": "5pQPWGc8N6hLiSr7d9LPuggK8Vd9UKd9EnJPwyoySwLm",
+        "entryTime": "2026-04-18T07:01:53.442Z"
       }
     ],
     "wins": 0,
@@ -516,7 +521,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:23:59.505Z",
-    "lastSeen": "2026-04-18T06:50:39.275Z",
+    "lastSeen": "2026-04-18T07:01:53.442Z",
     "confirmed": true
   },
   "FpPguUPCC4if8YnJe481WnVN4j7oQkbJ248UzunrKS6C": {
@@ -17246,6 +17251,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T07:01:06.818Z",
     "lastSeen": "2026-04-18T07:01:06.818Z",
+    "confirmed": false
+  },
+  "6zs2niBgEdz83PyHj3CTx6uEzxgZ51TSJdPsGA55DRxk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DA",
+        "pairAddress": "5pQPWGc8N6hLiSr7d9LPuggK8Vd9UKd9EnJPwyoySwLm",
+        "entryTime": "2026-04-18T07:01:53.442Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T07:01:53.442Z",
+    "lastSeen": "2026-04-18T07:01:53.442Z",
     "confirmed": false
   }
 }
