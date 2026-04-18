@@ -2150,7 +2150,81 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "9djLwbgWmhGXam4bLxEoX3AcRKybpkyUsiGk32zhMpWt",
+      "mint": "Hb2RkLca9Nq1QJpxfdQKT7qW7jyAW4BF7qz6xaSaonAo",
+      "name": "Asteroid",
+      "symbol": "Asteroid",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001479,
+      "entryMcap": 147931,
+      "entryTime": 1776547659511,
+      "score": 70,
+      "ageAtEntry": 52,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/9djlwbgwmhgxam4blxeox3acrkybpkyusigk32zhmpwt",
+      "peakPrice": 0.0001479,
+      "peakMultiplier": 1,
+      "peakMcap": 147931,
+      "peakTime": 1776547659511,
+      "lastPrice": 0.00009735,
+      "lowestPrice": 0.00009735,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00009735,
+      "closeMultiplier": 0.6582150101419878,
+      "closedAt": "2026-04-18T21:30:38.553Z",
+      "durationMs": 179042,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00009735,
+        "closeMultiplier": 0.6582150101419878,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-18T21:30:38.553Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 3.3461538461538463,
+        "floatRotation": 0.3903848415815481,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.3903848415815481,
+        "accel": 3.3461538461538463,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(52min)"
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-18T00:31:26.426Z"
+  "lastSaved": "2026-04-18T21:30:39.781Z"
 }
