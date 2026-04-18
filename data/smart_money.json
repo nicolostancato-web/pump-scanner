@@ -5341,12 +5341,17 @@
     "confirmed": false
   },
   "3PawkvKjazEkiDww94USD5aZdfbfdnPPa6qhJCyXc1xE": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ENEMIES",
         "pairAddress": "EyUFEWH1htjXKsWd6F9LUB3T6SmgHW4JBJWExuh6sNDf",
         "entryTime": "2026-04-17T21:45:47.133Z"
+      },
+      {
+        "symbol": "ASSTROID",
+        "pairAddress": "88D9N63mqEYwX13PqZttFkpWD2SXVfQe3vxjjMDZ7f5P",
+        "entryTime": "2026-04-18T19:53:24.150Z"
       }
     ],
     "wins": 0,
@@ -5354,7 +5359,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:45:47.133Z",
-    "lastSeen": "2026-04-17T21:45:47.133Z",
+    "lastSeen": "2026-04-18T19:53:24.150Z",
     "confirmed": false
   },
   "AVEfmkyr4KnbY6k8oZ733Z1gPcn2bBTgFHJUngEpTH71": {
