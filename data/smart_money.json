@@ -29951,12 +29951,17 @@
     "confirmed": false
   },
   "BZUtaFKvafmdggdkXeihwuqXWrhGK8E9e2BTNPCtU8ap": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Chud",
         "pairAddress": "7fktRknqm8kMemBZcPMJbdhdADstzgmDktbseVvuDVBc",
         "entryTime": "2026-04-18T20:43:11.187Z"
+      },
+      {
+        "symbol": "FACEPALM",
+        "pairAddress": "3MuGNQK7K12gH8MLf6rKGD6TZerdShKNHdxUBn75gePR",
+        "entryTime": "2026-04-18T23:25:45.256Z"
       }
     ],
     "wins": 0,
@@ -29964,7 +29969,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T20:43:11.187Z",
-    "lastSeen": "2026-04-18T20:43:11.187Z",
+    "lastSeen": "2026-04-18T23:25:45.256Z",
     "confirmed": false
   },
   "43RKWAZXSRsPrH4HCYvcCasNyH9D4ML8i5c5k3cX57DQ": {
@@ -31874,6 +31879,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T23:25:13.289Z",
     "lastSeen": "2026-04-18T23:25:13.289Z",
+    "confirmed": false
+  },
+  "ELhjUZ1fQbVtHQvEfs7cSAM7gfoNUYDbymdLNF42wYJS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FACEPALM",
+        "pairAddress": "3MuGNQK7K12gH8MLf6rKGD6TZerdShKNHdxUBn75gePR",
+        "entryTime": "2026-04-18T23:25:45.256Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T23:25:45.256Z",
+    "lastSeen": "2026-04-18T23:25:45.256Z",
     "confirmed": false
   }
 }
