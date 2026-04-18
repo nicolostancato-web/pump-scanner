@@ -306,7 +306,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "DINO",
@@ -317,6 +317,11 @@
         "symbol": "incel",
         "pairAddress": "BnnaNxFoksKWh7DgVnrHaYqMFXTRm6noazFLS72o3Pbs",
         "entryTime": "2026-04-18T01:13:33.007Z"
+      },
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "8sv3CPognVVfib5G16gn2E99wH2PN4KVT6bKo1RrXsHc",
+        "entryTime": "2026-04-18T01:19:06.534Z"
       }
     ],
     "wins": 0,
@@ -324,8 +329,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-18T01:13:33.007Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T01:19:06.534Z",
+    "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
     "appearances": 1,
@@ -9632,6 +9637,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T01:16:33.595Z",
     "lastSeen": "2026-04-18T01:16:33.595Z",
+    "confirmed": false
+  },
+  "EqS3FuQ1EQs4V5tfmAKw4JmBDwvVJRyJu3x9vCy1vvtA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASTEROID",
+        "pairAddress": "8sv3CPognVVfib5G16gn2E99wH2PN4KVT6bKo1RrXsHc",
+        "entryTime": "2026-04-18T01:19:06.534Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T01:19:06.534Z",
+    "lastSeen": "2026-04-18T01:19:06.534Z",
     "confirmed": false
   }
 }
