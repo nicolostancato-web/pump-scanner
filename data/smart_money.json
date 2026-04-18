@@ -13287,12 +13287,17 @@
     "confirmed": false
   },
   "FfdkFSFnNJpPDpWSQ1QaoTK4CLfQ9xftf8TmYih4no8q": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ASSTEROID",
         "pairAddress": "7d1RPXhD6Ryvkt2aAwDXmw6xD1MDxbbm5YkkhHZ8dLsd",
         "entryTime": "2026-04-18T02:52:22.594Z"
+      },
+      {
+        "symbol": "CHILLASTER",
+        "pairAddress": "FF4V55rCsRG6FQ8NDEYJw3U5VkpuZcrLBW9tNuJj1VuL",
+        "entryTime": "2026-04-18T04:08:01.894Z"
       }
     ],
     "wins": 0,
@@ -13300,7 +13305,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T02:52:22.594Z",
-    "lastSeen": "2026-04-18T02:52:22.594Z",
+    "lastSeen": "2026-04-18T04:08:01.894Z",
     "confirmed": false
   },
   "8SkeH2w6pvKLBJQahMEyzVyDaiNeqCB3rXbDWByXEpYE": {
@@ -14576,6 +14581,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T04:05:28.635Z",
     "lastSeen": "2026-04-18T04:05:28.635Z",
+    "confirmed": false
+  },
+  "HfF1s4cbfhhW2XDL8gUki7gSn94kWPgYbQsBRPird78d": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHILLASTER",
+        "pairAddress": "FF4V55rCsRG6FQ8NDEYJw3U5VkpuZcrLBW9tNuJj1VuL",
+        "entryTime": "2026-04-18T04:08:01.894Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T04:08:01.894Z",
+    "lastSeen": "2026-04-18T04:08:01.894Z",
     "confirmed": false
   }
 }
