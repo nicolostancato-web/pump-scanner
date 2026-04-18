@@ -3854,7 +3854,7 @@
     "confirmed": false
   },
   "52oc72vjNbpUhF7jNE1pPAvc17JwBTyxybFp3u7PvetG": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "policunc",
@@ -3865,6 +3865,11 @@
         "symbol": "PONZE",
         "pairAddress": "H8Y8reeoABHc9rQnF5cyX6wmfcr2DtxQnpiC6JZsRGnE",
         "entryTime": "2026-04-18T03:52:06.655Z"
+      },
+      {
+        "symbol": "LOCO",
+        "pairAddress": "7LiuPMuU89f9yfCxUvB1Vqcg6yZJNVQSF2WGt1tehrZ1",
+        "entryTime": "2026-04-18T08:18:15.326Z"
       }
     ],
     "wins": 0,
@@ -3872,8 +3877,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:14:56.631Z",
-    "lastSeen": "2026-04-18T03:52:06.655Z",
-    "confirmed": false
+    "lastSeen": "2026-04-18T08:18:15.326Z",
+    "confirmed": true
   },
   "3FhVYQ7ajmVxUtnqTL5UNQeKHNf3mR6CdRGXg5oCHrDW": {
     "appearances": 1,
@@ -17358,6 +17363,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-18T07:03:41.153Z",
     "lastSeen": "2026-04-18T07:03:41.153Z",
+    "confirmed": false
+  },
+  "H1bckuSXPhg2gB1ZcpRHWwmjFq1RQ4hm5Kfujy74H3TX": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LOCO",
+        "pairAddress": "7LiuPMuU89f9yfCxUvB1Vqcg6yZJNVQSF2WGt1tehrZ1",
+        "entryTime": "2026-04-18T08:18:15.326Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-18T08:18:15.326Z",
+    "lastSeen": "2026-04-18T08:18:15.326Z",
     "confirmed": false
   }
 }
