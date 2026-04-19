@@ -28481,12 +28481,17 @@
     "confirmed": false
   },
   "kEFiAX3jo5NmemysQov342TZ9mGh6yp92GDRjhA8XDf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SNOW",
         "pairAddress": "4PUhwb6qAGV4RPGNcoSnhLuxtTfHncJbM4yRAGHGht54",
         "entryTime": "2026-04-18T18:34:36.007Z"
+      },
+      {
+        "symbol": "uncass",
+        "pairAddress": "DWPFLafAf9hSHvkeVVQgyhyQ2xVZzuxy14tdN26S6EZe",
+        "entryTime": "2026-04-19T05:14:58.714Z"
       }
     ],
     "wins": 0,
@@ -28494,7 +28499,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T18:34:36.007Z",
-    "lastSeen": "2026-04-18T18:34:36.007Z",
+    "lastSeen": "2026-04-19T05:14:58.714Z",
     "confirmed": false
   },
   "B2Fdiyfv4eZAUgaqCLJGcEJioQiDRrSzkdHQexaM7ZZZ": {
