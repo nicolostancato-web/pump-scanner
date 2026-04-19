@@ -22207,12 +22207,17 @@
     "confirmed": false
   },
   "6BUvPDJKtdDR7pdoT9eG7d7dY12xm1WbvUs2PB5CJkka": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Airdrop",
         "pairAddress": "HshScA4xBRN6Uvp4hseea6pKYPSK9b1oL3Tryxzsoxip",
         "entryTime": "2026-04-18T12:41:36.115Z"
+      },
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:19:52.902Z"
       }
     ],
     "wins": 0,
@@ -22220,7 +22225,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T12:41:36.115Z",
-    "lastSeen": "2026-04-18T12:41:36.115Z",
+    "lastSeen": "2026-04-19T00:19:52.902Z",
     "confirmed": false
   },
   "e6qBWcmyLmJSyS6GJ8rH8DCaW5egwgvZuEawpMdADoW": {
@@ -33289,6 +33294,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T00:15:19.571Z",
     "lastSeen": "2026-04-19T00:15:19.571Z",
+    "confirmed": false
+  },
+  "J7Xjni7LLHXMFuPkWcAyPRWaX2L5CHQ2GcYeKA67g4ne": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:19:52.902Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T00:19:52.902Z",
+    "lastSeen": "2026-04-19T00:19:52.902Z",
     "confirmed": false
   }
 }
