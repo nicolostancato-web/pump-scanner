@@ -1058,7 +1058,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1069,6 +1069,11 @@
         "symbol": "ADHD",
         "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
         "entryTime": "2026-04-19T16:37:40.549Z"
+      },
+      {
+        "symbol": "soge",
+        "pairAddress": "BUPr5DrAvbDoCxa5p8HPxSMKnrDHFsERs36zooHq4rb9",
+        "entryTime": "2026-04-19T18:55:26.362Z"
       }
     ],
     "wins": 0,
@@ -1076,8 +1081,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:52:57.318Z",
-    "lastSeen": "2026-04-19T16:37:40.549Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T18:55:26.362Z",
+    "confirmed": true
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
     "appearances": 1,
