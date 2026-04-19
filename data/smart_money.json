@@ -292,12 +292,17 @@
     "confirmed": false
   },
   "CE3Xf85XJjyvFCXKaVfFtgUf9DMMQ144j2MAki4ZX24A": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "DINO",
         "pairAddress": "32gmq7QPLvQAXAa872QaYUxbQQN1RKjzVUwXCdqpZgk9",
         "entryTime": "2026-04-17T18:19:29.989Z"
+      },
+      {
+        "symbol": "peppe",
+        "pairAddress": "4jcmzajMcD5sX8bjtq9NYu3vjwcbWwdcgikATWh2mDdQ",
+        "entryTime": "2026-04-19T00:01:09.095Z"
       }
     ],
     "wins": 0,
@@ -305,7 +310,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:29.989Z",
-    "lastSeen": "2026-04-17T18:19:29.989Z",
+    "lastSeen": "2026-04-19T00:01:09.095Z",
     "confirmed": false
   },
   "5NxsfYTfmiNyZFrpkHtyy2ADqP5XMwGQJd8MwnFQHfCV": {
@@ -7802,7 +7807,7 @@
     "confirmed": false
   },
   "qmC1gusK2b5pYNDp1Aw5nDdZx9WTLVs7KHQoq6AAxFN": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Conviction",
@@ -7818,6 +7823,11 @@
         "symbol": "skals",
         "pairAddress": "GzcJ89VuRHFq9My8yZHwKUpGYH83z5SFLFmKmUnprDvk",
         "entryTime": "2026-04-18T22:01:26.407Z"
+      },
+      {
+        "symbol": "peppe",
+        "pairAddress": "4jcmzajMcD5sX8bjtq9NYu3vjwcbWwdcgikATWh2mDdQ",
+        "entryTime": "2026-04-19T00:01:09.095Z"
       }
     ],
     "wins": 0,
@@ -7825,7 +7835,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:10:00.472Z",
-    "lastSeen": "2026-04-18T22:01:26.407Z",
+    "lastSeen": "2026-04-19T00:01:09.095Z",
     "confirmed": true
   },
   "DiABLotEDhe6xPv5FSTn64N5sVPWViURFJu7BfLgcfq7": {
