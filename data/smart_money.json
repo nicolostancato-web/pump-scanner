@@ -2648,5 +2648,39 @@
     "firstSeen": "2026-04-19T13:29:06.891Z",
     "lastSeen": "2026-04-19T13:29:06.891Z",
     "confirmed": false
+  },
+  "GLdjDMgETbAwUpCXDwPkMv6B5e1K1KWrYthi6wcWhFH8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LIGHTNING",
+        "pairAddress": "FoJvRBwZ8ZN8NKgYobDA85LLp8y6hfnZfTigEcr2UD4T",
+        "entryTime": "2026-04-19T13:31:40.389Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T13:31:40.389Z",
+    "lastSeen": "2026-04-19T13:31:40.389Z",
+    "confirmed": false
+  },
+  "8DRHNnkn7iNJnm4rjQEZ2F6nptBp7XDBkd9bmmo67p5R": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LIGHTNING",
+        "pairAddress": "FoJvRBwZ8ZN8NKgYobDA85LLp8y6hfnZfTigEcr2UD4T",
+        "entryTime": "2026-04-19T13:31:40.389Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T13:31:40.389Z",
+    "lastSeen": "2026-04-19T13:31:40.389Z",
+    "confirmed": false
   }
 }
