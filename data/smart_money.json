@@ -336,7 +336,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 30,
+    "appearances": 31,
     "tokens": [
       {
         "symbol": "DINO",
@@ -487,6 +487,11 @@
         "symbol": "WILLY",
         "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
         "entryTime": "2026-04-19T05:01:02.700Z"
+      },
+      {
+        "symbol": "ETH",
+        "pairAddress": "5YR9R5y1usDgyDorvwv6wxmbV868Ha6Yh283dbDFXyFy",
+        "entryTime": "2026-04-19T05:29:56.875Z"
       }
     ],
     "wins": 0,
@@ -494,7 +499,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-19T05:01:02.700Z",
+    "lastSeen": "2026-04-19T05:29:56.875Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
@@ -35959,12 +35964,17 @@
     "confirmed": false
   },
   "5zyzzSTdYXNb9kKinF3bM2cCTknS8msAfywTgoUBBEAD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Portals",
         "pairAddress": "BYrhNAVuWpk918tiPv8WGYEPxv2kSZvLhHyJxQAZyDUb",
         "entryTime": "2026-04-19T04:37:11.820Z"
+      },
+      {
+        "symbol": "ETH",
+        "pairAddress": "5YR9R5y1usDgyDorvwv6wxmbV868Ha6Yh283dbDFXyFy",
+        "entryTime": "2026-04-19T05:29:56.875Z"
       }
     ],
     "wins": 0,
@@ -35972,7 +35982,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T04:37:11.820Z",
-    "lastSeen": "2026-04-19T04:37:11.820Z",
+    "lastSeen": "2026-04-19T05:29:56.875Z",
     "confirmed": false
   },
   "D993TbYt1uNUJAox4eiaQqQyDRU1kp3kr8TZww7cgyZJ": {
