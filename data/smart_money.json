@@ -36214,12 +36214,17 @@
     "confirmed": false
   },
   "24QZSzbAXp35yKSFtUfTWSzLAmZQV2M6Pr56wwHYoryJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Portals",
         "pairAddress": "BYrhNAVuWpk918tiPv8WGYEPxv2kSZvLhHyJxQAZyDUb",
         "entryTime": "2026-04-19T04:43:54.419Z"
+      },
+      {
+        "symbol": "DUVE",
+        "pairAddress": "DszpWLuLWaGF4ozei6EMsp1JMTwwrLteveNrPXbjRr9u",
+        "entryTime": "2026-04-19T07:19:32.375Z"
       }
     ],
     "wins": 0,
@@ -36227,7 +36232,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T04:43:54.419Z",
-    "lastSeen": "2026-04-19T04:43:54.419Z",
+    "lastSeen": "2026-04-19T07:19:32.375Z",
     "confirmed": false
   },
   "38UqkHzNmhpjwpNp5qrUsCcCqrMYB85cqA9SaTfkgGsK": {
@@ -37972,6 +37977,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T07:17:00.088Z",
     "lastSeen": "2026-04-19T07:17:00.088Z",
+    "confirmed": false
+  },
+  "ByeSdwCs1YGt1YC1nANCz2E8bXWYHthU9ue3bok1je6N": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DUVE",
+        "pairAddress": "DszpWLuLWaGF4ozei6EMsp1JMTwwrLteveNrPXbjRr9u",
+        "entryTime": "2026-04-19T07:19:32.375Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T07:19:32.375Z",
+    "lastSeen": "2026-04-19T07:19:32.375Z",
     "confirmed": false
   }
 }
