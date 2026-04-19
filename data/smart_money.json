@@ -786,7 +786,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Jared",
@@ -812,6 +812,11 @@
         "symbol": "GrampusKun",
         "pairAddress": "5XxneEMsiNYq6guruDy3FVxeG4RBbGN5ucyoxQZ5LoLA",
         "entryTime": "2026-04-19T21:15:22.380Z"
+      },
+      {
+        "symbol": "BONK",
+        "pairAddress": "7zuX5RXceNNeRxyLPBWzp275NEiaL1JXCQQbqwrcofGq",
+        "entryTime": "2026-04-19T22:50:14.206Z"
       }
     ],
     "wins": 0,
@@ -819,7 +824,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:34:16.976Z",
-    "lastSeen": "2026-04-19T21:15:22.380Z",
+    "lastSeen": "2026-04-19T22:50:14.206Z",
     "confirmed": true
   },
   "D5e7wVqvV7AXaENstDoHPs2JTDq1L84VjNVGpryvDHEZ": {
@@ -11843,6 +11848,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T22:49:42.310Z",
     "lastSeen": "2026-04-19T22:49:42.310Z",
+    "confirmed": false
+  },
+  "5RTivt8x2ETKQBYSRnGFJQEtWmHTbu4CJCXdXVWuM5jd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BONK",
+        "pairAddress": "7zuX5RXceNNeRxyLPBWzp275NEiaL1JXCQQbqwrcofGq",
+        "entryTime": "2026-04-19T22:50:14.206Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T22:50:14.206Z",
+    "lastSeen": "2026-04-19T22:50:14.206Z",
     "confirmed": false
   }
 }
