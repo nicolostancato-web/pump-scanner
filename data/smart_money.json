@@ -28434,7 +28434,7 @@
     "confirmed": false
   },
   "STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "SNOW",
@@ -28450,6 +28450,11 @@
         "symbol": "assface",
         "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
         "entryTime": "2026-04-19T00:30:59.867Z"
+      },
+      {
+        "symbol": "MISA",
+        "pairAddress": "J5nkPpvSERezfME6RBywiL22sPmSDWLmdqVm6rmHTy2W",
+        "entryTime": "2026-04-19T08:14:58.091Z"
       }
     ],
     "wins": 0,
@@ -28457,7 +28462,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T18:26:26.545Z",
-    "lastSeen": "2026-04-19T00:30:59.867Z",
+    "lastSeen": "2026-04-19T08:14:58.091Z",
     "confirmed": true
   },
   "5XUHyTD4JgYdbmzTXVyCkSsvWgpyZc9LhAxPaEXfFCdU": {
@@ -36202,12 +36207,17 @@
     "confirmed": false
   },
   "1ywCXtaFtpVRMEB9Cmkr8znMVYe8wx2B1MnK4YovuYh": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Portals",
         "pairAddress": "BYrhNAVuWpk918tiPv8WGYEPxv2kSZvLhHyJxQAZyDUb",
         "entryTime": "2026-04-19T04:38:14.470Z"
+      },
+      {
+        "symbol": "MISA",
+        "pairAddress": "J5nkPpvSERezfME6RBywiL22sPmSDWLmdqVm6rmHTy2W",
+        "entryTime": "2026-04-19T08:14:58.091Z"
       }
     ],
     "wins": 0,
@@ -36215,7 +36225,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T04:38:14.470Z",
-    "lastSeen": "2026-04-19T04:38:14.470Z",
+    "lastSeen": "2026-04-19T08:14:58.091Z",
     "confirmed": false
   },
   "5KP54HGpYiLgyq1oVmzFpxiE1Qk69XM61WxHVPXq7jSZ": {
