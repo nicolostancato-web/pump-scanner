@@ -12701,7 +12701,7 @@
     "confirmed": false
   },
   "5HjP37TgMzrGpZXo7kU8yGzVBzVKDhjWHmXHVPrm44XT": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "777",
@@ -12712,6 +12712,11 @@
         "symbol": "AstroDOGE",
         "pairAddress": "13qLMEVGMzT7RD4BNrCCMhpTYmzoaCPzmmx3xqvSFoiC",
         "entryTime": "2026-04-18T02:42:50.912Z"
+      },
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T05:06:19.634Z"
       }
     ],
     "wins": 0,
@@ -12719,8 +12724,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T02:10:15.563Z",
-    "lastSeen": "2026-04-18T02:42:50.912Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T05:06:19.634Z",
+    "confirmed": true
   },
   "ykfoacz4FUNQSVdbeSZfGGiHBoqw4jRSYEaqDv3XWum": {
     "appearances": 1,
@@ -36572,6 +36577,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T05:05:13.971Z",
     "lastSeen": "2026-04-19T05:05:13.971Z",
+    "confirmed": false
+  },
+  "Hs23QuBsZC3if1tJuTNgR9B8zHUapiyaDt9yz4vpGNTB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T05:06:19.634Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:06:19.634Z",
+    "lastSeen": "2026-04-19T05:06:19.634Z",
     "confirmed": false
   }
 }
