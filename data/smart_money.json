@@ -571,7 +571,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "LP",
@@ -592,6 +592,11 @@
         "symbol": "ADHD",
         "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
         "entryTime": "2026-04-19T16:26:24.052Z"
+      },
+      {
+        "symbol": "FOMO",
+        "pairAddress": "Ge2JVCoqCqDTTjZykPZKkrSW9pUoxNoFkc7uPm1zDHd",
+        "entryTime": "2026-04-19T18:06:53.364Z"
       }
     ],
     "wins": 0,
@@ -599,7 +604,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:23:13.377Z",
-    "lastSeen": "2026-04-19T16:26:24.052Z",
+    "lastSeen": "2026-04-19T18:06:53.364Z",
     "confirmed": true
   },
   "CeyuoArHSdZk6D6Yz9w8kgJcEinpjkZcer6BVs5UYBL5": {
@@ -7890,6 +7895,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:06:10.023Z",
     "lastSeen": "2026-04-19T18:06:10.023Z",
+    "confirmed": false
+  },
+  "44g4tjA8M4uc3PU9FWHkQNDfQmjZ9JABg5JzNKk29Dcu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FOMO",
+        "pairAddress": "Ge2JVCoqCqDTTjZykPZKkrSW9pUoxNoFkc7uPm1zDHd",
+        "entryTime": "2026-04-19T18:06:53.364Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T18:06:53.364Z",
+    "lastSeen": "2026-04-19T18:06:53.364Z",
     "confirmed": false
   }
 }
