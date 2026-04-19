@@ -19,7 +19,7 @@ const MAX_TRADES_CHECK   = 50;
 // ─── PAPER TRADING CONFIG ─────────────────────────────────────────────────────
 const PAPER_STOP_LOSS_PCT  = 0.30;             // chiudi se scende 30% dall'entrata
 const PAPER_MAX_HOLD_MS    = 2 * 60 * 60 * 1000; // chiudi dopo 2 ore massimo
-const CHECK_POSITIONS_MS   = 5 * 60 * 1000;   // controlla posizioni ogni 5 min
+const CHECK_POSITIONS_MS   = 1 * 60 * 1000;   // controlla posizioni ogni 1 min (per TP fisso V6)
 const MILESTONES           = [0.5, 1.0, 1.5, 2.0, 3.0, 5.0]; // +50%, +100%...
 const MIN_POSITIONS_LEARN  = 5;               // posizioni minime per calcolare strategia
 
@@ -406,7 +406,7 @@ function checkSmartMoney(buyers) {
 }
 
 // ─── PAPER TRADING: OPEN POSITION ────────────────────────────────────────────
-function openPosition(pair, score, whaleWallet, buyers, v4Data, v5Data) {
+function openPosition(pair, score, whaleWallet, buyers, v4Data, v5Data, v6Data) {
   const pairAddress = pair.pairAddress;
   const entryPrice  = parseFloat(pair.priceUsd) || 0;
   if (entryPrice === 0) return;
@@ -466,6 +466,8 @@ function openPosition(pair, score, whaleWallet, buyers, v4Data, v5Data) {
     v4: v4Data || { eligible: false, score_v4: null, momentum: null, floatRotation: null, uniqueBuyers: 0, concentration: 1, wouldEnter: false },
     // V5 core logic parallel tracking (no effect on V1/V2/V3)
     v5: v5Data || { hf1_age: null, hf2_mcap: null, hf3_vol: null, sc1_rot: null, sc2_accel: null, floatRot: null, accel: null, wouldPassV5: false, failReason: 'NO_DATA' },
+    // V6 entry + exit tracking (parallel, no effect on V1)
+    v6: v6Data || { wouldEnterV6: false, failReason: 'NO_DATA', priceChg5m: null, vol5m: null, buys5m: null, sells5m: null, tp2x_hit: false, tp1_5x_hit: false },
     // X (Twitter) data — populated async after open
     xFollowers:    null,
     xAgeDays:      null,
@@ -558,6 +560,18 @@ async function checkOpenPositions() {
         }
       }
 
+      // ── V6: tracking TP fisso (parallel, non chiude la posizione V1)
+      if (pos.v6 && pos.v6.wouldEnterV6) {
+        if (!pos.v6.tp2x_hit && multiplier >= 2.0) {
+          pos.v6.tp2x_hit = true;
+          console.log(`  [V6] ✅ TP@2x raggiunto: ${pos.symbol} (${multiplier.toFixed(2)}x)`);
+        }
+        if (!pos.v6.tp1_5x_hit && multiplier >= 1.5) {
+          pos.v6.tp1_5x_hit = true;
+          console.log(`  [V6] ✅ TP@1.5x raggiunto: ${pos.symbol} (${multiplier.toFixed(2)}x)`);
+        }
+      }
+
       // Traccia milestones raggiunte
       for (const m of MILESTONES) {
         const key = m.toString();
@@ -643,7 +657,12 @@ async function sendPositionUpdate(pos, currentMcap, status) {
       'V5 FloatRot':    pos.v5 && pos.v5.floatRot !== null ? pos.v5.floatRot.toFixed(3) : '',
       'V5 Accel':       pos.v5 && pos.v5.accel !== null ? pos.v5.accel.toFixed(2) : '',
       'V5 Fail':        pos.v5 ? pos.v5.failReason : '',
-      'V5 WouldPass':   pos.v5 ? (pos.v5.wouldPassV5 ? 'YES' : 'NO') : ''
+      'V5 WouldPass':   pos.v5 ? (pos.v5.wouldPassV5 ? 'YES' : 'NO') : '',
+      // V6 entry + exit tracking
+      'V6 WouldEnter':  pos.v6 ? (pos.v6.wouldEnterV6 ? 'YES' : 'NO') : '',
+      'V6 Fail':        pos.v6 ? (pos.v6.failReason || '') : '',
+      'V6 TP2x':        pos.v6 ? (pos.v6.tp2x_hit ? 'YES' : 'NO') : '',
+      'V6 TP1.5x':      pos.v6 ? (pos.v6.tp1_5x_hit ? 'YES' : 'NO') : ''
     });
     console.log(`📡 Tracker: ${pos.symbol} → ${status}`);
   } catch (e) { console.log(`⚠️ Tracker failed: ${pos.symbol} ${e.message}`); }
@@ -1156,6 +1175,35 @@ function computeV5(pair) {
 }
 
 
+// ─── V6 ENTRY LOGIC ───────────────────────────────────────────────────────────
+// Parallel tracking — does NOT affect V1 entries
+// 3 criteria: age 11-25min + mcap 30k-150k + real movement
+function computeV6(pair) {
+  const ageMin     = pair.ageMinutes || 0;
+  const mcap       = parseFloat(pair.marketCap) || parseFloat(pair.fdv) || 0;
+  const priceChg5m = parseFloat(pair.priceChange?.m5) || 0;
+  const vol5m      = parseFloat(pair.volume?.m5) || 0;
+  const buys5m     = pair.txns?.m5?.buys || 0;
+  const sells5m    = pair.txns?.m5?.sells || 0;
+
+  // 3 hard criteria — all must pass
+  const c1_age  = ageMin >= 11 && ageMin <= 25;
+  const c2_mcap = mcap >= 30000 && mcap <= 150000;
+  const c3_move = priceChg5m > 5 && vol5m > 1000 && buys5m > sells5m;
+
+  const wouldEnterV6 = c1_age && c2_mcap && c3_move;
+
+  let failReason = 'PASS';
+  if (!c1_age)   failReason = `C1-age(${Math.round(ageMin)}min)`;
+  else if (!c2_mcap) failReason = `C2-mcap($${Math.round(mcap/1000)}k)`;
+  else if (!c3_move) failReason = `C3-move(chg${priceChg5m.toFixed(1)}%,vol$${Math.round(vol5m)},b${buys5m}s${sells5m})`;
+
+  console.log(`  [V6] ${wouldEnterV6 ? '✅ ENTER' : '❌ ' + failReason} | age=${Math.round(ageMin)}min mcap=$${Math.round(mcap/1000)}k chg=${priceChg5m.toFixed(1)}%`);
+
+  return { wouldEnterV6, failReason, priceChg5m, vol5m, buys5m, sells5m, tp2x_hit: false, tp1_5x_hit: false };
+}
+
+
 // ─── SEND ALERT ───────────────────────────────────────────────────────────────
 async function sendAlert(pair, score, reasons, whaleWallet) {
   const socials  = pair.info?.socials || [];
@@ -1305,7 +1353,8 @@ async function scan() {
         const v4DataWhale = computeV4(pair, buyers);
         console.log(`  [V4] elig=${v4DataWhale.eligible} score=${v4DataWhale.score_v4} mom=${v4DataWhale.momentum.toFixed(2)} rot=${v4DataWhale.floatRotation.toFixed(3)} buyers=${v4DataWhale.uniqueBuyers} conc=${Math.round(v4DataWhale.concentration*100)}% would=${v4DataWhale.wouldEnter}`);
         const v5DataWhale = computeV5(pair);
-        openPosition(pair, score, whaleWallet, buyers, v4DataWhale, v5DataWhale);
+        const v6DataWhale = computeV6(pair);
+        openPosition(pair, score, whaleWallet, buyers, v4DataWhale, v5DataWhale, v6DataWhale);
         continue;
       }
 
@@ -1316,7 +1365,8 @@ async function scan() {
         const v4Data = computeV4(pair, buyers);
         console.log(`  [V4] elig=${v4Data.eligible} score=${v4Data.score_v4} mom=${v4Data.momentum.toFixed(2)} rot=${v4Data.floatRotation.toFixed(3)} buyers=${v4Data.uniqueBuyers} conc=${Math.round(v4Data.concentration*100)}% would=${v4Data.wouldEnter}`);
         const v5Data = computeV5(pair);
-        openPosition(pair, score, null, buyers, v4Data, v5Data);
+        const v6Data = computeV6(pair);
+        openPosition(pair, score, null, buyers, v4Data, v5Data, v6Data);
       }
     }
 
