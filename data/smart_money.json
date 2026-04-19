@@ -695,5 +695,22 @@
     "firstSeen": "2026-04-19T10:33:18.652Z",
     "lastSeen": "2026-04-19T10:33:18.652Z",
     "confirmed": false
+  },
+  "9RAufBfjGQjDfrwxeyKmZWPADHSb8HcoqCdrmpqvCr1g": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LP",
+        "pairAddress": "7RMRncxsErueEhQsigprt4SLqvDSZ2kwAa7WJy2MfCdA",
+        "entryTime": "2026-04-19T10:33:49.803Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T10:33:49.803Z",
+    "lastSeen": "2026-04-19T10:33:49.803Z",
+    "confirmed": false
   }
 }
