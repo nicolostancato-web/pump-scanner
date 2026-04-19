@@ -158,7 +158,7 @@
     "confirmed": false
   },
   "DrnuP46qcf7b7utTY9Esm46SwkTFhYu4TrtRGTyvkE67": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Flōki",
@@ -174,6 +174,11 @@
         "symbol": "HODL",
         "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
         "entryTime": "2026-04-18T23:43:06.636Z"
+      },
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "AtFwD5SX6nfytawK2DgC16n4vbZ1zcGaxbQJ47v21MvD",
+        "entryTime": "2026-04-19T02:52:18.953Z"
       }
     ],
     "wins": 0,
@@ -181,7 +186,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:11:12.217Z",
-    "lastSeen": "2026-04-18T23:43:06.636Z",
+    "lastSeen": "2026-04-19T02:52:18.953Z",
     "confirmed": true
   },
   "64WggRbJisnEUKBuy3nVjiK7ttiKzRNN73RQavEsfBCy": {
@@ -34927,6 +34932,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T02:51:43.079Z",
     "lastSeen": "2026-04-19T02:51:43.079Z",
+    "confirmed": false
+  },
+  "FkopzgynFUHREM42ch11KYaZDwiE97f5viiJCE3BoevC": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "AtFwD5SX6nfytawK2DgC16n4vbZ1zcGaxbQJ47v21MvD",
+        "entryTime": "2026-04-19T02:52:18.953Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T02:52:18.953Z",
+    "lastSeen": "2026-04-19T02:52:18.953Z",
     "confirmed": false
   }
 }
