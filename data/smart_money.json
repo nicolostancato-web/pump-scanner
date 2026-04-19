@@ -756,7 +756,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 18,
+    "appearances": 19,
     "tokens": [
       {
         "symbol": "小行星",
@@ -847,6 +847,11 @@
         "symbol": "later",
         "pairAddress": "Ds9xZ5KSQ1ELabVwbdrzo7apNPnb2h8gbHZtpFQQx4yq",
         "entryTime": "2026-04-19T03:02:08.012Z"
+      },
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T04:56:33.604Z"
       }
     ],
     "wins": 0,
@@ -854,7 +859,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-19T03:02:08.012Z",
+    "lastSeen": "2026-04-19T04:56:33.604Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
@@ -26558,12 +26563,17 @@
     "confirmed": false
   },
   "46R731bGVL5ZVDqCkReHBhd1MMbZgC2yo9pr15PHry4W": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "YOSHI",
         "pairAddress": "7Z4HDuVvzXWhuUsnfWzGtbnuzUmCbsTUeSFrC5iut1tC",
         "entryTime": "2026-04-18T16:44:22.937Z"
+      },
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T04:56:33.604Z"
       }
     ],
     "wins": 0,
@@ -26571,7 +26581,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T16:44:22.937Z",
-    "lastSeen": "2026-04-18T16:44:22.937Z",
+    "lastSeen": "2026-04-19T04:56:33.604Z",
     "confirmed": false
   },
   "9m8avK8EgnZFSJww11jVA49VY7C5vW92ALxJr6Ra6QPq": {
