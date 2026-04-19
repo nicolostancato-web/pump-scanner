@@ -8355,12 +8355,17 @@
     "confirmed": false
   },
   "J2JFckr3hj7rK7EXRFfwF9A8Bkt8aLHkfMgyZruEH3Ej": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FOMO",
         "pairAddress": "Ge2JVCoqCqDTTjZykPZKkrSW9pUoxNoFkc7uPm1zDHd",
         "entryTime": "2026-04-19T18:13:42.011Z"
+      },
+      {
+        "symbol": "ETH",
+        "pairAddress": "Ee6gEvRWbn5ebWsRj1Mu3gZSRkZg4pokGED9mt23EU9M",
+        "entryTime": "2026-04-19T22:16:18.374Z"
       }
     ],
     "wins": 0,
@@ -8368,7 +8373,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:13:42.011Z",
-    "lastSeen": "2026-04-19T18:13:42.011Z",
+    "lastSeen": "2026-04-19T22:16:18.374Z",
     "confirmed": false
   },
   "3NJ87UPCtDuGtCJ7Cxkrf8uMqsv4odX8CnP5fJ7QKmej": {
@@ -11102,6 +11107,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T22:15:46.442Z",
     "lastSeen": "2026-04-19T22:15:46.442Z",
+    "confirmed": false
+  },
+  "7NiTQhxfPh3ioa2tPrGUU2SD6onayrSUcPkCb5kW3CG8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETH",
+        "pairAddress": "Ee6gEvRWbn5ebWsRj1Mu3gZSRkZg4pokGED9mt23EU9M",
+        "entryTime": "2026-04-19T22:16:18.374Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T22:16:18.374Z",
+    "lastSeen": "2026-04-19T22:16:18.374Z",
     "confirmed": false
   }
 }
