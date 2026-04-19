@@ -1082,7 +1082,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1103,6 +1103,11 @@
         "symbol": "Lida",
         "pairAddress": "Ce9cGoMbKBDU5PXZDeh77J9hHUYSS7mSk1H2zVaQ6tKa",
         "entryTime": "2026-04-19T17:44:06.400Z"
+      },
+      {
+        "symbol": "JTC",
+        "pairAddress": "4UBciSHpGXVY3BpCh1HWPgmctLHiiQzcY8ZQQA5kEgC5",
+        "entryTime": "2026-04-19T18:40:41.115Z"
       }
     ],
     "wins": 0,
@@ -1110,7 +1115,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:53:32.853Z",
-    "lastSeen": "2026-04-19T17:44:06.400Z",
+    "lastSeen": "2026-04-19T18:40:41.115Z",
     "confirmed": true
   },
   "DWtzV1ScNts9zHJkNA3rkqzN1KvhGFSNMrxYRNN2mCWA": {
@@ -8597,6 +8602,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:39:53.422Z",
     "lastSeen": "2026-04-19T18:39:53.422Z",
+    "confirmed": false
+  },
+  "6w9xxyMcekznbeR7Y9RqdhTd2jPqecNZm5y8QtfJj5cn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "JTC",
+        "pairAddress": "4UBciSHpGXVY3BpCh1HWPgmctLHiiQzcY8ZQQA5kEgC5",
+        "entryTime": "2026-04-19T18:40:41.115Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T18:40:41.115Z",
+    "lastSeen": "2026-04-19T18:40:41.115Z",
     "confirmed": false
   }
 }
