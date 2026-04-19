@@ -796,7 +796,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Jared",
@@ -832,6 +832,11 @@
         "symbol": "vibetrading",
         "pairAddress": "FXQmiNweD5LRZAQUYbKB3wouk9aLxUTAmpwKvN5wLmW6",
         "entryTime": "2026-04-19T23:25:57.683Z"
+      },
+      {
+        "symbol": "home-seq",
+        "pairAddress": "8i1tSN99qFW33nSXBKMRg121j8sQ9owfmGYi5VL2kqYi",
+        "entryTime": "2026-04-19T23:58:36.966Z"
       }
     ],
     "wins": 0,
@@ -839,7 +844,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:34:16.976Z",
-    "lastSeen": "2026-04-19T23:25:57.683Z",
+    "lastSeen": "2026-04-19T23:58:36.966Z",
     "confirmed": true
   },
   "D5e7wVqvV7AXaENstDoHPs2JTDq1L84VjNVGpryvDHEZ": {
