@@ -786,7 +786,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 20,
+    "appearances": 21,
     "tokens": [
       {
         "symbol": "小行星",
@@ -887,6 +887,11 @@
         "symbol": "DUVE",
         "pairAddress": "DszpWLuLWaGF4ozei6EMsp1JMTwwrLteveNrPXbjRr9u",
         "entryTime": "2026-04-19T07:25:10.997Z"
+      },
+      {
+        "symbol": "MAOMAO",
+        "pairAddress": "18UFAHq8GXe9XnXPSmpRPPx28dxKbV3M59okzH4XvT5",
+        "entryTime": "2026-04-19T07:43:59.123Z"
       }
     ],
     "wins": 0,
@@ -894,7 +899,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-19T07:25:10.997Z",
+    "lastSeen": "2026-04-19T07:43:59.123Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
@@ -15019,7 +15024,7 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "AstroDOGE",
@@ -15040,6 +15045,11 @@
         "symbol": "HODL",
         "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
         "entryTime": "2026-04-18T23:39:51.615Z"
+      },
+      {
+        "symbol": "MAOMAO",
+        "pairAddress": "18UFAHq8GXe9XnXPSmpRPPx28dxKbV3M59okzH4XvT5",
+        "entryTime": "2026-04-19T07:43:59.123Z"
       }
     ],
     "wins": 0,
@@ -15047,7 +15057,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T03:29:47.775Z",
-    "lastSeen": "2026-04-18T23:39:51.615Z",
+    "lastSeen": "2026-04-19T07:43:59.123Z",
     "confirmed": true
   },
   "9jBnUP489cLemcGF3sdbNkaZtJYYJhaLzGCQ2g2YMdWF": {
