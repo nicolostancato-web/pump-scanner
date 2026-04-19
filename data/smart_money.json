@@ -896,12 +896,17 @@
     "confirmed": false
   },
   "JEEE2t8xaqcGX5BWsrCzzgXuJVuYv2W9scLrGXTsJbGJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "LP",
         "pairAddress": "7RMRncxsErueEhQsigprt4SLqvDSZ2kwAa7WJy2MfCdA",
         "entryTime": "2026-04-19T10:37:50.443Z"
+      },
+      {
+        "symbol": "BONK",
+        "pairAddress": "7zuX5RXceNNeRxyLPBWzp275NEiaL1JXCQQbqwrcofGq",
+        "entryTime": "2026-04-19T23:00:46.782Z"
       }
     ],
     "wins": 0,
@@ -909,7 +914,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:37:50.443Z",
-    "lastSeen": "2026-04-19T10:37:50.443Z",
+    "lastSeen": "2026-04-19T23:00:46.782Z",
     "confirmed": false
   },
   "934kVUL7Jm65HBrVaTSdSPLNS6LRaZMM3CtUY8xjC1kD": {
@@ -12154,6 +12159,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:00:06.775Z",
     "lastSeen": "2026-04-19T23:00:06.775Z",
+    "confirmed": false
+  },
+  "GWm7AjgH58CcRvbWM5Lb3sia5Tf1cFnbuMFsNQqbtHu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BONK",
+        "pairAddress": "7zuX5RXceNNeRxyLPBWzp275NEiaL1JXCQQbqwrcofGq",
+        "entryTime": "2026-04-19T23:00:46.782Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T23:00:46.782Z",
+    "lastSeen": "2026-04-19T23:00:46.782Z",
     "confirmed": false
   }
 }
