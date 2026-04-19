@@ -566,7 +566,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "LP",
@@ -582,6 +582,11 @@
         "symbol": "cock",
         "pairAddress": "A7Za6NYNrNvrCiu3CxriVy1qonNnjWfyrArtCGTjcDA7",
         "entryTime": "2026-04-19T15:53:55.480Z"
+      },
+      {
+        "symbol": "ADHD",
+        "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
+        "entryTime": "2026-04-19T16:26:24.052Z"
       }
     ],
     "wins": 0,
@@ -589,7 +594,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:23:13.377Z",
-    "lastSeen": "2026-04-19T15:53:55.480Z",
+    "lastSeen": "2026-04-19T16:26:24.052Z",
     "confirmed": true
   },
   "CeyuoArHSdZk6D6Yz9w8kgJcEinpjkZcer6BVs5UYBL5": {
@@ -6475,6 +6480,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:25:49.929Z",
     "lastSeen": "2026-04-19T16:25:49.929Z",
+    "confirmed": false
+  },
+  "7vUNK7CWWHXwKHj7WLuhUXJ5CQqhQF6MD1e7i4pmaHCv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ADHD",
+        "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
+        "entryTime": "2026-04-19T16:26:24.052Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T16:26:24.052Z",
+    "lastSeen": "2026-04-19T16:26:24.052Z",
     "confirmed": false
   }
 }
