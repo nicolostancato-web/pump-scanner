@@ -1851,5 +1851,22 @@
     "firstSeen": "2026-04-19T12:26:25.777Z",
     "lastSeen": "2026-04-19T12:26:25.777Z",
     "confirmed": false
+  },
+  "EkU67Z8QxxfJvdkmX65US5mhJu2mmccjtJdU9FKyQXLX": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UET",
+        "pairAddress": "6eamRENmNV21BxVfdVbP5DuFzfpxLMGbszLpf3HdE7sD",
+        "entryTime": "2026-04-19T12:26:58.212Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T12:26:58.212Z",
+    "lastSeen": "2026-04-19T12:26:58.212Z",
+    "confirmed": false
   }
 }
