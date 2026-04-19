@@ -1112,7 +1112,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1138,6 +1138,11 @@
         "symbol": "JTC",
         "pairAddress": "4UBciSHpGXVY3BpCh1HWPgmctLHiiQzcY8ZQQA5kEgC5",
         "entryTime": "2026-04-19T18:40:41.115Z"
+      },
+      {
+        "symbol": "Neiro",
+        "pairAddress": "AhJ65Ro8dgfEp2Ycqfyg6nZaycxUbxsghBUG2MubS6Tg",
+        "entryTime": "2026-04-19T20:27:41.929Z"
       }
     ],
     "wins": 0,
@@ -1145,7 +1150,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:53:32.853Z",
-    "lastSeen": "2026-04-19T18:40:41.115Z",
+    "lastSeen": "2026-04-19T20:27:41.929Z",
     "confirmed": true
   },
   "DWtzV1ScNts9zHJkNA3rkqzN1KvhGFSNMrxYRNN2mCWA": {
@@ -9755,6 +9760,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T20:27:08.854Z",
     "lastSeen": "2026-04-19T20:27:08.854Z",
+    "confirmed": false
+  },
+  "BpAeqfTNCH5drzPD7VZ7tmk5WGThYJ7XEiJy2tpFbyKy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Neiro",
+        "pairAddress": "AhJ65Ro8dgfEp2Ycqfyg6nZaycxUbxsghBUG2MubS6Tg",
+        "entryTime": "2026-04-19T20:27:41.929Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T20:27:41.929Z",
+    "lastSeen": "2026-04-19T20:27:41.929Z",
     "confirmed": false
   }
 }
