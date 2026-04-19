@@ -9919,12 +9919,17 @@
     "confirmed": false
   },
   "2Wuun8jJKUvEv2LLMaxteAVFBcw9fz8q4dQVnch9zSpy": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Neiro",
         "pairAddress": "AhJ65Ro8dgfEp2Ycqfyg6nZaycxUbxsghBUG2MubS6Tg",
         "entryTime": "2026-04-19T20:29:52.437Z"
+      },
+      {
+        "symbol": "GrampusKun",
+        "pairAddress": "5XxneEMsiNYq6guruDy3FVxeG4RBbGN5ucyoxQZ5LoLA",
+        "entryTime": "2026-04-19T20:57:27.105Z"
       }
     ],
     "wins": 0,
@@ -9932,7 +9937,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T20:29:52.437Z",
-    "lastSeen": "2026-04-19T20:29:52.437Z",
+    "lastSeen": "2026-04-19T20:57:27.105Z",
     "confirmed": false
   },
   "GembAoRtc4dvEafkMKMMDZwqgUDpR3URsVJyRtQpE3fu": {
@@ -10409,6 +10414,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T20:56:53.255Z",
     "lastSeen": "2026-04-19T20:56:53.255Z",
+    "confirmed": false
+  },
+  "DqKPzUMkDUDDzxoi6Tyzxo5d5qqDk5YtDvQ1sV7DFfon": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GrampusKun",
+        "pairAddress": "5XxneEMsiNYq6guruDy3FVxeG4RBbGN5ucyoxQZ5LoLA",
+        "entryTime": "2026-04-19T20:57:27.105Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T20:57:27.105Z",
+    "lastSeen": "2026-04-19T20:57:27.105Z",
     "confirmed": false
   }
 }
