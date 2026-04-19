@@ -20326,12 +20326,17 @@
     "confirmed": false
   },
   "6AGp6zbGNuyZpmzeswv9KCNU15Rf37UQDqDqFAeHmS8d": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PIGEON",
         "pairAddress": "GAWhPE4VGyb3ZxuQxT8UEmu9cUeXcWXJCj3qW8UQGq1h",
         "entryTime": "2026-04-18T10:24:33.453Z"
+      },
+      {
+        "symbol": "ETC",
+        "pairAddress": "75bnirH4Dd3ogmDXHqvG3fcdQ29WT6ECDCaVx7eGNvPK",
+        "entryTime": "2026-04-19T05:50:19.330Z"
       }
     ],
     "wins": 0,
@@ -20339,7 +20344,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T10:24:33.453Z",
-    "lastSeen": "2026-04-18T10:24:33.453Z",
+    "lastSeen": "2026-04-19T05:50:19.330Z",
     "confirmed": false
   },
   "BrZ4rk5Qtu8jZf3dDNJbRPfWDE4cP3GsqVcgZwb8vdh9": {
@@ -37147,6 +37152,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T05:49:48.291Z",
     "lastSeen": "2026-04-19T05:49:48.291Z",
+    "confirmed": false
+  },
+  "7UFnCFzVMJyeoZRRPAQbeWdntdo23AsvEWgBwdpXXJig": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETC",
+        "pairAddress": "75bnirH4Dd3ogmDXHqvG3fcdQ29WT6ECDCaVx7eGNvPK",
+        "entryTime": "2026-04-19T05:50:19.330Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:50:19.330Z",
+    "lastSeen": "2026-04-19T05:50:19.330Z",
     "confirmed": false
   }
 }
