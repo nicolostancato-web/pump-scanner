@@ -4018,12 +4018,17 @@
     "confirmed": false
   },
   "DCTyfD9AQrGpAMQ22HaPsM4BiVQH4LC5abkDhnTds3fz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "policunc",
         "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
         "entryTime": "2026-04-17T20:11:17.129Z"
+      },
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T05:05:46.049Z"
       }
     ],
     "wins": 0,
@@ -4031,7 +4036,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:11:17.129Z",
-    "lastSeen": "2026-04-17T20:11:17.129Z",
+    "lastSeen": "2026-04-19T05:05:46.049Z",
     "confirmed": false
   },
   "7ezXGwoKxGScnqw9Eq3H1cadFTEhFnoEbsmZicAbaNGC": {
