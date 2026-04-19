@@ -1595,7 +1595,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "小行星",
@@ -1641,6 +1641,11 @@
         "symbol": "SOLTARD",
         "pairAddress": "921YZbWD4oNudHqTmFVo8K6caPQnUhdQvsoLiCGhU7Fr",
         "entryTime": "2026-04-19T02:21:43.431Z"
+      },
+      {
+        "symbol": "titsface",
+        "pairAddress": "7CaikUwFY6hxoYFDTepndYAgVuVvLJmW3ostuSoP4x44",
+        "entryTime": "2026-04-19T02:36:10.554Z"
       }
     ],
     "wins": 0,
@@ -1648,7 +1653,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:42:08.359Z",
-    "lastSeen": "2026-04-19T02:21:43.431Z",
+    "lastSeen": "2026-04-19T02:36:10.554Z",
     "confirmed": true
   },
   "GM9mqi5EKFeF4ToX7WiCdPW8R1WzJiBvScgyhJU69VZT": {
