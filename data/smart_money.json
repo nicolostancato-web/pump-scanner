@@ -336,7 +336,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 31,
+    "appearances": 32,
     "tokens": [
       {
         "symbol": "DINO",
@@ -492,6 +492,11 @@
         "symbol": "ETH",
         "pairAddress": "5YR9R5y1usDgyDorvwv6wxmbV868Ha6Yh283dbDFXyFy",
         "entryTime": "2026-04-19T05:29:56.875Z"
+      },
+      {
+        "symbol": "EVERYTHING",
+        "pairAddress": "Bq5zK3gAUpi821fGW9mQQmLghu9WVYLSQqvtJuLJeuzD",
+        "entryTime": "2026-04-19T06:25:09.167Z"
       }
     ],
     "wins": 0,
@@ -499,7 +504,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-19T05:29:56.875Z",
+    "lastSeen": "2026-04-19T06:25:09.167Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
@@ -37264,6 +37269,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T06:24:33.539Z",
     "lastSeen": "2026-04-19T06:24:33.539Z",
+    "confirmed": false
+  },
+  "GXWtmETabXHHW2KEib2swqkXJnRWzLvaE5gY9UZNw4Jp": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "EVERYTHING",
+        "pairAddress": "Bq5zK3gAUpi821fGW9mQQmLghu9WVYLSQqvtJuLJeuzD",
+        "entryTime": "2026-04-19T06:25:09.167Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T06:25:09.167Z",
+    "lastSeen": "2026-04-19T06:25:09.167Z",
     "confirmed": false
   }
 }
