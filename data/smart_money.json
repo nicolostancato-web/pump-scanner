@@ -2590,12 +2590,17 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "LIGHTNING",
         "pairAddress": "FoJvRBwZ8ZN8NKgYobDA85LLp8y6hfnZfTigEcr2UD4T",
         "entryTime": "2026-04-19T13:27:45.309Z"
+      },
+      {
+        "symbol": "ADHD",
+        "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
+        "entryTime": "2026-04-19T16:30:18.806Z"
       }
     ],
     "wins": 0,
@@ -2603,7 +2608,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T13:27:45.309Z",
-    "lastSeen": "2026-04-19T13:27:45.309Z",
+    "lastSeen": "2026-04-19T16:30:18.806Z",
     "confirmed": false
   },
   "2nhfv2PXLc4ujUw8DdWxjQC5iWL1Wj9nB555pLaaFZpd": {
@@ -6541,6 +6546,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:29:32.533Z",
     "lastSeen": "2026-04-19T16:29:32.533Z",
+    "confirmed": false
+  },
+  "5BTh5CfwoY9dHZdKAFB553E2QR44on8zDiAev5aevypW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ADHD",
+        "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
+        "entryTime": "2026-04-19T16:30:18.806Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T16:30:18.806Z",
+    "lastSeen": "2026-04-19T16:30:18.806Z",
     "confirmed": false
   }
 }
