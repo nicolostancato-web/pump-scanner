@@ -7752,7 +7752,7 @@
     "confirmed": true
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SOLDEVMOLT",
@@ -7763,6 +7763,11 @@
         "symbol": "GM",
         "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
         "entryTime": "2026-04-18T15:25:06.732Z"
+      },
+      {
+        "symbol": "assface",
+        "pairAddress": "iZmL7Qw5tJTMqzWVSRb8oWfebPwCxw93tLNGeYzFTgV",
+        "entryTime": "2026-04-19T02:35:35.667Z"
       }
     ],
     "wins": 0,
@@ -7770,8 +7775,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T23:05:21.993Z",
-    "lastSeen": "2026-04-18T15:25:06.732Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T02:35:35.667Z",
+    "confirmed": true
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
     "appearances": 2,
@@ -24821,12 +24826,17 @@
     "confirmed": true
   },
   "FireuLYd4yjJBhXQyBs3Mq6ZpNEjyHPNPG2eqhTP9RHV": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "GM",
         "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
         "entryTime": "2026-04-18T15:14:54.645Z"
+      },
+      {
+        "symbol": "assface",
+        "pairAddress": "iZmL7Qw5tJTMqzWVSRb8oWfebPwCxw93tLNGeYzFTgV",
+        "entryTime": "2026-04-19T02:35:35.667Z"
       }
     ],
     "wins": 0,
@@ -24834,7 +24844,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T15:14:54.645Z",
-    "lastSeen": "2026-04-18T15:14:54.645Z",
+    "lastSeen": "2026-04-19T02:35:35.667Z",
     "confirmed": false
   },
   "EjZs2qajbmCMgQHjr2m4C1Fyo2Gdb7zsHPtpp4K8E1q1": {
