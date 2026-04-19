@@ -2008,7 +2008,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "HUMAN",
@@ -2054,6 +2054,11 @@
         "symbol": "Mãhina",
         "pairAddress": "5dyPsxygiEKNPwbyLk8zErCgY97j8apwBQoCe2CXyxjT",
         "entryTime": "2026-04-18T17:10:30.328Z"
+      },
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:30:19.056Z"
       }
     ],
     "wins": 0,
@@ -2061,7 +2066,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:55:14.990Z",
-    "lastSeen": "2026-04-18T17:10:30.328Z",
+    "lastSeen": "2026-04-19T00:30:19.056Z",
     "confirmed": true
   },
   "82QuQ8mpqKnkvhsXcfRQ4CnLXip6RxXCYrKAxzucZaG1": {
@@ -24749,12 +24754,17 @@
     "confirmed": false
   },
   "H3rUiKEFPnTM6CHCmJqKt4Nd1xeFATK9aUmU4sbD5za7": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "GM",
         "pairAddress": "5uukwMR98FbETAfgbPy61K4uXotvEmQDJxDGiwXjZQrE",
         "entryTime": "2026-04-18T15:10:33.382Z"
+      },
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:30:19.056Z"
       }
     ],
     "wins": 0,
@@ -24762,7 +24772,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T15:10:33.382Z",
-    "lastSeen": "2026-04-18T15:10:33.382Z",
+    "lastSeen": "2026-04-19T00:30:19.056Z",
     "confirmed": false
   },
   "FireuLYd4yjJBhXQyBs3Mq6ZpNEjyHPNPG2eqhTP9RHV": {
