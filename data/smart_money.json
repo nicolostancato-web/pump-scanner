@@ -9633,7 +9633,7 @@
     "confirmed": false
   },
   "2Ju1JhcvpaPDL8r7n7P1hdXM8n8sQGgKsybpUv4S8sEg": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "sonion",
@@ -9644,6 +9644,11 @@
         "symbol": "HODL",
         "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
         "entryTime": "2026-04-18T23:39:51.615Z"
+      },
+      {
+        "symbol": "DICKBUTT",
+        "pairAddress": "DMDq8BP2BarRVtGrprfEAH9bidAEKVmYsjQxQvojgcK3",
+        "entryTime": "2026-04-19T03:53:54.261Z"
       }
     ],
     "wins": 0,
@@ -9651,8 +9656,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T00:20:52.537Z",
-    "lastSeen": "2026-04-18T23:39:51.615Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T03:53:54.261Z",
+    "confirmed": true
   },
   "EAVecPP4id21WrdPLQpqezNdJNbE3rjH6VutyCm24gSH": {
     "appearances": 1,
@@ -35674,6 +35679,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T03:47:21.006Z",
     "lastSeen": "2026-04-19T03:47:21.006Z",
+    "confirmed": false
+  },
+  "4H6Xf6nNX6Xcys6c6ErVx9DSJLVt4mWoFK23oxVrRZJ6": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DICKBUTT",
+        "pairAddress": "DMDq8BP2BarRVtGrprfEAH9bidAEKVmYsjQxQvojgcK3",
+        "entryTime": "2026-04-19T03:53:54.261Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T03:53:54.261Z",
+    "lastSeen": "2026-04-19T03:53:54.261Z",
     "confirmed": false
   }
 }
