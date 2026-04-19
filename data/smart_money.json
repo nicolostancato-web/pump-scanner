@@ -39256,5 +39256,22 @@
     "firstSeen": "2026-04-19T08:18:04.547Z",
     "lastSeen": "2026-04-19T08:18:04.547Z",
     "confirmed": false
+  },
+  "2zLW8wgqEhKHpG9VStWfBefjA5BgV4ogd1i1y1LpfkL1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MISA",
+        "pairAddress": "J5nkPpvSERezfME6RBywiL22sPmSDWLmdqVm6rmHTy2W",
+        "entryTime": "2026-04-19T08:18:37.092Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T08:18:37.092Z",
+    "lastSeen": "2026-04-19T08:18:37.092Z",
+    "confirmed": false
   }
 }
