@@ -5013,7 +5013,7 @@
     "confirmed": false
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "إلمو",
@@ -5039,6 +5039,11 @@
         "symbol": "dad",
         "pairAddress": "DgN6c14bmZN2h3UmD9XSnjqc8nuFHNH9f4hzRdfFPZ62",
         "entryTime": "2026-04-18T18:08:20.622Z"
+      },
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:31:31.326Z"
       }
     ],
     "wins": 0,
@@ -5046,7 +5051,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T21:17:48.276Z",
-    "lastSeen": "2026-04-18T18:08:20.622Z",
+    "lastSeen": "2026-04-19T00:31:31.326Z",
     "confirmed": true
   },
   "CjoUCAgVumQCL95he2wgdS7PpHayxDimBjMT7knwVP3i": {
@@ -33684,6 +33689,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T00:30:59.867Z",
     "lastSeen": "2026-04-19T00:30:59.867Z",
+    "confirmed": false
+  },
+  "6LyBvkUhKfmewyWQTBxhHNveD6acjLg2P9VoND9vKpJ1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:31:31.326Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T00:31:31.326Z",
+    "lastSeen": "2026-04-19T00:31:31.326Z",
     "confirmed": false
   }
 }
