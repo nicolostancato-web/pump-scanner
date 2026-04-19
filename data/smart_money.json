@@ -1061,12 +1061,17 @@
     "confirmed": false
   },
   "ARqJ18xaBLrEJYARaYHxfRKSi1pB7dZjwq1NW6Fiuieb": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Jared",
         "pairAddress": "CKTmFpRsJot85gwubmM28ka2w6uYgwM19Sjwcjz5iD8S",
         "entryTime": "2026-04-19T10:50:29.539Z"
+      },
+      {
+        "symbol": "ETH",
+        "pairAddress": "Ee6gEvRWbn5ebWsRj1Mu3gZSRkZg4pokGED9mt23EU9M",
+        "entryTime": "2026-04-19T22:03:53.704Z"
       }
     ],
     "wins": 0,
@@ -1074,7 +1079,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:50:29.539Z",
-    "lastSeen": "2026-04-19T10:50:29.539Z",
+    "lastSeen": "2026-04-19T22:03:53.704Z",
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
