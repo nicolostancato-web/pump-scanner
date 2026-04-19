@@ -9683,5 +9683,22 @@
     "firstSeen": "2026-04-19T20:22:50.375Z",
     "lastSeen": "2026-04-19T20:22:50.375Z",
     "confirmed": false
+  },
+  "DLXwtY6c7ffMxdQ95mmiztbr6DyMzn7dGhC2P3JwYrQB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOLANA",
+        "pairAddress": "3EBiAS2rou6RFku63stSn8n2XVAHX64YSvz2V6VKLA1t",
+        "entryTime": "2026-04-19T20:23:22.745Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T20:23:22.745Z",
+    "lastSeen": "2026-04-19T20:23:22.745Z",
+    "confirmed": false
   }
 }
