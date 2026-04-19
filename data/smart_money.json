@@ -1042,7 +1042,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1053,6 +1053,11 @@
         "symbol": "Imagine",
         "pairAddress": "GYDsA4TkZ1VZiGGYc7AdpHFcXu7e7mDH9pTTWVjre9zb",
         "entryTime": "2026-04-19T12:55:01.131Z"
+      },
+      {
+        "symbol": "LIGHTNING",
+        "pairAddress": "FoJvRBwZ8ZN8NKgYobDA85LLp8y6hfnZfTigEcr2UD4T",
+        "entryTime": "2026-04-19T13:27:45.309Z"
       }
     ],
     "wins": 0,
@@ -1060,8 +1065,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:53:32.853Z",
-    "lastSeen": "2026-04-19T12:55:01.131Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T13:27:45.309Z",
+    "confirmed": true
   },
   "DWtzV1ScNts9zHJkNA3rkqzN1KvhGFSNMrxYRNN2mCWA": {
     "appearances": 1,
@@ -2557,6 +2562,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T13:25:05.837Z",
     "lastSeen": "2026-04-19T13:25:05.837Z",
+    "confirmed": false
+  },
+  "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LIGHTNING",
+        "pairAddress": "FoJvRBwZ8ZN8NKgYobDA85LLp8y6hfnZfTigEcr2UD4T",
+        "entryTime": "2026-04-19T13:27:45.309Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T13:27:45.309Z",
+    "lastSeen": "2026-04-19T13:27:45.309Z",
     "confirmed": false
   }
 }
