@@ -36836,5 +36836,39 @@
     "firstSeen": "2026-04-19T05:26:01.178Z",
     "lastSeen": "2026-04-19T05:26:01.178Z",
     "confirmed": false
+  },
+  "2faV4mR3iT7twxQqMMJQ4vEmB7M7BRFNHUMQ5ksgGDF2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETH",
+        "pairAddress": "5YR9R5y1usDgyDorvwv6wxmbV868Ha6Yh283dbDFXyFy",
+        "entryTime": "2026-04-19T05:26:32.543Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:26:32.543Z",
+    "lastSeen": "2026-04-19T05:26:32.543Z",
+    "confirmed": false
+  },
+  "6p75c5aeY2xbPfGnM8ukupbyeDVU5Eq3dJLUBVDDCsVg": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETH",
+        "pairAddress": "5YR9R5y1usDgyDorvwv6wxmbV868Ha6Yh283dbDFXyFy",
+        "entryTime": "2026-04-19T05:26:32.543Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:26:32.543Z",
+    "lastSeen": "2026-04-19T05:26:32.543Z",
+    "confirmed": false
   }
 }
