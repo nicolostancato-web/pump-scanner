@@ -6749,12 +6749,17 @@
     "confirmed": false
   },
   "5baEHr9X6tLznWaqtNh1XX9zKdQK9Dwd86dNmowBe32z": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ADHD",
         "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
         "entryTime": "2026-04-19T16:31:55.198Z"
+      },
+      {
+        "symbol": "ETH",
+        "pairAddress": "Ee6gEvRWbn5ebWsRj1Mu3gZSRkZg4pokGED9mt23EU9M",
+        "entryTime": "2026-04-19T21:55:40.034Z"
       }
     ],
     "wins": 0,
@@ -6762,7 +6767,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:31:55.198Z",
-    "lastSeen": "2026-04-19T16:31:55.198Z",
+    "lastSeen": "2026-04-19T21:55:40.034Z",
     "confirmed": false
   },
   "DMw5AWXRX4ez7KSDRYM2X9v4UwEdNbQVLvVJDY5NaMLm": {
