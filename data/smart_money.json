@@ -170,7 +170,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "🟪",
@@ -181,6 +181,11 @@
         "symbol": "cock",
         "pairAddress": "A7Za6NYNrNvrCiu3CxriVy1qonNnjWfyrArtCGTjcDA7",
         "entryTime": "2026-04-19T15:55:31.352Z"
+      },
+      {
+        "symbol": "ADHD",
+        "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
+        "entryTime": "2026-04-19T16:27:00.252Z"
       }
     ],
     "wins": 0,
@@ -188,8 +193,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T08:47:28.962Z",
-    "lastSeen": "2026-04-19T15:55:31.352Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T16:27:00.252Z",
+    "confirmed": true
   },
   "BE8hDRjkcWbnPcUcs3V88HQuJjdTfRXG8zuNSR1HsKq4": {
     "appearances": 1,
@@ -4285,12 +4290,17 @@
     "confirmed": false
   },
   "x4T7hgJqNDBC1cVBeo42hZkQAdSLKwxV8wv9QiDHN2j": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TRUMP",
         "pairAddress": "CV3BVSnmKsgQrnFcxf124KsLm5PzPxVCdbjuUr5538bn",
         "entryTime": "2026-04-19T14:16:09.732Z"
+      },
+      {
+        "symbol": "ADHD",
+        "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
+        "entryTime": "2026-04-19T16:27:00.252Z"
       }
     ],
     "wins": 0,
@@ -4298,7 +4308,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T14:16:09.732Z",
-    "lastSeen": "2026-04-19T14:16:09.732Z",
+    "lastSeen": "2026-04-19T16:27:00.252Z",
     "confirmed": false
   },
   "8qStCrGcLxiwAJPQroZWHZdMg4tBtH8x2MChwYpzhB2n": {
