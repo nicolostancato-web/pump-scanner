@@ -4321,12 +4321,17 @@
     "confirmed": false
   },
   "DLxSxjQVgNruXqsmPQfg1npryjNmvGHa8kkdCPcxxoUq": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TRUMP",
         "pairAddress": "CV3BVSnmKsgQrnFcxf124KsLm5PzPxVCdbjuUr5538bn",
         "entryTime": "2026-04-19T14:17:11.112Z"
+      },
+      {
+        "symbol": "cock",
+        "pairAddress": "A7Za6NYNrNvrCiu3CxriVy1qonNnjWfyrArtCGTjcDA7",
+        "entryTime": "2026-04-19T15:54:57.524Z"
       }
     ],
     "wins": 0,
@@ -4334,7 +4339,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T14:17:11.112Z",
-    "lastSeen": "2026-04-19T14:17:11.112Z",
+    "lastSeen": "2026-04-19T15:54:57.524Z",
     "confirmed": false
   },
   "9FYZ1hQxC5Ekm4Js2aBvHxiM52Gomvc2p6Q3PF5QB3DX": {
@@ -5525,6 +5530,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T15:54:26.467Z",
     "lastSeen": "2026-04-19T15:54:26.467Z",
+    "confirmed": false
+  },
+  "7miLZrdUeVY1L5rPb194RWmV3Epcb95NFw3QFMCxkHjH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "cock",
+        "pairAddress": "A7Za6NYNrNvrCiu3CxriVy1qonNnjWfyrArtCGTjcDA7",
+        "entryTime": "2026-04-19T15:54:57.524Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T15:54:57.524Z",
+    "lastSeen": "2026-04-19T15:54:57.524Z",
     "confirmed": false
   }
 }
