@@ -1590,7 +1590,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "小行星",
@@ -1631,6 +1631,11 @@
         "symbol": "Dicknald",
         "pairAddress": "9pYuyQhYJxLw8CvGSFmziRQQQrZFPwNVPs5T4Py4QPTZ",
         "entryTime": "2026-04-18T15:05:37.613Z"
+      },
+      {
+        "symbol": "SOLTARD",
+        "pairAddress": "921YZbWD4oNudHqTmFVo8K6caPQnUhdQvsoLiCGhU7Fr",
+        "entryTime": "2026-04-19T02:21:43.431Z"
       }
     ],
     "wins": 0,
@@ -1638,7 +1643,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:42:08.359Z",
-    "lastSeen": "2026-04-18T15:05:37.613Z",
+    "lastSeen": "2026-04-19T02:21:43.431Z",
     "confirmed": true
   },
   "GM9mqi5EKFeF4ToX7WiCdPW8R1WzJiBvScgyhJU69VZT": {
@@ -34404,6 +34409,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T02:19:10.950Z",
     "lastSeen": "2026-04-19T02:19:10.950Z",
+    "confirmed": false
+  },
+  "Fr97wqcWxzsKYXezssUP1HZZUbUTwL6YtVdEYtQz2BLy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOLTARD",
+        "pairAddress": "921YZbWD4oNudHqTmFVo8K6caPQnUhdQvsoLiCGhU7Fr",
+        "entryTime": "2026-04-19T02:21:43.431Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T02:21:43.431Z",
+    "lastSeen": "2026-04-19T02:21:43.431Z",
     "confirmed": false
   }
 }
