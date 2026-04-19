@@ -4415,7 +4415,7 @@
     "confirmed": false
   },
   "x4T7hgJqNDBC1cVBeo42hZkQAdSLKwxV8wv9QiDHN2j": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "TRUMP",
@@ -4426,6 +4426,11 @@
         "symbol": "ADHD",
         "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
         "entryTime": "2026-04-19T16:27:00.252Z"
+      },
+      {
+        "symbol": "vibetrading",
+        "pairAddress": "FXQmiNweD5LRZAQUYbKB3wouk9aLxUTAmpwKvN5wLmW6",
+        "entryTime": "2026-04-19T23:27:06.781Z"
       }
     ],
     "wins": 0,
@@ -4433,8 +4438,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T14:16:09.732Z",
-    "lastSeen": "2026-04-19T16:27:00.252Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T23:27:06.781Z",
+    "confirmed": true
   },
   "8qStCrGcLxiwAJPQroZWHZdMg4tBtH8x2MChwYpzhB2n": {
     "appearances": 1,
@@ -13034,6 +13039,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:26:34.544Z",
     "lastSeen": "2026-04-19T23:26:34.544Z",
+    "confirmed": false
+  },
+  "FAsTGaAPJVBBvcKVvTzPZRWZ1EX3QN2v781EVemhW7PK": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "vibetrading",
+        "pairAddress": "FXQmiNweD5LRZAQUYbKB3wouk9aLxUTAmpwKvN5wLmW6",
+        "entryTime": "2026-04-19T23:27:06.781Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T23:27:06.781Z",
+    "lastSeen": "2026-04-19T23:27:06.781Z",
     "confirmed": false
   }
 }
