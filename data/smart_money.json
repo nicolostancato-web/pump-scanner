@@ -1659,12 +1659,17 @@
     "confirmed": false
   },
   "21UbArytCEWLQ59k7jbd7KpudwnQqRgkrFA2YHpLU7th": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "小行星",
         "pairAddress": "CxQZ1F5YvFj1rz8rUjdRhboBrdznJBDKyC5bnazuvaAj",
         "entryTime": "2026-04-17T18:42:42.878Z"
+      },
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:25:46.592Z"
       }
     ],
     "wins": 0,
@@ -1672,7 +1677,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:42:42.878Z",
-    "lastSeen": "2026-04-17T18:42:42.878Z",
+    "lastSeen": "2026-04-19T00:25:46.592Z",
     "confirmed": false
   },
   "BsLisdNdtTVSDGUruesRmqVUdz3hhgnDpBD8KXphQoue": {
@@ -33450,6 +33455,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T00:22:41.538Z",
     "lastSeen": "2026-04-19T00:22:41.538Z",
+    "confirmed": false
+  },
+  "6xRygqxWpX75cM7QZDnpxn9FKpukVkDknf7nFSo8fzxx": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:25:46.592Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T00:25:46.592Z",
+    "lastSeen": "2026-04-19T00:25:46.592Z",
     "confirmed": false
   }
 }
