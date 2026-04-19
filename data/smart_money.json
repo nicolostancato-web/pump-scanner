@@ -786,7 +786,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 21,
+    "appearances": 22,
     "tokens": [
       {
         "symbol": "小行星",
@@ -892,6 +892,11 @@
         "symbol": "MAOMAO",
         "pairAddress": "18UFAHq8GXe9XnXPSmpRPPx28dxKbV3M59okzH4XvT5",
         "entryTime": "2026-04-19T07:43:59.123Z"
+      },
+      {
+        "symbol": "MISA",
+        "pairAddress": "J5nkPpvSERezfME6RBywiL22sPmSDWLmdqVm6rmHTy2W",
+        "entryTime": "2026-04-19T07:59:29.399Z"
       }
     ],
     "wins": 0,
@@ -899,7 +904,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:24:59.429Z",
-    "lastSeen": "2026-04-19T07:43:59.123Z",
+    "lastSeen": "2026-04-19T07:59:29.399Z",
     "confirmed": true
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
@@ -38652,6 +38657,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T07:58:51.269Z",
     "lastSeen": "2026-04-19T07:58:51.269Z",
+    "confirmed": false
+  },
+  "6pqZfkEsL754aGT5nBQgrA2iuhZfXmAHQQ1VzM5ME1Qq": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MISA",
+        "pairAddress": "J5nkPpvSERezfME6RBywiL22sPmSDWLmdqVm6rmHTy2W",
+        "entryTime": "2026-04-19T07:59:29.399Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T07:59:29.399Z",
+    "lastSeen": "2026-04-19T07:59:29.399Z",
     "confirmed": false
   }
 }
