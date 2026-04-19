@@ -7010,12 +7010,17 @@
     "confirmed": false
   },
   "9LFiTup5RpWNLgUcDbF87YFHqT9as43AYG8LG39Yj9p3": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ADHD",
         "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
         "entryTime": "2026-04-19T16:38:25.794Z"
+      },
+      {
+        "symbol": "soge",
+        "pairAddress": "BUPr5DrAvbDoCxa5p8HPxSMKnrDHFsERs36zooHq4rb9",
+        "entryTime": "2026-04-19T19:01:02.411Z"
       }
     ],
     "wins": 0,
@@ -7023,7 +7028,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:38:25.794Z",
-    "lastSeen": "2026-04-19T16:38:25.794Z",
+    "lastSeen": "2026-04-19T19:01:02.411Z",
     "confirmed": false
   },
   "3iTVVWraBYVuoEodJyFFswkG2494WedtpSaQKMbCJGuG": {
@@ -8729,6 +8734,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:58:27.926Z",
     "lastSeen": "2026-04-19T18:58:27.926Z",
+    "confirmed": false
+  },
+  "KiDDXrosQV1PCjpxcCDmMLNgEivxKxVZq29nqMhLEQm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "soge",
+        "pairAddress": "BUPr5DrAvbDoCxa5p8HPxSMKnrDHFsERs36zooHq4rb9",
+        "entryTime": "2026-04-19T19:01:02.411Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T19:01:02.411Z",
+    "lastSeen": "2026-04-19T19:01:02.411Z",
     "confirmed": false
   }
 }
