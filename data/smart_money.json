@@ -6282,12 +6282,17 @@
     "confirmed": false
   },
   "Sinh7wa1MRQcQwFrtSTHhsfx3RpciTDfHA37UEXBhvQ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Pou",
         "pairAddress": "FDyHJiWgKaD8oanvJbk9d5iYhzEchgnWd1TjUn2aba5x",
         "entryTime": "2026-04-19T16:13:09.292Z"
+      },
+      {
+        "symbol": "CULTURE",
+        "pairAddress": "9CqDRirayxPuqzGGQtucPHNm8BpCGjSBqPqK68YRhqvK",
+        "entryTime": "2026-04-19T20:39:31.343Z"
       }
     ],
     "wins": 0,
@@ -6295,7 +6300,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:13:09.292Z",
-    "lastSeen": "2026-04-19T16:13:09.292Z",
+    "lastSeen": "2026-04-19T20:39:31.343Z",
     "confirmed": false
   },
   "5hRmHGdEHc4J4uCEWeosgjJkmDoSfqHSHzGV1f682dFG": {
@@ -10117,6 +10122,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T20:38:58.285Z",
     "lastSeen": "2026-04-19T20:38:58.285Z",
+    "confirmed": false
+  },
+  "9zCr6Xv2HgRwQm7ema9ScAibo1TUUL29TNoUJqtrah26": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CULTURE",
+        "pairAddress": "9CqDRirayxPuqzGGQtucPHNm8BpCGjSBqPqK68YRhqvK",
+        "entryTime": "2026-04-19T20:39:31.343Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T20:39:31.343Z",
+    "lastSeen": "2026-04-19T20:39:31.343Z",
     "confirmed": false
   }
 }
