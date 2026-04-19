@@ -5348,12 +5348,17 @@
     "confirmed": false
   },
   "BFayQcCaER4hjG9MHquVV5g5vvEPRvp33vxNugkJicoT": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "UYU",
         "pairAddress": "E9nU9vhTwxrFy4Xj9bKpR2KeYMxpA6hY9WL1ykmijVsF",
         "entryTime": "2026-04-19T15:42:08.069Z"
+      },
+      {
+        "symbol": "Knight",
+        "pairAddress": "GiQTNi1GKMGFkED7ts3hK8RuMiteLUk7eqG83KydZDqk",
+        "entryTime": "2026-04-19T18:27:46.005Z"
       }
     ],
     "wins": 0,
@@ -5361,7 +5366,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T15:42:08.069Z",
-    "lastSeen": "2026-04-19T15:42:08.069Z",
+    "lastSeen": "2026-04-19T18:27:46.005Z",
     "confirmed": false
   },
   "44Rj5DvAUhmUA1samZDpo6rCx9hvbBhSAQ9rnUiYJWe4": {
@@ -8439,6 +8444,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:27:13.651Z",
     "lastSeen": "2026-04-19T18:27:13.651Z",
+    "confirmed": false
+  },
+  "7XheLGrtS8qYWaWrE7y7ZQTD7ZXRbUi1iubL7JpwoMyF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Knight",
+        "pairAddress": "GiQTNi1GKMGFkED7ts3hK8RuMiteLUk7eqG83KydZDqk",
+        "entryTime": "2026-04-19T18:27:46.005Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T18:27:46.005Z",
+    "lastSeen": "2026-04-19T18:27:46.005Z",
     "confirmed": false
   }
 }
