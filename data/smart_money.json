@@ -7054,7 +7054,7 @@
     "confirmed": false
   },
   "G4Kwmz4W2mCosjKKDz7kQuavVNd8PrpYBtTay27r9wk1": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ADHD",
@@ -7065,6 +7065,11 @@
         "symbol": "soge",
         "pairAddress": "BUPr5DrAvbDoCxa5p8HPxSMKnrDHFsERs36zooHq4rb9",
         "entryTime": "2026-04-19T18:55:57.114Z"
+      },
+      {
+        "symbol": "SOLANA",
+        "pairAddress": "4KUYH47Rn15kiKvuDfMWd7j3KxYztKM5pZu5dCZXUwuz",
+        "entryTime": "2026-04-19T19:51:58.884Z"
       }
     ],
     "wins": 0,
@@ -7072,8 +7077,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:39:18.041Z",
-    "lastSeen": "2026-04-19T18:55:57.114Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T19:51:58.884Z",
+    "confirmed": true
   },
   "3UNWZp8Aph81aHBSShLqV2Tvu5cmAPVyVcEsz6fvSffe": {
     "appearances": 1,
@@ -9368,6 +9373,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T19:49:17.436Z",
     "lastSeen": "2026-04-19T19:49:17.436Z",
+    "confirmed": false
+  },
+  "2snDzysrDpU6A5Rqq8CwXEdXL66dixjuuwNiyKgzYaGy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOLANA",
+        "pairAddress": "4KUYH47Rn15kiKvuDfMWd7j3KxYztKM5pZu5dCZXUwuz",
+        "entryTime": "2026-04-19T19:51:58.884Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T19:51:58.884Z",
+    "lastSeen": "2026-04-19T19:51:58.884Z",
     "confirmed": false
   }
 }
