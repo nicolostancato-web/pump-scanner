@@ -34474,7 +34474,7 @@
     "confirmed": false
   },
   "CqWL3SaBqP6eWz9tNYEWR2pgL2x7GuQweDpwVd2dpQwo": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SOLTARD",
@@ -34485,6 +34485,11 @@
         "symbol": "later",
         "pairAddress": "Ds9xZ5KSQ1ELabVwbdrzo7apNPnb2h8gbHZtpFQQx4yq",
         "entryTime": "2026-04-19T03:04:37.172Z"
+      },
+      {
+        "symbol": "uncass",
+        "pairAddress": "DWPFLafAf9hSHvkeVVQgyhyQ2xVZzuxy14tdN26S6EZe",
+        "entryTime": "2026-04-19T05:12:05.689Z"
       }
     ],
     "wins": 0,
@@ -34492,8 +34497,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T02:16:27.396Z",
-    "lastSeen": "2026-04-19T03:04:37.172Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T05:12:05.689Z",
+    "confirmed": true
   },
   "AZmtUEXaduyrDUkNMWSMa3HqsWJ9DMEqNvcvEDT1qZS5": {
     "appearances": 1,
@@ -36650,6 +36655,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T05:11:28.233Z",
     "lastSeen": "2026-04-19T05:11:28.233Z",
+    "confirmed": false
+  },
+  "J8MEYmCAz8aYhRWqBZbnoK76DFCpttmjanVntawnphLT": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "uncass",
+        "pairAddress": "DWPFLafAf9hSHvkeVVQgyhyQ2xVZzuxy14tdN26S6EZe",
+        "entryTime": "2026-04-19T05:12:05.689Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:12:05.689Z",
+    "lastSeen": "2026-04-19T05:12:05.689Z",
     "confirmed": false
   }
 }
