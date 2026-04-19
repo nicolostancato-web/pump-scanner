@@ -3845,12 +3845,17 @@
     "confirmed": false
   },
   "9EJ1E1XQqzS3tH7x66D6xwucs89FNAomB8kfTyEuoW9T": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "policunc",
         "pairAddress": "8F9xxtr5RcxcPTYh5LZ4K5YquzaA35HFeWjRJrc3KMgL",
         "entryTime": "2026-04-17T20:06:16.836Z"
+      },
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T04:54:21.447Z"
       }
     ],
     "wins": 0,
@@ -3858,7 +3863,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T20:06:16.836Z",
-    "lastSeen": "2026-04-17T20:06:16.836Z",
+    "lastSeen": "2026-04-19T04:54:21.447Z",
     "confirmed": false
   },
   "D1YHdfRi8TqFvz483hkePiSMaVVe6aW2cDByjEo8i4Cf": {
@@ -36265,6 +36270,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T04:53:48.700Z",
     "lastSeen": "2026-04-19T04:53:48.700Z",
+    "confirmed": false
+  },
+  "EAbB2FyPN3wFm53kGCZQcLp7vWQ12sMSNGUD2XbmQ9ks": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T04:54:21.447Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T04:54:21.447Z",
+    "lastSeen": "2026-04-19T04:54:21.447Z",
     "confirmed": false
   }
 }
