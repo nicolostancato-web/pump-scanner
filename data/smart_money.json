@@ -33127,12 +33127,17 @@
     "confirmed": false
   },
   "B1B3xuyPF56PsKwVUZvnWsHKwTXe8hZeuLpeCnB6bG4a": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "peppe",
         "pairAddress": "4jcmzajMcD5sX8bjtq9NYu3vjwcbWwdcgikATWh2mDdQ",
         "entryTime": "2026-04-19T00:10:30.799Z"
+      },
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:21:01.396Z"
       }
     ],
     "wins": 0,
@@ -33140,7 +33145,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T00:10:30.799Z",
-    "lastSeen": "2026-04-19T00:10:30.799Z",
+    "lastSeen": "2026-04-19T00:21:01.396Z",
     "confirmed": false
   },
   "9JMSJjvSiaM3PCdsPffvP7rhyxAffHeXjUne7JfZ2r13": {
