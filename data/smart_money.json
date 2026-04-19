@@ -170,7 +170,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "🟪",
@@ -186,6 +186,11 @@
         "symbol": "ADHD",
         "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
         "entryTime": "2026-04-19T16:27:00.252Z"
+      },
+      {
+        "symbol": "JTC",
+        "pairAddress": "4UBciSHpGXVY3BpCh1HWPgmctLHiiQzcY8ZQQA5kEgC5",
+        "entryTime": "2026-04-19T18:41:49.576Z"
       }
     ],
     "wins": 0,
@@ -193,7 +198,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T08:47:28.962Z",
-    "lastSeen": "2026-04-19T16:27:00.252Z",
+    "lastSeen": "2026-04-19T18:41:49.576Z",
     "confirmed": true
   },
   "BE8hDRjkcWbnPcUcs3V88HQuJjdTfRXG8zuNSR1HsKq4": {
