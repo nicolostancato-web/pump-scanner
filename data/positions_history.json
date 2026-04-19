@@ -2446,7 +2446,81 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
+      "mint": "nHtKdt67T4DHX5FfcXuwAviHEhJM552nrXmHW7xpump",
+      "name": "Millions Coded",
+      "symbol": "ADHD",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001843,
+      "entryMcap": 184354,
+      "entryTime": 1776618050469,
+      "score": 65,
+      "ageAtEntry": 46,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/2ddr1eznzqyltkzomwvosjj86zpqkdmimppjontzrvqs",
+      "peakPrice": 0.0002402,
+      "peakMultiplier": 1.303309820944113,
+      "peakMcap": 240264,
+      "peakTime": 1776619189631,
+      "lastPrice": 0.000125,
+      "lowestPrice": 0.000125,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000125,
+      "closeMultiplier": 0.6782419967444384,
+      "closedAt": "2026-04-19T17:34:49.884Z",
+      "durationMs": 2039415,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000125,
+        "closeMultiplier": 0.6782419967444384,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-19T17:34:49.884Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -23,
+        "momentum": 0.4739130434782609,
+        "floatRotation": 0.20760167937771895,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.20760167937771895,
+        "accel": 0.4739130434782609,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(46min)"
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-19T15:06:56.086Z"
+  "lastSaved": "2026-04-19T17:34:51.163Z"
 }
