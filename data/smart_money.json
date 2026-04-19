@@ -35778,12 +35778,17 @@
     "confirmed": false
   },
   "4ANKJcq8pz7fCreQausATKDJds8PrMDmESy5qKiX6A6u": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BTC",
         "pairAddress": "5qEHP52N97DCmmkfiazeT58cZtFAZKWTE9NHF8GaVbJD",
         "entryTime": "2026-04-19T04:06:59.325Z"
+      },
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T05:00:22.934Z"
       }
     ],
     "wins": 0,
@@ -35791,7 +35796,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T04:06:59.325Z",
-    "lastSeen": "2026-04-19T04:06:59.325Z",
+    "lastSeen": "2026-04-19T05:00:22.934Z",
     "confirmed": false
   },
   "Esdp1bfbyytK1Z42RykDJq5tXobHrwffgMJ5wB6ZQ8zM": {
@@ -36421,6 +36426,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T04:59:44.885Z",
     "lastSeen": "2026-04-19T04:59:44.885Z",
+    "confirmed": false
+  },
+  "9miCCfUgpjHi2H66A2FxgwNU4EkKmmb3ZpkQC7RyDZFA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T05:00:22.934Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:00:22.934Z",
+    "lastSeen": "2026-04-19T05:00:22.934Z",
     "confirmed": false
   }
 }
