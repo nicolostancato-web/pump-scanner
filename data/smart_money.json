@@ -21472,12 +21472,17 @@
     "confirmed": false
   },
   "HEEf4JUguMz5yvsshQZkMJ8VKm5WRUsYhLwNSCMuoaJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Nietzsche",
         "pairAddress": "4hqDFxC6t8tNzE8n8st5JZ9tVghQsgLDFAkqEc9mnQmU",
         "entryTime": "2026-04-18T11:54:16.011Z"
+      },
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "EoVsaRd6syUwgfM45L2tvkAZJ9Qx1KTPPQXtNcDziV1g",
+        "entryTime": "2026-04-19T01:45:50.186Z"
       }
     ],
     "wins": 0,
@@ -21485,7 +21490,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T11:54:16.011Z",
-    "lastSeen": "2026-04-18T11:54:16.011Z",
+    "lastSeen": "2026-04-19T01:45:50.186Z",
     "confirmed": false
   },
   "CoHRNehxDgWeoeUkZTaW2jBPVF8GHRY9X97yHndbMkpT": {
