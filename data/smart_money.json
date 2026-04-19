@@ -2058,7 +2058,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 12,
+    "appearances": 13,
     "tokens": [
       {
         "symbol": "HUMAN",
@@ -2119,6 +2119,11 @@
         "symbol": "Portals",
         "pairAddress": "BYrhNAVuWpk918tiPv8WGYEPxv2kSZvLhHyJxQAZyDUb",
         "entryTime": "2026-04-19T04:53:14.895Z"
+      },
+      {
+        "symbol": "ETC",
+        "pairAddress": "75bnirH4Dd3ogmDXHqvG3fcdQ29WT6ECDCaVx7eGNvPK",
+        "entryTime": "2026-04-19T05:49:10.411Z"
       }
     ],
     "wins": 0,
@@ -2126,7 +2131,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:55:14.990Z",
-    "lastSeen": "2026-04-19T04:53:14.895Z",
+    "lastSeen": "2026-04-19T05:49:10.411Z",
     "confirmed": true
   },
   "82QuQ8mpqKnkvhsXcfRQ4CnLXip6RxXCYrKAxzucZaG1": {
@@ -37103,6 +37108,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T05:46:05.691Z",
     "lastSeen": "2026-04-19T05:46:05.691Z",
+    "confirmed": false
+  },
+  "6X7Ln5KPurRfNiNroyZxxi7VstEzuhd4jMefNEqAu7uV": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETC",
+        "pairAddress": "75bnirH4Dd3ogmDXHqvG3fcdQ29WT6ECDCaVx7eGNvPK",
+        "entryTime": "2026-04-19T05:49:10.411Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:49:10.411Z",
+    "lastSeen": "2026-04-19T05:49:10.411Z",
     "confirmed": false
   }
 }
