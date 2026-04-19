@@ -7044,12 +7044,17 @@
     "confirmed": false
   },
   "G4Kwmz4W2mCosjKKDz7kQuavVNd8PrpYBtTay27r9wk1": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ADHD",
         "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
         "entryTime": "2026-04-19T16:39:18.041Z"
+      },
+      {
+        "symbol": "soge",
+        "pairAddress": "BUPr5DrAvbDoCxa5p8HPxSMKnrDHFsERs36zooHq4rb9",
+        "entryTime": "2026-04-19T18:55:57.114Z"
       }
     ],
     "wins": 0,
@@ -7057,7 +7062,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:39:18.041Z",
-    "lastSeen": "2026-04-19T16:39:18.041Z",
+    "lastSeen": "2026-04-19T18:55:57.114Z",
     "confirmed": false
   },
   "3UNWZp8Aph81aHBSShLqV2Tvu5cmAPVyVcEsz6fvSffe": {
