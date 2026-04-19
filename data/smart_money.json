@@ -6207,7 +6207,7 @@
     "confirmed": false
   },
   "2hSFbd4stezMW5qL8GZSwfmDdQ1FxZAN8FePuUwRe421": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Aetherion",
@@ -6218,6 +6218,11 @@
         "symbol": "PIGON",
         "pairAddress": "CHWdLWeaSVqRJhQtQDVwX6tqxYP1wTHCquTMtNebrgR3",
         "entryTime": "2026-04-18T16:13:15.377Z"
+      },
+      {
+        "symbol": "titsface",
+        "pairAddress": "7CaikUwFY6hxoYFDTepndYAgVuVvLJmW3ostuSoP4x44",
+        "entryTime": "2026-04-19T02:41:18.118Z"
       }
     ],
     "wins": 0,
@@ -6225,8 +6230,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T22:18:43.148Z",
-    "lastSeen": "2026-04-18T16:13:15.377Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T02:41:18.118Z",
+    "confirmed": true
   },
   "8doQds8C3qyK4ZMP23diCyx5izpUn4K4ySJNRyvq5wxt": {
     "appearances": 2,
@@ -34667,6 +34672,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T02:40:41.768Z",
     "lastSeen": "2026-04-19T02:40:41.768Z",
+    "confirmed": false
+  },
+  "eB6kmJCo7qMiWTie5fBo8Sdq8km1kphcLpvvCQwDfsp": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "titsface",
+        "pairAddress": "7CaikUwFY6hxoYFDTepndYAgVuVvLJmW3ostuSoP4x44",
+        "entryTime": "2026-04-19T02:41:18.118Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T02:41:18.118Z",
+    "lastSeen": "2026-04-19T02:41:18.118Z",
     "confirmed": false
   }
 }
