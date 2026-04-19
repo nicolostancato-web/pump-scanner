@@ -11069,5 +11069,22 @@
     "firstSeen": "2026-04-19T22:14:43.627Z",
     "lastSeen": "2026-04-19T22:14:43.627Z",
     "confirmed": false
+  },
+  "3hEfi6Sk2K8Cpt443NhPtaWkMYt16vFTVsY8uQDP8eEZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETH",
+        "pairAddress": "Ee6gEvRWbn5ebWsRj1Mu3gZSRkZg4pokGED9mt23EU9M",
+        "entryTime": "2026-04-19T22:15:15.852Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T22:15:15.852Z",
+    "lastSeen": "2026-04-19T22:15:15.852Z",
+    "confirmed": false
   }
 }
