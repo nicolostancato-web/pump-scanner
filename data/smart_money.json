@@ -36466,5 +36466,22 @@
     "firstSeen": "2026-04-19T05:01:02.700Z",
     "lastSeen": "2026-04-19T05:01:02.700Z",
     "confirmed": false
+  },
+  "EQ5idGCxXoD2FVy8ZzbivQiDA3ebcSqCzef9Lgi6GVz5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T05:01:33.441Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:01:33.441Z",
+    "lastSeen": "2026-04-19T05:01:33.441Z",
+    "confirmed": false
   }
 }
