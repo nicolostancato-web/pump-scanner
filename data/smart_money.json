@@ -23334,7 +23334,7 @@
     "confirmed": false
   },
   "zWJ5aMqndkXZ2ry3g2SgFQAtu1cmXBLoCyzvBqKvUeq": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "LIFE",
@@ -23355,6 +23355,11 @@
         "symbol": "assface",
         "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
         "entryTime": "2026-04-19T00:34:25.602Z"
+      },
+      {
+        "symbol": "MAOMAO",
+        "pairAddress": "18UFAHq8GXe9XnXPSmpRPPx28dxKbV3M59okzH4XvT5",
+        "entryTime": "2026-04-19T07:39:04.982Z"
       }
     ],
     "wins": 0,
@@ -23362,7 +23367,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T13:28:33.467Z",
-    "lastSeen": "2026-04-19T00:34:25.602Z",
+    "lastSeen": "2026-04-19T07:39:04.982Z",
     "confirmed": true
   },
   "9Uz7VyeBFmEU8sKnCwFsGC8AczjmLqnxZjQG7Vsm79sZ": {
@@ -36555,12 +36560,17 @@
     "confirmed": false
   },
   "CN4AG1iqQeLaZrQB2qsfJaAQgUBHeSXUK6UvC31n77UJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "WILLY",
         "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
         "entryTime": "2026-04-19T04:59:44.885Z"
+      },
+      {
+        "symbol": "MAOMAO",
+        "pairAddress": "18UFAHq8GXe9XnXPSmpRPPx28dxKbV3M59okzH4XvT5",
+        "entryTime": "2026-04-19T07:39:04.982Z"
       }
     ],
     "wins": 0,
@@ -36568,7 +36578,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T04:59:44.885Z",
-    "lastSeen": "2026-04-19T04:59:44.885Z",
+    "lastSeen": "2026-04-19T07:39:04.982Z",
     "confirmed": false
   },
   "5bZDQpww6YjKoKnGzF5ebRjgzsLGJDtj5iV7MXnaEHEW": {
