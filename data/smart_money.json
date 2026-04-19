@@ -336,7 +336,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 29,
+    "appearances": 30,
     "tokens": [
       {
         "symbol": "DINO",
@@ -482,6 +482,11 @@
         "symbol": "titsface",
         "pairAddress": "7CaikUwFY6hxoYFDTepndYAgVuVvLJmW3ostuSoP4x44",
         "entryTime": "2026-04-19T02:31:59.226Z"
+      },
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T05:01:02.700Z"
       }
     ],
     "wins": 0,
@@ -489,7 +494,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:19:59.830Z",
-    "lastSeen": "2026-04-19T02:31:59.226Z",
+    "lastSeen": "2026-04-19T05:01:02.700Z",
     "confirmed": true
   },
   "UUtQuWmHMKZDGgN41EsqT5eTGdXPR5zto7q3jpoZxGn": {
@@ -36443,6 +36448,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T05:00:22.934Z",
     "lastSeen": "2026-04-19T05:00:22.934Z",
+    "confirmed": false
+  },
+  "2SNLnXMjYSihEz3ujLaJzB92AzJTkfRih8RoWWoEQQAM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T05:01:02.700Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:01:02.700Z",
+    "lastSeen": "2026-04-19T05:01:02.700Z",
     "confirmed": false
   }
 }
