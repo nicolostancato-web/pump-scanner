@@ -35754,12 +35754,17 @@
     "confirmed": false
   },
   "65SrkMFoq1vivX95i2WsFN2Sot4KvWHCTSWPzCA1pkhC": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "DICKBUTT",
         "pairAddress": "DMDq8BP2BarRVtGrprfEAH9bidAEKVmYsjQxQvojgcK3",
         "entryTime": "2026-04-19T03:46:09.510Z"
+      },
+      {
+        "symbol": "DUVE",
+        "pairAddress": "DszpWLuLWaGF4ozei6EMsp1JMTwwrLteveNrPXbjRr9u",
+        "entryTime": "2026-04-19T07:12:33.666Z"
       }
     ],
     "wins": 0,
@@ -35767,7 +35772,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T03:46:09.510Z",
-    "lastSeen": "2026-04-19T03:46:09.510Z",
+    "lastSeen": "2026-04-19T07:12:33.666Z",
     "confirmed": false
   },
   "21JyY1iJwQnhT7VDCneiG588yJr1i5P7LX3HmkNDE5kA": {
@@ -37714,6 +37719,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T07:08:03.792Z",
     "lastSeen": "2026-04-19T07:08:03.792Z",
+    "confirmed": false
+  },
+  "DtwxwMFX3VTom9mAjZHwsfNCNDDFcLPtpUDgDZBVz336": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DUVE",
+        "pairAddress": "DszpWLuLWaGF4ozei6EMsp1JMTwwrLteveNrPXbjRr9u",
+        "entryTime": "2026-04-19T07:12:33.666Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T07:12:33.666Z",
+    "lastSeen": "2026-04-19T07:12:33.666Z",
     "confirmed": false
   }
 }
