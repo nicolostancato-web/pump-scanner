@@ -22659,12 +22659,17 @@
     "confirmed": false
   },
   "DeSvhVxbNyjcQQ1oRPK7eGuSMujiNZw1gtZXYu8QFQMa": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PumpLife",
         "pairAddress": "8C7AjhKLWKQi4mAs3o4oikZo7wGxk7PV1NQLyhJnt5RD",
         "entryTime": "2026-04-18T12:57:04.889Z"
+      },
+      {
+        "symbol": "MAOMAO",
+        "pairAddress": "18UFAHq8GXe9XnXPSmpRPPx28dxKbV3M59okzH4XvT5",
+        "entryTime": "2026-04-19T07:42:17.681Z"
       }
     ],
     "wins": 0,
@@ -22672,7 +22677,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T12:57:04.889Z",
-    "lastSeen": "2026-04-18T12:57:04.889Z",
+    "lastSeen": "2026-04-19T07:42:17.681Z",
     "confirmed": false
   },
   "BkyZzoKgd9TtRFSkcmgvkUpTvb82dpxosjNd4uMFBrJJ": {
@@ -38260,6 +38265,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T07:39:38.268Z",
     "lastSeen": "2026-04-19T07:39:38.268Z",
+    "confirmed": false
+  },
+  "99oPaF4p4M1ziqNj4ysCAi48TEy87XKtgZ7nKCErmhp3": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MAOMAO",
+        "pairAddress": "18UFAHq8GXe9XnXPSmpRPPx28dxKbV3M59okzH4XvT5",
+        "entryTime": "2026-04-19T07:42:17.681Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T07:42:17.681Z",
+    "lastSeen": "2026-04-19T07:42:17.681Z",
     "confirmed": false
   }
 }
