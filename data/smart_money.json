@@ -9143,5 +9143,22 @@
     "firstSeen": "2026-04-19T19:34:11.479Z",
     "lastSeen": "2026-04-19T19:34:11.479Z",
     "confirmed": false
+  },
+  "5HtJ6NAzLQr99YRDHkRQiZABkDKBYtfJJpKuwTk3jHvt": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CLUD",
+        "pairAddress": "AzKmfu3t5V9SaNW1MXd8AfcyypKaJjuu6u5yPsq2gbRb",
+        "entryTime": "2026-04-19T19:34:44.668Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T19:34:44.668Z",
+    "lastSeen": "2026-04-19T19:34:44.668Z",
+    "confirmed": false
   }
 }
