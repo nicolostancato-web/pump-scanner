@@ -18948,7 +18948,7 @@
     "confirmed": false
   },
   "HcyQ36FF8XYkz6mVY9MN3XNySMDxZbs6PHg64oiB4SWs": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Picante",
@@ -18964,6 +18964,11 @@
         "symbol": "later",
         "pairAddress": "Ds9xZ5KSQ1ELabVwbdrzo7apNPnb2h8gbHZtpFQQx4yq",
         "entryTime": "2026-04-19T03:05:08.807Z"
+      },
+      {
+        "symbol": "ETH",
+        "pairAddress": "5YR9R5y1usDgyDorvwv6wxmbV868Ha6Yh283dbDFXyFy",
+        "entryTime": "2026-04-19T05:28:53.347Z"
       }
     ],
     "wins": 0,
@@ -18971,7 +18976,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T08:36:50.829Z",
-    "lastSeen": "2026-04-19T03:05:08.807Z",
+    "lastSeen": "2026-04-19T05:28:53.347Z",
     "confirmed": true
   },
   "ERDwSZttEMkCtFaUmRngERzDcHKkWHNsMfxfyYujcyek": {
@@ -36959,6 +36964,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T05:28:14.883Z",
     "lastSeen": "2026-04-19T05:28:14.883Z",
+    "confirmed": false
+  },
+  "6UvxZLG6EgJjjRovExYQ6BzuFi7FrXcxLAxbx3RhoU9T": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETH",
+        "pairAddress": "5YR9R5y1usDgyDorvwv6wxmbV868Ha6Yh283dbDFXyFy",
+        "entryTime": "2026-04-19T05:28:53.347Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:28:53.347Z",
+    "lastSeen": "2026-04-19T05:28:53.347Z",
     "confirmed": false
   }
 }
