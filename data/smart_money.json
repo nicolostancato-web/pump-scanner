@@ -15287,12 +15287,17 @@
     "confirmed": false
   },
   "HZDX7xyAqe8XFNr8KyzFSNutmfW5TFRFp9RKSfzdKz6f": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PONZE",
         "pairAddress": "H8Y8reeoABHc9rQnF5cyX6wmfcr2DtxQnpiC6JZsRGnE",
         "entryTime": "2026-04-18T03:52:06.655Z"
+      },
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:33:10.542Z"
       }
     ],
     "wins": 0,
@@ -15300,7 +15305,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T03:52:06.655Z",
-    "lastSeen": "2026-04-18T03:52:06.655Z",
+    "lastSeen": "2026-04-19T00:33:10.542Z",
     "confirmed": false
   },
   "22tnMdi2u5gv7SQv7vBrTKMCzqQQt2mPWuFmiJhPQooo": {
@@ -33762,6 +33767,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T00:32:36.774Z",
     "lastSeen": "2026-04-19T00:32:36.774Z",
+    "confirmed": false
+  },
+  "7j5WhFvpFZE4ayvqynfX4usdMdsbwn6B6Y1wsd84aPxM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "assface",
+        "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
+        "entryTime": "2026-04-19T00:33:10.542Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T00:33:10.542Z",
+    "lastSeen": "2026-04-19T00:33:10.542Z",
     "confirmed": false
   }
 }
