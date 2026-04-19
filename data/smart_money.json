@@ -4263,5 +4263,22 @@
     "firstSeen": "2026-04-19T14:15:35.486Z",
     "lastSeen": "2026-04-19T14:15:35.486Z",
     "confirmed": false
+  },
+  "x4T7hgJqNDBC1cVBeo42hZkQAdSLKwxV8wv9QiDHN2j": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRUMP",
+        "pairAddress": "CV3BVSnmKsgQrnFcxf124KsLm5PzPxVCdbjuUr5538bn",
+        "entryTime": "2026-04-19T14:16:09.732Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T14:16:09.732Z",
+    "lastSeen": "2026-04-19T14:16:09.732Z",
+    "confirmed": false
   }
 }
