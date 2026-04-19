@@ -2588,12 +2588,17 @@
     "confirmed": false
   },
   "F7WC3EYA6ykPcAuggzn1VdpaK8ikaZkncK3etUP2GrHx": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "LIGHTNING",
         "pairAddress": "FoJvRBwZ8ZN8NKgYobDA85LLp8y6hfnZfTigEcr2UD4T",
         "entryTime": "2026-04-19T13:25:05.837Z"
+      },
+      {
+        "symbol": "Lida",
+        "pairAddress": "Ce9cGoMbKBDU5PXZDeh77J9hHUYSS7mSk1H2zVaQ6tKa",
+        "entryTime": "2026-04-19T18:00:24.565Z"
       }
     ],
     "wins": 0,
@@ -2601,7 +2606,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T13:25:05.837Z",
-    "lastSeen": "2026-04-19T13:25:05.837Z",
+    "lastSeen": "2026-04-19T18:00:24.565Z",
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
@@ -7800,6 +7805,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T17:59:40.276Z",
     "lastSeen": "2026-04-19T17:59:40.276Z",
+    "confirmed": false
+  },
+  "H1f8dpYrbqxfFM62BinQk6C15ZQk8EkFp3pq1iRZZfHW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Lida",
+        "pairAddress": "Ce9cGoMbKBDU5PXZDeh77J9hHUYSS7mSk1H2zVaQ6tKa",
+        "entryTime": "2026-04-19T18:00:24.565Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T18:00:24.565Z",
+    "lastSeen": "2026-04-19T18:00:24.565Z",
     "confirmed": false
   }
 }
