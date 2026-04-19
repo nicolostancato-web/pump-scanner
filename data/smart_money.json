@@ -18871,7 +18871,7 @@
     "confirmed": false
   },
   "HpFAMDBzsWwk5X9wGqnvzu69FdpMXNkf9Uagj6cQV77U": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "LIFE",
@@ -18887,6 +18887,11 @@
         "symbol": "HODL",
         "pairAddress": "6WmqcgmxJc3TbnnHZY8hcjDTtxoJ4Dzsy7wppfmBPKkg",
         "entryTime": "2026-04-18T23:38:08.504Z"
+      },
+      {
+        "symbol": "EVERYTHING",
+        "pairAddress": "Bq5zK3gAUpi821fGW9mQQmLghu9WVYLSQqvtJuLJeuzD",
+        "entryTime": "2026-04-19T06:35:33.779Z"
       }
     ],
     "wins": 0,
@@ -18894,7 +18899,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T08:33:02.702Z",
-    "lastSeen": "2026-04-18T23:38:08.504Z",
+    "lastSeen": "2026-04-19T06:35:33.779Z",
     "confirmed": true
   },
   "5y4UEmiE1KZ4a6m34PTdq1Nd3s9YRyqeNUMC6mPqQWk1": {
@@ -37556,6 +37561,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T06:34:51.164Z",
     "lastSeen": "2026-04-19T06:34:51.164Z",
+    "confirmed": false
+  },
+  "XwQVdtJ98EgS1Aast87f3poYtLQhmYEXUa5uaPh5FAR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "EVERYTHING",
+        "pairAddress": "Bq5zK3gAUpi821fGW9mQQmLghu9WVYLSQqvtJuLJeuzD",
+        "entryTime": "2026-04-19T06:35:33.779Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T06:35:33.779Z",
+    "lastSeen": "2026-04-19T06:35:33.779Z",
     "confirmed": false
   }
 }
