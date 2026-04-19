@@ -2033,7 +2033,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "HUMAN",
@@ -2084,6 +2084,11 @@
         "symbol": "assface",
         "pairAddress": "DLWqN3x3wpEQiPPmnxB8rx3g6jQguEcmzjqbpBD7w8yT",
         "entryTime": "2026-04-19T00:30:19.056Z"
+      },
+      {
+        "symbol": "DICKBUTT",
+        "pairAddress": "DMDq8BP2BarRVtGrprfEAH9bidAEKVmYsjQxQvojgcK3",
+        "entryTime": "2026-04-19T03:34:29.668Z"
       }
     ],
     "wins": 0,
@@ -2091,7 +2096,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-17T18:55:14.990Z",
-    "lastSeen": "2026-04-19T00:30:19.056Z",
+    "lastSeen": "2026-04-19T03:34:29.668Z",
     "confirmed": true
   },
   "82QuQ8mpqKnkvhsXcfRQ4CnLXip6RxXCYrKAxzucZaG1": {
@@ -35528,6 +35533,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T03:33:54.771Z",
     "lastSeen": "2026-04-19T03:33:54.771Z",
+    "confirmed": false
+  },
+  "HGhSo1X8Xuz1ffkEdJfeKZC2sDvtJ3Kuavay9XSxpF4r": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DICKBUTT",
+        "pairAddress": "DMDq8BP2BarRVtGrprfEAH9bidAEKVmYsjQxQvojgcK3",
+        "entryTime": "2026-04-19T03:34:29.668Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T03:34:29.668Z",
+    "lastSeen": "2026-04-19T03:34:29.668Z",
     "confirmed": false
   }
 }
