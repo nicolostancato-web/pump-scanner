@@ -746,12 +746,17 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Jared",
         "pairAddress": "CKTmFpRsJot85gwubmM28ka2w6uYgwM19Sjwcjz5iD8S",
         "entryTime": "2026-04-19T10:34:16.976Z"
+      },
+      {
+        "symbol": "cock",
+        "pairAddress": "A7Za6NYNrNvrCiu3CxriVy1qonNnjWfyrArtCGTjcDA7",
+        "entryTime": "2026-04-19T16:05:10.277Z"
       }
     ],
     "wins": 0,
@@ -759,7 +764,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:34:16.976Z",
-    "lastSeen": "2026-04-19T10:34:16.976Z",
+    "lastSeen": "2026-04-19T16:05:10.277Z",
     "confirmed": false
   },
   "D5e7wVqvV7AXaENstDoHPs2JTDq1L84VjNVGpryvDHEZ": {
