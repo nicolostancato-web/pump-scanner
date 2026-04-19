@@ -29201,7 +29201,7 @@
     "confirmed": false
   },
   "5vWnwW8j9evoNhpRnLKZpD6kDCRSbwKWiHbY2TKvkTJ9": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ASSTROID",
@@ -29212,6 +29212,11 @@
         "symbol": "FACEPALM",
         "pairAddress": "3MuGNQK7K12gH8MLf6rKGD6TZerdShKNHdxUBn75gePR",
         "entryTime": "2026-04-18T23:32:54.435Z"
+      },
+      {
+        "symbol": "peppe",
+        "pairAddress": "4jcmzajMcD5sX8bjtq9NYu3vjwcbWwdcgikATWh2mDdQ",
+        "entryTime": "2026-04-19T00:04:37.471Z"
       }
     ],
     "wins": 0,
@@ -29219,8 +29224,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T19:45:39.206Z",
-    "lastSeen": "2026-04-18T23:32:54.435Z",
-    "confirmed": false
+    "lastSeen": "2026-04-19T00:04:37.471Z",
+    "confirmed": true
   },
   "3cF4XGH8BhSFzZXQpCh8dt9SsXj8bC1yDcyMvTvgFUgd": {
     "appearances": 1,
@@ -32917,6 +32922,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T00:04:06.570Z",
     "lastSeen": "2026-04-19T00:04:06.570Z",
+    "confirmed": false
+  },
+  "A1YzNkQ1bXJs1xHtTKRzR1BMZRykwZQHpoeziHM5h3Ev": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "peppe",
+        "pairAddress": "4jcmzajMcD5sX8bjtq9NYu3vjwcbWwdcgikATWh2mDdQ",
+        "entryTime": "2026-04-19T00:04:37.471Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T00:04:37.471Z",
+    "lastSeen": "2026-04-19T00:04:37.471Z",
     "confirmed": false
   }
 }
