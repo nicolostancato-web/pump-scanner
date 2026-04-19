@@ -35951,12 +35951,17 @@
     "confirmed": false
   },
   "D993TbYt1uNUJAox4eiaQqQyDRU1kp3kr8TZww7cgyZJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Portals",
         "pairAddress": "BYrhNAVuWpk918tiPv8WGYEPxv2kSZvLhHyJxQAZyDUb",
         "entryTime": "2026-04-19T04:37:11.820Z"
+      },
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T05:11:28.233Z"
       }
     ],
     "wins": 0,
@@ -35964,7 +35969,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T04:37:11.820Z",
-    "lastSeen": "2026-04-19T04:37:11.820Z",
+    "lastSeen": "2026-04-19T05:11:28.233Z",
     "confirmed": false
   },
   "AKZq2YW9tqCyqZKozmb72jnB88k4FDb475yiGiaR9WzE": {
@@ -36628,6 +36633,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T05:06:51.939Z",
     "lastSeen": "2026-04-19T05:06:51.939Z",
+    "confirmed": false
+  },
+  "XtcaAzkxAV7KEbQ7weXMvJymmwDVYpwSmQF6gb75cFy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WILLY",
+        "pairAddress": "2qFMVij4vzAPqkAu2kGZKWUZfBcz2M6ExvT7cBBdBAbF",
+        "entryTime": "2026-04-19T05:11:28.233Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T05:11:28.233Z",
+    "lastSeen": "2026-04-19T05:11:28.233Z",
     "confirmed": false
   }
 }
