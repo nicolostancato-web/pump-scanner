@@ -27007,12 +27007,17 @@
     "confirmed": false
   },
   "CyEo2687MvpWC6qxohdMVmvvAXH9bAkxj1GfivmqboqB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Mãhina",
         "pairAddress": "5dyPsxygiEKNPwbyLk8zErCgY97j8apwBQoCe2CXyxjT",
         "entryTime": "2026-04-18T17:15:22.464Z"
+      },
+      {
+        "symbol": "MISA",
+        "pairAddress": "J5nkPpvSERezfME6RBywiL22sPmSDWLmdqVm6rmHTy2W",
+        "entryTime": "2026-04-19T08:05:33.775Z"
       }
     ],
     "wins": 0,
@@ -27020,7 +27025,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-18T17:15:22.464Z",
-    "lastSeen": "2026-04-18T17:15:22.464Z",
+    "lastSeen": "2026-04-19T08:05:33.775Z",
     "confirmed": false
   },
   "4piq9ioyFiidnjrJdC8H1d3bBxGg2QzXW2jscGSPjKaB": {
@@ -38878,6 +38883,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T08:04:58.463Z",
     "lastSeen": "2026-04-19T08:04:58.463Z",
+    "confirmed": false
+  },
+  "EK5pFQ5WjyHKB6iB3Yigzirw73eZPkrqb94cJmCmmLQk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MISA",
+        "pairAddress": "J5nkPpvSERezfME6RBywiL22sPmSDWLmdqVm6rmHTy2W",
+        "entryTime": "2026-04-19T08:05:33.775Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T08:05:33.775Z",
+    "lastSeen": "2026-04-19T08:05:33.775Z",
     "confirmed": false
   }
 }
