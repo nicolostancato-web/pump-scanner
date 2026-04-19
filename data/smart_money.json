@@ -4191,12 +4191,17 @@
     "confirmed": false
   },
   "7WCJQakvQM1B4yeo5gQ36VNZ8rf9rSGMNRdkhDkjZBS7": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TRUMP",
         "pairAddress": "CV3BVSnmKsgQrnFcxf124KsLm5PzPxVCdbjuUr5538bn",
         "entryTime": "2026-04-19T14:14:01.266Z"
+      },
+      {
+        "symbol": "Lida",
+        "pairAddress": "Ce9cGoMbKBDU5PXZDeh77J9hHUYSS7mSk1H2zVaQ6tKa",
+        "entryTime": "2026-04-19T17:56:13.545Z"
       }
     ],
     "wins": 0,
@@ -4204,7 +4209,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T14:14:01.266Z",
-    "lastSeen": "2026-04-19T14:14:01.266Z",
+    "lastSeen": "2026-04-19T17:56:13.545Z",
     "confirmed": false
   },
   "FbK7okY7BchHpBpEsZzsQXTWiaKbynwxWu7ndJyrUy69": {
@@ -7586,6 +7591,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-19T17:55:42.771Z",
     "lastSeen": "2026-04-19T17:55:42.771Z",
+    "confirmed": false
+  },
+  "E9wkMvEjsoBfd355QtePn6r7GE1tyuQbj7BUpsxp1EXu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Lida",
+        "pairAddress": "Ce9cGoMbKBDU5PXZDeh77J9hHUYSS7mSk1H2zVaQ6tKa",
+        "entryTime": "2026-04-19T17:56:13.545Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-19T17:56:13.545Z",
+    "lastSeen": "2026-04-19T17:56:13.545Z",
     "confirmed": false
   }
 }
