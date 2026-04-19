@@ -2298,7 +2298,81 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "CnxGhSS8ECnGEpfE6YaiojJRGZwAfz5caRKVhJW7UKaU",
+      "mint": "H87dfDDWhE2GnBeWC7oQz793rRqmE4b3mw1QY3zcpump",
+      "name": "Shrek2HulkSimbaAnusHannahInu",
+      "symbol": "SOL",
+      "dex": "pumpswap",
+      "entryPrice": 0.00009457,
+      "entryMcap": 94574,
+      "entryTime": 1776610624844,
+      "score": 65,
+      "ageAtEntry": 105,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/cnxghss8ecngepfe6yaiojjrgzwafz5carkvhjw7ukau",
+      "peakPrice": 0.00009457,
+      "peakMultiplier": 1,
+      "peakMcap": 94574,
+      "peakTime": 1776610624844,
+      "lastPrice": 0.00005172,
+      "lowestPrice": 0.00005172,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005172,
+      "closeMultiplier": 0.5468964787987735,
+      "closedAt": "2026-04-19T15:01:04.073Z",
+      "durationMs": 239229,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005172,
+        "closeMultiplier": 0.5468964787987735,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-19T15:01:04.073Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -23,
+        "momentum": 0.2339047619047619,
+        "floatRotation": 0.24884788631124835,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.24884788631124835,
+        "accel": 0.2339047619047619,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(105min)"
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-18T23:18:13.316Z"
+  "lastSaved": "2026-04-19T15:01:05.561Z"
 }
