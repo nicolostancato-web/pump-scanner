@@ -1377,7 +1377,7 @@
     "confirmed": true
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 11,
+    "appearances": 12,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1433,6 +1433,11 @@
         "symbol": "big",
         "pairAddress": "7AEonzURkwfNwUVSVgCohDfMQZF9iT4aodpZoSzsWnFB",
         "entryTime": "2026-04-20T18:59:43.828Z"
+      },
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:57:24.104Z"
       }
     ],
     "wins": 0,
@@ -1440,7 +1445,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:53:32.853Z",
-    "lastSeen": "2026-04-20T18:59:43.828Z",
+    "lastSeen": "2026-04-20T19:57:24.104Z",
     "confirmed": true
   },
   "DWtzV1ScNts9zHJkNA3rkqzN1KvhGFSNMrxYRNN2mCWA": {
@@ -25901,12 +25906,17 @@
     "confirmed": false
   },
   "78z2q9uM3XkS4sANvZDLmXhhM1yBrsWNVhVtxJmrd1iS": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MTS",
         "pairAddress": "35r9S7VeAEff18bMnP5vv2THD6B59JtxU3aECfPvUPsK",
         "entryTime": "2026-04-20T15:08:35.270Z"
+      },
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:57:24.104Z"
       }
     ],
     "wins": 0,
@@ -25914,7 +25924,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:08:35.270Z",
-    "lastSeen": "2026-04-20T15:08:35.270Z",
+    "lastSeen": "2026-04-20T19:57:24.104Z",
     "confirmed": false
   },
   "6AWuMuhnPijmGoBGcBHA61X2ePPzGGod8jzxUGA9uutb": {
