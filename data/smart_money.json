@@ -25462,7 +25462,7 @@
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "MILKUNC",
@@ -25488,6 +25488,11 @@
         "symbol": "papu",
         "pairAddress": "CpFzRevnWnX9B9H4VyHvcLEWoc2UCkPZ3bV9CHx13fKb",
         "entryTime": "2026-04-20T18:13:33.130Z"
+      },
+      {
+        "symbol": "punc",
+        "pairAddress": "12Yvy3SoFRMUeJcU6cYP63goBJVtAM7UhVXyg7h1htVe",
+        "entryTime": "2026-04-20T19:25:17.188Z"
       }
     ],
     "wins": 0,
@@ -25495,7 +25500,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T14:46:09.328Z",
-    "lastSeen": "2026-04-20T18:13:33.130Z",
+    "lastSeen": "2026-04-20T19:25:17.188Z",
     "confirmed": true
   },
   "FWtcuUaoLPWsR3AVGX6EXQojFxpdTiFvyTZXRLiuncMS": {
