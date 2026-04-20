@@ -19835,5 +19835,22 @@
     "firstSeen": "2026-04-20T06:52:43.050Z",
     "lastSeen": "2026-04-20T06:52:43.050Z",
     "confirmed": false
+  },
+  "2Q47bgQPwjLb9jrmWcnZc3ySK5Fjy28nAgtJ4k9QrmtA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:53:14.440Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T06:53:14.440Z",
+    "lastSeen": "2026-04-20T06:53:14.440Z",
+    "confirmed": false
   }
 }
