@@ -19297,5 +19297,22 @@
     "firstSeen": "2026-04-20T05:47:04.136Z",
     "lastSeen": "2026-04-20T05:47:04.136Z",
     "confirmed": false
+  },
+  "ENfd4YArhxcLs4tqZ32xFL84cDNhaHGU7N4dKfg8wmXx": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "stoned",
+        "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
+        "entryTime": "2026-04-20T05:47:34.896Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T05:47:34.896Z",
+    "lastSeen": "2026-04-20T05:47:34.896Z",
+    "confirmed": false
   }
 }
