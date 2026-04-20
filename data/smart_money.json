@@ -170,7 +170,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "🟪",
@@ -211,6 +211,11 @@
         "symbol": "TUSK",
         "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
         "entryTime": "2026-04-20T08:26:01.751Z"
+      },
+      {
+        "symbol": "GayHormuz",
+        "pairAddress": "4GcmNRu6yQhp7wJQgxBVhh91uJtgme8W6hzNtjki6fvZ",
+        "entryTime": "2026-04-20T11:55:33.454Z"
       }
     ],
     "wins": 0,
@@ -218,7 +223,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T08:47:28.962Z",
-    "lastSeen": "2026-04-20T08:26:01.751Z",
+    "lastSeen": "2026-04-20T11:55:33.454Z",
     "confirmed": true
   },
   "BE8hDRjkcWbnPcUcs3V88HQuJjdTfRXG8zuNSR1HsKq4": {
@@ -22380,6 +22385,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T11:54:28.220Z",
     "lastSeen": "2026-04-20T11:54:28.220Z",
+    "confirmed": false
+  },
+  "4uZYLRd5KRrPsBZZijQ8wUpkf47wH78pwrLaoA2rBbXm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GayHormuz",
+        "pairAddress": "4GcmNRu6yQhp7wJQgxBVhh91uJtgme8W6hzNtjki6fvZ",
+        "entryTime": "2026-04-20T11:55:33.454Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T11:55:33.454Z",
+    "lastSeen": "2026-04-20T11:55:33.454Z",
     "confirmed": false
   }
 }
