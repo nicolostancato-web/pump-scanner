@@ -9923,7 +9923,7 @@
     "confirmed": false
   },
   "CvRw2LQ8cJasvtKGXhhjCWAu1r2U5jpTjm2DuBVFrEjf": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "CLUD",
@@ -9934,6 +9934,11 @@
         "symbol": "DUMBWOJACK",
         "pairAddress": "2SWoiY88Vbf7os1sfnxEMzLujtUiDasTW1h5rGfqWXjA",
         "entryTime": "2026-04-20T07:02:05.170Z"
+      },
+      {
+        "symbol": "CDM",
+        "pairAddress": "E7znJMjXoCCY45N2c47HyykfA4pJgMZEDHZmtzKPcLiT",
+        "entryTime": "2026-04-20T22:41:30.510Z"
       }
     ],
     "wins": 0,
@@ -9941,8 +9946,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T19:33:02.449Z",
-    "lastSeen": "2026-04-20T07:02:05.170Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T22:41:30.510Z",
+    "confirmed": true
   },
   "CPvQ51WkJAj3rgniXRjv1JjncwCzYZZBsgqVhE4frcqh": {
     "appearances": 1,
@@ -33593,6 +33598,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T22:38:53.852Z",
     "lastSeen": "2026-04-20T22:38:53.852Z",
+    "confirmed": false
+  },
+  "ErBzWzQu22NyR9Ao9oJHNJQ7R2Rfnm3XrHVbv9RKNFBE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CDM",
+        "pairAddress": "E7znJMjXoCCY45N2c47HyykfA4pJgMZEDHZmtzKPcLiT",
+        "entryTime": "2026-04-20T22:41:30.510Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T22:41:30.510Z",
+    "lastSeen": "2026-04-20T22:41:30.510Z",
     "confirmed": false
   }
 }
