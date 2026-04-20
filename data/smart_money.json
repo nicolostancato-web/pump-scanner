@@ -13315,12 +13315,17 @@
     "confirmed": false
   },
   "undwZZbXFTXAizTeeNpmygJDa4pWopEr1UCDSWpyo4y": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "vibetrading",
         "pairAddress": "GPSMBcSY8FuzE6hkAC3K2RmXr7N7iqrDWwSyAzvya7Ja",
         "entryTime": "2026-04-19T23:13:29.499Z"
+      },
+      {
+        "symbol": "MIM",
+        "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
+        "entryTime": "2026-04-20T15:32:12.548Z"
       }
     ],
     "wins": 0,
@@ -13328,7 +13333,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:13:29.499Z",
-    "lastSeen": "2026-04-19T23:13:29.499Z",
+    "lastSeen": "2026-04-20T15:32:12.548Z",
     "confirmed": false
   },
   "CvS6UkEyojZdJx2fKzYrMyEyaUGbg1ucxLRhsWU7JKxM": {
@@ -25767,6 +25772,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:31:37.463Z",
     "lastSeen": "2026-04-20T15:31:37.463Z",
+    "confirmed": false
+  },
+  "87nJZPf9yKfnoVsViFoGA6vVHP2Gq5E9EncBeKfHNkeo": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MIM",
+        "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
+        "entryTime": "2026-04-20T15:32:12.548Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T15:32:12.548Z",
+    "lastSeen": "2026-04-20T15:32:12.548Z",
     "confirmed": false
   }
 }
