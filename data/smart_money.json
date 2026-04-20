@@ -9429,7 +9429,7 @@
     "confirmed": false
   },
   "52oc72vjNbpUhF7jNE1pPAvc17JwBTyxybFp3u7PvetG": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "JTC",
@@ -9450,6 +9450,11 @@
         "symbol": "down",
         "pairAddress": "F7ViQbFjnh5v5Zu3CouKKgHnDC8xpAm7phViw9mnuby3",
         "entryTime": "2026-04-20T17:42:58.866Z"
+      },
+      {
+        "symbol": "UNSTMONEY",
+        "pairAddress": "JDBjM6jav65JuJ1R822HnuRbPUBirm2kzLjExsSjB4qw",
+        "entryTime": "2026-04-20T21:35:12.671Z"
       }
     ],
     "wins": 0,
@@ -9457,7 +9462,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:42:23.448Z",
-    "lastSeen": "2026-04-20T17:42:58.866Z",
+    "lastSeen": "2026-04-20T21:35:12.671Z",
     "confirmed": true
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
@@ -32286,6 +32291,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T21:34:21.611Z",
     "lastSeen": "2026-04-20T21:34:21.611Z",
+    "confirmed": false
+  },
+  "9ZGJuiVHBkeDu7pyaeSijs3aMbiNzd8FawVgAKojqzy7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNSTMONEY",
+        "pairAddress": "JDBjM6jav65JuJ1R822HnuRbPUBirm2kzLjExsSjB4qw",
+        "entryTime": "2026-04-20T21:35:12.671Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T21:35:12.671Z",
+    "lastSeen": "2026-04-20T21:35:12.671Z",
     "confirmed": false
   }
 }
