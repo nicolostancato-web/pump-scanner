@@ -20926,12 +20926,17 @@
     "confirmed": false
   },
   "Cgsd58sXSQotTV1eqEEor41Kh3cWbRY5YG9YumYFrs85": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Twig",
         "pairAddress": "2e9H5BkUAeHX12JA8MQxChiEuQygt1PHE82AKemVYtTh",
         "entryTime": "2026-04-20T08:02:29.200Z"
+      },
+      {
+        "symbol": "hijabunc",
+        "pairAddress": "GDXpCCFTUq4ocFKzBQ1CiDf8i2KE4eENZng5sB4yguuU",
+        "entryTime": "2026-04-20T15:21:36.949Z"
       }
     ],
     "wins": 0,
@@ -20939,7 +20944,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T08:02:29.200Z",
-    "lastSeen": "2026-04-20T08:02:29.200Z",
+    "lastSeen": "2026-04-20T15:21:36.949Z",
     "confirmed": false
   },
   "EMu6xEsExtBg4JqE3g8y8hUJmVH9rrarSYsaB8BXscLq": {
@@ -25633,6 +25638,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:18:55.957Z",
     "lastSeen": "2026-04-20T15:18:55.957Z",
+    "confirmed": false
+  },
+  "i8ZVfjYnaAtTVxGxL5Hqt4FVWvKZCw2QtNdj5X73Tqh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "hijabunc",
+        "pairAddress": "GDXpCCFTUq4ocFKzBQ1CiDf8i2KE4eENZng5sB4yguuU",
+        "entryTime": "2026-04-20T15:21:36.949Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T15:21:36.949Z",
+    "lastSeen": "2026-04-20T15:21:36.949Z",
     "confirmed": false
   }
 }
