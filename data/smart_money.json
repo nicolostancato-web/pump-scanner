@@ -931,7 +931,7 @@
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 15,
+    "appearances": 16,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1007,6 +1007,11 @@
         "symbol": "lowcap",
         "pairAddress": "Bx4bcrJVwRb3dzj8SchoXzrJaqmzKHTXVxspYU9U45aM",
         "entryTime": "2026-04-20T18:28:55.841Z"
+      },
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:46:46.669Z"
       }
     ],
     "wins": 0,
@@ -1014,7 +1019,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:34:16.976Z",
-    "lastSeen": "2026-04-20T18:28:55.841Z",
+    "lastSeen": "2026-04-20T20:46:46.669Z",
     "confirmed": true
   },
   "D5e7wVqvV7AXaENstDoHPs2JTDq1L84VjNVGpryvDHEZ": {
@@ -31304,6 +31309,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T20:44:10.012Z",
     "lastSeen": "2026-04-20T20:44:10.012Z",
+    "confirmed": false
+  },
+  "CFBrwGP54Ut2zz5aojPWEop2Y6zChiEWJNfnGftdgHch": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:46:46.669Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T20:46:46.669Z",
+    "lastSeen": "2026-04-20T20:46:46.669Z",
     "confirmed": false
   }
 }
