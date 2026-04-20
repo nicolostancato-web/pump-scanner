@@ -8921,12 +8921,17 @@
     "confirmed": false
   },
   "AGrDjVLFqxvxiko3MidEBauoAGKemWbDPztxR4fXxR5e": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SPACEHAT",
         "pairAddress": "9EYctomapACrqBQRotLXV89sfa8xYeuUUbVQz4ctdWh6",
         "entryTime": "2026-04-19T19:05:50.142Z"
+      },
+      {
+        "symbol": "Spritzer",
+        "pairAddress": "F99wpF2DVkWDpwgRQrYG45dsCXMRXBMuhQhA1QwL4Wfu",
+        "entryTime": "2026-04-20T00:58:48.327Z"
       }
     ],
     "wins": 0,
@@ -8934,7 +8939,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T19:05:50.142Z",
-    "lastSeen": "2026-04-19T19:05:50.142Z",
+    "lastSeen": "2026-04-20T00:58:48.327Z",
     "confirmed": false
   },
   "Hn8K5wVQGNRXnBZ6AbAfVmk3SWbZ9GdP1ewMCM2qXs75": {
@@ -14610,6 +14615,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T00:58:18.654Z",
     "lastSeen": "2026-04-20T00:58:18.654Z",
+    "confirmed": false
+  },
+  "jiutBcXdj5uCMfZF6JoJ1HncQ9J8WRHWjLQYXAfgCFw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Spritzer",
+        "pairAddress": "F99wpF2DVkWDpwgRQrYG45dsCXMRXBMuhQhA1QwL4Wfu",
+        "entryTime": "2026-04-20T00:58:48.327Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T00:58:48.327Z",
+    "lastSeen": "2026-04-20T00:58:48.327Z",
     "confirmed": false
   }
 }
