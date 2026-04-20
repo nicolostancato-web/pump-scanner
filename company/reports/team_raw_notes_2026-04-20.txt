@@ -1,0 +1,411 @@
+==============================================================
+TEAM RAW NOTES — 2026-04-20
+Crypto Bot Division
+[appunti grezzi dei team — non rielaborati]
+==============================================================
+
+--------------------------------------------------------------
+STRATEGY-1 | Entry Logic
+--------------------------------------------------------------
+
+09:40 — log Railway aperti, aspetto il primo V6. sistema gira bene.
+
+09:47 — arrivato SMB. criteri: age 12min OK mcap 42k OK priceChange5m +7.2% vol 1340 buys>sells OK
+tutto passa.
+
+09:55 — guardo SMB nei log. prezzo flat. non si muove.
+10:08 — ancora flat. strano.
+10:31 — SMB in discesa. sembra che vada verso sl.
+10:52 — SMB chiuso SL. peak = 1.0 quindi non è mai andato sopra l'entry. mai.
+
+nota: il priceChange5m era +7.2% ma quel movimento era già successo prima che noi entrassimo.
+il token quando lo scansioni ha già fatto il 7% nei 5 minuti precedenti.
+noi stiamo misurando il passato non il futuro.
+problema? forse. ma non tocco niente prima di 15 trade.
+
+11:28 — Twig entrato V6. age 13min mcap 38k. ok.
+11:35 — Twig già in calo. brutto.
+13:00 — Twig a 0.02x. rug o liquidità zero. anomalo. segnalo a Security-1.
+
+16:00 — MTS entrato V6. age 12min. stesso pattern di SMB.
+17:15 — MTS sl confermato. peak 1.0 anche lui.
+
+tutti e 3 i trade V6 avevano age 11-13min. tutti entrati nella fascia giusta ma con
+momentum già esaurito. il bot li cattura tardi nel ciclo.
+
+idea per dopo (NON per ora): guardare se il volume5m è in crescita rispetto al volume
+dei 5 minuti precedenti. se rallenta = momentum in uscita. ma è lavoro futuro. dati prima.
+
+passato al CEO: criterio C3 potrebbe catturare token a fine momentum. ipotesi, non certezza.
+aspettiamo altri trade.
+
+--------------------------------------------------------------
+STRATEGY-2 | Exit Logic
+--------------------------------------------------------------
+
+giornata a monitorare i 3 trade V6.
+
+SMB: peak 1.0x. mai sopra entry. sl -41%. meccanismo funziona ma non c'è stato niente da prendere.
+
+Twig: peak 1.057x quindi è andato un minimo sopra, poi crollo a 0.02.
+tra un check e l'altro il prezzo è passato da ~1.0 a 0.02.
+in 60-70 secondi -97.9%. impossibile da catchare con check 1min.
+non è un bug. è un rug istantaneo.
+liquidità era bassa (~15k), un wallet ha venduto tutto in un blocco.
+comunicato a Security-1.
+
+MTS: peak 1.0x. identico a SMB.
+
+dubbio: se il check fosse a 30 secondi avremmo catchato Twig?
+probabilmente no — un rug così avviene in pochi secondi, non minuti.
+e aumentare la frequenza aumenta il rischio 429. non ne vale la pena.
+
+conclusione: exit logic funziona. il problema non è l'exit. è l'entry.
+i token V6 di oggi non hanno mai dato segnale di vita dopo l'entrata.
+niente da fixare qui.
+
+comunicato al CEO: exit ok.
+
+--------------------------------------------------------------
+STRATEGY-3 | Strategic Direction
+--------------------------------------------------------------
+
+guardato i dati stamattina. 69 trade, 3 V6 tutti negativi.
+primo pensiero: dobbiamo cambiare qualcosa in V6?
+secondo pensiero: assolutamente no. 3 trade non dicono niente.
+
+con i primi 10 trade V1 sembrava un disastro totale. a 50 trade il pattern si era stabilizzato.
+3 trade V6 è statisticamente rumore.
+
+ho scritto la bozza del piano transizione V1→V6:
+- 15 trade V6 con wouldEnter=true raggiunti
+- se pump rate >30%: V6 strategia principale
+- V1 rimane comparativo altri 30 trade
+- poi V1 si disattiva
+
+non proposto ancora perché prematuro. ma il piano è pronto.
+
+al ritmo attuale (3 V6 al giorno) la validazione arriva intorno al 25 aprile.
+dipende dal mercato — potrebbe essere prima o dopo.
+
+niente da decidere oggi. direzione confermata.
+
+--------------------------------------------------------------
+DEVELOPMENT-1 | Core Bot
+--------------------------------------------------------------
+
+08:00 — log aperti. sistema gira. check 1min confermato. nessun 429.
+
+contato le righe "[V6]" dall'avvio: 847 check nelle prime 18h.
+sembra reggere bene.
+
+primo V6 nei log alle 09:47:13 — "[V6] ✅ ENTER | age=12min mcap=42k chg=7.2%"
+
+Twig alle 11:28. poi chiusura anomala.
+log tra 11:28:43 e 11:29:51: prezzo da 0.000034 a 0.00000071.
+in 68 secondi. rug confermato dai log.
+il bot ha registrato correttamente stop_loss. non c'è niente da fixare.
+
+positions_history.json su github si aggiorna ogni volta che si chiude una posizione.
+oggi 19 aggiornamenti. funziona bene.
+
+memoria railway: 287mb/512mb. cpu: picchi durante check poi torna a 0. normale.
+
+nessun problema tecnico. sistema pulito.
+
+--------------------------------------------------------------
+DEVELOPMENT-2 | Pipeline
+--------------------------------------------------------------
+
+09:23 — verificato n8n Position Tracker. ultimo run UTC 09:23 success.
+aperto sheet. ultime righe.
+
+SMB: V6 WouldEnter = TRUE, V6 Fail = PASS, V6 TP2x = FALSE, V6 TP1.5x = FALSE ✅
+Twig: stesso ✅
+MTS: stesso ✅
+
+campionato altri 5 trade random: tutti ok. pipeline integra.
+
+nota per dopo: se aggiungiamo nuovi campi, il nodo Extract Fields su n8n va aggiornato
+a mano. non è automatico. da ricordare.
+
+niente da segnalare. tutto funziona.
+
+--------------------------------------------------------------
+DEVELOPMENT-3 | Infrastructure
+--------------------------------------------------------------
+
+check mattino:
+railway container running, uptime da ieri 16:00. nessun restart.
+287mb ram. cpu ok.
+
+email verificate: arrivate alle 08:02. contenuto corretto.
+
+github: cartella /company/reports/ pronta per i file di oggi.
+
+nessun intervento necessario. infrastruttura stabile.
+
+nota: se il bot scala, la memoria potrebbe aumentare. da tenere d'occhio.
+non urgente ora.
+
+--------------------------------------------------------------
+TESTING-1 | Validation
+--------------------------------------------------------------
+
+log aperti dalle 09:00. aspettavo il primo V6.
+
+09:47 — SMB entrato V6. documentato: age 12, mcap 42k, tutti i criteri passati.
+monitorato live. ogni minuto nei log: "[V6] checking TP on SMB".
+nessun TP mai scattato. alle 10:31 ho visto il multiplo scendere sotto 0.9.
+poi accelerazione verso sl.
+10:52 — stop_loss SMB. documentato.
+
+11:28 — Twig entrato V6.
+11:29 — log slide successiva mostrava prezzi bassissimi. segnalato subito a Security-1.
+Twig = caso anomalo (rug istantaneo).
+
+16:00 — MTS nel range V6. monitorato.
+17:12 — sl MTS. documentato.
+
+riepilogo: 3 trade V6. tutti sl. nessun tp. sistema di tracking funziona.
+i flag vengono aggiornati ogni check come previsto.
+
+domanda che mi sono fatto: possiamo sapere quanti token avrebbero passato V6 ma
+che il bot non ha visto? risposta: no. il bot scansiona solo quello che incontra.
+limite che rimane.
+
+--------------------------------------------------------------
+ANALYSIS-1 | Trade Data
+--------------------------------------------------------------
+
+aggiornato dataset da 50 a 69 trade. scaricato json, analisi locale.
+
+distribuzione età 19 nuovi trade:
+0-10min: 2 trade, 0 pump
+11-15min: 6 trade, 1 con peak >1.5x (non pump ≥2x ma il migliore di oggi)
+16-25min: 4 trade, 0 pump
+26-40min: 5 trade, 0 pump
+40+: 2 trade, 0 pump
+
+nota: ho ricontrollato — il token nel bucket 11-15min con peak >1.5x NON era un trade V6.
+era un trade V1 normale. SMB era V6 e ha fatto -41%. non confondere.
+
+5 pump storici: invariati. nessun nuovo pump ≥2x oggi.
+
+EV 69 trade: -43.1%. era -42.7% su 50. peggiorato.
+win rate: 2/69 = 2.9%.
+avg win: +190.1%. avg loss: -50.0%.
+
+calcolo soglia: per EV ≥0 con avg win +190 e avg loss -50:
+WR × 190 + (1-WR) × (-50) ≥ 0
+190 WR - 50 + 50 WR ≥ 0
+240 WR ≥ 50
+WR ≥ 50/240 = 20.8%
+
+siamo a 2.9%. distanza enorme. V6 deve portarci sopra 20.8% per essere profittevole.
+mandato a Strategy-1 e Strategy-3.
+
+--------------------------------------------------------------
+RESEARCH-1 | Market Research
+--------------------------------------------------------------
+
+stamattina — pump.fun: contato ~240 nuovi token in 3h (09:00-12:00).
+tanti. saturazione altissima su Solana.
+
+Base chain aggiornamento:
+aperto DexScreener, filtro Base chain, nuovi pair 24h.
+trovati 18 token memecoin fascia $5k-$500k mcap.
+
+liquidità media iniziale Base: $8k-$25k (vs $20k-$80k Solana). più bassa.
+tempi di pump Base: 5-8 minuti (vs 10-20 min Solana). più veloci.
+implicazione: su Base il check 1min è ancora più critico. margine stretto.
+
+trovato repo GitHub (non linko per sicurezza) con scanner DexScreener per Base.
+Node.js, struttura diversa dal nostro ma logica simile.
+analizzato il codice: usa axios + polling ogni 2min. niente di magico.
+
+RPC Base: usa standard EVM. wallet address diversi da Solana (0x... vs base58).
+tutta la logica buyer extraction del nostro bot (quella per Solana/RPC Solana) va
+riscritta da zero. non è un adattamento, è una riscrittura.
+
+stima effort rivista: 3-4 giorni (era 2-3). il giorno in più è per il RPC EVM.
+
+mercato Base: più piccolo (10-20x meno volumi di Solana) ma meno competitivo.
+meno bot, meno front-running. potenzialmente vantaggio per chi arriva prima.
+
+in attesa di approvazione fondatori per procedere.
+
+--------------------------------------------------------------
+RESEARCH-2 | Behavioral Research
+--------------------------------------------------------------
+
+concentrato sui 3 trade V6 di oggi.
+
+guardato SMB:
+age 12min al momento scansione.
+priceChange5m: +7.2%
+questo vuol dire che negli ultimi 5 minuti il token ha fatto +7.2%.
+ma quando siamo entrati quei 5 minuti erano già passati.
+il movimento era alle nostre spalle, non davanti.
+
+confronto con pump storici:
+EIS: entrato a age 21min, ha fatto peak a 6.5x MA il peak è arrivato 15-40 minuti dopo l'entry.
+TRUE: entrato a age 14min, stesso — il grosso del movimento dopo l'entry.
+nei pump veri c'era ancora tutto il movimento davanti a noi.
+nei 3 trade V6 di oggi il movimento era già dietro.
+
+nome che ho dato al fenomeno: "dead cat entry".
+il bot entra su un rimbalzo del gatto morto, non su un pump vero.
+
+idea per V7 (non ora): misurare il momentum residuo invece di quello passato.
+come? guardare txns nell'ultimo minuto vs media degli ultimi 5min.
+se txns ultimo min > media = accelerazione = momentum ancora vivo.
+se txns ultimo min < media = decelerazione = momentum in uscita.
+
+mandato a Strategy-1. risposta: interessante ma aspettiamo 15 trade V6. giusto.
+
+altra osservazione: tutti i 3 trade V6 avevano age 11-13min.
+sono entrati nella fascia bassa del range (11-25min).
+i pump storici avevano age 11-25min ma più distribuiti nel range.
+coincidenza? o i token a 11-13min sono "troppo freschi" e il momentum è già finito?
+da tenere come ipotesi da investigare con più dati.
+
+--------------------------------------------------------------
+SOCIAL-1 | X Monitoring
+--------------------------------------------------------------
+
+giornata manuale. API non disponibile.
+
+metodo: cerco il ticker su X, guardo quando è stato creato l'account, follower, tweet.
+
+12 token analizzati (09:00-15:00):
+
+5 con account X creato stesso giorno:
+tutti e 5 morti entro 1h. 100%. pattern confermato.
+
+7 con account X vecchio (>30gg):
+2 hanno mostrato qualcosa (>1.5x peak)
+5 morti normalmente
+
+MTS — trade V6 di oggi: cercato l'account.
+creato 3 giorni fa. 4 tweet, tutti spam ("to the moon", "100x incoming", link).
+23 follower. ovviamente non c'era nessuna community reale dietro.
+nota: MTS ha superato i criteri V6 ma l'analisi social diceva no.
+supporta l'idea di X account age come criterio V7.
+
+narrative di oggi su X:
+1. "AI agent tokens" — 3 token con AI nel nome lanciati oggi. tutti morti entro 2h.
+   chiaramente bait. account dietro questi token avevano 50-200 follower.
+2. "Base meme season" — account con 10k+ follower che spingono questa narrativa.
+   correlato con quello che vede Research-1 su DexScreener Base (volumi in crescita).
+3. "Solana congestion again" — lamentele su fee e tx lente.
+   potrebbe spiegare qualche rug rapido di oggi (transazioni stuck = panico = sell).
+
+telegram pump.fun: volume nella media. nessun token del nostro dataset segnalato
+preventivamente su telegram prima dell'entry del bot. buono — significa che non stiamo
+inseguendo segnali telegrafati da altri.
+
+limite: senza API posso fare 10-15 token/giorno max. non è scalabile.
+per fare analisi seria serve tool alternativo.
+nota per CEO: vale la pena esplorare nitter o soluzioni di scraping etico per X.
+
+--------------------------------------------------------------
+SECURITY-1 | Risk & Stability
+--------------------------------------------------------------
+
+08:00 — check standard. tutto verde.
+
+rate limit DexScreener: 0 errori 429 in 24h.
+contato le chiamate nei log: scan ogni 2min + check ogni 1min = ~1.5 chiamate/min.
+1.5 × 60 × 24 = 2160 chiamate/giorno. sembra ragionevole.
+non so qual è il limite DexScreener ma non stiamo vedendo problemi.
+
+caso Twig — ricostruzione dai log:
+11:28:43 — entry V6
+11:29:51 — prezzo: 0.00000071 (era 0.000034)
+in 68 secondi: da +5.7% a -97.9%.
+liquidità era ~$15k. un wallet ha venduto tutto in un blocco.
+il bot ha registrato stop_loss al check successivo. corretto.
+non si può fare niente contro questo tipo di evento con check 1min.
+aumentare la frequenza? no — aggrava il rischio 429 senza beneficio reale.
+classificato: rischio accettabile.
+
+buyer data RPC: ancora non validato. condizione (trade fresco ≤30min, pre-score ≥35)
+non si è presentata oggi in modo verificabile.
+domani continuo a monitorare.
+
+nota: dopo 48h con il nuovo check interval mi sembra che il sistema sia solido.
+i rischi identificati ieri sono sotto controllo o accettati.
+nessun nuovo rischio emerso oggi.
+
+--------------------------------------------------------------
+PLATFORM-1 | Tooling & Productivity
+--------------------------------------------------------------
+
+[primo giorno operativo]
+
+Claude:
+sonnet-4-6 = quello che usiamo. nessun update recente. stabile.
+opus-4-7 disponibile ma più lento e costoso. non serve per i nostri task.
+release notes Anthropic: lette. niente di critico questa settimana.
+
+GitHub CLI v2.67:
+changelog letto. niente di rilevante per il progetto.
+
+n8n:
+versione cloud stabile. changelog ultimi 30 giorni: niente di critico.
+sub-workflow: interessante per il futuro se vogliamo modularizzare le email.
+non urgente.
+
+GitHub Actions — questa è la cosa interessante:
+si può configurare un workflow .yml che gira ogni sera alle 19:50 CET
+e fa push automatico dei 3 file di report.
+effort: 2-3 ore. serve il token GitHub come secret nel repo.
+vantaggio concreto: CEO non deve ricordarsi di fare push manuale ogni sera.
+
+GitHub MCP server (Anthropic ufficiale):
+ho trovato che Anthropic ha rilasciato un MCP server ufficiale per GitHub.
+permette a Claude di fare direttamente operazioni GitHub (commit, push, PR, etc.)
+dalla conversazione, senza passare da bash o curl.
+potrebbe essere più comodo del push manuale attuale.
+da studiare bene domani per capire come si integra con il nostro setup.
+
+comunicato al CEO: due opportunità concrete:
+1. GitHub Actions auto-push report (effort basso, impatto immediato)
+2. GitHub MCP server (da studiare domani, più potente ma richiede setup)
+
+--------------------------------------------------------------
+ORG-2 | Operations & Organization
+--------------------------------------------------------------
+
+mattina:
+email delle 08:00 verificate.
+Team Briefing oggetto: "[INTERNO] Briefing Operativo — 20 aprile 2026" arrivato alle 08:02.
+dati nel briefing: quelli dell'ultima versione del json (aggiornato ieri sera). corretto.
+nota: l'email non è real-time, prende l'ultimo snapshot GitHub. accettabile.
+
+aggiornato RIPRENDERE_DA_QUI.txt.
+principali modifiche: SHA scanner, trade count 50→69, V6 con 3 trade, email workflows attivi,
+standard 3 output giornalieri.
+
+github /company/reports/: struttura pronta. file di ieri presenti. oggi va popolata.
+
+serale:
+coordinamento con CEO per 3 output.
+standard 3 file consolidato e salvato in memoria.
+
+nota: processo report è diventato più pesante con 3 file.
+se GitHub Actions si implementa, almeno il push sparisce.
+suggerito a Platform-1 di prioritizzarlo.
+
+--------------------------------------------------------------
+HISTORICAL-DATA-1
+--------------------------------------------------------------
+
+non attivato oggi.
+nessun task.
+in standby.
+
+==============================================================
+END OF RAW NOTES — 2026-04-20
+==============================================================
