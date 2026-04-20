@@ -13459,7 +13459,7 @@
     "confirmed": false
   },
   "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "BONK",
@@ -13480,6 +13480,11 @@
         "symbol": "MTS",
         "pairAddress": "35r9S7VeAEff18bMnP5vv2THD6B59JtxU3aECfPvUPsK",
         "entryTime": "2026-04-20T15:11:06.141Z"
+      },
+      {
+        "symbol": "Plumpshies",
+        "pairAddress": "2m4cWCy9VbXFkPBifZqBRHuVCs76w8FFNbFtVKAsTmrb",
+        "entryTime": "2026-04-20T22:25:40.243Z"
       }
     ],
     "wins": 0,
@@ -13487,7 +13492,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:07:09.111Z",
-    "lastSeen": "2026-04-20T15:11:06.141Z",
+    "lastSeen": "2026-04-20T22:25:40.243Z",
     "confirmed": true
   },
   "7z9YmHJzRKbQu6qq1a5THQYsGWbP3j5uuLsFENU5uBLB": {
