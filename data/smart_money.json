@@ -31832,12 +31832,17 @@
     "confirmed": false
   },
   "BaTpeaiy1xxhphsaZUgNzib25BE87K9ZLW7sfCPqBRzx": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KITTY",
         "pairAddress": "D4V4cC1qQo66fNwcQ8yULksa3NuSsH2ZHkBKqn44enaS",
         "entryTime": "2026-04-20T21:10:35.397Z"
+      },
+      {
+        "symbol": "UNSTMONEY",
+        "pairAddress": "JDBjM6jav65JuJ1R822HnuRbPUBirm2kzLjExsSjB4qw",
+        "entryTime": "2026-04-20T21:24:36.834Z"
       }
     ],
     "wins": 0,
@@ -31845,7 +31850,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T21:10:35.397Z",
-    "lastSeen": "2026-04-20T21:10:35.397Z",
+    "lastSeen": "2026-04-20T21:24:36.834Z",
     "confirmed": false
   },
   "EuzhpF6QNnMpgXeAtkYkdRCuKhWWVokF1z1Xh9kPaLjh": {
@@ -32033,6 +32038,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T21:15:56.078Z",
     "lastSeen": "2026-04-20T21:15:56.078Z",
+    "confirmed": false
+  },
+  "2GFqvKgSCnroaSQFpnTKhEWpeeftqTserHiWtsb9XhKq": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNSTMONEY",
+        "pairAddress": "JDBjM6jav65JuJ1R822HnuRbPUBirm2kzLjExsSjB4qw",
+        "entryTime": "2026-04-20T21:24:36.834Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T21:24:36.834Z",
+    "lastSeen": "2026-04-20T21:24:36.834Z",
     "confirmed": false
   }
 }
