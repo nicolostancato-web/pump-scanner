@@ -16281,5 +16281,22 @@
     "firstSeen": "2026-04-20T02:05:45.060Z",
     "lastSeen": "2026-04-20T02:05:45.060Z",
     "confirmed": false
+  },
+  "B574ZCZjVg4TJagtp2jKq1hgxm4G5uFuaAEqsWCttW8V": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HOLD",
+        "pairAddress": "4BDd8MzUX48UPSixFb1jG56mUzt2w5cvCGo4if12o7TW",
+        "entryTime": "2026-04-20T02:06:17.979Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T02:06:17.979Z",
+    "lastSeen": "2026-04-20T02:06:17.979Z",
+    "confirmed": false
   }
 }
