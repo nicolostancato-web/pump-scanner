@@ -25097,7 +25097,7 @@
     "confirmed": false
   },
   "zWJ5aMqndkXZ2ry3g2SgFQAtu1cmXBLoCyzvBqKvUeq": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "MILKUNC",
@@ -25108,6 +25108,11 @@
         "symbol": "SOUROPOD",
         "pairAddress": "2gLhydQZwF2Me81MxDhA9FGi77Ns21XWRPfThyDGgnFK",
         "entryTime": "2026-04-20T17:06:59.353Z"
+      },
+      {
+        "symbol": "LONELINESS",
+        "pairAddress": "P8Bt9Z3JHd74qHQbqFGMAedoWfRKJQNBxGJzkAH7XVh",
+        "entryTime": "2026-04-20T21:50:51.778Z"
       }
     ],
     "wins": 0,
@@ -25115,8 +25120,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T14:33:32.674Z",
-    "lastSeen": "2026-04-20T17:06:59.353Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T21:50:51.778Z",
+    "confirmed": true
   },
   "H4L1B6qg5vv9Pb5wvqcxbaw9bEpJSEWAQVfJjQgwqvtJ": {
     "appearances": 1,
@@ -32493,6 +32498,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T21:50:19.064Z",
     "lastSeen": "2026-04-20T21:50:19.064Z",
+    "confirmed": false
+  },
+  "6mAHkEZ8iPcPQyXvEF73GeFbXVg6WDqrNe2u1bVsYUUP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LONELINESS",
+        "pairAddress": "P8Bt9Z3JHd74qHQbqFGMAedoWfRKJQNBxGJzkAH7XVh",
+        "entryTime": "2026-04-20T21:50:51.778Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T21:50:51.778Z",
+    "lastSeen": "2026-04-20T21:50:51.778Z",
     "confirmed": false
   }
 }
