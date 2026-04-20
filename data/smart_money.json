@@ -8473,7 +8473,7 @@
     "confirmed": false
   },
   "HZBmjtgG8MDownvB9wTLTRN2stjozUBwDaBUhUpybvrm": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "FOMO",
@@ -8484,6 +8484,11 @@
         "symbol": "home-seq",
         "pairAddress": "8i1tSN99qFW33nSXBKMRg121j8sQ9owfmGYi5VL2kqYi",
         "entryTime": "2026-04-19T23:57:30.837Z"
+      },
+      {
+        "symbol": "MILKUNC",
+        "pairAddress": "A9j7W1xxSZLRBZAAERWKMGjfKQPwn9jkg4Np7EEhnPP2",
+        "entryTime": "2026-04-20T14:37:59.530Z"
       }
     ],
     "wins": 0,
@@ -8491,8 +8496,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:08:36.062Z",
-    "lastSeen": "2026-04-19T23:57:30.837Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T14:37:59.530Z",
+    "confirmed": true
   },
   "AspQgF7QQ7nfRhUta2dauT3b3zyrQJebuBhubxvFeo6m": {
     "appearances": 1,
@@ -24752,6 +24757,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T14:37:18.816Z",
     "lastSeen": "2026-04-20T14:37:18.816Z",
+    "confirmed": false
+  },
+  "9cQPpz846Goz7CyriZkNDWK87pZawGdZmYgUrv3F1h3j": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MILKUNC",
+        "pairAddress": "A9j7W1xxSZLRBZAAERWKMGjfKQPwn9jkg4Np7EEhnPP2",
+        "entryTime": "2026-04-20T14:37:59.530Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T14:37:59.530Z",
+    "lastSeen": "2026-04-20T14:37:59.530Z",
     "confirmed": false
   }
 }
