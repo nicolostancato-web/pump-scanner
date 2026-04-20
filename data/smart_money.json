@@ -12624,7 +12624,7 @@
     "confirmed": false
   },
   "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "BONK",
@@ -12635,6 +12635,11 @@
         "symbol": "home-seq",
         "pairAddress": "8i1tSN99qFW33nSXBKMRg121j8sQ9owfmGYi5VL2kqYi",
         "entryTime": "2026-04-19T23:53:07.037Z"
+      },
+      {
+        "symbol": "Spritzer",
+        "pairAddress": "F99wpF2DVkWDpwgRQrYG45dsCXMRXBMuhQhA1QwL4Wfu",
+        "entryTime": "2026-04-20T01:18:27.199Z"
       }
     ],
     "wins": 0,
@@ -12642,8 +12647,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:07:09.111Z",
-    "lastSeen": "2026-04-19T23:53:07.037Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T01:18:27.199Z",
+    "confirmed": true
   },
   "7z9YmHJzRKbQu6qq1a5THQYsGWbP3j5uuLsFENU5uBLB": {
     "appearances": 1,
@@ -14878,6 +14883,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T01:17:42.132Z",
     "lastSeen": "2026-04-20T01:17:42.132Z",
+    "confirmed": false
+  },
+  "GUorHs5KuAC2685sJ6P6rwq8i2JNbaM1Jhw62dCDvRY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Spritzer",
+        "pairAddress": "F99wpF2DVkWDpwgRQrYG45dsCXMRXBMuhQhA1QwL4Wfu",
+        "entryTime": "2026-04-20T01:18:27.199Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T01:18:27.199Z",
+    "lastSeen": "2026-04-20T01:18:27.199Z",
     "confirmed": false
   }
 }
