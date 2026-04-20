@@ -13248,12 +13248,17 @@
     "confirmed": false
   },
   "Aop91KkNRco3eV99pyXCDxk23hfAkAD8PsUsTEumS4Uf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "vibetrading",
         "pairAddress": "FXQmiNweD5LRZAQUYbKB3wouk9aLxUTAmpwKvN5wLmW6",
         "entryTime": "2026-04-19T23:22:47.461Z"
+      },
+      {
+        "symbol": "Bean",
+        "pairAddress": "GZFykYDwX9Dm215NRDnjbXucfWsRQk8qZCxAY1rLcMre",
+        "entryTime": "2026-04-20T12:41:44.460Z"
       }
     ],
     "wins": 0,
@@ -13261,7 +13266,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:22:47.461Z",
-    "lastSeen": "2026-04-19T23:22:47.461Z",
+    "lastSeen": "2026-04-20T12:41:44.460Z",
     "confirmed": false
   },
   "2APNha83Qb5z6qFvKyLPYoCVHa6dSWXZ14hW4wqVivy5": {
