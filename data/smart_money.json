@@ -1223,7 +1223,7 @@
     "confirmed": true
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1254,6 +1254,11 @@
         "symbol": "SPY",
         "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
         "entryTime": "2026-04-20T13:54:14.873Z"
+      },
+      {
+        "symbol": "MILKUNC",
+        "pairAddress": "A9j7W1xxSZLRBZAAERWKMGjfKQPwn9jkg4Np7EEhnPP2",
+        "entryTime": "2026-04-20T14:44:13.114Z"
       }
     ],
     "wins": 0,
@@ -1261,7 +1266,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:52:57.318Z",
-    "lastSeen": "2026-04-20T13:54:14.873Z",
+    "lastSeen": "2026-04-20T14:44:13.114Z",
     "confirmed": true
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
@@ -24966,6 +24971,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T14:43:41.523Z",
     "lastSeen": "2026-04-20T14:43:41.523Z",
+    "confirmed": false
+  },
+  "9v85dqnviQ9z9SP4WpzD48WHhWTejdBo2J8gcoAAD1YA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MILKUNC",
+        "pairAddress": "A9j7W1xxSZLRBZAAERWKMGjfKQPwn9jkg4Np7EEhnPP2",
+        "entryTime": "2026-04-20T14:44:13.114Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T14:44:13.114Z",
+    "lastSeen": "2026-04-20T14:44:13.114Z",
     "confirmed": false
   }
 }
