@@ -14767,7 +14767,7 @@
     "confirmed": false
   },
   "AYo5yYa5h2i2iCrsdLNFbtS8DAvwWtiAj3KPurx2DKch": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "HIGHER",
@@ -14778,6 +14778,11 @@
         "symbol": "stoned",
         "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
         "entryTime": "2026-04-20T05:34:33.130Z"
+      },
+      {
+        "symbol": "MIM",
+        "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
+        "entryTime": "2026-04-20T15:32:50.566Z"
       }
     ],
     "wins": 0,
@@ -14785,8 +14790,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T00:34:16.495Z",
-    "lastSeen": "2026-04-20T05:34:33.130Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T15:32:50.566Z",
+    "confirmed": true
   },
   "9xEiHidnHTqS3JN41TxKSCgZxRyQnJuQXrX1sK9PdqyR": {
     "appearances": 1,
