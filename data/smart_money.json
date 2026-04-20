@@ -19491,12 +19491,17 @@
     "confirmed": false
   },
   "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SMB",
         "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
         "entryTime": "2026-04-20T05:03:07.042Z"
+      },
+      {
+        "symbol": "MARYJ",
+        "pairAddress": "HFLpjcKT8F2xJs5qvi3sAH8nKPtBC3nLt3Mb61Qv3h75",
+        "entryTime": "2026-04-20T23:47:20.370Z"
       }
     ],
     "wins": 0,
@@ -19504,7 +19509,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T05:03:07.042Z",
-    "lastSeen": "2026-04-20T05:03:07.042Z",
+    "lastSeen": "2026-04-20T23:47:20.370Z",
     "confirmed": false
   },
   "6rkvdZSvu5aQjK4Tizx128onfp5eWx3wnRM6svnY2dfj": {
@@ -25239,12 +25244,17 @@
     "confirmed": true
   },
   "H4L1B6qg5vv9Pb5wvqcxbaw9bEpJSEWAQVfJjQgwqvtJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "trust",
         "pairAddress": "2weQgoJvvG72ZRThjn1euX37WoZeNtoMxWizP1qmQaLK",
         "entryTime": "2026-04-20T14:34:02.096Z"
+      },
+      {
+        "symbol": "MARYJ",
+        "pairAddress": "HFLpjcKT8F2xJs5qvi3sAH8nKPtBC3nLt3Mb61Qv3h75",
+        "entryTime": "2026-04-20T23:47:20.370Z"
       }
     ],
     "wins": 0,
@@ -25252,7 +25262,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T14:34:02.096Z",
-    "lastSeen": "2026-04-20T14:34:02.096Z",
+    "lastSeen": "2026-04-20T23:47:20.370Z",
     "confirmed": false
   },
   "AJ4MpzK4iZgYAwXnSYefuciV2TFx5Ypd8pEcyRvQ7Dow": {
