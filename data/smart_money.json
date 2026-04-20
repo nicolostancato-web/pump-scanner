@@ -10158,7 +10158,7 @@
     "confirmed": false
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "SOLANA",
@@ -10184,6 +10184,11 @@
         "symbol": "ASMORA",
         "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
         "entryTime": "2026-04-20T16:55:10.188Z"
+      },
+      {
+        "symbol": "papu",
+        "pairAddress": "CpFzRevnWnX9B9H4VyHvcLEWoc2UCkPZ3bV9CHx13fKb",
+        "entryTime": "2026-04-20T18:14:40.680Z"
       }
     ],
     "wins": 0,
@@ -10191,7 +10196,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T19:56:30.047Z",
-    "lastSeen": "2026-04-20T16:55:10.188Z",
+    "lastSeen": "2026-04-20T18:14:40.680Z",
     "confirmed": true
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
