@@ -14872,12 +14872,17 @@
     "confirmed": false
   },
   "C7rFxkjvBrMnabh5sWhMjfgGxSGJCddKUXsSzZcUHF6F": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Spritzer",
         "pairAddress": "F99wpF2DVkWDpwgRQrYG45dsCXMRXBMuhQhA1QwL4Wfu",
         "entryTime": "2026-04-20T01:06:06.699Z"
+      },
+      {
+        "symbol": "SMB",
+        "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
+        "entryTime": "2026-04-20T05:07:42.302Z"
       }
     ],
     "wins": 0,
@@ -14885,7 +14890,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T01:06:06.699Z",
-    "lastSeen": "2026-04-20T01:06:06.699Z",
+    "lastSeen": "2026-04-20T05:07:42.302Z",
     "confirmed": false
   },
   "ALGx5wDAE4aWbskSinv4J2t6eaq5czhFHvZgA8CBh88S": {
@@ -18534,6 +18539,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T05:03:39.849Z",
     "lastSeen": "2026-04-20T05:03:39.849Z",
+    "confirmed": false
+  },
+  "i5t7PczfEQWvsnpMa5bSiSQLFGz8u6CRmcmPWtQ4RRN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SMB",
+        "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
+        "entryTime": "2026-04-20T05:07:42.302Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T05:07:42.302Z",
+    "lastSeen": "2026-04-20T05:07:42.302Z",
     "confirmed": false
   }
 }
