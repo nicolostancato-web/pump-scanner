@@ -7455,7 +7455,7 @@
     "confirmed": false
   },
   "9LFiTup5RpWNLgUcDbF87YFHqT9as43AYG8LG39Yj9p3": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "ADHD",
@@ -7476,6 +7476,11 @@
         "symbol": "MTS",
         "pairAddress": "35r9S7VeAEff18bMnP5vv2THD6B59JtxU3aECfPvUPsK",
         "entryTime": "2026-04-20T15:28:59.945Z"
+      },
+      {
+        "symbol": "MIM",
+        "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
+        "entryTime": "2026-04-20T15:42:20.630Z"
       }
     ],
     "wins": 0,
@@ -7483,7 +7488,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:38:25.794Z",
-    "lastSeen": "2026-04-20T15:28:59.945Z",
+    "lastSeen": "2026-04-20T15:42:20.630Z",
     "confirmed": true
   },
   "3iTVVWraBYVuoEodJyFFswkG2494WedtpSaQKMbCJGuG": {
@@ -25127,7 +25132,7 @@
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "MILKUNC",
@@ -25138,6 +25143,11 @@
         "symbol": "MTS",
         "pairAddress": "35r9S7VeAEff18bMnP5vv2THD6B59JtxU3aECfPvUPsK",
         "entryTime": "2026-04-20T15:16:08.861Z"
+      },
+      {
+        "symbol": "MIM",
+        "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
+        "entryTime": "2026-04-20T15:42:20.630Z"
       }
     ],
     "wins": 0,
@@ -25145,8 +25155,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T14:46:09.328Z",
-    "lastSeen": "2026-04-20T15:16:08.861Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T15:42:20.630Z",
+    "confirmed": true
   },
   "FWtcuUaoLPWsR3AVGX6EXQojFxpdTiFvyTZXRLiuncMS": {
     "appearances": 1,
