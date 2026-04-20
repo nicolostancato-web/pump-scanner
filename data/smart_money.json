@@ -10253,12 +10253,17 @@
     "confirmed": false
   },
   "dNCfA3LsdZrNXyryXQe8QBcSrgUUXcMJUHrPk489Ur1": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CULTURE",
         "pairAddress": "9CqDRirayxPuqzGGQtucPHNm8BpCGjSBqPqK68YRhqvK",
         "entryTime": "2026-04-19T20:38:58.285Z"
+      },
+      {
+        "symbol": "Spritzer",
+        "pairAddress": "F99wpF2DVkWDpwgRQrYG45dsCXMRXBMuhQhA1QwL4Wfu",
+        "entryTime": "2026-04-20T01:01:37.834Z"
       }
     ],
     "wins": 0,
@@ -10266,7 +10271,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T20:38:58.285Z",
-    "lastSeen": "2026-04-19T20:38:58.285Z",
+    "lastSeen": "2026-04-20T01:01:37.834Z",
     "confirmed": false
   },
   "9zCr6Xv2HgRwQm7ema9ScAibo1TUUL29TNoUJqtrah26": {
@@ -14732,6 +14737,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T01:01:06.962Z",
     "lastSeen": "2026-04-20T01:01:06.962Z",
+    "confirmed": false
+  },
+  "HK9wA25ZnjBsmmx1LjuqXghHQhNFSqfAebggCAwLJuKH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Spritzer",
+        "pairAddress": "F99wpF2DVkWDpwgRQrYG45dsCXMRXBMuhQhA1QwL4Wfu",
+        "entryTime": "2026-04-20T01:01:37.834Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T01:01:37.834Z",
+    "lastSeen": "2026-04-20T01:01:37.834Z",
     "confirmed": false
   }
 }
