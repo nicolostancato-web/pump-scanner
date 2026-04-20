@@ -170,7 +170,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "🟪",
@@ -206,6 +206,11 @@
         "symbol": "Gooner",
         "pairAddress": "2Qs2Uf9QHuK9XeXSscLuKxSSfCbbv8ejHy12FS4Pti9J",
         "entryTime": "2026-04-20T02:59:21.249Z"
+      },
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:26:01.751Z"
       }
     ],
     "wins": 0,
@@ -213,7 +218,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T08:47:28.962Z",
-    "lastSeen": "2026-04-20T02:59:21.249Z",
+    "lastSeen": "2026-04-20T08:26:01.751Z",
     "confirmed": true
   },
   "BE8hDRjkcWbnPcUcs3V88HQuJjdTfRXG8zuNSR1HsKq4": {
