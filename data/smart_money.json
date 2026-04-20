@@ -27537,12 +27537,17 @@
     "confirmed": false
   },
   "5Fc7Q1EpPVnhgeUw2fYk8N2jGK9kaa5Pi7MH12CuyRPF": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOUROPOD",
         "pairAddress": "2gLhydQZwF2Me81MxDhA9FGi77Ns21XWRPfThyDGgnFK",
         "entryTime": "2026-04-20T17:02:50.263Z"
+      },
+      {
+        "symbol": "DPUMP",
+        "pairAddress": "FP59eZH5fFvNvVr7ZwQmofxCS97TtrNPEV4bRYmZWXbg",
+        "entryTime": "2026-04-20T18:50:02.672Z"
       }
     ],
     "wins": 0,
@@ -27550,7 +27555,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T17:02:50.263Z",
-    "lastSeen": "2026-04-20T17:02:50.263Z",
+    "lastSeen": "2026-04-20T18:50:02.672Z",
     "confirmed": false
   },
   "HWMxRC4X7LY79cexzP8S8LqcQGhRzKpTUAuGZxxYmGz8": {
