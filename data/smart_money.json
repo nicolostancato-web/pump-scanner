@@ -1161,7 +1161,7 @@
     "confirmed": false
   },
   "ARqJ18xaBLrEJYARaYHxfRKSi1pB7dZjwq1NW6Fiuieb": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1172,6 +1172,11 @@
         "symbol": "ETH",
         "pairAddress": "Ee6gEvRWbn5ebWsRj1Mu3gZSRkZg4pokGED9mt23EU9M",
         "entryTime": "2026-04-19T22:03:53.704Z"
+      },
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:34:53.418Z"
       }
     ],
     "wins": 0,
@@ -1179,8 +1184,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:50:29.539Z",
-    "lastSeen": "2026-04-19T22:03:53.704Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T08:34:53.418Z",
+    "confirmed": true
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
     "appearances": 4,
@@ -20975,6 +20980,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T08:34:15.651Z",
     "lastSeen": "2026-04-20T08:34:15.651Z",
+    "confirmed": false
+  },
+  "F7gi7wQjSzXecSHjdExrqo2eYLcGxhgVdr8oArP29MZ2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:34:53.418Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T08:34:53.418Z",
+    "lastSeen": "2026-04-20T08:34:53.418Z",
     "confirmed": false
   }
 }
