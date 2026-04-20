@@ -13117,7 +13117,7 @@
     "confirmed": false
   },
   "FAsTGaAPJVBBvcKVvTzPZRWZ1EX3QN2v781EVemhW7PK": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "vibetrading",
@@ -13133,6 +13133,11 @@
         "symbol": "HIGHER",
         "pairAddress": "Dc11jmEfe4kFFt9p26X8ACfPshdDMakNcZo7Vs3jbsFi",
         "entryTime": "2026-04-20T00:34:16.495Z"
+      },
+      {
+        "symbol": "Spritzer",
+        "pairAddress": "F99wpF2DVkWDpwgRQrYG45dsCXMRXBMuhQhA1QwL4Wfu",
+        "entryTime": "2026-04-20T01:00:33.888Z"
       }
     ],
     "wins": 0,
@@ -13140,7 +13145,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:27:06.781Z",
-    "lastSeen": "2026-04-20T00:34:16.495Z",
+    "lastSeen": "2026-04-20T01:00:33.888Z",
     "confirmed": true
   },
   "49ywc2WyTpa1Qbb5mc67a3ToiyZps6YWTUxKBk3ZQ9Ep": {
@@ -14688,6 +14693,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T00:59:48.580Z",
     "lastSeen": "2026-04-20T00:59:48.580Z",
+    "confirmed": false
+  },
+  "FNYYShBXXgt1nhCnbayku5XFKWWgRPtCBXvUgxEUmezF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Spritzer",
+        "pairAddress": "F99wpF2DVkWDpwgRQrYG45dsCXMRXBMuhQhA1QwL4Wfu",
+        "entryTime": "2026-04-20T01:00:33.888Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T01:00:33.888Z",
+    "lastSeen": "2026-04-20T01:00:33.888Z",
     "confirmed": false
   }
 }
