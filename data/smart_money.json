@@ -1325,7 +1325,7 @@
     "confirmed": true
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1341,6 +1341,11 @@
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:58:11.487Z"
+      },
+      {
+        "symbol": "Openhuman",
+        "pairAddress": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
+        "entryTime": "2026-04-20T17:26:30.242Z"
       }
     ],
     "wins": 0,
@@ -1348,7 +1353,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:53:32.853Z",
-    "lastSeen": "2026-04-20T15:58:11.487Z",
+    "lastSeen": "2026-04-20T17:26:30.242Z",
     "confirmed": true
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
