@@ -891,7 +891,7 @@
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 12,
+    "appearances": 13,
     "tokens": [
       {
         "symbol": "Jared",
@@ -952,6 +952,11 @@
         "symbol": "33",
         "pairAddress": "ERqUBLCb9KUheSRwXxzzziGUjpVLHsh9rSsFKuQ93XZJ",
         "entryTime": "2026-04-20T12:45:09.988Z"
+      },
+      {
+        "symbol": "defi",
+        "pairAddress": "CH5munZbfqLiLc2pXBmbMp5BYWr88gQQSHd4VhMz8d1u",
+        "entryTime": "2026-04-20T16:18:21.234Z"
       }
     ],
     "wins": 0,
@@ -959,7 +964,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:34:16.976Z",
-    "lastSeen": "2026-04-20T12:45:09.988Z",
+    "lastSeen": "2026-04-20T16:18:21.234Z",
     "confirmed": true
   },
   "D5e7wVqvV7AXaENstDoHPs2JTDq1L84VjNVGpryvDHEZ": {
@@ -24293,12 +24298,17 @@
     "confirmed": false
   },
   "8zws4rkYZGFX7G7uJ8x7WHFh5JLkSb5KePgwSVNkzsxu": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SPY",
         "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
         "entryTime": "2026-04-20T13:46:23.538Z"
+      },
+      {
+        "symbol": "defi",
+        "pairAddress": "CH5munZbfqLiLc2pXBmbMp5BYWr88gQQSHd4VhMz8d1u",
+        "entryTime": "2026-04-20T16:18:21.234Z"
       }
     ],
     "wins": 0,
@@ -24306,7 +24316,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T13:46:23.538Z",
-    "lastSeen": "2026-04-20T13:46:23.538Z",
+    "lastSeen": "2026-04-20T16:18:21.234Z",
     "confirmed": false
   },
   "AjBVnBJzDnsjHjeLTLziHUonvBohDHpjrdPUuW6MVmS2": {
