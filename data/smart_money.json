@@ -30155,12 +30155,17 @@
     "confirmed": false
   },
   "5CMT9MTMhDMHvXqgdNFcxXZdShcnLSRZVUsRfuiJri91": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BRO",
         "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
         "entryTime": "2026-04-20T19:58:36.415Z"
+      },
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:33:58.869Z"
       }
     ],
     "wins": 0,
@@ -30168,7 +30173,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T19:58:36.415Z",
-    "lastSeen": "2026-04-20T19:58:36.415Z",
+    "lastSeen": "2026-04-20T20:33:58.869Z",
     "confirmed": false
   },
   "GspK7rn9c9NaFNHPg6KKuRMTfUz15Hb7qZtCSAJPNCRt": {
@@ -31070,6 +31075,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T20:33:26.426Z",
     "lastSeen": "2026-04-20T20:33:26.426Z",
+    "confirmed": false
+  },
+  "CVgjZxryUQ7Pi4nWhVSG6NyKv4UDsoMoVog6nZMKfwvv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:33:58.869Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T20:33:58.869Z",
+    "lastSeen": "2026-04-20T20:33:58.869Z",
     "confirmed": false
   }
 }
