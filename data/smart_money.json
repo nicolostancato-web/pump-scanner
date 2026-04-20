@@ -2638,7 +2638,7 @@
     "confirmed": false
   },
   "3vNb7Lo9Xc8DBKhBfvzq8q1zUUca42BTDATRJmYrwrJK": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Imagine",
@@ -2664,6 +2664,11 @@
         "symbol": "PDM",
         "pairAddress": "J7Ja5JVCkCLDZnQnmv8v1PMcJsXs1xCJUKZzYCr9gEM9",
         "entryTime": "2026-04-20T10:48:27.655Z"
+      },
+      {
+        "symbol": "FAZE",
+        "pairAddress": "CQijMgrevez2ESijuKXbwrr1FGaZqgQBkKWzJLfnqbEn",
+        "entryTime": "2026-04-20T12:02:44.560Z"
       }
     ],
     "wins": 0,
@@ -2671,7 +2676,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T12:54:33.319Z",
-    "lastSeen": "2026-04-20T10:48:27.655Z",
+    "lastSeen": "2026-04-20T12:02:44.560Z",
     "confirmed": true
   },
   "8Lw1fjhtZk11QkwhYcTSEYqKXyLmtA33FuH7dMVQiy33": {
@@ -22436,6 +22441,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T12:02:07.357Z",
     "lastSeen": "2026-04-20T12:02:07.357Z",
+    "confirmed": false
+  },
+  "wEH7Hfsz5QDwoPx8JKAsRao2BU7QD4TDgBZXu5ysc7M": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FAZE",
+        "pairAddress": "CQijMgrevez2ESijuKXbwrr1FGaZqgQBkKWzJLfnqbEn",
+        "entryTime": "2026-04-20T12:02:44.560Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T12:02:44.560Z",
+    "lastSeen": "2026-04-20T12:02:44.560Z",
     "confirmed": false
   }
 }
