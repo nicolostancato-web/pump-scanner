@@ -170,7 +170,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "🟪",
@@ -216,6 +216,11 @@
         "symbol": "GayHormuz",
         "pairAddress": "4GcmNRu6yQhp7wJQgxBVhh91uJtgme8W6hzNtjki6fvZ",
         "entryTime": "2026-04-20T11:55:33.454Z"
+      },
+      {
+        "symbol": "FAZE",
+        "pairAddress": "CQijMgrevez2ESijuKXbwrr1FGaZqgQBkKWzJLfnqbEn",
+        "entryTime": "2026-04-20T12:07:53.961Z"
       }
     ],
     "wins": 0,
@@ -223,7 +228,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T08:47:28.962Z",
-    "lastSeen": "2026-04-20T11:55:33.454Z",
+    "lastSeen": "2026-04-20T12:07:53.961Z",
     "confirmed": true
   },
   "BE8hDRjkcWbnPcUcs3V88HQuJjdTfRXG8zuNSR1HsKq4": {
@@ -22560,6 +22565,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T12:05:18.492Z",
     "lastSeen": "2026-04-20T12:05:18.492Z",
+    "confirmed": false
+  },
+  "AXYsJqW6xocLM3k2DZ1F33Xajmd7HH526UsbejSExhEo": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FAZE",
+        "pairAddress": "CQijMgrevez2ESijuKXbwrr1FGaZqgQBkKWzJLfnqbEn",
+        "entryTime": "2026-04-20T12:07:53.961Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T12:07:53.961Z",
+    "lastSeen": "2026-04-20T12:07:53.961Z",
     "confirmed": false
   }
 }
