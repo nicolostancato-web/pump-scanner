@@ -19719,12 +19719,17 @@
     "confirmed": false
   },
   "GAKjtJeQh8gkdtPzDoYZzAZS1GauEvwmHTfPT6GiAEm6": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PUMPETH",
         "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
         "entryTime": "2026-04-20T06:45:58.031Z"
+      },
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:24:16.462Z"
       }
     ],
     "wins": 0,
@@ -19732,7 +19737,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T06:45:58.031Z",
-    "lastSeen": "2026-04-20T06:45:58.031Z",
+    "lastSeen": "2026-04-20T08:24:16.462Z",
     "confirmed": false
   },
   "89EXUUKHN2mi5ocGB2tZuMoXW4pv6936a3WcGGZyugMw": {
@@ -20656,6 +20661,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T08:23:41.186Z",
     "lastSeen": "2026-04-20T08:23:41.186Z",
+    "confirmed": false
+  },
+  "HXRYDBZyaHT8YdXC4F9QkUzRD75KRvFGEDcQMTuUGh1S": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:24:16.462Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T08:24:16.462Z",
+    "lastSeen": "2026-04-20T08:24:16.462Z",
     "confirmed": false
   }
 }
