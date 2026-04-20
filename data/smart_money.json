@@ -2769,7 +2769,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Imagine",
@@ -2795,6 +2795,11 @@
         "symbol": "T'Challa",
         "pairAddress": "EpNRGSMQsZ4STsveuxRkXwa77MTdq2iJn7WASz1xmtTu",
         "entryTime": "2026-04-20T11:30:06.679Z"
+      },
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:32:15.380Z"
       }
     ],
     "wins": 0,
@@ -2802,7 +2807,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T12:54:01.546Z",
-    "lastSeen": "2026-04-20T11:30:06.679Z",
+    "lastSeen": "2026-04-20T20:32:15.380Z",
     "confirmed": true
   },
   "HAXDgmCEdQgy4WzV5qP88WS3kfzxDmk4rPc1o5Ao9FyF": {
@@ -30980,6 +30985,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T20:31:41.283Z",
     "lastSeen": "2026-04-20T20:31:41.283Z",
+    "confirmed": false
+  },
+  "2X43mSHJJ5FG3VdYuDwv7jF1BaArpZMHgpgadeVuLGAw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:32:15.380Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T20:32:15.380Z",
+    "lastSeen": "2026-04-20T20:32:15.380Z",
     "confirmed": false
   }
 }
