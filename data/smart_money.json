@@ -19815,7 +19815,7 @@
     "confirmed": false
   },
   "3JKsYEix4VgXN8mexdo5xUWXBSdpGXjAz5TMAPbpuuWe": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "stoned",
@@ -19826,6 +19826,11 @@
         "symbol": "TUSK",
         "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
         "entryTime": "2026-04-20T08:36:06.137Z"
+      },
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:38:19.498Z"
       }
     ],
     "wins": 0,
@@ -19833,8 +19838,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T05:33:59.613Z",
-    "lastSeen": "2026-04-20T08:36:06.137Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T20:38:19.498Z",
+    "confirmed": true
   },
   "4c1tMoWc8T4hkL4yNBtTz9DSRL4yoixMoh9k5pW4jLTE": {
     "appearances": 1,
