@@ -867,7 +867,7 @@
     "confirmed": false
   },
   "9RAufBfjGQjDfrwxeyKmZWPADHSb8HcoqCdrmpqvCr1g": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "LP",
@@ -883,6 +883,11 @@
         "symbol": "ONBOARD",
         "pairAddress": "kBFojDvM2y918MeBcpjwMQBbiC29feNWAKvZiwz3cp2",
         "entryTime": "2026-04-20T19:07:23.159Z"
+      },
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:36:35.748Z"
       }
     ],
     "wins": 0,
@@ -890,7 +895,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:33:49.803Z",
-    "lastSeen": "2026-04-20T19:07:23.159Z",
+    "lastSeen": "2026-04-20T20:36:35.748Z",
     "confirmed": true
   },
   "HBa2XD6gfk8r3hVWWhHq6pH8D8yztozX62n9qrzjXpHu": {
