@@ -2765,7 +2765,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "LIGHTNING",
@@ -2781,6 +2781,11 @@
         "symbol": "KICAU",
         "pairAddress": "4nqnf3Z936sK5mDmy9bxSDxNCCpfUTzezVkArx2gZGBm",
         "entryTime": "2026-04-20T02:33:19.378Z"
+      },
+      {
+        "symbol": "SMB",
+        "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
+        "entryTime": "2026-04-20T05:03:07.042Z"
       }
     ],
     "wins": 0,
@@ -2788,7 +2793,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T13:27:45.309Z",
-    "lastSeen": "2026-04-20T02:33:19.378Z",
+    "lastSeen": "2026-04-20T05:03:07.042Z",
     "confirmed": true
   },
   "2nhfv2PXLc4ujUw8DdWxjQC5iWL1Wj9nB555pLaaFZpd": {
@@ -18478,6 +18483,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T05:00:32.960Z",
     "lastSeen": "2026-04-20T05:00:32.960Z",
+    "confirmed": false
+  },
+  "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SMB",
+        "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
+        "entryTime": "2026-04-20T05:03:07.042Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T05:03:07.042Z",
+    "lastSeen": "2026-04-20T05:03:07.042Z",
     "confirmed": false
   }
 }
