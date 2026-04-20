@@ -1328,7 +1328,7 @@
     "confirmed": true
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 12,
+    "appearances": 13,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1389,6 +1389,11 @@
         "symbol": "punc",
         "pairAddress": "12Yvy3SoFRMUeJcU6cYP63goBJVtAM7UhVXyg7h1htVe",
         "entryTime": "2026-04-20T19:26:28.259Z"
+      },
+      {
+        "symbol": "GME",
+        "pairAddress": "4xH46rUB6ZmSPeY24jvX1ynE7WzwNSibTyUPgZezFrfg",
+        "entryTime": "2026-04-20T23:27:51.757Z"
       }
     ],
     "wins": 0,
@@ -1396,7 +1401,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:52:57.318Z",
-    "lastSeen": "2026-04-20T19:26:28.259Z",
+    "lastSeen": "2026-04-20T23:27:51.757Z",
     "confirmed": true
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
