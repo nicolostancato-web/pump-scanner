@@ -1367,7 +1367,7 @@
     "confirmed": true
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1418,6 +1418,11 @@
         "symbol": "SOUROPOD",
         "pairAddress": "2gLhydQZwF2Me81MxDhA9FGi77Ns21XWRPfThyDGgnFK",
         "entryTime": "2026-04-20T17:04:43.324Z"
+      },
+      {
+        "symbol": "big",
+        "pairAddress": "7AEonzURkwfNwUVSVgCohDfMQZF9iT4aodpZoSzsWnFB",
+        "entryTime": "2026-04-20T18:59:43.828Z"
       }
     ],
     "wins": 0,
@@ -1425,7 +1430,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:53:32.853Z",
-    "lastSeen": "2026-04-20T17:04:43.324Z",
+    "lastSeen": "2026-04-20T18:59:43.828Z",
     "confirmed": true
   },
   "DWtzV1ScNts9zHJkNA3rkqzN1KvhGFSNMrxYRNN2mCWA": {
@@ -29021,6 +29026,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T18:59:10.799Z",
     "lastSeen": "2026-04-20T18:59:10.799Z",
+    "confirmed": false
+  },
+  "26s474YydS67TZadqtEvgQuDEmEsBkHLHNDXm96SGN8E": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "big",
+        "pairAddress": "7AEonzURkwfNwUVSVgCohDfMQZF9iT4aodpZoSzsWnFB",
+        "entryTime": "2026-04-20T18:59:43.828Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T18:59:43.828Z",
+    "lastSeen": "2026-04-20T18:59:43.828Z",
     "confirmed": false
   }
 }
