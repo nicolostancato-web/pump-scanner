@@ -14083,7 +14083,7 @@
     "confirmed": false
   },
   "49AyuVKRvCmgXpxAb1raXYa5MhMHDyMRnTLZrpkBaUvD": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "HIGHER",
@@ -14094,6 +14094,11 @@
         "symbol": "KICAU",
         "pairAddress": "4nqnf3Z936sK5mDmy9bxSDxNCCpfUTzezVkArx2gZGBm",
         "entryTime": "2026-04-20T02:29:39.281Z"
+      },
+      {
+        "symbol": "stoned",
+        "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
+        "entryTime": "2026-04-20T05:34:33.130Z"
       }
     ],
     "wins": 0,
@@ -14101,8 +14106,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T00:20:18.877Z",
-    "lastSeen": "2026-04-20T02:29:39.281Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T05:34:33.130Z",
+    "confirmed": true
   },
   "83vkmUDCxfy4CNAixFM2kwcuswL8Wx4SMSocDUTp9B6W": {
     "appearances": 1,
@@ -14377,12 +14382,17 @@
     "confirmed": false
   },
   "AYo5yYa5h2i2iCrsdLNFbtS8DAvwWtiAj3KPurx2DKch": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "HIGHER",
         "pairAddress": "Dc11jmEfe4kFFt9p26X8ACfPshdDMakNcZo7Vs3jbsFi",
         "entryTime": "2026-04-20T00:34:16.495Z"
+      },
+      {
+        "symbol": "stoned",
+        "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
+        "entryTime": "2026-04-20T05:34:33.130Z"
       }
     ],
     "wins": 0,
@@ -14390,7 +14400,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T00:34:16.495Z",
-    "lastSeen": "2026-04-20T00:34:16.495Z",
+    "lastSeen": "2026-04-20T05:34:33.130Z",
     "confirmed": false
   },
   "9xEiHidnHTqS3JN41TxKSCgZxRyQnJuQXrX1sK9PdqyR": {
