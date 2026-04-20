@@ -18604,12 +18604,17 @@
     "confirmed": false
   },
   "2m6AnVjA4yJJ4nM2GBS4mA5TG2JxMQXUKVNvauVuiT4h": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MOONROCKS",
         "pairAddress": "3DySxBR9yTFt2Ju5SDT9a7a7Z3bevrUbBnBDrUcSkaPD",
         "entryTime": "2026-04-20T03:50:26.628Z"
+      },
+      {
+        "symbol": "Plumpshies",
+        "pairAddress": "2m4cWCy9VbXFkPBifZqBRHuVCs76w8FFNbFtVKAsTmrb",
+        "entryTime": "2026-04-20T22:09:00.737Z"
       }
     ],
     "wins": 0,
@@ -18617,7 +18622,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T03:50:26.628Z",
-    "lastSeen": "2026-04-20T03:50:26.628Z",
+    "lastSeen": "2026-04-20T22:09:00.737Z",
     "confirmed": false
   },
   "3MgopgexjR9ntqSZPdyB9v6yAvmux6sNKa7aF7wLapJZ": {
