@@ -10471,12 +10471,17 @@
     "confirmed": false
   },
   "7pAnxpALpHVPsJbKuzt2FKjHErj1kmNRrFBdRKWd6TNN": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CULTURE",
         "pairAddress": "9CqDRirayxPuqzGGQtucPHNm8BpCGjSBqPqK68YRhqvK",
         "entryTime": "2026-04-19T20:42:33.367Z"
+      },
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:51:38.143Z"
       }
     ],
     "wins": 0,
@@ -10484,7 +10489,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T20:42:33.367Z",
-    "lastSeen": "2026-04-19T20:42:33.367Z",
+    "lastSeen": "2026-04-20T06:51:38.143Z",
     "confirmed": false
   },
   "2BSXVfWVuLuLuKGf93TgCCbzx4P7t5TvCNwjfNrsXsQQ": {
@@ -19744,6 +19749,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T06:51:05.981Z",
     "lastSeen": "2026-04-20T06:51:05.981Z",
+    "confirmed": false
+  },
+  "Sm4qVtd2zqCR5bvDXXEfpQfYY7RfpuskgqFBQupAzom": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:51:38.143Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T06:51:38.143Z",
+    "lastSeen": "2026-04-20T06:51:38.143Z",
     "confirmed": false
   }
 }
