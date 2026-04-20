@@ -17595,7 +17595,7 @@
     "confirmed": false
   },
   "6xzdsrRyYvwu5M3z5cZFCDPfWzV1TZ1R19Anfz5NBNq7": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "KICAU",
@@ -17606,6 +17606,11 @@
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:35:27.943Z"
+      },
+      {
+        "symbol": "trust",
+        "pairAddress": "4SKX3RayFEUctaDcfCCagVW3cNvRTswzC21regvfMKVB",
+        "entryTime": "2026-04-20T20:07:18.337Z"
       }
     ],
     "wins": 0,
@@ -17613,8 +17618,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T02:27:47.411Z",
-    "lastSeen": "2026-04-20T15:35:27.943Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T20:07:18.337Z",
+    "confirmed": true
   },
   "FcHSEH2Mmb9P1hQSzguvzqC1hV1VGpBezsrBcooiLor8": {
     "appearances": 1,
@@ -30197,6 +30202,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T20:06:44.968Z",
     "lastSeen": "2026-04-20T20:06:44.968Z",
+    "confirmed": false
+  },
+  "8uLHNVyv33KftdcMUXyjqE2Kd1Fjyp1UMBrc7zo8Z6wM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "trust",
+        "pairAddress": "4SKX3RayFEUctaDcfCCagVW3cNvRTswzC21regvfMKVB",
+        "entryTime": "2026-04-20T20:07:18.337Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T20:07:18.337Z",
+    "lastSeen": "2026-04-20T20:07:18.337Z",
     "confirmed": false
   }
 }
