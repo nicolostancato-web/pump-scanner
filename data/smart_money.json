@@ -27405,7 +27405,7 @@
     "confirmed": false
   },
   "amd1RSK3aN3uM7A3GCBN9VEWnBPQFVfGYUgr6pKoLAQ": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "SS",
@@ -27426,6 +27426,11 @@
         "symbol": "LONELINESS",
         "pairAddress": "P8Bt9Z3JHd74qHQbqFGMAedoWfRKJQNBxGJzkAH7XVh",
         "entryTime": "2026-04-20T22:00:51.067Z"
+      },
+      {
+        "symbol": "GME",
+        "pairAddress": "EZ4ZVRbJSN5uruPzZPLPVQXGSEh4fkJ1pmtfsk1yfp1k",
+        "entryTime": "2026-04-20T23:01:50.493Z"
       }
     ],
     "wins": 0,
@@ -27433,7 +27438,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T16:31:18.719Z",
-    "lastSeen": "2026-04-20T22:00:51.067Z",
+    "lastSeen": "2026-04-20T23:01:50.493Z",
     "confirmed": true
   },
   "2YYSfGA4NoKLzgEWyNCRQbzReM6m13rcDhp1HVCL8XZN": {
@@ -34175,6 +34180,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T23:01:11.803Z",
     "lastSeen": "2026-04-20T23:01:11.803Z",
+    "confirmed": false
+  },
+  "GA4BkACwgGYyJsw243LtkAokDpHmbv34mmczSq52xWDT": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GME",
+        "pairAddress": "EZ4ZVRbJSN5uruPzZPLPVQXGSEh4fkJ1pmtfsk1yfp1k",
+        "entryTime": "2026-04-20T23:01:50.493Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T23:01:50.493Z",
+    "lastSeen": "2026-04-20T23:01:50.493Z",
     "confirmed": false
   }
 }
