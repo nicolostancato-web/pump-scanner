@@ -2628,12 +2628,17 @@
     "confirmed": false
   },
   "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Imagine",
         "pairAddress": "GYDsA4TkZ1VZiGGYc7AdpHFcXu7e7mDH9pTTWVjre9zb",
         "entryTime": "2026-04-19T12:58:06.411Z"
+      },
+      {
+        "symbol": "HOLD",
+        "pairAddress": "4BDd8MzUX48UPSixFb1jG56mUzt2w5cvCGo4if12o7TW",
+        "entryTime": "2026-04-20T02:11:54.056Z"
       }
     ],
     "wins": 0,
@@ -2641,7 +2646,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T12:58:06.411Z",
-    "lastSeen": "2026-04-19T12:58:06.411Z",
+    "lastSeen": "2026-04-20T02:11:54.056Z",
     "confirmed": false
   },
   "8iZ1TFmgdpsusT58e25Er6VNfBh8JtTxqXNdnsu5PHCf": {
