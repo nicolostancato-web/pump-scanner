@@ -12218,7 +12218,7 @@
     "confirmed": false
   },
   "7YG7KWsKtSFufv9NJap9YuSZxe8UYC5rMbEtuFogVKsn": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "MISA",
@@ -12229,6 +12229,11 @@
         "symbol": "TUSK",
         "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
         "entryTime": "2026-04-20T08:36:06.137Z"
+      },
+      {
+        "symbol": "CDM",
+        "pairAddress": "E7znJMjXoCCY45N2c47HyykfA4pJgMZEDHZmtzKPcLiT",
+        "entryTime": "2026-04-20T22:45:25.221Z"
       }
     ],
     "wins": 0,
@@ -12236,8 +12241,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T22:25:03.534Z",
-    "lastSeen": "2026-04-20T08:36:06.137Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T22:45:25.221Z",
+    "confirmed": true
   },
   "CGhakUjTnyBbYoSDJvjzYRJuxAk9BBsyY8a7ooamekAF": {
     "appearances": 1,
