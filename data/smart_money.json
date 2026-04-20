@@ -26221,12 +26221,17 @@
     "confirmed": false
   },
   "2dDKRkzdAGCUgeuqe864n1JE1EAuuy5jog2tW2VxL72s": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:39:02.911Z"
+      },
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:48:11.993Z"
       }
     ],
     "wins": 0,
@@ -26234,7 +26239,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:39:02.911Z",
-    "lastSeen": "2026-04-20T15:39:02.911Z",
+    "lastSeen": "2026-04-20T19:48:11.993Z",
     "confirmed": false
   },
   "TB3rT3HwinXwjaAsGSptAUwgezj7rTTEZyg4Tz1npUj": {
