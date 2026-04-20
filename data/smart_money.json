@@ -487,12 +487,17 @@
     "confirmed": false
   },
   "2tcghisXQNiK7wyLCviAD4B9LYbbWo5nZdppRG2uWyon": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "COPIUM",
         "pairAddress": "7gEZfi3kmspkDSCyAjzqtcCK841pzkAekcL2PxBkxtkS",
         "entryTime": "2026-04-19T09:51:37.829Z"
+      },
+      {
+        "symbol": "33",
+        "pairAddress": "ERqUBLCb9KUheSRwXxzzziGUjpVLHsh9rSsFKuQ93XZJ",
+        "entryTime": "2026-04-20T12:32:45.344Z"
       }
     ],
     "wins": 0,
@@ -500,7 +505,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T09:51:37.829Z",
-    "lastSeen": "2026-04-19T09:51:37.829Z",
+    "lastSeen": "2026-04-20T12:32:45.344Z",
     "confirmed": false
   },
   "2LdZK3KzJtjPQVUKm8mgVEfkDiJHirvacCf2hBHhNSqH": {
@@ -22706,6 +22711,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T12:32:05.940Z",
     "lastSeen": "2026-04-20T12:32:05.940Z",
+    "confirmed": false
+  },
+  "8EvexiLo6z6x3iTf3cYPeLJrU2huYW8hTgHGfLSK2RBS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "33",
+        "pairAddress": "ERqUBLCb9KUheSRwXxzzziGUjpVLHsh9rSsFKuQ93XZJ",
+        "entryTime": "2026-04-20T12:32:45.344Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T12:32:45.344Z",
+    "lastSeen": "2026-04-20T12:32:45.344Z",
     "confirmed": false
   }
 }
