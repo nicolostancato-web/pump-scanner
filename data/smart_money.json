@@ -26458,12 +26458,17 @@
     "confirmed": false
   },
   "91VyLw28TJyRY6eauq3gjAUPo1xb949v5XFK6noWZFk": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "defi",
         "pairAddress": "CH5munZbfqLiLc2pXBmbMp5BYWr88gQQSHd4VhMz8d1u",
         "entryTime": "2026-04-20T16:07:28.404Z"
+      },
+      {
+        "symbol": "SOUROPOD",
+        "pairAddress": "2gLhydQZwF2Me81MxDhA9FGi77Ns21XWRPfThyDGgnFK",
+        "entryTime": "2026-04-20T17:04:08.744Z"
       }
     ],
     "wins": 0,
@@ -26471,7 +26476,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T16:07:28.404Z",
-    "lastSeen": "2026-04-20T16:07:28.404Z",
+    "lastSeen": "2026-04-20T17:04:08.744Z",
     "confirmed": false
   },
   "2faV4mR3iT7twxQqMMJQ4vEmB7M7BRFNHUMQ5ksgGDF2": {
@@ -27388,6 +27393,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T17:03:32.504Z",
     "lastSeen": "2026-04-20T17:03:32.504Z",
+    "confirmed": false
+  },
+  "2MfKxhhBxh8Z7nZR9ahyDoTmcFh4JcFegc6uuvxmDJBZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOUROPOD",
+        "pairAddress": "2gLhydQZwF2Me81MxDhA9FGi77Ns21XWRPfThyDGgnFK",
+        "entryTime": "2026-04-20T17:04:08.744Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T17:04:08.744Z",
+    "lastSeen": "2026-04-20T17:04:08.744Z",
     "confirmed": false
   }
 }
