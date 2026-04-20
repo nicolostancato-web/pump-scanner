@@ -22822,7 +22822,7 @@
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "MLG",
@@ -22838,6 +22838,11 @@
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:49:09.135Z"
+      },
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:56:48.217Z"
       }
     ],
     "wins": 0,
@@ -22845,7 +22850,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T11:22:53.777Z",
-    "lastSeen": "2026-04-20T15:49:09.135Z",
+    "lastSeen": "2026-04-20T19:56:48.217Z",
     "confirmed": true
   },
   "zeronaXJsbvPZFmzytV4RPXWBHQGMFcRCvoYaDNPiRL": {
@@ -30065,6 +30070,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T19:56:11.720Z",
     "lastSeen": "2026-04-20T19:56:11.720Z",
+    "confirmed": false
+  },
+  "3G5ybdYGZsM16uvTVuNFecKPgEfqJL1jxAngjueq6aE9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:56:48.217Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T19:56:48.217Z",
+    "lastSeen": "2026-04-20T19:56:48.217Z",
     "confirmed": false
   }
 }
