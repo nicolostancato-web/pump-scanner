@@ -636,7 +636,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 24,
+    "appearances": 25,
     "tokens": [
       {
         "symbol": "LP",
@@ -757,6 +757,11 @@
         "symbol": "Plumpshies",
         "pairAddress": "2m4cWCy9VbXFkPBifZqBRHuVCs76w8FFNbFtVKAsTmrb",
         "entryTime": "2026-04-20T22:10:04.569Z"
+      },
+      {
+        "symbol": "MARYJ",
+        "pairAddress": "HFLpjcKT8F2xJs5qvi3sAH8nKPtBC3nLt3Mb61Qv3h75",
+        "entryTime": "2026-04-20T23:47:56.999Z"
       }
     ],
     "wins": 0,
@@ -764,7 +769,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:23:13.377Z",
-    "lastSeen": "2026-04-20T22:10:04.569Z",
+    "lastSeen": "2026-04-20T23:47:56.999Z",
     "confirmed": true
   },
   "CeyuoArHSdZk6D6Yz9w8kgJcEinpjkZcer6BVs5UYBL5": {
@@ -34487,6 +34492,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T23:34:09.496Z",
     "lastSeen": "2026-04-20T23:34:09.496Z",
+    "confirmed": false
+  },
+  "Ag6dPu4tqSUYbN1bH8t4jEKHPxpfF9JngU7XGbkTd6i": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MARYJ",
+        "pairAddress": "HFLpjcKT8F2xJs5qvi3sAH8nKPtBC3nLt3Mb61Qv3h75",
+        "entryTime": "2026-04-20T23:47:56.999Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T23:47:56.999Z",
+    "lastSeen": "2026-04-20T23:47:56.999Z",
     "confirmed": false
   }
 }
