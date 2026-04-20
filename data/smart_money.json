@@ -12940,12 +12940,17 @@
     "confirmed": false
   },
   "5aLY85pyxiuX3fd4RgM3Yc1e3MAL6b7UgaZz6MS3JUfG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BONK",
         "pairAddress": "7zuX5RXceNNeRxyLPBWzp275NEiaL1JXCQQbqwrcofGq",
         "entryTime": "2026-04-19T23:00:06.775Z"
+      },
+      {
+        "symbol": "DPUMP",
+        "pairAddress": "FP59eZH5fFvNvVr7ZwQmofxCS97TtrNPEV4bRYmZWXbg",
+        "entryTime": "2026-04-20T18:49:21.143Z"
       }
     ],
     "wins": 0,
@@ -12953,7 +12958,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:00:06.775Z",
-    "lastSeen": "2026-04-19T23:00:06.775Z",
+    "lastSeen": "2026-04-20T18:49:21.143Z",
     "confirmed": false
   },
   "GWm7AjgH58CcRvbWM5Lb3sia5Tf1cFnbuMFsNQqbtHu": {
@@ -28809,6 +28814,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T18:38:49.958Z",
     "lastSeen": "2026-04-20T18:38:49.958Z",
+    "confirmed": false
+  },
+  "dpumpDPgm2aUoji9rGKdDe3kMJJrternw6DEVud7uZv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DPUMP",
+        "pairAddress": "FP59eZH5fFvNvVr7ZwQmofxCS97TtrNPEV4bRYmZWXbg",
+        "entryTime": "2026-04-20T18:49:21.143Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T18:49:21.143Z",
+    "lastSeen": "2026-04-20T18:49:21.143Z",
     "confirmed": false
   }
 }
