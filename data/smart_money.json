@@ -12033,12 +12033,17 @@
     "confirmed": false
   },
   "APUYxGfKmJL7dJbve8k6k2ANeLUqAvLJKCBzr3ujL62G": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BONK",
         "pairAddress": "7zuX5RXceNNeRxyLPBWzp275NEiaL1JXCQQbqwrcofGq",
         "entryTime": "2026-04-19T22:53:22.124Z"
+      },
+      {
+        "symbol": "HIGHER",
+        "pairAddress": "Dc11jmEfe4kFFt9p26X8ACfPshdDMakNcZo7Vs3jbsFi",
+        "entryTime": "2026-04-20T00:37:31.066Z"
       }
     ],
     "wins": 0,
@@ -12046,7 +12051,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T22:53:22.124Z",
-    "lastSeen": "2026-04-19T22:53:22.124Z",
+    "lastSeen": "2026-04-20T00:37:31.066Z",
     "confirmed": false
   },
   "F4Qso9Q5s9semfnpz5z185m1DE8L9LuWhRyhwbUjy8uq": {
