@@ -10051,12 +10051,17 @@
     "confirmed": false
   },
   "CV3HikuRXnXMp9c9Dg5aDeFtFPV5b9sHTo91SJk4hxGE": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Neiro",
         "pairAddress": "AhJ65Ro8dgfEp2Ycqfyg6nZaycxUbxsghBUG2MubS6Tg",
         "entryTime": "2026-04-19T20:28:47.356Z"
+      },
+      {
+        "symbol": "AB",
+        "pairAddress": "Gj2EkmxbvVAGeUnp8akBTvJFvdWcrQW3f4w1vCExgYQw",
+        "entryTime": "2026-04-20T04:01:48.313Z"
       }
     ],
     "wins": 0,
@@ -10064,7 +10069,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T20:28:47.356Z",
-    "lastSeen": "2026-04-19T20:28:47.356Z",
+    "lastSeen": "2026-04-20T04:01:48.313Z",
     "confirmed": false
   },
   "Bf4DVD7GP2VYcsu78PX77bXYtzvYS3Wo5b9EZ73xPGsV": {
@@ -18106,6 +18111,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T04:01:04.052Z",
     "lastSeen": "2026-04-20T04:01:04.052Z",
+    "confirmed": false
+  },
+  "E5jnsQsDAqco7QR2asVVwrt5H9UPr379Q1dxwbxHZHh5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AB",
+        "pairAddress": "Gj2EkmxbvVAGeUnp8akBTvJFvdWcrQW3f4w1vCExgYQw",
+        "entryTime": "2026-04-20T04:01:48.313Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T04:01:48.313Z",
+    "lastSeen": "2026-04-20T04:01:48.313Z",
     "confirmed": false
   }
 }
