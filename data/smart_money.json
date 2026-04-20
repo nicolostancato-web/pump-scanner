@@ -13791,12 +13791,17 @@
     "confirmed": false
   },
   "4ajdtZmLBcnwsWVcCsHpr2AZFHyBe6fid561G7Qbjq9j": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "vibetrading",
         "pairAddress": "FXQmiNweD5LRZAQUYbKB3wouk9aLxUTAmpwKvN5wLmW6",
         "entryTime": "2026-04-19T23:25:26.112Z"
+      },
+      {
+        "symbol": "DPUMP",
+        "pairAddress": "FP59eZH5fFvNvVr7ZwQmofxCS97TtrNPEV4bRYmZWXbg",
+        "entryTime": "2026-04-20T18:51:06.211Z"
       }
     ],
     "wins": 0,
@@ -13804,7 +13809,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:25:26.112Z",
-    "lastSeen": "2026-04-19T23:25:26.112Z",
+    "lastSeen": "2026-04-20T18:51:06.211Z",
     "confirmed": false
   },
   "DFrFyujUhhLVkbqSgaGd8MUzq3CGoEp2XWmCjyc5Rk47": {
@@ -28836,6 +28841,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T18:49:21.143Z",
     "lastSeen": "2026-04-20T18:49:21.143Z",
+    "confirmed": false
+  },
+  "Gy7EH5id7MAzSBi754CqijdAH9vkFK26K8mWfX7TXjnu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DPUMP",
+        "pairAddress": "FP59eZH5fFvNvVr7ZwQmofxCS97TtrNPEV4bRYmZWXbg",
+        "entryTime": "2026-04-20T18:51:06.211Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T18:51:06.211Z",
+    "lastSeen": "2026-04-20T18:51:06.211Z",
     "confirmed": false
   }
 }
