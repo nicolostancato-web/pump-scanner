@@ -29112,5 +29112,22 @@
     "firstSeen": "2026-04-20T19:03:14.256Z",
     "lastSeen": "2026-04-20T19:03:14.256Z",
     "confirmed": false
+  },
+  "21aTJwoRkkVSWt7kKrQnRXyEWJwKqXkDYap17b2yTXLS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ONBOARD",
+        "pairAddress": "kBFojDvM2y918MeBcpjwMQBbiC29feNWAKvZiwz3cp2",
+        "entryTime": "2026-04-20T19:06:10.910Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T19:06:10.910Z",
+    "lastSeen": "2026-04-20T19:06:10.910Z",
+    "confirmed": false
   }
 }
