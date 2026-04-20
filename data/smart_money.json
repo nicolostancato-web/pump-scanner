@@ -5881,7 +5881,7 @@
     "confirmed": false
   },
   "STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "cock",
@@ -5892,6 +5892,11 @@
         "symbol": "HIGHER",
         "pairAddress": "Dc11jmEfe4kFFt9p26X8ACfPshdDMakNcZo7Vs3jbsFi",
         "entryTime": "2026-04-20T00:20:51.392Z"
+      },
+      {
+        "symbol": "stoned",
+        "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
+        "entryTime": "2026-04-20T05:46:32.047Z"
       }
     ],
     "wins": 0,
@@ -5899,8 +5904,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T15:56:32.994Z",
-    "lastSeen": "2026-04-20T00:20:51.392Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T05:46:32.047Z",
+    "confirmed": true
   },
   "ELbMcFeB4fAGgQ66cgyBtQWHWkyi6vGxiXMwXz4krtmq": {
     "appearances": 1,
