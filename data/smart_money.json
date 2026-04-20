@@ -170,7 +170,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "🟪",
@@ -201,6 +201,11 @@
         "symbol": "Asteroid",
         "pairAddress": "DwtHRaoWFTahcN5Tg24WbQsGfVMmuPxjrvgzM2kMFhck",
         "entryTime": "2026-04-20T01:51:02.325Z"
+      },
+      {
+        "symbol": "Gooner",
+        "pairAddress": "2Qs2Uf9QHuK9XeXSscLuKxSSfCbbv8ejHy12FS4Pti9J",
+        "entryTime": "2026-04-20T02:59:21.249Z"
       }
     ],
     "wins": 0,
@@ -208,7 +213,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T08:47:28.962Z",
-    "lastSeen": "2026-04-20T01:51:02.325Z",
+    "lastSeen": "2026-04-20T02:59:21.249Z",
     "confirmed": true
   },
   "BE8hDRjkcWbnPcUcs3V88HQuJjdTfRXG8zuNSR1HsKq4": {
@@ -17221,6 +17226,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T02:56:38.259Z",
     "lastSeen": "2026-04-20T02:56:38.259Z",
+    "confirmed": false
+  },
+  "8LbzNGWDm22FtaJ2z9QvKzsVYtnb3VtF4yu2m5UK1d6T": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Gooner",
+        "pairAddress": "2Qs2Uf9QHuK9XeXSscLuKxSSfCbbv8ejHy12FS4Pti9J",
+        "entryTime": "2026-04-20T02:59:21.249Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T02:59:21.249Z",
+    "lastSeen": "2026-04-20T02:59:21.249Z",
     "confirmed": false
   }
 }
