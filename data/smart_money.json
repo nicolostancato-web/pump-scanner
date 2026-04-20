@@ -13092,7 +13092,7 @@
     "confirmed": false
   },
   "FAsTGaAPJVBBvcKVvTzPZRWZ1EX3QN2v781EVemhW7PK": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "vibetrading",
@@ -13103,6 +13103,11 @@
         "symbol": "home-seq",
         "pairAddress": "8i1tSN99qFW33nSXBKMRg121j8sQ9owfmGYi5VL2kqYi",
         "entryTime": "2026-04-19T23:49:00.620Z"
+      },
+      {
+        "symbol": "HIGHER",
+        "pairAddress": "Dc11jmEfe4kFFt9p26X8ACfPshdDMakNcZo7Vs3jbsFi",
+        "entryTime": "2026-04-20T00:34:16.495Z"
       }
     ],
     "wins": 0,
@@ -13110,8 +13115,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:27:06.781Z",
-    "lastSeen": "2026-04-19T23:49:00.620Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T00:34:16.495Z",
+    "confirmed": true
   },
   "49ywc2WyTpa1Qbb5mc67a3ToiyZps6YWTUxKBk3ZQ9Ep": {
     "appearances": 1,
@@ -14199,6 +14204,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T00:29:39.754Z",
     "lastSeen": "2026-04-20T00:29:39.754Z",
+    "confirmed": false
+  },
+  "AYo5yYa5h2i2iCrsdLNFbtS8DAvwWtiAj3KPurx2DKch": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HIGHER",
+        "pairAddress": "Dc11jmEfe4kFFt9p26X8ACfPshdDMakNcZo7Vs3jbsFi",
+        "entryTime": "2026-04-20T00:34:16.495Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T00:34:16.495Z",
+    "lastSeen": "2026-04-20T00:34:16.495Z",
     "confirmed": false
   }
 }
