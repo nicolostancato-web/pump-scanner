@@ -7450,7 +7450,7 @@
     "confirmed": false
   },
   "9LFiTup5RpWNLgUcDbF87YFHqT9as43AYG8LG39Yj9p3": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "ADHD",
@@ -7466,6 +7466,11 @@
         "symbol": "MILKUNC",
         "pairAddress": "A9j7W1xxSZLRBZAAERWKMGjfKQPwn9jkg4Np7EEhnPP2",
         "entryTime": "2026-04-20T14:45:31.786Z"
+      },
+      {
+        "symbol": "MTS",
+        "pairAddress": "35r9S7VeAEff18bMnP5vv2THD6B59JtxU3aECfPvUPsK",
+        "entryTime": "2026-04-20T15:28:59.945Z"
       }
     ],
     "wins": 0,
@@ -7473,7 +7478,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:38:25.794Z",
-    "lastSeen": "2026-04-20T14:45:31.786Z",
+    "lastSeen": "2026-04-20T15:28:59.945Z",
     "confirmed": true
   },
   "3iTVVWraBYVuoEodJyFFswkG2494WedtpSaQKMbCJGuG": {
