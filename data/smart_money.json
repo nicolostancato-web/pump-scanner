@@ -25585,5 +25585,22 @@
     "firstSeen": "2026-04-20T15:11:06.141Z",
     "lastSeen": "2026-04-20T15:11:06.141Z",
     "confirmed": false
+  },
+  "J4xHmS1hspupKSw3E9GXbf9qwDaxTF6FSfKHWZk92FTx": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MTS",
+        "pairAddress": "35r9S7VeAEff18bMnP5vv2THD6B59JtxU3aECfPvUPsK",
+        "entryTime": "2026-04-20T15:15:33.139Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T15:15:33.139Z",
+    "lastSeen": "2026-04-20T15:15:33.139Z",
+    "confirmed": false
   }
 }
