@@ -2316,12 +2316,17 @@
     "confirmed": false
   },
   "GoGwzcrERJPqEu1bQ1EL3Xfwr4ZqLBPvDgKZhnC4goq6": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "UET",
         "pairAddress": "6eamRENmNV21BxVfdVbP5DuFzfpxLMGbszLpf3HdE7sD",
         "entryTime": "2026-04-19T12:26:25.777Z"
+      },
+      {
+        "symbol": "CDM",
+        "pairAddress": "E7znJMjXoCCY45N2c47HyykfA4pJgMZEDHZmtzKPcLiT",
+        "entryTime": "2026-04-20T22:47:59.875Z"
       }
     ],
     "wins": 0,
@@ -2329,7 +2334,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T12:26:25.777Z",
-    "lastSeen": "2026-04-19T12:26:25.777Z",
+    "lastSeen": "2026-04-20T22:47:59.875Z",
     "confirmed": false
   },
   "EkU67Z8QxxfJvdkmX65US5mhJu2mmccjtJdU9FKyQXLX": {
@@ -33771,6 +33776,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T22:44:48.319Z",
     "lastSeen": "2026-04-20T22:44:48.319Z",
+    "confirmed": false
+  },
+  "FmjhKqivLzsQW7DA5BnAkH8JgY2ou4LsrTPZdk3uN1sb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CDM",
+        "pairAddress": "E7znJMjXoCCY45N2c47HyykfA4pJgMZEDHZmtzKPcLiT",
+        "entryTime": "2026-04-20T22:47:59.875Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T22:47:59.875Z",
+    "lastSeen": "2026-04-20T22:47:59.875Z",
     "confirmed": false
   }
 }
