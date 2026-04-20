@@ -6870,12 +6870,17 @@
     "confirmed": false
   },
   "tefsDGYz1qc3F52ckPPxaVqxwbCuJkheoEhzyFDumyf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ADHD",
         "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
         "entryTime": "2026-04-19T16:31:26.105Z"
+      },
+      {
+        "symbol": "SMB",
+        "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
+        "entryTime": "2026-04-20T05:11:49.088Z"
       }
     ],
     "wins": 0,
@@ -6883,7 +6888,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:31:26.105Z",
-    "lastSeen": "2026-04-19T16:31:26.105Z",
+    "lastSeen": "2026-04-20T05:11:49.088Z",
     "confirmed": false
   },
   "3o2yEsDvon4DbWaLkUmLTdjLY4PFMAVy8G9o9irHzPZa": {
@@ -18656,6 +18661,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T05:11:18.981Z",
     "lastSeen": "2026-04-20T05:11:18.981Z",
+    "confirmed": false
+  },
+  "4v16KDAvxPg9XKKzAheqQAHiKcEQD9aaoLjmJK2z6Qkv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SMB",
+        "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
+        "entryTime": "2026-04-20T05:11:49.088Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T05:11:49.088Z",
+    "lastSeen": "2026-04-20T05:11:49.088Z",
     "confirmed": false
   }
 }
