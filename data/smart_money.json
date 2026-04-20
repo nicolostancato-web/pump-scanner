@@ -1905,12 +1905,17 @@
     "confirmed": false
   },
   "H6vc6i17LfKZSZD84pDJK9mvXZa5CtfhaHNhQeSnkKp9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PEPEv27",
         "pairAddress": "4C9Vfa6hXJ7XARxw2mYKnWXTMZSXQqxaUKDyer6hnqQ9",
         "entryTime": "2026-04-19T12:12:27.382Z"
+      },
+      {
+        "symbol": "0x",
+        "pairAddress": "Dpcmz4D9tmiFomifpLSLpwLZrb3mqNYhmB6GGTYGmQjX",
+        "entryTime": "2026-04-20T13:04:42.595Z"
       }
     ],
     "wins": 0,
@@ -1918,7 +1923,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T12:12:27.382Z",
-    "lastSeen": "2026-04-19T12:12:27.382Z",
+    "lastSeen": "2026-04-20T13:04:42.595Z",
     "confirmed": false
   },
   "CErcya1rhbgfETvdXzYFijoxP7CbcuFvKE6Xc3m94wTT": {
