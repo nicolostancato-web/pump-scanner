@@ -5510,12 +5510,17 @@
     "confirmed": false
   },
   "44Rj5DvAUhmUA1samZDpo6rCx9hvbBhSAQ9rnUiYJWe4": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "UYU",
         "pairAddress": "E9nU9vhTwxrFy4Xj9bKpR2KeYMxpA6hY9WL1ykmijVsF",
         "entryTime": "2026-04-19T15:42:08.069Z"
+      },
+      {
+        "symbol": "KICAU",
+        "pairAddress": "4nqnf3Z936sK5mDmy9bxSDxNCCpfUTzezVkArx2gZGBm",
+        "entryTime": "2026-04-20T02:33:53.200Z"
       }
     ],
     "wins": 0,
@@ -5523,7 +5528,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T15:42:08.069Z",
-    "lastSeen": "2026-04-19T15:42:08.069Z",
+    "lastSeen": "2026-04-20T02:33:53.200Z",
     "confirmed": false
   },
   "4LGyxFC4ErZ1NmATnwyKrRRtsZVBskVF3vutLMdyqDLX": {
@@ -16929,6 +16934,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T02:33:19.378Z",
     "lastSeen": "2026-04-20T02:33:19.378Z",
+    "confirmed": false
+  },
+  "AMUqocjeRVSigvDB7vBDqcRbmZytuCYZkdZVj7NTopQW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "KICAU",
+        "pairAddress": "4nqnf3Z936sK5mDmy9bxSDxNCCpfUTzezVkArx2gZGBm",
+        "entryTime": "2026-04-20T02:33:53.200Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T02:33:53.200Z",
+    "lastSeen": "2026-04-20T02:33:53.200Z",
     "confirmed": false
   }
 }
