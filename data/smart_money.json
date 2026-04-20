@@ -6326,12 +6326,17 @@
     "confirmed": false
   },
   "2xkksgBia39Q8idD4AA7Ao7G7pqqz73nEZnT9JrKzvTY": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "cock",
         "pairAddress": "A7Za6NYNrNvrCiu3CxriVy1qonNnjWfyrArtCGTjcDA7",
         "entryTime": "2026-04-19T16:03:26.720Z"
+      },
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:30:20.568Z"
       }
     ],
     "wins": 0,
@@ -6339,7 +6344,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:03:26.720Z",
-    "lastSeen": "2026-04-19T16:03:26.720Z",
+    "lastSeen": "2026-04-20T06:30:20.568Z",
     "confirmed": false
   },
   "GqqsmTHXVJv5YDNfhtpMfkedoVYPNXyLbHbZwr5EJEsU": {
@@ -17713,12 +17718,17 @@
     "confirmed": false
   },
   "2QzUtVD6v1EMEpveTX2xzUuHGNSLaXY4XXMCi3U5tbMU": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MOONROCKS",
         "pairAddress": "3DySxBR9yTFt2Ju5SDT9a7a7Z3bevrUbBnBDrUcSkaPD",
         "entryTime": "2026-04-20T03:49:20.052Z"
+      },
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:30:20.568Z"
       }
     ],
     "wins": 0,
@@ -17726,7 +17736,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T03:49:20.052Z",
-    "lastSeen": "2026-04-20T03:49:20.052Z",
+    "lastSeen": "2026-04-20T06:30:20.568Z",
     "confirmed": false
   },
   "8pY1AukbuPgUE3EetyLa59rFLMimJGT94ZzbMEZcQF4w": {
