@@ -9073,7 +9073,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "soge",
@@ -9084,6 +9084,11 @@
         "symbol": "SOLANA",
         "pairAddress": "4KUYH47Rn15kiKvuDfMWd7j3KxYztKM5pZu5dCZXUwuz",
         "entryTime": "2026-04-19T19:58:08.539Z"
+      },
+      {
+        "symbol": "MLG",
+        "pairAddress": "5ypBX1cNxD8MBpivZhqU7CuaxgiG5MbLcYZsc5uuitu4",
+        "entryTime": "2026-04-20T10:27:11.716Z"
       }
     ],
     "wins": 0,
@@ -9091,8 +9096,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:54:54.671Z",
-    "lastSeen": "2026-04-19T19:58:08.539Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T10:27:11.716Z",
+    "confirmed": true
   },
   "FireuLYd4yjJBhXQyBs3Mq6ZpNEjyHPNPG2eqhTP9RHV": {
     "appearances": 1,
