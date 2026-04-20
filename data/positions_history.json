@@ -3700,7 +3700,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "A9j7W1xxSZLRBZAAERWKMGjfKQPwn9jkg4Np7EEhnPP2",
+      "mint": "GnJNzEbWD588zgDGgGnVM8PgM68BWrtfR8bqqCGtpump",
+      "name": "Milk UNC",
+      "symbol": "MILKUNC",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008773,
+      "entryMcap": 87731,
+      "entryTime": 1776696743233,
+      "score": 68,
+      "ageAtEntry": 28,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/a9j7w1xxszlrbzaaerwkmgjfkqpwn9jkg4np7eehnpp2",
+      "peakPrice": 0.00008773,
+      "peakMultiplier": 1,
+      "peakMcap": 87731,
+      "peakTime": 1776696743233,
+      "lastPrice": 0.00006067,
+      "lowestPrice": 0.00006067,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00006067,
+      "closeMultiplier": 0.6915536304570842,
+      "closedAt": "2026-04-20T14:54:24.051Z",
+      "durationMs": 120818,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00006067,
+        "closeMultiplier": 0.6915536304570842,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-20T14:54:24.051Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 4.357142857142857,
+        "floatRotation": 0.4141945264501715,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.4141945264501715,
+        "accel": 4.357142857142857,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(28min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(28min)",
+        "priceChg5m": 122,
+        "vol5m": 36337.7,
+        "buys5m": 244,
+        "sells5m": 221,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-20T14:30:43.695Z"
+  "lastSaved": "2026-04-20T14:54:25.389Z"
 }
