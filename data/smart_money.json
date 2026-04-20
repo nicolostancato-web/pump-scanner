@@ -631,7 +631,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 22,
+    "appearances": 23,
     "tokens": [
       {
         "symbol": "LP",
@@ -742,6 +742,11 @@
         "symbol": "SOUROPOD",
         "pairAddress": "2gLhydQZwF2Me81MxDhA9FGi77Ns21XWRPfThyDGgnFK",
         "entryTime": "2026-04-20T17:03:32.504Z"
+      },
+      {
+        "symbol": "Fountain",
+        "pairAddress": "DhpEsbvuUomvBYwMyaEUpTGJw8EJ4EkfVRVd4oXhgmtH",
+        "entryTime": "2026-04-20T21:43:16.523Z"
       }
     ],
     "wins": 0,
@@ -749,7 +754,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:23:13.377Z",
-    "lastSeen": "2026-04-20T17:03:32.504Z",
+    "lastSeen": "2026-04-20T21:43:16.523Z",
     "confirmed": true
   },
   "CeyuoArHSdZk6D6Yz9w8kgJcEinpjkZcer6BVs5UYBL5": {
@@ -32330,6 +32335,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T21:36:16.497Z",
     "lastSeen": "2026-04-20T21:36:16.497Z",
+    "confirmed": false
+  },
+  "CH6YdZrUpxxLAQdxT1dMZvVvBNkzwKhNTbaxWuiZULrm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Fountain",
+        "pairAddress": "DhpEsbvuUomvBYwMyaEUpTGJw8EJ4EkfVRVd4oXhgmtH",
+        "entryTime": "2026-04-20T21:43:16.523Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T21:43:16.523Z",
+    "lastSeen": "2026-04-20T21:43:16.523Z",
     "confirmed": false
   }
 }
