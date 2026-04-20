@@ -25995,12 +25995,17 @@
     "confirmed": false
   },
   "7U6rsKrxb7H8mVqnMWur2aVEfSTq13G57mg9EvL72nY1": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MTS",
         "pairAddress": "35r9S7VeAEff18bMnP5vv2THD6B59JtxU3aECfPvUPsK",
         "entryTime": "2026-04-20T15:11:06.141Z"
+      },
+      {
+        "symbol": "printa",
+        "pairAddress": "2M7WDdYBnw153K2BaVKqe8FB9DqqQsikuykfdRa4sBt9",
+        "entryTime": "2026-04-20T19:45:31.630Z"
       }
     ],
     "wins": 0,
@@ -26008,7 +26013,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:11:06.141Z",
-    "lastSeen": "2026-04-20T15:11:06.141Z",
+    "lastSeen": "2026-04-20T19:45:31.630Z",
     "confirmed": false
   },
   "J4xHmS1hspupKSw3E9GXbf9qwDaxTF6FSfKHWZk92FTx": {
@@ -29736,6 +29741,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T19:38:55.538Z",
     "lastSeen": "2026-04-20T19:38:55.538Z",
+    "confirmed": false
+  },
+  "DqZhYWKRzkyDLL2h2LpkMsEhC33gd1qMgm28LVBJRmSh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "printa",
+        "pairAddress": "2M7WDdYBnw153K2BaVKqe8FB9DqqQsikuykfdRa4sBt9",
+        "entryTime": "2026-04-20T19:45:31.630Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T19:45:31.630Z",
+    "lastSeen": "2026-04-20T19:45:31.630Z",
     "confirmed": false
   }
 }
