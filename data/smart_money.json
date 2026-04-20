@@ -17719,12 +17719,17 @@
     "confirmed": false
   },
   "4MB2yiq54PHkJ11YPoZGYgVzew9zFRRms41PAFoXaevg": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MOONROCKS",
         "pairAddress": "3DySxBR9yTFt2Ju5SDT9a7a7Z3bevrUbBnBDrUcSkaPD",
         "entryTime": "2026-04-20T03:42:48.910Z"
+      },
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:53:46.305Z"
       }
     ],
     "wins": 0,
@@ -17732,7 +17737,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T03:42:48.910Z",
-    "lastSeen": "2026-04-20T03:42:48.910Z",
+    "lastSeen": "2026-04-20T06:53:46.305Z",
     "confirmed": false
   },
   "FPHbTpGbQN3ivgUVwwoHqFnpvR5XsXKFrfeuGxE7Rts8": {
@@ -19851,6 +19856,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T06:53:14.440Z",
     "lastSeen": "2026-04-20T06:53:14.440Z",
+    "confirmed": false
+  },
+  "AFyU6YpKQ2p5uzbeM1k3mhAfi8WE14z97raPoFCeHBij": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:53:46.305Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T06:53:46.305Z",
+    "lastSeen": "2026-04-20T06:53:46.305Z",
     "confirmed": false
   }
 }
