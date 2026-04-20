@@ -25208,5 +25208,22 @@
     "firstSeen": "2026-04-20T14:51:12.689Z",
     "lastSeen": "2026-04-20T14:51:12.689Z",
     "confirmed": false
+  },
+  "3T6EMYL1k55YM6LsHvze378L9im8H237QZmgJ37WgVfF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHAOS",
+        "pairAddress": "EHavA3e94iD4TRgediGSFCKHGZMeg4YxNyxmuE8r1749",
+        "entryTime": "2026-04-20T14:51:48.215Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T14:51:48.215Z",
+    "lastSeen": "2026-04-20T14:51:48.215Z",
+    "confirmed": false
   }
 }
