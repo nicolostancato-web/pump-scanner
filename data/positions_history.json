@@ -4288,7 +4288,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "E7znJMjXoCCY45N2c47HyykfA4pJgMZEDHZmtzKPcLiT",
+      "mint": "2K2diVZfeT3PYRDHgkxMh4k88W6Cqp2vQi6uferwpump",
+      "name": "Chill Dumb Money",
+      "symbol": "CDM",
+      "dex": "pumpswap",
+      "entryPrice": 0.00009852,
+      "entryMcap": 98522,
+      "entryTime": 1776726386219,
+      "score": 67,
+      "ageAtEntry": 47,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/e7znjmjxoccy45n2c47hyykfa4pjgmzedhzmtzkpclit",
+      "peakPrice": 0.00009852,
+      "peakMultiplier": 1,
+      "peakMcap": 98522,
+      "peakTime": 1776726386219,
+      "lastPrice": 0.000002364,
+      "lowestPrice": 0.000002364,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002364,
+      "closeMultiplier": 0.023995127892813644,
+      "closedAt": "2026-04-20T23:07:25.594Z",
+      "durationMs": 59375,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000002364,
+        "closeMultiplier": 0.023995127892813644,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-20T23:07:25.594Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": 0.38553191489361704,
+        "floatRotation": 0.44654006211810554,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.44654006211810554,
+        "accel": 0.38553191489361704,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(47min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(47min)",
+        "priceChg5m": 18.12,
+        "vol5m": 43994.02,
+        "buys5m": 268,
+        "sells5m": 172,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-20T20:02:05.080Z"
+  "lastSaved": "2026-04-20T23:07:26.851Z"
 }
