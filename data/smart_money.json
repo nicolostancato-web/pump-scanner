@@ -9729,12 +9729,17 @@
     "confirmed": false
   },
   "5PZFtkh1y2jJZWoTSC9aukzVrQqoBEhyaoVK5NjVhsBd": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CLUD",
         "pairAddress": "AzKmfu3t5V9SaNW1MXd8AfcyypKaJjuu6u5yPsq2gbRb",
         "entryTime": "2026-04-19T19:33:37.357Z"
+      },
+      {
+        "symbol": "ASMORA",
+        "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
+        "entryTime": "2026-04-20T16:43:56.977Z"
       }
     ],
     "wins": 0,
@@ -9742,7 +9747,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T19:33:37.357Z",
-    "lastSeen": "2026-04-19T19:33:37.357Z",
+    "lastSeen": "2026-04-20T16:43:56.977Z",
     "confirmed": false
   },
   "32yfy8kqRnwt4mZki5B4k1Upc4skVwSP31Eq8wiuRGG6": {
@@ -27165,6 +27170,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T16:43:26.247Z",
     "lastSeen": "2026-04-20T16:43:26.247Z",
+    "confirmed": false
+  },
+  "HJQNP8w1REWZJ6RApvuyEb9NagURiUSQ4sDdhPfq86V7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASMORA",
+        "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
+        "entryTime": "2026-04-20T16:43:56.977Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T16:43:56.977Z",
+    "lastSeen": "2026-04-20T16:43:56.977Z",
     "confirmed": false
   }
 }
