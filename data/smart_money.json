@@ -6581,12 +6581,17 @@
     "confirmed": false
   },
   "3hABxPaFS81TSFv7E49VwQaGk9Cv5kBunbWdrYFKPP5R": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "cock",
         "pairAddress": "A7Za6NYNrNvrCiu3CxriVy1qonNnjWfyrArtCGTjcDA7",
         "entryTime": "2026-04-19T16:05:51.042Z"
+      },
+      {
+        "symbol": "MILKUNC",
+        "pairAddress": "A9j7W1xxSZLRBZAAERWKMGjfKQPwn9jkg4Np7EEhnPP2",
+        "entryTime": "2026-04-20T14:43:41.523Z"
       }
     ],
     "wins": 0,
@@ -6594,7 +6599,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:05:51.042Z",
-    "lastSeen": "2026-04-19T16:05:51.042Z",
+    "lastSeen": "2026-04-20T14:43:41.523Z",
     "confirmed": false
   },
   "Cy2JEc4T3cKmNeohPU4Gw2xT9KnWva3wQmsiE6H3GoZJ": {
@@ -24944,6 +24949,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T14:43:05.372Z",
     "lastSeen": "2026-04-20T14:43:05.372Z",
+    "confirmed": false
+  },
+  "hL8rYz4YSGP5nmp8YciGp7C6yh55NiJETXUBaNxR8bC": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MILKUNC",
+        "pairAddress": "A9j7W1xxSZLRBZAAERWKMGjfKQPwn9jkg4Np7EEhnPP2",
+        "entryTime": "2026-04-20T14:43:41.523Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T14:43:41.523Z",
+    "lastSeen": "2026-04-20T14:43:41.523Z",
     "confirmed": false
   }
 }
