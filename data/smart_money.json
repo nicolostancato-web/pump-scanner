@@ -18299,5 +18299,22 @@
     "firstSeen": "2026-04-20T04:08:28.024Z",
     "lastSeen": "2026-04-20T04:08:28.024Z",
     "confirmed": false
+  },
+  "AvEfZZr1bwgH2mojAKGL84zSzDEgmVezyAgqHnJUUupu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SMB",
+        "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
+        "entryTime": "2026-04-20T04:57:20.711Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T04:57:20.711Z",
+    "lastSeen": "2026-04-20T04:57:20.711Z",
+    "confirmed": false
   }
 }
