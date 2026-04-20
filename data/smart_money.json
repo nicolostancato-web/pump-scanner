@@ -31105,12 +31105,17 @@
     "confirmed": false
   },
   "3R1PGSzaPwVXEtJX83h7SzJAMGKJyq2TS34br7Cow8ZR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "slot",
         "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
         "entryTime": "2026-04-20T20:32:51.359Z"
+      },
+      {
+        "symbol": "Plumpshies",
+        "pairAddress": "2m4cWCy9VbXFkPBifZqBRHuVCs76w8FFNbFtVKAsTmrb",
+        "entryTime": "2026-04-20T22:05:17.247Z"
       }
     ],
     "wins": 0,
@@ -31118,7 +31123,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T20:32:51.359Z",
-    "lastSeen": "2026-04-20T20:32:51.359Z",
+    "lastSeen": "2026-04-20T22:05:17.247Z",
     "confirmed": false
   },
   "Ask9GpisbmpPBSyZoi3LsFhaZqSFqSf6GJh4oYxDzS1i": {
@@ -32671,6 +32676,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T22:04:37.530Z",
     "lastSeen": "2026-04-20T22:04:37.530Z",
+    "confirmed": false
+  },
+  "FUtQo752LuNXb23e5fRHrERCtX5BBxuVHPPzi7uagZQc": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Plumpshies",
+        "pairAddress": "2m4cWCy9VbXFkPBifZqBRHuVCs76w8FFNbFtVKAsTmrb",
+        "entryTime": "2026-04-20T22:05:17.247Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T22:05:17.247Z",
+    "lastSeen": "2026-04-20T22:05:17.247Z",
     "confirmed": false
   }
 }
