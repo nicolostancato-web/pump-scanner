@@ -7306,12 +7306,17 @@
     "confirmed": false
   },
   "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ADHD",
         "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
         "entryTime": "2026-04-19T16:36:55.281Z"
+      },
+      {
+        "symbol": "MLG",
+        "pairAddress": "3Jozo5un7Mpf1Nc6vL6VFkkE6DeQPeoVAFCUzC9zq1Hk",
+        "entryTime": "2026-04-20T10:51:25.289Z"
       }
     ],
     "wins": 0,
@@ -7319,7 +7324,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:36:55.281Z",
-    "lastSeen": "2026-04-19T16:36:55.281Z",
+    "lastSeen": "2026-04-20T10:51:25.289Z",
     "confirmed": false
   },
   "A7W8BXAEowzfHwPKTSJx8zP25hfifpXbt54xr11NtKid": {
@@ -22044,6 +22049,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T10:50:52.834Z",
     "lastSeen": "2026-04-20T10:50:52.834Z",
+    "confirmed": false
+  },
+  "EExUUmPCXzXE7WsWmALSSmZ63GitNFnCpwyqAqCrUL7o": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MLG",
+        "pairAddress": "3Jozo5un7Mpf1Nc6vL6VFkkE6DeQPeoVAFCUzC9zq1Hk",
+        "entryTime": "2026-04-20T10:51:25.289Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T10:51:25.289Z",
+    "lastSeen": "2026-04-20T10:51:25.289Z",
     "confirmed": false
   }
 }
