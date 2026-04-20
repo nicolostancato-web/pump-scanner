@@ -16946,12 +16946,17 @@
     "confirmed": false
   },
   "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KICAU",
         "pairAddress": "4nqnf3Z936sK5mDmy9bxSDxNCCpfUTzezVkArx2gZGBm",
         "entryTime": "2026-04-20T02:28:28.645Z"
+      },
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:42:17.796Z"
       }
     ],
     "wins": 0,
@@ -16959,7 +16964,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T02:28:28.645Z",
-    "lastSeen": "2026-04-20T02:28:28.645Z",
+    "lastSeen": "2026-04-20T06:42:17.796Z",
     "confirmed": false
   },
   "9jcH4FJk8AjXzCzACcxZ3tkDWwuu1vSr61eRmUqELMu": {
@@ -19622,6 +19627,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T06:37:40.720Z",
     "lastSeen": "2026-04-20T06:37:40.720Z",
+    "confirmed": false
+  },
+  "461ytfyRJ9eayDWUWTTR7uDKBfHLMpq9nuQqBWakEdJj": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:42:17.796Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T06:42:17.796Z",
+    "lastSeen": "2026-04-20T06:42:17.796Z",
     "confirmed": false
   }
 }
