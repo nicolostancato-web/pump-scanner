@@ -18007,12 +18007,17 @@
     "confirmed": false
   },
   "AEzdkzAomkFUXX4hAKFXT3u1YQ1Y4wdTHPSPYgjgiBJP": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AB",
         "pairAddress": "Gj2EkmxbvVAGeUnp8akBTvJFvdWcrQW3f4w1vCExgYQw",
         "entryTime": "2026-04-20T03:51:25.572Z"
+      },
+      {
+        "symbol": "PDM",
+        "pairAddress": "J7Ja5JVCkCLDZnQnmv8v1PMcJsXs1xCJUKZzYCr9gEM9",
+        "entryTime": "2026-04-20T10:49:00.759Z"
       }
     ],
     "wins": 0,
@@ -18020,7 +18025,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T03:51:25.572Z",
-    "lastSeen": "2026-04-20T03:51:25.572Z",
+    "lastSeen": "2026-04-20T10:49:00.759Z",
     "confirmed": false
   },
   "8nDz7DkJjruu5PdFkhZxpJ9sCoP9DA9q6R3GVZMw6HDu": {
