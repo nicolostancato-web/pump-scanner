@@ -8309,7 +8309,7 @@
     "confirmed": false
   },
   "9jnqZRq1vAztyZpWXprhmX5QQkRBHLHACPe5FaZFgkFh": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Lida",
@@ -8320,6 +8320,11 @@
         "symbol": "AB",
         "pairAddress": "Gj2EkmxbvVAGeUnp8akBTvJFvdWcrQW3f4w1vCExgYQw",
         "entryTime": "2026-04-20T03:59:02.114Z"
+      },
+      {
+        "symbol": "MIM",
+        "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
+        "entryTime": "2026-04-20T15:45:42.526Z"
       }
     ],
     "wins": 0,
@@ -8327,8 +8332,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T17:59:40.276Z",
-    "lastSeen": "2026-04-20T03:59:02.114Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T15:45:42.526Z",
+    "confirmed": true
   },
   "TwCo2LkMcLRfzsuXf1Nu7MMXNnCha4D16YH4nLL86LF": {
     "appearances": 1,
