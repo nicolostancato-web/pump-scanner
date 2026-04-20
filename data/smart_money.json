@@ -17569,12 +17569,17 @@
     "confirmed": false
   },
   "6P13nJ5xTnrLyNs9BYw6KaPFYWEwxxZuK3598cVowfgm": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MOONROCKS",
         "pairAddress": "3DySxBR9yTFt2Ju5SDT9a7a7Z3bevrUbBnBDrUcSkaPD",
         "entryTime": "2026-04-20T03:35:06.548Z"
+      },
+      {
+        "symbol": "MLG",
+        "pairAddress": "5ypBX1cNxD8MBpivZhqU7CuaxgiG5MbLcYZsc5uuitu4",
+        "entryTime": "2026-04-20T10:41:15.803Z"
       }
     ],
     "wins": 0,
@@ -17582,7 +17587,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T03:35:06.548Z",
-    "lastSeen": "2026-04-20T03:35:06.548Z",
+    "lastSeen": "2026-04-20T10:41:15.803Z",
     "confirmed": false
   },
   "3fRVo7kywxzfQh8fcwWtGxtfjLLdLefYAarrHdeeSJSF": {
