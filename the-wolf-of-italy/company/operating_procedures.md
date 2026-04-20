@@ -1,5 +1,21 @@
 # THE WOLF OF ITALY — PROCEDURE OPERATIVE GIORNALIERE
-**In vigore dal 2026-04-20**
+**In vigore dal 2026-04-20 — Aggiornato 2026-04-20**
+
+---
+
+## REGOLE DI COMUNICAZIONE (PRIORITÀ ASSOLUTA)
+
+**Identità:** Tutta la comunicazione usa The Wolf of Italy, CEO, nome team, funzione. Mai nomi personali dei fondatori.
+
+**Formato report investitori (A-F):**
+- A) Executive Summary — dove stiamo vedendo profitto
+- B) Top 3-5 opportunità — tabella: Opportunità | Come fa soldi | Scala | Velocità | Crypto-OK
+- C) Perché possono fare soldi — concreta, no teoria
+- D) Scalabilità — crescita senza aumentare costi
+- E) Compatibilità Digitale & Wallet Crypto
+- F) Raccomandazione finale — una risposta netta
+
+**Filtro opportunità obbligatorio:** digitale, globale, scalabile, alta marginalità, bassa presenza umana, attivabile rapido, crypto-compatibile. ❌ No asset fisici, no business locali, no B2B tradizionale lento.
 
 ---
 
