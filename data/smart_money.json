@@ -22497,7 +22497,7 @@
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "MLG",
@@ -22508,6 +22508,11 @@
         "symbol": "SPY",
         "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
         "entryTime": "2026-04-20T14:03:49.877Z"
+      },
+      {
+        "symbol": "MIM",
+        "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
+        "entryTime": "2026-04-20T15:49:09.135Z"
       }
     ],
     "wins": 0,
@@ -22515,8 +22520,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T11:22:53.777Z",
-    "lastSeen": "2026-04-20T14:03:49.877Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T15:49:09.135Z",
+    "confirmed": true
   },
   "zeronaXJsbvPZFmzytV4RPXWBHQGMFcRCvoYaDNPiRL": {
     "appearances": 1,
