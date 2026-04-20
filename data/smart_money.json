@@ -2775,7 +2775,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "LIGHTNING",
@@ -2796,6 +2796,11 @@
         "symbol": "SMB",
         "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
         "entryTime": "2026-04-20T05:03:07.042Z"
+      },
+      {
+        "symbol": "stoned",
+        "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
+        "entryTime": "2026-04-20T05:44:56.021Z"
       }
     ],
     "wins": 0,
@@ -2803,7 +2808,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T13:27:45.309Z",
-    "lastSeen": "2026-04-20T05:03:07.042Z",
+    "lastSeen": "2026-04-20T05:44:56.021Z",
     "confirmed": true
   },
   "2nhfv2PXLc4ujUw8DdWxjQC5iWL1Wj9nB555pLaaFZpd": {
@@ -8907,12 +8912,17 @@
     "confirmed": false
   },
   "sXgFkWzmZ9XNPme3r8BgHeCnEfn3k6t9AznX54su5LZ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "JTC",
         "pairAddress": "4UBciSHpGXVY3BpCh1HWPgmctLHiiQzcY8ZQQA5kEgC5",
         "entryTime": "2026-04-19T18:41:15.098Z"
+      },
+      {
+        "symbol": "stoned",
+        "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
+        "entryTime": "2026-04-20T05:44:56.021Z"
       }
     ],
     "wins": 0,
@@ -8920,7 +8930,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:41:15.098Z",
-    "lastSeen": "2026-04-19T18:41:15.098Z",
+    "lastSeen": "2026-04-20T05:44:56.021Z",
     "confirmed": false
   },
   "52oc72vjNbpUhF7jNE1pPAvc17JwBTyxybFp3u7PvetG": {
