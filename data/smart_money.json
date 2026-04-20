@@ -12149,12 +12149,17 @@
     "confirmed": false
   },
   "G8bUvMG6JAPXEiJSAg1LvBMMD7pXuPLsGkwQxVriegff": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MISA",
         "pairAddress": "4Xb8JPZqk75dDySUKAQUdqr6CoLyAtLaCT3yWC9gHeXA",
         "entryTime": "2026-04-19T22:22:28.922Z"
+      },
+      {
+        "symbol": "Plumpshies",
+        "pairAddress": "2m4cWCy9VbXFkPBifZqBRHuVCs76w8FFNbFtVKAsTmrb",
+        "entryTime": "2026-04-20T22:09:32.640Z"
       }
     ],
     "wins": 0,
@@ -12162,7 +12167,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T22:22:28.922Z",
-    "lastSeen": "2026-04-19T22:22:28.922Z",
+    "lastSeen": "2026-04-20T22:09:32.640Z",
     "confirmed": false
   },
   "42Mn55tiZYsVno12aWCYEpdtw42pWHjPXEQS7TXMi3KD": {
@@ -17741,7 +17746,7 @@
     "confirmed": false
   },
   "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "KICAU",
@@ -17752,6 +17757,11 @@
         "symbol": "PUMPETH",
         "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
         "entryTime": "2026-04-20T06:42:17.796Z"
+      },
+      {
+        "symbol": "Plumpshies",
+        "pairAddress": "2m4cWCy9VbXFkPBifZqBRHuVCs76w8FFNbFtVKAsTmrb",
+        "entryTime": "2026-04-20T22:09:32.640Z"
       }
     ],
     "wins": 0,
@@ -17759,8 +17769,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T02:28:28.645Z",
-    "lastSeen": "2026-04-20T06:42:17.796Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T22:09:32.640Z",
+    "confirmed": true
   },
   "9jcH4FJk8AjXzCzACcxZ3tkDWwuu1vSr61eRmUqELMu": {
     "appearances": 1,
