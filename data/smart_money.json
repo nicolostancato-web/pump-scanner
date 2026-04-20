@@ -18360,12 +18360,17 @@
     "confirmed": false
   },
   "8pY1AukbuPgUE3EetyLa59rFLMimJGT94ZzbMEZcQF4w": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MOONROCKS",
         "pairAddress": "3DySxBR9yTFt2Ju5SDT9a7a7Z3bevrUbBnBDrUcSkaPD",
         "entryTime": "2026-04-20T03:49:51.959Z"
+      },
+      {
+        "symbol": "papu",
+        "pairAddress": "CpFzRevnWnX9B9H4VyHvcLEWoc2UCkPZ3bV9CHx13fKb",
+        "entryTime": "2026-04-20T18:10:51.437Z"
       }
     ],
     "wins": 0,
@@ -18373,7 +18378,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T03:49:51.959Z",
-    "lastSeen": "2026-04-20T03:49:51.959Z",
+    "lastSeen": "2026-04-20T18:10:51.437Z",
     "confirmed": false
   },
   "CatyeC3LgBxub7HcpW2n7cZZZ66CUKdcZ8DzHucHrSiP": {
