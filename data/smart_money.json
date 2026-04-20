@@ -28390,12 +28390,17 @@
     "confirmed": false
   },
   "FKbQNeLocA9Rb3UXegC7oDKfu7yBEx8ugLw89gCPPYog": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Openhuman",
         "pairAddress": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
         "entryTime": "2026-04-20T17:25:57.812Z"
+      },
+      {
+        "symbol": "apu",
+        "pairAddress": "5fqwLDfscoqKPU5Utt8A6KBfTMWrYrfuc7HustZFju63",
+        "entryTime": "2026-04-20T23:30:22.914Z"
       }
     ],
     "wins": 0,
@@ -28403,7 +28408,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T17:25:57.812Z",
-    "lastSeen": "2026-04-20T17:25:57.812Z",
+    "lastSeen": "2026-04-20T23:30:22.914Z",
     "confirmed": false
   },
   "HzaEWpAV9HwbtarJygVeZrqBxUmv481P3S2NDXRD2Fyx": {
@@ -34360,6 +34365,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T23:27:14.833Z",
     "lastSeen": "2026-04-20T23:27:14.833Z",
+    "confirmed": false
+  },
+  "Hwo2niczGcz1QWKatg2Yq2fJjNb6g166BUgXzFregBh9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "apu",
+        "pairAddress": "5fqwLDfscoqKPU5Utt8A6KBfTMWrYrfuc7HustZFju63",
+        "entryTime": "2026-04-20T23:30:22.914Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T23:30:22.914Z",
+    "lastSeen": "2026-04-20T23:30:22.914Z",
     "confirmed": false
   }
 }
