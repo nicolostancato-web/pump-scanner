@@ -20701,5 +20701,22 @@
     "firstSeen": "2026-04-20T08:24:48.164Z",
     "lastSeen": "2026-04-20T08:24:48.164Z",
     "confirmed": false
+  },
+  "3a1GPhifNu9SVcYahXmRvrAKYi8UYak7YGL1ERE241fF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:25:23.173Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T08:25:23.173Z",
+    "lastSeen": "2026-04-20T08:25:23.173Z",
+    "confirmed": false
   }
 }
