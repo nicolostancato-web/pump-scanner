@@ -26840,12 +26840,17 @@
     "confirmed": false
   },
   "amd1RSK3aN3uM7A3GCBN9VEWnBPQFVfGYUgr6pKoLAQ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SS",
         "pairAddress": "DsausXJ3yMZR8R4Lq27U8TFX9sXc9LBzc6UCPRYLx3Ht",
         "entryTime": "2026-04-20T16:31:18.719Z"
+      },
+      {
+        "symbol": "ASMORA",
+        "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
+        "entryTime": "2026-04-20T16:42:51.695Z"
       }
     ],
     "wins": 0,
@@ -26853,7 +26858,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T16:31:18.719Z",
-    "lastSeen": "2026-04-20T16:31:18.719Z",
+    "lastSeen": "2026-04-20T16:42:51.695Z",
     "confirmed": false
   },
   "2YYSfGA4NoKLzgEWyNCRQbzReM6m13rcDhp1HVCL8XZN": {
