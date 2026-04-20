@@ -23741,5 +23741,22 @@
     "firstSeen": "2026-04-20T13:16:13.825Z",
     "lastSeen": "2026-04-20T13:16:13.825Z",
     "confirmed": false
+  },
+  "Kf1oPAD8jbaWxKeXYxmU5U4psGjVqyjLkLBfgujXTSw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "0x",
+        "pairAddress": "Dpcmz4D9tmiFomifpLSLpwLZrb3mqNYhmB6GGTYGmQjX",
+        "entryTime": "2026-04-20T13:16:22.712Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T13:16:22.712Z",
+    "lastSeen": "2026-04-20T13:16:22.712Z",
+    "confirmed": false
   }
 }
