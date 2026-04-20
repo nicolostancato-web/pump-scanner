@@ -144,11 +144,11 @@
       "avgPeak": "1.95x"
     },
     "15-30min": {
-      "count": 17,
-      "avgPeak": "1.62x"
+      "count": 16,
+      "avgPeak": "1.66x"
     },
     "30-60min": {
-      "count": 16,
+      "count": 17,
       "avgPeak": "1.10x"
     },
     "60-120min": {
@@ -157,5 +157,5 @@
     }
   },
   "recommendation": "📊 Analisi su 51 posizioni chiuse\n✅ Win rate (chiuse in positivo): 4%\n📈 Peak medio: 1.39x | Close medio: 0.58x\n🎯 Take Profit ottimale: +300% (expected value: 17.6%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: N/A vs 1.39x",
-  "lastUpdated": "2026-04-19T23:32:39.889Z"
+  "lastUpdated": "2026-04-20T02:11:22.193Z"
 }
