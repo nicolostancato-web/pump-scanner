@@ -11741,12 +11741,17 @@
     "confirmed": false
   },
   "99WNqtQvxLBJVnujPzmWYcBQiCg4KEtd148fH3tPRAPB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ETH",
         "pairAddress": "Ee6gEvRWbn5ebWsRj1Mu3gZSRkZg4pokGED9mt23EU9M",
         "entryTime": "2026-04-19T22:03:19.127Z"
+      },
+      {
+        "symbol": "trust",
+        "pairAddress": "4SKX3RayFEUctaDcfCCagVW3cNvRTswzC21regvfMKVB",
+        "entryTime": "2026-04-20T20:13:31.562Z"
       }
     ],
     "wins": 0,
@@ -11754,7 +11759,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T22:03:19.127Z",
-    "lastSeen": "2026-04-19T22:03:19.127Z",
+    "lastSeen": "2026-04-20T20:13:31.562Z",
     "confirmed": false
   },
   "6mPg5AQuztGoUY56sLznAS9Sda7vsryDtPHYhi9UjnUc": {
@@ -30593,6 +30598,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T20:12:57.082Z",
     "lastSeen": "2026-04-20T20:12:57.082Z",
+    "confirmed": false
+  },
+  "9fkm66JRdBrSuxUa2vHtrXArP5zpbHnkE7AgAAV755uf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "trust",
+        "pairAddress": "4SKX3RayFEUctaDcfCCagVW3cNvRTswzC21regvfMKVB",
+        "entryTime": "2026-04-20T20:13:31.562Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T20:13:31.562Z",
+    "lastSeen": "2026-04-20T20:13:31.562Z",
     "confirmed": false
   }
 }
