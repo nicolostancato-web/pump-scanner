@@ -3060,7 +3060,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "LIGHTNING",
@@ -3091,6 +3091,11 @@
         "symbol": "TUSK",
         "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
         "entryTime": "2026-04-20T08:29:45.757Z"
+      },
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:37:15.321Z"
       }
     ],
     "wins": 0,
@@ -3098,7 +3103,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T13:27:45.309Z",
-    "lastSeen": "2026-04-20T08:29:45.757Z",
+    "lastSeen": "2026-04-20T20:37:15.321Z",
     "confirmed": true
   },
   "2nhfv2PXLc4ujUw8DdWxjQC5iWL1Wj9nB555pLaaFZpd": {
@@ -31097,6 +31102,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T20:33:58.869Z",
     "lastSeen": "2026-04-20T20:33:58.869Z",
+    "confirmed": false
+  },
+  "B2sTgpDssHRn7Ny4LE5Eb3WrEsEz4YcdzD8oQxCXc2DQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:37:15.321Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T20:37:15.321Z",
+    "lastSeen": "2026-04-20T20:37:15.321Z",
     "confirmed": false
   }
 }
