@@ -21587,12 +21587,17 @@
     "confirmed": false
   },
   "A3fXVaTcHvDSasnirRv1uEGqtUzuL3CV1pZiJ5FQZKRC": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOS",
         "pairAddress": "BJqoC2QMe6R64iJU4NGxXzu2HVChsYL4ZZoE244W8yDb",
         "entryTime": "2026-04-20T09:36:08.427Z"
+      },
+      {
+        "symbol": "MLG",
+        "pairAddress": "5ypBX1cNxD8MBpivZhqU7CuaxgiG5MbLcYZsc5uuitu4",
+        "entryTime": "2026-04-20T10:27:52.583Z"
       }
     ],
     "wins": 0,
@@ -21600,7 +21605,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T09:36:08.427Z",
-    "lastSeen": "2026-04-20T09:36:08.427Z",
+    "lastSeen": "2026-04-20T10:27:52.583Z",
     "confirmed": false
   },
   "8K9R787SdefR97NaKmAVabUcRjs6Do2GVFsYdm9HmRX7": {
@@ -21703,6 +21708,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T10:26:35.619Z",
     "lastSeen": "2026-04-20T10:26:35.619Z",
+    "confirmed": false
+  },
+  "6Ffj5zTrf8uZFzkpZ6DB78TKgFWq8iHGAFjBrfYRV9JN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MLG",
+        "pairAddress": "5ypBX1cNxD8MBpivZhqU7CuaxgiG5MbLcYZsc5uuitu4",
+        "entryTime": "2026-04-20T10:27:52.583Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T10:27:52.583Z",
+    "lastSeen": "2026-04-20T10:27:52.583Z",
     "confirmed": false
   }
 }
