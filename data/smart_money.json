@@ -13758,12 +13758,17 @@
     "confirmed": false
   },
   "2cAsu626svvYDkywwxjwc5n4FdhLM2iW3GwMZydPMSVh": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "home-seq",
         "pairAddress": "8i1tSN99qFW33nSXBKMRg121j8sQ9owfmGYi5VL2kqYi",
         "entryTime": "2026-04-19T23:56:18.150Z"
+      },
+      {
+        "symbol": "Gooner",
+        "pairAddress": "2Qs2Uf9QHuK9XeXSscLuKxSSfCbbv8ejHy12FS4Pti9J",
+        "entryTime": "2026-04-20T02:56:38.259Z"
       }
     ],
     "wins": 0,
@@ -13771,7 +13776,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:56:18.150Z",
-    "lastSeen": "2026-04-19T23:56:18.150Z",
+    "lastSeen": "2026-04-20T02:56:38.259Z",
     "confirmed": false
   },
   "Fgej4SPuW282TdrQRfizRHAeRasNqCtAWZizL3jDqMdS": {
@@ -17199,6 +17204,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T02:55:55.316Z",
     "lastSeen": "2026-04-20T02:55:55.316Z",
+    "confirmed": false
+  },
+  "2n1Nr7vFVvnGjjRMRtgzSKvxM3S4SYb47kWPmgh6GFnm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Gooner",
+        "pairAddress": "2Qs2Uf9QHuK9XeXSscLuKxSSfCbbv8ejHy12FS4Pti9J",
+        "entryTime": "2026-04-20T02:56:38.259Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T02:56:38.259Z",
+    "lastSeen": "2026-04-20T02:56:38.259Z",
     "confirmed": false
   }
 }
