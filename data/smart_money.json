@@ -616,7 +616,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 19,
+    "appearances": 20,
     "tokens": [
       {
         "symbol": "LP",
@@ -712,6 +712,11 @@
         "symbol": "defi",
         "pairAddress": "CH5munZbfqLiLc2pXBmbMp5BYWr88gQQSHd4VhMz8d1u",
         "entryTime": "2026-04-20T16:13:17.186Z"
+      },
+      {
+        "symbol": "SS",
+        "pairAddress": "DsausXJ3yMZR8R4Lq27U8TFX9sXc9LBzc6UCPRYLx3Ht",
+        "entryTime": "2026-04-20T16:32:50.550Z"
       }
     ],
     "wins": 0,
@@ -719,7 +724,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:23:13.377Z",
-    "lastSeen": "2026-04-20T16:13:17.186Z",
+    "lastSeen": "2026-04-20T16:32:50.550Z",
     "confirmed": true
   },
   "CeyuoArHSdZk6D6Yz9w8kgJcEinpjkZcer6BVs5UYBL5": {
@@ -26851,6 +26856,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T16:31:59.792Z",
     "lastSeen": "2026-04-20T16:31:59.792Z",
+    "confirmed": false
+  },
+  "6BDamjgzRcKPV5kzJpzdbtL75ZSZd26SXEiGZKgzNgLH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SS",
+        "pairAddress": "DsausXJ3yMZR8R4Lq27U8TFX9sXc9LBzc6UCPRYLx3Ht",
+        "entryTime": "2026-04-20T16:32:50.550Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T16:32:50.550Z",
+    "lastSeen": "2026-04-20T16:32:50.550Z",
     "confirmed": false
   }
 }
