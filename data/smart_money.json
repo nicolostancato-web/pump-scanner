@@ -170,7 +170,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "🟪",
@@ -221,6 +221,11 @@
         "symbol": "FAZE",
         "pairAddress": "CQijMgrevez2ESijuKXbwrr1FGaZqgQBkKWzJLfnqbEn",
         "entryTime": "2026-04-20T12:07:53.961Z"
+      },
+      {
+        "symbol": "33",
+        "pairAddress": "ERqUBLCb9KUheSRwXxzzziGUjpVLHsh9rSsFKuQ93XZJ",
+        "entryTime": "2026-04-20T12:42:53.136Z"
       }
     ],
     "wins": 0,
@@ -228,7 +233,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T08:47:28.962Z",
-    "lastSeen": "2026-04-20T12:07:53.961Z",
+    "lastSeen": "2026-04-20T12:42:53.136Z",
     "confirmed": true
   },
   "BE8hDRjkcWbnPcUcs3V88HQuJjdTfRXG8zuNSR1HsKq4": {
@@ -23066,6 +23071,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T12:42:19.316Z",
     "lastSeen": "2026-04-20T12:42:19.316Z",
+    "confirmed": false
+  },
+  "9d2UQivDMzhHKaW8iCpSqED6MTMBPeNPG4dKq42fZqHP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "33",
+        "pairAddress": "ERqUBLCb9KUheSRwXxzzziGUjpVLHsh9rSsFKuQ93XZJ",
+        "entryTime": "2026-04-20T12:42:53.136Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T12:42:53.136Z",
+    "lastSeen": "2026-04-20T12:42:53.136Z",
     "confirmed": false
   }
 }
