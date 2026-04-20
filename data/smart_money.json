@@ -7595,7 +7595,7 @@
     "confirmed": false
   },
   "9LFiTup5RpWNLgUcDbF87YFHqT9as43AYG8LG39Yj9p3": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "ADHD",
@@ -7621,6 +7621,11 @@
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:42:20.630Z"
+      },
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:50:21.738Z"
       }
     ],
     "wins": 0,
@@ -7628,7 +7633,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:38:25.794Z",
-    "lastSeen": "2026-04-20T15:42:20.630Z",
+    "lastSeen": "2026-04-20T19:50:21.738Z",
     "confirmed": true
   },
   "3iTVVWraBYVuoEodJyFFswkG2494WedtpSaQKMbCJGuG": {
@@ -25944,12 +25949,17 @@
     "confirmed": false
   },
   "Fe2xUB1bqxJSG4ioH2SGw7h9rTHZL1dBCaYDLx165U1k": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MTS",
         "pairAddress": "35r9S7VeAEff18bMnP5vv2THD6B59JtxU3aECfPvUPsK",
         "entryTime": "2026-04-20T15:09:43.138Z"
+      },
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:50:21.738Z"
       }
     ],
     "wins": 0,
@@ -25957,7 +25967,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:09:43.138Z",
-    "lastSeen": "2026-04-20T15:09:43.138Z",
+    "lastSeen": "2026-04-20T19:50:21.738Z",
     "confirmed": false
   },
   "8CaVfnNVWiBnsrJz4EVYqGD8VmZcYcoSFsyfsdUgBv4A": {
