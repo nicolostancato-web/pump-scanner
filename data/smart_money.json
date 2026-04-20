@@ -5820,7 +5820,7 @@
     "confirmed": false
   },
   "44Rj5DvAUhmUA1samZDpo6rCx9hvbBhSAQ9rnUiYJWe4": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "UYU",
@@ -5841,6 +5841,11 @@
         "symbol": "defi",
         "pairAddress": "CH5munZbfqLiLc2pXBmbMp5BYWr88gQQSHd4VhMz8d1u",
         "entryTime": "2026-04-20T16:17:05.302Z"
+      },
+      {
+        "symbol": "Human",
+        "pairAddress": "G1yRUeUfAni5z3QJbaFu7c4QEdKs5eAZXH95BxtQCRWc",
+        "entryTime": "2026-04-20T17:56:07.347Z"
       }
     ],
     "wins": 0,
@@ -5848,7 +5853,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T15:42:08.069Z",
-    "lastSeen": "2026-04-20T16:17:05.302Z",
+    "lastSeen": "2026-04-20T17:56:07.347Z",
     "confirmed": true
   },
   "4LGyxFC4ErZ1NmATnwyKrRRtsZVBskVF3vutLMdyqDLX": {
@@ -28226,6 +28231,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T17:55:22.766Z",
     "lastSeen": "2026-04-20T17:55:22.766Z",
+    "confirmed": false
+  },
+  "bgHULcbohHTaDzyvQGDUrBP4mZY8YHfpNWRUW4eBEdF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Human",
+        "pairAddress": "G1yRUeUfAni5z3QJbaFu7c4QEdKs5eAZXH95BxtQCRWc",
+        "entryTime": "2026-04-20T17:56:07.347Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T17:56:07.347Z",
+    "lastSeen": "2026-04-20T17:56:07.347Z",
     "confirmed": false
   }
 }
