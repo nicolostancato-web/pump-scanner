@@ -20615,12 +20615,17 @@
     "confirmed": false
   },
   "7t2d1x16HvGZo7Q7MjQHMDg3AK4iC44AntnECfh2HTno": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "DUMBWOJACK",
         "pairAddress": "2SWoiY88Vbf7os1sfnxEMzLujtUiDasTW1h5rGfqWXjA",
         "entryTime": "2026-04-20T07:03:42.280Z"
+      },
+      {
+        "symbol": "hijabunc",
+        "pairAddress": "GDXpCCFTUq4ocFKzBQ1CiDf8i2KE4eENZng5sB4yguuU",
+        "entryTime": "2026-04-20T15:18:55.957Z"
       }
     ],
     "wins": 0,
@@ -20628,7 +20633,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T07:03:42.280Z",
-    "lastSeen": "2026-04-20T07:03:42.280Z",
+    "lastSeen": "2026-04-20T15:18:55.957Z",
     "confirmed": false
   },
   "HCvXkP2XB1F58WYXnao5zP99aVZ6UNRwfmeBbhDe3XED": {
@@ -25611,6 +25616,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:15:33.139Z",
     "lastSeen": "2026-04-20T15:15:33.139Z",
+    "confirmed": false
+  },
+  "Gg7jFdJrmw2opCPzsbK1Z8H3A2LB6VmS1H8ShmKov3f5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "hijabunc",
+        "pairAddress": "GDXpCCFTUq4ocFKzBQ1CiDf8i2KE4eENZng5sB4yguuU",
+        "entryTime": "2026-04-20T15:18:55.957Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T15:18:55.957Z",
+    "lastSeen": "2026-04-20T15:18:55.957Z",
     "confirmed": false
   }
 }
