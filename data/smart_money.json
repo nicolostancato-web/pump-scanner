@@ -831,7 +831,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "Jared",
@@ -882,6 +882,11 @@
         "symbol": "MOONROCKS",
         "pairAddress": "3DySxBR9yTFt2Ju5SDT9a7a7Z3bevrUbBnBDrUcSkaPD",
         "entryTime": "2026-04-20T03:34:33.953Z"
+      },
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:33:59.181Z"
       }
     ],
     "wins": 0,
@@ -889,7 +894,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:34:16.976Z",
-    "lastSeen": "2026-04-20T03:34:33.953Z",
+    "lastSeen": "2026-04-20T06:33:59.181Z",
     "confirmed": true
   },
   "D5e7wVqvV7AXaENstDoHPs2JTDq1L84VjNVGpryvDHEZ": {
@@ -19510,6 +19515,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T06:33:26.207Z",
     "lastSeen": "2026-04-20T06:33:26.207Z",
+    "confirmed": false
+  },
+  "5t7WkV2FRFxsZnCSWf3RcBGLPc59tCeJHZAaLgN4Yorc": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PUMPETH",
+        "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
+        "entryTime": "2026-04-20T06:33:59.181Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T06:33:59.181Z",
+    "lastSeen": "2026-04-20T06:33:59.181Z",
     "confirmed": false
   }
 }
