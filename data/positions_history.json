@@ -4204,7 +4204,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+      "mint": "D9rVDNrD33KdgubeJFzp1GSQaLtwKwKbfeXQXTWGpump",
+      "name": "bro science",
+      "symbol": "BRO",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008744,
+      "entryMcap": 87446,
+      "entryTime": 1776715203687,
+      "score": 70,
+      "ageAtEntry": 14,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/ky7w77mzreqyfc7zzvkhea8b4abq7swfgnedmngdcz1",
+      "peakPrice": 0.00008744,
+      "peakMultiplier": 1,
+      "peakMcap": 87446,
+      "peakTime": 1776715203687,
+      "lastPrice": 0.00005001,
+      "lowestPrice": 0.00005001,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005001,
+      "closeMultiplier": 0.5719350411710887,
+      "closedAt": "2026-04-20T20:02:03.782Z",
+      "durationMs": 120095,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005001,
+        "closeMultiplier": 0.5719350411710887,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-20T20:02:03.782Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00005001,
+        "closeMultiplier": 0.5719350411710887,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-20T20:02:03.782Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -10,
+        "momentum": 1.407142857142857,
+        "floatRotation": 0.5731138073782678,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.5731138073782678,
+        "accel": 1.407142857142857,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.41)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 19.7,
+        "vol5m": 50116.51,
+        "buys5m": 535,
+        "sells5m": 367,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-20T18:25:02.179Z"
+  "lastSaved": "2026-04-20T20:02:05.080Z"
 }
