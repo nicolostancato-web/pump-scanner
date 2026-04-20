@@ -24453,12 +24453,17 @@
     "confirmed": false
   },
   "DbFS3c9wpKtJiqFYu83QmpqHDBJtjKY8hqTL9AGZfRir": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SPY",
         "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
         "entryTime": "2026-04-20T13:54:14.873Z"
+      },
+      {
+        "symbol": "ASMORA",
+        "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
+        "entryTime": "2026-04-20T16:51:16.050Z"
       }
     ],
     "wins": 0,
@@ -24466,7 +24471,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T13:54:14.873Z",
-    "lastSeen": "2026-04-20T13:54:14.873Z",
+    "lastSeen": "2026-04-20T16:51:16.050Z",
     "confirmed": false
   },
   "Hh5MPSBx7cQKp1Rd3zB8hmn7bgaoySCLZCmXaBxAKxVo": {
