@@ -591,7 +591,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 14,
+    "appearances": 15,
     "tokens": [
       {
         "symbol": "LP",
@@ -662,6 +662,11 @@
         "symbol": "MOONROCKS",
         "pairAddress": "3DySxBR9yTFt2Ju5SDT9a7a7Z3bevrUbBnBDrUcSkaPD",
         "entryTime": "2026-04-20T03:36:16.928Z"
+      },
+      {
+        "symbol": "stoned",
+        "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
+        "entryTime": "2026-04-20T05:40:45.641Z"
       }
     ],
     "wins": 0,
@@ -669,7 +674,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:23:13.377Z",
-    "lastSeen": "2026-04-20T03:36:16.928Z",
+    "lastSeen": "2026-04-20T05:40:45.641Z",
     "confirmed": true
   },
   "CeyuoArHSdZk6D6Yz9w8kgJcEinpjkZcer6BVs5UYBL5": {
@@ -1202,7 +1207,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1233,6 +1238,11 @@
         "symbol": "Neiro",
         "pairAddress": "AhJ65Ro8dgfEp2Ycqfyg6nZaycxUbxsghBUG2MubS6Tg",
         "entryTime": "2026-04-19T20:27:41.929Z"
+      },
+      {
+        "symbol": "stoned",
+        "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
+        "entryTime": "2026-04-20T05:40:45.641Z"
       }
     ],
     "wins": 0,
@@ -1240,7 +1250,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:53:32.853Z",
-    "lastSeen": "2026-04-19T20:27:41.929Z",
+    "lastSeen": "2026-04-20T05:40:45.641Z",
     "confirmed": true
   },
   "DWtzV1ScNts9zHJkNA3rkqzN1KvhGFSNMrxYRNN2mCWA": {
