@@ -9274,7 +9274,7 @@
     "confirmed": false
   },
   "52oc72vjNbpUhF7jNE1pPAvc17JwBTyxybFp3u7PvetG": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "JTC",
@@ -9285,6 +9285,11 @@
         "symbol": "TUSK",
         "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
         "entryTime": "2026-04-20T08:24:48.164Z"
+      },
+      {
+        "symbol": "SOUROPOD",
+        "pairAddress": "2gLhydQZwF2Me81MxDhA9FGi77Ns21XWRPfThyDGgnFK",
+        "entryTime": "2026-04-20T17:14:56.976Z"
       }
     ],
     "wins": 0,
@@ -9292,8 +9297,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:42:23.448Z",
-    "lastSeen": "2026-04-20T08:24:48.164Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T17:14:56.976Z",
+    "confirmed": true
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
     "appearances": 5,
@@ -27719,6 +27724,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T17:14:20.883Z",
     "lastSeen": "2026-04-20T17:14:20.883Z",
+    "confirmed": false
+  },
+  "BVuYs2p9nrUgSrQ5HPjL8XC2N3C1PhcYSWv7gVfMr2ak": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOUROPOD",
+        "pairAddress": "2gLhydQZwF2Me81MxDhA9FGi77Ns21XWRPfThyDGgnFK",
+        "entryTime": "2026-04-20T17:14:56.976Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T17:14:56.976Z",
+    "lastSeen": "2026-04-20T17:14:56.976Z",
     "confirmed": false
   }
 }
