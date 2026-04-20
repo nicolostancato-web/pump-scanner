@@ -31147,5 +31147,22 @@
     "firstSeen": "2026-04-20T20:37:45.774Z",
     "lastSeen": "2026-04-20T20:37:45.774Z",
     "confirmed": false
+  },
+  "CnGDVG6qB1GbYFBVJJFBvoV1UtAyvniqX2jy52KiKgSr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:38:57.322Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T20:38:57.322Z",
+    "lastSeen": "2026-04-20T20:38:57.322Z",
+    "confirmed": false
   }
 }
