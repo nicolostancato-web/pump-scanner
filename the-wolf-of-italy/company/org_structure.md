@@ -13,10 +13,12 @@ Il goal non è costruire un bot. Il goal è trovare, testare, organizzare e sfru
 
 ## FONDATORI / INVESTITORI
 
-| Ruolo | Nome |
+| Ruolo | Identificativo interno |
 |---|---|
-| Fondatore & Investitore | Nicolò |
-| Socio Strategico | [Socio] |
+| Fondatore & Investitore | Founder |
+| Socio Strategico | Strategic Partner |
+
+> Regola: nessun nome personale compare in report, email operative, materiali di presentazione o comunicazione standard della società.
 
 **Responsabilità fondatori:**
 - Definire il goal
@@ -24,6 +26,40 @@ Il goal non è costruire un bot. Il goal è trovare, testare, organizzare e sfru
 - Leggere i report mattutini e serali
 - Decidere le mosse ad alto impatto
 - Non fanno lavoro operativo quotidiano
+
+---
+
+## DIREZIONE STRATEGICA — REGOLE FONDAMENTALI (in vigore dal 2026-04-20)
+
+### 1. IDENTITÀ E COMUNICAZIONE
+Tutta la comunicazione usa: **The Wolf of Italy**, **CEO**, nome del team, funzione aziendale.
+Nessun nome personale del fondatore in report, email, materiali, aggiornamenti strategici.
+
+### 2. FILTRO OPPORTUNITÀ — OBBLIGATORIO
+Ogni opportunità viene considerata solo se rispetta la maggior parte di questi criteri:
+- ✅ Completamente digitale
+- ✅ Vendibile a livello internazionale
+- ✅ Alta scalabilità
+- ✅ Alta automazione, basso bisogno di presenza umana
+- ✅ Margine elevato
+- ✅ Attivabile in tempi rapidi
+- ✅ Compatibile con pagamenti digitali o crypto
+- ✅ Non dipendente dal mercato locale italiano
+
+❌ **Non prioritarie:** asset fisici, hotel, business territoriali, servizi locali italiani, B2B tradizionale, attività lente o a basso margine.
+
+### 3. CATEGORIE DI RICERCA PRIORITARIE
+- Prodotti software AI SaaS vendibili online a livello globale
+- Agenti AI a pagamento
+- Automazioni digitali scalabili
+- Intelligence e analisi crypto on-chain
+- Prodotti informativi premium
+- Tools ranking/alerting/intelligence
+- Servizi B2C o B2B nativi internet
+- Modelli con incasso crypto diretto nei wallet aziendali
+
+### 4. MONETIZZAZIONE CRYPTO
+Preferenza forte per modelli con incasso e accumulo in wallet crypto aziendali, purché legali, tracciabili e conformi.
 
 ---
 
