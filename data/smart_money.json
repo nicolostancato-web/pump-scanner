@@ -8441,12 +8441,17 @@
     "confirmed": false
   },
   "5tBTAtVB2QhK5QrrAciwfQooFyrPin9QhDDJMPWRf5ZY": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FOMO",
         "pairAddress": "Ge2JVCoqCqDTTjZykPZKkrSW9pUoxNoFkc7uPm1zDHd",
         "entryTime": "2026-04-19T18:07:57.809Z"
+      },
+      {
+        "symbol": "SPY",
+        "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
+        "entryTime": "2026-04-20T13:47:08.088Z"
       }
     ],
     "wins": 0,
@@ -8454,7 +8459,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:07:57.809Z",
-    "lastSeen": "2026-04-19T18:07:57.809Z",
+    "lastSeen": "2026-04-20T13:47:08.088Z",
     "confirmed": false
   },
   "HZBmjtgG8MDownvB9wTLTRN2stjozUBwDaBUhUpybvrm": {
@@ -24129,6 +24134,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T13:46:23.538Z",
     "lastSeen": "2026-04-20T13:46:23.538Z",
+    "confirmed": false
+  },
+  "2Jy2VdYU6YmSKL2fAk59iTBHavGUu41HNRMekdwcVUVg": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SPY",
+        "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
+        "entryTime": "2026-04-20T13:47:08.088Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T13:47:08.088Z",
+    "lastSeen": "2026-04-20T13:47:08.088Z",
     "confirmed": false
   }
 }
