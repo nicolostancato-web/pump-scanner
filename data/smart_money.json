@@ -26229,12 +26229,17 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:48:25.459Z"
+      },
+      {
+        "symbol": "BRUCE",
+        "pairAddress": "DeWAQGcS59P15EGLoARXKkjaHcvcQm82um3mkQzp9CbE",
+        "entryTime": "2026-04-20T17:40:26.598Z"
       }
     ],
     "wins": 0,
@@ -26242,7 +26247,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:48:25.459Z",
-    "lastSeen": "2026-04-20T15:48:25.459Z",
+    "lastSeen": "2026-04-20T17:40:26.598Z",
     "confirmed": false
   },
   "E1C6reyxgp2MgBov85RJMZDpHjiUV6ZCrWtDBfSwQsYB": {
@@ -28002,6 +28007,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T17:37:48.757Z",
     "lastSeen": "2026-04-20T17:37:48.757Z",
+    "confirmed": false
+  },
+  "yeKLd77h5DHW7ZGqcg6YtsdygWmg8UFBps4cLd8Emiz": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BRUCE",
+        "pairAddress": "DeWAQGcS59P15EGLoARXKkjaHcvcQm82um3mkQzp9CbE",
+        "entryTime": "2026-04-20T17:40:26.598Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T17:40:26.598Z",
+    "lastSeen": "2026-04-20T17:40:26.598Z",
     "confirmed": false
   }
 }
