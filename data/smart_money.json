@@ -9393,7 +9393,7 @@
     "confirmed": true
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "soge",
@@ -9429,6 +9429,11 @@
         "symbol": "ASMORA",
         "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
         "entryTime": "2026-04-20T16:52:36.849Z"
+      },
+      {
+        "symbol": "papu",
+        "pairAddress": "CpFzRevnWnX9B9H4VyHvcLEWoc2UCkPZ3bV9CHx13fKb",
+        "entryTime": "2026-04-20T18:07:07.566Z"
       }
     ],
     "wins": 0,
@@ -9436,7 +9441,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:54:54.671Z",
-    "lastSeen": "2026-04-20T16:52:36.849Z",
+    "lastSeen": "2026-04-20T18:07:07.566Z",
     "confirmed": true
   },
   "FireuLYd4yjJBhXQyBs3Mq6ZpNEjyHPNPG2eqhTP9RHV": {
@@ -26254,7 +26259,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "MIM",
@@ -26265,6 +26270,11 @@
         "symbol": "BRUCE",
         "pairAddress": "DeWAQGcS59P15EGLoARXKkjaHcvcQm82um3mkQzp9CbE",
         "entryTime": "2026-04-20T17:40:26.598Z"
+      },
+      {
+        "symbol": "papu",
+        "pairAddress": "CpFzRevnWnX9B9H4VyHvcLEWoc2UCkPZ3bV9CHx13fKb",
+        "entryTime": "2026-04-20T18:07:07.566Z"
       }
     ],
     "wins": 0,
@@ -26272,8 +26282,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:48:25.459Z",
-    "lastSeen": "2026-04-20T17:40:26.598Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T18:07:07.566Z",
+    "confirmed": true
   },
   "E1C6reyxgp2MgBov85RJMZDpHjiUV6ZCrWtDBfSwQsYB": {
     "appearances": 1,
