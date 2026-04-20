@@ -24597,12 +24597,17 @@
     "confirmed": false
   },
   "8abFwsQkoMRAk5mD4eXFTBqVyTGsfUZ1hVsfZ3NDsDUW": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SPY",
         "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
         "entryTime": "2026-04-20T13:57:46.452Z"
+      },
+      {
+        "symbol": "papu",
+        "pairAddress": "CpFzRevnWnX9B9H4VyHvcLEWoc2UCkPZ3bV9CHx13fKb",
+        "entryTime": "2026-04-20T18:07:42.721Z"
       }
     ],
     "wins": 0,
@@ -24610,7 +24615,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T13:57:46.452Z",
-    "lastSeen": "2026-04-20T13:57:46.452Z",
+    "lastSeen": "2026-04-20T18:07:42.721Z",
     "confirmed": false
   },
   "DWt4mEdKkTb5yY9drfe8f9o1j9Jk822JqP4hecZ9HEvC": {
@@ -28392,6 +28397,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T18:01:38.635Z",
     "lastSeen": "2026-04-20T18:01:38.635Z",
+    "confirmed": false
+  },
+  "JESUSL2s5BsffGNNn6wQtHART2iXVGjtGhKAwGw44bL": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "papu",
+        "pairAddress": "CpFzRevnWnX9B9H4VyHvcLEWoc2UCkPZ3bV9CHx13fKb",
+        "entryTime": "2026-04-20T18:07:42.721Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T18:07:42.721Z",
+    "lastSeen": "2026-04-20T18:07:42.721Z",
     "confirmed": false
   }
 }
