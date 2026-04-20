@@ -6376,12 +6376,17 @@
     "confirmed": false
   },
   "3T4R9GHSCgFvLYXKyL16WL8wN9mkis6qiXGh9xNzXBTv": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "cock",
         "pairAddress": "A7Za6NYNrNvrCiu3CxriVy1qonNnjWfyrArtCGTjcDA7",
         "entryTime": "2026-04-19T15:57:36.545Z"
+      },
+      {
+        "symbol": "1",
+        "pairAddress": "6q7GJQtpxEWyp4zgg452gCnbqRBDnsrdWAH4S24qn4fN",
+        "entryTime": "2026-04-20T22:52:40.334Z"
       }
     ],
     "wins": 0,
@@ -6389,7 +6394,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T15:57:36.545Z",
-    "lastSeen": "2026-04-19T15:57:36.545Z",
+    "lastSeen": "2026-04-20T22:52:40.334Z",
     "confirmed": false
   },
   "2ifVf4CefxbCwTG5u7Qu316iuKF4MWw6NT6b4SwMfrxE": {
@@ -9447,7 +9452,7 @@
     "confirmed": false
   },
   "sXgFkWzmZ9XNPme3r8BgHeCnEfn3k6t9AznX54su5LZ": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "JTC",
@@ -9458,6 +9463,11 @@
         "symbol": "stoned",
         "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
         "entryTime": "2026-04-20T05:44:56.021Z"
+      },
+      {
+        "symbol": "1",
+        "pairAddress": "6q7GJQtpxEWyp4zgg452gCnbqRBDnsrdWAH4S24qn4fN",
+        "entryTime": "2026-04-20T22:52:40.334Z"
       }
     ],
     "wins": 0,
@@ -9465,8 +9475,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:41:15.098Z",
-    "lastSeen": "2026-04-20T05:44:56.021Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T22:52:40.334Z",
+    "confirmed": true
   },
   "52oc72vjNbpUhF7jNE1pPAvc17JwBTyxybFp3u7PvetG": {
     "appearances": 6,
