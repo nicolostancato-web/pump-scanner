@@ -15839,5 +15839,22 @@
     "firstSeen": "2026-04-20T01:56:18.534Z",
     "lastSeen": "2026-04-20T01:56:18.534Z",
     "confirmed": false
+  },
+  "DJn1eDF6bm9Kbddc3tW73c23k8ePtec4FnLMUJ3FYQro": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Asteroid",
+        "pairAddress": "DwtHRaoWFTahcN5Tg24WbQsGfVMmuPxjrvgzM2kMFhck",
+        "entryTime": "2026-04-20T01:56:47.518Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T01:56:47.518Z",
+    "lastSeen": "2026-04-20T01:56:47.518Z",
+    "confirmed": false
   }
 }
