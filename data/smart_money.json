@@ -11583,12 +11583,17 @@
     "confirmed": false
   },
   "7YG7KWsKtSFufv9NJap9YuSZxe8UYC5rMbEtuFogVKsn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MISA",
         "pairAddress": "4Xb8JPZqk75dDySUKAQUdqr6CoLyAtLaCT3yWC9gHeXA",
         "entryTime": "2026-04-19T22:25:03.534Z"
+      },
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:36:06.137Z"
       }
     ],
     "wins": 0,
@@ -11596,7 +11601,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T22:25:03.534Z",
-    "lastSeen": "2026-04-19T22:25:03.534Z",
+    "lastSeen": "2026-04-20T08:36:06.137Z",
     "confirmed": false
   },
   "CGhakUjTnyBbYoSDJvjzYRJuxAk9BBsyY8a7ooamekAF": {
@@ -19120,12 +19125,17 @@
     "confirmed": false
   },
   "3JKsYEix4VgXN8mexdo5xUWXBSdpGXjAz5TMAPbpuuWe": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "stoned",
         "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
         "entryTime": "2026-04-20T05:33:59.613Z"
+      },
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:36:06.137Z"
       }
     ],
     "wins": 0,
@@ -19133,7 +19143,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T05:33:59.613Z",
-    "lastSeen": "2026-04-20T05:33:59.613Z",
+    "lastSeen": "2026-04-20T08:36:06.137Z",
     "confirmed": false
   },
   "4c1tMoWc8T4hkL4yNBtTz9DSRL4yoixMoh9k5pW4jLTE": {
