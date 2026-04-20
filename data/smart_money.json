@@ -862,7 +862,7 @@
     "confirmed": false
   },
   "9RAufBfjGQjDfrwxeyKmZWPADHSb8HcoqCdrmpqvCr1g": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "LP",
@@ -873,6 +873,11 @@
         "symbol": "TUSK",
         "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
         "entryTime": "2026-04-20T08:35:31.192Z"
+      },
+      {
+        "symbol": "ONBOARD",
+        "pairAddress": "kBFojDvM2y918MeBcpjwMQBbiC29feNWAKvZiwz3cp2",
+        "entryTime": "2026-04-20T19:07:23.159Z"
       }
     ],
     "wins": 0,
@@ -880,8 +885,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:33:49.803Z",
-    "lastSeen": "2026-04-20T08:35:31.192Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T19:07:23.159Z",
+    "confirmed": true
   },
   "HBa2XD6gfk8r3hVWWhHq6pH8D8yztozX62n9qrzjXpHu": {
     "appearances": 3,
