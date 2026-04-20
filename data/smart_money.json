@@ -5545,7 +5545,7 @@
     "confirmed": false
   },
   "44Rj5DvAUhmUA1samZDpo6rCx9hvbBhSAQ9rnUiYJWe4": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "UYU",
@@ -5556,6 +5556,11 @@
         "symbol": "KICAU",
         "pairAddress": "4nqnf3Z936sK5mDmy9bxSDxNCCpfUTzezVkArx2gZGBm",
         "entryTime": "2026-04-20T02:33:53.200Z"
+      },
+      {
+        "symbol": "SMB",
+        "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
+        "entryTime": "2026-04-20T05:09:18.840Z"
       }
     ],
     "wins": 0,
@@ -5563,8 +5568,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T15:42:08.069Z",
-    "lastSeen": "2026-04-20T02:33:53.200Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T05:09:18.840Z",
+    "confirmed": true
   },
   "4LGyxFC4ErZ1NmATnwyKrRRtsZVBskVF3vutLMdyqDLX": {
     "appearances": 1,
@@ -18600,6 +18605,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T05:08:14.168Z",
     "lastSeen": "2026-04-20T05:08:14.168Z",
+    "confirmed": false
+  },
+  "8C6qg9NLPGo6PX7HbDFLm9UZ7jU6uc8buDaeMfRxUxNa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SMB",
+        "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
+        "entryTime": "2026-04-20T05:09:18.840Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T05:09:18.840Z",
+    "lastSeen": "2026-04-20T05:09:18.840Z",
     "confirmed": false
   }
 }
