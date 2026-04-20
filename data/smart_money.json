@@ -9908,7 +9908,7 @@
     "confirmed": false
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SOLANA",
@@ -9919,6 +9919,11 @@
         "symbol": "MLG",
         "pairAddress": "5ypBX1cNxD8MBpivZhqU7CuaxgiG5MbLcYZsc5uuitu4",
         "entryTime": "2026-04-20T10:45:15.881Z"
+      },
+      {
+        "symbol": "SPY",
+        "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
+        "entryTime": "2026-04-20T14:01:10.120Z"
       }
     ],
     "wins": 0,
@@ -9926,8 +9931,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T19:56:30.047Z",
-    "lastSeen": "2026-04-20T10:45:15.881Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T14:01:10.120Z",
+    "confirmed": true
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
     "appearances": 3,
@@ -11624,7 +11629,7 @@
     "confirmed": false
   },
   "C7ML4W7cegR8oBD3K2qeE5WmLgP2BGd8s81Sd78GZxN5": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ETH",
@@ -11635,6 +11640,11 @@
         "symbol": "SMB",
         "pairAddress": "7ES6ex9SBdSVygR4W44Mzf1U3Pa8mdZkRn8ZUCodLMBW",
         "entryTime": "2026-04-20T04:59:27.416Z"
+      },
+      {
+        "symbol": "SPY",
+        "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
+        "entryTime": "2026-04-20T14:01:10.120Z"
       }
     ],
     "wins": 0,
@@ -11642,8 +11652,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T22:16:51.776Z",
-    "lastSeen": "2026-04-20T04:59:27.416Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T14:01:10.120Z",
+    "confirmed": true
   },
   "Aw9dG2hJNixfEbyXti4TmxJDf6yVJcZSGTDSrxo9TmTD": {
     "appearances": 1,
