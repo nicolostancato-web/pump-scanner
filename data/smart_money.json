@@ -616,7 +616,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 20,
+    "appearances": 21,
     "tokens": [
       {
         "symbol": "LP",
@@ -717,6 +717,11 @@
         "symbol": "SS",
         "pairAddress": "DsausXJ3yMZR8R4Lq27U8TFX9sXc9LBzc6UCPRYLx3Ht",
         "entryTime": "2026-04-20T16:32:50.550Z"
+      },
+      {
+        "symbol": "ASMORA",
+        "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
+        "entryTime": "2026-04-20T16:44:30.522Z"
       }
     ],
     "wins": 0,
@@ -724,7 +729,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:23:13.377Z",
-    "lastSeen": "2026-04-20T16:32:50.550Z",
+    "lastSeen": "2026-04-20T16:44:30.522Z",
     "confirmed": true
   },
   "CeyuoArHSdZk6D6Yz9w8kgJcEinpjkZcer6BVs5UYBL5": {
@@ -14852,7 +14857,7 @@
     "confirmed": false
   },
   "AYo5yYa5h2i2iCrsdLNFbtS8DAvwWtiAj3KPurx2DKch": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "HIGHER",
@@ -14873,6 +14878,11 @@
         "symbol": "SS",
         "pairAddress": "DsausXJ3yMZR8R4Lq27U8TFX9sXc9LBzc6UCPRYLx3Ht",
         "entryTime": "2026-04-20T16:35:18.147Z"
+      },
+      {
+        "symbol": "ASMORA",
+        "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
+        "entryTime": "2026-04-20T16:44:30.522Z"
       }
     ],
     "wins": 0,
@@ -14880,7 +14890,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T00:34:16.495Z",
-    "lastSeen": "2026-04-20T16:35:18.147Z",
+    "lastSeen": "2026-04-20T16:44:30.522Z",
     "confirmed": true
   },
   "9xEiHidnHTqS3JN41TxKSCgZxRyQnJuQXrX1sK9PdqyR": {
