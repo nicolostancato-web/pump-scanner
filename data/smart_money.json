@@ -1225,12 +1225,17 @@
     "confirmed": true
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Jared",
         "pairAddress": "CKTmFpRsJot85gwubmM28ka2w6uYgwM19Sjwcjz5iD8S",
         "entryTime": "2026-04-19T10:53:32.853Z"
+      },
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:37:26.748Z"
       }
     ],
     "wins": 0,
@@ -1238,7 +1243,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:53:32.853Z",
-    "lastSeen": "2026-04-19T10:53:32.853Z",
+    "lastSeen": "2026-04-20T08:37:26.748Z",
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
@@ -21046,6 +21051,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T08:36:51.378Z",
     "lastSeen": "2026-04-20T08:36:51.378Z",
+    "confirmed": false
+  },
+  "4MY3cdcS36bJKbgepU39PacefGc1xYoJdGt6hXnQ98JU": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:37:26.748Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T08:37:26.748Z",
+    "lastSeen": "2026-04-20T08:37:26.748Z",
     "confirmed": false
   }
 }
