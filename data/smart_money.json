@@ -5467,7 +5467,7 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Rise",
@@ -5483,6 +5483,11 @@
         "symbol": "Hormuz",
         "pairAddress": "EeDX3bbQ5VA2TYpEYsXQRFtfZvTFyQGYyHwcnFwMLdjQ",
         "entryTime": "2026-04-20T13:42:33.896Z"
+      },
+      {
+        "symbol": "Openhuman",
+        "pairAddress": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
+        "entryTime": "2026-04-20T17:25:09.145Z"
       }
     ],
     "wins": 0,
@@ -5490,7 +5495,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T14:50:00.553Z",
-    "lastSeen": "2026-04-20T13:42:33.896Z",
+    "lastSeen": "2026-04-20T17:25:09.145Z",
     "confirmed": true
   },
   "92RNwfJX3B2MyuLynXdTkPbLiHi5xZhiveutwf8wyyPJ": {
@@ -13906,7 +13911,7 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "vibetrading",
@@ -13917,6 +13922,11 @@
         "symbol": "pooplana",
         "pairAddress": "25t4LC7K9q9tD38zXbET5sQDJahEHsEM3w6Lg7bjjGzo",
         "entryTime": "2026-04-20T13:29:23.871Z"
+      },
+      {
+        "symbol": "Openhuman",
+        "pairAddress": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
+        "entryTime": "2026-04-20T17:25:09.145Z"
       }
     ],
     "wins": 0,
@@ -13924,8 +13934,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:33:17.662Z",
-    "lastSeen": "2026-04-20T13:29:23.871Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T17:25:09.145Z",
+    "confirmed": true
   },
   "2rCyMG7JAcUi43Djbb44b1F4DshEmKY1xJJRwMGitMaV": {
     "appearances": 1,
