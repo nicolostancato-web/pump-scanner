@@ -27560,12 +27560,17 @@
     "confirmed": false
   },
   "JC7UpvWPuSXemr52MhmkaV88wyRAfDEFHxGdREeJkc3Q": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ASMORA",
         "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
         "entryTime": "2026-04-20T16:47:16.730Z"
+      },
+      {
+        "symbol": "trust",
+        "pairAddress": "4SKX3RayFEUctaDcfCCagVW3cNvRTswzC21regvfMKVB",
+        "entryTime": "2026-04-20T20:14:06.782Z"
       }
     ],
     "wins": 0,
@@ -27573,7 +27578,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T16:47:16.730Z",
-    "lastSeen": "2026-04-20T16:47:16.730Z",
+    "lastSeen": "2026-04-20T20:14:06.782Z",
     "confirmed": false
   },
   "2nfwEmezfcGJeT5SMr3jJbVYXfCoaNVHw9iECeGKPZZi": {
@@ -30615,6 +30620,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T20:13:31.562Z",
     "lastSeen": "2026-04-20T20:13:31.562Z",
+    "confirmed": false
+  },
+  "3e37PjzvPZWKHrBniGkj8ERwhCy2iurSYMYhUXz9iwRw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "trust",
+        "pairAddress": "4SKX3RayFEUctaDcfCCagVW3cNvRTswzC21regvfMKVB",
+        "entryTime": "2026-04-20T20:14:06.782Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T20:14:06.782Z",
+    "lastSeen": "2026-04-20T20:14:06.782Z",
     "confirmed": false
   }
 }
