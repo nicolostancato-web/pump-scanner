@@ -22751,5 +22751,22 @@
     "firstSeen": "2026-04-20T12:33:21.474Z",
     "lastSeen": "2026-04-20T12:33:21.474Z",
     "confirmed": false
+  },
+  "BMBHxJYwbTRVARMYrmFbHqodvartj4uEePEACsQrVEsH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "33",
+        "pairAddress": "ERqUBLCb9KUheSRwXxzzziGUjpVLHsh9rSsFKuQ93XZJ",
+        "entryTime": "2026-04-20T12:33:57.251Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T12:33:57.251Z",
+    "lastSeen": "2026-04-20T12:33:57.251Z",
+    "confirmed": false
   }
 }
