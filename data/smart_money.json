@@ -33638,5 +33638,22 @@
     "firstSeen": "2026-04-20T22:42:02.994Z",
     "lastSeen": "2026-04-20T22:42:02.994Z",
     "confirmed": false
+  },
+  "7tphgZ8eoBqLxMds9HLANW8MPU9hh8AX1BFbinCki1mG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CDM",
+        "pairAddress": "E7znJMjXoCCY45N2c47HyykfA4pJgMZEDHZmtzKPcLiT",
+        "entryTime": "2026-04-20T22:42:37.171Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T22:42:37.171Z",
+    "lastSeen": "2026-04-20T22:42:37.171Z",
+    "confirmed": false
   }
 }
