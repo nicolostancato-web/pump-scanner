@@ -13751,7 +13751,7 @@
     "confirmed": false
   },
   "DZbgq3yE3r41EFszV3XastvyS8j8QnmNT37nsq7sxR66": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "DATA",
@@ -13762,6 +13762,11 @@
         "symbol": "PUMPETH",
         "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
         "entryTime": "2026-04-20T06:42:51.031Z"
+      },
+      {
+        "symbol": "KUREIJI",
+        "pairAddress": "6Z621ifmRu27WFMiiJncY5xwfkrkv33oT11wuEa2WhQK",
+        "entryTime": "2026-04-20T09:11:17.397Z"
       }
     ],
     "wins": 0,
@@ -13769,8 +13774,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:50:04.545Z",
-    "lastSeen": "2026-04-20T06:42:51.031Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T09:11:17.397Z",
+    "confirmed": true
   },
   "914yhnT5PavqYsq2nRAgGDdqZtosKjP29h5dYovPS8W8": {
     "appearances": 1,
@@ -21243,6 +21248,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T09:10:43.280Z",
     "lastSeen": "2026-04-20T09:10:43.280Z",
+    "confirmed": false
+  },
+  "EHEqjbp91ChstXrNjwNsqsEttDoCWxYVTDcADmo4Smh2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "KUREIJI",
+        "pairAddress": "6Z621ifmRu27WFMiiJncY5xwfkrkv33oT11wuEa2WhQK",
+        "entryTime": "2026-04-20T09:11:17.397Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T09:11:17.397Z",
+    "lastSeen": "2026-04-20T09:11:17.397Z",
     "confirmed": false
   }
 }
