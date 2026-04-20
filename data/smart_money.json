@@ -25277,7 +25277,7 @@
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "MILKUNC",
@@ -25293,6 +25293,11 @@
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:42:20.630Z"
+      },
+      {
+        "symbol": "ASMORA",
+        "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
+        "entryTime": "2026-04-20T16:57:47.742Z"
       }
     ],
     "wins": 0,
@@ -25300,7 +25305,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T14:46:09.328Z",
-    "lastSeen": "2026-04-20T15:42:20.630Z",
+    "lastSeen": "2026-04-20T16:57:47.742Z",
     "confirmed": true
   },
   "FWtcuUaoLPWsR3AVGX6EXQojFxpdTiFvyTZXRLiuncMS": {
