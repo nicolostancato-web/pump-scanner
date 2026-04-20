@@ -20079,7 +20079,7 @@
     "confirmed": false
   },
   "5tySgpR3iHbyr6Ee3RfkKTkPEsSSVTMBLacKxfgi8MD3": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "geeked",
@@ -20090,6 +20090,11 @@
         "symbol": "ATH",
         "pairAddress": "2ctwyCxtyJd2tPwtrsUWUxpho74d4hv9erxnNucMvFSn",
         "entryTime": "2026-04-20T07:10:52.304Z"
+      },
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:33:04.342Z"
       }
     ],
     "wins": 0,
@@ -20097,8 +20102,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T06:58:58.815Z",
-    "lastSeen": "2026-04-20T07:10:52.304Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T08:33:04.342Z",
+    "confirmed": true
   },
   "7kMJhGw3poJmgcmitf6QNHdyeTpaJHszDWUKPS8VauQZ": {
     "appearances": 1,
@@ -20897,6 +20902,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T08:32:02.012Z",
     "lastSeen": "2026-04-20T08:32:02.012Z",
+    "confirmed": false
+  },
+  "5G5TZVwmjv4vvmCvcEpre7QCMnYBAuscNLJV4JGAaAYn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TUSK",
+        "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
+        "entryTime": "2026-04-20T08:33:04.342Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T08:33:04.342Z",
+    "lastSeen": "2026-04-20T08:33:04.342Z",
     "confirmed": false
   }
 }
