@@ -9793,12 +9793,17 @@
     "confirmed": false
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOLANA",
         "pairAddress": "4KUYH47Rn15kiKvuDfMWd7j3KxYztKM5pZu5dCZXUwuz",
         "entryTime": "2026-04-19T19:56:30.047Z"
+      },
+      {
+        "symbol": "MLG",
+        "pairAddress": "5ypBX1cNxD8MBpivZhqU7CuaxgiG5MbLcYZsc5uuitu4",
+        "entryTime": "2026-04-20T10:45:15.881Z"
       }
     ],
     "wins": 0,
@@ -9806,7 +9811,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T19:56:30.047Z",
-    "lastSeen": "2026-04-19T19:56:30.047Z",
+    "lastSeen": "2026-04-20T10:45:15.881Z",
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
