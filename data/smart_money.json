@@ -29423,5 +29423,22 @@
     "firstSeen": "2026-04-20T19:18:16.814Z",
     "lastSeen": "2026-04-20T19:18:16.814Z",
     "confirmed": false
+  },
+  "6N3zCY34QCKrtp7CcRDnutDVMj9pKTBeSUC7aUF4F1Sx": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "punc",
+        "pairAddress": "12Yvy3SoFRMUeJcU6cYP63goBJVtAM7UhVXyg7h1htVe",
+        "entryTime": "2026-04-20T19:18:49.166Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T19:18:49.166Z",
+    "lastSeen": "2026-04-20T19:18:49.166Z",
+    "confirmed": false
   }
 }
