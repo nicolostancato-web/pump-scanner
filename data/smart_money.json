@@ -24584,12 +24584,17 @@
     "confirmed": false
   },
   "2mRYZQP4FvB3BWEBfoDB2g5eUPbPco3Tjs6i4N4cHhog": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SPY",
         "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
         "entryTime": "2026-04-20T13:45:45.496Z"
+      },
+      {
+        "symbol": "slot",
+        "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
+        "entryTime": "2026-04-20T20:20:37.777Z"
       }
     ],
     "wins": 0,
@@ -24597,7 +24602,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T13:45:45.496Z",
-    "lastSeen": "2026-04-20T13:45:45.496Z",
+    "lastSeen": "2026-04-20T20:20:37.777Z",
     "confirmed": false
   },
   "992MR97y5m5TwpSR2tnNoURBioDGDHCMkLsNZMybvKtT": {
