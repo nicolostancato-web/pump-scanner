@@ -11649,12 +11649,17 @@
     "confirmed": false
   },
   "YUUmzAM7xKP3QCGaEm3b3nL7UnW7o24hZWdJrPWMvzs": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ETH",
         "pairAddress": "Ee6gEvRWbn5ebWsRj1Mu3gZSRkZg4pokGED9mt23EU9M",
         "entryTime": "2026-04-19T22:14:43.627Z"
+      },
+      {
+        "symbol": "defi",
+        "pairAddress": "CH5munZbfqLiLc2pXBmbMp5BYWr88gQQSHd4VhMz8d1u",
+        "entryTime": "2026-04-20T16:17:45.755Z"
       }
     ],
     "wins": 0,
@@ -11662,7 +11667,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T22:14:43.627Z",
-    "lastSeen": "2026-04-19T22:14:43.627Z",
+    "lastSeen": "2026-04-20T16:17:45.755Z",
     "confirmed": false
   },
   "3hEfi6Sk2K8Cpt443NhPtaWkMYt16vFTVsY8uQDP8eEZ": {
@@ -26527,6 +26532,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T16:17:05.302Z",
     "lastSeen": "2026-04-20T16:17:05.302Z",
+    "confirmed": false
+  },
+  "CpE9ua87yMGhzuDz7mBRUqdyB3Eq6Gc28KVDykMAHjFh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "defi",
+        "pairAddress": "CH5munZbfqLiLc2pXBmbMp5BYWr88gQQSHd4VhMz8d1u",
+        "entryTime": "2026-04-20T16:17:45.755Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T16:17:45.755Z",
+    "lastSeen": "2026-04-20T16:17:45.755Z",
     "confirmed": false
   }
 }
