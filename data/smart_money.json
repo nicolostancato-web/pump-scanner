@@ -2363,7 +2363,7 @@
     "confirmed": false
   },
   "8L2y55D11k63CAftvW7uMM2mBhtMxLoLnivG9uY2bt8j": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "UET",
@@ -2374,6 +2374,11 @@
         "symbol": "Openhuman",
         "pairAddress": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
         "entryTime": "2026-04-20T17:22:24.672Z"
+      },
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:57:59.788Z"
       }
     ],
     "wins": 0,
@@ -2381,8 +2386,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T12:30:33.563Z",
-    "lastSeen": "2026-04-20T17:22:24.672Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T19:57:59.788Z",
+    "confirmed": true
   },
   "HojxDfWi729BCp76edmvBVoGoCsx5U3payJ56n1LdnTk": {
     "appearances": 1,
@@ -18730,12 +18735,17 @@
     "confirmed": false
   },
   "HDmYBtrY9Q6k6Pr9v1d32HZBXCr1gAZLhKxjqhKpFf67": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AB",
         "pairAddress": "Gj2EkmxbvVAGeUnp8akBTvJFvdWcrQW3f4w1vCExgYQw",
         "entryTime": "2026-04-20T03:55:21.252Z"
+      },
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:57:59.788Z"
       }
     ],
     "wins": 0,
@@ -18743,7 +18753,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T03:55:21.252Z",
-    "lastSeen": "2026-04-20T03:55:21.252Z",
+    "lastSeen": "2026-04-20T19:57:59.788Z",
     "confirmed": false
   },
   "DmQHhGGxQRhZzW3xnNWu3yDtNCpLcqQvQXa7RzWauJYa": {
