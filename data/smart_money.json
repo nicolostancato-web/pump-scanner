@@ -1347,7 +1347,7 @@
     "confirmed": true
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1393,6 +1393,11 @@
         "symbol": "SS",
         "pairAddress": "DsausXJ3yMZR8R4Lq27U8TFX9sXc9LBzc6UCPRYLx3Ht",
         "entryTime": "2026-04-20T16:28:08.620Z"
+      },
+      {
+        "symbol": "SOUROPOD",
+        "pairAddress": "2gLhydQZwF2Me81MxDhA9FGi77Ns21XWRPfThyDGgnFK",
+        "entryTime": "2026-04-20T17:04:43.324Z"
       }
     ],
     "wins": 0,
@@ -1400,7 +1405,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:53:32.853Z",
-    "lastSeen": "2026-04-20T16:28:08.620Z",
+    "lastSeen": "2026-04-20T17:04:43.324Z",
     "confirmed": true
   },
   "DWtzV1ScNts9zHJkNA3rkqzN1KvhGFSNMrxYRNN2mCWA": {
