@@ -27300,7 +27300,7 @@
     "confirmed": false
   },
   "amd1RSK3aN3uM7A3GCBN9VEWnBPQFVfGYUgr6pKoLAQ": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "SS",
@@ -27316,6 +27316,11 @@
         "symbol": "Openhuman",
         "pairAddress": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
         "entryTime": "2026-04-20T17:25:57.812Z"
+      },
+      {
+        "symbol": "LONELINESS",
+        "pairAddress": "P8Bt9Z3JHd74qHQbqFGMAedoWfRKJQNBxGJzkAH7XVh",
+        "entryTime": "2026-04-20T22:00:51.067Z"
       }
     ],
     "wins": 0,
@@ -27323,7 +27328,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T16:31:18.719Z",
-    "lastSeen": "2026-04-20T17:25:57.812Z",
+    "lastSeen": "2026-04-20T22:00:51.067Z",
     "confirmed": true
   },
   "2YYSfGA4NoKLzgEWyNCRQbzReM6m13rcDhp1HVCL8XZN": {
@@ -32583,6 +32588,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T21:59:59.543Z",
     "lastSeen": "2026-04-20T21:59:59.543Z",
+    "confirmed": false
+  },
+  "B1H2P8PKs7sg78Rfv86TEp962327TR8k9RZcCfhCNc59": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LONELINESS",
+        "pairAddress": "P8Bt9Z3JHd74qHQbqFGMAedoWfRKJQNBxGJzkAH7XVh",
+        "entryTime": "2026-04-20T22:00:51.067Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T22:00:51.067Z",
+    "lastSeen": "2026-04-20T22:00:51.067Z",
     "confirmed": false
   }
 }
