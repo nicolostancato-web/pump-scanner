@@ -4370,12 +4370,17 @@
     "confirmed": false
   },
   "C9spM2b6vgsepH9sXKjHwn86W3YW7ocQzTSRgmPt4XUT": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TRUMP",
         "pairAddress": "CV3BVSnmKsgQrnFcxf124KsLm5PzPxVCdbjuUr5538bn",
         "entryTime": "2026-04-19T14:14:30.745Z"
+      },
+      {
+        "symbol": "Gooner",
+        "pairAddress": "2Qs2Uf9QHuK9XeXSscLuKxSSfCbbv8ejHy12FS4Pti9J",
+        "entryTime": "2026-04-20T02:50:20.941Z"
       }
     ],
     "wins": 0,
@@ -4383,7 +4388,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T14:14:30.745Z",
-    "lastSeen": "2026-04-19T14:14:30.745Z",
+    "lastSeen": "2026-04-20T02:50:20.941Z",
     "confirmed": false
   },
   "FfQpFKtGAjVr47K6d9fkc1sJ8peBkWpNkqVsvoyfEmBY": {
@@ -17041,6 +17046,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T02:49:43.279Z",
     "lastSeen": "2026-04-20T02:49:43.279Z",
+    "confirmed": false
+  },
+  "HvEapQ4DedBnmwZp2dp9RyB1hFweVJgFcJwwy9kEBxZZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Gooner",
+        "pairAddress": "2Qs2Uf9QHuK9XeXSscLuKxSSfCbbv8ejHy12FS4Pti9J",
+        "entryTime": "2026-04-20T02:50:20.941Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T02:50:20.941Z",
+    "lastSeen": "2026-04-20T02:50:20.941Z",
     "confirmed": false
   }
 }
