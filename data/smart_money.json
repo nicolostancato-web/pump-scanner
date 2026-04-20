@@ -2740,7 +2740,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "LIGHTNING",
@@ -2751,6 +2751,11 @@
         "symbol": "ADHD",
         "pairAddress": "2Ddr1eZNZqYLTKzoMwvosJJ86ZpQKdmimppjonTzrVqs",
         "entryTime": "2026-04-19T16:30:18.806Z"
+      },
+      {
+        "symbol": "KICAU",
+        "pairAddress": "4nqnf3Z936sK5mDmy9bxSDxNCCpfUTzezVkArx2gZGBm",
+        "entryTime": "2026-04-20T02:33:19.378Z"
       }
     ],
     "wins": 0,
@@ -2758,8 +2763,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T13:27:45.309Z",
-    "lastSeen": "2026-04-19T16:30:18.806Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T02:33:19.378Z",
+    "confirmed": true
   },
   "2nhfv2PXLc4ujUw8DdWxjQC5iWL1Wj9nB555pLaaFZpd": {
     "appearances": 1,
@@ -16907,6 +16912,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T02:32:46.241Z",
     "lastSeen": "2026-04-20T02:32:46.241Z",
+    "confirmed": false
+  },
+  "FmeZjMpjGh533FUxJK3UJ2asffeTUEBNugFpABaswqrE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "KICAU",
+        "pairAddress": "4nqnf3Z936sK5mDmy9bxSDxNCCpfUTzezVkArx2gZGBm",
+        "entryTime": "2026-04-20T02:33:19.378Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T02:33:19.378Z",
+    "lastSeen": "2026-04-20T02:33:19.378Z",
     "confirmed": false
   }
 }
