@@ -26728,5 +26728,22 @@
     "firstSeen": "2026-04-20T16:23:47.496Z",
     "lastSeen": "2026-04-20T16:23:47.496Z",
     "confirmed": false
+  },
+  "3KvsoNxgn64nsuHKPBHQJsguef3DgEkP2izE49k6CSAZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MIM",
+        "pairAddress": "EkB9uFSoXgYFQazBfpbSUmckAJ2k9KJCnjHoBAGu2U74",
+        "entryTime": "2026-04-20T16:25:28.145Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T16:25:28.145Z",
+    "lastSeen": "2026-04-20T16:25:28.145Z",
+    "confirmed": false
   }
 }
