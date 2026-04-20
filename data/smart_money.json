@@ -29618,5 +29618,22 @@
     "firstSeen": "2026-04-20T19:32:30.674Z",
     "lastSeen": "2026-04-20T19:32:30.674Z",
     "confirmed": false
+  },
+  "HW7txHE42xxoxJsapkNXmZPCh8rydaMa4VLCkypUjpVX": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOR",
+        "pairAddress": "EBJXhwtJZKonqK19g9ZQBxqGv2wV1KpfbDiW8jusMnwZ",
+        "entryTime": "2026-04-20T19:33:07.950Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T19:33:07.950Z",
+    "lastSeen": "2026-04-20T19:33:07.950Z",
+    "confirmed": false
   }
 }
