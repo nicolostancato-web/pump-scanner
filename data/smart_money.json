@@ -9318,7 +9318,7 @@
     "confirmed": true
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "soge",
@@ -9349,6 +9349,11 @@
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:51:36.156Z"
+      },
+      {
+        "symbol": "ASMORA",
+        "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
+        "entryTime": "2026-04-20T16:52:36.849Z"
       }
     ],
     "wins": 0,
@@ -9356,7 +9361,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T18:54:54.671Z",
-    "lastSeen": "2026-04-20T15:51:36.156Z",
+    "lastSeen": "2026-04-20T16:52:36.849Z",
     "confirmed": true
   },
   "FireuLYd4yjJBhXQyBs3Mq6ZpNEjyHPNPG2eqhTP9RHV": {
