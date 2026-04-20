@@ -7671,7 +7671,7 @@
     "confirmed": true
   },
   "3UNWZp8Aph81aHBSShLqV2Tvu5cmAPVyVcEsz6fvSffe": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "ADHD",
@@ -7697,6 +7697,11 @@
         "symbol": "papu",
         "pairAddress": "CpFzRevnWnX9B9H4VyHvcLEWoc2UCkPZ3bV9CHx13fKb",
         "entryTime": "2026-04-20T18:06:30.706Z"
+      },
+      {
+        "symbol": "punc",
+        "pairAddress": "12Yvy3SoFRMUeJcU6cYP63goBJVtAM7UhVXyg7h1htVe",
+        "entryTime": "2026-04-20T19:24:40.206Z"
       }
     ],
     "wins": 0,
@@ -7704,7 +7709,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:41:55.252Z",
-    "lastSeen": "2026-04-20T18:06:30.706Z",
+    "lastSeen": "2026-04-20T19:24:40.206Z",
     "confirmed": true
   },
   "Fg6eaFz3FSwWt8aP11tRT1KryzZwzx4NwG18WMsR19cg": {
@@ -29461,6 +29466,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T19:19:52.742Z",
     "lastSeen": "2026-04-20T19:19:52.742Z",
+    "confirmed": false
+  },
+  "3goDd88mfcSpbgvsduFznPNizbWsgu496Yv6n53WCZvn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "punc",
+        "pairAddress": "12Yvy3SoFRMUeJcU6cYP63goBJVtAM7UhVXyg7h1htVe",
+        "entryTime": "2026-04-20T19:24:40.206Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T19:24:40.206Z",
+    "lastSeen": "2026-04-20T19:24:40.206Z",
     "confirmed": false
   }
 }
