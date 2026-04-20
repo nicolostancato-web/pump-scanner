@@ -32609,12 +32609,17 @@
     "confirmed": false
   },
   "BA36AnwpTfKeqNhExVUFFbzUAQTyKYvJrEokKJqVCTPi": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "UFC",
         "pairAddress": "A4zYxgqK4rESadnjQwryEuY62tjLzNEzP4i8Ri1hsBPo",
         "entryTime": "2026-04-20T21:50:19.064Z"
+      },
+      {
+        "symbol": "GME",
+        "pairAddress": "EZ4ZVRbJSN5uruPzZPLPVQXGSEh4fkJ1pmtfsk1yfp1k",
+        "entryTime": "2026-04-20T22:57:24.500Z"
       }
     ],
     "wins": 0,
@@ -32622,7 +32627,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T21:50:19.064Z",
-    "lastSeen": "2026-04-20T21:50:19.064Z",
+    "lastSeen": "2026-04-20T22:57:24.500Z",
     "confirmed": false
   },
   "6mAHkEZ8iPcPQyXvEF73GeFbXVg6WDqrNe2u1bVsYUUP": {
@@ -34051,6 +34056,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T22:56:51.755Z",
     "lastSeen": "2026-04-20T22:56:51.755Z",
+    "confirmed": false
+  },
+  "4QgsFkEp6Z4YR7mXYdcou8ZL6Sgz7rFha2iKj9W2PNua": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GME",
+        "pairAddress": "EZ4ZVRbJSN5uruPzZPLPVQXGSEh4fkJ1pmtfsk1yfp1k",
+        "entryTime": "2026-04-20T22:57:24.500Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T22:57:24.500Z",
+    "lastSeen": "2026-04-20T22:57:24.500Z",
     "confirmed": false
   }
 }
