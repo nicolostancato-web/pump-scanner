@@ -5911,7 +5911,7 @@
     "confirmed": false
   },
   "STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "cock",
@@ -5927,6 +5927,11 @@
         "symbol": "stoned",
         "pairAddress": "FtBjTxbJEU3mUGBhJ7dmYWjKdhmU6mbpMwGFKZsC2CzC",
         "entryTime": "2026-04-20T05:46:32.047Z"
+      },
+      {
+        "symbol": "ATH",
+        "pairAddress": "2ctwyCxtyJd2tPwtrsUWUxpho74d4hv9erxnNucMvFSn",
+        "entryTime": "2026-04-20T07:10:52.304Z"
       }
     ],
     "wins": 0,
@@ -5934,7 +5939,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T15:56:32.994Z",
-    "lastSeen": "2026-04-20T05:46:32.047Z",
+    "lastSeen": "2026-04-20T07:10:52.304Z",
     "confirmed": true
   },
   "ELbMcFeB4fAGgQ66cgyBtQWHWkyi6vGxiXMwXz4krtmq": {
@@ -20054,12 +20059,17 @@
     "confirmed": false
   },
   "5tySgpR3iHbyr6Ee3RfkKTkPEsSSVTMBLacKxfgi8MD3": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "geeked",
         "pairAddress": "3rEdwRGfdM9KazQiDq1Toii2ecJBsaxtLBKXasDf55sE",
         "entryTime": "2026-04-20T06:58:58.815Z"
+      },
+      {
+        "symbol": "ATH",
+        "pairAddress": "2ctwyCxtyJd2tPwtrsUWUxpho74d4hv9erxnNucMvFSn",
+        "entryTime": "2026-04-20T07:10:52.304Z"
       }
     ],
     "wins": 0,
@@ -20067,7 +20077,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T06:58:58.815Z",
-    "lastSeen": "2026-04-20T06:58:58.815Z",
+    "lastSeen": "2026-04-20T07:10:52.304Z",
     "confirmed": false
   },
   "7kMJhGw3poJmgcmitf6QNHdyeTpaJHszDWUKPS8VauQZ": {
