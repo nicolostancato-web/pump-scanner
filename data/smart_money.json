@@ -10250,7 +10250,7 @@
     "confirmed": true
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "SOLANA",
@@ -10271,6 +10271,11 @@
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:49:43.601Z"
+      },
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:50:56.842Z"
       }
     ],
     "wins": 0,
@@ -10278,7 +10283,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T19:57:37.229Z",
-    "lastSeen": "2026-04-20T15:49:43.601Z",
+    "lastSeen": "2026-04-20T19:50:56.842Z",
     "confirmed": true
   },
   "AUwxtxe771VmkZiPeq6X7NtR9UptcYY97fyG1zfQmzNf": {
@@ -26450,12 +26455,17 @@
     "confirmed": false
   },
   "7NzdenBQVaoKpRVZmjqmN4KfcWzsNCyMCcbytUGJN1aH": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:50:59.623Z"
+      },
+      {
+        "symbol": "BRO",
+        "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
+        "entryTime": "2026-04-20T19:50:56.842Z"
       }
     ],
     "wins": 0,
@@ -26463,7 +26473,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:50:59.623Z",
-    "lastSeen": "2026-04-20T15:50:59.623Z",
+    "lastSeen": "2026-04-20T19:50:56.842Z",
     "confirmed": false
   },
   "H3rUiKEFPnTM6CHCmJqKt4Nd1xeFATK9aUmU4sbD5za7": {
