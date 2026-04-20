@@ -27330,7 +27330,7 @@
     "confirmed": false
   },
   "3KvsoNxgn64nsuHKPBHQJsguef3DgEkP2izE49k6CSAZ": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "MIM",
@@ -27341,6 +27341,11 @@
         "symbol": "ASMORA",
         "pairAddress": "Bm7cqvtBsudXTg3hzbz812kb1PNy8v1tW586LoooJwDf",
         "entryTime": "2026-04-20T16:51:54.286Z"
+      },
+      {
+        "symbol": "GME",
+        "pairAddress": "4xH46rUB6ZmSPeY24jvX1ynE7WzwNSibTyUPgZezFrfg",
+        "entryTime": "2026-04-20T23:42:42.955Z"
       }
     ],
     "wins": 0,
@@ -27348,8 +27353,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T16:25:28.145Z",
-    "lastSeen": "2026-04-20T16:51:54.286Z",
-    "confirmed": false
+    "lastSeen": "2026-04-20T23:42:42.955Z",
+    "confirmed": true
   },
   "xL4gFGUx7TpxhQqsyzfRFartJ6UxwcfH9nQitnyEsH7": {
     "appearances": 1,
