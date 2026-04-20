@@ -4835,7 +4835,7 @@
     "confirmed": false
   },
   "x4T7hgJqNDBC1cVBeo42hZkQAdSLKwxV8wv9QiDHN2j": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "TRUMP",
@@ -4856,6 +4856,11 @@
         "symbol": "SS",
         "pairAddress": "DsausXJ3yMZR8R4Lq27U8TFX9sXc9LBzc6UCPRYLx3Ht",
         "entryTime": "2026-04-20T16:33:39.742Z"
+      },
+      {
+        "symbol": "UFC",
+        "pairAddress": "A4zYxgqK4rESadnjQwryEuY62tjLzNEzP4i8Ri1hsBPo",
+        "entryTime": "2026-04-20T21:47:44.249Z"
       }
     ],
     "wins": 0,
@@ -4863,7 +4868,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T14:16:09.732Z",
-    "lastSeen": "2026-04-20T16:33:39.742Z",
+    "lastSeen": "2026-04-20T21:47:44.249Z",
     "confirmed": true
   },
   "8qStCrGcLxiwAJPQroZWHZdMg4tBtH8x2MChwYpzhB2n": {
@@ -32437,6 +32442,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T21:47:08.249Z",
     "lastSeen": "2026-04-20T21:47:08.249Z",
+    "confirmed": false
+  },
+  "5VozCf3zuc89ToScFfFpfcm384GBshPuzR9vQdkvvr3q": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UFC",
+        "pairAddress": "A4zYxgqK4rESadnjQwryEuY62tjLzNEzP4i8Ri1hsBPo",
+        "entryTime": "2026-04-20T21:47:44.249Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T21:47:44.249Z",
+    "lastSeen": "2026-04-20T21:47:44.249Z",
     "confirmed": false
   }
 }
