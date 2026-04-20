@@ -20025,12 +20025,17 @@
     "confirmed": false
   },
   "461ytfyRJ9eayDWUWTTR7uDKBfHLMpq9nuQqBWakEdJj": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PUMPETH",
         "pairAddress": "3CqPFSDmr7U1mmrFjp2K6VxxpChQKqkBvbsWUVpg4vVu",
         "entryTime": "2026-04-20T06:42:17.796Z"
+      },
+      {
+        "symbol": "MIM",
+        "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
+        "entryTime": "2026-04-20T15:39:41.110Z"
       }
     ],
     "wins": 0,
@@ -20038,7 +20043,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T06:42:17.796Z",
-    "lastSeen": "2026-04-20T06:42:17.796Z",
+    "lastSeen": "2026-04-20T15:39:41.110Z",
     "confirmed": false
   },
   "73qTwiQg8stMMHxmni5PbaS12eC28eFo1SEVk1pbHgC7": {
@@ -25855,6 +25860,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T15:39:02.911Z",
     "lastSeen": "2026-04-20T15:39:02.911Z",
+    "confirmed": false
+  },
+  "TB3rT3HwinXwjaAsGSptAUwgezj7rTTEZyg4Tz1npUj": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MIM",
+        "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
+        "entryTime": "2026-04-20T15:39:41.110Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T15:39:41.110Z",
+    "lastSeen": "2026-04-20T15:39:41.110Z",
     "confirmed": false
   }
 }
