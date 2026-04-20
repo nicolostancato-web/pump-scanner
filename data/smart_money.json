@@ -13976,7 +13976,7 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "vibetrading",
@@ -13992,6 +13992,11 @@
         "symbol": "Openhuman",
         "pairAddress": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
         "entryTime": "2026-04-20T17:25:09.145Z"
+      },
+      {
+        "symbol": "lowcap",
+        "pairAddress": "Bx4bcrJVwRb3dzj8SchoXzrJaqmzKHTXVxspYU9U45aM",
+        "entryTime": "2026-04-20T18:38:49.958Z"
       }
     ],
     "wins": 0,
@@ -13999,7 +14004,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:33:17.662Z",
-    "lastSeen": "2026-04-20T17:25:09.145Z",
+    "lastSeen": "2026-04-20T18:38:49.958Z",
     "confirmed": true
   },
   "2rCyMG7JAcUi43Djbb44b1F4DshEmKY1xJJRwMGitMaV": {
@@ -28787,6 +28792,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-20T18:38:16.929Z",
     "lastSeen": "2026-04-20T18:38:16.929Z",
+    "confirmed": false
+  },
+  "J5MotcxMYh27PvMnKxyHKxXqopLh2KfAqTc5RtcknTV3": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "lowcap",
+        "pairAddress": "Bx4bcrJVwRb3dzj8SchoXzrJaqmzKHTXVxspYU9U45aM",
+        "entryTime": "2026-04-20T18:38:49.958Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-20T18:38:49.958Z",
+    "lastSeen": "2026-04-20T18:38:49.958Z",
     "confirmed": false
   }
 }
