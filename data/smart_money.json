@@ -14465,5 +14465,22 @@
     "firstSeen": "2026-04-21T21:20:18.983Z",
     "lastSeen": "2026-04-21T21:20:18.983Z",
     "confirmed": false
+  },
+  "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Liquid",
+        "pairAddress": "BQrGLFov3ChbEDBXoBCWnYMwVu8VjwJsnMEGd5mbsPeQ",
+        "entryTime": "2026-04-21T21:26:27.337Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T21:26:27.337Z",
+    "lastSeen": "2026-04-21T21:26:27.337Z",
+    "confirmed": false
   }
 }
