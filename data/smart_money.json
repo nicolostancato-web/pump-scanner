@@ -1885,12 +1885,17 @@
     "confirmed": false
   },
   "49AyuVKRvCmgXpxAb1raXYa5MhMHDyMRnTLZrpkBaUvD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FUMES",
         "pairAddress": "BexYQvWnTeG1Nt342NcoUq63oTP6ShqBgSbcgHuQtRFx",
         "entryTime": "2026-04-21T06:16:14.127Z"
+      },
+      {
+        "symbol": "Bitshark",
+        "pairAddress": "EKMqWX6Pz4KyCAv87SK4szCYxk6w9HyRfw9ftEGWvU3t",
+        "entryTime": "2026-04-21T09:59:36.632Z"
       }
     ],
     "wins": 0,
@@ -1898,7 +1903,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:16:14.127Z",
-    "lastSeen": "2026-04-21T06:16:14.127Z",
+    "lastSeen": "2026-04-21T09:59:36.632Z",
     "confirmed": false
   },
   "9Ysy1gXcKL2AHXnqAA1eNAhwoVPmwp6xm6shhG7ZMgom": {
@@ -3378,6 +3383,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T09:03:19.343Z",
     "lastSeen": "2026-04-21T09:03:19.343Z",
+    "confirmed": false
+  },
+  "ByXFTsFAPVXRWgBHFGiKca7W1pAUoeMsGfstjpunEf1h": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Bitshark",
+        "pairAddress": "EKMqWX6Pz4KyCAv87SK4szCYxk6w9HyRfw9ftEGWvU3t",
+        "entryTime": "2026-04-21T09:59:36.632Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T09:59:36.632Z",
+    "lastSeen": "2026-04-21T09:59:36.632Z",
     "confirmed": false
   }
 }
