@@ -13132,12 +13132,17 @@
     "confirmed": false
   },
   "A8ou1T9trukidi1jMAH1TdS9a25FhmsxZAt16AMn1rmJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "frank",
         "pairAddress": "HiakBwfz9Yq6jgxDk8XuJwamjeCQmC13KUkM9gU8VjR",
         "entryTime": "2026-04-21T20:24:34.405Z"
+      },
+      {
+        "symbol": "BRICKS",
+        "pairAddress": "6QrQKB4hrkUWAxXq7UtRMSCj3CcK4dxwZqUmUVVFmwpa",
+        "entryTime": "2026-04-21T20:43:00.319Z"
       }
     ],
     "wins": 0,
@@ -13145,7 +13150,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T20:24:34.405Z",
-    "lastSeen": "2026-04-21T20:24:34.405Z",
+    "lastSeen": "2026-04-21T20:43:00.319Z",
     "confirmed": false
   },
   "BBStxbUjJUtifFF1zzGz45aXE8y5nSGfWWRkPHd66hLL": {
@@ -13622,6 +13627,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T20:42:33.940Z",
     "lastSeen": "2026-04-21T20:42:33.940Z",
+    "confirmed": false
+  },
+  "8gB3obWXM5ukGdPUbsuoJNG7qbXyz6yaCcQUN5jJ45uN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BRICKS",
+        "pairAddress": "6QrQKB4hrkUWAxXq7UtRMSCj3CcK4dxwZqUmUVVFmwpa",
+        "entryTime": "2026-04-21T20:43:00.319Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T20:43:00.319Z",
+    "lastSeen": "2026-04-21T20:43:00.319Z",
     "confirmed": false
   }
 }
