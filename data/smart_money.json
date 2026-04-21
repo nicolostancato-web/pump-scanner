@@ -10043,7 +10043,7 @@
     "confirmed": false
   },
   "CvRw2LQ8cJasvtKGXhhjCWAu1r2U5jpTjm2DuBVFrEjf": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "CLUD",
@@ -10059,6 +10059,11 @@
         "symbol": "CDM",
         "pairAddress": "E7znJMjXoCCY45N2c47HyykfA4pJgMZEDHZmtzKPcLiT",
         "entryTime": "2026-04-20T22:41:30.510Z"
+      },
+      {
+        "symbol": "MOONDOGE",
+        "pairAddress": "BkR6Jn7JXCUq2ymoY3JrFEw16B3t1tFJRDV2QH2skEqc",
+        "entryTime": "2026-04-21T02:30:54.547Z"
       }
     ],
     "wins": 0,
@@ -10066,7 +10071,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T19:33:02.449Z",
-    "lastSeen": "2026-04-20T22:41:30.510Z",
+    "lastSeen": "2026-04-21T02:30:54.547Z",
     "confirmed": true
   },
   "CPvQ51WkJAj3rgniXRjv1JjncwCzYZZBsgqVhE4frcqh": {
@@ -36506,6 +36511,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T02:30:19.975Z",
     "lastSeen": "2026-04-21T02:30:19.975Z",
+    "confirmed": false
+  },
+  "iHPb4QHzkwdq7Vd8o9BQdo3wFBGArpssgEGdJaPZJtC": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MOONDOGE",
+        "pairAddress": "BkR6Jn7JXCUq2ymoY3JrFEw16B3t1tFJRDV2QH2skEqc",
+        "entryTime": "2026-04-21T02:30:54.547Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T02:30:54.547Z",
+    "lastSeen": "2026-04-21T02:30:54.547Z",
     "confirmed": false
   }
 }
