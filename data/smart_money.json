@@ -14306,7 +14306,7 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "vibetrading",
@@ -14342,6 +14342,11 @@
         "symbol": "cattoo",
         "pairAddress": "6c7KymHR8R6k6u1vSqjf3BFWkZGHwNLSiHCeiavELttV",
         "entryTime": "2026-04-21T03:29:20.608Z"
+      },
+      {
+        "symbol": "elon",
+        "pairAddress": "H9AaznezxRuBxPos8CHqpmsSBycP95Wk87qp2vtiTqYS",
+        "entryTime": "2026-04-21T03:30:43.121Z"
       }
     ],
     "wins": 0,
@@ -14349,7 +14354,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:33:17.662Z",
-    "lastSeen": "2026-04-21T03:29:20.608Z",
+    "lastSeen": "2026-04-21T03:30:43.121Z",
     "confirmed": true
   },
   "2rCyMG7JAcUi43Djbb44b1F4DshEmKY1xJJRwMGitMaV": {
@@ -37861,6 +37866,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T03:30:01.286Z",
     "lastSeen": "2026-04-21T03:30:01.286Z",
+    "confirmed": false
+  },
+  "Ba23czgoDVVByC36keV5MkZFEb95SoydZz7rMLLF8ZFf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "elon",
+        "pairAddress": "H9AaznezxRuBxPos8CHqpmsSBycP95Wk87qp2vtiTqYS",
+        "entryTime": "2026-04-21T03:30:43.121Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T03:30:43.121Z",
+    "lastSeen": "2026-04-21T03:30:43.121Z",
     "confirmed": false
   }
 }
