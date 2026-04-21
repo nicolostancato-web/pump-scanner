@@ -12008,7 +12008,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "1",
@@ -12019,6 +12019,11 @@
         "symbol": "dog",
         "pairAddress": "EfVKet4DTgVDaVWk6BVx11mPTg8XdCQnLK66a8ZDpECb",
         "entryTime": "2026-04-21T19:16:58.631Z"
+      },
+      {
+        "symbol": "CAM",
+        "pairAddress": "FwP4XDsu9mCtumhMJTbnNLMwgnAz2Qo6aEZDV8UjH6p6",
+        "entryTime": "2026-04-21T19:43:01.246Z"
       }
     ],
     "wins": 0,
@@ -12026,8 +12031,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T18:54:56.860Z",
-    "lastSeen": "2026-04-21T19:16:58.631Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T19:43:01.246Z",
+    "confirmed": true
   },
   "Eya3YhgphQ8cF7KUxobYnrSEo6YtrxtYKP9Jq7RTtvQg": {
     "appearances": 1,
