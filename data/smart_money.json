@@ -3808,12 +3808,17 @@
     "confirmed": false
   },
   "kEFiAX3jo5NmemysQov342TZ9mGh6yp92GDRjhA8XDf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Bitshark",
         "pairAddress": "EKMqWX6Pz4KyCAv87SK4szCYxk6w9HyRfw9ftEGWvU3t",
         "entryTime": "2026-04-21T10:05:48.339Z"
+      },
+      {
+        "symbol": "TERMINAL",
+        "pairAddress": "9W3azeDENcXRBRRc6utrCgqDjAsMTVjRfk8uLEMT9Zh9",
+        "entryTime": "2026-04-21T15:45:31.596Z"
       }
     ],
     "wins": 0,
@@ -3821,7 +3826,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:05:48.339Z",
-    "lastSeen": "2026-04-21T10:05:48.339Z",
+    "lastSeen": "2026-04-21T15:45:31.596Z",
     "confirmed": false
   },
   "4UxdUSrex74h5ZESCQZTaLcZz3YfsaxBCypGZJYb6uut": {
