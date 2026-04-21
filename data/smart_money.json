@@ -14492,12 +14492,17 @@
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Liquid",
         "pairAddress": "BQrGLFov3ChbEDBXoBCWnYMwVu8VjwJsnMEGd5mbsPeQ",
         "entryTime": "2026-04-21T21:26:27.337Z"
+      },
+      {
+        "symbol": "FLYINGCAR",
+        "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
+        "entryTime": "2026-04-21T21:46:17.560Z"
       }
     ],
     "wins": 0,
@@ -14505,7 +14510,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T21:26:27.337Z",
-    "lastSeen": "2026-04-21T21:26:27.337Z",
+    "lastSeen": "2026-04-21T21:46:17.560Z",
     "confirmed": false
   },
   "5V5FbgaPEjwVvC3CFKKvRfgu1ngjBKqYeBeMYnvqGpET": {
