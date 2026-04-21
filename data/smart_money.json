@@ -5447,7 +5447,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "MHGA",
@@ -5463,6 +5463,11 @@
         "symbol": "Mogged",
         "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
         "entryTime": "2026-04-21T14:41:42.681Z"
+      },
+      {
+        "symbol": "DOGE",
+        "pairAddress": "DRdctdNBX3PEtFSp6AgQ1tGsj2JCtyEpT2WmMDFchaD8",
+        "entryTime": "2026-04-21T16:56:00.580Z"
       }
     ],
     "wins": 0,
@@ -5470,7 +5475,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:06:15.919Z",
-    "lastSeen": "2026-04-21T14:41:42.681Z",
+    "lastSeen": "2026-04-21T16:56:00.580Z",
     "confirmed": true
   },
   "2pQLqm1c6Ziaqxb9fukWzzq38Up5taU35aee7CL4gsKP": {
@@ -10303,6 +10308,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:55:26.010Z",
     "lastSeen": "2026-04-21T16:55:26.010Z",
+    "confirmed": false
+  },
+  "9EgMKzW3miydKwWvSiAvA8EK5Rq9aP72QbgAbVPD7kDP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DOGE",
+        "pairAddress": "DRdctdNBX3PEtFSp6AgQ1tGsj2JCtyEpT2WmMDFchaD8",
+        "entryTime": "2026-04-21T16:56:00.580Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T16:56:00.580Z",
+    "lastSeen": "2026-04-21T16:56:00.580Z",
     "confirmed": false
   }
 }
