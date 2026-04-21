@@ -14728,5 +14728,22 @@
     "firstSeen": "2026-04-21T21:42:34.171Z",
     "lastSeen": "2026-04-21T21:42:34.171Z",
     "confirmed": false
+  },
+  "2dDKRkzdAGCUgeuqe864n1JE1EAuuy5jog2tW2VxL72s": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FLYINGCAR",
+        "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
+        "entryTime": "2026-04-21T21:43:07.302Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T21:43:07.302Z",
+    "lastSeen": "2026-04-21T21:43:07.302Z",
+    "confirmed": false
   }
 }
