@@ -13175,7 +13175,7 @@
     "confirmed": false
   },
   "5aLY85pyxiuX3fd4RgM3Yc1e3MAL6b7UgaZz6MS3JUfG": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "BONK",
@@ -13186,6 +13186,11 @@
         "symbol": "DPUMP",
         "pairAddress": "FP59eZH5fFvNvVr7ZwQmofxCS97TtrNPEV4bRYmZWXbg",
         "entryTime": "2026-04-20T18:49:21.143Z"
+      },
+      {
+        "symbol": "CHLOE",
+        "pairAddress": "BtRi9sb1Hu5YqRfqAiYNDjTqa1U7cX5CWarDsuikDoUi",
+        "entryTime": "2026-04-21T00:47:50.175Z"
       }
     ],
     "wins": 0,
@@ -13193,8 +13198,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:00:06.775Z",
-    "lastSeen": "2026-04-20T18:49:21.143Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T00:47:50.175Z",
+    "confirmed": true
   },
   "GWm7AjgH58CcRvbWM5Lb3sia5Tf1cFnbuMFsNQqbtHu": {
     "appearances": 1,
@@ -35042,6 +35047,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T00:47:16.226Z",
     "lastSeen": "2026-04-21T00:47:16.226Z",
+    "confirmed": false
+  },
+  "FLNHxpVYYD9mwpb8RwqTwxU6ggp5mPtJ2edWXyCdApZ4": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHLOE",
+        "pairAddress": "BtRi9sb1Hu5YqRfqAiYNDjTqa1U7cX5CWarDsuikDoUi",
+        "entryTime": "2026-04-21T00:47:50.175Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T00:47:50.175Z",
+    "lastSeen": "2026-04-21T00:47:50.175Z",
     "confirmed": false
   }
 }
