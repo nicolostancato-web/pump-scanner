@@ -1924,5 +1924,22 @@
     "firstSeen": "2026-04-21T06:16:47.484Z",
     "lastSeen": "2026-04-21T06:16:47.484Z",
     "confirmed": false
+  },
+  "8AB1Y9vqqEqe1QNntyZyMTkXMGVkjNepno7HTtJSQPua": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FUMES",
+        "pairAddress": "BexYQvWnTeG1Nt342NcoUq63oTP6ShqBgSbcgHuQtRFx",
+        "entryTime": "2026-04-21T06:21:22.359Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T06:21:22.359Z",
+    "lastSeen": "2026-04-21T06:21:22.359Z",
+    "confirmed": false
   }
 }
