@@ -12324,5 +12324,22 @@
     "firstSeen": "2026-04-21T19:29:53.828Z",
     "lastSeen": "2026-04-21T19:29:53.828Z",
     "confirmed": false
+  },
+  "DcP2M6W1YSN8BZieVXK1cKFCwx8FKzJb8cywisH3Pk8p": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CAM",
+        "pairAddress": "FwP4XDsu9mCtumhMJTbnNLMwgnAz2Qo6aEZDV8UjH6p6",
+        "entryTime": "2026-04-21T19:30:42.979Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T19:30:42.979Z",
+    "lastSeen": "2026-04-21T19:30:42.979Z",
+    "confirmed": false
   }
 }
