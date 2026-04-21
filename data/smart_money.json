@@ -13903,5 +13903,22 @@
     "firstSeen": "2026-04-21T20:55:06.386Z",
     "lastSeen": "2026-04-21T20:55:06.386Z",
     "confirmed": false
+  },
+  "3qZ5F3ukRtymVvPK2i6rk53zUjuTQDqfgKyVMQMKCdoj": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BRICKS",
+        "pairAddress": "6QrQKB4hrkUWAxXq7UtRMSCj3CcK4dxwZqUmUVVFmwpa",
+        "entryTime": "2026-04-21T20:55:39.620Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T20:55:39.620Z",
+    "lastSeen": "2026-04-21T20:55:39.620Z",
+    "confirmed": false
   }
 }
