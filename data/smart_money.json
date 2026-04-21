@@ -11675,5 +11675,22 @@
     "firstSeen": "2026-04-21T18:41:09.013Z",
     "lastSeen": "2026-04-21T18:41:09.013Z",
     "confirmed": false
+  },
+  "GrrSuECHUwcEXwSwPLdvdgVx8Ekyso5gUmMAmyRuM5J": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BEE",
+        "pairAddress": "BqJiGXRw31Cqsv4adUhUapG22Xdy32gd5AuFN2Wfe2oR",
+        "entryTime": "2026-04-21T18:41:45.682Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T18:41:45.682Z",
+    "lastSeen": "2026-04-21T18:41:45.682Z",
+    "confirmed": false
   }
 }
