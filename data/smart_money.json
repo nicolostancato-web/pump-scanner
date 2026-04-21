@@ -12594,7 +12594,7 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "CAM",
@@ -12605,6 +12605,11 @@
         "symbol": "Liquid",
         "pairAddress": "BQrGLFov3ChbEDBXoBCWnYMwVu8VjwJsnMEGd5mbsPeQ",
         "entryTime": "2026-04-21T21:25:22.239Z"
+      },
+      {
+        "symbol": "FLYINGCAR",
+        "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
+        "entryTime": "2026-04-21T21:42:02.613Z"
       }
     ],
     "wins": 0,
@@ -12612,8 +12617,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:42:37.850Z",
-    "lastSeen": "2026-04-21T21:25:22.239Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T21:42:02.613Z",
+    "confirmed": true
   },
   "8abFwsQkoMRAk5mD4eXFTBqVyTGsfUZ1hVsfZ3NDsDUW": {
     "appearances": 2,
@@ -13588,7 +13593,7 @@
     "confirmed": false
   },
   "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "frank",
@@ -13599,6 +13604,11 @@
         "symbol": "Liquid",
         "pairAddress": "BQrGLFov3ChbEDBXoBCWnYMwVu8VjwJsnMEGd5mbsPeQ",
         "entryTime": "2026-04-21T21:19:42.849Z"
+      },
+      {
+        "symbol": "FLYINGCAR",
+        "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
+        "entryTime": "2026-04-21T21:42:02.613Z"
       }
     ],
     "wins": 0,
@@ -13606,8 +13616,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T20:34:44.114Z",
-    "lastSeen": "2026-04-21T21:19:42.849Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T21:42:02.613Z",
+    "confirmed": true
   },
   "9LFiTup5RpWNLgUcDbF87YFHqT9as43AYG8LG39Yj9p3": {
     "appearances": 1,
