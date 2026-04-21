@@ -9664,7 +9664,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "TERMINAL",
@@ -9675,6 +9675,11 @@
         "symbol": "dog",
         "pairAddress": "EfVKet4DTgVDaVWk6BVx11mPTg8XdCQnLK66a8ZDpECb",
         "entryTime": "2026-04-21T19:12:36.813Z"
+      },
+      {
+        "symbol": "CAM",
+        "pairAddress": "FwP4XDsu9mCtumhMJTbnNLMwgnAz2Qo6aEZDV8UjH6p6",
+        "entryTime": "2026-04-21T19:42:37.850Z"
       }
     ],
     "wins": 0,
@@ -9682,8 +9687,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:24:07.723Z",
-    "lastSeen": "2026-04-21T19:12:36.813Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T19:42:37.850Z",
+    "confirmed": true
   },
   "EhER7q3w7UNCHCzjhud1dDxtGTihC7CoPfgkzS7KYZwk": {
     "appearances": 1,
@@ -12486,6 +12491,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:41:57.443Z",
     "lastSeen": "2026-04-21T19:41:57.443Z",
+    "confirmed": false
+  },
+  "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CAM",
+        "pairAddress": "FwP4XDsu9mCtumhMJTbnNLMwgnAz2Qo6aEZDV8UjH6p6",
+        "entryTime": "2026-04-21T19:42:37.850Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T19:42:37.850Z",
+    "lastSeen": "2026-04-21T19:42:37.850Z",
     "confirmed": false
   }
 }
