@@ -20734,7 +20734,7 @@
     "confirmed": false
   },
   "GAKjtJeQh8gkdtPzDoYZzAZS1GauEvwmHTfPT6GiAEm6": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "PUMPETH",
@@ -20745,6 +20745,11 @@
         "symbol": "TUSK",
         "pairAddress": "3Z5WCuHAiocDk9roL3napHqax7MnE5JuwuaUz8KFc7eL",
         "entryTime": "2026-04-20T08:24:16.462Z"
+      },
+      {
+        "symbol": "elon.exe",
+        "pairAddress": "9bxE83kDUcrvFqYhrGaE1mE9PUr5dZ67AGXTpWv3YmJY",
+        "entryTime": "2026-04-21T03:04:29.053Z"
       }
     ],
     "wins": 0,
@@ -20752,8 +20757,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T06:45:58.031Z",
-    "lastSeen": "2026-04-20T08:24:16.462Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T03:04:29.053Z",
+    "confirmed": true
   },
   "89EXUUKHN2mi5ocGB2tZuMoXW4pv6936a3WcGGZyugMw": {
     "appearances": 1,
@@ -36988,6 +36993,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T03:03:51.327Z",
     "lastSeen": "2026-04-21T03:03:51.327Z",
+    "confirmed": false
+  },
+  "A5siBTGsXNCoYDY92pXGauM5ixqdpeDLn5rQaBkWApVE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "elon.exe",
+        "pairAddress": "9bxE83kDUcrvFqYhrGaE1mE9PUr5dZ67AGXTpWv3YmJY",
+        "entryTime": "2026-04-21T03:04:29.053Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T03:04:29.053Z",
+    "lastSeen": "2026-04-21T03:04:29.053Z",
     "confirmed": false
   }
 }
