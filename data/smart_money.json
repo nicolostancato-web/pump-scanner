@@ -2852,5 +2852,22 @@
     "firstSeen": "2026-04-21T08:45:34.252Z",
     "lastSeen": "2026-04-21T08:45:34.252Z",
     "confirmed": false
+  },
+  "1aDerPKk87xJHCAqTY5bGxF5Xet2MG476y4Zmq2WJ8Y": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SIF",
+        "pairAddress": "8HfLQa1stNK1pS9qTJFegLLuKeH3UyjrhA5Vku1q4PWG",
+        "entryTime": "2026-04-21T08:46:06.709Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T08:46:06.709Z",
+    "lastSeen": "2026-04-21T08:46:06.709Z",
+    "confirmed": false
   }
 }
