@@ -700,5 +700,22 @@
     "firstSeen": "2026-04-21T05:48:38.151Z",
     "lastSeen": "2026-04-21T05:48:38.151Z",
     "confirmed": false
+  },
+  "6uvdutyfDyLbsrpGdCqFydYMCzi9Q99jRM7dJzNkAEy5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "wif2",
+        "pairAddress": "89kPF7X5SQdM8Ko4gVzzSLzd7w57tG9JUtcqoKqxcimi",
+        "entryTime": "2026-04-21T05:49:07.159Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T05:49:07.159Z",
+    "lastSeen": "2026-04-21T05:49:07.159Z",
+    "confirmed": false
   }
 }
