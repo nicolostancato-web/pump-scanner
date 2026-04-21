@@ -3,7 +3,7 @@
 The Wolf of Italy — Multi-Agent Orchestrator
 WAT Framework: Workflows + Agent + Tools
 
-Runs all active team agents in parallel.
+Runs all active team agents in parallel using free Gemini 2.0 Flash.
 Each agent fetches real data and saves notes to GitHub.
 """
 
@@ -15,19 +15,24 @@ from datetime import datetime
 from pathlib import Path
 
 import httpx
-from anthropic import AsyncAnthropic
+import litellm
 from dotenv import load_dotenv
 
 load_dotenv()
 
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_REPO = os.environ.get("GITHUB_REPO", "nicolostancato-web/pump-scanner")
 DATE = datetime.now().strftime("%Y-%m-%d")
-MODEL_SONNET = "claude-sonnet-4-6"
-MODEL_HAIKU = "claude-haiku-4-5-20251001"  # cheaper + higher rate limits for simple tasks
 
-client = AsyncAnthropic(api_key=ANTHROPIC_API_KEY)
+# Default: Groq free tier (6K req/day free, fast, tool calling)
+# Override with LLM_MODEL env var:
+#   "groq/llama-3.3-70b-versatile"          — free, good quality
+#   "deepseek/deepseek-chat"                 — $0.002/run, best quality
+#   "gemini/gemini-2.0-flash"                — Google free tier
+#   "anthropic/claude-haiku-4-5-20251001"    — back to Anthropic
+MODEL = os.environ.get("LLM_MODEL", "deepseek/deepseek-chat")
+
+litellm.drop_params = True  # ignore unsupported params silently
 
 # ── TOOLS ──────────────────────────────────────────────────────────────────
 
@@ -52,14 +57,24 @@ async def fetch_url(url: str) -> str:
 
 async def github_save(path: str, content: str, message: str) -> dict:
     encoded = base64.b64encode(content.encode("utf-8")).decode("utf-8")
+    headers = {
+        "Authorization": f"token {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3+json",
+    }
     async with httpx.AsyncClient(timeout=20) as http:
+        # Check if file exists to get its SHA (required for updates)
+        existing = await http.get(
+            f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}",
+            headers=headers,
+        )
+        body = {"message": message, "content": encoded}
+        if existing.status_code == 200:
+            body["sha"] = existing.json()["sha"]
+
         r = await http.put(
             f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}",
-            json={"message": message, "content": encoded},
-            headers={
-                "Authorization": f"token {GITHUB_TOKEN}",
-                "Accept": "application/vnd.github.v3+json",
-            },
+            json=body,
+            headers=headers,
         )
         return {"status": r.status_code, "path": path, "ok": r.status_code in (200, 201)}
 
@@ -70,41 +85,54 @@ TOOL_REGISTRY = {
     "github_save": github_save,
 }
 
+# OpenAI-compatible tool schema (works with litellm → any provider)
 TOOLS_SCHEMA = [
     {
-        "name": "coingecko_trending",
-        "description": "Fetch top trending cryptocurrencies from CoinGecko. Free, no API key needed.",
-        "input_schema": {"type": "object", "properties": {}, "required": []},
-    },
-    {
-        "name": "coingecko_markets",
-        "description": "Fetch top cryptocurrencies by volume with 24h price change. Returns price, volume, % change.",
-        "input_schema": {
-            "type": "object",
-            "properties": {"limit": {"type": "integer", "description": "Number of coins to fetch (max 50)", "default": 20}},
-            "required": [],
+        "type": "function",
+        "function": {
+            "name": "coingecko_trending",
+            "description": "Fetch top trending cryptocurrencies from CoinGecko. Free, no API key needed.",
+            "parameters": {"type": "object", "properties": {}, "required": []},
         },
     },
     {
-        "name": "fetch_url",
-        "description": "Fetch content from any public URL. Use for APIs, web pages, RSS feeds, JSON endpoints.",
-        "input_schema": {
-            "type": "object",
-            "properties": {"url": {"type": "string", "description": "The URL to fetch"}},
-            "required": ["url"],
-        },
-    },
-    {
-        "name": "github_save",
-        "description": "Save a file to the GitHub repository. Use to persist all research notes and outputs.",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "path": {"type": "string", "description": "File path in repo. Example: the-wolf-of-italy/team-notes/RESEARCH-CRYPTO-1/2026-04-21/raw_notes.md"},
-                "content": {"type": "string", "description": "File content in markdown format"},
-                "message": {"type": "string", "description": "Git commit message"},
+        "type": "function",
+        "function": {
+            "name": "coingecko_markets",
+            "description": "Fetch top cryptocurrencies by volume with 24h price change. Returns price, volume, % change.",
+            "parameters": {
+                "type": "object",
+                "properties": {"limit": {"type": "integer", "description": "Number of coins to fetch (max 50)", "default": 20}},
+                "required": [],
             },
-            "required": ["path", "content", "message"],
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "fetch_url",
+            "description": "Fetch content from any public URL. Use for APIs, web pages, RSS feeds, JSON endpoints.",
+            "parameters": {
+                "type": "object",
+                "properties": {"url": {"type": "string", "description": "The URL to fetch"}},
+                "required": ["url"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "github_save",
+            "description": "Save a file to the GitHub repository. Use to persist all research notes and outputs.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "path": {"type": "string", "description": "File path in repo. Example: the-wolf-of-italy/team-notes/RESEARCH-CRYPTO-1/2026-04-21/raw_notes.md"},
+                    "content": {"type": "string", "description": "File content in markdown format"},
+                    "message": {"type": "string", "description": "Git commit message"},
+                },
+                "required": ["path", "content", "message"],
+            },
         },
     },
 ]
@@ -119,49 +147,94 @@ CEO_SYSTEM = load_ceo_system()
 
 # ── AGENT RUNNER ───────────────────────────────────────────────────────────
 
-HAIKU_AGENTS = {"FINANCE-1", "SECURITY-1", "QUALITY-CONTROL-1", "EXECUTION-1"}
-
 async def run_agent(name: str, task: str, stagger: int = 0) -> dict:
     """Run one agent in an agentic loop until it saves its output and returns."""
     if stagger:
         await asyncio.sleep(stagger)
 
-    model = MODEL_HAIKU if name in HAIKU_AGENTS else MODEL_SONNET
-    messages = [{"role": "user", "content": task}]
     system = CEO_SYSTEM + f"\n\nYou are acting as {name}. Date: {DATE}."
+    messages = [
+        {"role": "system", "content": system},
+        {"role": "user", "content": task},
+    ]
 
-    print(f"  [{name}] starting... (model: {model})")
+    print(f"  [{name}] starting... (model: {MODEL})")
 
-    for iteration in range(10):
-        response = await client.messages.create(
-            model=model,
-            max_tokens=4096,
-            system=system,
-            tools=TOOLS_SCHEMA,
-            messages=messages,
-        )
+    for iteration in range(20):
+        for attempt in range(3):
+            try:
+                response = await litellm.acompletion(
+                    model=MODEL,
+                    messages=messages,
+                    tools=TOOLS_SCHEMA,
+                    tool_choice="auto",
+                    max_tokens=4096,
+                )
+                break
+            except Exception as e:
+                err = str(e).lower()
+                if ("rate_limit" in err or "429" in err or "resource_exhausted" in err) and attempt < 2:
+                    wait = 60 * (attempt + 1)
+                    print(f"  [{name}] rate limit — waiting {wait}s...")
+                    await asyncio.sleep(wait)
+                else:
+                    raise
 
-        if response.stop_reason == "end_turn":
-            text = " ".join(b.text for b in response.content if hasattr(b, "text"))
+        choice = response.choices[0]
+        finish_reason = choice.finish_reason
+
+        if finish_reason in ("stop", "end_turn", "length"):
+            text = choice.message.content or ""
             print(f"  [{name}] done after {iteration+1} steps")
             return {"name": name, "status": "ok", "output": text}
 
-        if response.stop_reason == "tool_use":
-            messages.append({"role": "assistant", "content": response.content})
-            tool_results = []
-            for block in response.content:
-                if block.type == "tool_use":
-                    fn = TOOL_REGISTRY.get(block.name)
-                    try:
-                        result = await fn(**block.input) if fn else f"Tool {block.name} not found"
-                    except Exception as e:
-                        result = f"Error calling {block.name}: {e}"
-                    tool_results.append({
-                        "type": "tool_result",
-                        "tool_use_id": block.id,
-                        "content": json.dumps(result) if not isinstance(result, str) else result,
+        if finish_reason == "tool_calls":
+            tool_calls = choice.message.tool_calls or []
+
+            # Append assistant message with tool calls
+            messages.append({
+                "role": "assistant",
+                "content": choice.message.content,
+                "tool_calls": [
+                    {
+                        "id": tc.id,
+                        "type": "function",
+                        "function": {
+                            "name": tc.function.name,
+                            "arguments": tc.function.arguments,
+                        },
+                    }
+                    for tc in tool_calls
+                ],
+            })
+
+            # Execute each tool and append result
+            for tc in tool_calls:
+                fn_name = tc.function.name
+                try:
+                    fn_args = json.loads(tc.function.arguments or "{}")
+                except json.JSONDecodeError:
+                    fn_args = {}
+                fn = TOOL_REGISTRY.get(fn_name)
+                print(f"  [{name}] tool: {fn_name}({list(fn_args.keys())})")
+                try:
+                    result = await fn(**fn_args) if fn else f"Tool {fn_name} not found"
+                except Exception as e:
+                    result = f"Error calling {fn_name}: {e}"
+                # If github_save succeeded, agent is done
+                if fn_name == "github_save" and isinstance(result, dict) and result.get("ok"):
+                    messages.append({
+                        "role": "tool",
+                        "tool_call_id": tc.id,
+                        "content": json.dumps(result),
                     })
-            messages.append({"role": "user", "content": tool_results})
+                    print(f"  [{name}] done after {iteration+1} steps")
+                    return {"name": name, "status": "ok", "output": f"Saved to {result['path']}"}
+                messages.append({
+                    "role": "tool",
+                    "tool_call_id": tc.id,
+                    "content": json.dumps(result) if not isinstance(result, str) else result,
+                })
 
     return {"name": name, "status": "timeout", "output": "Max iterations reached"}
 
@@ -190,10 +263,10 @@ After saving, summarize the top signal found.""",
 
 {load_workflow("research_ai.md")}
 
-Execute your full daily workflow now.
+Execute your daily workflow. IMPORTANT: make at most 4 fetch_url calls total.
 1. Fetch HackerNews top stories: https://hacker-news.firebaseio.com/v0/topstories.json
-2. Get details for the first 5 story IDs
-3. Identify 3 AI monetization methods active today
+2. Get details for the first 3 story IDs ONLY (3 calls max)
+3. Identify 3 AI monetization methods based on what you found
 Save to GitHub at:
   the-wolf-of-italy/team-notes/RESEARCH-AI-1/{DATE}/raw_notes.md
 Commit: "RESEARCH-AI-1: raw notes {DATE}"
@@ -221,16 +294,26 @@ After saving, confirm.""",
 
 {load_workflow("execution.md")}
 
-Check GitHub for pending opportunities:
+Step 1: Try to fetch pending opportunities from GitHub:
   fetch_url: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/knowledge_base/opportunities
 
-If the folder doesn't exist yet or is empty, document that and propose the first zero-cost test
-to run tomorrow based on what RESEARCH-CRYPTO-1 or RESEARCH-AI-1 may have found.
+NOTE: This folder may not exist yet (404 is expected on day 1). That is fine.
 
-Save execution log to GitHub at:
-  the-wolf-of-italy/team-notes/EXECUTION-1/{DATE}/execution_log.md
+Step 2: Based on what you know about crypto and AI monetization, identify ONE concrete zero-cost test
+that EXECUTION-1 could run TODAY or TOMORROW. It must be:
+- Legal
+- Zero cost
+- Executable without new credentials
+- Completable in under 2 hours
+
+Example types: test a free DeFi protocol UI, verify an airdrop eligibility, benchmark a free AI API,
+check a referral program payout, verify a grant application process.
+
+Step 3: Save your execution log to GitHub. You MUST call github_save.
+Path: the-wolf-of-italy/team-notes/EXECUTION-1/{DATE}/execution_log.md
 Commit: "EXECUTION-1: daily log {DATE}"
-After saving, confirm.""",
+
+The log must include: pending opportunities reviewed, proposed next test, and steps to execute it.""",
     },
     {
         "name": "FINANCE-1",
@@ -238,9 +321,8 @@ After saving, confirm.""",
 
 {load_workflow("finance.md")}
 
-Today's orchestrator run: 7 agents × ~$0.08/agent = ~$0.56 estimated.
-Monthly: 2 runs/day × 30 × $0.56 = ~$33/month for agents alone.
-Plus n8n (~$35), Railway (~$15). Total: ~$83/month estimated.
+Today's orchestrator run: 7 agents × free Gemini model = $0.00.
+Infrastructure: n8n (~$35), Railway (~$15). Total: ~$50/month estimated.
 
 Produce CFO note with full cost breakdown and any savings identified.
 Save to GitHub at:
@@ -275,8 +357,7 @@ After saving, confirm.""",
 
 Run today's lightweight security check:
 1. Calculate days until n8n JWT expiry (2026-06-03 from today {DATE})
-2. Check Solana wallet on Solscan: fetch_url https://api.mainnet-beta.solana.com with POST body to check E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
-   (or use: https://public-api.solscan.io/account/E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV)
+2. Check Solana wallet on Solscan: fetch_url https://public-api.solscan.io/account/E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
 3. Log any new credentials or risks
 
 Save security note to GitHub at:
@@ -291,19 +372,14 @@ After saving, confirm.""",
 async def main():
     print(f"\n{'='*60}")
     print(f"The Wolf of Italy — Orchestrator")
-    print(f"Date: {DATE} | Agents: {len(ACTIVE_AGENTS)}")
+    print(f"Date: {DATE} | Agents: {len(ACTIVE_AGENTS)} | Model: {MODEL}")
     print(f"{'='*60}\n")
 
-    # Stagger starts: research agents use Sonnet (heavy), others use Haiku (lighter)
-    # Sonnet agents staggered by 15s to stay under 30K TPM rate limit
-    sonnet_delay = 0
-    tasks = []
-    for a in ACTIVE_AGENTS:
-        delay = 0
-        if a["name"] not in HAIKU_AGENTS:
-            delay = sonnet_delay
-            sonnet_delay += 15
-        tasks.append(run_agent(a["name"], a["task"], stagger=delay))
+    # Stagger all agents by 8s to respect Gemini's 15 RPM free limit
+    tasks = [
+        run_agent(a["name"], a["task"], stagger=i * 8)
+        for i, a in enumerate(ACTIVE_AGENTS)
+    ]
     results = await asyncio.gather(*tasks, return_exceptions=True)
 
     print(f"\n{'─'*40}")
