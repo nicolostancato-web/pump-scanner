@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "APU",
@@ -555,6 +555,11 @@
         "symbol": "wif2",
         "pairAddress": "89kPF7X5SQdM8Ko4gVzzSLzd7w57tG9JUtcqoKqxcimi",
         "entryTime": "2026-04-21T05:48:38.151Z"
+      },
+      {
+        "symbol": "ASTROPEPE",
+        "pairAddress": "HaFUCubqNqQosJ44EChp3tYJ8ybcYe7HQDCZFMsFtSZc",
+        "entryTime": "2026-04-21T06:32:27.738Z"
       }
     ],
     "wins": 0,
@@ -562,8 +567,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T05:35:50.664Z",
-    "lastSeen": "2026-04-21T05:48:38.151Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T06:32:27.738Z",
+    "confirmed": true
   },
   "2nENNWPvBickxym8en5ZziezDLD4dcmVyZbu7WFv5VeV": {
     "appearances": 1,
