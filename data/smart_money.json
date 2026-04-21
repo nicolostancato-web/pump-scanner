@@ -14301,7 +14301,7 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "vibetrading",
@@ -14327,6 +14327,11 @@
         "symbol": "Lenny",
         "pairAddress": "Bu6ZXMXUJX8pa79SQZg3JRX5Wbg8Vb4vuBVtDy2vK2ns",
         "entryTime": "2026-04-21T02:38:01.402Z"
+      },
+      {
+        "symbol": "ASTERMISA",
+        "pairAddress": "DBEAD7srve7y7uWZncYGhqUjqfLE9WwMkotmdqtwoHHF",
+        "entryTime": "2026-04-21T03:22:54.652Z"
       }
     ],
     "wins": 0,
@@ -14334,7 +14339,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:33:17.662Z",
-    "lastSeen": "2026-04-21T02:38:01.402Z",
+    "lastSeen": "2026-04-21T03:22:54.652Z",
     "confirmed": true
   },
   "2rCyMG7JAcUi43Djbb44b1F4DshEmKY1xJJRwMGitMaV": {
@@ -37591,6 +37596,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T03:22:21.320Z",
     "lastSeen": "2026-04-21T03:22:21.320Z",
+    "confirmed": false
+  },
+  "9qpFsqDjsZfQW5LuuTUgWXTLfViF9fzqaRqkCgf9BaRN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASTERMISA",
+        "pairAddress": "DBEAD7srve7y7uWZncYGhqUjqfLE9WwMkotmdqtwoHHF",
+        "entryTime": "2026-04-21T03:22:54.652Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T03:22:54.652Z",
+    "lastSeen": "2026-04-21T03:22:54.652Z",
     "confirmed": false
   }
 }
