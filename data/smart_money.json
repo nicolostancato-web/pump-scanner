@@ -961,7 +961,7 @@
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 21,
+    "appearances": 22,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1067,6 +1067,11 @@
         "symbol": "OMI",
         "pairAddress": "GNMF7ibSbJL4TdAVtfwZjFUmhFQ5NMG868d9Gym7ps6v",
         "entryTime": "2026-04-20T23:58:00.539Z"
+      },
+      {
+        "symbol": "CHLOE",
+        "pairAddress": "BtRi9sb1Hu5YqRfqAiYNDjTqa1U7cX5CWarDsuikDoUi",
+        "entryTime": "2026-04-21T00:49:58.042Z"
       }
     ],
     "wins": 0,
@@ -1074,7 +1079,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:34:16.976Z",
-    "lastSeen": "2026-04-20T23:58:00.539Z",
+    "lastSeen": "2026-04-21T00:49:58.042Z",
     "confirmed": true
   },
   "D5e7wVqvV7AXaENstDoHPs2JTDq1L84VjNVGpryvDHEZ": {
@@ -35132,6 +35137,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T00:49:26.772Z",
     "lastSeen": "2026-04-21T00:49:26.772Z",
+    "confirmed": false
+  },
+  "F424cDUFDQSfGwQdw3V3bDNwd2XAwAnSBY8eiHUQwmFW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHLOE",
+        "pairAddress": "BtRi9sb1Hu5YqRfqAiYNDjTqa1U7cX5CWarDsuikDoUi",
+        "entryTime": "2026-04-21T00:49:58.042Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T00:49:58.042Z",
+    "lastSeen": "2026-04-21T00:49:58.042Z",
     "confirmed": false
   }
 }
