@@ -544,12 +544,17 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "APU",
         "pairAddress": "FEN7hbWLoarPdv15VM1kXzmzmFTs4gEaX9mnwUf6vi1g",
         "entryTime": "2026-04-21T05:35:50.664Z"
+      },
+      {
+        "symbol": "wif2",
+        "pairAddress": "89kPF7X5SQdM8Ko4gVzzSLzd7w57tG9JUtcqoKqxcimi",
+        "entryTime": "2026-04-21T05:48:38.151Z"
       }
     ],
     "wins": 0,
@@ -557,7 +562,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T05:35:50.664Z",
-    "lastSeen": "2026-04-21T05:35:50.664Z",
+    "lastSeen": "2026-04-21T05:48:38.151Z",
     "confirmed": false
   },
   "2nENNWPvBickxym8en5ZziezDLD4dcmVyZbu7WFv5VeV": {
@@ -677,6 +682,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T05:48:07.439Z",
     "lastSeen": "2026-04-21T05:48:07.439Z",
+    "confirmed": false
+  },
+  "DnJacFtoNa6kxdQqMCHxhktKuD67wy9VaDdbJzMsf4ad": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "wif2",
+        "pairAddress": "89kPF7X5SQdM8Ko4gVzzSLzd7w57tG9JUtcqoKqxcimi",
+        "entryTime": "2026-04-21T05:48:38.151Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T05:48:38.151Z",
+    "lastSeen": "2026-04-21T05:48:38.151Z",
     "confirmed": false
   }
 }
