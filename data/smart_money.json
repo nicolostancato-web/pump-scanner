@@ -1744,12 +1744,17 @@
     "confirmed": false
   },
   "7ztfru1ejJW8hyRb166sggdQY2P6i6K4b1PJMydYyTfD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "uncel",
         "pairAddress": "4yQRkDcRssN7ZoQXowMqKs3Jzq3e6qcKqfvnrDV2CEAa",
         "entryTime": "2026-04-21T06:11:20.650Z"
+      },
+      {
+        "symbol": "SIF",
+        "pairAddress": "8HfLQa1stNK1pS9qTJFegLLuKeH3UyjrhA5Vku1q4PWG",
+        "entryTime": "2026-04-21T08:44:24.565Z"
       }
     ],
     "wins": 0,
@@ -1757,7 +1762,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:11:20.650Z",
-    "lastSeen": "2026-04-21T06:11:20.650Z",
+    "lastSeen": "2026-04-21T08:44:24.565Z",
     "confirmed": false
   },
   "7pFUifY3318N5thMcQiQr9zjoVnMJB5jboyGAKev7Gnv": {
