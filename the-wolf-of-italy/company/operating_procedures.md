@@ -40,6 +40,47 @@ Se il lavoro non è tracciato, per i fondatori non è lavoro verificabile.
 - QUALITY-CONTROL-1: audit reali ogni sera da 2026-04-21
 - SECURITY-1: audit credenziali immediato
 - FINANCE-1: baseline economico entro 2026-04-21
+- EXECUTION-1: attivato 2026-04-21, riceve opportunità filtrate dal CEO ed esegue test rapidi
+
+### FLUSSO RESEARCH → CEO → EXECUTION (attivo dal 2026-04-21)
+
+Ogni opportunità concreta segue questo flusso obbligatorio:
+
+1. Team di ricerca identifica metodo/pista concreta
+2. Team produce **scheda opportunità** (vedi template sotto) e la invia al CEO
+3. CEO decide entro 4 ore: scartare / approfondire / mandare in EXECUTION immediata
+4. Se approvato: EXECUTION-1 parte subito
+5. EXECUTION-1 documenta tutto e produce scheda esito
+
+**Template scheda opportunità (obbligatorio):**
+```
+OPPORTUNITÀ: [nome]
+Descrizione: cosa è e come funziona
+Perché può generare profitto: meccanismo concreto
+Come si esegue: passaggi operativi
+Costo stimato: € / $ o zero
+Rischio stimato: basso / medio / alto
+Tempo richiesto: ore / giorni
+Strumenti necessari: tool, API, wallet
+Criterio di successo: come sappiamo se ha funzionato
+```
+
+**Template scheda esito EXECUTION (obbligatorio):**
+```
+TEST: [nome opportunità]
+Data e ora: 
+Team source: 
+Approvazione CEO: sì
+Passaggi eseguiti: 
+Capitale impiegato: 
+Esito: 
+Profitto / Perdita: 
+Problemi emersi: 
+Learnings: 
+Decisione finale: scartare / riprovare / scalare
+```
+
+**Regola CEO:** se il metodo è legale, chiaro, basso rischio, basso costo o costo zero, coerente con la società ed eseguibile subito → si autorizza il test senza attendere meeting. Il tempo tra scoperta e prova deve essere minimo.
 
 ---
 
