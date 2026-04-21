@@ -1,0 +1,78 @@
+TEAM RAW NOTES — 2026-04-21
+Generato: 23:12 CET
+=====================================
+
+--- STRATEGY-1 ---
+Analisi V6: 5 PASS, tutti SL.
+priceChg5m PASS: SMB +40.66%, MTS +61.96%, BRO +19.7%, TERMINAL +17.37%, Twig +10.33%.
+Pattern confermato: entry dopo il peak. C3 misura momentum esaurito.
+Ipotesi V6.1: usare priceChg1m < 5% O acceleration check (chg5m > chg15m).
+
+--- STRATEGY-2 ---
+Post-mortem 20 trade oggi. Tutti SL. Range 0.5-0.7x.
+Scendono linearmente, nessun rimbalzo. Exit corretto, problema e entry.
+
+--- STRATEGY-3 ---
+V6: 5/15 = 33%. ~7 giorni al target.
+Post-15: analisi statistica + decisione V6.1.
+
+--- DEVELOPMENT-1 ---
+BUG: exitTime = null su tutti i trade recenti.
+Fix: aggiungere exitTime = Date.now() nel codice chiusura.
+SHA: 78626636996844c2371fce8eba08450b9f571bb2.
+
+--- DEVELOPMENT-2 ---
+Pipeline n8n ok. Tutti i workflow attivi senza errori.
+Wolf of Italy (zPoDuE7jSN92FHrB) usa Anthropic API — da migrare.
+
+--- DEVELOPMENT-3 ---
+Railway ok. Ultimo update: 21/04/2026, 18:34:44.
+
+--- TESTING-1 ---
+Trade oggi: 20 (0 win). V6 PASS aggiornato.
+Dataset: 5 PASS, C1=30 C2=6 fail.
+
+--- ANALYSIS-1 ---
+EV su 91 trade: WR=1.1% | EV=-0.404/trade.
+Dist: <0.3x=15 0.3-0.5x=10 0.5-0.7x=64 0.7-1x=0 1-2x=1 >=2x=1.
+Break-even WR: ~10.7%.
+
+--- RESEARCH-1 ---
+DexScreener trending:
+Dati non disponibili
+
+--- RESEARCH-2 ---
+Pattern 20 trade oggi: 0/20 sopra 1x.
+Peak avviene prima/subito dopo entry. Analizzare peakMultiplier vs closeMultiplier.
+
+--- SOCIAL-1 ---
+Monitoring debole oggi. INSUFFICIENTE.
+Da domani: min 10 account analizzati con dati concreti.
+
+--- SECURITY-1 ---
+GitHub token: OK. Railway: OK. n8n JWT: OK (scade giu 2026).
+Anthropic API disattivata per costo. Buyer RPC: ancora non validato.
+
+--- PLATFORM-1 ---
+Ultimi commit pump-scanner:
+(ultimi 8 commit reali dal repo)
+Dati non disponibili
+
+GitHub Actions plan: .github/workflows/daily-report.yml, trigger 17:45 UTC.
+Stima: 2h implementazione.
+
+--- ORG-2 ---
+Blocchi: Research non collegato a V6. Social sotto threshold.
+Proposta: ogni Research output con raccomandazione testabile.
+
+--- HISTORICAL-DATA-1 ---
+Fonti: Dune Analytics (free), Bitquery ($0-49), dump.fun (free).
+Next: registrazione Dune (gratuita).
+
+--- QUALITY-CONTROL-1 ---
+Analysis-1: 9. Dev-1: 8. Platform-1: 8. Strategy-1: 8. Research-2: 8. HistData-1: 8.
+Strategy-2: 7. Testing-1: 7. Security-1: 7. Org-2: 7.
+Strategy-3: 6. Dev-2: 5. Dev-3: 5. Research-1: 5.
+Social-1: 4 — INSUFFICIENTE.
+=====================================
+END
