@@ -544,7 +544,7 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "APU",
@@ -570,6 +570,11 @@
         "symbol": "TERMINAL",
         "pairAddress": "4TNPtyKi6P92VcVRhj7YhYEkVVEDWpTDxvHprhPStvzk",
         "entryTime": "2026-04-21T16:05:29.886Z"
+      },
+      {
+        "symbol": "SOLMONEY",
+        "pairAddress": "8YZJZEEYycqKpnheiMDo1ZXWEKyNwK9jA9X94rG6PVUJ",
+        "entryTime": "2026-04-21T19:57:21.825Z"
       }
     ],
     "wins": 0,
@@ -577,7 +582,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T05:35:50.664Z",
-    "lastSeen": "2026-04-21T16:05:29.886Z",
+    "lastSeen": "2026-04-21T19:57:21.825Z",
     "confirmed": true
   },
   "2nENNWPvBickxym8en5ZziezDLD4dcmVyZbu7WFv5VeV": {
@@ -2051,12 +2056,17 @@
     "confirmed": false
   },
   "J6ikwyMc255MAGwKkTDCMDDvKfZWytg8Dg5q1t7wSRCs": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FUMES",
         "pairAddress": "BexYQvWnTeG1Nt342NcoUq63oTP6ShqBgSbcgHuQtRFx",
         "entryTime": "2026-04-21T06:22:59.437Z"
+      },
+      {
+        "symbol": "SOLMONEY",
+        "pairAddress": "8YZJZEEYycqKpnheiMDo1ZXWEKyNwK9jA9X94rG6PVUJ",
+        "entryTime": "2026-04-21T19:57:21.825Z"
       }
     ],
     "wins": 0,
@@ -2064,7 +2074,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:22:59.437Z",
-    "lastSeen": "2026-04-21T06:22:59.437Z",
+    "lastSeen": "2026-04-21T19:57:21.825Z",
     "confirmed": false
   },
   "CtNiWbDMUTGpt7FKQjYG7d8kHcsVdvdtjkDoopAq4Bjn": {
