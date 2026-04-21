@@ -5968,7 +5968,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "HcVZ1GG6bvm1Gd6EZaBAaXhcGwDsQRWB9i19SW1pJeC5",
+      "mint": "5xNDftGCewCcWDXLbmqvotvkLbk6edqeQgm4bpXvpump",
+      "name": "The Traitor",
+      "symbol": "Andrew",
+      "dex": "pumpswap",
+      "entryPrice": 0.00009631,
+      "entryMcap": 96311,
+      "entryTime": 1776808207541,
+      "score": 68,
+      "ageAtEntry": 24,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/hcvz1gg6bvm1gd6ezabaaxhcgwdsqrwb9i19sw1pjec5",
+      "peakPrice": 0.00009631,
+      "peakMultiplier": 1,
+      "peakMcap": 96311,
+      "peakTime": 1776808207541,
+      "lastPrice": 0.00006133,
+      "lowestPrice": 0.00006133,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00006133,
+      "closeMultiplier": 0.6367978403073408,
+      "closedAt": "2026-04-21T21:52:07.814Z",
+      "durationMs": 120273,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00006133,
+        "closeMultiplier": 0.6367978403073408,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-21T21:52:07.814Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -40,
+        "momentum": 0.03375,
+        "floatRotation": 0.4605999314720021,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.4605999314720021,
+        "accel": 0.03375,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(24min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg0.8%,vol$44361,b1195s325)",
+        "priceChg5m": 0.81,
+        "vol5m": 44360.84,
+        "buys5m": 1195,
+        "sells5m": 325,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-21T16:34:44.684Z"
+  "lastSaved": "2026-04-21T21:52:09.197Z"
 }
