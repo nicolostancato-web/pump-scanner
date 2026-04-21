@@ -7567,12 +7567,17 @@
     "confirmed": false
   },
   "G5VbLcSueggWpvtxxmyto2v5GVhMybhAMDGzXGs9HJ9Z": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Mogged",
         "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
         "entryTime": "2026-04-21T14:41:42.681Z"
+      },
+      {
+        "symbol": "CONDOM",
+        "pairAddress": "Bq3TM18REWdzf5NzwqCH5c4r6jbTkFNzdXpfRL5wYJ6u",
+        "entryTime": "2026-04-21T15:24:23.906Z"
       }
     ],
     "wins": 0,
@@ -7580,7 +7585,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:41:42.681Z",
-    "lastSeen": "2026-04-21T14:41:42.681Z",
+    "lastSeen": "2026-04-21T15:24:23.906Z",
     "confirmed": false
   },
   "E5ZLJ2xKxt7m2TS9Q6S1D4zftsuvA3EAv3GTdf7VipbB": {
@@ -8652,6 +8657,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T15:23:48.966Z",
     "lastSeen": "2026-04-21T15:23:48.966Z",
+    "confirmed": false
+  },
+  "6PzX3RjHzczz1UspFTeD19c2KZu5XQJvjZtnjdvoR2Lo": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CONDOM",
+        "pairAddress": "Bq3TM18REWdzf5NzwqCH5c4r6jbTkFNzdXpfRL5wYJ6u",
+        "entryTime": "2026-04-21T15:24:23.906Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T15:24:23.906Z",
+    "lastSeen": "2026-04-21T15:24:23.906Z",
     "confirmed": false
   }
 }
