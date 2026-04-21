@@ -976,7 +976,7 @@
     "confirmed": true
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 22,
+    "appearances": 23,
     "tokens": [
       {
         "symbol": "Jared",
@@ -1087,6 +1087,11 @@
         "symbol": "CHLOE",
         "pairAddress": "BtRi9sb1Hu5YqRfqAiYNDjTqa1U7cX5CWarDsuikDoUi",
         "entryTime": "2026-04-21T00:49:58.042Z"
+      },
+      {
+        "symbol": "phone",
+        "pairAddress": "wweCNsecpBY4D4atwMme1uNMzdQ4nMdHiVRLQmThKx4",
+        "entryTime": "2026-04-21T02:07:02.710Z"
       }
     ],
     "wins": 0,
@@ -1094,7 +1099,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:34:16.976Z",
-    "lastSeen": "2026-04-21T00:49:58.042Z",
+    "lastSeen": "2026-04-21T02:07:02.710Z",
     "confirmed": true
   },
   "D5e7wVqvV7AXaENstDoHPs2JTDq1L84VjNVGpryvDHEZ": {
@@ -36088,6 +36093,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T02:06:23.621Z",
     "lastSeen": "2026-04-21T02:06:23.621Z",
+    "confirmed": false
+  },
+  "B358TdSj3EAE3t8hAibc77nrv16SGn9XqwiAzrPgwa9k": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "phone",
+        "pairAddress": "wweCNsecpBY4D4atwMme1uNMzdQ4nMdHiVRLQmThKx4",
+        "entryTime": "2026-04-21T02:07:02.710Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T02:07:02.710Z",
+    "lastSeen": "2026-04-21T02:07:02.710Z",
     "confirmed": false
   }
 }
