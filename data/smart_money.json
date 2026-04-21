@@ -4171,7 +4171,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "420",
@@ -4182,6 +4182,11 @@
         "symbol": "MHGA",
         "pairAddress": "8oKFo9vs25MGnJoHZ9hSs2B5PS4oENfyMDSc5UNFkNte",
         "entryTime": "2026-04-21T12:54:50.131Z"
+      },
+      {
+        "symbol": "scam",
+        "pairAddress": "9ZxBDnjpv7k5V8Z1ytyWJZvBbXQi7BgzuHg9N49MRvn5",
+        "entryTime": "2026-04-21T19:09:41.757Z"
       }
     ],
     "wins": 0,
@@ -4189,8 +4194,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:28:00.231Z",
-    "lastSeen": "2026-04-21T12:54:50.131Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T19:09:41.757Z",
+    "confirmed": true
   },
   "2Pw73kx6vPeY6bnKXypgHdfrnKbWV6jXoqRFf8iF2xuW": {
     "appearances": 1,
@@ -12031,6 +12036,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:06:24.105Z",
     "lastSeen": "2026-04-21T19:06:24.105Z",
+    "confirmed": false
+  },
+  "J5w5RLfjN8sKUhJMaopMRyPJvSfEXpvencZNTWo2x5RQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "scam",
+        "pairAddress": "9ZxBDnjpv7k5V8Z1ytyWJZvBbXQi7BgzuHg9N49MRvn5",
+        "entryTime": "2026-04-21T19:09:41.757Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T19:09:41.757Z",
+    "lastSeen": "2026-04-21T19:09:41.757Z",
     "confirmed": false
   }
 }
