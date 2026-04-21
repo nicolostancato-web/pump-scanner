@@ -8405,7 +8405,7 @@
     "confirmed": false
   },
   "5pKftcuKcCAWNyP8njNDmg7CTQWEFb2zdYoGc8q5fBpK": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "unchammer",
@@ -8416,6 +8416,11 @@
         "symbol": "ununceroid",
         "pairAddress": "FYGVkFgVP9AxbzcCzaySvhnN3yQvzwhXvAiSrkXEwWLr",
         "entryTime": "2026-04-21T16:26:47.859Z"
+      },
+      {
+        "symbol": "Dumban",
+        "pairAddress": "9xPWyjCNYKke6LMavBS9TkQ7NJdxAok9EjfV6B1Ky5MV",
+        "entryTime": "2026-04-21T22:15:54.375Z"
       }
     ],
     "wins": 0,
@@ -8423,8 +8428,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T15:00:17.781Z",
-    "lastSeen": "2026-04-21T16:26:47.859Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T22:15:54.375Z",
+    "confirmed": true
   },
   "ErBzWzQu22NyR9Ao9oJHNJQ7R2Rfnm3XrHVbv9RKNFBE": {
     "appearances": 1,
@@ -15141,6 +15146,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T22:15:20.066Z",
     "lastSeen": "2026-04-21T22:15:20.066Z",
+    "confirmed": false
+  },
+  "9o76kCtYePcQrRK1XmdBqjXpH2uuvb5LkNNKgyZVdGLM": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Dumban",
+        "pairAddress": "9xPWyjCNYKke6LMavBS9TkQ7NJdxAok9EjfV6B1Ky5MV",
+        "entryTime": "2026-04-21T22:15:54.375Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T22:15:54.375Z",
+    "lastSeen": "2026-04-21T22:15:54.375Z",
     "confirmed": false
   }
 }
