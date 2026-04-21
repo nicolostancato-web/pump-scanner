@@ -1618,12 +1618,17 @@
     "confirmed": false
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "wif2",
         "pairAddress": "89kPF7X5SQdM8Ko4gVzzSLzd7w57tG9JUtcqoKqxcimi",
         "entryTime": "2026-04-21T06:08:00.466Z"
+      },
+      {
+        "symbol": "TERMINAL",
+        "pairAddress": "2gc2BW2muhT23VdJQSyU2iuHhF7jdRizSWDnPYS8ixPt",
+        "entryTime": "2026-04-21T16:24:07.723Z"
       }
     ],
     "wins": 0,
@@ -1631,7 +1636,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:08:00.466Z",
-    "lastSeen": "2026-04-21T06:08:00.466Z",
+    "lastSeen": "2026-04-21T16:24:07.723Z",
     "confirmed": false
   },
   "3ciDLTrtp2VsnHN3wquwRBqDMyp259BUUxomgyag9xUK": {
@@ -9586,6 +9591,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:13:32.167Z",
     "lastSeen": "2026-04-21T16:13:32.167Z",
+    "confirmed": false
+  },
+  "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TERMINAL",
+        "pairAddress": "2gc2BW2muhT23VdJQSyU2iuHhF7jdRizSWDnPYS8ixPt",
+        "entryTime": "2026-04-21T16:24:07.723Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T16:24:07.723Z",
+    "lastSeen": "2026-04-21T16:24:07.723Z",
     "confirmed": false
   }
 }
