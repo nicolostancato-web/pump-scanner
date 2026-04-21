@@ -12159,7 +12159,7 @@
     "confirmed": false
   },
   "C7ML4W7cegR8oBD3K2qeE5WmLgP2BGd8s81Sd78GZxN5": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "ETH",
@@ -12175,6 +12175,11 @@
         "symbol": "SPY",
         "pairAddress": "87VhnCBBy5kMat9giJGn2uyAMakTRFioBfKjQmJtHBzw",
         "entryTime": "2026-04-20T14:01:10.120Z"
+      },
+      {
+        "symbol": "PDM",
+        "pairAddress": "7unHKYk9LSbCRdiyrxSX9TdJ4F5X4yj9MoRU3JWQXpwd",
+        "entryTime": "2026-04-21T01:25:07.692Z"
       }
     ],
     "wins": 0,
@@ -12182,7 +12187,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T22:16:51.776Z",
-    "lastSeen": "2026-04-20T14:01:10.120Z",
+    "lastSeen": "2026-04-21T01:25:07.692Z",
     "confirmed": true
   },
   "Aw9dG2hJNixfEbyXti4TmxJDf6yVJcZSGTDSrxo9TmTD": {
@@ -35560,6 +35565,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T01:24:31.309Z",
     "lastSeen": "2026-04-21T01:24:31.309Z",
+    "confirmed": false
+  },
+  "A51phXuDVi6WJu8FkYppxAfqmUaLmSy69qBDiqvLiCHX": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PDM",
+        "pairAddress": "7unHKYk9LSbCRdiyrxSX9TdJ4F5X4yj9MoRU3JWQXpwd",
+        "entryTime": "2026-04-21T01:25:07.692Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T01:25:07.692Z",
+    "lastSeen": "2026-04-21T01:25:07.692Z",
     "confirmed": false
   }
 }
