@@ -1516,5 +1516,39 @@
     "firstSeen": "2026-04-21T06:06:29.198Z",
     "lastSeen": "2026-04-21T06:06:29.198Z",
     "confirmed": false
+  },
+  "CpdEoqWmvW5TX3ucj4PmxU4oRbstkcqK75hV8Z3mcjYv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CAESAR",
+        "pairAddress": "8NdYAACaTYEC5vNEDTw9QiDskbQUtnKNidw2kMKS9EVn",
+        "entryTime": "2026-04-21T06:06:59.019Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T06:06:59.019Z",
+    "lastSeen": "2026-04-21T06:06:59.019Z",
+    "confirmed": false
+  },
+  "8Re8MDB7mvRKTHovGjzaXAPU8GnaguX565SNTVP4Zx7d": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CAESAR",
+        "pairAddress": "8NdYAACaTYEC5vNEDTw9QiDskbQUtnKNidw2kMKS9EVn",
+        "entryTime": "2026-04-21T06:06:59.019Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T06:06:59.019Z",
+    "lastSeen": "2026-04-21T06:06:59.019Z",
+    "confirmed": false
   }
 }
