@@ -1,194 +1,119 @@
 # RESEARCH-MARKET-1 — Raw Notes
-**Date:** 2026-04-21  
-**Team:** RESEARCH-MARKET-1  
-**Workflow:** Monitor free public sources for AI + crypto market signals
-
----
+Date: 2026-04-21
 
 ## Top News (AI + Crypto)
 
-### 1. **Vercel OAuth Breach & Supply Chain Risk**
-- **Title:** The Vercel breach: OAuth attack exposes risk in platform environment variables
-- **Source:** HackerNews (ID: 47851634)
-- **Score:** 167 points
-- **Comments:** 485+ discussions
-- **Link:** https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html
-- **Relevance:** CRITICAL — Infrastructure security incident affecting developers deploying AI tools. Ecosystem trust issue.
+### 1. Vercel Security Breach - OAuth Attack
+**Title:** The Vercel breach: OAuth attack exposes risk in platform environment variables  
+**Source:** HackerNews (Trend Micro Research)  
+**Link:** https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html  
+**Relevance:** HIGH - Cloud platform security breach affecting AI/development tools. Shows vulnerability in modern dev platforms used by AI companies.  
+**Score:** 199 points, 80 comments
 
-### 2. **Britannica11.org — 1911 Encyclopedia**
-- **Title:** Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica
-- **Source:** HackerNews (ID: 47851885)
-- **Score:** 125 points
-- **Comments:** 67 discussions
-- **Link:** https://britannica11.org/
-- **Relevance:** LOW — Knowledge base/archive project. Potential training data but historical content only.
+### 2. Framework Laptop 13 Pro Launch
+**Title:** Framework Laptop 13 Pro  
+**Source:** HackerNews  
+**Link:** https://frame.work/laptop13pro  
+**Relevance:** MEDIUM - Hardware innovation that supports AI development. Framework's modular approach aligns with sustainable tech trends.  
+**Score:** 616 points, 347 comments
 
-### 3. **Cal.diy — Open-Source Community Edition**
-- **Title:** Cal.diy: open-source community edition of cal.com
-- **Source:** HackerNews (ID: 47852155)
-- **Score:** 76 points
-- **Comments:** 14 discussions
-- **Link:** https://github.com/calcom/cal.diy
-- **Relevance:** MODERATE — Open-source SaaS alternative. Fits automation/digital product model.
+### 3. Cal.diy - Open Source Cal.com Community Edition
+**Title:** Cal.diy: open-source community edition of cal.com  
+**Source:** HackerNews  
+**Link:** https://github.com/calcom/cal.diy  
+**Relevance:** MEDIUM - Open source SaaS alternative. Shows trend toward community-driven, self-hosted alternatives to commercial SaaS.  
+**Score:** 97 points, 28 comments
 
----
+### 4. Britannica11.org - 1911 Encyclopedia Britannica
+**Title:** Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica  
+**Source:** HackerNews  
+**Link:** https://britannica11.org/  
+**Relevance:** LOW-MEDIUM - Historical data digitization project. Could be relevant for AI training datasets.  
+**Score:** 145 points, 75 comments
 
-## CoinGecko Trending Assets (Top 15)
+### 5. "I don't want your PRs anymore"
+**Title:** I don't want your PRs anymore  
+**Source:** HackerNews  
+**Link:** https://dpc.pw/posts/i-dont-want-your-prs-anymore/  
+**Relevance:** MEDIUM - Developer tooling/process discussion. Reflects changing attitudes in open source maintenance.  
+**Score:** 32 points, 7 comments
 
-| Rank | Asset | Symbol | 24h % Change | Market Cap | Trend Score | Key Signal |
-|------|-------|--------|--------------|------------|-------------|------------|
-| 1 | RaveDAO | RAVE | **+111.71%** | $326M | 0 | Extreme volatility, pump event |
-| 2 | Make Aliens Great Again | MAGA | **+224.73%** | $16.5M | 1 | Meme coin volatility |
-| 3 | Asteroid Shiba | ASTEROID | +5.98% | $154M | 2 | Stable meme ecosystem |
-| 4 | CHIP | CHIP | -3.77% | $116M | 3 | Minor correction |
-| 5 | Aave | AAVE | **-2.33%** | $1.39B | 4 | Blue-chip consolidation |
-| 6 | Pudgy Penguins | PENGU | +0.14% | $476M | 5 | Steady cultural asset |
-| 7 | OpenGradient | OPG | **+52.69%** | $54M | 6 | AI-adjacent token spike |
-| 8 | Bitcoin | BTC | -1.00% | $1.51T | 7 | Market baseline pressure |
-| 9 | Hyperliquid | HYPE | -4.62% | $9.44B | 8 | DEX token consolidation |
-| 10 | Monad | MON | -0.88% | $378M | 9 | L1 blockchain slight dip |
-| 11 | Sui | SUI | **-1.14%** | $3.7B | 10 | L1 blockchain correction |
-| 12 | Morpho | MORPHO | +0.24% | $1.08B | 11 | Lending protocol stable |
-| 13 | Terra Luna Classic | LUNC | +6.22% | $247M | 12 | Resurrection speculation |
-| 14 | Chainlink | LINK | +0.14% | $6.81B | 13 | Oracle network steady |
-| 15 | Siren | SIREN | **-1.15%** | $503M | 14 | Options protocol dip |
+## DeFiLlama Top Protocols (by TVL)
 
----
+1. **Binance CEX** - $152.89B TVL (-1.30% 1d, +0.53% 7d)
+2. **OKX** - $26.46B TVL (+41.44% 1d, +41.52% 7d) - **MASSIVE GAIN**
+3. **Lido** - $21.51B TVL (-2.06% 1d, -1.67% 7d)
+4. **Bitfinex** - $18.60B TVL (-1.24% 1d, +2.68% 7d)
+5. **SSV Network** - $17.07B TVL (-0.68% 1d, +0.01% 7d)
+6. **Bybit** - $15.73B TVL (-0.88% 1d, +2.67% 7d)
+7. **Aave V3** - Partial data shown (continues in full dataset)
 
-## DeFiLlama Top Protocols by TVL (Top 10)
+## CoinGecko Trending Cryptocurrencies
 
-| Protocol | TVL | Change (24h) | Category | Chain | Key Insight |
-|----------|-----|-------------|----------|-------|------------|
-| **Binance CEX** | $152.89B | -0.34% | CEX | Multi-Chain | Largest centralized exchange, dominates TVL |
-| **OKX** | $26.60B | **+41.87%** | CEX | Multi-Chain | MAJOR INFLOW — Significant deposit activity |
-| **Lido** | $21.51B | -2.06% | Liquid Staking | Ethereum | Staking consolidation, slight outflow |
-| **Bitfinex** | $18.60B | -0.41% | CEX | Multi-Chain | Stable institutional holdings |
-| **SSV Network** | $17.07B | **+0.55%** | Staking Pool | Ethereum | Decentralized validator growth |
-| **Bybit** | $15.73B | -0.24% | CEX | Multi-Chain | Stable exchange activity |
-| **Aave V3** | ~$15.0B | -2.05% | Lending | Multi-Chain | Lending consolidation |
-| **Compound** | ~$10.0B | (implied) | Lending | Ethereum | Established money market |
-| **MakerDAO** | ~$9.5B | (implied) | Stablecoin | Ethereum | DAI ecosystem stable |
-| **Curve Finance** | ~$8.7B | (implied) | DEX | Multi-Chain | AMM liquidity foundation |
+### Top Trending Coins:
+1. **CHIP** - $0.065 (+6.89% 24h) - Market cap: $130.5M
+2. **RaveDAO** - $1.27 (+99.83% 24h) - **EXPLOSIVE GAIN** - Market cap: $316.4M
+3. **Make Aliens Great Again (MAGA)** - $0.0188 (+272.50% 24h) - **MASSIVE PUMP** - Market cap: $18.7M
+4. **OpenGradient (OPG)** - $0.416 (+123.07% 24h) - **STRONG GAIN** - Market cap: $78.7M
+5. **Aave** - $91.09 (-0.93% 24h) - Market cap: $1.38B
 
----
-
-## CoinGecko Markets Data (Top 20 by Volume)
-
-| Rank | Asset | Price | 24h % Change | Market Cap | Volume | Key Signal |
-|------|-------|-------|-------------|-----------|--------|------------|
-| 1 | Bitcoin (BTC) | $75,703 | **-0.87%** | $1.51T | $43.5B | Market pressure, consolidation |
-| 2 | Ethereum (ETH) | $2,321.91 | -0.63% | $280B | $17.8B | Stable, institutional holdings |
-| 3 | Tether (USDT) | $1.00 | -0.013% | $188B | $68.7B | HIGHEST VOLUME — Settlement layer |
-| 4 | XRP | $1.43 | -0.33% | $87.8B | $2.5B | Stable ripple ecosystem |
-| 5 | BNB | $630.18 | -0.17% | $84.9B | $1.1B | Binance chain ecosystem |
-| 6 | USDC | $0.9999 | +0.001% | $78B | $17.5B | Stablecoin alternative growth |
-| 7 | Solana (SOL) | $85.58 | -0.55% | $49.3B | $3.3B | Stable high-throughput chain |
-| 8 | TRON (TRX) | $0.3335 | **+1.52%** | $31.6B | $500M | Positive momentum |
-| 9 | Dogecoin (DOGE) | $0.0947 | -0.86% | $14.6B | $1.04B | Meme ecosystem consolidation |
-| 10 | RaveDAO (RAVE) | $1.30 | **+110.72%** | $326M | $421M | EXPLOSIVE PUMP — Trending alert |
-
----
+### Notable Categories Trending:
+1. **Binance Wallet IDO** - +9.75% 24h
+2. **Four.meme Ecosystem (BNB Memes)** - +5.38% 24h
+3. **Parallelized EVM** - +5.51% 24h
+4. **Pump.fun Ecosystem** - +3.50% 24h
+5. **Artificial Intelligence (AI)** - +2.76% 24h
 
 ## Market Signals
 
-### **Signal 1: OKX Inflow Spike (+41.87% TVL increase)**
-- **Data:** OKX TVL increased from ~$18.8B to $26.6B in 24 hours
-- **Implication:** Massive institutional or retail reallocation into OKX. Could signal:
-  - Shift from Binance to OKX (regulatory uncertainty?)
-  - Preparation for derivative trading rally
-  - Asian market appetite for alt-exchange infrastructure
-- **Profit Opportunity:** Monitor for outflow cascades; could indicate pre-dump liquidity preparation or genuine adoption phase
-- **Action:** Track OKX spot/futures volume ratios
+### Signal 1: OKX Exchange Massive TVL Surge
+**Data:** OKX TVL increased 41.44% in 24 hours to $26.46B
+**Implication:** Major capital inflow to OKX exchange. Could indicate institutional movement or new product launches. This is the largest 24h gain among top exchanges.
 
-### **Signal 2: RaveDAO Extreme Volatility (+111% in 24h, Score Trending)**
-- **Data:** RAVE from $0.615 to $1.30 (high $2.21); 248M circulating of 1B supply
-- **Trending Rank:** #1 on CoinGecko trending
-- **Implication:** Textbook pump-and-dump or memecoin cyclical event. Community-driven hype.
-- **Profit Opportunity:** 
-  - Early detection of secondary pumps in related meme coins
-  - Risk/reward arbitrage between trending assets and established blue-chips
-- **Action:** Build meme coin sentiment tracker; identify next candidate
+### Signal 2: Meme Coin Explosion on Solana/BSC
+**Data:** 
+- Make Aliens Great Again (MAGA): +272.50% in 24h
+- RaveDAO: +99.83% in 24h  
+- OpenGradient: +123.07% in 24h
+- Pump.fun Ecosystem category: +3.50% 24h
+**Implication:** Strong retail interest returning to meme coins, particularly on Solana and BSC chains. Pump.fun ecosystem showing resilience.
 
-### **Signal 3: Vercel Security Breach + OAuth Risk Exposure**
-- **Data:** OAuth attack on Vercel (Dev platform used by AI/SaaS builders); 485+ HackerNews discussions
-- **Implication:** 
-  - Infrastructure security incident = DEV TOOL WEAKNESS
-  - AI deployment platforms at risk = builder ecosystem concern
-  - Potential for security-focused crypto/infra solutions to gain traction
-- **Profit Opportunity:** 
-  - Security-audited blockchain infrastructure demand could spike
-  - Encrypted environment variable management as SaaS play
-  - Post-incident demand for decentralized app hosting
-- **Action:** Monitor security-focused blockchain projects; identify defensive product angles
-
----
-
-## DeFiLlama Protocols Deep Dive
-
-### CEX Dominance
-- **Total CEX TVL:** ~$252.8B (top 6 CEX only)
-- **OKX anomaly:** +41.87% is unusual; typically CEXs shift in 2-5% ranges
-- **Interpretation:** Either regulatory news re: Binance, or Asian market rebalancing
-
-### Staking Layer
-- **Lido dominance:** $21.5B locked ETH
-- **SSV growth:** +0.55% (micro-cap protocol showing resilience)
-- **Signal:** Ethereum staking remains core narrative but consolidating
-
-### Lending Protocols
-- **Aave + Compound:** ~$25B combined
-- **Activity:** Slight outflows (-2% range)
-- **Signal:** Rate environment may be pushing capital into riskier assets
-
----
+### Signal 3: AI Crypto Category Resilience
+**Data:** AI category +2.76% 24h while broader market mixed
+**Implication:** AI tokens showing relative strength despite market volatility. AI narrative remains strong investment theme.
 
 ## Actionable Intelligence
 
-### **PRIORITY 1: Build OKX Exchange Flow Monitor**
-- **Rationale:** 41% TVL spike is anomalous. This could signal:
-  1. Regulatory pressure on Binance pushing users to OKX
-  2. Whale positioning for leverage trading
-  3. Asian institutions rotating into OKX products
-- **Action:** 
-  - Create real-time OKX deposit/withdrawal tracking via chain analytics
-  - Correlate with derivatives volume and open interest
-  - Build alert system for rapid capital movements
-- **Expected ROI:** Identify 12-24h early signals of market pivots
-- **Cost:** Free (DeFiLlama API + GitHub CI/CD)
-- **Wallet Implication:** If OKX inflows = pre-rally, can frontrun movement via SOL or major alt positions
+### Recommendation: Monitor OKX Exchange Developments
+**Rationale:** 
+1. OKX's 41% TVL surge is unprecedented for a major exchange
+2. Could indicate new institutional partnerships, product launches, or regulatory approvals
+3. Early detection of exchange growth can signal where liquidity is flowing
+4. Potential arbitrage opportunities between exchanges if OKX is attracting specific assets
 
-### **PRIORITY 2: Memecoin Sentiment Cascade Detector**
-- **Rationale:** RaveDAO trending (#1) indicates next wave of community-driven pumps
-- **Action:** 
-  - Index trending coins by market cap < $500M
-  - Track velocity of 24h % changes
-  - Build predictive model for secondary pumps
-- **Expected ROI:** Identify +200% pump candidates 6-12h in advance
-- **Cost:** Free (CoinGecko trending + custom analysis)
-- **Profit Model:** Swing trade trending memes, liquidate before dump
+**Action Items:**
+1. Set up alerts for OKX announcements (new listings, partnerships)
+2. Monitor OKX/Binance price differentials for top assets
+3. Research OKX's recent product launches (staking, DeFi integrations)
+4. Check if OKX is gaining market share in specific regions
 
-### **PRIORITY 3: Security Infrastructure SaaS Play**
-- **Rationale:** Vercel breach + OAuth risk + AI/SaaS growth = demand for decentralized/secure deployment
-- **Action:** 
-  - Research encrypted environment variable management platforms
-  - Identify blockchain projects focused on app hosting/deployment
-  - Pitch security-hardened SaaS platform idea
-- **Expected ROI:** White-label security wrapper around Vercel competitor
-- **Cost:** Low (research + prototyping)
-- **Monetization:** SaaS subscription + crypto rewards token
+**Timeline:** Immediate - monitor next 72 hours for follow-up announcements
+
+### Secondary Opportunity: Meme Coin Momentum Plays
+**Rationale:**
+1. Multiple meme coins showing >100% gains in 24h
+2. Pump.fun ecosystem showing strength (+3.50%)
+3. Retail sentiment appears bullish on speculative assets
+4. Could indicate broader altcoin season approaching
+
+**Risk:** High volatility, speculative nature
+**Potential:** Short-term momentum trading on carefully selected meme coins with strong community backing
 
 ---
 
-## Raw Data Sources
-- **HackerNews API:** Top 500 story IDs fetched; top 3 relevant analyzed
-- **DeFiLlama API:** 100+ protocols; top 10 by TVL extracted
-- **CoinGecko API:** Trending assets + markets (top 20 volume)
-- **Data Freshness:** 2026-04-21 20:28 UTC
-
----
-
-## Next Steps
-1. **Day 2:** Implement real-time OKX flow tracker
-2. **Day 3:** Build memecoin momentum detector
-3. **Day 4:** Research + prototype security SaaS angle
-4. **Weekly:** Cross-check signals against onchain volume, whale movements
+## Data Sources & Methodology
+- HackerNews top stories fetched via Firebase API
+- DeFiLlama protocols data via public API
+- CoinGecko trending and market data via public API
+- All data timestamped: 2026-04-21
+- RESEARCH-MARKET-1 workflow executed as per protocol
