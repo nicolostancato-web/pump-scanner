@@ -3721,7 +3721,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Bitshark",
@@ -3737,6 +3737,11 @@
         "symbol": "ToStar",
         "pairAddress": "8ZNjiu29NNuJc445XwdhnefT1bqphLjiBte3skVLuPTw",
         "entryTime": "2026-04-21T16:45:42.413Z"
+      },
+      {
+        "symbol": "SOLMONEY",
+        "pairAddress": "8YZJZEEYycqKpnheiMDo1ZXWEKyNwK9jA9X94rG6PVUJ",
+        "entryTime": "2026-04-21T19:56:28.073Z"
       }
     ],
     "wins": 0,
@@ -3744,7 +3749,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:04:08.925Z",
-    "lastSeen": "2026-04-21T16:45:42.413Z",
+    "lastSeen": "2026-04-21T19:56:28.073Z",
     "confirmed": true
   },
   "4kSmFFKcDqoRJzUfmpBeQJwnMLwmxZbvHiN9DVZjYcU2": {
@@ -12608,6 +12613,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:51:00.613Z",
     "lastSeen": "2026-04-21T19:51:00.613Z",
+    "confirmed": false
+  },
+  "Hy27T78PCjTRDM89FZfXkrjTjHBqmWxgMcDnpVbKt2GD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOLMONEY",
+        "pairAddress": "8YZJZEEYycqKpnheiMDo1ZXWEKyNwK9jA9X94rG6PVUJ",
+        "entryTime": "2026-04-21T19:56:28.073Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T19:56:28.073Z",
+    "lastSeen": "2026-04-21T19:56:28.073Z",
     "confirmed": false
   }
 }
