@@ -651,7 +651,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 29,
+    "appearances": 30,
     "tokens": [
       {
         "symbol": "LP",
@@ -797,6 +797,11 @@
         "symbol": "Lenny",
         "pairAddress": "Bu6ZXMXUJX8pa79SQZg3JRX5Wbg8Vb4vuBVtDy2vK2ns",
         "entryTime": "2026-04-21T02:35:00.486Z"
+      },
+      {
+        "symbol": "ASTROID",
+        "pairAddress": "FNzf8KkSrFJbsEY8fUAfckPTPF2oXhP3Yp2TmQjMqsvZ",
+        "entryTime": "2026-04-21T04:11:49.446Z"
       }
     ],
     "wins": 0,
@@ -804,7 +809,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T10:23:13.377Z",
-    "lastSeen": "2026-04-21T02:35:00.486Z",
+    "lastSeen": "2026-04-21T04:11:49.446Z",
     "confirmed": true
   },
   "CeyuoArHSdZk6D6Yz9w8kgJcEinpjkZcer6BVs5UYBL5": {
@@ -38588,6 +38593,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T04:10:38.618Z",
     "lastSeen": "2026-04-21T04:10:38.618Z",
+    "confirmed": false
+  },
+  "GTLLN1nkjBFFXmu4EGs3ACFKfJXHzGXveSdUngDiAn7V": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASTROID",
+        "pairAddress": "FNzf8KkSrFJbsEY8fUAfckPTPF2oXhP3Yp2TmQjMqsvZ",
+        "entryTime": "2026-04-21T04:11:49.446Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T04:11:49.446Z",
+    "lastSeen": "2026-04-21T04:11:49.446Z",
     "confirmed": false
   }
 }
