@@ -5387,7 +5387,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "MHGA",
@@ -5398,6 +5398,11 @@
         "symbol": "Donnyland",
         "pairAddress": "J7vkpgA9A2iThnAkvmbxsyTxmhs4QfGsgkWPoPHoRFd7",
         "entryTime": "2026-04-21T14:12:55.614Z"
+      },
+      {
+        "symbol": "Mogged",
+        "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
+        "entryTime": "2026-04-21T14:41:42.681Z"
       }
     ],
     "wins": 0,
@@ -5405,8 +5410,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:06:15.919Z",
-    "lastSeen": "2026-04-21T14:12:55.614Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T14:41:42.681Z",
+    "confirmed": true
   },
   "2pQLqm1c6Ziaqxb9fukWzzq38Up5taU35aee7CL4gsKP": {
     "appearances": 1,
@@ -7529,6 +7534,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:41:09.233Z",
     "lastSeen": "2026-04-21T14:41:09.233Z",
+    "confirmed": false
+  },
+  "G5VbLcSueggWpvtxxmyto2v5GVhMybhAMDGzXGs9HJ9Z": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Mogged",
+        "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
+        "entryTime": "2026-04-21T14:41:42.681Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T14:41:42.681Z",
+    "lastSeen": "2026-04-21T14:41:42.681Z",
     "confirmed": false
   }
 }
