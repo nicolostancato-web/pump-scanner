@@ -2348,7 +2348,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2389,6 +2389,11 @@
         "symbol": "frank",
         "pairAddress": "HiakBwfz9Yq6jgxDk8XuJwamjeCQmC13KUkM9gU8VjR",
         "entryTime": "2026-04-21T20:18:28.994Z"
+      },
+      {
+        "symbol": "FCC",
+        "pairAddress": "7wHcZiS9vVYKs8VwgHG86SriVHZNqRZFsaEG78QBwgaT",
+        "entryTime": "2026-04-21T21:57:49.086Z"
       }
     ],
     "wins": 0,
@@ -2396,7 +2401,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-21T20:18:28.994Z",
+    "lastSeen": "2026-04-21T21:57:49.086Z",
     "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
@@ -13054,12 +13059,17 @@
     "confirmed": false
   },
   "HwtD7u3H6a4nuxpUsWMTJQBif6p7E7LxRBFg2aPdtEQe": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BOOZER",
         "pairAddress": "E4B3R18aWwcoBuXV2GWhtymjx6Q5dFPM9X2wmuKxPgRe",
         "entryTime": "2026-04-21T20:17:15.630Z"
+      },
+      {
+        "symbol": "FCC",
+        "pairAddress": "7wHcZiS9vVYKs8VwgHG86SriVHZNqRZFsaEG78QBwgaT",
+        "entryTime": "2026-04-21T21:57:49.086Z"
       }
     ],
     "wins": 0,
@@ -13067,7 +13077,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T20:17:15.630Z",
-    "lastSeen": "2026-04-21T20:17:15.630Z",
+    "lastSeen": "2026-04-21T21:57:49.086Z",
     "confirmed": false
   },
   "CQJoXiwDissyHjGV2CPmQGZxiTrPywgXxsXEbSfLKpTK": {
