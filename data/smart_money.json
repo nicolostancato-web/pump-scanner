@@ -9744,7 +9744,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "TERMINAL",
@@ -9765,6 +9765,11 @@
         "symbol": "FLYINGCAR",
         "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
         "entryTime": "2026-04-21T21:41:25.944Z"
+      },
+      {
+        "symbol": "ASDFH",
+        "pairAddress": "2miYLvjor3yAzCdJnL9NEiR69frSSk6UY4izxtgE6qZ7",
+        "entryTime": "2026-04-21T22:42:25.581Z"
       }
     ],
     "wins": 0,
@@ -9772,7 +9777,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:24:07.723Z",
-    "lastSeen": "2026-04-21T21:41:25.944Z",
+    "lastSeen": "2026-04-21T22:42:25.581Z",
     "confirmed": true
   },
   "EhER7q3w7UNCHCzjhud1dDxtGTihC7CoPfgkzS7KYZwk": {
@@ -15639,6 +15644,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T22:41:45.687Z",
     "lastSeen": "2026-04-21T22:41:45.687Z",
+    "confirmed": false
+  },
+  "2Z2xUiBEiH2dJp36u2ZjusUqnsMgXwpSszXNtZdTbmwd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASDFH",
+        "pairAddress": "2miYLvjor3yAzCdJnL9NEiR69frSSk6UY4izxtgE6qZ7",
+        "entryTime": "2026-04-21T22:42:25.581Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T22:42:25.581Z",
+    "lastSeen": "2026-04-21T22:42:25.581Z",
     "confirmed": false
   }
 }
