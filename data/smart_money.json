@@ -2641,12 +2641,17 @@
     "confirmed": false
   },
   "F7RV6aBWfniixoFkQNWmRwznDj2vae2XbusFfvMMjtbE": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SIF",
         "pairAddress": "ELtgMujzPGBddkjWAQoFtCG1GbZ5My66RgpyTfFU29eN",
         "entryTime": "2026-04-21T08:20:51.686Z"
+      },
+      {
+        "symbol": "Camel",
+        "pairAddress": "A2JiuyQcv6ois7SvHHxUGEQLCVSd31GpxxAhhBZ5RuGX",
+        "entryTime": "2026-04-21T13:18:31.080Z"
       }
     ],
     "wins": 0,
@@ -2654,7 +2659,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T08:20:51.686Z",
-    "lastSeen": "2026-04-21T08:20:51.686Z",
+    "lastSeen": "2026-04-21T13:18:31.080Z",
     "confirmed": false
   },
   "3Edm8d5Ri8tv6tBZJKyS36wRJMrMKDQbspKEzTvA3ggF": {
@@ -5531,6 +5536,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:17:52.876Z",
     "lastSeen": "2026-04-21T13:17:52.876Z",
+    "confirmed": false
+  },
+  "7XQyoTSoEmZYJQHxtERJ8S7QjJkyaTpgagzHykQyukJi": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Camel",
+        "pairAddress": "A2JiuyQcv6ois7SvHHxUGEQLCVSd31GpxxAhhBZ5RuGX",
+        "entryTime": "2026-04-21T13:18:31.080Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T13:18:31.080Z",
+    "lastSeen": "2026-04-21T13:18:31.080Z",
     "confirmed": false
   }
 }
