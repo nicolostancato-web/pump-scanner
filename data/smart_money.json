@@ -2338,7 +2338,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2374,6 +2374,11 @@
         "symbol": "BEE",
         "pairAddress": "BqJiGXRw31Cqsv4adUhUapG22Xdy32gd5AuFN2Wfe2oR",
         "entryTime": "2026-04-21T18:31:32.516Z"
+      },
+      {
+        "symbol": "frank",
+        "pairAddress": "HiakBwfz9Yq6jgxDk8XuJwamjeCQmC13KUkM9gU8VjR",
+        "entryTime": "2026-04-21T20:18:28.994Z"
       }
     ],
     "wins": 0,
@@ -2381,7 +2386,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-21T18:31:32.516Z",
+    "lastSeen": "2026-04-21T20:18:28.994Z",
     "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
@@ -13019,6 +13024,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T20:17:54.519Z",
     "lastSeen": "2026-04-21T20:17:54.519Z",
+    "confirmed": false
+  },
+  "JTajsS8bGmSZTg2EkNQJxBd2kXMxer4eFraWb3jJ89A": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "frank",
+        "pairAddress": "HiakBwfz9Yq6jgxDk8XuJwamjeCQmC13KUkM9gU8VjR",
+        "entryTime": "2026-04-21T20:18:28.994Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T20:18:28.994Z",
+    "lastSeen": "2026-04-21T20:18:28.994Z",
     "confirmed": false
   }
 }
