@@ -802,12 +802,17 @@
     "confirmed": false
   },
   "8kh43n5UiM4LJHqVPMVTE3G3ZxpNvLTmjSNqhYdhwYgg": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "wif2",
         "pairAddress": "89kPF7X5SQdM8Ko4gVzzSLzd7w57tG9JUtcqoKqxcimi",
         "entryTime": "2026-04-21T05:50:33.711Z"
+      },
+      {
+        "symbol": "Images 2.0",
+        "pairAddress": "ELgo9veqovL76W2mXp6SniSyaJecWSBJcWoUmERqoP5C",
+        "entryTime": "2026-04-21T18:24:57.901Z"
       }
     ],
     "wins": 0,
@@ -815,7 +820,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T05:50:33.711Z",
-    "lastSeen": "2026-04-21T05:50:33.711Z",
+    "lastSeen": "2026-04-21T18:24:57.901Z",
     "confirmed": false
   },
   "CUzzH2kKJqWFgJhpTrsJSvaRZNEuFRnPDeYaEoPzqjoR": {
