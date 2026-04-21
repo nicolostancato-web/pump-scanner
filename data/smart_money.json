@@ -14659,12 +14659,17 @@
     "confirmed": false
   },
   "88vxK7b6uNnTmwWs9u39BzFbaipASZPLyDGFrmXC2UQW": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "home-seq",
         "pairAddress": "8i1tSN99qFW33nSXBKMRg121j8sQ9owfmGYi5VL2kqYi",
         "entryTime": "2026-04-19T23:54:08.833Z"
+      },
+      {
+        "symbol": "elon.exe",
+        "pairAddress": "9bxE83kDUcrvFqYhrGaE1mE9PUr5dZ67AGXTpWv3YmJY",
+        "entryTime": "2026-04-21T03:07:52.464Z"
       }
     ],
     "wins": 0,
@@ -14672,7 +14677,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:54:08.833Z",
-    "lastSeen": "2026-04-19T23:54:08.833Z",
+    "lastSeen": "2026-04-21T03:07:52.464Z",
     "confirmed": false
   },
   "H7gdxHB8wvsSPVHA74xrCUWx1yiz24ATVvivjzb4ckDo": {
@@ -37173,6 +37178,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T03:07:19.900Z",
     "lastSeen": "2026-04-21T03:07:19.900Z",
+    "confirmed": false
+  },
+  "2Za66NhUYfHRu33decy3fmdJkCeVs5KmQXzGo5HfZ4aF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "elon.exe",
+        "pairAddress": "9bxE83kDUcrvFqYhrGaE1mE9PUr5dZ67AGXTpWv3YmJY",
+        "entryTime": "2026-04-21T03:07:52.464Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T03:07:52.464Z",
+    "lastSeen": "2026-04-21T03:07:52.464Z",
     "confirmed": false
   }
 }
