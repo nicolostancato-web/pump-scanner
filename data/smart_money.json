@@ -15623,5 +15623,22 @@
     "firstSeen": "2026-04-21T22:41:09.513Z",
     "lastSeen": "2026-04-21T22:41:09.513Z",
     "confirmed": false
+  },
+  "EPD4dY6VFNySjgmFfNJWuoM5m93jAQoVSroCQeoZQ2VD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASDFH",
+        "pairAddress": "2miYLvjor3yAzCdJnL9NEiR69frSSk6UY4izxtgE6qZ7",
+        "entryTime": "2026-04-21T22:41:45.687Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T22:41:45.687Z",
+    "lastSeen": "2026-04-21T22:41:45.687Z",
+    "confirmed": false
   }
 }
