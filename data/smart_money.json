@@ -2303,7 +2303,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2319,6 +2319,11 @@
         "symbol": "Outsider",
         "pairAddress": "GUjXksRdgwKTz2StUMsVBNjSVXcZw3bKovGLpWzKUabN",
         "entryTime": "2026-04-21T12:12:05.808Z"
+      },
+      {
+        "symbol": "Mogged",
+        "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
+        "entryTime": "2026-04-21T14:45:12.944Z"
       }
     ],
     "wins": 0,
@@ -2326,7 +2331,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-21T12:12:05.808Z",
+    "lastSeen": "2026-04-21T14:45:12.944Z",
     "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
