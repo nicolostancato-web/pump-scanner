@@ -10053,7 +10053,7 @@
     "confirmed": false
   },
   "C7ML4W7cegR8oBD3K2qeE5WmLgP2BGd8s81Sd78GZxN5": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ununceroid",
@@ -10064,6 +10064,11 @@
         "symbol": "Images 2.0",
         "pairAddress": "ELgo9veqovL76W2mXp6SniSyaJecWSBJcWoUmERqoP5C",
         "entryTime": "2026-04-21T18:15:58.246Z"
+      },
+      {
+        "symbol": "SOLMONEY",
+        "pairAddress": "8YZJZEEYycqKpnheiMDo1ZXWEKyNwK9jA9X94rG6PVUJ",
+        "entryTime": "2026-04-21T19:44:42.945Z"
       }
     ],
     "wins": 0,
@@ -10071,8 +10076,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:37:33.366Z",
-    "lastSeen": "2026-04-21T18:15:58.246Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T19:44:42.945Z",
+    "confirmed": true
   },
   "A4wwyLmWujhay6sia3iqFwGNBbKhHopPNJ5wawmmUAAR": {
     "appearances": 1,
@@ -12535,6 +12540,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:43:36.271Z",
     "lastSeen": "2026-04-21T19:43:36.271Z",
+    "confirmed": false
+  },
+  "8pY1AukbuPgUE3EetyLa59rFLMimJGT94ZzbMEZcQF4w": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CAM",
+        "pairAddress": "FwP4XDsu9mCtumhMJTbnNLMwgnAz2Qo6aEZDV8UjH6p6",
+        "entryTime": "2026-04-21T19:44:42.051Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T19:44:42.051Z",
+    "lastSeen": "2026-04-21T19:44:42.051Z",
+    "confirmed": false
+  },
+  "GFYLYgG9SserdYQM1oRrKzsAkkpaqYToBehYYoKQHkTy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOLMONEY",
+        "pairAddress": "8YZJZEEYycqKpnheiMDo1ZXWEKyNwK9jA9X94rG6PVUJ",
+        "entryTime": "2026-04-21T19:44:42.945Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T19:44:42.945Z",
+    "lastSeen": "2026-04-21T19:44:42.945Z",
     "confirmed": false
   }
 }
