@@ -2303,7 +2303,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2314,6 +2314,11 @@
         "symbol": "Bitshark",
         "pairAddress": "EKMqWX6Pz4KyCAv87SK4szCYxk6w9HyRfw9ftEGWvU3t",
         "entryTime": "2026-04-21T10:11:54.144Z"
+      },
+      {
+        "symbol": "Outsider",
+        "pairAddress": "GUjXksRdgwKTz2StUMsVBNjSVXcZw3bKovGLpWzKUabN",
+        "entryTime": "2026-04-21T12:12:05.808Z"
       }
     ],
     "wins": 0,
@@ -2321,8 +2326,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-21T10:11:54.144Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T12:12:05.808Z",
+    "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
     "appearances": 1,
@@ -4639,6 +4644,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T12:11:30.910Z",
     "lastSeen": "2026-04-21T12:11:30.910Z",
+    "confirmed": false
+  },
+  "BmV1dfPkPeN93tP6kRDDhLDU23Wu2BsxM9KTpm959Pr4": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Outsider",
+        "pairAddress": "GUjXksRdgwKTz2StUMsVBNjSVXcZw3bKovGLpWzKUabN",
+        "entryTime": "2026-04-21T12:12:05.808Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T12:12:05.808Z",
+    "lastSeen": "2026-04-21T12:12:05.808Z",
     "confirmed": false
   }
 }
