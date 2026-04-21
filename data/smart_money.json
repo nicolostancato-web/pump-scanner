@@ -2415,7 +2415,7 @@
     "confirmed": false
   },
   "B1B3xuyPF56PsKwVUZvnWsHKwTXe8hZeuLpeCnB6bG4a": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2426,6 +2426,11 @@
         "symbol": "MHGA",
         "pairAddress": "8oKFo9vs25MGnJoHZ9hSs2B5PS4oENfyMDSc5UNFkNte",
         "entryTime": "2026-04-21T12:52:04.345Z"
+      },
+      {
+        "symbol": "Mogged",
+        "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
+        "entryTime": "2026-04-21T14:39:24.461Z"
       }
     ],
     "wins": 0,
@@ -2433,8 +2438,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:36:05.157Z",
-    "lastSeen": "2026-04-21T12:52:04.345Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T14:39:24.461Z",
+    "confirmed": true
   },
   "879ZiCEEYGbnSY5yz4aNYnLFrXQnyGteBz75NLoHxAis": {
     "appearances": 1,
@@ -7405,6 +7410,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:38:48.119Z",
     "lastSeen": "2026-04-21T14:38:48.119Z",
+    "confirmed": false
+  },
+  "H3xPKDgA8HFNv4DaZ5yPfigCzjnfnDzcP8f42icrS1y8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Mogged",
+        "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
+        "entryTime": "2026-04-21T14:39:24.461Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T14:39:24.461Z",
+    "lastSeen": "2026-04-21T14:39:24.461Z",
     "confirmed": false
   }
 }
