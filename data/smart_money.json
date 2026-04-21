@@ -3792,5 +3792,22 @@
     "firstSeen": "2026-04-21T10:06:53.977Z",
     "lastSeen": "2026-04-21T10:06:53.977Z",
     "confirmed": false
+  },
+  "D1mki22kNT1JY4DdixG8u5aczNFPEsEkvH5jxCzZbmRr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Bitshark",
+        "pairAddress": "EKMqWX6Pz4KyCAv87SK4szCYxk6w9HyRfw9ftEGWvU3t",
+        "entryTime": "2026-04-21T10:07:22.989Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T10:07:22.989Z",
+    "lastSeen": "2026-04-21T10:07:22.989Z",
+    "confirmed": false
   }
 }
