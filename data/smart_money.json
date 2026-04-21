@@ -14140,12 +14140,17 @@
     "confirmed": false
   },
   "A3EnNtgxKH6yrdeMFkampyrutA6hYCTfZEACaR2KkzoX": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "vibetrading",
         "pairAddress": "FXQmiNweD5LRZAQUYbKB3wouk9aLxUTAmpwKvN5wLmW6",
         "entryTime": "2026-04-19T23:26:34.544Z"
+      },
+      {
+        "symbol": "elon.exe",
+        "pairAddress": "9bxE83kDUcrvFqYhrGaE1mE9PUr5dZ67AGXTpWv3YmJY",
+        "entryTime": "2026-04-21T03:08:24.410Z"
       }
     ],
     "wins": 0,
@@ -14153,7 +14158,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:26:34.544Z",
-    "lastSeen": "2026-04-19T23:26:34.544Z",
+    "lastSeen": "2026-04-21T03:08:24.410Z",
     "confirmed": false
   },
   "FAsTGaAPJVBBvcKVvTzPZRWZ1EX3QN2v781EVemhW7PK": {
@@ -37195,6 +37200,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T03:07:52.464Z",
     "lastSeen": "2026-04-21T03:07:52.464Z",
+    "confirmed": false
+  },
+  "GBSexB84RtzbDiQUmHfAkZyeQZ3TY7HpS7nESYTxweHK": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Xing",
+        "pairAddress": "3EUMqhS6t9mFJHLjEYdy2KKR6YfnEVADc3SCs7vU7ZJT",
+        "entryTime": "2026-04-21T03:08:25.345Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T03:08:25.345Z",
+    "lastSeen": "2026-04-21T03:08:25.345Z",
+    "confirmed": false
+  },
+  "23M8V87UH5Bq3DjJCrL9Z18XQL3UXC4i7UQBXGELr5Kz": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Xing",
+        "pairAddress": "3EUMqhS6t9mFJHLjEYdy2KKR6YfnEVADc3SCs7vU7ZJT",
+        "entryTime": "2026-04-21T03:08:25.345Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T03:08:25.345Z",
+    "lastSeen": "2026-04-21T03:08:25.345Z",
     "confirmed": false
   }
 }
