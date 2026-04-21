@@ -5822,12 +5822,17 @@
     "confirmed": false
   },
   "9TafNPP5G3jcFx3tC5RBUtfQ25cQgAh6HygMh63b8pXj": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Camel",
         "pairAddress": "A2JiuyQcv6ois7SvHHxUGEQLCVSd31GpxxAhhBZ5RuGX",
         "entryTime": "2026-04-21T13:27:57.483Z"
+      },
+      {
+        "symbol": "DOGE",
+        "pairAddress": "DRdctdNBX3PEtFSp6AgQ1tGsj2JCtyEpT2WmMDFchaD8",
+        "entryTime": "2026-04-21T17:11:40.112Z"
       }
     ],
     "wins": 0,
@@ -5835,7 +5840,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:27:57.483Z",
-    "lastSeen": "2026-04-21T13:27:57.483Z",
+    "lastSeen": "2026-04-21T17:11:40.112Z",
     "confirmed": false
   },
   "74QsX16wPUcioqyx391j4SdGUt5iWimiQ99pY5raZ97e": {
