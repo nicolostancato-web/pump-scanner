@@ -1915,7 +1915,7 @@
     "confirmed": false
   },
   "49AyuVKRvCmgXpxAb1raXYa5MhMHDyMRnTLZrpkBaUvD": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "FUMES",
@@ -1926,6 +1926,11 @@
         "symbol": "Bitshark",
         "pairAddress": "EKMqWX6Pz4KyCAv87SK4szCYxk6w9HyRfw9ftEGWvU3t",
         "entryTime": "2026-04-21T09:59:36.632Z"
+      },
+      {
+        "symbol": "Liquid",
+        "pairAddress": "BQrGLFov3ChbEDBXoBCWnYMwVu8VjwJsnMEGd5mbsPeQ",
+        "entryTime": "2026-04-21T21:25:55.819Z"
       }
     ],
     "wins": 0,
@@ -1933,8 +1938,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:16:14.127Z",
-    "lastSeen": "2026-04-21T09:59:36.632Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T21:25:55.819Z",
+    "confirmed": true
   },
   "9Ysy1gXcKL2AHXnqAA1eNAhwoVPmwp6xm6shhG7ZMgom": {
     "appearances": 1,
