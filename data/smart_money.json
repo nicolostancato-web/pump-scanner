@@ -14291,7 +14291,7 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "vibetrading",
@@ -14312,6 +14312,11 @@
         "symbol": "lowcap",
         "pairAddress": "Bx4bcrJVwRb3dzj8SchoXzrJaqmzKHTXVxspYU9U45aM",
         "entryTime": "2026-04-20T18:38:49.958Z"
+      },
+      {
+        "symbol": "Lenny",
+        "pairAddress": "Bu6ZXMXUJX8pa79SQZg3JRX5Wbg8Vb4vuBVtDy2vK2ns",
+        "entryTime": "2026-04-21T02:38:01.402Z"
       }
     ],
     "wins": 0,
@@ -14319,7 +14324,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:33:17.662Z",
-    "lastSeen": "2026-04-20T18:38:49.958Z",
+    "lastSeen": "2026-04-21T02:38:01.402Z",
     "confirmed": true
   },
   "2rCyMG7JAcUi43Djbb44b1F4DshEmKY1xJJRwMGitMaV": {
