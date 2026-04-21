@@ -2348,7 +2348,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2394,6 +2394,11 @@
         "symbol": "FCC",
         "pairAddress": "7wHcZiS9vVYKs8VwgHG86SriVHZNqRZFsaEG78QBwgaT",
         "entryTime": "2026-04-21T21:57:49.086Z"
+      },
+      {
+        "symbol": "BLUECHIP",
+        "pairAddress": "Dvc6sWES8jw9eWe6BLqJLFBPeU8Rc8jfHZT5v6MhxF6X",
+        "entryTime": "2026-04-21T23:12:00.667Z"
       }
     ],
     "wins": 0,
@@ -2401,7 +2406,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-21T21:57:49.086Z",
+    "lastSeen": "2026-04-21T23:12:00.667Z",
     "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
@@ -15780,6 +15785,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T23:11:22.513Z",
     "lastSeen": "2026-04-21T23:11:22.513Z",
+    "confirmed": false
+  },
+  "9hmL7Vbwc5oAj2jnakHTSuR1Z1VHdaXmd4LxNMjLiTi2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BLUECHIP",
+        "pairAddress": "Dvc6sWES8jw9eWe6BLqJLFBPeU8Rc8jfHZT5v6MhxF6X",
+        "entryTime": "2026-04-21T23:12:00.667Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T23:12:00.667Z",
+    "lastSeen": "2026-04-21T23:12:00.667Z",
     "confirmed": false
   }
 }
