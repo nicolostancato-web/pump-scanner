@@ -8714,5 +8714,22 @@
     "firstSeen": "2026-04-21T15:33:52.142Z",
     "lastSeen": "2026-04-21T15:33:52.142Z",
     "confirmed": false
+  },
+  "amd1RSK3aN3uM7A3GCBN9VEWnBPQFVfGYUgr6pKoLAQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Curak",
+        "pairAddress": "JDb4wsXBkdTCSkRkEh7NbsMoRhtXkbCCtHdqFa48NLB1",
+        "entryTime": "2026-04-21T15:40:29.947Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T15:40:29.947Z",
+    "lastSeen": "2026-04-21T15:40:29.947Z",
+    "confirmed": false
   }
 }
