@@ -2303,7 +2303,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2324,6 +2324,11 @@
         "symbol": "Mogged",
         "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
         "entryTime": "2026-04-21T14:45:12.944Z"
+      },
+      {
+        "symbol": "Curak",
+        "pairAddress": "JDb4wsXBkdTCSkRkEh7NbsMoRhtXkbCCtHdqFa48NLB1",
+        "entryTime": "2026-04-21T15:42:53.742Z"
       }
     ],
     "wins": 0,
@@ -2331,7 +2336,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-21T14:45:12.944Z",
+    "lastSeen": "2026-04-21T15:42:53.742Z",
     "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
@@ -8832,6 +8837,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T15:42:19.008Z",
     "lastSeen": "2026-04-21T15:42:19.008Z",
+    "confirmed": false
+  },
+  "GJNeTJFh7AKeGnkCvm4vguUGJPWf3mFKEMoRxpWzXQEq": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Curak",
+        "pairAddress": "JDb4wsXBkdTCSkRkEh7NbsMoRhtXkbCCtHdqFa48NLB1",
+        "entryTime": "2026-04-21T15:42:53.742Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T15:42:53.742Z",
+    "lastSeen": "2026-04-21T15:42:53.742Z",
     "confirmed": false
   }
 }
