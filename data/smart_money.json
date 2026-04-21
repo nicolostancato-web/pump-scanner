@@ -12073,7 +12073,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "1",
@@ -12094,6 +12094,11 @@
         "symbol": "frank",
         "pairAddress": "HiakBwfz9Yq6jgxDk8XuJwamjeCQmC13KUkM9gU8VjR",
         "entryTime": "2026-04-21T20:27:10.684Z"
+      },
+      {
+        "symbol": "Liquid",
+        "pairAddress": "BQrGLFov3ChbEDBXoBCWnYMwVu8VjwJsnMEGd5mbsPeQ",
+        "entryTime": "2026-04-21T21:13:18.724Z"
       }
     ],
     "wins": 0,
@@ -12101,7 +12106,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T18:54:56.860Z",
-    "lastSeen": "2026-04-21T20:27:10.684Z",
+    "lastSeen": "2026-04-21T21:13:18.724Z",
     "confirmed": true
   },
   "Eya3YhgphQ8cF7KUxobYnrSEo6YtrxtYKP9Jq7RTtvQg": {
@@ -12297,12 +12302,17 @@
     "confirmed": false
   },
   "3UNWZp8Aph81aHBSShLqV2Tvu5cmAPVyVcEsz6fvSffe": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "dog",
         "pairAddress": "EfVKet4DTgVDaVWk6BVx11mPTg8XdCQnLK66a8ZDpECb",
         "entryTime": "2026-04-21T19:12:06.148Z"
+      },
+      {
+        "symbol": "Liquid",
+        "pairAddress": "BQrGLFov3ChbEDBXoBCWnYMwVu8VjwJsnMEGd5mbsPeQ",
+        "entryTime": "2026-04-21T21:13:18.724Z"
       }
     ],
     "wins": 0,
@@ -12310,7 +12320,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:12:06.148Z",
-    "lastSeen": "2026-04-21T19:12:06.148Z",
+    "lastSeen": "2026-04-21T21:13:18.724Z",
     "confirmed": false
   },
   "AQM2Qyyok8t4sGVVYHxCjosCGEu8tL5Pw4KLuvjcR2uF": {
