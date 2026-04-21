@@ -6591,7 +6591,7 @@
     "confirmed": false
   },
   "4riNYAHMp77bESmqvq89RxnDB9hh2ccm3d3wXctL9WHF": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "cock",
@@ -6602,6 +6602,11 @@
         "symbol": "HIGHER",
         "pairAddress": "Dc11jmEfe4kFFt9p26X8ACfPshdDMakNcZo7Vs3jbsFi",
         "entryTime": "2026-04-20T00:25:26.165Z"
+      },
+      {
+        "symbol": "CHLOE",
+        "pairAddress": "BtRi9sb1Hu5YqRfqAiYNDjTqa1U7cX5CWarDsuikDoUi",
+        "entryTime": "2026-04-21T00:47:16.226Z"
       }
     ],
     "wins": 0,
@@ -6609,8 +6614,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:00:48.986Z",
-    "lastSeen": "2026-04-20T00:25:26.165Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T00:47:16.226Z",
+    "confirmed": true
   },
   "GjbLrt2kyku4TujJaESpV5JWXJEL25cfj8bHW8qvYAuR": {
     "appearances": 1,
@@ -35020,6 +35025,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T00:46:44.050Z",
     "lastSeen": "2026-04-21T00:46:44.050Z",
+    "confirmed": false
+  },
+  "3Zifjb37yGp4HxcqvgBG3aQgb2fjsbzvSU7L4rsPMxGC": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHLOE",
+        "pairAddress": "BtRi9sb1Hu5YqRfqAiYNDjTqa1U7cX5CWarDsuikDoUi",
+        "entryTime": "2026-04-21T00:47:16.226Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T00:47:16.226Z",
+    "lastSeen": "2026-04-21T00:47:16.226Z",
     "confirmed": false
   }
 }
