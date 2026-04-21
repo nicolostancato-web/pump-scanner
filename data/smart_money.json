@@ -7620,5 +7620,22 @@
     "firstSeen": "2026-04-21T14:42:48.072Z",
     "lastSeen": "2026-04-21T14:42:48.072Z",
     "confirmed": false
+  },
+  "8ksy9X8x6pusd1Aj1wNrp4dZGG4bXcM1DBoMZfG36W7N": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Mogged",
+        "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
+        "entryTime": "2026-04-21T14:43:22.248Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T14:43:22.248Z",
+    "lastSeen": "2026-04-21T14:43:22.248Z",
+    "confirmed": false
   }
 }
