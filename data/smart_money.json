@@ -2303,7 +2303,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2329,6 +2329,11 @@
         "symbol": "Curak",
         "pairAddress": "JDb4wsXBkdTCSkRkEh7NbsMoRhtXkbCCtHdqFa48NLB1",
         "entryTime": "2026-04-21T15:42:53.742Z"
+      },
+      {
+        "symbol": "TERMINAL",
+        "pairAddress": "9W3azeDENcXRBRRc6utrCgqDjAsMTVjRfk8uLEMT9Zh9",
+        "entryTime": "2026-04-21T15:43:32.268Z"
       }
     ],
     "wins": 0,
@@ -2336,7 +2341,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-21T15:42:53.742Z",
+    "lastSeen": "2026-04-21T15:43:32.268Z",
     "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
@@ -8653,12 +8658,17 @@
     "confirmed": false
   },
   "E84bqTUdsZhHMvsHneFeJwyqTixydzw3zwBUdkUSHGED": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CONDOM",
         "pairAddress": "Bq3TM18REWdzf5NzwqCH5c4r6jbTkFNzdXpfRL5wYJ6u",
         "entryTime": "2026-04-21T15:23:48.966Z"
+      },
+      {
+        "symbol": "TERMINAL",
+        "pairAddress": "9W3azeDENcXRBRRc6utrCgqDjAsMTVjRfk8uLEMT9Zh9",
+        "entryTime": "2026-04-21T15:43:32.268Z"
       }
     ],
     "wins": 0,
@@ -8666,7 +8676,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T15:23:48.966Z",
-    "lastSeen": "2026-04-21T15:23:48.966Z",
+    "lastSeen": "2026-04-21T15:43:32.268Z",
     "confirmed": false
   },
   "6PzX3RjHzczz1UspFTeD19c2KZu5XQJvjZtnjdvoR2Lo": {
