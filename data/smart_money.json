@@ -35488,5 +35488,22 @@
     "firstSeen": "2026-04-21T01:20:41.676Z",
     "lastSeen": "2026-04-21T01:20:41.676Z",
     "confirmed": false
+  },
+  "DqURvTecjQE5sc2QZ2sGHnMHJPg4EYzeCP274BtvAC9W": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PDM",
+        "pairAddress": "7unHKYk9LSbCRdiyrxSX9TdJ4F5X4yj9MoRU3JWQXpwd",
+        "entryTime": "2026-04-21T01:21:13.203Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T01:21:13.203Z",
+    "lastSeen": "2026-04-21T01:21:13.203Z",
+    "confirmed": false
   }
 }
