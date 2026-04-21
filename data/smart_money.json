@@ -9006,5 +9006,22 @@
     "firstSeen": "2026-04-21T15:48:14.070Z",
     "lastSeen": "2026-04-21T15:48:14.070Z",
     "confirmed": false
+  },
+  "C5K3qzGYFDhy7EJMGCZh8MQhb9u9t9rmp9hwzqJh2dSu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TERMINAL",
+        "pairAddress": "9W3azeDENcXRBRRc6utrCgqDjAsMTVjRfk8uLEMT9Zh9",
+        "entryTime": "2026-04-21T15:48:52.103Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T15:48:52.103Z",
+    "lastSeen": "2026-04-21T15:48:52.103Z",
+    "confirmed": false
   }
 }
