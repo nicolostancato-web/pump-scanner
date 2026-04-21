@@ -3161,7 +3161,7 @@
     "confirmed": false
   },
   "BhBc8kbkgzXHmv79mPHCCVfpdZwanYabPR939g8foje6": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SIF",
@@ -3172,6 +3172,11 @@
         "symbol": "MHGA",
         "pairAddress": "8oKFo9vs25MGnJoHZ9hSs2B5PS4oENfyMDSc5UNFkNte",
         "entryTime": "2026-04-21T12:53:07.244Z"
+      },
+      {
+        "symbol": "Mogged",
+        "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
+        "entryTime": "2026-04-21T14:44:32.456Z"
       }
     ],
     "wins": 0,
@@ -3179,8 +3184,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T08:55:16.026Z",
-    "lastSeen": "2026-04-21T12:53:07.244Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T14:44:32.456Z",
+    "confirmed": true
   },
   "4ioQkQWteGibpoCUSV2zadyqkSF4VvnUaGnffGNhsamr": {
     "appearances": 1,
@@ -4748,7 +4753,7 @@
     "confirmed": false
   },
   "STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Outsider",
@@ -4759,6 +4764,11 @@
         "symbol": "DONNYLAND",
         "pairAddress": "FRwXZUBArsCtVkP3ohdjCDnCR4zkMTiDPLDz6az5xewD",
         "entryTime": "2026-04-21T14:21:43.447Z"
+      },
+      {
+        "symbol": "Mogged",
+        "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
+        "entryTime": "2026-04-21T14:44:32.456Z"
       }
     ],
     "wins": 0,
@@ -4766,8 +4776,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T12:15:15.468Z",
-    "lastSeen": "2026-04-21T14:21:43.447Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T14:44:32.456Z",
+    "confirmed": true
   },
   "4xpjLjaMQ4h5MaLqy8Z13AxusCq76pEM4fXLwiqCvzAa": {
     "appearances": 1,
