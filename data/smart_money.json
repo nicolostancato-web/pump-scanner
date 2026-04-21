@@ -7394,7 +7394,7 @@
     "confirmed": false
   },
   "5baEHr9X6tLznWaqtNh1XX9zKdQK9Dwd86dNmowBe32z": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "ADHD",
@@ -7420,6 +7420,11 @@
         "symbol": "slot",
         "pairAddress": "4rUQWfXTHqTEPVEqfXZkcPCBoeKq4faq7k5gGuSb5nWv",
         "entryTime": "2026-04-20T20:31:41.283Z"
+      },
+      {
+        "symbol": "CHLOE",
+        "pairAddress": "BtRi9sb1Hu5YqRfqAiYNDjTqa1U7cX5CWarDsuikDoUi",
+        "entryTime": "2026-04-21T00:58:14.037Z"
       }
     ],
     "wins": 0,
@@ -7427,7 +7432,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T16:31:55.198Z",
-    "lastSeen": "2026-04-20T20:31:41.283Z",
+    "lastSeen": "2026-04-21T00:58:14.037Z",
     "confirmed": true
   },
   "DMw5AWXRX4ez7KSDRYM2X9v4UwEdNbQVLvVJDY5NaMLm": {
@@ -35256,6 +35261,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T00:57:40.813Z",
     "lastSeen": "2026-04-21T00:57:40.813Z",
+    "confirmed": false
+  },
+  "5CTzno4eSob7gDY9j8XXxbk89n57sVTdMiTFJ9hpuTbE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHLOE",
+        "pairAddress": "BtRi9sb1Hu5YqRfqAiYNDjTqa1U7cX5CWarDsuikDoUi",
+        "entryTime": "2026-04-21T00:58:14.037Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T00:58:14.037Z",
+    "lastSeen": "2026-04-21T00:58:14.037Z",
     "confirmed": false
   }
 }
