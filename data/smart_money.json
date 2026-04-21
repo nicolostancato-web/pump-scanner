@@ -13860,7 +13860,7 @@
     "confirmed": false
   },
   "undwZZbXFTXAizTeeNpmygJDa4pWopEr1UCDSWpyo4y": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "vibetrading",
@@ -13871,6 +13871,11 @@
         "symbol": "MIM",
         "pairAddress": "9pjjP55ajXMPTDZnjhLKvLP4gCLVQhDx9EQi2ywJrc3Z",
         "entryTime": "2026-04-20T15:32:12.548Z"
+      },
+      {
+        "symbol": "elon.exe",
+        "pairAddress": "9bxE83kDUcrvFqYhrGaE1mE9PUr5dZ67AGXTpWv3YmJY",
+        "entryTime": "2026-04-21T03:06:11.437Z"
       }
     ],
     "wins": 0,
@@ -13878,8 +13883,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-19T23:13:29.499Z",
-    "lastSeen": "2026-04-20T15:32:12.548Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T03:06:11.437Z",
+    "confirmed": true
   },
   "CvS6UkEyojZdJx2fKzYrMyEyaUGbg1ucxLRhsWU7JKxM": {
     "appearances": 1,
@@ -37078,6 +37083,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T03:05:36.604Z",
     "lastSeen": "2026-04-21T03:05:36.604Z",
+    "confirmed": false
+  },
+  "AdmuNy6KJgYa8GoJXDqCknBte57WQEf8khQG9iu9cY5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "elon.exe",
+        "pairAddress": "9bxE83kDUcrvFqYhrGaE1mE9PUr5dZ67AGXTpWv3YmJY",
+        "entryTime": "2026-04-21T03:06:11.437Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T03:06:11.437Z",
+    "lastSeen": "2026-04-21T03:06:11.437Z",
     "confirmed": false
   }
 }
