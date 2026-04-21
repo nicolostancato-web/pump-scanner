@@ -9724,7 +9724,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "TERMINAL",
@@ -9740,6 +9740,11 @@
         "symbol": "CAM",
         "pairAddress": "FwP4XDsu9mCtumhMJTbnNLMwgnAz2Qo6aEZDV8UjH6p6",
         "entryTime": "2026-04-21T19:42:37.850Z"
+      },
+      {
+        "symbol": "FLYINGCAR",
+        "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
+        "entryTime": "2026-04-21T21:41:25.944Z"
       }
     ],
     "wins": 0,
@@ -9747,7 +9752,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:24:07.723Z",
-    "lastSeen": "2026-04-21T19:42:37.850Z",
+    "lastSeen": "2026-04-21T21:41:25.944Z",
     "confirmed": true
   },
   "EhER7q3w7UNCHCzjhud1dDxtGTihC7CoPfgkzS7KYZwk": {
@@ -12611,12 +12616,17 @@
     "confirmed": false
   },
   "8abFwsQkoMRAk5mD4eXFTBqVyTGsfUZ1hVsfZ3NDsDUW": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CAM",
         "pairAddress": "FwP4XDsu9mCtumhMJTbnNLMwgnAz2Qo6aEZDV8UjH6p6",
         "entryTime": "2026-04-21T19:43:36.271Z"
+      },
+      {
+        "symbol": "FLYINGCAR",
+        "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
+        "entryTime": "2026-04-21T21:41:25.944Z"
       }
     ],
     "wins": 0,
@@ -12624,7 +12634,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:43:36.271Z",
-    "lastSeen": "2026-04-21T19:43:36.271Z",
+    "lastSeen": "2026-04-21T21:41:25.944Z",
     "confirmed": false
   },
   "8pY1AukbuPgUE3EetyLa59rFLMimJGT94ZzbMEZcQF4w": {
