@@ -1278,5 +1278,22 @@
     "firstSeen": "2026-04-21T06:00:09.021Z",
     "lastSeen": "2026-04-21T06:00:09.021Z",
     "confirmed": false
+  },
+  "H6JmDFdqLdFwdzkKPnxxfFpiVYWtSRWTrYr122Jmpt6W": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CAESAR",
+        "pairAddress": "8NdYAACaTYEC5vNEDTw9QiDskbQUtnKNidw2kMKS9EVn",
+        "entryTime": "2026-04-21T06:00:51.598Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T06:00:51.598Z",
+    "lastSeen": "2026-04-21T06:00:51.598Z",
+    "confirmed": false
   }
 }
