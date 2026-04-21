@@ -9654,12 +9654,17 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TERMINAL",
         "pairAddress": "2gc2BW2muhT23VdJQSyU2iuHhF7jdRizSWDnPYS8ixPt",
         "entryTime": "2026-04-21T16:24:07.723Z"
+      },
+      {
+        "symbol": "dog",
+        "pairAddress": "EfVKet4DTgVDaVWk6BVx11mPTg8XdCQnLK66a8ZDpECb",
+        "entryTime": "2026-04-21T19:12:36.813Z"
       }
     ],
     "wins": 0,
@@ -9667,7 +9672,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:24:07.723Z",
-    "lastSeen": "2026-04-21T16:24:07.723Z",
+    "lastSeen": "2026-04-21T19:12:36.813Z",
     "confirmed": false
   },
   "EhER7q3w7UNCHCzjhud1dDxtGTihC7CoPfgkzS7KYZwk": {
