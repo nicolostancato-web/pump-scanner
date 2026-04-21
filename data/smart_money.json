@@ -4156,12 +4156,17 @@
     "confirmed": false
   },
   "J5P7z8oqCZnRdxQ4fS2DCpLMdfWni8aPo1Myz1Wfo5yZ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Bitshark",
         "pairAddress": "EKMqWX6Pz4KyCAv87SK4szCYxk6w9HyRfw9ftEGWvU3t",
         "entryTime": "2026-04-21T10:22:22.415Z"
+      },
+      {
+        "symbol": "BLUECHIP",
+        "pairAddress": "Dvc6sWES8jw9eWe6BLqJLFBPeU8Rc8jfHZT5v6MhxF6X",
+        "entryTime": "2026-04-21T23:28:14.858Z"
       }
     ],
     "wins": 0,
@@ -4169,7 +4174,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:22:22.415Z",
-    "lastSeen": "2026-04-21T10:22:22.415Z",
+    "lastSeen": "2026-04-21T23:28:14.858Z",
     "confirmed": false
   },
   "EpTo89BUAsxLiEevDJsc9fx8ku76KAXZaSAaMbT66rFg": {
@@ -15904,6 +15909,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T23:27:38.308Z",
     "lastSeen": "2026-04-21T23:27:38.308Z",
+    "confirmed": false
+  },
+  "9jWz8fVww5A8eahkf2jfwt7B2pFEvkUHWsHphn3xm66K": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BLUECHIP",
+        "pairAddress": "Dvc6sWES8jw9eWe6BLqJLFBPeU8Rc8jfHZT5v6MhxF6X",
+        "entryTime": "2026-04-21T23:28:14.858Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T23:28:14.858Z",
+    "lastSeen": "2026-04-21T23:28:14.858Z",
     "confirmed": false
   }
 }
