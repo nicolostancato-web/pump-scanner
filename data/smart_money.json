@@ -5294,5 +5294,22 @@
     "firstSeen": "2026-04-21T13:00:12.430Z",
     "lastSeen": "2026-04-21T13:00:12.430Z",
     "confirmed": false
+  },
+  "ANeY6wcXQke2NC7NXd4hSmUioGenx5GDuT9h8aiwqi1F": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MHGA",
+        "pairAddress": "8oKFo9vs25MGnJoHZ9hSs2B5PS4oENfyMDSc5UNFkNte",
+        "entryTime": "2026-04-21T13:02:12.488Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T13:02:12.488Z",
+    "lastSeen": "2026-04-21T13:02:12.488Z",
+    "confirmed": false
   }
 }
