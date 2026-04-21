@@ -1,5 +1,45 @@
 # THE WOLF OF ITALY — PROCEDURE OPERATIVE GIORNALIERE
-**In vigore dal 2026-04-20 — Aggiornato 2026-04-20**
+**In vigore dal 2026-04-20 — Aggiornato 2026-04-21**
+
+---
+
+## DIRETTIVA FONDATORI — IN VIGORE DAL 2026-04-21
+
+### REGOLA APPROVAZIONI
+Tutto ciò che è gratuito, utile al progetto e senza costo economico diretto si approva automaticamente a livello CEO. Non ci si ferma, non si aspettano approvazioni inutili.
+
+**Approvazione fondatori obbligatoria solo per:**
+- nuova spesa / abbonamento / servizio a pagamento
+- nuova API key o credenziale da fornire
+- investimento nuovo
+- scelta strategica importante
+- rischio economico, legale o reputazionale rilevante
+
+### STANDARD TASK — OBBLIGATORIO
+Ogni task assegnato a un team deve avere:
+- obiettivo specifico e misurabile (mai generico)
+- criteri numerici (es. "identifica 3 opportunità con APY >15%")
+- output esplicito richiesto
+- scadenza precisa
+
+Non sono accettati task tipo "fai ricerca crypto" o "guarda GitHub". Solo task concreti.
+
+### STANDARD INTENSITÀ
+Ogni team deve scavare di più, raccogliere di più, confrontare di più, scrivere di più. Non sono accettati team che fanno 2 controlli e si fermano. La società lavora come una macchina continua.
+
+### NOTES OBBLIGATORIE — OGNI GIORNO
+Ogni team salva ogni giorno in `team-notes/[NOME-TEAM]/YYYY-MM-DD/`:
+raw_notes, working_notes, decision_notes, task_notes, problem_log, research_output.
+Se il lavoro non è tracciato, per i fondatori non è lavoro verificabile.
+
+### REPORT SERALE — SEZIONI OBBLIGATORIE AGGIUNTIVE
+1. **INTENSITÀ DEL LAVORO** — per ogni team: intensità / profondità / volume output / giudizio CEO / aspettativa domani
+2. **CFO / COSTI** — costo mensile stimato / nuovi costi / costi evitati / consumi da monitorare / richieste ai fondatori
+
+### TEAM ATTIVATI CON PRIORITÀ IMMEDIATA
+- QUALITY-CONTROL-1: audit reali ogni sera da 2026-04-21
+- SECURITY-1: audit credenziali immediato
+- FINANCE-1: baseline economico entro 2026-04-21
 
 ---
 
