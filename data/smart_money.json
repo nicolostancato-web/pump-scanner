@@ -6621,5 +6621,22 @@
     "firstSeen": "2026-04-21T14:09:27.709Z",
     "lastSeen": "2026-04-21T14:09:27.709Z",
     "confirmed": false
+  },
+  "3SJ1KpihZTYkNGsAdRVgPC1VMMvMDK57nPn1ba1dUsVi": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MGGA",
+        "pairAddress": "AjtoGbkTghnttyKUhn7iMbSpkGjvQKQectFLxSqYiNr5",
+        "entryTime": "2026-04-21T14:10:14.808Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T14:10:14.808Z",
+    "lastSeen": "2026-04-21T14:10:14.808Z",
+    "confirmed": false
   }
 }
