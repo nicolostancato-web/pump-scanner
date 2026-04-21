@@ -23242,7 +23242,7 @@
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "MLG",
@@ -23263,6 +23263,11 @@
         "symbol": "BRO",
         "pairAddress": "Ky7W77MzreqYfc7ZZvKhEA8b4ABQ7sWfGnedMngdCZ1",
         "entryTime": "2026-04-20T19:56:48.217Z"
+      },
+      {
+        "symbol": "ASTROID",
+        "pairAddress": "FNzf8KkSrFJbsEY8fUAfckPTPF2oXhP3Yp2TmQjMqsvZ",
+        "entryTime": "2026-04-21T04:21:44.844Z"
       }
     ],
     "wins": 0,
@@ -23270,7 +23275,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T11:22:53.777Z",
-    "lastSeen": "2026-04-20T19:56:48.217Z",
+    "lastSeen": "2026-04-21T04:21:44.844Z",
     "confirmed": true
   },
   "zeronaXJsbvPZFmzytV4RPXWBHQGMFcRCvoYaDNPiRL": {
@@ -38768,6 +38773,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T04:17:11.930Z",
     "lastSeen": "2026-04-21T04:17:11.930Z",
+    "confirmed": false
+  },
+  "48eWH4QFcHFjqyLNyFuSnZAQXacrkJ3RPuJq3tJ4r482": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ASTROID",
+        "pairAddress": "FNzf8KkSrFJbsEY8fUAfckPTPF2oXhP3Yp2TmQjMqsvZ",
+        "entryTime": "2026-04-21T04:21:44.844Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T04:21:44.844Z",
+    "lastSeen": "2026-04-21T04:21:44.844Z",
     "confirmed": false
   }
 }
