@@ -5212,7 +5212,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "3u6meGpaumzUPciVVsYaC7L46q37bEP6Pq1zVzNuwmpP",
+      "mint": "6KANzokSuEEef2LA5ZovrgzY4w3XcCGRg8SUx1nNoEQz",
+      "name": "POPO THE PIGG",
+      "symbol": "POPO",
+      "dex": "pumpswap",
+      "entryPrice": 0.3758,
+      "entryMcap": 375815,
+      "entryTime": 1776778929219,
+      "score": 67,
+      "ageAtEntry": 31,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/3u6megpaumzupcivvsyac7l46q37bep6pq1zvznuwmpp",
+      "peakPrice": 0.3758,
+      "peakMultiplier": 1,
+      "peakMcap": 375815,
+      "peakTime": 1776778929219,
+      "lastPrice": 0.2113,
+      "lowestPrice": 0.2113,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.2113,
+      "closeMultiplier": 0.5622671633847791,
+      "closedAt": "2026-04-21T13:46:09.593Z",
+      "durationMs": 240374,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.2113,
+        "closeMultiplier": 0.5622671633847791,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-21T13:46:09.593Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -20,
+        "momentum": 2.146451612903226,
+        "floatRotation": 0.06490089538735815,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": false,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": true,
+        "floatRot": 0.06490089538735815,
+        "accel": 2.146451612903226,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(31min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(31min)",
+        "priceChg5m": 66.54,
+        "vol5m": 24390.73,
+        "buys5m": 104,
+        "sells5m": 70,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-21T09:58:52.182Z"
+  "lastSaved": "2026-04-21T13:46:10.900Z"
 }
