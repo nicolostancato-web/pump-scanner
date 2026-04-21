@@ -5713,7 +5713,7 @@
     "confirmed": false
   },
   "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Camel",
@@ -5724,6 +5724,11 @@
         "symbol": "DONNYLAND",
         "pairAddress": "FRwXZUBArsCtVkP3ohdjCDnCR4zkMTiDPLDz6az5xewD",
         "entryTime": "2026-04-21T14:18:29.623Z"
+      },
+      {
+        "symbol": "dog",
+        "pairAddress": "EfVKet4DTgVDaVWk6BVx11mPTg8XdCQnLK66a8ZDpECb",
+        "entryTime": "2026-04-21T19:16:58.631Z"
       }
     ],
     "wins": 0,
@@ -5731,8 +5736,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:19:03.217Z",
-    "lastSeen": "2026-04-21T14:18:29.623Z",
-    "confirmed": false
+    "lastSeen": "2026-04-21T19:16:58.631Z",
+    "confirmed": true
   },
   "CShy5t9VS4AaWHkuFTRsp76DeVcZ2A96LjmHcienxHWQ": {
     "appearances": 1,
@@ -11993,12 +11998,17 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "1",
         "pairAddress": "2MoaQ4qMMb3esv4jZvr7YsyKgGTR3AMgA839U3ByokHH",
         "entryTime": "2026-04-21T18:54:56.860Z"
+      },
+      {
+        "symbol": "dog",
+        "pairAddress": "EfVKet4DTgVDaVWk6BVx11mPTg8XdCQnLK66a8ZDpECb",
+        "entryTime": "2026-04-21T19:16:58.631Z"
       }
     ],
     "wins": 0,
@@ -12006,7 +12016,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T18:54:56.860Z",
-    "lastSeen": "2026-04-21T18:54:56.860Z",
+    "lastSeen": "2026-04-21T19:16:58.631Z",
     "confirmed": false
   },
   "Eya3YhgphQ8cF7KUxobYnrSEo6YtrxtYKP9Jq7RTtvQg": {
