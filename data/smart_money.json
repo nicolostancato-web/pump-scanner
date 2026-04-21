@@ -10846,5 +10846,22 @@
     "firstSeen": "2026-04-21T17:41:11.062Z",
     "lastSeen": "2026-04-21T17:41:11.062Z",
     "confirmed": false
+  },
+  "3X8782oi2UBDcToKWYaeMAc4c2WF4wDWU3bBSvGMVxxF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FUU",
+        "pairAddress": "FR5ESCkkTJTYh5sRSfa7p3ASiHVFUP6rpm1829fesNWs",
+        "entryTime": "2026-04-21T17:41:44.586Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T17:41:44.586Z",
+    "lastSeen": "2026-04-21T17:41:44.586Z",
+    "confirmed": false
   }
 }
