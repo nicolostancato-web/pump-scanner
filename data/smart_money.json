@@ -6793,12 +6793,17 @@
     "confirmed": false
   },
   "5oDjEKLV6NVh7V2FQDyK9b5UZH6rSdp3tvXgtLcEEsLn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Donnyland",
         "pairAddress": "J7vkpgA9A2iThnAkvmbxsyTxmhs4QfGsgkWPoPHoRFd7",
         "entryTime": "2026-04-21T14:14:24.853Z"
+      },
+      {
+        "symbol": "TERMINAL",
+        "pairAddress": "9W3azeDENcXRBRRc6utrCgqDjAsMTVjRfk8uLEMT9Zh9",
+        "entryTime": "2026-04-21T15:56:42.015Z"
       }
     ],
     "wins": 0,
@@ -6806,7 +6811,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:14:24.853Z",
-    "lastSeen": "2026-04-21T14:14:24.853Z",
+    "lastSeen": "2026-04-21T15:56:42.015Z",
     "confirmed": false
   },
   "VeNoTabwit1mYxcCm3LKzs64pJ9ygBKmG9GmHip9LmC": {
@@ -9180,6 +9185,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T15:55:52.842Z",
     "lastSeen": "2026-04-21T15:55:52.842Z",
+    "confirmed": false
+  },
+  "3YVyyaGGVj99vsd7EKweL2HjDWjM5HoE2pGLWVxZKt5F": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TERMINAL",
+        "pairAddress": "9W3azeDENcXRBRRc6utrCgqDjAsMTVjRfk8uLEMT9Zh9",
+        "entryTime": "2026-04-21T15:56:42.015Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T15:56:42.015Z",
+    "lastSeen": "2026-04-21T15:56:42.015Z",
     "confirmed": false
   }
 }
