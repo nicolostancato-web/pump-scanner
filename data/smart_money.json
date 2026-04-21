@@ -5502,7 +5502,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "MHGA",
@@ -5523,6 +5523,11 @@
         "symbol": "DOGE",
         "pairAddress": "DRdctdNBX3PEtFSp6AgQ1tGsj2JCtyEpT2WmMDFchaD8",
         "entryTime": "2026-04-21T16:56:00.580Z"
+      },
+      {
+        "symbol": "BRICKS",
+        "pairAddress": "6QrQKB4hrkUWAxXq7UtRMSCj3CcK4dxwZqUmUVVFmwpa",
+        "entryTime": "2026-04-21T20:44:00.858Z"
       }
     ],
     "wins": 0,
@@ -5530,7 +5535,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:06:15.919Z",
-    "lastSeen": "2026-04-21T16:56:00.580Z",
+    "lastSeen": "2026-04-21T20:44:00.858Z",
     "confirmed": true
   },
   "2pQLqm1c6Ziaqxb9fukWzzq38Up5taU35aee7CL4gsKP": {
@@ -13644,6 +13649,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T20:43:00.319Z",
     "lastSeen": "2026-04-21T20:43:00.319Z",
+    "confirmed": false
+  },
+  "5ZW91xkNzrhT3jN1G5AmFPwGcui5J3Bj3Gnz2QmV4a1Y": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BRICKS",
+        "pairAddress": "6QrQKB4hrkUWAxXq7UtRMSCj3CcK4dxwZqUmUVVFmwpa",
+        "entryTime": "2026-04-21T20:44:00.858Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T20:44:00.858Z",
+    "lastSeen": "2026-04-21T20:44:00.858Z",
     "confirmed": false
   }
 }
