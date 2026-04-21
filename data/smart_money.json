@@ -12222,5 +12222,22 @@
     "firstSeen": "2026-04-21T19:12:06.148Z",
     "lastSeen": "2026-04-21T19:12:06.148Z",
     "confirmed": false
+  },
+  "AQM2Qyyok8t4sGVVYHxCjosCGEu8tL5Pw4KLuvjcR2uF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "dog",
+        "pairAddress": "EfVKet4DTgVDaVWk6BVx11mPTg8XdCQnLK66a8ZDpECb",
+        "entryTime": "2026-04-21T19:17:37.225Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T19:17:37.225Z",
+    "lastSeen": "2026-04-21T19:17:37.225Z",
+    "confirmed": false
   }
 }
