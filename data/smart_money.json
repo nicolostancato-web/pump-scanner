@@ -15215,12 +15215,17 @@
     "confirmed": false
   },
   "H3rUiKEFPnTM6CHCmJqKt4Nd1xeFATK9aUmU4sbD5za7": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Dumban",
         "pairAddress": "9xPWyjCNYKke6LMavBS9TkQ7NJdxAok9EjfV6B1Ky5MV",
         "entryTime": "2026-04-21T22:19:08.114Z"
+      },
+      {
+        "symbol": "UNCMONEY",
+        "pairAddress": "F2NQmoydDJotFoGpAcN1E6VqoxKH2W2Y4dSF6eVSUeyT",
+        "entryTime": "2026-04-21T23:51:56.555Z"
       }
     ],
     "wins": 0,
@@ -15228,7 +15233,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T22:19:08.114Z",
-    "lastSeen": "2026-04-21T22:19:08.114Z",
+    "lastSeen": "2026-04-21T23:51:56.555Z",
     "confirmed": false
   },
   "5pi2C2MveuCHRbx24ZMqKhhMEbJw2aWDDsFEEsQf5s9a": {
@@ -15994,6 +15999,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-21T23:51:24.541Z",
     "lastSeen": "2026-04-21T23:51:24.541Z",
+    "confirmed": false
+  },
+  "49s3QQinMeMoiUPeZuVQmTx6tpcWL3KtRyVciZ554uUo": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNCMONEY",
+        "pairAddress": "F2NQmoydDJotFoGpAcN1E6VqoxKH2W2Y4dSF6eVSUeyT",
+        "entryTime": "2026-04-21T23:51:56.555Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T23:51:56.555Z",
+    "lastSeen": "2026-04-21T23:51:56.555Z",
     "confirmed": false
   }
 }
