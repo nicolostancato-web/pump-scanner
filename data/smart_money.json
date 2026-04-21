@@ -24994,7 +24994,7 @@
     "confirmed": false
   },
   "2mRYZQP4FvB3BWEBfoDB2g5eUPbPco3Tjs6i4N4cHhog": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "SPY",
@@ -25010,6 +25010,11 @@
         "symbol": "CDM",
         "pairAddress": "E7znJMjXoCCY45N2c47HyykfA4pJgMZEDHZmtzKPcLiT",
         "entryTime": "2026-04-20T22:31:17.867Z"
+      },
+      {
+        "symbol": "PONYROID",
+        "pairAddress": "B4cpKQezAPeN6v5CfgKiQ5AZQUmErTKM7qoc63cgWnSV",
+        "entryTime": "2026-04-21T04:34:12.412Z"
       }
     ],
     "wins": 0,
@@ -25017,7 +25022,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-20T13:45:45.496Z",
-    "lastSeen": "2026-04-20T22:31:17.867Z",
+    "lastSeen": "2026-04-21T04:34:12.412Z",
     "confirmed": true
   },
   "992MR97y5m5TwpSR2tnNoURBioDGDHCMkLsNZMybvKtT": {
