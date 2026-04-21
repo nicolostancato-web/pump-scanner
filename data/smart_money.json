@@ -10965,5 +10965,22 @@
     "firstSeen": "2026-04-21T17:44:17.354Z",
     "lastSeen": "2026-04-21T17:44:17.354Z",
     "confirmed": false
+  },
+  "FTgXoaBQnCuisBxviXJwCKgtsBBLA5pGeoYUaQV966XG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "OFFCHAIN",
+        "pairAddress": "DgwPZxjiZiznGYYECytkmWVXQir213RZmuUX7NHEwTR",
+        "entryTime": "2026-04-21T17:44:52.654Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-21T17:44:52.654Z",
+    "lastSeen": "2026-04-21T17:44:52.654Z",
+    "confirmed": false
   }
 }
