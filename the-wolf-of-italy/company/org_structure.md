@@ -190,6 +190,16 @@ Preferenza forte per modelli con incasso e accumulo in wallet crypto aziendali, 
 - Output atteso: dashboard finanziaria aggiornata settimanalmente, report mensile P&L, allerta su anomalie
 - Collegamento goal: visibilità totale su dove si fanno e perdono soldi
 
+### EXECUTION
+
+**EXECUTION-1** — Esecuzione Test Operativi *(attivato 2026-04-21)*
+- Missione: trasformare rapidamente le opportunità selezionate dal CEO in test operativi reali, documentati e misurabili
+- Focus: esecuzione rapida di metodi identificati dai team di research, test su opportunità crypto/AI/digital, documentazione esito e learnings
+- Output atteso: scheda test per ogni execution (metodo, passaggi, capitale, esito, profitto/perdita, decisione finale: scartare/riprovare/scalare)
+- Collegamento goal: chiudere il gap tra scoperta e prova — la società non si limita a trovare, prova
+- Regola: NON fa ricerca primaria. Riceve opportunità filtrate dal CEO, le esegue, le documenta
+- Limiti autonomia: può eseguire test a costo zero o dentro soglie pre-approvate. Spesa nuova → approvazione fondatori
+
 ---
 
 ## PRINCIPI OPERATIVI
@@ -202,6 +212,7 @@ Preferenza forte per modelli con incasso e accumulo in wallet crypto aziendali, 
 6. Zero tempo su idee vaghe — solo lavoro concreto e misurabile
 7. Ogni team lascia tracce scritte di ogni giornata
 8. Il CEO porta ai fondatori solo le opportunità concrete e le decisioni che richiedono davvero la loro attenzione
+9. Trovato un metodo promettente → si testa subito. La società trova, filtra, prova, misura, scala.
 
 ---
 
