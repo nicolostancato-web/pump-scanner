@@ -5296,7 +5296,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "AjtoGbkTghnttyKUhn7iMbSpkGjvQKQectFLxSqYiNr5",
+      "mint": "4zZJwayrRLpMV8fiDjVa9ipvVVRQeap46SUaKpZ9pump",
+      "name": "Make Giga Great Again",
+      "symbol": "MGGA",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001486,
+      "entryMcap": 148607,
+      "entryTime": 1776781337822,
+      "score": 70,
+      "ageAtEntry": 41,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/ajtogbktghnttykuhn7imbspkgjvqkqectflxsqyinr5",
+      "peakPrice": 0.0001486,
+      "peakMultiplier": 1,
+      "peakMcap": 148607,
+      "peakTime": 1776781337822,
+      "lastPrice": 0.0001013,
+      "lowestPrice": 0.0001013,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001013,
+      "closeMultiplier": 0.6816958277254374,
+      "closedAt": "2026-04-21T14:24:17.956Z",
+      "durationMs": 120134,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001013,
+        "closeMultiplier": 0.6816958277254374,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-21T14:24:17.956Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 0,
+        "momentum": 1.6329268292682928,
+        "floatRotation": 0.38603127712691865,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.38603127712691865,
+        "accel": 1.6329268292682928,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(41min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(41min)",
+        "priceChg5m": 66.95,
+        "vol5m": 57366.95,
+        "buys5m": 318,
+        "sells5m": 291,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-21T13:46:10.900Z"
+  "lastSaved": "2026-04-21T14:24:19.315Z"
 }
