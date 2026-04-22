@@ -2388,7 +2388,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 15,
+    "appearances": 16,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2464,6 +2464,11 @@
         "symbol": "MEOW",
         "pairAddress": "8djjgCFzLriPLCkdgmLPVEvxofHrzQRaFJrRGz4xjgKU",
         "entryTime": "2026-04-22T10:48:01.810Z"
+      },
+      {
+        "symbol": "Baddie",
+        "pairAddress": "AJjmPiQ1BuuE4doFh3NUzA4P5W4A8wYW7EgrPD8Q5Kvf",
+        "entryTime": "2026-04-22T13:22:31.526Z"
       }
     ],
     "wins": 0,
@@ -2471,7 +2476,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-22T10:48:01.810Z",
+    "lastSeen": "2026-04-22T13:22:31.526Z",
     "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
@@ -26986,6 +26991,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T13:21:33.652Z",
     "lastSeen": "2026-04-22T13:21:33.652Z",
+    "confirmed": false
+  },
+  "ANQysrsstJ9oHaebQyNjZDzmfZ7B1G5X6yF2H3wxuEd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Baddie",
+        "pairAddress": "AJjmPiQ1BuuE4doFh3NUzA4P5W4A8wYW7EgrPD8Q5Kvf",
+        "entryTime": "2026-04-22T13:22:31.526Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T13:22:31.526Z",
+    "lastSeen": "2026-04-22T13:22:31.526Z",
     "confirmed": false
   }
 }
