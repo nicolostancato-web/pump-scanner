@@ -1,47 +1,53 @@
 # QUALITY-CONTROL-1 — Daily Workflow
 
 ## Mission
-Audit what actually happened today. No decoration. Only facts.
+Verify real work happened. No fake output passes QC. Be honest — weak output = FAIL.
 
 ## Daily Task
-1. Check GitHub for today's team notes — fetch directory listing for each active team
-2. For each team: did they produce a file today? What file? How many lines?
-3. Score each team: PRODUCED / MISSING / PARTIAL
-4. Flag teams with zero output
-5. Check if outputs meet quality standards (concrete, numbered, sourced)
-6. Save QC report to GitHub
 
-## GitHub paths to check (today's notes)
-For each team in: RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1, FINANCE-1, SECURITY-1, EXECUTION-1
-Check: `https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/team-notes/[TEAM]/[DATE]`
+### Step 1 — Check team-notes for today
+For each team, check: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/team-notes/[TEAM]/[DATE]
+Teams: RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1, EXECUTION-1, FINANCE-1, SECURITY-1
 
-## Quality Standards
-An output is VALID if it has:
-1. Real data (numbers, links, not just text)
-2. At least 1 concrete finding
-3. Saved to correct GitHub path
-4. File size > 500 chars
+### Step 2 — Check knowledge_base flow
+- fetch_url: .../knowledge_base/opportunities — did Research write?
+- fetch_url: .../knowledge_base/execution_queue — did CEO write?
+- fetch_url: .../knowledge_base/execution_results — did Execution write?
 
-## Output Format
-```markdown
-# QUALITY-CONTROL-1 — Daily Audit
-Date: YYYY-MM-DD
-
-## Team Output Status
-| Team | Status | Files | Quality | Notes |
-|---|---|---|---|---|
-| RESEARCH-CRYPTO-1 | PRODUCED / MISSING | filename | VALID/INVALID | |
+### Step 3 — Score each team:
+```
+## Audit Table
+| Team | File exists | File size | Real data? | Schema filled? | Score |
+|---|---|---|---|---|---|
+| RESEARCH-CRYPTO-1 | YES/NO | Xb | YES/NO | YES/NO | PASS/PARTIAL/FAIL |
 ...
 
-## Teams with Zero Output
-[list]
+## Inter-Agent Flow Status
+- opportunities/ written: YES/NO
+- execution_queue/ written: YES/NO  
+- execution_results/ written: YES/NO
+- Flow complete: YES/NO / PARTIAL
 
-## Quality Violations
-[outputs that don't meet standards]
+## Teams with FAIL or PARTIAL
+[list each with reason]
 
-## Overall Score
-X/7 teams produced valid output today.
+## Overall Score: X/6 teams passed
 
-## Recommendation
-[what CEO should do based on today's results]
+## QC Recommendation
+[What CEO should fix tomorrow — be specific]
 ```
+
+Scoring:
+- PASS: file exists + real data (numbers/links) + schema filled + >500 chars
+- PARTIAL: file exists but weak/vague/missing schema
+- FAIL: no file OR file with invented data
+
+## Output — BOTH files required
+
+### File 1 — knowledge_base
+Path: the-wolf-of-italy/knowledge_base/qc_audits/[DATE]-audit.md
+Commit: "QUALITY-CONTROL-1: audit [DATE]"
+
+### File 2 — team-notes
+Path: the-wolf-of-italy/team-notes/QUALITY-CONTROL-1/[DATE]/audit.md
+Commit: "QUALITY-CONTROL-1: daily audit [DATE]"
