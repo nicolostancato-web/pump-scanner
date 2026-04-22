@@ -30832,5 +30832,22 @@
     "firstSeen": "2026-04-22T19:01:21.948Z",
     "lastSeen": "2026-04-22T19:01:21.948Z",
     "confirmed": false
+  },
+  "9iVjizTjNdSUAyPSs1eezPiUzMmH2o6Lyd5p4DP15J2H": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "papi",
+        "pairAddress": "HegWM3pbb9YLVd4jSmdUdSLWC46kPd4G2Bqf63gsHaMD",
+        "entryTime": "2026-04-22T19:04:02.895Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T19:04:02.895Z",
+    "lastSeen": "2026-04-22T19:04:02.895Z",
+    "confirmed": false
   }
 }
