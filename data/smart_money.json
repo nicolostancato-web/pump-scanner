@@ -7054,7 +7054,7 @@
     "confirmed": false
   },
   "E9RXTAXtXHwyuguYkRu7BVkYDN6Gp4JzNzopwBLHQTDq": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "MGGA",
@@ -7065,6 +7065,11 @@
         "symbol": "DOGE1",
         "pairAddress": "5Wt6CEeGughVF9raK9X1Vm1mBznLTHUeWaoYTBVnLqyT",
         "entryTime": "2026-04-22T04:25:16.031Z"
+      },
+      {
+        "symbol": "Baddie",
+        "pairAddress": "AJjmPiQ1BuuE4doFh3NUzA4P5W4A8wYW7EgrPD8Q5Kvf",
+        "entryTime": "2026-04-22T13:16:30.714Z"
       }
     ],
     "wins": 0,
@@ -7072,8 +7077,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:09:27.709Z",
-    "lastSeen": "2026-04-22T04:25:16.031Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T13:16:30.714Z",
+    "confirmed": true
   },
   "m9Ft6LUAn5Di5dFGPRVaWpWyfpDxaRHDUQL2FXbc2mh": {
     "appearances": 1,
@@ -23644,12 +23649,17 @@
     "confirmed": false
   },
   "8Fz9Y1ma3dSUKbpEtUkn5Abmd52HAPM5X3XYun1L7S6S": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MSGA",
         "pairAddress": "8M3EDY8gxr8iQEiQMbYGnkHaBpcpZMGPZAHqou23ERQx",
         "entryTime": "2026-04-22T09:40:52.721Z"
+      },
+      {
+        "symbol": "Baddie",
+        "pairAddress": "AJjmPiQ1BuuE4doFh3NUzA4P5W4A8wYW7EgrPD8Q5Kvf",
+        "entryTime": "2026-04-22T13:16:30.714Z"
       }
     ],
     "wins": 0,
@@ -23657,7 +23667,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T09:40:52.721Z",
-    "lastSeen": "2026-04-22T09:40:52.721Z",
+    "lastSeen": "2026-04-22T13:16:30.714Z",
     "confirmed": false
   },
   "6vZz5By5AGL67cRGqD8Rt9QPyaN77Qwfbqc5jHxDSvBu": {
