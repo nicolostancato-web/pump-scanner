@@ -9839,7 +9839,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "TERMINAL",
@@ -9865,6 +9865,11 @@
         "symbol": "ASDFH",
         "pairAddress": "2miYLvjor3yAzCdJnL9NEiR69frSSk6UY4izxtgE6qZ7",
         "entryTime": "2026-04-21T22:42:25.581Z"
+      },
+      {
+        "symbol": "earthcoin",
+        "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
+        "entryTime": "2026-04-22T05:39:07.696Z"
       }
     ],
     "wins": 0,
@@ -9872,7 +9877,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:24:07.723Z",
-    "lastSeen": "2026-04-21T22:42:25.581Z",
+    "lastSeen": "2026-04-22T05:39:07.696Z",
     "confirmed": true
   },
   "EhER7q3w7UNCHCzjhud1dDxtGTihC7CoPfgkzS7KYZwk": {
@@ -12739,7 +12744,7 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "CAM",
@@ -12755,6 +12760,11 @@
         "symbol": "FLYINGCAR",
         "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
         "entryTime": "2026-04-21T21:42:02.613Z"
+      },
+      {
+        "symbol": "earthcoin",
+        "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
+        "entryTime": "2026-04-22T05:39:07.696Z"
       }
     ],
     "wins": 0,
@@ -12762,7 +12772,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:42:37.850Z",
-    "lastSeen": "2026-04-21T21:42:02.613Z",
+    "lastSeen": "2026-04-22T05:39:07.696Z",
     "confirmed": true
   },
   "8abFwsQkoMRAk5mD4eXFTBqVyTGsfUZ1hVsfZ3NDsDUW": {
