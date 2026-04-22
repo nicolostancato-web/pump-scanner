@@ -1925,7 +1925,7 @@
     "confirmed": false
   },
   "49AyuVKRvCmgXpxAb1raXYa5MhMHDyMRnTLZrpkBaUvD": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "FUMES",
@@ -1941,6 +1941,11 @@
         "symbol": "Liquid",
         "pairAddress": "BQrGLFov3ChbEDBXoBCWnYMwVu8VjwJsnMEGd5mbsPeQ",
         "entryTime": "2026-04-21T21:25:55.819Z"
+      },
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T06:55:10.870Z"
       }
     ],
     "wins": 0,
@@ -1948,7 +1953,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:16:14.127Z",
-    "lastSeen": "2026-04-21T21:25:55.819Z",
+    "lastSeen": "2026-04-22T06:55:10.870Z",
     "confirmed": true
   },
   "9Ysy1gXcKL2AHXnqAA1eNAhwoVPmwp6xm6shhG7ZMgom": {
@@ -20568,6 +20573,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T06:54:35.218Z",
     "lastSeen": "2026-04-22T06:54:35.218Z",
+    "confirmed": false
+  },
+  "6mVNzmXmGx4DbGZUVkAtjJPDMfJTihMnSXqp6VTuGU5d": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T06:55:10.870Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T06:55:10.870Z",
+    "lastSeen": "2026-04-22T06:55:10.870Z",
     "confirmed": false
   }
 }
