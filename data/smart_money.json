@@ -2999,12 +2999,17 @@
     "confirmed": false
   },
   "1aDerPKk87xJHCAqTY5bGxF5Xet2MG476y4Zmq2WJ8Y": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SIF",
         "pairAddress": "8HfLQa1stNK1pS9qTJFegLLuKeH3UyjrhA5Vku1q4PWG",
         "entryTime": "2026-04-21T08:46:06.709Z"
+      },
+      {
+        "symbol": "earthcoin",
+        "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
+        "entryTime": "2026-04-22T05:32:55.106Z"
       }
     ],
     "wins": 0,
@@ -3012,7 +3017,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T08:46:06.709Z",
-    "lastSeen": "2026-04-21T08:46:06.709Z",
+    "lastSeen": "2026-04-22T05:32:55.106Z",
     "confirmed": false
   },
   "5Q7sU7RaR6XNcztFRzDgyDRod2CPmiuq8apJp6DpjsUM": {
@@ -19470,6 +19475,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T05:31:45.920Z",
     "lastSeen": "2026-04-22T05:31:45.920Z",
+    "confirmed": false
+  },
+  "DuheTX25N82S1m5RjrdfidWJz1N8zMYPvaAEeuH4Ftkf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "earthcoin",
+        "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
+        "entryTime": "2026-04-22T05:32:55.106Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T05:32:55.106Z",
+    "lastSeen": "2026-04-22T05:32:55.106Z",
     "confirmed": false
   }
 }
