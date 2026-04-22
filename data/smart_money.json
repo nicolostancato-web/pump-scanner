@@ -20917,5 +20917,22 @@
     "firstSeen": "2026-04-22T07:08:24.941Z",
     "lastSeen": "2026-04-22T07:08:24.941Z",
     "confirmed": false
+  },
+  "5SAkW3JrNLJC1Xww7buEaUN4XaxDSGMwqMXsqtiVs44R": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T07:11:02.636Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T07:11:02.636Z",
+    "lastSeen": "2026-04-22T07:11:02.636Z",
+    "confirmed": false
   }
 }
