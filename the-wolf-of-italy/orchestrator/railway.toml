@@ -6,6 +6,5 @@ startCommand = "python orchestrator.py"
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 2
 
-# Cron: 08:30 Rome time = 06:30 UTC (summer) = 07:30 UTC (winter)
-# Set to 06:30 UTC — adjust for daylight saving manually
-cronSchedule = "30 6 * * *"
+# Cron: 08:30 + 20:30 Rome time = 06:30 + 18:30 UTC (summer)
+cronSchedule = "30 6,18 * * *"
