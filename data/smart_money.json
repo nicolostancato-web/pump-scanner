@@ -5128,7 +5128,7 @@
     "confirmed": false
   },
   "STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Outsider",
@@ -5154,6 +5154,11 @@
         "symbol": "CLICKING",
         "pairAddress": "EXfi7U4LusqZahx71FoyQiqw4DtmHZF9Jj7ng7GsHRXG",
         "entryTime": "2026-04-22T20:09:46.906Z"
+      },
+      {
+        "symbol": "GC",
+        "pairAddress": "CNfGP52B922UH19ScHkFkpZNgVubREUeBoGnkaTLWfTo",
+        "entryTime": "2026-04-22T20:12:25.620Z"
       }
     ],
     "wins": 0,
@@ -5161,7 +5166,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T12:15:15.468Z",
-    "lastSeen": "2026-04-22T20:09:46.906Z",
+    "lastSeen": "2026-04-22T20:12:25.620Z",
     "confirmed": true
   },
   "4xpjLjaMQ4h5MaLqy8Z13AxusCq76pEM4fXLwiqCvzAa": {
@@ -9831,12 +9836,17 @@
     "confirmed": false
   },
   "5baEHr9X6tLznWaqtNh1XX9zKdQK9Dwd86dNmowBe32z": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TERMINAL",
         "pairAddress": "9W3azeDENcXRBRRc6utrCgqDjAsMTVjRfk8uLEMT9Zh9",
         "entryTime": "2026-04-21T16:00:30.541Z"
+      },
+      {
+        "symbol": "GC",
+        "pairAddress": "CNfGP52B922UH19ScHkFkpZNgVubREUeBoGnkaTLWfTo",
+        "entryTime": "2026-04-22T20:12:25.620Z"
       }
     ],
     "wins": 0,
@@ -9844,7 +9854,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:00:30.541Z",
-    "lastSeen": "2026-04-21T16:00:30.541Z",
+    "lastSeen": "2026-04-22T20:12:25.620Z",
     "confirmed": false
   },
   "G8VVmEV1nVYSDGnPtMRreYhFsnej4LT7tDc1dKuGMk7W": {
