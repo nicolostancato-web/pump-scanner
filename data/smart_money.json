@@ -2398,7 +2398,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 18,
+    "appearances": 19,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2489,6 +2489,11 @@
         "symbol": "MOGA",
         "pairAddress": "4mjw9pxHNGNYu6WcziZJ1PpE4bdhwpTvyUK42KDGFGRY",
         "entryTime": "2026-04-22T14:19:58.652Z"
+      },
+      {
+        "symbol": "Milkflork",
+        "pairAddress": "57UvWvqCxdqCUVbPySa3ZeS92T2tHccZqeWxoDk3J3WK",
+        "entryTime": "2026-04-22T15:34:58.758Z"
       }
     ],
     "wins": 0,
@@ -2496,7 +2501,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-22T14:19:58.652Z",
+    "lastSeen": "2026-04-22T15:34:58.758Z",
     "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
@@ -28793,6 +28798,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T15:30:26.649Z",
     "lastSeen": "2026-04-22T15:30:26.649Z",
+    "confirmed": false
+  },
+  "HGcHetNPnefDmYNTU4jXHu25JSBYCd8tG42s5kVZxRiT": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Milkflork",
+        "pairAddress": "57UvWvqCxdqCUVbPySa3ZeS92T2tHccZqeWxoDk3J3WK",
+        "entryTime": "2026-04-22T15:34:58.758Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T15:34:58.758Z",
+    "lastSeen": "2026-04-22T15:34:58.758Z",
     "confirmed": false
   }
 }
