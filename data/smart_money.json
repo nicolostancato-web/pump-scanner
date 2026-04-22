@@ -8996,7 +8996,7 @@
     "confirmed": false
   },
   "amd1RSK3aN3uM7A3GCBN9VEWnBPQFVfGYUgr6pKoLAQ": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Curak",
@@ -9007,6 +9007,11 @@
         "symbol": "Images 2.0",
         "pairAddress": "ELgo9veqovL76W2mXp6SniSyaJecWSBJcWoUmERqoP5C",
         "entryTime": "2026-04-21T18:20:10.987Z"
+      },
+      {
+        "symbol": "seed",
+        "pairAddress": "B8j7YoiMZVh523gLAfM7TCG8MX4GcnmQXKvpDaZBEcRV",
+        "entryTime": "2026-04-22T05:57:52.868Z"
       }
     ],
     "wins": 0,
@@ -9014,8 +9019,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T15:40:29.947Z",
-    "lastSeen": "2026-04-21T18:20:10.987Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T05:57:52.868Z",
+    "confirmed": true
   },
   "AKQADxD6W6kMGzXNot7J2kB3K42EjvRpFUx3XcdujW6i": {
     "appearances": 1,
@@ -19920,6 +19925,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T05:57:18.031Z",
     "lastSeen": "2026-04-22T05:57:18.031Z",
+    "confirmed": false
+  },
+  "3aJk29hHkzMgHc2d9ykDcLncwkBXG4vWM8u5X27agYLb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "seed",
+        "pairAddress": "B8j7YoiMZVh523gLAfM7TCG8MX4GcnmQXKvpDaZBEcRV",
+        "entryTime": "2026-04-22T05:57:52.868Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T05:57:52.868Z",
+    "lastSeen": "2026-04-22T05:57:52.868Z",
     "confirmed": false
   }
 }
