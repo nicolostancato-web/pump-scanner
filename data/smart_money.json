@@ -16692,12 +16692,17 @@
     "confirmed": false
   },
   "CvRw2LQ8cJasvtKGXhhjCWAu1r2U5jpTjm2DuBVFrEjf": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "GARGOYLE",
         "pairAddress": "GNQ5oFZi7kocX5KarfZH1FitobhFkAyhvF1KijRDdcH4",
         "entryTime": "2026-04-22T00:17:15.359Z"
+      },
+      {
+        "symbol": "BRETT",
+        "pairAddress": "9YSb1BiRemmSZ6RRiCSuoabLvFWDV2xbHd8Jkp8D1fpJ",
+        "entryTime": "2026-04-22T08:51:27.673Z"
       }
     ],
     "wins": 0,
@@ -16705,7 +16710,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T00:17:15.359Z",
-    "lastSeen": "2026-04-22T00:17:15.359Z",
+    "lastSeen": "2026-04-22T08:51:27.673Z",
     "confirmed": false
   },
   "GHy1P6vJrEoMvWtA7VBH8v5hUkKtxY5SsJNMNWELfdyV": {
@@ -22637,6 +22642,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T08:50:54.507Z",
     "lastSeen": "2026-04-22T08:50:54.507Z",
+    "confirmed": false
+  },
+  "H1UQ3WLYzy3tJh7XCbU3ELTf41vp57wmiASRL3pvnyjR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BRETT",
+        "pairAddress": "9YSb1BiRemmSZ6RRiCSuoabLvFWDV2xbHd8Jkp8D1fpJ",
+        "entryTime": "2026-04-22T08:51:27.673Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T08:51:27.673Z",
+    "lastSeen": "2026-04-22T08:51:27.673Z",
     "confirmed": false
   }
 }
