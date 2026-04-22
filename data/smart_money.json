@@ -15640,7 +15640,7 @@
     "confirmed": false
   },
   "H3rUiKEFPnTM6CHCmJqKt4Nd1xeFATK9aUmU4sbD5za7": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Dumban",
@@ -15656,6 +15656,11 @@
         "symbol": "ACTM",
         "pairAddress": "AXPfmKvKaCuRwUFZFq9mLQcmFwptkDSkYTTWnQN8CzEg",
         "entryTime": "2026-04-22T04:03:15.790Z"
+      },
+      {
+        "symbol": "MOGA",
+        "pairAddress": "4mjw9pxHNGNYu6WcziZJ1PpE4bdhwpTvyUK42KDGFGRY",
+        "entryTime": "2026-04-22T14:24:31.503Z"
       }
     ],
     "wins": 0,
@@ -15663,7 +15668,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T22:19:08.114Z",
-    "lastSeen": "2026-04-22T04:03:15.790Z",
+    "lastSeen": "2026-04-22T14:24:31.503Z",
     "confirmed": true
   },
   "5pi2C2MveuCHRbx24ZMqKhhMEbJw2aWDDsFEEsQf5s9a": {
@@ -27988,6 +27993,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T14:24:03.514Z",
     "lastSeen": "2026-04-22T14:24:03.514Z",
+    "confirmed": false
+  },
+  "AEbdbkLv5ZVXTYRVwtJySEgjG4JnwYnwTtdhj8VLsE44": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MOGA",
+        "pairAddress": "4mjw9pxHNGNYu6WcziZJ1PpE4bdhwpTvyUK42KDGFGRY",
+        "entryTime": "2026-04-22T14:24:31.503Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T14:24:31.503Z",
+    "lastSeen": "2026-04-22T14:24:31.503Z",
     "confirmed": false
   }
 }
