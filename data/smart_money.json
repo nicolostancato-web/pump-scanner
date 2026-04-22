@@ -4755,7 +4755,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "Outsider",
@@ -4796,6 +4796,11 @@
         "symbol": "MEOW",
         "pairAddress": "8djjgCFzLriPLCkdgmLPVEvxofHrzQRaFJrRGz4xjgKU",
         "entryTime": "2026-04-22T10:56:17.734Z"
+      },
+      {
+        "symbol": "Meme",
+        "pairAddress": "FYaD2uXp244XbwHPRgfvj7ce8ykHqqEQfgF9DQc7TAEd",
+        "entryTime": "2026-04-22T11:37:53.391Z"
       }
     ],
     "wins": 0,
@@ -4803,7 +4808,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T12:05:30.006Z",
-    "lastSeen": "2026-04-22T10:56:17.734Z",
+    "lastSeen": "2026-04-22T11:37:53.391Z",
     "confirmed": true
   },
   "4bxZV92qGKsVHLKJyETc2kTghUmmmHRWwBhtjUfrZvki": {
@@ -25430,6 +25435,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T11:37:20.383Z",
     "lastSeen": "2026-04-22T11:37:20.383Z",
+    "confirmed": false
+  },
+  "CU88JHRbPdUc6SmjQThd24E1FuLRTNNomAAf8botDfPk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Meme",
+        "pairAddress": "FYaD2uXp244XbwHPRgfvj7ce8ykHqqEQfgF9DQc7TAEd",
+        "entryTime": "2026-04-22T11:37:53.391Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T11:37:53.391Z",
+    "lastSeen": "2026-04-22T11:37:53.391Z",
     "confirmed": false
   }
 }
