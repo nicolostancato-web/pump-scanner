@@ -15565,12 +15565,17 @@
     "confirmed": false
   },
   "CN4AG1iqQeLaZrQB2qsfJaAQgUBHeSXUK6UvC31n77UJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Dumban",
         "pairAddress": "9xPWyjCNYKke6LMavBS9TkQ7NJdxAok9EjfV6B1Ky5MV",
         "entryTime": "2026-04-21T22:25:02.232Z"
+      },
+      {
+        "symbol": "SNAIL",
+        "pairAddress": "2yPRmfjG4XmtqEzPW1DauVwCxCHXLChGAMHBd16eqsqT",
+        "entryTime": "2026-04-22T06:53:59.776Z"
       }
     ],
     "wins": 0,
@@ -15578,7 +15583,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T22:25:02.232Z",
-    "lastSeen": "2026-04-21T22:25:02.232Z",
+    "lastSeen": "2026-04-22T06:53:59.776Z",
     "confirmed": false
   },
   "9Ugp6pUbRKpTcktegZJeyqwthNfzLuaTCtyyHK2mLLAQ": {
@@ -20524,6 +20529,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T06:51:24.720Z",
     "lastSeen": "2026-04-22T06:51:24.720Z",
+    "confirmed": false
+  },
+  "81W8QQjARL95k3nY4ujVC3RZYeAiFCWzgq9cL8jXKU5c": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SNAIL",
+        "pairAddress": "2yPRmfjG4XmtqEzPW1DauVwCxCHXLChGAMHBd16eqsqT",
+        "entryTime": "2026-04-22T06:53:59.776Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T06:53:59.776Z",
+    "lastSeen": "2026-04-22T06:53:59.776Z",
     "confirmed": false
   }
 }
