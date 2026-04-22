@@ -8415,12 +8415,17 @@
     "confirmed": false
   },
   "9rPqXGDuhzz58djH2f3KSBGp8PEarMspCpojS3Q6MnY8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "unchammer",
         "pairAddress": "8Guc32VrLcrvDafs6aTZL8ECSDHFGFT6fdJhPR5L1SYT",
         "entryTime": "2026-04-21T14:47:37.833Z"
+      },
+      {
+        "symbol": "AIRPUMP",
+        "pairAddress": "CCc7SntQ45nBz6LvhfjFfLox9aw3r2cK9jyQyukSnbuc",
+        "entryTime": "2026-04-22T23:36:21.537Z"
       }
     ],
     "wins": 0,
@@ -8428,7 +8433,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:47:37.833Z",
-    "lastSeen": "2026-04-21T14:47:37.833Z",
+    "lastSeen": "2026-04-22T23:36:21.537Z",
     "confirmed": false
   },
   "DPsL9go5FRwZZhTY5QXd4ZF87Bw51WsN7WWhzMiJYcrf": {
@@ -34562,6 +34567,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T23:35:43.769Z",
     "lastSeen": "2026-04-22T23:35:43.769Z",
+    "confirmed": false
+  },
+  "GReqyHmeWncafWtGZGyLKKF39drRJcS6u57cF5EsoM7z": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AIRPUMP",
+        "pairAddress": "CCc7SntQ45nBz6LvhfjFfLox9aw3r2cK9jyQyukSnbuc",
+        "entryTime": "2026-04-22T23:36:21.537Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T23:36:21.537Z",
+    "lastSeen": "2026-04-22T23:36:21.537Z",
     "confirmed": false
   }
 }
