@@ -10152,12 +10152,17 @@
     "confirmed": false
   },
   "BaTpeaiy1xxhphsaZUgNzib25BE87K9ZLW7sfCPqBRzx": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ununceroid",
         "pairAddress": "FYGVkFgVP9AxbzcCzaySvhnN3yQvzwhXvAiSrkXEwWLr",
         "entryTime": "2026-04-21T16:31:46.804Z"
+      },
+      {
+        "symbol": "MWGA",
+        "pairAddress": "8Y7zeR52ScUF79fBiLPz1GQVwuTzVa6B74u1oygzzmGK",
+        "entryTime": "2026-04-22T06:39:38.503Z"
       }
     ],
     "wins": 0,
@@ -10165,7 +10170,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:31:46.804Z",
-    "lastSeen": "2026-04-21T16:31:46.804Z",
+    "lastSeen": "2026-04-22T06:39:38.503Z",
     "confirmed": false
   },
   "6aQP97Hr5hc26kxf6XsLq7Ng97S4UbhMHnwnQUTRyrxP": {
@@ -20407,6 +20412,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T06:39:05.384Z",
     "lastSeen": "2026-04-22T06:39:05.384Z",
+    "confirmed": false
+  },
+  "EZojzrBzCaUov38X7TsY8pGG4pFCiNjuiAmfGXtpZLXw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MWGA",
+        "pairAddress": "8Y7zeR52ScUF79fBiLPz1GQVwuTzVa6B74u1oygzzmGK",
+        "entryTime": "2026-04-22T06:39:38.503Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T06:39:38.503Z",
+    "lastSeen": "2026-04-22T06:39:38.503Z",
     "confirmed": false
   }
 }
