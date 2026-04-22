@@ -11092,12 +11092,17 @@
     "confirmed": false
   },
   "BS7kabqFK8Qb2AqrzLC1M1VLhrh79QyoyQkJMossVDY9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "OFFCHAIN",
         "pairAddress": "DgwPZxjiZiznGYYECytkmWVXQir213RZmuUX7NHEwTR",
         "entryTime": "2026-04-21T17:42:17.515Z"
+      },
+      {
+        "symbol": "ETF",
+        "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
+        "entryTime": "2026-04-22T01:42:43.062Z"
       }
     ],
     "wins": 0,
@@ -11105,7 +11110,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T17:42:17.515Z",
-    "lastSeen": "2026-04-21T17:42:17.515Z",
+    "lastSeen": "2026-04-22T01:42:43.062Z",
     "confirmed": false
   },
   "8rWpF5XTdH3CMH7scNaGw5YfzyUqkLx6FyESZFLcHg1K": {
