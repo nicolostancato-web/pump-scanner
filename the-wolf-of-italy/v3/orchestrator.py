@@ -139,12 +139,13 @@ TOOLS_SCHEMA = [
         "type": "function",
         "function": {
             "name": "send_proposal_email",
-            "description": "Send an action proposal email to the founder. Use only once per cycle.",
+            "description": "Send email to founder. CEO uses for Daily Report; CFO uses for Investment Alert when ACTION=YES.",
             "parameters": {
                 "type": "object",
                 "properties": {
-                    "subject": {"type": "string", "description": "Email subject (without [Wolf] prefix, that's added automatically)"},
-                    "body": {"type": "string", "description": "Full proposal text"},
+                    "subject": {"type": "string", "description": "Email subject (without [Wolf] prefix, added automatically)"},
+                    "body": {"type": "string", "description": "Full email text in Italian"},
+                    "guide_url": {"type": "string", "description": "Optional GitHub URL to execution guide — rendered as a CTA button in the email. Use for Investment Alert only."},
                 },
                 "required": ["subject", "body"],
             },
