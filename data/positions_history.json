@@ -6388,7 +6388,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "AXPfmKvKaCuRwUFZFq9mLQcmFwptkDSkYTTWnQN8CzEg",
+      "mint": "AWPu5D8tU9fAJCkK1XXag9Awq6t1v2W3M2k8jgG7pump",
+      "name": "Act M : The Maga Prophecy",
+      "symbol": "ACTM",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002705,
+      "entryMcap": 270536,
+      "entryTime": 1776832419641,
+      "score": 65,
+      "ageAtEntry": 45,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/axpfmkvkacurwufzfq9mlqcmfwptkdskyttwnqn8czeg",
+      "peakPrice": 0.0002705,
+      "peakMultiplier": 1,
+      "peakMcap": 270536,
+      "peakTime": 1776832419641,
+      "lastPrice": 0.0001823,
+      "lowestPrice": 0.0001823,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001823,
+      "closeMultiplier": 0.6739371534195934,
+      "closedAt": "2026-04-22T04:53:39.455Z",
+      "durationMs": 1199814,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001823,
+        "closeMultiplier": 0.6739371534195934,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-22T04:53:39.455Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -46,
+        "momentum": -0.05533333333333334,
+        "floatRotation": 0.24823306325221042,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.24823306325221042,
+        "accel": -0.05533333333333334,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(45min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(45min)",
+        "priceChg5m": -2.49,
+        "vol5m": 67155.98,
+        "buys5m": 254,
+        "sells5m": 155,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-22T01:25:54.488Z"
+  "lastSaved": "2026-04-22T04:53:40.674Z"
 }
