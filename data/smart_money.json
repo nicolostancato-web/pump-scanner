@@ -10264,7 +10264,7 @@
     "confirmed": false
   },
   "Hu6hGJ5FimP2d8NmoMLZC7yoEAKdqyXCuqg8y1FC4NiC": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ununceroid",
@@ -10275,6 +10275,11 @@
         "symbol": "401K",
         "pairAddress": "4GVShoEnV4Vf849PtKd2EeQ6y4WwLDys1BnK6NSCX99a",
         "entryTime": "2026-04-21T22:05:54.879Z"
+      },
+      {
+        "symbol": "papi",
+        "pairAddress": "HegWM3pbb9YLVd4jSmdUdSLWC46kPd4G2Bqf63gsHaMD",
+        "entryTime": "2026-04-22T18:53:53.029Z"
       }
     ],
     "wins": 0,
@@ -10282,8 +10287,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:28:46.104Z",
-    "lastSeen": "2026-04-21T22:05:54.879Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T18:53:53.029Z",
+    "confirmed": true
   },
   "C2kN2rS3ekV8F8RjC6dUbpTZS2iXav8URtPP2nSXuTWW": {
     "appearances": 1,
