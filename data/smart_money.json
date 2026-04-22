@@ -18312,12 +18312,17 @@
     "confirmed": false
   },
   "FpitghdaoAzbk8sYP2DzLqQWoAPFUoT3UfhYuuLoDNPe": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "420",
         "pairAddress": "FLjnDoe7ekhpCXuruMg9DQYr4YNmnHooXxKG9uTYkjNX",
         "entryTime": "2026-04-22T02:04:09.744Z"
+      },
+      {
+        "symbol": "SCAMBODIA",
+        "pairAddress": "3gwrRpSYhAZT5P82iPLBDrnFGYJLdCDeJmmAqHiJQYKf",
+        "entryTime": "2026-04-22T08:18:41.145Z"
       }
     ],
     "wins": 0,
@@ -18325,7 +18330,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T02:04:09.744Z",
-    "lastSeen": "2026-04-22T02:04:09.744Z",
+    "lastSeen": "2026-04-22T08:18:41.145Z",
     "confirmed": false
   },
   "9dpBaakxBfEVbfxr4ud5rdWCr4AB1WZxHgSxTeRxDqiA": {
@@ -21845,6 +21850,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T08:18:03.887Z",
     "lastSeen": "2026-04-22T08:18:03.887Z",
+    "confirmed": false
+  },
+  "9jPLoJPCKkenLu3SA2DuwCwrvVs54EKemHdDu6hfaPFA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SCAMBODIA",
+        "pairAddress": "3gwrRpSYhAZT5P82iPLBDrnFGYJLdCDeJmmAqHiJQYKf",
+        "entryTime": "2026-04-22T08:18:41.145Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T08:18:41.145Z",
+    "lastSeen": "2026-04-22T08:18:41.145Z",
     "confirmed": false
   }
 }
