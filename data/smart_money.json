@@ -17568,12 +17568,17 @@
     "confirmed": false
   },
   "G3Va4NXJS19AQGwNzz1Q4UxY2GzDNTtuCQxZvKtpFHtK": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOL",
         "pairAddress": "5R6sA13JcdGad8PY75dWkaRWvpAd1fJ2JGmff76HoBfm",
         "entryTime": "2026-04-22T01:26:48.901Z"
+      },
+      {
+        "symbol": "Meme",
+        "pairAddress": "FYaD2uXp244XbwHPRgfvj7ce8ykHqqEQfgF9DQc7TAEd",
+        "entryTime": "2026-04-22T11:39:34.577Z"
       }
     ],
     "wins": 0,
@@ -17581,7 +17586,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T01:26:48.901Z",
-    "lastSeen": "2026-04-22T01:26:48.901Z",
+    "lastSeen": "2026-04-22T11:39:34.577Z",
     "confirmed": false
   },
   "D41UryuSxF17FY88WDy6tLMsspgtFuwL53mrSSimtC5x": {
@@ -25474,6 +25479,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T11:38:56.584Z",
     "lastSeen": "2026-04-22T11:38:56.584Z",
+    "confirmed": false
+  },
+  "HRB5wzWi3dAeYFkAMNS2iKgwsabVUzm4HcVekmwVd6sa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Meme",
+        "pairAddress": "FYaD2uXp244XbwHPRgfvj7ce8ykHqqEQfgF9DQc7TAEd",
+        "entryTime": "2026-04-22T11:39:34.577Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T11:39:34.577Z",
+    "lastSeen": "2026-04-22T11:39:34.577Z",
     "confirmed": false
   }
 }
