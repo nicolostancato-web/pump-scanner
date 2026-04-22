@@ -12871,7 +12871,7 @@
     "confirmed": true
   },
   "8abFwsQkoMRAk5mD4eXFTBqVyTGsfUZ1hVsfZ3NDsDUW": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "CAM",
@@ -12882,6 +12882,11 @@
         "symbol": "FLYINGCAR",
         "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
         "entryTime": "2026-04-21T21:41:25.944Z"
+      },
+      {
+        "symbol": "AEPE",
+        "pairAddress": "J99w2cyGMzuRc8AHnJ1CLwZZfTxCz33z912Y3jbwcP5y",
+        "entryTime": "2026-04-22T07:54:39.472Z"
       }
     ],
     "wins": 0,
@@ -12889,8 +12894,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:43:36.271Z",
-    "lastSeen": "2026-04-21T21:41:25.944Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T07:54:39.472Z",
+    "confirmed": true
   },
   "8pY1AukbuPgUE3EetyLa59rFLMimJGT94ZzbMEZcQF4w": {
     "appearances": 1,
@@ -14762,7 +14767,7 @@
     "confirmed": true
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Liquid",
@@ -14773,6 +14778,11 @@
         "symbol": "FLYINGCAR",
         "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
         "entryTime": "2026-04-21T21:46:17.560Z"
+      },
+      {
+        "symbol": "AEPE",
+        "pairAddress": "J99w2cyGMzuRc8AHnJ1CLwZZfTxCz33z912Y3jbwcP5y",
+        "entryTime": "2026-04-22T07:54:39.472Z"
       }
     ],
     "wins": 0,
@@ -14780,8 +14790,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T21:26:27.337Z",
-    "lastSeen": "2026-04-21T21:46:17.560Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T07:54:39.472Z",
+    "confirmed": true
   },
   "5V5FbgaPEjwVvC3CFKKvRfgu1ngjBKqYeBeMYnvqGpET": {
     "appearances": 1,
