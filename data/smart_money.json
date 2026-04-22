@@ -12618,7 +12618,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "1",
@@ -12659,6 +12659,11 @@
         "symbol": "NUMBER",
         "pairAddress": "6iQPZ5SKDzf9V7CuMTtyY3R7VywF1GxJayE2mhfrqDmd",
         "entryTime": "2026-04-22T18:28:13.954Z"
+      },
+      {
+        "symbol": "LARP",
+        "pairAddress": "9nFjZgYwLHRZ3nutaTYn1vN1vTj3qs3S4ZmUKtq8vDzG",
+        "entryTime": "2026-04-22T20:38:31.815Z"
       }
     ],
     "wins": 0,
@@ -12666,7 +12671,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T18:54:56.860Z",
-    "lastSeen": "2026-04-22T18:28:13.954Z",
+    "lastSeen": "2026-04-22T20:38:31.815Z",
     "confirmed": true
   },
   "Eya3YhgphQ8cF7KUxobYnrSEo6YtrxtYKP9Jq7RTtvQg": {
