@@ -5963,7 +5963,7 @@
     "confirmed": false
   },
   "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Camel",
@@ -5979,6 +5979,11 @@
         "symbol": "dog",
         "pairAddress": "EfVKet4DTgVDaVWk6BVx11mPTg8XdCQnLK66a8ZDpECb",
         "entryTime": "2026-04-21T19:16:58.631Z"
+      },
+      {
+        "symbol": "ALIENPEPE",
+        "pairAddress": "DiQqC5eXucufSPPa4GMnaH6PTH9PV1vGurRVK7Y3yg61",
+        "entryTime": "2026-04-22T11:19:46.168Z"
       }
     ],
     "wins": 0,
@@ -5986,7 +5991,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:19:03.217Z",
-    "lastSeen": "2026-04-21T19:16:58.631Z",
+    "lastSeen": "2026-04-22T11:19:46.168Z",
     "confirmed": true
   },
   "CShy5t9VS4AaWHkuFTRsp76DeVcZ2A96LjmHcienxHWQ": {
@@ -24664,6 +24669,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T11:19:29.441Z",
     "lastSeen": "2026-04-22T11:19:29.441Z",
+    "confirmed": false
+  },
+  "6QP54W4dZkev4WG5YAuGPnhbD6eif3krsH1uCurpidVh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ALIENPEPE",
+        "pairAddress": "DiQqC5eXucufSPPa4GMnaH6PTH9PV1vGurRVK7Y3yg61",
+        "entryTime": "2026-04-22T11:19:46.168Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T11:19:46.168Z",
+    "lastSeen": "2026-04-22T11:19:46.168Z",
     "confirmed": false
   }
 }
