@@ -6304,7 +6304,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "6fc2wouQB9w3qG4BXHttX7gazGhSQBitYSc9vGDavwye",
+      "mint": "2ZFw6iCtGy4yqfoqhgGKz75JaCJwifk8N26zxYHXpump",
+      "name": "juncky",
+      "symbol": "juncky",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008814,
+      "entryMcap": 88141,
+      "entryTime": 1776821032943,
+      "score": 68,
+      "ageAtEntry": 42,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/6fc2wouqb9w3qg4bxhttx7gazghsqbitysc9vgdavwye",
+      "peakPrice": 0.00008814,
+      "peakMultiplier": 1,
+      "peakMcap": 88141,
+      "peakTime": 1776821032943,
+      "lastPrice": 0.000001979,
+      "lowestPrice": 0.000001979,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000001979,
+      "closeMultiplier": 0.02245291581574767,
+      "closedAt": "2026-04-22T01:25:53.224Z",
+      "durationMs": 120281,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000001979,
+        "closeMultiplier": 0.02245291581574767,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-22T01:25:53.224Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": 0.4811904761904762,
+        "floatRotation": 0.4716975074029112,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.4716975074029112,
+        "accel": 0.4811904761904762,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(42min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(42min)",
+        "priceChg5m": 20.21,
+        "vol5m": 41575.89,
+        "buys5m": 381,
+        "sells5m": 182,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-21T22:32:29.090Z"
+  "lastSaved": "2026-04-22T01:25:54.488Z"
 }
