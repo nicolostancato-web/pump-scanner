@@ -2183,12 +2183,17 @@
     "confirmed": false
   },
   "86d23AoNS5SbsR8qsjfuwcypSxXbmWV21Wfr2TAZ84nd": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FUMES",
         "pairAddress": "BexYQvWnTeG1Nt342NcoUq63oTP6ShqBgSbcgHuQtRFx",
         "entryTime": "2026-04-21T06:28:39.554Z"
+      },
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T07:01:09.082Z"
       }
     ],
     "wins": 0,
@@ -2196,7 +2201,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:28:39.554Z",
-    "lastSeen": "2026-04-21T06:28:39.554Z",
+    "lastSeen": "2026-04-22T07:01:09.082Z",
     "confirmed": false
   },
   "ERqSC9VKbfPngp76bTLcvBC3ptmvW9Q7mJaYdCyZ7mpD": {
@@ -20646,6 +20651,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T07:00:21.993Z",
     "lastSeen": "2026-04-22T07:00:21.993Z",
+    "confirmed": false
+  },
+  "EcSXfW3UhtrJvphBpo3dLaprf2mZvUmsnPqF9bVwGvgV": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T07:01:09.082Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T07:01:09.082Z",
+    "lastSeen": "2026-04-22T07:01:09.082Z",
     "confirmed": false
   }
 }
