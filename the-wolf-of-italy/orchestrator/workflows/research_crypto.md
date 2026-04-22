@@ -10,11 +10,13 @@ Find maximum 3 concrete crypto opportunities per day. Real data only.
 
 ```
 ## Opportunity [N]
+- id: crypto-[DATE]-00[N]
 - Name: [coin/protocol name + ticker]
 - Why profit: [specific reason with real numbers]
 - Real data: price $X | 24h change: +X% | volume $X | market cap $X
 - Risk: LOW / MEDIUM / HIGH — reason: [one line]
 - Test speed: [X hours to verify]
+- Zero cost: YES
 - Priority: P1 / P2 / P3
 - Test method: [exactly what EXECUTION could do for free in <2h]
 ```
