@@ -16967,12 +16967,17 @@
     "confirmed": false
   },
   "9RAufBfjGQjDfrwxeyKmZWPADHSb8HcoqCdrmpqvCr1g": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "purr",
         "pairAddress": "BxFWybRXpNi9WQqKWGPQawqdQKJhAsnPQsAJSisRe8AU",
         "entryTime": "2026-04-22T00:47:50.909Z"
+      },
+      {
+        "symbol": "LENNY",
+        "pairAddress": "78pQEwLZyUUDArEr3QwnF8UX6nGUvHBrqf2uguxnpNPn",
+        "entryTime": "2026-04-22T09:55:38.171Z"
       }
     ],
     "wins": 0,
@@ -16980,7 +16985,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T00:47:50.909Z",
-    "lastSeen": "2026-04-22T00:47:50.909Z",
+    "lastSeen": "2026-04-22T09:55:38.171Z",
     "confirmed": false
   },
   "GkJ7pnhiPwxx8oZZfss1SG2G3DjGV5myCnmKxVfPxMw7": {
@@ -23580,6 +23585,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T09:53:02.381Z",
     "lastSeen": "2026-04-22T09:53:02.381Z",
+    "confirmed": false
+  },
+  "HZBmjtgG8MDownvB9wTLTRN2stjozUBwDaBUhUpybvrm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LENNY",
+        "pairAddress": "78pQEwLZyUUDArEr3QwnF8UX6nGUvHBrqf2uguxnpNPn",
+        "entryTime": "2026-04-22T09:55:38.171Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T09:55:38.171Z",
+    "lastSeen": "2026-04-22T09:55:38.171Z",
     "confirmed": false
   }
 }
