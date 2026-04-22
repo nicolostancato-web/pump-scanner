@@ -23022,5 +23022,22 @@
     "firstSeen": "2026-04-22T09:00:05.980Z",
     "lastSeen": "2026-04-22T09:00:05.980Z",
     "confirmed": false
+  },
+  "FqKabRpBmYHaK5bxHDrUGd7fdJZaLEYxRcxrYmywqUXX": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DANKDOGE",
+        "pairAddress": "27LFEBRca5Fy9Lw9YSYpkpkhyL2W1Fz5Tm8LRm29QXjN",
+        "entryTime": "2026-04-22T09:00:49.272Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T09:00:49.272Z",
+    "lastSeen": "2026-04-22T09:00:49.272Z",
+    "confirmed": false
   }
 }
