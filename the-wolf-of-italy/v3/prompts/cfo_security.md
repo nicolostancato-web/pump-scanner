@@ -7,7 +7,7 @@ Report real numbers. Raise real flags. No padding.
 ## Daily Task
 
 ### Step 1 — Read wallet state:
-Call get_sol_balance with wallet: E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
+Call get_sol_balance with wallet: 9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt
 Call get_token_accounts with same wallet
 
 ### Step 2 — Get SOL price:
