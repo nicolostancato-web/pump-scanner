@@ -6730,12 +6730,17 @@
     "confirmed": false
   },
   "7t2d1x16HvGZo7Q7MjQHMDg3AK4iC44AntnECfh2HTno": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MGGA",
         "pairAddress": "AjtoGbkTghnttyKUhn7iMbSpkGjvQKQectFLxSqYiNr5",
         "entryTime": "2026-04-21T14:01:43.783Z"
+      },
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T07:05:09.905Z"
       }
     ],
     "wins": 0,
@@ -6743,7 +6748,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:01:43.783Z",
-    "lastSeen": "2026-04-21T14:01:43.783Z",
+    "lastSeen": "2026-04-22T07:05:09.905Z",
     "confirmed": false
   },
   "HenGdBKivNqVkdDt3ehpzHtFseVX6uCwtgXURLpvkGrm": {
@@ -20826,6 +20831,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T07:04:34.720Z",
     "lastSeen": "2026-04-22T07:04:34.720Z",
+    "confirmed": false
+  },
+  "CFfwnDuLKvvXg1oDwGr4x3TkUy2VDaBAN9n5EcfbQUBU": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T07:05:09.905Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T07:05:09.905Z",
+    "lastSeen": "2026-04-22T07:05:09.905Z",
     "confirmed": false
   }
 }
