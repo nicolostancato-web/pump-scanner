@@ -19904,5 +19904,22 @@
     "firstSeen": "2026-04-22T05:54:44.368Z",
     "lastSeen": "2026-04-22T05:54:44.368Z",
     "confirmed": false
+  },
+  "CnFrj1ykG7xNobLEBr51t19fXrwbJnCDGhtaRSwNPysA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "seed",
+        "pairAddress": "B8j7YoiMZVh523gLAfM7TCG8MX4GcnmQXKvpDaZBEcRV",
+        "entryTime": "2026-04-22T05:57:18.031Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T05:57:18.031Z",
+    "lastSeen": "2026-04-22T05:57:18.031Z",
+    "confirmed": false
   }
 }
