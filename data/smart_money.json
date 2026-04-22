@@ -17845,5 +17845,22 @@
     "firstSeen": "2026-04-22T01:42:10.339Z",
     "lastSeen": "2026-04-22T01:42:10.339Z",
     "confirmed": false
+  },
+  "AraULtybNGqh9ghhNWUYXUXv9FzuLVJQTdZhweQT44Se": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETF",
+        "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
+        "entryTime": "2026-04-22T01:43:14.515Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T01:43:14.515Z",
+    "lastSeen": "2026-04-22T01:43:14.515Z",
+    "confirmed": false
   }
 }
