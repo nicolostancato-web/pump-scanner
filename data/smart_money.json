@@ -7403,12 +7403,17 @@
     "confirmed": false
   },
   "93ysTDFGAzAyAQ31MqGoSWcRJpMiHdhZmx6y9U85h7g2": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "DONNYLAND",
         "pairAddress": "FRwXZUBArsCtVkP3ohdjCDnCR4zkMTiDPLDz6az5xewD",
         "entryTime": "2026-04-21T14:18:01.245Z"
+      },
+      {
+        "symbol": "MXTA",
+        "pairAddress": "6B4Gu8F2oPboCHXZyWR3KcekkwBnKRbU1HKsQiHmcoAw",
+        "entryTime": "2026-04-22T16:47:31.437Z"
       }
     ],
     "wins": 0,
@@ -7416,7 +7421,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:18:01.245Z",
-    "lastSeen": "2026-04-21T14:18:01.245Z",
+    "lastSeen": "2026-04-22T16:47:31.437Z",
     "confirmed": false
   },
   "699JymVqeLKjgDuad7bWf1ACnBaLdzG9ebHbMKgT2qdp": {
@@ -29233,6 +29238,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T16:46:56.207Z",
     "lastSeen": "2026-04-22T16:46:56.207Z",
+    "confirmed": false
+  },
+  "BDohhAHH7n38yhxBBYLopmgvRVM6CcN7bFyPKDFxYSNr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MXTA",
+        "pairAddress": "6B4Gu8F2oPboCHXZyWR3KcekkwBnKRbU1HKsQiHmcoAw",
+        "entryTime": "2026-04-22T16:47:31.437Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T16:47:31.437Z",
+    "lastSeen": "2026-04-22T16:47:31.437Z",
     "confirmed": false
   }
 }
