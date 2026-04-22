@@ -7148,7 +7148,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4mjw9pxHNGNYu6WcziZJ1PpE4bdhwpTvyUK42KDGFGRY",
+      "mint": "ADKv88xrtb4BWxmegwWwLhMa9mS6GVCjAccEcGbqpump",
+      "name": "Make Oli Great Again",
+      "symbol": "MOGA",
+      "dex": "pumpswap",
+      "entryPrice": 0.00006453,
+      "entryMcap": 64534,
+      "entryTime": 1776868385319,
+      "score": 65,
+      "ageAtEntry": 20,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/4mjw9pxhngnyu6wczizj1ppe4bdhwptvyuk42kdgfgry",
+      "peakPrice": 0.00006453,
+      "peakMultiplier": 1,
+      "peakMcap": 64534,
+      "peakTime": 1776868385319,
+      "lastPrice": 0.000003267,
+      "lowestPrice": 0.000003267,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000003267,
+      "closeMultiplier": 0.050627615062761505,
+      "closedAt": "2026-04-22T14:34:05.650Z",
+      "durationMs": 60331,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000003267,
+        "closeMultiplier": 0.050627615062761505,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-22T14:34:05.650Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": 0.3605,
+        "floatRotation": 0.5470607741655561,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.5470607741655561,
+        "accel": 0.3605,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(0.36)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 7.21,
+        "vol5m": 35304.02,
+        "buys5m": 687,
+        "sells5m": 347,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-22T12:08:33.691Z"
+  "lastSaved": "2026-04-22T14:34:06.928Z"
 }
