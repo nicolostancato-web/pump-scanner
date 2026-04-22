@@ -12,7 +12,7 @@ Calculate days from today to 2026-06-03.
 - <15 days: CRITICAL — renew immediately
 
 ### Step 2 — Solana wallet check
-fetch_url: https://public-api.solscan.io/account/E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
+fetch_url: https://public-api.solscan.io/account/9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt
 If 404: note "Solscan API unavailable — wallet not verified today"
 
 ### Step 3 — Fill security schema:
