@@ -23219,5 +23219,22 @@
     "firstSeen": "2026-04-22T09:31:07.456Z",
     "lastSeen": "2026-04-22T09:31:07.456Z",
     "confirmed": false
+  },
+  "2FRRcAzsSq6D8uT4yNu23g2BFa6sWprtocydW7VuEyLg": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MSGA",
+        "pairAddress": "8M3EDY8gxr8iQEiQMbYGnkHaBpcpZMGPZAHqou23ERQx",
+        "entryTime": "2026-04-22T09:31:43.968Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T09:31:43.968Z",
+    "lastSeen": "2026-04-22T09:31:43.968Z",
+    "confirmed": false
   }
 }
