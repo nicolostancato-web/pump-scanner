@@ -20056,12 +20056,17 @@
     "confirmed": false
   },
   "2VVFbdf6RVcKNxMHtcBwskLwoKAEAqnHpNzWTGepyV7N": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "earthcoin",
         "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
         "entryTime": "2026-04-22T05:31:45.920Z"
+      },
+      {
+        "symbol": "paperhands",
+        "pairAddress": "4vfQxjxgLF4JQLbDiw3M46jNnR7hinh6MX1eGvc8HE1r",
+        "entryTime": "2026-04-22T21:20:42.652Z"
       }
     ],
     "wins": 0,
@@ -20069,7 +20074,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T05:31:45.920Z",
-    "lastSeen": "2026-04-22T05:31:45.920Z",
+    "lastSeen": "2026-04-22T21:20:42.652Z",
     "confirmed": false
   },
   "DuheTX25N82S1m5RjrdfidWJz1N8zMYPvaAEeuH4Ftkf": {
@@ -32315,6 +32320,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T21:20:06.219Z",
     "lastSeen": "2026-04-22T21:20:06.219Z",
+    "confirmed": false
+  },
+  "7fPm7eeqfja28P9qU6TEnfGyUmpiDu7Lr9HJmkHqcQGq": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "paperhands",
+        "pairAddress": "4vfQxjxgLF4JQLbDiw3M46jNnR7hinh6MX1eGvc8HE1r",
+        "entryTime": "2026-04-22T21:20:42.652Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T21:20:42.652Z",
+    "lastSeen": "2026-04-22T21:20:42.652Z",
     "confirmed": false
   }
 }
