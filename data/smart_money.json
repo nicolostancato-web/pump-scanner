@@ -13085,12 +13085,17 @@
     "confirmed": false
   },
   "3CbY3QEa1AZ8XuFT6P9tWTMtLDsEF4TeEvbYSCi2f1fi": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CAM",
         "pairAddress": "FwP4XDsu9mCtumhMJTbnNLMwgnAz2Qo6aEZDV8UjH6p6",
         "entryTime": "2026-04-21T19:35:20.457Z"
+      },
+      {
+        "symbol": "lilsunar808",
+        "pairAddress": "B6MAAubq2N81RcYWrVoiFWkfUg5xrCdVCzQQ7BZaW5dW",
+        "entryTime": "2026-04-22T23:43:58.387Z"
       }
     ],
     "wins": 0,
@@ -13098,7 +13103,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:35:20.457Z",
-    "lastSeen": "2026-04-21T19:35:20.457Z",
+    "lastSeen": "2026-04-22T23:43:58.387Z",
     "confirmed": false
   },
   "HbGGrodAK6zzVEBjh8B2jvJGa7WJ88nSYxLtWAjzv9Gz": {
@@ -34737,6 +34742,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T23:39:26.201Z",
     "lastSeen": "2026-04-22T23:39:26.201Z",
+    "confirmed": false
+  },
+  "J2GyrXgaqF4Z7kBXd8eAQZ3TSepNkSfDAW24jHuzobcV": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "lilsunar808",
+        "pairAddress": "B6MAAubq2N81RcYWrVoiFWkfUg5xrCdVCzQQ7BZaW5dW",
+        "entryTime": "2026-04-22T23:43:58.387Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T23:43:58.387Z",
+    "lastSeen": "2026-04-22T23:43:58.387Z",
     "confirmed": false
   }
 }
