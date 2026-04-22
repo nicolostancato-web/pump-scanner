@@ -30511,5 +30511,22 @@
     "firstSeen": "2026-04-22T18:45:02.298Z",
     "lastSeen": "2026-04-22T18:45:02.298Z",
     "confirmed": false
+  },
+  "BqW5948FKqLdngrodA8oTYrrfRUR4TmqVm74XGdKhMGv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BTG",
+        "pairAddress": "AN44YDcgkPz7AxUWCydJje5YCqZp8WACB5kozRvuz4me",
+        "entryTime": "2026-04-22T18:45:41.290Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T18:45:41.290Z",
+    "lastSeen": "2026-04-22T18:45:41.290Z",
+    "confirmed": false
   }
 }
