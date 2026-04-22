@@ -1,42 +1,35 @@
 # RESEARCH-MARKET-1 — Daily Workflow
 
 ## Mission
-Monitor free public sources for AI + crypto market signals. Find early-stage trends.
-
-## Tools to use
-- `fetch_url` — for HackerNews, DeFiLlama, free RSS feeds
-- `github_save` — save all output
-
-## Free Data Sources
-- HackerNews top stories: `https://hacker-news.firebaseio.com/v0/topstories.json`
-- HackerNews item: `https://hacker-news.firebaseio.com/v0/item/{id}.json`
-- DeFiLlama protocols: `https://api.llama.fi/protocols`
-- DeFiLlama chains: `https://api.llama.fi/v2/chains`
-- CoinGecko news: `https://api.coingecko.com/api/v3/news`
+Find maximum 3 market signals or monetizable niches per day.
 
 ## Daily Task
-1. Fetch HackerNews top 20 story IDs
-2. Get details of top 5 most relevant to AI or crypto
-3. Fetch DeFiLlama top protocols by TVL
-4. Identify 3 market signals relevant to profit opportunities
-5. Save to GitHub
+1. Fetch HackerNews top stories: https://hacker-news.firebaseio.com/v0/topstories.json
+2. Fetch details for first 3 story IDs ONLY
+3. Fetch DeFiLlama: https://api.llama.fi/protocols (read top 5 by TVL)
+4. Identify max 3 signals using this exact schema:
 
-## Output Format
-```markdown
-# RESEARCH-MARKET-1 — Raw Notes
-Date: YYYY-MM-DD
-
-## Top News (AI + Crypto)
-[5 items with title, source, link, relevance]
-
-## DeFiLlama Top Protocols
-[top 10 by TVL with change]
-
-## Market Signals
-1. [signal + data + implication]
-2. [signal + data + implication]
-3. [signal + data + implication]
-
-## Actionable Intelligence
-[1 concrete recommendation with rationale]
 ```
+## Signal [N]
+- Market: [market name]
+- Economic potential: $X–$Y range
+- Speed to test: fast (<1 week) / medium (1–4 weeks) / slow (>1 month)
+- Saturation: low / medium / high
+- Risk: low / medium / high
+- Source: [real URL]
+- Why now: [one specific reason relevant today]
+```
+
+VALID only if has real source URL and economic potential estimate.
+
+## Output — BOTH files required
+
+### File 1 — knowledge_base
+Path: the-wolf-of-italy/knowledge_base/opportunities/market-[DATE].md
+Commit: "RESEARCH-MARKET-1: opportunities [DATE]"
+Content: signal schemas only
+
+### File 2 — team-notes
+Path: the-wolf-of-italy/team-notes/RESEARCH-MARKET-1/[DATE]/raw_notes.md
+Commit: "RESEARCH-MARKET-1: raw notes [DATE]"
+Content: all raw data from HN + DeFiLlama + full analysis
