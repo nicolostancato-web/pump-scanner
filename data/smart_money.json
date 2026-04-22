@@ -8838,7 +8838,7 @@
     "confirmed": false
   },
   "E84bqTUdsZhHMvsHneFeJwyqTixydzw3zwBUdkUSHGED": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "CONDOM",
@@ -8849,6 +8849,11 @@
         "symbol": "TERMINAL",
         "pairAddress": "9W3azeDENcXRBRRc6utrCgqDjAsMTVjRfk8uLEMT9Zh9",
         "entryTime": "2026-04-21T15:43:32.268Z"
+      },
+      {
+        "symbol": "GARGOYLE",
+        "pairAddress": "GNQ5oFZi7kocX5KarfZH1FitobhFkAyhvF1KijRDdcH4",
+        "entryTime": "2026-04-22T00:21:28.779Z"
       }
     ],
     "wins": 0,
@@ -8856,8 +8861,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T15:23:48.966Z",
-    "lastSeen": "2026-04-21T15:43:32.268Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T00:21:28.779Z",
+    "confirmed": true
   },
   "6PzX3RjHzczz1UspFTeD19c2KZu5XQJvjZtnjdvoR2Lo": {
     "appearances": 1,
