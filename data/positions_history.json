@@ -7820,7 +7820,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "DGvhAScSRaTC1fTgDQzyc3m648uM7VdALh3tDg3qSJxX",
+      "mint": "3ZL5VHZSjhoXBcSWxfbePmRXgCJhqD4E8j4HXpGtpump",
+      "name": "Justice for Evelyn",
+      "symbol": "EVELYN",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001986,
+      "entryMcap": 198646,
+      "entryTime": 1776897849983,
+      "score": 80,
+      "ageAtEntry": 16,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/dgvhascsratc1ftgdqzyc3m648um7vdalh3tdg3qsjxx",
+      "peakPrice": 0.0001986,
+      "peakMultiplier": 1,
+      "peakMcap": 198646,
+      "peakTime": 1776897849983,
+      "lastPrice": 0.0001222,
+      "lowestPrice": 0.0001222,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001222,
+      "closeMultiplier": 0.6153071500503524,
+      "closedAt": "2026-04-22T22:46:10.148Z",
+      "durationMs": 120165,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001222,
+        "closeMultiplier": 0.6153071500503524,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-22T22:46:10.148Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 4,
+        "momentum": 7.9375,
+        "floatRotation": 0.21929683960411991,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": true,
+        "floatRot": 0.21929683960411991,
+        "accel": 7.9375,
+        "wouldPassV5": false,
+        "failReason": "SC1-rot(0.219)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($199k)",
+        "priceChg5m": 127,
+        "vol5m": 43562.44,
+        "buys5m": 1522,
+        "sells5m": 396,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-22T22:08:40.871Z"
+  "lastSaved": "2026-04-22T22:46:11.281Z"
 }
