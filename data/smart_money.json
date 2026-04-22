@@ -6294,12 +6294,17 @@
     "confirmed": false
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Camel",
         "pairAddress": "A2JiuyQcv6ois7SvHHxUGEQLCVSd31GpxxAhhBZ5RuGX",
         "entryTime": "2026-04-21T13:36:11.745Z"
+      },
+      {
+        "symbol": "seed",
+        "pairAddress": "B8j7YoiMZVh523gLAfM7TCG8MX4GcnmQXKvpDaZBEcRV",
+        "entryTime": "2026-04-22T06:03:21.312Z"
       }
     ],
     "wins": 0,
@@ -6307,7 +6312,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:36:11.745Z",
-    "lastSeen": "2026-04-21T13:36:11.745Z",
+    "lastSeen": "2026-04-22T06:03:21.312Z",
     "confirmed": false
   },
   "9zDbse8av3jVPvVbxwSE62SfqrKqhzV1JdHnJ3HUM3pY": {
@@ -20054,6 +20059,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T06:00:45.362Z",
     "lastSeen": "2026-04-22T06:00:45.362Z",
+    "confirmed": false
+  },
+  "6GE9RcD7jvo9gPwPTF1xrZeeTvDWcYGwd5bmtHaT2kCr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "seed",
+        "pairAddress": "B8j7YoiMZVh523gLAfM7TCG8MX4GcnmQXKvpDaZBEcRV",
+        "entryTime": "2026-04-22T06:03:21.312Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T06:03:21.312Z",
+    "lastSeen": "2026-04-22T06:03:21.312Z",
     "confirmed": false
   }
 }
