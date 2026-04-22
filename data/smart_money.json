@@ -12929,7 +12929,7 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "CAM",
@@ -12950,6 +12950,11 @@
         "symbol": "earthcoin",
         "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
         "entryTime": "2026-04-22T05:39:07.696Z"
+      },
+      {
+        "symbol": "ALIENPEPE",
+        "pairAddress": "DiQqC5eXucufSPPa4GMnaH6PTH9PV1vGurRVK7Y3yg61",
+        "entryTime": "2026-04-22T11:23:44.350Z"
       }
     ],
     "wins": 0,
@@ -12957,7 +12962,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:42:37.850Z",
-    "lastSeen": "2026-04-22T05:39:07.696Z",
+    "lastSeen": "2026-04-22T11:23:44.350Z",
     "confirmed": true
   },
   "8abFwsQkoMRAk5mD4eXFTBqVyTGsfUZ1hVsfZ3NDsDUW": {
