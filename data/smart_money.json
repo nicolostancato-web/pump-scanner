@@ -31389,5 +31389,22 @@
     "firstSeen": "2026-04-22T20:09:46.906Z",
     "lastSeen": "2026-04-22T20:09:46.906Z",
     "confirmed": false
+  },
+  "2ZBZqb1PE9VZmBDkWNM3cbh7xHdgFqyGnUYU8Dvptgn5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GC",
+        "pairAddress": "CNfGP52B922UH19ScHkFkpZNgVubREUeBoGnkaTLWfTo",
+        "entryTime": "2026-04-22T20:17:02.145Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T20:17:02.145Z",
+    "lastSeen": "2026-04-22T20:17:02.145Z",
+    "confirmed": false
   }
 }
