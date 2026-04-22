@@ -188,9 +188,13 @@ async def run_agent(name: str, task: str, stagger: int = 0, save_all: bool = Fal
                 break
             except Exception as e:
                 err = str(e).lower()
-                if ("rate_limit" in err or "429" in err or "resource_exhausted" in err) and attempt < 2:
-                    wait = 60 * (attempt + 1)
-                    print(f"  [{name}] rate limit — waiting {wait}s...")
+                retryable = (
+                    "rate_limit" in err or "429" in err or "resource_exhausted" in err
+                    or "504" in err or "502" in err or "timeout" in err or "gateway" in err
+                )
+                if retryable and attempt < 2:
+                    wait = 30 * (attempt + 1)
+                    print(f"  [{name}] transient error ({type(e).__name__}) — retrying in {wait}s...")
                     await asyncio.sleep(wait)
                 else:
                     raise
