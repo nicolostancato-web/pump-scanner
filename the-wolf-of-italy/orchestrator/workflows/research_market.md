@@ -11,11 +11,13 @@ Find maximum 3 market signals or monetizable niches per day.
 
 ```
 ## Signal [N]
+- id: market-[DATE]-00[N]
 - Market: [market name]
 - Economic potential: $X–$Y range
 - Speed to test: fast (<1 week) / medium (1–4 weeks) / slow (>1 month)
 - Saturation: low / medium / high
 - Risk: low / medium / high
+- Zero cost: YES / NO
 - Source: [real URL]
 - Why now: [one specific reason relevant today]
 ```
