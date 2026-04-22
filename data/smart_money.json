@@ -25876,12 +25876,17 @@
     "confirmed": false
   },
   "J4g3oSidBiVzNXMrwJ3Mki8tKiP8Qjy5JnuSZq13t5UP": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AAVESCAM",
         "pairAddress": "6j1bYNiATVBSYWWd2oz7Np6zdRM5Xb8asPK42FM386JD",
         "entryTime": "2026-04-22T12:26:20.632Z"
+      },
+      {
+        "symbol": "SIMP",
+        "pairAddress": "3eikS7Ru1BnotcV8jZWd9kkysMmYrAPxwDrmqD8PgAVX",
+        "entryTime": "2026-04-22T12:55:24.717Z"
       }
     ],
     "wins": 0,
@@ -25889,7 +25894,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T12:26:20.632Z",
-    "lastSeen": "2026-04-22T12:26:20.632Z",
+    "lastSeen": "2026-04-22T12:55:24.717Z",
     "confirmed": false
   },
   "FTkvyPynxfSLKVByEvg9gn8bvYjsR2VvnZu14hFy3oXA": {
@@ -26298,6 +26303,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T12:54:55.400Z",
     "lastSeen": "2026-04-22T12:54:55.400Z",
+    "confirmed": false
+  },
+  "HVkKt7kngLWo9jRnoTB58cDr8KEH9WpCnzayf88ZVkvE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SIMP",
+        "pairAddress": "3eikS7Ru1BnotcV8jZWd9kkysMmYrAPxwDrmqD8PgAVX",
+        "entryTime": "2026-04-22T12:55:24.717Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T12:55:24.717Z",
+    "lastSeen": "2026-04-22T12:55:24.717Z",
     "confirmed": false
   }
 }
