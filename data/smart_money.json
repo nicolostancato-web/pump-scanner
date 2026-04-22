@@ -28880,12 +28880,17 @@
     "confirmed": false
   },
   "BGcaPxBq6Y2tLWcLsW8fkxg8b3RcuRBBYoCeRZG5fPMD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "NOOB",
         "pairAddress": "4zfVTQVo7Y1cd1HeMkEYJvh5z6wtpfdTS5ikJpkbzDdY",
         "entryTime": "2026-04-22T15:04:54.588Z"
+      },
+      {
+        "symbol": "EVELYN",
+        "pairAddress": "5jbuf4LkAh6uwEQKWYmHv7PCh8fNBPySZyJs1DCCWpa8",
+        "entryTime": "2026-04-22T22:31:18.309Z"
       }
     ],
     "wins": 0,
@@ -28893,7 +28898,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T15:04:54.588Z",
-    "lastSeen": "2026-04-22T15:04:54.588Z",
+    "lastSeen": "2026-04-22T22:31:18.309Z",
     "confirmed": false
   },
   "FukkJA8LoBHserCPj9VXtA9147RXaSznvgJJa2dzRiUb": {
@@ -30444,7 +30449,7 @@
     "confirmed": false
   },
   "7sZtPSeKENmWG8YREniiDiyfLRM2QcD7ufLJWA5nT5nd": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "NUMBER",
@@ -30455,6 +30460,11 @@
         "symbol": "GC",
         "pairAddress": "CNfGP52B922UH19ScHkFkpZNgVubREUeBoGnkaTLWfTo",
         "entryTime": "2026-04-22T20:26:41.867Z"
+      },
+      {
+        "symbol": "EVELYN",
+        "pairAddress": "5jbuf4LkAh6uwEQKWYmHv7PCh8fNBPySZyJs1DCCWpa8",
+        "entryTime": "2026-04-22T22:31:18.309Z"
       }
     ],
     "wins": 0,
@@ -30462,8 +30472,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T18:34:59.888Z",
-    "lastSeen": "2026-04-22T20:26:41.867Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T22:31:18.309Z",
+    "confirmed": true
   },
   "88vxK7b6uNnTmwWs9u39BzFbaipASZPLyDGFrmXC2UQW": {
     "appearances": 1,
