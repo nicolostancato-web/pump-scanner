@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
-The Wolf of Italy — Multi-Agent Orchestrator v2
+The Wolf of Italy — Multi-Agent Orchestrator v3
 WAT Framework: Workflows + Agent + Tools
 
-3-stage execution:
-  Stage 1 (parallel): RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1
-  Stage 2 (sequential): CEO-ORCHESTRATOR (reads research, fills execution_queue)
-  Stage 3 (parallel): EXECUTION-1, FINANCE-1, QUALITY-CONTROL-1, SECURITY-1
+5-stage execution:
+  Stage 0 (sequential): CEO reads previous handoff, writes cycle plan
+  Stage 1 (parallel):   RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1
+  Stage 2 (sequential): CEO selects opportunities → execution_queue + decision_log
+  Stage 3 (parallel):   EXECUTION-1, FINANCE-1, SECURITY-1
+  Stage 4 (sequential): QUALITY-CONTROL-1 audits all Stage 3 output
+  Stage 5 (sequential): CEO closes cycle → meeting_notes + handoff
 
 Active agents: 8
-All other teams: NOT ACTIVE
+Set AUTO_PAUSE_CRON=true to disable Railway cron after this run.
 """
 
 import asyncio
@@ -23,10 +26,15 @@ import httpx
 import litellm
 from dotenv import load_dotenv
 
+from ceo_brain import stage0_task, stage2_task, stage5_task
+
 load_dotenv()
 
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_REPO = os.environ.get("GITHUB_REPO", "nicolostancato-web/pump-scanner")
+RAILWAY_TOKEN = os.environ.get("RAILWAY_TOKEN", "")
+RAILWAY_SERVICE_ID = os.environ.get("RAILWAY_SERVICE_ID", "b5cc8c34-10b5-4c33-b4b9-82c71749a70c")
+AUTO_PAUSE_CRON = os.environ.get("AUTO_PAUSE_CRON", "false").lower() == "true"
 DATE = datetime.now().strftime("%Y-%m-%d")
 
 MODEL = os.environ.get("LLM_MODEL", "deepseek/deepseek-chat")
@@ -211,7 +219,6 @@ async def run_agent(name: str, task: str, stagger: int = 0) -> dict:
                 except Exception as e:
                     result = f"Error calling {fn_name}: {e}"
 
-                # Stop as soon as github_save succeeds
                 if fn_name == "github_save" and isinstance(result, dict) and result.get("ok"):
                     messages.append({
                         "role": "tool",
@@ -228,6 +235,29 @@ async def run_agent(name: str, task: str, stagger: int = 0) -> dict:
                 })
 
     return {"name": name, "status": "timeout", "output": "Max iterations reached"}
+
+# ── RAILWAY CRON PAUSE ─────────────────────────────────────────────────────
+
+async def pause_railway_cron():
+    if not RAILWAY_TOKEN:
+        print("  [CRON-PAUSE] RAILWAY_TOKEN not set — skipping")
+        return
+    query = """
+    mutation serviceInstanceUpdate($input: ServiceInstanceUpdateInput!) {
+      serviceInstanceUpdate(input: $input)
+    }
+    """
+    variables = {"input": {"serviceId": RAILWAY_SERVICE_ID, "cronSchedule": ""}}
+    async with httpx.AsyncClient(timeout=20) as http:
+        r = await http.post(
+            "https://backboard.railway.app/graphql/v2",
+            json={"query": query, "variables": variables},
+            headers={"Authorization": f"Bearer {RAILWAY_TOKEN}", "Content-Type": "application/json"},
+        )
+        if r.status_code == 200 and not r.json().get("errors"):
+            print("  [CRON-PAUSE] Railway cron disabled — re-enable manually when ready")
+        else:
+            print(f"  [CRON-PAUSE] Failed: {r.status_code} {r.text[:200]}")
 
 # ── WORKFLOW LOADER ────────────────────────────────────────────────────────
 
@@ -248,10 +278,10 @@ STAGE1_AGENTS = [
 {load_workflow("research_crypto.md")}
 
 Execute now. Save BOTH files:
-1. {KB}/opportunities/crypto-{DATE}.md — opportunity schemas (max 3)
+1. {KB}/opportunities/crypto-{DATE}.md — opportunity schemas (max 3, with id field)
 2. {NOTES}/RESEARCH-CRYPTO-1/{DATE}/raw_notes.md — full raw data
 
-Start with coingecko_trending, then coingecko_markets.""",
+Start with coingecko_trending, then coingecko_markets. Max 3 tool calls before saving.""",
     },
     {
         "name": "RESEARCH-AI-1",
@@ -260,10 +290,10 @@ Start with coingecko_trending, then coingecko_markets.""",
 {load_workflow("research_ai.md")}
 
 Execute now. Make at most 4 fetch_url calls total. Save BOTH files:
-1. {KB}/opportunities/ai-{DATE}.md — opportunity schemas (max 3)
+1. {KB}/opportunities/ai-{DATE}.md — opportunity schemas (max 3, with id field)
 2. {NOTES}/RESEARCH-AI-1/{DATE}/raw_notes.md — full analysis
 
-Start with HackerNews topstories, then 3 story details max.""",
+Start with HackerNews topstories, then 3 story details max. Then save immediately.""",
     },
     {
         "name": "RESEARCH-MARKET-1",
@@ -272,54 +302,12 @@ Start with HackerNews topstories, then 3 story details max.""",
 {load_workflow("research_market.md")}
 
 Execute now. Make at most 5 fetch_url calls total. Save BOTH files:
-1. {KB}/opportunities/market-{DATE}.md — signal schemas (max 3)
+1. {KB}/opportunities/market-{DATE}.md — signal schemas (max 3, with id field)
 2. {NOTES}/RESEARCH-MARKET-1/{DATE}/raw_notes.md — full analysis
 
-Start with HackerNews, then 3 story details, then DeFiLlama.""",
+Start with HackerNews, then 3 story details, then DeFiLlama. Then save immediately.""",
     },
 ]
-
-CEO_ORCHESTRATOR_TASK = f"""You are CEO-ORCHESTRATOR. Date: {DATE}.
-
-Your job: read today's research output and select the best opportunities for Execution.
-
-Step 1 — Read all 3 opportunity files:
-- fetch_url: https://api.github.com/repos/{GITHUB_REPO}/contents/{KB}/opportunities/crypto-{DATE}.md
-- fetch_url: https://api.github.com/repos/{GITHUB_REPO}/contents/{KB}/opportunities/ai-{DATE}.md
-- fetch_url: https://api.github.com/repos/{GITHUB_REPO}/contents/{KB}/opportunities/market-{DATE}.md
-
-NOTE: Files may not exist yet if Stage 1 just ran. If a file returns 404, skip it and work with what's available.
-
-Step 2 — Select max 2 opportunities that meet ALL criteria:
-- Zero cost to test
-- Testable in <4 hours
-- Legal
-- No new credentials needed
-
-Step 3 — Save to execution_queue:
-Path: {KB}/execution_queue/{DATE}-queue.md
-Commit: "CEO-ORCHESTRATOR: execution queue {DATE}"
-
-Queue file format:
-```
-# Execution Queue — {DATE}
-Selected by: CEO-ORCHESTRATOR
-
-## Selected Opportunity 1
-[paste the full opportunity schema]
-CEO rationale: [why this was selected]
-
-## Selected Opportunity 2 (if any)
-[paste the full opportunity schema]
-CEO rationale: [why this was selected]
-
-## Rejected Opportunities
-[list rejected ones with reason: too risky / needs capital / not zero-cost]
-```
-
-If NO opportunities meet the criteria, save the queue file with:
-"No opportunities meet zero-cost + <4h criteria today. Recommendation: [what Research should improve tomorrow]"
-"""
 
 STAGE3_AGENTS = [
     {
@@ -328,11 +316,13 @@ STAGE3_AGENTS = [
 
 {load_workflow("execution.md")}
 
-Execute now. Save BOTH files:
+Execute now. Read the execution queue first (max 3 fetch_url calls total before executing).
+Save BOTH files:
 1. {KB}/execution_results/{DATE}-execution.md — test result schema
 2. {NOTES}/EXECUTION-1/{DATE}/execution_log.md — full log
 
-Read the execution queue first. A VALID test must test a business hypothesis, not just check if an API works.""",
+A VALID test must test a business hypothesis, not just check if an API works.
+After reading the queue, execute ONE test and save results immediately.""",
     },
     {
         "name": "FINANCE-1",
@@ -340,26 +330,12 @@ Read the execution queue first. A VALID test must test a business hypothesis, no
 
 {load_workflow("finance.md")}
 
-Execute now. Read execution_results first, then save CFO note:
-Path: {NOTES}/FINANCE-1/{DATE}/cfo_note.md
+Execute now. Read execution_results first (1 fetch_url call max), then save:
+1. {KB}/finance_review/{DATE}-cfo_note.md — CFO note
+2. {NOTES}/FINANCE-1/{DATE}/cfo_note.md — same content
+
 Commit: "FINANCE-1: CFO note {DATE}"
-
 Known costs: n8n €32 + Railway €14 + DeepSeek ~€1 = ~€47/month total.""",
-    },
-    {
-        "name": "QUALITY-CONTROL-1",
-        "task": f"""You are QUALITY-CONTROL-1. Date: {DATE}.
-
-{load_workflow("quality_control.md")}
-
-Execute now. Check team-notes for: RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1, EXECUTION-1, FINANCE-1, SECURITY-1.
-Also check knowledge_base flow: opportunities/, execution_queue/, execution_results/.
-
-Save BOTH files:
-1. {KB}/qc_audits/{DATE}-audit.md — audit table + flow status
-2. {NOTES}/QUALITY-CONTROL-1/{DATE}/audit.md — same content
-
-Be honest: PASS / PARTIAL / FAIL — no fake PASS.""",
     },
     {
         "name": "SECURITY-1",
@@ -375,19 +351,40 @@ Only report REAL risks that exist today.""",
     },
 ]
 
+STAGE4_QC_TASK = f"""You are QUALITY-CONTROL-1. Date: {DATE}.
+
+{load_workflow("quality_control.md")}
+
+Execute now. Check ALL agents: RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1, EXECUTION-1, FINANCE-1, SECURITY-1.
+Also check knowledge_base flow: opportunities/, execution_queue/, execution_results/, finance_review/, security_audits/.
+
+Save BOTH files:
+1. {KB}/qc_audits/{DATE}-audit.md — audit table + flow status
+2. {NOTES}/QUALITY-CONTROL-1/{DATE}/audit.md — same content
+
+Scoring is PASS / PARTIAL / FAIL. An all-PASS audit when files are weak = QC itself is FAIL.
+Be honest."""
+
 # ── MAIN ───────────────────────────────────────────────────────────────────
 
 async def main():
     print(f"\n{'='*60}")
-    print(f"The Wolf of Italy — Orchestrator v2")
+    print(f"The Wolf of Italy — Orchestrator v3")
     print(f"Date: {DATE} | Model: {MODEL}")
-    print(f"Flow: Research → CEO → Execution+Finance+QC+Security")
+    print(f"Flow: Stage0→Research→CEO→Exec+Finance+Security→QC→CEO-Close")
+    if AUTO_PAUSE_CRON:
+        print(f"AUTO_PAUSE_CRON=true — cron will be disabled after this run")
     print(f"{'='*60}\n")
 
     all_results = []
 
+    # ── STAGE 0: CEO reads previous handoff ───────────────────────────────
+    print("STAGE 0 — CEO reads previous handoff")
+    s0_result = await run_agent("CEO-ORCHESTRATOR", stage0_task())
+    all_results.append(s0_result)
+
     # ── STAGE 1: Research (parallel, staggered 8s) ─────────────────────────
-    print("STAGE 1 — Research agents")
+    print("\nSTAGE 1 — Research agents (parallel)")
     stage1_tasks = [
         run_agent(a["name"], a["task"], stagger=i * 8)
         for i, a in enumerate(STAGE1_AGENTS)
@@ -395,19 +392,29 @@ async def main():
     stage1_results = await asyncio.gather(*stage1_tasks, return_exceptions=True)
     all_results.extend(stage1_results)
 
-    # ── STAGE 2: CEO-ORCHESTRATOR ──────────────────────────────────────────
-    print("\nSTAGE 2 — CEO-ORCHESTRATOR (selecting opportunities)")
-    ceo_result = await run_agent("CEO-ORCHESTRATOR", CEO_ORCHESTRATOR_TASK)
-    all_results.append(ceo_result)
+    # ── STAGE 2: CEO selects opportunities ────────────────────────────────
+    print("\nSTAGE 2 — CEO selects opportunities")
+    s2_result = await run_agent("CEO-ORCHESTRATOR", stage2_task())
+    all_results.append(s2_result)
 
-    # ── STAGE 3: Execution + Finance + QC + Security (parallel) ───────────
-    print("\nSTAGE 3 — Execution, Finance, QC, Security")
+    # ── STAGE 3: Execution + Finance + Security (parallel) ────────────────
+    print("\nSTAGE 3 — Execution, Finance, Security (parallel)")
     stage3_tasks = [
         run_agent(a["name"], a["task"], stagger=i * 8)
         for i, a in enumerate(STAGE3_AGENTS)
     ]
     stage3_results = await asyncio.gather(*stage3_tasks, return_exceptions=True)
     all_results.extend(stage3_results)
+
+    # ── STAGE 4: QC audit (sequential — reads Stage 3 output) ─────────────
+    print("\nSTAGE 4 — Quality Control audit")
+    s4_result = await run_agent("QUALITY-CONTROL-1", STAGE4_QC_TASK)
+    all_results.append(s4_result)
+
+    # ── STAGE 5: CEO closes cycle ─────────────────────────────────────────
+    print("\nSTAGE 5 — CEO closes cycle (meeting notes + handoff)")
+    s5_result = await run_agent("CEO-ORCHESTRATOR", stage5_task())
+    all_results.append(s5_result)
 
     # ── SUMMARY ───────────────────────────────────────────────────────────
     print(f"\n{'─'*40}")
@@ -423,6 +430,11 @@ async def main():
             print(f"  {status} {r['name']}: {r['status']}")
 
     print(f"\n{ok}/{len(all_results)} agents completed — {DATE}")
+
+    # ── AUTO PAUSE CRON ───────────────────────────────────────────────────
+    if AUTO_PAUSE_CRON:
+        print("\nPausing Railway cron...")
+        await pause_railway_cron()
 
 if __name__ == "__main__":
     asyncio.run(main())
