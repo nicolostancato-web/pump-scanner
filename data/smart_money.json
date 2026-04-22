@@ -9919,7 +9919,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "TERMINAL",
@@ -9955,6 +9955,11 @@
         "symbol": "SNAIL",
         "pairAddress": "2yPRmfjG4XmtqEzPW1DauVwCxCHXLChGAMHBd16eqsqT",
         "entryTime": "2026-04-22T06:50:13.496Z"
+      },
+      {
+        "symbol": "AEPE",
+        "pairAddress": "J99w2cyGMzuRc8AHnJ1CLwZZfTxCz33z912Y3jbwcP5y",
+        "entryTime": "2026-04-22T07:52:50.936Z"
       }
     ],
     "wins": 0,
@@ -9962,7 +9967,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:24:07.723Z",
-    "lastSeen": "2026-04-22T06:50:13.496Z",
+    "lastSeen": "2026-04-22T07:52:50.936Z",
     "confirmed": true
   },
   "EhER7q3w7UNCHCzjhud1dDxtGTihC7CoPfgkzS7KYZwk": {
