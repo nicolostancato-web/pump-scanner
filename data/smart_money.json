@@ -7762,7 +7762,7 @@
     "confirmed": false
   },
   "G5VbLcSueggWpvtxxmyto2v5GVhMybhAMDGzXGs9HJ9Z": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Mogged",
@@ -7773,6 +7773,11 @@
         "symbol": "CONDOM",
         "pairAddress": "Bq3TM18REWdzf5NzwqCH5c4r6jbTkFNzdXpfRL5wYJ6u",
         "entryTime": "2026-04-21T15:24:23.906Z"
+      },
+      {
+        "symbol": "ETF",
+        "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
+        "entryTime": "2026-04-22T01:34:43.436Z"
       }
     ],
     "wins": 0,
@@ -7780,8 +7785,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:41:42.681Z",
-    "lastSeen": "2026-04-21T15:24:23.906Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T01:34:43.436Z",
+    "confirmed": true
   },
   "E5ZLJ2xKxt7m2TS9Q6S1D4zftsuvA3EAv3GTdf7VipbB": {
     "appearances": 1,
@@ -17479,6 +17484,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T01:34:07.258Z",
     "lastSeen": "2026-04-22T01:34:07.258Z",
+    "confirmed": false
+  },
+  "CVnRWFefzdHf3ALGK8aEc8PTvCsN6zG3JfcyPeWmQPUZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETF",
+        "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
+        "entryTime": "2026-04-22T01:34:43.436Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T01:34:43.436Z",
+    "lastSeen": "2026-04-22T01:34:43.436Z",
     "confirmed": false
   }
 }
