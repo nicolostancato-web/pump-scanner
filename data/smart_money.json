@@ -15290,7 +15290,7 @@
     "confirmed": false
   },
   "H3rUiKEFPnTM6CHCmJqKt4Nd1xeFATK9aUmU4sbD5za7": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Dumban",
@@ -15301,6 +15301,11 @@
         "symbol": "UNCMONEY",
         "pairAddress": "F2NQmoydDJotFoGpAcN1E6VqoxKH2W2Y4dSF6eVSUeyT",
         "entryTime": "2026-04-21T23:51:56.555Z"
+      },
+      {
+        "symbol": "ACTM",
+        "pairAddress": "AXPfmKvKaCuRwUFZFq9mLQcmFwptkDSkYTTWnQN8CzEg",
+        "entryTime": "2026-04-22T04:03:15.790Z"
       }
     ],
     "wins": 0,
@@ -15308,8 +15313,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T22:19:08.114Z",
-    "lastSeen": "2026-04-21T23:51:56.555Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T04:03:15.790Z",
+    "confirmed": true
   },
   "5pi2C2MveuCHRbx24ZMqKhhMEbJw2aWDDsFEEsQf5s9a": {
     "appearances": 1,
