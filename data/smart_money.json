@@ -17658,12 +17658,17 @@
     "confirmed": false
   },
   "4fEoeaAqnsB3kKqEnkcfXxZsj3yaSFVycfF4w4CJ5atb": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOL",
         "pairAddress": "5R6sA13JcdGad8PY75dWkaRWvpAd1fJ2JGmff76HoBfm",
         "entryTime": "2026-04-22T01:31:25.905Z"
+      },
+      {
+        "symbol": "Michael",
+        "pairAddress": "Go1Ab4jqpn1ZgXaGtFBzLhPSjMSU4SbCrY4ikiroeAE7",
+        "entryTime": "2026-04-22T10:19:14.400Z"
       }
     ],
     "wins": 0,
@@ -17671,7 +17676,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T01:31:25.905Z",
-    "lastSeen": "2026-04-22T01:31:25.905Z",
+    "lastSeen": "2026-04-22T10:19:14.400Z",
     "confirmed": false
   },
   "AtA46nM5CTbcfH8dCAN1oSvPdfyWRugnAF6SJSWEFJfn": {
@@ -24077,6 +24082,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T10:18:32.643Z",
     "lastSeen": "2026-04-22T10:18:32.643Z",
+    "confirmed": false
+  },
+  "68TtWmdXD3dkrUExn8rZ2KMEwHJyWjbjm5cvkajH8n1t": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Michael",
+        "pairAddress": "Go1Ab4jqpn1ZgXaGtFBzLhPSjMSU4SbCrY4ikiroeAE7",
+        "entryTime": "2026-04-22T10:19:14.400Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T10:19:14.400Z",
+    "lastSeen": "2026-04-22T10:19:14.400Z",
     "confirmed": false
   }
 }
