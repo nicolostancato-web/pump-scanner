@@ -22699,12 +22699,17 @@
     "confirmed": false
   },
   "5XADF89CSsoYvRztU2EySwFJsUEtEwCp71BGmVzxXRdJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SHIMO",
         "pairAddress": "8baPMNmXKZFcFLygGQXeAX2nWnmpgzEWuW2eReEZ3Uuu",
         "entryTime": "2026-04-22T08:40:51.997Z"
+      },
+      {
+        "symbol": "BTG",
+        "pairAddress": "AN44YDcgkPz7AxUWCydJje5YCqZp8WACB5kozRvuz4me",
+        "entryTime": "2026-04-22T18:39:42.988Z"
       }
     ],
     "wins": 0,
@@ -22712,7 +22717,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T08:40:51.997Z",
-    "lastSeen": "2026-04-22T08:40:51.997Z",
+    "lastSeen": "2026-04-22T18:39:42.988Z",
     "confirmed": false
   },
   "4TZz2xmC1bdKbKKRBRdwr7bW4H2i1x3SNHD4b8HcsrBh": {
@@ -30318,6 +30323,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T18:34:59.888Z",
     "lastSeen": "2026-04-22T18:34:59.888Z",
+    "confirmed": false
+  },
+  "88vxK7b6uNnTmwWs9u39BzFbaipASZPLyDGFrmXC2UQW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BTG",
+        "pairAddress": "AN44YDcgkPz7AxUWCydJje5YCqZp8WACB5kozRvuz4me",
+        "entryTime": "2026-04-22T18:39:42.988Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T18:39:42.988Z",
+    "lastSeen": "2026-04-22T18:39:42.988Z",
     "confirmed": false
   }
 }
