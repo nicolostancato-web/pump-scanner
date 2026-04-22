@@ -16275,12 +16275,17 @@
     "confirmed": false
   },
   "61nUtgxC6Nvkg2MxoLPTjGaudMB6bFMbmj3CctfP1TMh": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "UNCMONEY",
         "pairAddress": "F2NQmoydDJotFoGpAcN1E6VqoxKH2W2Y4dSF6eVSUeyT",
         "entryTime": "2026-04-21T23:53:57.794Z"
+      },
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T07:02:56.140Z"
       }
     ],
     "wins": 0,
@@ -16288,7 +16293,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T23:53:57.794Z",
-    "lastSeen": "2026-04-21T23:53:57.794Z",
+    "lastSeen": "2026-04-22T07:02:56.140Z",
     "confirmed": false
   },
   "9pa4PQdJWd5v7L4F2aoD3ZJH5jzjddt2TV5Q5XRgA5me": {
@@ -20736,6 +20741,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T07:02:21.079Z",
     "lastSeen": "2026-04-22T07:02:21.079Z",
+    "confirmed": false
+  },
+  "KVz3f3NZqJxYQGZeTQzU2b4ZyVMLEPYodNju3wCK3yv": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T07:02:56.140Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T07:02:56.140Z",
+    "lastSeen": "2026-04-22T07:02:56.140Z",
     "confirmed": false
   }
 }
