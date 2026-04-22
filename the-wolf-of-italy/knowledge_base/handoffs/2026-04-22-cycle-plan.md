@@ -2,7 +2,7 @@
 Based on: bootstrap.md — first cycle
 
 ## Open items
-- [ ] Founder deposits ~$50 SOL to wallet E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
+- [ ] Founder deposits ~$50 SOL to wallet 9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt
 - [ ] Founder adds GMAIL_APP_PASSWORD to Railway env vars
 - [ ] First cycle establishes baseline eligibility scores
 
