@@ -15409,12 +15409,17 @@
     "confirmed": false
   },
   "sosoC47a7kVf25bsM62NFTxXRq2E86u3svb3idko6tX": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FLYINGCAR",
         "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
         "entryTime": "2026-04-21T21:45:42.276Z"
+      },
+      {
+        "symbol": "GC",
+        "pairAddress": "CNfGP52B922UH19ScHkFkpZNgVubREUeBoGnkaTLWfTo",
+        "entryTime": "2026-04-22T20:21:15.199Z"
       }
     ],
     "wins": 0,
@@ -15422,7 +15427,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T21:45:42.276Z",
-    "lastSeen": "2026-04-21T21:45:42.276Z",
+    "lastSeen": "2026-04-22T20:21:15.199Z",
     "confirmed": false
   },
   "9uvo6kva4gzt7XXybwANimZDxXuw2b9zkxFBkzQgWNKT": {
