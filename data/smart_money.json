@@ -6098,7 +6098,7 @@
     "confirmed": false
   },
   "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Camel",
@@ -6119,6 +6119,11 @@
         "symbol": "ALIENPEPE",
         "pairAddress": "DiQqC5eXucufSPPa4GMnaH6PTH9PV1vGurRVK7Y3yg61",
         "entryTime": "2026-04-22T11:19:46.168Z"
+      },
+      {
+        "symbol": "CHAD",
+        "pairAddress": "3kPF3DzZ9LJ6MWFhTPUZuXNVinH1rALPRPF2KDmKQV4V",
+        "entryTime": "2026-04-22T23:19:38.323Z"
       }
     ],
     "wins": 0,
@@ -6126,7 +6131,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:19:03.217Z",
-    "lastSeen": "2026-04-22T11:19:46.168Z",
+    "lastSeen": "2026-04-22T23:19:38.323Z",
     "confirmed": true
   },
   "CShy5t9VS4AaWHkuFTRsp76DeVcZ2A96LjmHcienxHWQ": {
@@ -34350,6 +34355,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T23:19:06.789Z",
     "lastSeen": "2026-04-22T23:19:06.789Z",
+    "confirmed": false
+  },
+  "3Qri4tcWSpjnSBrwJVaNthKWxxKGFd8C5tGS4gq4FamE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHAD",
+        "pairAddress": "3kPF3DzZ9LJ6MWFhTPUZuXNVinH1rALPRPF2KDmKQV4V",
+        "entryTime": "2026-04-22T23:19:38.323Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T23:19:38.323Z",
+    "lastSeen": "2026-04-22T23:19:38.323Z",
     "confirmed": false
   }
 }
