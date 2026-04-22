@@ -33466,12 +33466,17 @@
     "confirmed": false
   },
   "2fUr8UnHK3EYJJbn2mShJrVKMa2axqi3ytPh5EJoJz2H": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ALIEN",
         "pairAddress": "7PgkLGD8DSLYaLQJjuUDTq5xuuGXTbup7x2fnDkazWnu",
         "entryTime": "2026-04-22T22:25:49.838Z"
+      },
+      {
+        "symbol": "EVELYN",
+        "pairAddress": "DGvhAScSRaTC1fTgDQzyc3m648uM7VdALh3tDg3qSJxX",
+        "entryTime": "2026-04-22T22:55:44.561Z"
       }
     ],
     "wins": 0,
@@ -33479,7 +33484,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T22:25:49.838Z",
-    "lastSeen": "2026-04-22T22:25:49.838Z",
+    "lastSeen": "2026-04-22T22:55:44.561Z",
     "confirmed": false
   },
   "Htc5nQJZUJzxBaF1Ai21imq1yGAuVLi3Wgo3kT4QYZhu": {
@@ -34041,6 +34046,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T22:55:04.200Z",
     "lastSeen": "2026-04-22T22:55:04.200Z",
+    "confirmed": false
+  },
+  "AhPovwYa2KpJEX11sC8Y33T9jwKUHasmerC9LFcVkdeE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "EVELYN",
+        "pairAddress": "DGvhAScSRaTC1fTgDQzyc3m648uM7VdALh3tDg3qSJxX",
+        "entryTime": "2026-04-22T22:55:44.561Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T22:55:44.561Z",
+    "lastSeen": "2026-04-22T22:55:44.561Z",
     "confirmed": false
   }
 }
