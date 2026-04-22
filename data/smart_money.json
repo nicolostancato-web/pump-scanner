@@ -5642,7 +5642,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "MHGA",
@@ -5673,6 +5673,11 @@
         "symbol": "ETF",
         "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
         "entryTime": "2026-04-22T01:37:57.687Z"
+      },
+      {
+        "symbol": "EVERYTHING",
+        "pairAddress": "DVP7C2aR4eNHnrXe8eMPcyhPKZgE2LJQ7898y6HT7XFm",
+        "entryTime": "2026-04-22T07:29:49.871Z"
       }
     ],
     "wins": 0,
@@ -5680,7 +5685,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:06:15.919Z",
-    "lastSeen": "2026-04-22T01:37:57.687Z",
+    "lastSeen": "2026-04-22T07:29:49.871Z",
     "confirmed": true
   },
   "2pQLqm1c6Ziaqxb9fukWzzq38Up5taU35aee7CL4gsKP": {
@@ -21067,6 +21072,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T07:29:12.939Z",
     "lastSeen": "2026-04-22T07:29:12.939Z",
+    "confirmed": false
+  },
+  "BJu3F8xrq6siSTHiNDcSgJ4eHXb8siE83e1LMWqcsQ3d": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "EVERYTHING",
+        "pairAddress": "DVP7C2aR4eNHnrXe8eMPcyhPKZgE2LJQ7898y6HT7XFm",
+        "entryTime": "2026-04-22T07:29:49.871Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T07:29:49.871Z",
+    "lastSeen": "2026-04-22T07:29:49.871Z",
     "confirmed": false
   }
 }
