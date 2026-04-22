@@ -16365,7 +16365,7 @@
     "confirmed": false
   },
   "61nUtgxC6Nvkg2MxoLPTjGaudMB6bFMbmj3CctfP1TMh": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "UNCMONEY",
@@ -16376,6 +16376,11 @@
         "symbol": "TOFU",
         "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
         "entryTime": "2026-04-22T07:02:56.140Z"
+      },
+      {
+        "symbol": "MTGA",
+        "pairAddress": "6n3tQRpmohtm9FCbUoxZ4zxU4kECNY96qxjuFCPi9j2J",
+        "entryTime": "2026-04-22T10:12:05.669Z"
       }
     ],
     "wins": 0,
@@ -16383,8 +16388,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T23:53:57.794Z",
-    "lastSeen": "2026-04-22T07:02:56.140Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T10:12:05.669Z",
+    "confirmed": true
   },
   "9pa4PQdJWd5v7L4F2aoD3ZJH5jzjddt2TV5Q5XRgA5me": {
     "appearances": 1,
