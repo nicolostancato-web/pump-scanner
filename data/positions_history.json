@@ -6640,7 +6640,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Dg7kfHiBgNxR3aAY2Bk6qVb4MZLUHuHWNUsvZk7EceHM",
+      "mint": "FyppWxuXuJJgN4xRECQhS7MDHJ68p4KR4Rdi1Mzhpump",
+      "name": "Make Whale Great Again",
+      "symbol": "MWGA",
+      "dex": "pumpswap",
+      "entryPrice": 0.000225,
+      "entryMcap": 225034,
+      "entryTime": 1776842181283,
+      "score": 65,
+      "ageAtEntry": 30,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/dg7kfhibgnxr3aay2bk6qvb4mzluhuhwnusvzk7ecehm",
+      "peakPrice": 0.000225,
+      "peakMultiplier": 1,
+      "peakMcap": 225034,
+      "peakTime": 1776842181283,
+      "lastPrice": 0.0001528,
+      "lowestPrice": 0.0001528,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001528,
+      "closeMultiplier": 0.6791111111111111,
+      "closedAt": "2026-04-22T07:19:21.688Z",
+      "durationMs": 180405,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001528,
+        "closeMultiplier": 0.6791111111111111,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-22T07:19:21.688Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": 0.146,
+        "floatRotation": 0.37814521361216524,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.37814521361216524,
+        "accel": 0.146,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(30min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(30min)",
+        "priceChg5m": 4.38,
+        "vol5m": 85095.53,
+        "buys5m": 290,
+        "sells5m": 285,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-22T05:31:47.257Z"
+  "lastSaved": "2026-04-22T07:19:22.956Z"
 }
