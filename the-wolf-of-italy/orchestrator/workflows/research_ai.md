@@ -10,6 +10,7 @@ Find maximum 3 concrete AI/automation monetization opportunities per day.
 
 ```
 ## Opportunity [N]
+- id: ai-[DATE]-00[N]
 - Name: [product/method name]
 - Problem solved: [specific problem in one sentence]
 - Revenue model: [exactly how money is made]
