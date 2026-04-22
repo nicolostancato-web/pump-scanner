@@ -5557,7 +5557,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "MHGA",
@@ -5583,6 +5583,11 @@
         "symbol": "BRICKS",
         "pairAddress": "6QrQKB4hrkUWAxXq7UtRMSCj3CcK4dxwZqUmUVVFmwpa",
         "entryTime": "2026-04-21T20:44:00.858Z"
+      },
+      {
+        "symbol": "ETF",
+        "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
+        "entryTime": "2026-04-22T01:37:57.687Z"
       }
     ],
     "wins": 0,
@@ -5590,7 +5595,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:06:15.919Z",
-    "lastSeen": "2026-04-21T20:44:00.858Z",
+    "lastSeen": "2026-04-22T01:37:57.687Z",
     "confirmed": true
   },
   "2pQLqm1c6Ziaqxb9fukWzzq38Up5taU35aee7CL4gsKP": {
@@ -6049,7 +6054,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Camel",
@@ -6075,6 +6080,11 @@
         "symbol": "frank",
         "pairAddress": "HiakBwfz9Yq6jgxDk8XuJwamjeCQmC13KUkM9gU8VjR",
         "entryTime": "2026-04-21T20:23:53.510Z"
+      },
+      {
+        "symbol": "ETF",
+        "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
+        "entryTime": "2026-04-22T01:37:57.687Z"
       }
     ],
     "wins": 0,
@@ -6082,7 +6092,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:30:30.279Z",
-    "lastSeen": "2026-04-21T20:23:53.510Z",
+    "lastSeen": "2026-04-22T01:37:57.687Z",
     "confirmed": true
   },
   "9nd2o6NBs2xwjQyhUugMNxpgLb2MqeNyufxFGmTAXTK7": {
