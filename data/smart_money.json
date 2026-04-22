@@ -13967,12 +13967,17 @@
     "confirmed": false
   },
   "osakAfYp9QrJyR3h782jemZwj8ETDnNHXcGRVCsUUeJ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "frank",
         "pairAddress": "HiakBwfz9Yq6jgxDk8XuJwamjeCQmC13KUkM9gU8VjR",
         "entryTime": "2026-04-21T20:33:26.129Z"
+      },
+      {
+        "symbol": "MHSA",
+        "pairAddress": "FvYJ2uFhufPtSrMRpv9G1GZ3Ej4Yqk4rhbWE7ec5mazZ",
+        "entryTime": "2026-04-22T17:31:03.793Z"
       }
     ],
     "wins": 0,
@@ -13980,7 +13985,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T20:33:26.129Z",
-    "lastSeen": "2026-04-21T20:33:26.129Z",
+    "lastSeen": "2026-04-22T17:31:03.793Z",
     "confirmed": false
   },
   "DiaWt2wVwcK7LD1CusAXc2Vy5qd95a5dUTNfe6e4fj17": {
@@ -29564,6 +29569,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T17:30:21.722Z",
     "lastSeen": "2026-04-22T17:30:21.722Z",
+    "confirmed": false
+  },
+  "Bmx55zsmNG47dmnJbro4JJTVgDKwUt45fCCXf1hiG22C": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MHSA",
+        "pairAddress": "FvYJ2uFhufPtSrMRpv9G1GZ3Ej4Yqk4rhbWE7ec5mazZ",
+        "entryTime": "2026-04-22T17:31:03.793Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T17:31:03.793Z",
+    "lastSeen": "2026-04-22T17:31:03.793Z",
     "confirmed": false
   }
 }
