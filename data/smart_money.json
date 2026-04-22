@@ -18553,7 +18553,7 @@
     "confirmed": false
   },
   "44kdzNHg3XTFz4syy5SDVmu4Gy2DDaXZErqqNieMbBFH": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ETF",
@@ -18564,6 +18564,11 @@
         "symbol": "TOFU",
         "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
         "entryTime": "2026-04-22T07:00:21.993Z"
+      },
+      {
+        "symbol": "EVELYN",
+        "pairAddress": "DGvhAScSRaTC1fTgDQzyc3m648uM7VdALh3tDg3qSJxX",
+        "entryTime": "2026-04-22T22:37:54.326Z"
       }
     ],
     "wins": 0,
@@ -18571,8 +18576,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T01:44:49.280Z",
-    "lastSeen": "2026-04-22T07:00:21.993Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T22:37:54.326Z",
+    "confirmed": true
   },
   "C6a59wi3uKVAkzsHYkrv8GvscThVetN4qZfwyzFnQXZX": {
     "appearances": 1,
@@ -33572,6 +33577,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T22:30:02.118Z",
     "lastSeen": "2026-04-22T22:30:02.118Z",
+    "confirmed": false
+  },
+  "98r1TsekWsmGcsjjQVrGXzywV7FHFKLgzPbxdHmdCtWc": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "EVELYN",
+        "pairAddress": "DGvhAScSRaTC1fTgDQzyc3m648uM7VdALh3tDg3qSJxX",
+        "entryTime": "2026-04-22T22:37:54.326Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T22:37:54.326Z",
+    "lastSeen": "2026-04-22T22:37:54.326Z",
     "confirmed": false
   }
 }
