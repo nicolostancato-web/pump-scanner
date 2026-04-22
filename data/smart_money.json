@@ -6102,7 +6102,7 @@
     "confirmed": false
   },
   "9TafNPP5G3jcFx3tC5RBUtfQ25cQgAh6HygMh63b8pXj": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Camel",
@@ -6113,6 +6113,11 @@
         "symbol": "DOGE",
         "pairAddress": "DRdctdNBX3PEtFSp6AgQ1tGsj2JCtyEpT2WmMDFchaD8",
         "entryTime": "2026-04-21T17:11:40.112Z"
+      },
+      {
+        "symbol": "Meme",
+        "pairAddress": "FYaD2uXp244XbwHPRgfvj7ce8ykHqqEQfgF9DQc7TAEd",
+        "entryTime": "2026-04-22T11:38:56.584Z"
       }
     ],
     "wins": 0,
@@ -6120,8 +6125,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:27:57.483Z",
-    "lastSeen": "2026-04-21T17:11:40.112Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T11:38:56.584Z",
+    "confirmed": true
   },
   "74QsX16wPUcioqyx391j4SdGUt5iWimiQ99pY5raZ97e": {
     "appearances": 1,
@@ -25452,6 +25457,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T11:37:53.391Z",
     "lastSeen": "2026-04-22T11:37:53.391Z",
+    "confirmed": false
+  },
+  "DJCymR7iZFytB7UPgnLfsfauQn3afA3w7T61WAJiBZ69": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Meme",
+        "pairAddress": "FYaD2uXp244XbwHPRgfvj7ce8ykHqqEQfgF9DQc7TAEd",
+        "entryTime": "2026-04-22T11:38:56.584Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T11:38:56.584Z",
+    "lastSeen": "2026-04-22T11:38:56.584Z",
     "confirmed": false
   }
 }
