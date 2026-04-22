@@ -4251,7 +4251,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "420",
@@ -4267,6 +4267,11 @@
         "symbol": "scam",
         "pairAddress": "9ZxBDnjpv7k5V8Z1ytyWJZvBbXQi7BgzuHg9N49MRvn5",
         "entryTime": "2026-04-21T19:09:41.757Z"
+      },
+      {
+        "symbol": "GARGOYLE",
+        "pairAddress": "GNQ5oFZi7kocX5KarfZH1FitobhFkAyhvF1KijRDdcH4",
+        "entryTime": "2026-04-22T00:32:17.953Z"
       }
     ],
     "wins": 0,
@@ -4274,7 +4279,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:28:00.231Z",
-    "lastSeen": "2026-04-21T19:09:41.757Z",
+    "lastSeen": "2026-04-22T00:32:17.953Z",
     "confirmed": true
   },
   "2Pw73kx6vPeY6bnKXypgHdfrnKbWV6jXoqRFf8iF2xuW": {
