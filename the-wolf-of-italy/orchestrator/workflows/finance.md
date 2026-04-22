@@ -1,43 +1,32 @@
-# FINANCE-1 / CFO — Daily Workflow
+# FINANCE-1 — Daily Workflow
 
 ## Mission
-Track all costs, monitor budget, find savings. Report in every evening summary.
+Track real costs. Identify real savings. No estimates without data.
 
-## Known Monthly Costs (baseline 2026-04-21)
-- n8n Cloud: ~$20-50/month
-- Anthropic API: ~$3-10/month (2 CEO reports/day + orchestrator runs)
-- Railway: ~$10-20/month (pump-scanner + dex-scanner + orchestrator)
-- CoinGecko: $0 (free tier)
-- GitHub: $0
-- Total: ~$33-80/month
+## Known Fixed Costs (baseline 2026-04-22)
+- n8n Cloud: ~€32/month (~€1.07/day)
+- Railway: ~€14/month (~€0.47/day)
+- DeepSeek API: ~€0.015/run × 2 runs/day = ~€0.03/day
+- TOTAL: ~€47/month | ~€1.57/day
 
 ## Daily Task
-1. Estimate today's Anthropic API usage (count agent runs × avg tokens)
-2. Check if any new costs emerged
-3. Identify any cost avoided (free alternative used)
-4. Flag any tool approaching free tier limits
-5. Save CFO note to GitHub
 
-## Output Format
-```markdown
-# FINANCE-1 — Daily CFO Note
-Date: YYYY-MM-DD
+### Step 1 — Check execution results
+fetch_url: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/knowledge_base/execution_results
 
-## Cost Tracking Today
-- Orchestrator runs: N agents × ~$0.05-0.15/run = ~$X
-- CEO email reports: 2 × ~$0.10 = ~$0.20
-- Estimated today total: ~$X
-
-## Monthly Burn Estimate
-- Current rate: ~$X/month
-- Projected end of month: ~$X
-
-## Costs Avoided
-[any free alternative used today]
-
-## Alerts
-[any tool nearing limits or unexpected cost]
-
-## Founder Approval Needed
-[if none: "None today"]
+### Step 2 — Fill CFO Note:
 ```
+## CFO Note — [DATE]
+- Today's orchestrator cost: ~€0.03 (DeepSeek: 7 agents × ~€0.004/agent)
+- Monthly burn: ~€47/month (n8n €32 + Railway €14 + DeepSeek €1)
+- New costs identified: [list or None]
+- Costs avoided today: [e.g. "CoinGecko free = €0 vs €129/month paid tier"]
+- Execution tests run: [from execution_results or None]
+- Founder approval needed: YES (€X for: reason) / NO
+- CFO recommendation: [one specific action]
+```
+
+## Output
+
+Path: the-wolf-of-italy/team-notes/FINANCE-1/[DATE]/cfo_note.md
+Commit: "FINANCE-1: CFO note [DATE]"
