@@ -110,7 +110,7 @@ ACTION: YES / NO
 def stage5_task() -> str:
     return f"""You are CEO-ORCHESTRATOR running Stage 5 (cycle close). Date: {DATE}.
 
-Your job: read all today's outputs, write meeting notes and handoff.
+Your job: read all today's outputs, write meeting notes, write handoff, then send emails.
 
 Step 1 — Read today's key files (decode base64; note MISSING if 404):
 - fetch_url: .../contents/{KB}/eligibility_scores/{DATE}.md
@@ -185,4 +185,28 @@ Format:
 2.
 3.
 ```
+
+Step 4 — Send CEO Daily Report email:
+Call send_proposal_email with:
+- subject: "CEO Daily Report — {DATE}"
+- body: a concise Italian-language summary of today's cycle (5-8 lines max):
+  * Wallet: balance + USD value
+  * Decision: ACTION YES/NO + one-line rationale
+  * Proposal: what was proposed (or "Nessuna azione oggi")
+  * Issues: any MISSING agents or errors
+  * Next: priority for tomorrow
+
+Example body:
+```
+CEO Daily Report — {DATE}
+
+💰 Wallet: 0.61 SOL ($54)
+✅ Decisione: ACTION YES — Jupiter baseline
+📋 Proposta: 0.20 SOL → posizione Jupiter (email investitore inviata separatamente)
+⚠️  Issues: AIRDROP-HUNTER-1 team-notes mancanti
+➡️  Domani: verifica on-chain esecuzione Jupiter
+```
+
+Do NOT include technical DeFi jargon in the CEO Daily Report — write in plain Italian.
+Do NOT re-send an Investment Alert here — that is CFO-SECURITY-1's job.
 """
