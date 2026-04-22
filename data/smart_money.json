@@ -2554,12 +2554,17 @@
     "confirmed": false
   },
   "2UbxByt52zcbTHEuwqovjKAbeUxa7j9okypHtRr7kL69": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
         "pairAddress": "HaFUCubqNqQosJ44EChp3tYJ8ybcYe7HQDCZFMsFtSZc",
         "entryTime": "2026-04-21T06:36:38.568Z"
+      },
+      {
+        "symbol": "EXPEDITION",
+        "pairAddress": "AsBDnZH5CCd4Prp4wFf2PAQRp9zG5mn6xA7ByhGaoYZs",
+        "entryTime": "2026-04-22T03:51:04.489Z"
       }
     ],
     "wins": 0,
@@ -2567,7 +2572,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:36:38.568Z",
-    "lastSeen": "2026-04-21T06:36:38.568Z",
+    "lastSeen": "2026-04-22T03:51:04.489Z",
     "confirmed": false
   },
   "CsBBAdCGpjMtRaDxnQp3nWqBBR4VfZoWDPt9Y8BKzhnt": {
@@ -4266,7 +4271,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "420",
@@ -4292,6 +4297,11 @@
         "symbol": "ETF",
         "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
         "entryTime": "2026-04-22T01:38:36.618Z"
+      },
+      {
+        "symbol": "EXPEDITION",
+        "pairAddress": "AsBDnZH5CCd4Prp4wFf2PAQRp9zG5mn6xA7ByhGaoYZs",
+        "entryTime": "2026-04-22T03:51:04.489Z"
       }
     ],
     "wins": 0,
@@ -4299,7 +4309,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:28:00.231Z",
-    "lastSeen": "2026-04-22T01:38:36.618Z",
+    "lastSeen": "2026-04-22T03:51:04.489Z",
     "confirmed": true
   },
   "2Pw73kx6vPeY6bnKXypgHdfrnKbWV6jXoqRFf8iF2xuW": {
