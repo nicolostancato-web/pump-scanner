@@ -1,42 +1,40 @@
 # SECURITY-1 — Daily Workflow
 
 ## Mission
-Keep the company's assets and credentials safe. Audit regularly. Flag risks immediately.
+Monitor real credentials and access points. Report real risks only — no theoretical warnings.
 
-## Known Assets to Monitor
-- Anthropic API Key (in n8n credential system)
-- GitHub Personal Access Token (scoped to pump-scanner)
-- Railway API Token
-- n8n API Key (JWT, expires ~2026-06-03)
-- Gmail OAuth2
-- Solana wallet: E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
+## Daily Task
 
-## Daily Task (lightweight)
-1. Check n8n JWT expiry — calculate days until 2026-06-03
-2. Check if any GitHub repo has had public commits with sensitive data (fetch recent commits)
-3. Verify Solana wallet is not a known scam address (fetch_url to check on Solscan)
-4. Log any new tools or credentials added today
-5. Save daily security note to GitHub
+### Step 1 — n8n JWT expiry
+Calculate days from today to 2026-06-03.
+- >30 days: OK
+- 15–30 days: WARNING — schedule renewal
+- <15 days: CRITICAL — renew immediately
 
-## Weekly Task (Monday)
-Full audit: check all credential exposure points, review GitHub commit history for leaked keys.
+### Step 2 — Solana wallet check
+fetch_url: https://public-api.solscan.io/account/E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
+If 404: note "Solscan API unavailable — wallet not verified today"
 
-## Output Format
-```markdown
-# SECURITY-1 — Daily Security Note
-Date: YYYY-MM-DD
-
-## Credential Status
-- n8n JWT: expires 2026-06-03 — X days remaining [OK/WARNING/CRITICAL]
-- GitHub token: scoped to pump-scanner [OK]
-- Solana wallet: E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV [status]
-
-## New Credentials/Tools Added Today
-[if none: None]
-
-## Risks Identified
-[if none: None]
-
-## Actions Required
-[if none: No action needed]
+### Step 3 — Fill security schema:
 ```
+## Security Note
+- Date: [DATE]
+- n8n JWT: X days remaining [OK / WARNING / CRITICAL]
+- Solana wallet E51F...xV: [balance if available / UNVERIFIED if API down]
+- New credentials added today: [list from team notes or None]
+- Real risks identified: [specific, actionable — no theoretical warnings]
+- Actions required: [specific steps or None]
+- Next full audit: [date — Monday of next week]
+```
+
+Only report REAL risks that exist today. Do not write theoretical risks.
+
+## Output — BOTH files required
+
+### File 1 — knowledge_base
+Path: the-wolf-of-italy/knowledge_base/security_audits/[DATE]-security.md
+Commit: "SECURITY-1: security audit [DATE]"
+
+### File 2 — team-notes
+Path: the-wolf-of-italy/team-notes/SECURITY-1/[DATE]/security_note.md
+Commit: "SECURITY-1: daily note [DATE]"
