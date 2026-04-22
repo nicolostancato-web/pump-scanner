@@ -15297,12 +15297,17 @@
     "confirmed": false
   },
   "Gy39KSFDDbQiD3kVvTqepBveZcnGDXdFq81tqdnsyRh2": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FCC",
         "pairAddress": "7wHcZiS9vVYKs8VwgHG86SriVHZNqRZFsaEG78QBwgaT",
         "entryTime": "2026-04-21T21:34:16.949Z"
+      },
+      {
+        "symbol": "boobcoin",
+        "pairAddress": "9MmacJZnu1JviRQVDjiLxMKAUWnm3tLqd2fuZS8wqdqK",
+        "entryTime": "2026-04-22T23:59:03.681Z"
       }
     ],
     "wins": 0,
@@ -15310,7 +15315,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T21:34:16.949Z",
-    "lastSeen": "2026-04-21T21:34:16.949Z",
+    "lastSeen": "2026-04-22T23:59:03.681Z",
     "confirmed": false
   },
   "ADyshXUwM8CDGf6rg4Wodx2QSPfnZY1TXTQeeK6aQ3TU": {
@@ -34985,6 +34990,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T23:58:27.909Z",
     "lastSeen": "2026-04-22T23:58:27.909Z",
+    "confirmed": false
+  },
+  "9s9KLUGNA3PH7AXP9SBaj3TFT6RVomHbjqZzuqQUzyrw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "boobcoin",
+        "pairAddress": "9MmacJZnu1JviRQVDjiLxMKAUWnm3tLqd2fuZS8wqdqK",
+        "entryTime": "2026-04-22T23:59:03.681Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T23:59:03.681Z",
+    "lastSeen": "2026-04-22T23:59:03.681Z",
     "confirmed": false
   }
 }
