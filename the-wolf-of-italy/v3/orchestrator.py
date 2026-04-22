@@ -162,7 +162,8 @@ CEO_SYSTEM = load_ceo_system()
 
 # ── AGENT RUNNER ───────────────────────────────────────────────────────────
 
-async def run_agent(name: str, task: str, stagger: int = 0) -> dict:
+async def run_agent(name: str, task: str, stagger: int = 0, save_all: bool = False) -> dict:
+    """save_all=True disables early-exit on github_save (use for agents that write multiple files)."""
     if stagger:
         await asyncio.sleep(stagger)
 
@@ -230,7 +231,7 @@ async def run_agent(name: str, task: str, stagger: int = 0) -> dict:
                 except Exception as e:
                     result = f"Error calling {fn_name}: {e}"
 
-                if fn_name == "github_save" and isinstance(result, dict) and result.get("ok"):
+                if fn_name == "github_save" and isinstance(result, dict) and result.get("ok") and not save_all:
                     messages.append({
                         "role": "tool",
                         "tool_call_id": tc.id,
@@ -254,11 +255,15 @@ async def pause_railway_cron():
         print("  [CRON-PAUSE] RAILWAY_TOKEN not set — skipping")
         return
     query = """
-    mutation serviceInstanceUpdate($input: ServiceInstanceUpdateInput!) {
-      serviceInstanceUpdate(input: $input)
+    mutation serviceInstanceUpdate($serviceId: String!, $environmentId: String!, $input: ServiceInstanceUpdateInput!) {
+      serviceInstanceUpdate(serviceId: $serviceId, environmentId: $environmentId, input: $input)
     }
     """
-    variables = {"input": {"serviceId": RAILWAY_SERVICE_ID, "cronSchedule": ""}}
+    variables = {
+        "serviceId": RAILWAY_SERVICE_ID,
+        "environmentId": os.environ.get("RAILWAY_ENV_ID", "b2dc4bc6-de87-4324-940d-cdaecf9698ae"),
+        "input": {"cronSchedule": ""},
+    }
     async with httpx.AsyncClient(timeout=20) as http:
         r = await http.post(
             "https://backboard.railway.app/graphql/v2",
@@ -311,9 +316,9 @@ async def main():
     )
     all_results.extend(stage3_results)
 
-    # ── STAGE 5: CEO closes cycle ─────────────────────────────────────────
+    # ── STAGE 5: CEO closes cycle — needs save_all=True to write both meeting_notes + handoff
     print("\nSTAGE 5 — CEO closes cycle")
-    s5 = await run_agent("CEO-ORCHESTRATOR", stage5_task())
+    s5 = await run_agent("CEO-ORCHESTRATOR", stage5_task(), save_all=True)
     all_results.append(s5)
 
     # ── SUMMARY ───────────────────────────────────────────────────────────
