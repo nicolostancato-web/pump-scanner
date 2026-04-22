@@ -7,7 +7,7 @@ Use real on-chain data. No estimates.
 ## Daily Task
 
 ### Step 1 — Read wallet state:
-Call get_sol_balance with wallet: E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
+Call get_sol_balance with wallet: 9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt
 Call get_token_accounts with same wallet
 Call get_recent_transactions (limit 20) to see recent activity
 
@@ -30,7 +30,7 @@ Format:
 ```
 # Eligibility Scores — [DATE]
 
-## Wallet: E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
+## Wallet: 9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt
 SOL balance: X.XX SOL ($XX.XX at $XXX/SOL)
 Token positions: [list or None]
 Recent activity: [N transactions in last 7 days]
