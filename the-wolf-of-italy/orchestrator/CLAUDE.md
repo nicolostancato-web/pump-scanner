@@ -7,7 +7,7 @@ Never use personal names. Use only: The Wolf of Italy, CEO, team name.
 
 ## Mission
 Maximize legal profit through AI, automation, crypto. Prefer zero-cost tests.
-Wallet Solana: E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
+Wallet Solana: 9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt
 
 ## Reality Rule
 Every output must be:
