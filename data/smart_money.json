@@ -22496,12 +22496,17 @@
     "confirmed": false
   },
   "HpBQZoprdtWC9MFZoLEKSi1PvSFhGFYDJt9ryxooUHCT": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SHIMO",
         "pairAddress": "8baPMNmXKZFcFLygGQXeAX2nWnmpgzEWuW2eReEZ3Uuu",
         "entryTime": "2026-04-22T08:42:52.485Z"
+      },
+      {
+        "symbol": "MTGA",
+        "pairAddress": "6n3tQRpmohtm9FCbUoxZ4zxU4kECNY96qxjuFCPi9j2J",
+        "entryTime": "2026-04-22T10:13:55.324Z"
       }
     ],
     "wins": 0,
@@ -22509,7 +22514,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T08:42:52.485Z",
-    "lastSeen": "2026-04-22T08:42:52.485Z",
+    "lastSeen": "2026-04-22T10:13:55.324Z",
     "confirmed": false
   },
   "fkmyrmxkurctqZtbRj9j4AqwJrvu6buXHtEXdVq262p": {
@@ -23989,6 +23994,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T10:13:17.380Z",
     "lastSeen": "2026-04-22T10:13:17.380Z",
+    "confirmed": false
+  },
+  "64Bp6YMUEFtNP9jBXmvfGd1ZXeAALKDramMmeinihGim": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MTGA",
+        "pairAddress": "6n3tQRpmohtm9FCbUoxZ4zxU4kECNY96qxjuFCPi9j2J",
+        "entryTime": "2026-04-22T10:13:55.324Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T10:13:55.324Z",
+    "lastSeen": "2026-04-22T10:13:55.324Z",
     "confirmed": false
   }
 }
