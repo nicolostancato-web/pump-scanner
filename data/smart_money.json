@@ -16763,12 +16763,17 @@
     "confirmed": false
   },
   "8bLFDdTr6AGGYM4wKSD4QNyvHe5VcjSutenTWw9YAUBb": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "GARGOYLE",
         "pairAddress": "GNQ5oFZi7kocX5KarfZH1FitobhFkAyhvF1KijRDdcH4",
         "entryTime": "2026-04-22T00:12:41.456Z"
+      },
+      {
+        "symbol": "ALIENPEPE",
+        "pairAddress": "DiQqC5eXucufSPPa4GMnaH6PTH9PV1vGurRVK7Y3yg61",
+        "entryTime": "2026-04-22T11:27:59.492Z"
       }
     ],
     "wins": 0,
@@ -16776,7 +16781,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T00:12:41.456Z",
-    "lastSeen": "2026-04-22T00:12:41.456Z",
+    "lastSeen": "2026-04-22T11:27:59.492Z",
     "confirmed": false
   },
   "3CD4sF4FAkPHpQCza2EYCARUDKDSSbbWuYVYEzQZHGsD": {
@@ -24929,6 +24934,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T11:27:29.886Z",
     "lastSeen": "2026-04-22T11:27:29.886Z",
+    "confirmed": false
+  },
+  "CvVf2GKSzFEhBSd3MgfCLpLnaYaWTh35x6eB8kYJsMFZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ALIENPEPE",
+        "pairAddress": "DiQqC5eXucufSPPa4GMnaH6PTH9PV1vGurRVK7Y3yg61",
+        "entryTime": "2026-04-22T11:27:59.492Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T11:27:59.492Z",
+    "lastSeen": "2026-04-22T11:27:59.492Z",
     "confirmed": false
   }
 }
