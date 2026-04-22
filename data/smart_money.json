@@ -3584,12 +3584,17 @@
     "confirmed": false
   },
   "52oc72vjNbpUhF7jNE1pPAvc17JwBTyxybFp3u7PvetG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SIF",
         "pairAddress": "8HfLQa1stNK1pS9qTJFegLLuKeH3UyjrhA5Vku1q4PWG",
         "entryTime": "2026-04-21T09:02:16.569Z"
+      },
+      {
+        "symbol": "CHAD",
+        "pairAddress": "3kPF3DzZ9LJ6MWFhTPUZuXNVinH1rALPRPF2KDmKQV4V",
+        "entryTime": "2026-04-22T23:18:30.050Z"
       }
     ],
     "wins": 0,
@@ -3597,7 +3602,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T09:02:16.569Z",
-    "lastSeen": "2026-04-21T09:02:16.569Z",
+    "lastSeen": "2026-04-22T23:18:30.050Z",
     "confirmed": false
   },
   "FfgKfAP6HAeMBQBZqMWvjNYVgdEygfzn343i8bv5mPRY": {
