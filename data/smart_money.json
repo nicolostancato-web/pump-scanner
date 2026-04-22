@@ -25148,12 +25148,17 @@
     "confirmed": false
   },
   "3Yk28By1iuGPvBCmDASUCcXTiDPKrh6kQjtLeGBvQUcX": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ALIENPEPE",
         "pairAddress": "DiQqC5eXucufSPPa4GMnaH6PTH9PV1vGurRVK7Y3yg61",
         "entryTime": "2026-04-22T11:24:18.965Z"
+      },
+      {
+        "symbol": "FROGDOG",
+        "pairAddress": "FsNhUB3TDVnvfQ2k35NuVTxEq5jRoCPuw5j5QtL163CG",
+        "entryTime": "2026-04-22T20:49:01.403Z"
       }
     ],
     "wins": 0,
@@ -25161,7 +25166,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T11:24:18.965Z",
-    "lastSeen": "2026-04-22T11:24:18.965Z",
+    "lastSeen": "2026-04-22T20:49:01.403Z",
     "confirmed": false
   },
   "2SoUiMLCz8jxjTAo9muDgDTyUvoxrwKcijURSKC2bJMt": {
@@ -31858,6 +31863,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T20:47:19.265Z",
     "lastSeen": "2026-04-22T20:47:19.265Z",
+    "confirmed": false
+  },
+  "5kT63Eo9K96w32awZNFYBJ9CRygk4dujzRucf7xGhXWd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FROGDOG",
+        "pairAddress": "FsNhUB3TDVnvfQ2k35NuVTxEq5jRoCPuw5j5QtL163CG",
+        "entryTime": "2026-04-22T20:49:01.403Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T20:49:01.403Z",
+    "lastSeen": "2026-04-22T20:49:01.403Z",
     "confirmed": false
   }
 }
