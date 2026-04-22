@@ -1,0 +1,10 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "python orchestrator.py"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 2
+
+# Cron: 08:30 + 20:30 Rome time = 06:30 + 18:30 UTC (summer)
+cronSchedule = "30 6,18 * * *"
