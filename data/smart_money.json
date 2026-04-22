@@ -2076,7 +2076,7 @@
     "confirmed": false
   },
   "J6ikwyMc255MAGwKkTDCMDDvKfZWytg8Dg5q1t7wSRCs": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "FUMES",
@@ -2087,6 +2087,11 @@
         "symbol": "SOLMONEY",
         "pairAddress": "8YZJZEEYycqKpnheiMDo1ZXWEKyNwK9jA9X94rG6PVUJ",
         "entryTime": "2026-04-21T19:57:21.825Z"
+      },
+      {
+        "symbol": "MTGA",
+        "pairAddress": "6n3tQRpmohtm9FCbUoxZ4zxU4kECNY96qxjuFCPi9j2J",
+        "entryTime": "2026-04-22T10:11:23.232Z"
       }
     ],
     "wins": 0,
@@ -2094,8 +2099,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:22:59.437Z",
-    "lastSeen": "2026-04-21T19:57:21.825Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T10:11:23.232Z",
+    "confirmed": true
   },
   "CtNiWbDMUTGpt7FKQjYG7d8kHcsVdvdtjkDoopAq4Bjn": {
     "appearances": 1,
@@ -19229,12 +19234,17 @@
     "confirmed": false
   },
   "CBoKT2eteDiokehKuRfWfE7Caf7A4GBtn3YFEbDfu3DM": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ACTM",
         "pairAddress": "AXPfmKvKaCuRwUFZFq9mLQcmFwptkDSkYTTWnQN8CzEg",
         "entryTime": "2026-04-22T04:14:28.355Z"
+      },
+      {
+        "symbol": "MTGA",
+        "pairAddress": "6n3tQRpmohtm9FCbUoxZ4zxU4kECNY96qxjuFCPi9j2J",
+        "entryTime": "2026-04-22T10:11:23.232Z"
       }
     ],
     "wins": 0,
@@ -19242,7 +19252,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T04:14:28.355Z",
-    "lastSeen": "2026-04-22T04:14:28.355Z",
+    "lastSeen": "2026-04-22T10:11:23.232Z",
     "confirmed": false
   },
   "2YoKhLdeKonfRAZqRPEsfooCQE41YFbXJcPnHqdLW4bk": {
