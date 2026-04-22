@@ -12503,7 +12503,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "1",
@@ -12534,6 +12534,11 @@
         "symbol": "FLYINGCAR",
         "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
         "entryTime": "2026-04-21T21:42:34.171Z"
+      },
+      {
+        "symbol": "NOOB",
+        "pairAddress": "4zfVTQVo7Y1cd1HeMkEYJvh5z6wtpfdTS5ikJpkbzDdY",
+        "entryTime": "2026-04-22T15:01:35.588Z"
       }
     ],
     "wins": 0,
@@ -12541,7 +12546,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T18:54:56.860Z",
-    "lastSeen": "2026-04-21T21:42:34.171Z",
+    "lastSeen": "2026-04-22T15:01:35.588Z",
     "confirmed": true
   },
   "Eya3YhgphQ8cF7KUxobYnrSEo6YtrxtYKP9Jq7RTtvQg": {
