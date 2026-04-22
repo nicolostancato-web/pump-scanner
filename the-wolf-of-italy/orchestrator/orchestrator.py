@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """
-The Wolf of Italy — Multi-Agent Orchestrator
+The Wolf of Italy — Multi-Agent Orchestrator v2
 WAT Framework: Workflows + Agent + Tools
 
-Runs all active team agents in parallel using free Gemini 2.0 Flash.
-Each agent fetches real data and saves notes to GitHub.
+3-stage execution:
+  Stage 1 (parallel): RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1
+  Stage 2 (sequential): CEO-ORCHESTRATOR (reads research, fills execution_queue)
+  Stage 3 (parallel): EXECUTION-1, FINANCE-1, QUALITY-CONTROL-1, SECURITY-1
+
+Active agents: 8
+All other teams: NOT ACTIVE
 """
 
 import asyncio
@@ -24,15 +29,9 @@ GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_REPO = os.environ.get("GITHUB_REPO", "nicolostancato-web/pump-scanner")
 DATE = datetime.now().strftime("%Y-%m-%d")
 
-# Default: Groq free tier (6K req/day free, fast, tool calling)
-# Override with LLM_MODEL env var:
-#   "groq/llama-3.3-70b-versatile"          — free, good quality
-#   "deepseek/deepseek-chat"                 — $0.002/run, best quality
-#   "gemini/gemini-2.0-flash"                — Google free tier
-#   "anthropic/claude-haiku-4-5-20251001"    — back to Anthropic
 MODEL = os.environ.get("LLM_MODEL", "deepseek/deepseek-chat")
 
-litellm.drop_params = True  # ignore unsupported params silently
+litellm.drop_params = True
 
 # ── TOOLS ──────────────────────────────────────────────────────────────────
 
@@ -53,7 +52,7 @@ async def fetch_url(url: str) -> str:
     async with httpx.AsyncClient(timeout=20, follow_redirects=True) as http:
         r = await http.get(url, headers={"User-Agent": "WolfOfItaly-Research/1.0"})
         r.raise_for_status()
-        return r.text[:10000]
+        return r.text[:8000]
 
 async def github_save(path: str, content: str, message: str) -> dict:
     encoded = base64.b64encode(content.encode("utf-8")).decode("utf-8")
@@ -62,7 +61,6 @@ async def github_save(path: str, content: str, message: str) -> dict:
         "Accept": "application/vnd.github.v3+json",
     }
     async with httpx.AsyncClient(timeout=20) as http:
-        # Check if file exists to get its SHA (required for updates)
         existing = await http.get(
             f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}",
             headers=headers,
@@ -70,7 +68,6 @@ async def github_save(path: str, content: str, message: str) -> dict:
         body = {"message": message, "content": encoded}
         if existing.status_code == 200:
             body["sha"] = existing.json()["sha"]
-
         r = await http.put(
             f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}",
             json=body,
@@ -85,13 +82,12 @@ TOOL_REGISTRY = {
     "github_save": github_save,
 }
 
-# OpenAI-compatible tool schema (works with litellm → any provider)
 TOOLS_SCHEMA = [
     {
         "type": "function",
         "function": {
             "name": "coingecko_trending",
-            "description": "Fetch top trending cryptocurrencies from CoinGecko. Free, no API key needed.",
+            "description": "Fetch top trending cryptocurrencies from CoinGecko.",
             "parameters": {"type": "object", "properties": {}, "required": []},
         },
     },
@@ -99,10 +95,10 @@ TOOLS_SCHEMA = [
         "type": "function",
         "function": {
             "name": "coingecko_markets",
-            "description": "Fetch top cryptocurrencies by volume with 24h price change. Returns price, volume, % change.",
+            "description": "Fetch top cryptocurrencies by volume with 24h price change.",
             "parameters": {
                 "type": "object",
-                "properties": {"limit": {"type": "integer", "description": "Number of coins to fetch (max 50)", "default": 20}},
+                "properties": {"limit": {"type": "integer", "default": 20}},
                 "required": [],
             },
         },
@@ -111,10 +107,10 @@ TOOLS_SCHEMA = [
         "type": "function",
         "function": {
             "name": "fetch_url",
-            "description": "Fetch content from any public URL. Use for APIs, web pages, RSS feeds, JSON endpoints.",
+            "description": "Fetch content from any public URL.",
             "parameters": {
                 "type": "object",
-                "properties": {"url": {"type": "string", "description": "The URL to fetch"}},
+                "properties": {"url": {"type": "string"}},
                 "required": ["url"],
             },
         },
@@ -123,13 +119,13 @@ TOOLS_SCHEMA = [
         "type": "function",
         "function": {
             "name": "github_save",
-            "description": "Save a file to the GitHub repository. Use to persist all research notes and outputs.",
+            "description": "Save a file to the GitHub repository. Creates or updates the file.",
             "parameters": {
                 "type": "object",
                 "properties": {
-                    "path": {"type": "string", "description": "File path in repo. Example: the-wolf-of-italy/team-notes/RESEARCH-CRYPTO-1/2026-04-21/raw_notes.md"},
-                    "content": {"type": "string", "description": "File content in markdown format"},
-                    "message": {"type": "string", "description": "Git commit message"},
+                    "path": {"type": "string"},
+                    "content": {"type": "string"},
+                    "message": {"type": "string"},
                 },
                 "required": ["path", "content", "message"],
             },
@@ -148,17 +144,16 @@ CEO_SYSTEM = load_ceo_system()
 # ── AGENT RUNNER ───────────────────────────────────────────────────────────
 
 async def run_agent(name: str, task: str, stagger: int = 0) -> dict:
-    """Run one agent in an agentic loop until it saves its output and returns."""
     if stagger:
         await asyncio.sleep(stagger)
 
-    system = CEO_SYSTEM + f"\n\nYou are acting as {name}. Date: {DATE}."
+    system = CEO_SYSTEM + f"\n\nYou are acting as {name}. Today's date: {DATE}."
     messages = [
         {"role": "system", "content": system},
         {"role": "user", "content": task},
     ]
 
-    print(f"  [{name}] starting... (model: {MODEL})")
+    print(f"  [{name}] starting...")
 
     for iteration in range(20):
         for attempt in range(3):
@@ -190,8 +185,6 @@ async def run_agent(name: str, task: str, stagger: int = 0) -> dict:
 
         if finish_reason == "tool_calls":
             tool_calls = choice.message.tool_calls or []
-
-            # Append assistant message with tool calls
             messages.append({
                 "role": "assistant",
                 "content": choice.message.content,
@@ -199,16 +192,12 @@ async def run_agent(name: str, task: str, stagger: int = 0) -> dict:
                     {
                         "id": tc.id,
                         "type": "function",
-                        "function": {
-                            "name": tc.function.name,
-                            "arguments": tc.function.arguments,
-                        },
+                        "function": {"name": tc.function.name, "arguments": tc.function.arguments},
                     }
                     for tc in tool_calls
                 ],
             })
 
-            # Execute each tool and append result
             for tc in tool_calls:
                 fn_name = tc.function.name
                 try:
@@ -216,20 +205,22 @@ async def run_agent(name: str, task: str, stagger: int = 0) -> dict:
                 except json.JSONDecodeError:
                     fn_args = {}
                 fn = TOOL_REGISTRY.get(fn_name)
-                print(f"  [{name}] tool: {fn_name}({list(fn_args.keys())})")
+                print(f"  [{name}] → {fn_name}({list(fn_args.keys())})")
                 try:
                     result = await fn(**fn_args) if fn else f"Tool {fn_name} not found"
                 except Exception as e:
                     result = f"Error calling {fn_name}: {e}"
-                # If github_save succeeded, agent is done
+
+                # Stop as soon as github_save succeeds
                 if fn_name == "github_save" and isinstance(result, dict) and result.get("ok"):
                     messages.append({
                         "role": "tool",
                         "tool_call_id": tc.id,
                         "content": json.dumps(result),
                     })
-                    print(f"  [{name}] done after {iteration+1} steps")
-                    return {"name": name, "status": "ok", "output": f"Saved to {result['path']}"}
+                    print(f"  [{name}] done after {iteration+1} steps (saved)")
+                    return {"name": name, "status": "ok", "output": f"Saved: {result['path']}"}
+
                 messages.append({
                     "role": "tool",
                     "tool_call_id": tc.id,
@@ -238,24 +229,29 @@ async def run_agent(name: str, task: str, stagger: int = 0) -> dict:
 
     return {"name": name, "status": "timeout", "output": "Max iterations reached"}
 
-# ── AGENT DEFINITIONS ──────────────────────────────────────────────────────
+# ── WORKFLOW LOADER ────────────────────────────────────────────────────────
 
 def load_workflow(filename: str) -> str:
     path = Path(__file__).parent / "workflows" / filename
     return path.read_text() if path.exists() else ""
 
-ACTIVE_AGENTS = [
+# ── AGENT TASKS ────────────────────────────────────────────────────────────
+
+KB = "the-wolf-of-italy/knowledge_base"
+NOTES = "the-wolf-of-italy/team-notes"
+
+STAGE1_AGENTS = [
     {
         "name": "RESEARCH-CRYPTO-1",
         "task": f"""You are RESEARCH-CRYPTO-1. Date: {DATE}.
 
 {load_workflow("research_crypto.md")}
 
-Execute your full daily workflow now. Use coingecko_trending and coingecko_markets.
-Find at least 1 concrete opportunity. Save to GitHub at:
-  the-wolf-of-italy/team-notes/RESEARCH-CRYPTO-1/{DATE}/raw_notes.md
-Commit: "RESEARCH-CRYPTO-1: raw notes {DATE}"
-After saving, summarize the top signal found.""",
+Execute now. Save BOTH files:
+1. {KB}/opportunities/crypto-{DATE}.md — opportunity schemas (max 3)
+2. {NOTES}/RESEARCH-CRYPTO-1/{DATE}/raw_notes.md — full raw data
+
+Start with coingecko_trending, then coingecko_markets.""",
     },
     {
         "name": "RESEARCH-AI-1",
@@ -263,14 +259,11 @@ After saving, summarize the top signal found.""",
 
 {load_workflow("research_ai.md")}
 
-Execute your daily workflow. IMPORTANT: make at most 4 fetch_url calls total.
-1. Fetch HackerNews top stories: https://hacker-news.firebaseio.com/v0/topstories.json
-2. Get details for the first 3 story IDs ONLY (3 calls max)
-3. Identify 3 AI monetization methods based on what you found
-Save to GitHub at:
-  the-wolf-of-italy/team-notes/RESEARCH-AI-1/{DATE}/raw_notes.md
-Commit: "RESEARCH-AI-1: raw notes {DATE}"
-After saving, summarize the best method found.""",
+Execute now. Make at most 4 fetch_url calls total. Save BOTH files:
+1. {KB}/opportunities/ai-{DATE}.md — opportunity schemas (max 3)
+2. {NOTES}/RESEARCH-AI-1/{DATE}/raw_notes.md — full analysis
+
+Start with HackerNews topstories, then 3 story details max.""",
     },
     {
         "name": "RESEARCH-MARKET-1",
@@ -278,57 +271,80 @@ After saving, summarize the best method found.""",
 
 {load_workflow("research_market.md")}
 
-Execute your full daily workflow:
-1. Fetch https://hacker-news.firebaseio.com/v0/topstories.json
-2. Get details for first 3 story IDs
-3. Fetch https://api.llama.fi/protocols (DeFiLlama)
-4. Identify 3 market signals
-Save to GitHub at:
-  the-wolf-of-italy/team-notes/RESEARCH-MARKET-1/{DATE}/raw_notes.md
-Commit: "RESEARCH-MARKET-1: raw notes {DATE}"
-After saving, confirm.""",
+Execute now. Make at most 5 fetch_url calls total. Save BOTH files:
+1. {KB}/opportunities/market-{DATE}.md — signal schemas (max 3)
+2. {NOTES}/RESEARCH-MARKET-1/{DATE}/raw_notes.md — full analysis
+
+Start with HackerNews, then 3 story details, then DeFiLlama.""",
     },
+]
+
+CEO_ORCHESTRATOR_TASK = f"""You are CEO-ORCHESTRATOR. Date: {DATE}.
+
+Your job: read today's research output and select the best opportunities for Execution.
+
+Step 1 — Read all 3 opportunity files:
+- fetch_url: https://api.github.com/repos/{GITHUB_REPO}/contents/{KB}/opportunities/crypto-{DATE}.md
+- fetch_url: https://api.github.com/repos/{GITHUB_REPO}/contents/{KB}/opportunities/ai-{DATE}.md
+- fetch_url: https://api.github.com/repos/{GITHUB_REPO}/contents/{KB}/opportunities/market-{DATE}.md
+
+NOTE: Files may not exist yet if Stage 1 just ran. If a file returns 404, skip it and work with what's available.
+
+Step 2 — Select max 2 opportunities that meet ALL criteria:
+- Zero cost to test
+- Testable in <4 hours
+- Legal
+- No new credentials needed
+
+Step 3 — Save to execution_queue:
+Path: {KB}/execution_queue/{DATE}-queue.md
+Commit: "CEO-ORCHESTRATOR: execution queue {DATE}"
+
+Queue file format:
+```
+# Execution Queue — {DATE}
+Selected by: CEO-ORCHESTRATOR
+
+## Selected Opportunity 1
+[paste the full opportunity schema]
+CEO rationale: [why this was selected]
+
+## Selected Opportunity 2 (if any)
+[paste the full opportunity schema]
+CEO rationale: [why this was selected]
+
+## Rejected Opportunities
+[list rejected ones with reason: too risky / needs capital / not zero-cost]
+```
+
+If NO opportunities meet the criteria, save the queue file with:
+"No opportunities meet zero-cost + <4h criteria today. Recommendation: [what Research should improve tomorrow]"
+"""
+
+STAGE3_AGENTS = [
     {
         "name": "EXECUTION-1",
         "task": f"""You are EXECUTION-1. Date: {DATE}.
 
 {load_workflow("execution.md")}
 
-Step 1: Try to fetch pending opportunities from GitHub:
-  fetch_url: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/knowledge_base/opportunities
+Execute now. Save BOTH files:
+1. {KB}/execution_results/{DATE}-execution.md — test result schema
+2. {NOTES}/EXECUTION-1/{DATE}/execution_log.md — full log
 
-NOTE: This folder may not exist yet (404 is expected on day 1). That is fine.
-
-Step 2: Based on what you know about crypto and AI monetization, identify ONE concrete zero-cost test
-that EXECUTION-1 could run TODAY or TOMORROW. It must be:
-- Legal
-- Zero cost
-- Executable without new credentials
-- Completable in under 2 hours
-
-Example types: test a free DeFi protocol UI, verify an airdrop eligibility, benchmark a free AI API,
-check a referral program payout, verify a grant application process.
-
-Step 3: Save your execution log to GitHub. You MUST call github_save.
-Path: the-wolf-of-italy/team-notes/EXECUTION-1/{DATE}/execution_log.md
-Commit: "EXECUTION-1: daily log {DATE}"
-
-The log must include: pending opportunities reviewed, proposed next test, and steps to execute it.""",
+Read the execution queue first. A VALID test must test a business hypothesis, not just check if an API works.""",
     },
     {
         "name": "FINANCE-1",
-        "task": f"""You are FINANCE-1 / CFO. Date: {DATE}.
+        "task": f"""You are FINANCE-1. Date: {DATE}.
 
 {load_workflow("finance.md")}
 
-Today's orchestrator run: 7 agents × free Gemini model = $0.00.
-Infrastructure: n8n (~$35), Railway (~$15). Total: ~$50/month estimated.
-
-Produce CFO note with full cost breakdown and any savings identified.
-Save to GitHub at:
-  the-wolf-of-italy/team-notes/FINANCE-1/{DATE}/cfo_note.md
+Execute now. Read execution_results first, then save CFO note:
+Path: {NOTES}/FINANCE-1/{DATE}/cfo_note.md
 Commit: "FINANCE-1: CFO note {DATE}"
-After saving, confirm.""",
+
+Known costs: n8n €32 + Railway €14 + DeepSeek ~€1 = ~€47/month total.""",
     },
     {
         "name": "QUALITY-CONTROL-1",
@@ -336,18 +352,14 @@ After saving, confirm.""",
 
 {load_workflow("quality_control.md")}
 
-Check which teams produced notes today. For each team below, check if a file exists at:
-  https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/team-notes/[TEAM]/{DATE}
+Execute now. Check team-notes for: RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1, EXECUTION-1, FINANCE-1, SECURITY-1.
+Also check knowledge_base flow: opportunities/, execution_queue/, execution_results/.
 
-Teams to check: RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1, EXECUTION-1, FINANCE-1, SECURITY-1
+Save BOTH files:
+1. {KB}/qc_audits/{DATE}-audit.md — audit table + flow status
+2. {NOTES}/QUALITY-CONTROL-1/{DATE}/audit.md — same content
 
-Note: you are running in parallel with other agents, so some files may not exist yet when you check.
-Document what you find and give an honest audit score.
-
-Save QC report to GitHub at:
-  the-wolf-of-italy/team-notes/QUALITY-CONTROL-1/{DATE}/qc_report.md
-Commit: "QUALITY-CONTROL-1: audit {DATE}"
-After saving, confirm.""",
+Be honest: PASS / PARTIAL / FAIL — no fake PASS.""",
     },
     {
         "name": "SECURITY-1",
@@ -355,15 +367,11 @@ After saving, confirm.""",
 
 {load_workflow("security.md")}
 
-Run today's lightweight security check:
-1. Calculate days until n8n JWT expiry (2026-06-03 from today {DATE})
-2. Check Solana wallet on Solscan: fetch_url https://public-api.solscan.io/account/E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV
-3. Log any new credentials or risks
+Execute now. Calculate JWT days, check Solana wallet. Save BOTH files:
+1. {KB}/security_audits/{DATE}-security.md — security schema
+2. {NOTES}/SECURITY-1/{DATE}/security_note.md — same content
 
-Save security note to GitHub at:
-  the-wolf-of-italy/team-notes/SECURITY-1/{DATE}/security_note.md
-Commit: "SECURITY-1: daily note {DATE}"
-After saving, confirm.""",
+Only report REAL risks that exist today.""",
     },
 ]
 
@@ -371,27 +379,50 @@ After saving, confirm.""",
 
 async def main():
     print(f"\n{'='*60}")
-    print(f"The Wolf of Italy — Orchestrator")
-    print(f"Date: {DATE} | Agents: {len(ACTIVE_AGENTS)} | Model: {MODEL}")
+    print(f"The Wolf of Italy — Orchestrator v2")
+    print(f"Date: {DATE} | Model: {MODEL}")
+    print(f"Flow: Research → CEO → Execution+Finance+QC+Security")
     print(f"{'='*60}\n")
 
-    # Stagger all agents by 8s to respect Gemini's 15 RPM free limit
-    tasks = [
-        run_agent(a["name"], a["task"], stagger=i * 8)
-        for i, a in enumerate(ACTIVE_AGENTS)
-    ]
-    results = await asyncio.gather(*tasks, return_exceptions=True)
+    all_results = []
 
+    # ── STAGE 1: Research (parallel, staggered 8s) ─────────────────────────
+    print("STAGE 1 — Research agents")
+    stage1_tasks = [
+        run_agent(a["name"], a["task"], stagger=i * 8)
+        for i, a in enumerate(STAGE1_AGENTS)
+    ]
+    stage1_results = await asyncio.gather(*stage1_tasks, return_exceptions=True)
+    all_results.extend(stage1_results)
+
+    # ── STAGE 2: CEO-ORCHESTRATOR ──────────────────────────────────────────
+    print("\nSTAGE 2 — CEO-ORCHESTRATOR (selecting opportunities)")
+    ceo_result = await run_agent("CEO-ORCHESTRATOR", CEO_ORCHESTRATOR_TASK)
+    all_results.append(ceo_result)
+
+    # ── STAGE 3: Execution + Finance + QC + Security (parallel) ───────────
+    print("\nSTAGE 3 — Execution, Finance, QC, Security")
+    stage3_tasks = [
+        run_agent(a["name"], a["task"], stagger=i * 8)
+        for i, a in enumerate(STAGE3_AGENTS)
+    ]
+    stage3_results = await asyncio.gather(*stage3_tasks, return_exceptions=True)
+    all_results.extend(stage3_results)
+
+    # ── SUMMARY ───────────────────────────────────────────────────────────
     print(f"\n{'─'*40}")
     print("SUMMARY:")
-    for r in results:
+    ok = 0
+    for r in all_results:
         if isinstance(r, Exception):
-            print(f"  ERROR: {r}")
+            print(f"  ❌ ERROR: {str(r)[:100]}")
         else:
             status = "✅" if r["status"] == "ok" else "⚠️"
+            if r["status"] == "ok":
+                ok += 1
             print(f"  {status} {r['name']}: {r['status']}")
 
-    print(f"\nOrchestrator complete — {DATE}")
+    print(f"\n{ok}/{len(all_results)} agents completed — {DATE}")
 
 if __name__ == "__main__":
     asyncio.run(main())
