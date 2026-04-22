@@ -4341,7 +4341,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "420",
@@ -4377,6 +4377,11 @@
         "symbol": "seed",
         "pairAddress": "B8j7YoiMZVh523gLAfM7TCG8MX4GcnmQXKvpDaZBEcRV",
         "entryTime": "2026-04-22T05:59:36.298Z"
+      },
+      {
+        "symbol": "ALIENPEPE",
+        "pairAddress": "DiQqC5eXucufSPPa4GMnaH6PTH9PV1vGurRVK7Y3yg61",
+        "entryTime": "2026-04-22T11:18:53.680Z"
       }
     ],
     "wins": 0,
@@ -4384,7 +4389,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:28:00.231Z",
-    "lastSeen": "2026-04-22T05:59:36.298Z",
+    "lastSeen": "2026-04-22T11:18:53.680Z",
     "confirmed": true
   },
   "2Pw73kx6vPeY6bnKXypgHdfrnKbWV6jXoqRFf8iF2xuW": {
