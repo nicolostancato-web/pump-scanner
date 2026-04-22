@@ -55,13 +55,14 @@ CFO-SECURITY-1
 ## Infrastructure Costs
 - Railway: ~€14/month (~€0.47/day)
 - DeepSeek: ~€0.01/cycle
-- n8n: [€32/month if still active / €0 if deactivated]
-- TOTAL monthly: ~€15 (if n8n deactivated) / ~€47 (if n8n active)
+- TOTAL monthly: ~€15
+
+NOTE: n8n è infrastruttura condivisa del founder (forniture, ristorante, trading, magazzino). NON includere n8n nei costi Wolf of Italy. Solo Railway + LLM sono costi reali di Wolf of Italy.
 
 ## Security Flags
 [REAL flags only — e.g. "Drift TVL dropped 40% in 24h" or "n8n JWT expires in X days"]
 [If no real flags: "No flags today"]
 
 ## CFO Recommendation
-[One concrete action — e.g. "Deactivate n8n to save €32/month" or "No action needed"]
+[One concrete action — e.g. "Execute Jupiter proposal" or "No action needed"]
 ```
