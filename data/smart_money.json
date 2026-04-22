@@ -3024,7 +3024,7 @@
     "confirmed": false
   },
   "1aDerPKk87xJHCAqTY5bGxF5Xet2MG476y4Zmq2WJ8Y": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SIF",
@@ -3035,6 +3035,11 @@
         "symbol": "earthcoin",
         "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
         "entryTime": "2026-04-22T05:32:55.106Z"
+      },
+      {
+        "symbol": "SCAMBODIA",
+        "pairAddress": "3gwrRpSYhAZT5P82iPLBDrnFGYJLdCDeJmmAqHiJQYKf",
+        "entryTime": "2026-04-22T08:12:58.089Z"
       }
     ],
     "wins": 0,
@@ -3042,8 +3047,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T08:46:06.709Z",
-    "lastSeen": "2026-04-22T05:32:55.106Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T08:12:58.089Z",
+    "confirmed": true
   },
   "5Q7sU7RaR6XNcztFRzDgyDRod2CPmiuq8apJp6DpjsUM": {
     "appearances": 1,
@@ -21585,6 +21590,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T08:12:23.436Z",
     "lastSeen": "2026-04-22T08:12:23.436Z",
+    "confirmed": false
+  },
+  "F9s1PBGgxhCh41G7gE91Ng7vAMbnV9TnS9NxuyZ5vp6R": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SCAMBODIA",
+        "pairAddress": "3gwrRpSYhAZT5P82iPLBDrnFGYJLdCDeJmmAqHiJQYKf",
+        "entryTime": "2026-04-22T08:12:58.089Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T08:12:58.089Z",
+    "lastSeen": "2026-04-22T08:12:58.089Z",
     "confirmed": false
   }
 }
