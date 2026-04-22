@@ -18759,12 +18759,17 @@
     "confirmed": false
   },
   "2FDFZVGGkXbb9PzLu2PgPrMMN3dHcSJEqv95muKURxJF": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "420",
         "pairAddress": "FLjnDoe7ekhpCXuruMg9DQYr4YNmnHooXxKG9uTYkjNX",
         "entryTime": "2026-04-22T02:06:01.329Z"
+      },
+      {
+        "symbol": "BTG",
+        "pairAddress": "AN44YDcgkPz7AxUWCydJje5YCqZp8WACB5kozRvuz4me",
+        "entryTime": "2026-04-22T18:48:08.354Z"
       }
     ],
     "wins": 0,
@@ -18772,7 +18777,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T02:06:01.329Z",
-    "lastSeen": "2026-04-22T02:06:01.329Z",
+    "lastSeen": "2026-04-22T18:48:08.354Z",
     "confirmed": false
   },
   "3L4XipgxjMhQk1J4YwZGEYFqnwrnkFmKYY1XD8LAfBbp": {
@@ -30578,6 +30583,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T18:47:19.706Z",
     "lastSeen": "2026-04-22T18:47:19.706Z",
+    "confirmed": false
+  },
+  "CXmMLCdi2eNAsT6gp5wfBDgbHs3gUi2unU6gUULcpdok": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BTG",
+        "pairAddress": "AN44YDcgkPz7AxUWCydJje5YCqZp8WACB5kozRvuz4me",
+        "entryTime": "2026-04-22T18:48:08.354Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T18:48:08.354Z",
+    "lastSeen": "2026-04-22T18:48:08.354Z",
     "confirmed": false
   }
 }
