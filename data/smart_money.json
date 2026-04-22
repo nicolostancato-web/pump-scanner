@@ -18834,5 +18834,22 @@
     "firstSeen": "2026-04-22T04:01:54.444Z",
     "lastSeen": "2026-04-22T04:01:54.444Z",
     "confirmed": false
+  },
+  "46LrTk76k91wDahbKU5etY3gVqYohj79pmJqCfkciXFd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "EXPEDITION",
+        "pairAddress": "AsBDnZH5CCd4Prp4wFf2PAQRp9zG5mn6xA7ByhGaoYZs",
+        "entryTime": "2026-04-22T04:02:29.069Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T04:02:29.069Z",
+    "lastSeen": "2026-04-22T04:02:29.069Z",
+    "confirmed": false
   }
 }
