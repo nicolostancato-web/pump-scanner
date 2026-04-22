@@ -4261,7 +4261,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "420",
@@ -4282,6 +4282,11 @@
         "symbol": "GARGOYLE",
         "pairAddress": "GNQ5oFZi7kocX5KarfZH1FitobhFkAyhvF1KijRDdcH4",
         "entryTime": "2026-04-22T00:32:17.953Z"
+      },
+      {
+        "symbol": "ETF",
+        "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
+        "entryTime": "2026-04-22T01:38:36.618Z"
       }
     ],
     "wins": 0,
@@ -4289,7 +4294,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:28:00.231Z",
-    "lastSeen": "2026-04-22T00:32:17.953Z",
+    "lastSeen": "2026-04-22T01:38:36.618Z",
     "confirmed": true
   },
   "2Pw73kx6vPeY6bnKXypgHdfrnKbWV6jXoqRFf8iF2xuW": {
@@ -17647,6 +17652,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T01:37:03.811Z",
     "lastSeen": "2026-04-22T01:37:03.811Z",
+    "confirmed": false
+  },
+  "ChbGVsk7FjrTtkyGEFfzSiQsWcrCvr99C14DiUyhuAUU": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ETF",
+        "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
+        "entryTime": "2026-04-22T01:38:36.618Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T01:38:36.618Z",
+    "lastSeen": "2026-04-22T01:38:36.618Z",
     "confirmed": false
   }
 }
