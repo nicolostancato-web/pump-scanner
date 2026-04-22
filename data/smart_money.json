@@ -3826,7 +3826,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Bitshark",
@@ -3852,6 +3852,11 @@
         "symbol": "Andrew",
         "pairAddress": "HcVZ1GG6bvm1Gd6EZaBAaXhcGwDsQRWB9i19SW1pJeC5",
         "entryTime": "2026-04-21T21:49:28.768Z"
+      },
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T06:54:35.218Z"
       }
     ],
     "wins": 0,
@@ -3859,7 +3864,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:04:08.925Z",
-    "lastSeen": "2026-04-21T21:49:28.768Z",
+    "lastSeen": "2026-04-22T06:54:35.218Z",
     "confirmed": true
   },
   "4kSmFFKcDqoRJzUfmpBeQJwnMLwmxZbvHiN9DVZjYcU2": {
@@ -20546,6 +20551,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T06:53:59.776Z",
     "lastSeen": "2026-04-22T06:53:59.776Z",
+    "confirmed": false
+  },
+  "Cy8UVafDz1oAdo2aGp54M86NNXbdz53P4WtaBuZDCvPR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TOFU",
+        "pairAddress": "GXxybNSAYMBnmo2TGPqKSqCutq1uPgYjovQCH2rh57NS",
+        "entryTime": "2026-04-22T06:54:35.218Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T06:54:35.218Z",
+    "lastSeen": "2026-04-22T06:54:35.218Z",
     "confirmed": false
   }
 }
