@@ -7705,12 +7705,17 @@
     "confirmed": false
   },
   "GD9ckGSn2mQVrqqjYZb5MuASGeRcbcfGcYtEG4gYSFni": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "JACKSON",
         "pairAddress": "BERu3VCW7TabEfjwhZGtZNC4pHHQE9Y9UJ4T3nZmNB9d",
         "entryTime": "2026-04-21T14:31:56.303Z"
+      },
+      {
+        "symbol": "AAVESCAM",
+        "pairAddress": "6j1bYNiATVBSYWWd2oz7Np6zdRM5Xb8asPK42FM386JD",
+        "entryTime": "2026-04-22T12:32:57.895Z"
       }
     ],
     "wins": 0,
@@ -7718,7 +7723,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:31:56.303Z",
-    "lastSeen": "2026-04-21T14:31:56.303Z",
+    "lastSeen": "2026-04-22T12:32:57.895Z",
     "confirmed": false
   },
   "DoZhg3omfoqfGNQSK9mN562hiBNYGQ26HnSKxTEZHEPj": {
@@ -25880,6 +25885,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T12:26:20.632Z",
     "lastSeen": "2026-04-22T12:26:20.632Z",
+    "confirmed": false
+  },
+  "FTkvyPynxfSLKVByEvg9gn8bvYjsR2VvnZu14hFy3oXA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AAVESCAM",
+        "pairAddress": "6j1bYNiATVBSYWWd2oz7Np6zdRM5Xb8asPK42FM386JD",
+        "entryTime": "2026-04-22T12:32:57.895Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T12:32:57.895Z",
+    "lastSeen": "2026-04-22T12:32:57.895Z",
     "confirmed": false
   }
 }
