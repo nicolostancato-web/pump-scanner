@@ -24263,5 +24263,22 @@
     "firstSeen": "2026-04-22T10:49:52.536Z",
     "lastSeen": "2026-04-22T10:49:52.536Z",
     "confirmed": false
+  },
+  "HLgnWmUWxMUhkQ3JiePKqA3ComUV4vTDwzDxA3PvdXG6": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MEOW",
+        "pairAddress": "8djjgCFzLriPLCkdgmLPVEvxofHrzQRaFJrRGz4xjgKU",
+        "entryTime": "2026-04-22T10:51:27.409Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T10:51:27.409Z",
+    "lastSeen": "2026-04-22T10:51:27.409Z",
+    "confirmed": false
   }
 }
