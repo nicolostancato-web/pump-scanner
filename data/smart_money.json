@@ -15444,12 +15444,17 @@
     "confirmed": false
   },
   "7YG7KWsKtSFufv9NJap9YuSZxe8UYC5rMbEtuFogVKsn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Dumban",
         "pairAddress": "9xPWyjCNYKke6LMavBS9TkQ7NJdxAok9EjfV6B1Ky5MV",
         "entryTime": "2026-04-21T22:25:38.245Z"
+      },
+      {
+        "symbol": "SOL",
+        "pairAddress": "5R6sA13JcdGad8PY75dWkaRWvpAd1fJ2JGmff76HoBfm",
+        "entryTime": "2026-04-22T01:30:24.282Z"
       }
     ],
     "wins": 0,
@@ -15457,7 +15462,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T22:25:38.245Z",
-    "lastSeen": "2026-04-21T22:25:38.245Z",
+    "lastSeen": "2026-04-22T01:30:24.282Z",
     "confirmed": false
   },
   "4WBn5c4S5F5rLwWLtNeKA5d6pvV2FoyDdxeh1XsiRYzv": {
@@ -17311,6 +17316,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T01:29:50.554Z",
     "lastSeen": "2026-04-22T01:29:50.554Z",
+    "confirmed": false
+  },
+  "3k2V1Z5FrUC8bb4NRs8aXU8vdyESWZ9raVp4ZhXX1MCW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOL",
+        "pairAddress": "5R6sA13JcdGad8PY75dWkaRWvpAd1fJ2JGmff76HoBfm",
+        "entryTime": "2026-04-22T01:30:24.282Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T01:30:24.282Z",
+    "lastSeen": "2026-04-22T01:30:24.282Z",
     "confirmed": false
   }
 }
