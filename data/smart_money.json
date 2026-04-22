@@ -16060,7 +16060,7 @@
     "confirmed": false
   },
   "CN4AG1iqQeLaZrQB2qsfJaAQgUBHeSXUK6UvC31n77UJ": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Dumban",
@@ -16076,6 +16076,11 @@
         "symbol": "BRETT",
         "pairAddress": "9YSb1BiRemmSZ6RRiCSuoabLvFWDV2xbHd8Jkp8D1fpJ",
         "entryTime": "2026-04-22T08:56:41.350Z"
+      },
+      {
+        "symbol": "CHAD",
+        "pairAddress": "3kPF3DzZ9LJ6MWFhTPUZuXNVinH1rALPRPF2KDmKQV4V",
+        "entryTime": "2026-04-22T23:21:23.612Z"
       }
     ],
     "wins": 0,
@@ -16083,7 +16088,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T22:25:02.232Z",
-    "lastSeen": "2026-04-22T08:56:41.350Z",
+    "lastSeen": "2026-04-22T23:21:23.612Z",
     "confirmed": true
   },
   "9Ugp6pUbRKpTcktegZJeyqwthNfzLuaTCtyyHK2mLLAQ": {
@@ -34423,6 +34428,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T23:20:49.787Z",
     "lastSeen": "2026-04-22T23:20:49.787Z",
+    "confirmed": false
+  },
+  "DTWAFd45uj15QL4Wtigena6RvyVFhKBzT1HXgqxECXsR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHAD",
+        "pairAddress": "3kPF3DzZ9LJ6MWFhTPUZuXNVinH1rALPRPF2KDmKQV4V",
+        "entryTime": "2026-04-22T23:21:23.612Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T23:21:23.612Z",
+    "lastSeen": "2026-04-22T23:21:23.612Z",
     "confirmed": false
   }
 }
