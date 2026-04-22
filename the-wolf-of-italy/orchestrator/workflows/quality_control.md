@@ -11,8 +11,11 @@ Teams: RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1, EXECUTION-1, FINANCE
 
 ### Step 2 — Check knowledge_base flow
 - fetch_url: .../knowledge_base/opportunities — did Research write?
-- fetch_url: .../knowledge_base/execution_queue — did CEO write?
+- fetch_url: .../knowledge_base/execution_queue — did CEO write queue?
+- fetch_url: .../knowledge_base/decision_log — did CEO write decision log?
 - fetch_url: .../knowledge_base/execution_results — did Execution write?
+- fetch_url: .../knowledge_base/finance_review — did Finance write?
+- fetch_url: .../knowledge_base/security_audits — did Security write?
 
 ### Step 3 — Score each team:
 ```
@@ -24,9 +27,12 @@ Teams: RESEARCH-CRYPTO-1, RESEARCH-AI-1, RESEARCH-MARKET-1, EXECUTION-1, FINANCE
 
 ## Inter-Agent Flow Status
 - opportunities/ written: YES/NO
-- execution_queue/ written: YES/NO  
+- execution_queue/ written: YES/NO
+- decision_log/ written: YES/NO
 - execution_results/ written: YES/NO
-- Flow complete: YES/NO / PARTIAL
+- finance_review/ written: YES/NO
+- security_audits/ written: YES/NO
+- Flow complete: YES / PARTIAL / NO
 
 ## Teams with FAIL or PARTIAL
 [list each with reason]
