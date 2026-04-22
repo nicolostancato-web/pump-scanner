@@ -7886,12 +7886,17 @@
     "confirmed": false
   },
   "41cPiogN1CBejDmaWgTrUAzAUK2sPrheLfYdrFpHWvAt": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Mogged",
         "pairAddress": "A5A9EvXrPnhgDZNye488usUs1bFnJyVWZq5seYVUfAev",
         "entryTime": "2026-04-21T14:38:48.119Z"
+      },
+      {
+        "symbol": "fsjal",
+        "pairAddress": "8E9nbDy1toT1bp3iZbtALKXbU5KYSA4WogPcqAJPSiZC",
+        "entryTime": "2026-04-22T13:56:20.294Z"
       }
     ],
     "wins": 0,
@@ -7899,7 +7904,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T14:38:48.119Z",
-    "lastSeen": "2026-04-21T14:38:48.119Z",
+    "lastSeen": "2026-04-22T13:56:20.294Z",
     "confirmed": false
   },
   "H3xPKDgA8HFNv4DaZ5yPfigCzjnfnDzcP8f42icrS1y8": {
@@ -27397,6 +27402,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T13:55:33.903Z",
     "lastSeen": "2026-04-22T13:55:33.903Z",
+    "confirmed": false
+  },
+  "BTQ18stHbNnBfZ9Q64g8m4FaxEFVHy5u7wtPanPwvjE8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "fsjal",
+        "pairAddress": "8E9nbDy1toT1bp3iZbtALKXbU5KYSA4WogPcqAJPSiZC",
+        "entryTime": "2026-04-22T13:56:20.294Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T13:56:20.294Z",
+    "lastSeen": "2026-04-22T13:56:20.294Z",
     "confirmed": false
   }
 }
