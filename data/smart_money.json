@@ -8928,7 +8928,7 @@
     "confirmed": false
   },
   "E84bqTUdsZhHMvsHneFeJwyqTixydzw3zwBUdkUSHGED": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "CONDOM",
@@ -8949,6 +8949,11 @@
         "symbol": "earthcoin",
         "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
         "entryTime": "2026-04-22T05:15:13.454Z"
+      },
+      {
+        "symbol": "BUDDY",
+        "pairAddress": "2ac8SH2U461A6z79pakaSHNtkDtmTsCp1MudwZb7gavf",
+        "entryTime": "2026-04-22T06:28:34.334Z"
       }
     ],
     "wins": 0,
@@ -8956,7 +8961,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T15:23:48.966Z",
-    "lastSeen": "2026-04-22T05:15:13.454Z",
+    "lastSeen": "2026-04-22T06:28:34.334Z",
     "confirmed": true
   },
   "6PzX3RjHzczz1UspFTeD19c2KZu5XQJvjZtnjdvoR2Lo": {
@@ -20110,6 +20115,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T06:05:55.408Z",
     "lastSeen": "2026-04-22T06:05:55.408Z",
+    "confirmed": false
+  },
+  "GrSA79WucRhmyDxHEJabVd7uF6prk9kbHdm5M2GMDysB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BUDDY",
+        "pairAddress": "2ac8SH2U461A6z79pakaSHNtkDtmTsCp1MudwZb7gavf",
+        "entryTime": "2026-04-22T06:28:34.334Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T06:28:34.334Z",
+    "lastSeen": "2026-04-22T06:28:34.334Z",
     "confirmed": false
   }
 }
