@@ -1,0 +1,59 @@
+{
+  "last_updated": "2026-04-22",
+  "wallet": "E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV",
+  "capital_usd": 50,
+  "protocols": [
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "url": "https://jup.ag",
+      "airdrop_status": "JUP3 expected Q3 2026",
+      "eligibility_criteria": [
+        "monthly swap volume",
+        "JupSOL holding"
+      ],
+      "estimated_cost_usd": 12,
+      "priority": "P1",
+      "notes": "Already did JUP1 and JUP2. Most established, highest confidence."
+    },
+    {
+      "id": "kamino",
+      "name": "Kamino Finance",
+      "url": "https://kamino.finance",
+      "airdrop_status": "Season 3 active \u2014 snapshot expected Q3 2026",
+      "eligibility_criteria": [
+        "USDC supply on money markets",
+        "SOL supply"
+      ],
+      "estimated_cost_usd": 15,
+      "priority": "P1",
+      "notes": "Season 3 actively accumulating points."
+    },
+    {
+      "id": "marginfi",
+      "name": "MarginFi",
+      "url": "https://app.marginfi.com",
+      "airdrop_status": "pre-TGE \u2014 points accumulating",
+      "eligibility_criteria": [
+        "supply on money markets",
+        "borrow activity"
+      ],
+      "estimated_cost_usd": 15,
+      "priority": "P2",
+      "notes": "TGE date unknown. Points system active."
+    },
+    {
+      "id": "drift",
+      "name": "Drift Protocol",
+      "url": "https://app.drift.trade",
+      "airdrop_status": "Season 2 announced",
+      "eligibility_criteria": [
+        "perp trading volume",
+        "spot trading"
+      ],
+      "estimated_cost_usd": 8,
+      "priority": "P2",
+      "notes": "Need trading volume. Lower capital required."
+    }
+  ]
+}
