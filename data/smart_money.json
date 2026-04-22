@@ -12895,12 +12895,17 @@
     "confirmed": false
   },
   "GFYLYgG9SserdYQM1oRrKzsAkkpaqYToBehYYoKQHkTy": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOLMONEY",
         "pairAddress": "8YZJZEEYycqKpnheiMDo1ZXWEKyNwK9jA9X94rG6PVUJ",
         "entryTime": "2026-04-21T19:44:42.945Z"
+      },
+      {
+        "symbol": "MWGA",
+        "pairAddress": "Dg7kfHiBgNxR3aAY2Bk6qVb4MZLUHuHWNUsvZk7EceHM",
+        "entryTime": "2026-04-22T07:15:39.773Z"
       }
     ],
     "wins": 0,
@@ -12908,7 +12913,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:44:42.945Z",
-    "lastSeen": "2026-04-21T19:44:42.945Z",
+    "lastSeen": "2026-04-22T07:15:39.773Z",
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
@@ -21023,6 +21028,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T07:15:02.397Z",
     "lastSeen": "2026-04-22T07:15:02.397Z",
+    "confirmed": false
+  },
+  "FiitfMg9qXTeBkfaiSbs1kfLgEnaQrz2yDs63oLT6xE1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MWGA",
+        "pairAddress": "Dg7kfHiBgNxR3aAY2Bk6qVb4MZLUHuHWNUsvZk7EceHM",
+        "entryTime": "2026-04-22T07:15:39.773Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T07:15:39.773Z",
+    "lastSeen": "2026-04-22T07:15:39.773Z",
     "confirmed": false
   }
 }
