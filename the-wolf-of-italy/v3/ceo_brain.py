@@ -8,7 +8,7 @@ from datetime import datetime
 DATE = datetime.now().strftime("%Y-%m-%d")
 REPO = "nicolostancato-web/pump-scanner"
 KB = "the-wolf-of-italy/knowledge_base"
-WALLET = "E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV"
+WALLET = "9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt"
 
 
 def stage0_task() -> str:
