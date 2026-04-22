@@ -2408,7 +2408,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 21,
+    "appearances": 22,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2514,6 +2514,11 @@
         "symbol": "papi",
         "pairAddress": "HegWM3pbb9YLVd4jSmdUdSLWC46kPd4G2Bqf63gsHaMD",
         "entryTime": "2026-04-22T18:52:05.742Z"
+      },
+      {
+        "symbol": "criptoe",
+        "pairAddress": "8FCimZaMiwBgMsvgXemVg9wUSjMfFCyBZeqirVpNrn3b",
+        "entryTime": "2026-04-22T19:35:39.495Z"
       }
     ],
     "wins": 0,
@@ -2521,7 +2526,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-22T18:52:05.742Z",
+    "lastSeen": "2026-04-22T19:35:39.495Z",
     "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
@@ -31147,6 +31152,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T19:35:04.398Z",
     "lastSeen": "2026-04-22T19:35:04.398Z",
+    "confirmed": false
+  },
+  "HzaEWpAV9HwbtarJygVeZrqBxUmv481P3S2NDXRD2Fyx": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "criptoe",
+        "pairAddress": "8FCimZaMiwBgMsvgXemVg9wUSjMfFCyBZeqirVpNrn3b",
+        "entryTime": "2026-04-22T19:35:39.495Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T19:35:39.495Z",
+    "lastSeen": "2026-04-22T19:35:39.495Z",
     "confirmed": false
   }
 }
