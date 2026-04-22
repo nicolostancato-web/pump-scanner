@@ -14563,12 +14563,17 @@
     "confirmed": false
   },
   "BA36AnwpTfKeqNhExVUFFbzUAQTyKYvJrEokKJqVCTPi": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BRICKS",
         "pairAddress": "6QrQKB4hrkUWAxXq7UtRMSCj3CcK4dxwZqUmUVVFmwpa",
         "entryTime": "2026-04-21T20:56:49.527Z"
+      },
+      {
+        "symbol": "NUMBER",
+        "pairAddress": "6iQPZ5SKDzf9V7CuMTtyY3R7VywF1GxJayE2mhfrqDmd",
+        "entryTime": "2026-04-22T18:20:35.155Z"
       }
     ],
     "wins": 0,
@@ -14576,7 +14581,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T20:56:49.527Z",
-    "lastSeen": "2026-04-21T20:56:49.527Z",
+    "lastSeen": "2026-04-22T18:20:35.155Z",
     "confirmed": false
   },
   "DLsyh51wa61kqmsZJWEDx8oLYvSb4Gy1YJ8cHTKgw5oN": {
