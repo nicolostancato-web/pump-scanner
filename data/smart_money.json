@@ -12892,7 +12892,7 @@
     "confirmed": false
   },
   "3UNWZp8Aph81aHBSShLqV2Tvu5cmAPVyVcEsz6fvSffe": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "dog",
@@ -12908,6 +12908,11 @@
         "symbol": "FLYINGCAR",
         "pairAddress": "2vdVufkRh6MQPJ9AhYctxDLr8cekiqng8FsWAhiNLn3G",
         "entryTime": "2026-04-21T21:52:43.367Z"
+      },
+      {
+        "symbol": "EVELYN",
+        "pairAddress": "5jbuf4LkAh6uwEQKWYmHv7PCh8fNBPySZyJs1DCCWpa8",
+        "entryTime": "2026-04-22T22:30:41.345Z"
       }
     ],
     "wins": 0,
@@ -12915,7 +12920,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:12:06.148Z",
-    "lastSeen": "2026-04-21T21:52:43.367Z",
+    "lastSeen": "2026-04-22T22:30:41.345Z",
     "confirmed": true
   },
   "AQM2Qyyok8t4sGVVYHxCjosCGEu8tL5Pw4KLuvjcR2uF": {
