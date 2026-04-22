@@ -11153,12 +11153,17 @@
     "confirmed": false
   },
   "7hj7EyVsLcVDEJwprXoACJoUC6rv3nPq9xrk8ugEeFcP": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "DOGE",
         "pairAddress": "DRdctdNBX3PEtFSp6AgQ1tGsj2JCtyEpT2WmMDFchaD8",
         "entryTime": "2026-04-21T17:03:43.580Z"
+      },
+      {
+        "symbol": "UBI",
+        "pairAddress": "FnNmJV3yoRSEAR62MRrzi28e4vRN5gCojjGqVu7wK7Uj",
+        "entryTime": "2026-04-22T22:02:03.369Z"
       }
     ],
     "wins": 0,
@@ -11166,7 +11171,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T17:03:43.580Z",
-    "lastSeen": "2026-04-21T17:03:43.580Z",
+    "lastSeen": "2026-04-22T22:02:03.369Z",
     "confirmed": false
   },
   "FmnaT3aaFTQHHTk5F81wdWd1MrJySBT6R3711ebVzgce": {
@@ -33209,6 +33214,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T22:01:28.366Z",
     "lastSeen": "2026-04-22T22:01:28.366Z",
+    "confirmed": false
+  },
+  "5ctt9n3vwdYy7QVqxesX5dEfzkHEyC98fuBQ9rsWdtb2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UBI",
+        "pairAddress": "FnNmJV3yoRSEAR62MRrzi28e4vRN5gCojjGqVu7wK7Uj",
+        "entryTime": "2026-04-22T22:02:03.369Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T22:02:03.369Z",
+    "lastSeen": "2026-04-22T22:02:03.369Z",
     "confirmed": false
   }
 }
