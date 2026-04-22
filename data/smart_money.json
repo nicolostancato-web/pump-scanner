@@ -8898,7 +8898,7 @@
     "confirmed": false
   },
   "E84bqTUdsZhHMvsHneFeJwyqTixydzw3zwBUdkUSHGED": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "CONDOM",
@@ -8914,6 +8914,11 @@
         "symbol": "GARGOYLE",
         "pairAddress": "GNQ5oFZi7kocX5KarfZH1FitobhFkAyhvF1KijRDdcH4",
         "entryTime": "2026-04-22T00:21:28.779Z"
+      },
+      {
+        "symbol": "earthcoin",
+        "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
+        "entryTime": "2026-04-22T05:15:13.454Z"
       }
     ],
     "wins": 0,
@@ -8921,7 +8926,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T15:23:48.966Z",
-    "lastSeen": "2026-04-22T00:21:28.779Z",
+    "lastSeen": "2026-04-22T05:15:13.454Z",
     "confirmed": true
   },
   "6PzX3RjHzczz1UspFTeD19c2KZu5XQJvjZtnjdvoR2Lo": {
@@ -19353,6 +19358,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T04:30:18.121Z",
     "lastSeen": "2026-04-22T04:30:18.121Z",
+    "confirmed": false
+  },
+  "EupjcTL5m4qTBfBoqeQ5PeBQysAV9LLCFmRibfzuTMd9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "earthcoin",
+        "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
+        "entryTime": "2026-04-22T05:15:13.454Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T05:15:13.454Z",
+    "lastSeen": "2026-04-22T05:15:13.454Z",
     "confirmed": false
   }
 }
