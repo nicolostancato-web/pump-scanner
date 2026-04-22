@@ -23600,7 +23600,7 @@
     "confirmed": false
   },
   "EcthH7q2fQuUWWknf1achQdTbNiduwkeK1g1WDXHPD1R": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "MSGA",
@@ -23611,6 +23611,11 @@
         "symbol": "Michael",
         "pairAddress": "Go1Ab4jqpn1ZgXaGtFBzLhPSjMSU4SbCrY4ikiroeAE7",
         "entryTime": "2026-04-22T10:18:32.643Z"
+      },
+      {
+        "symbol": "MEOW",
+        "pairAddress": "8djjgCFzLriPLCkdgmLPVEvxofHrzQRaFJrRGz4xjgKU",
+        "entryTime": "2026-04-22T10:58:55.157Z"
       }
     ],
     "wins": 0,
@@ -23618,8 +23623,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T09:50:22.944Z",
-    "lastSeen": "2026-04-22T10:18:32.643Z",
-    "confirmed": false
+    "lastSeen": "2026-04-22T10:58:55.157Z",
+    "confirmed": true
   },
   "8T7DHFf8EpJNcs4ab53tKdyQroEf6FKKG5yhpoBZ9wDo": {
     "appearances": 1,
