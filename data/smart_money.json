@@ -15740,12 +15740,17 @@
     "confirmed": false
   },
   "EPD4dY6VFNySjgmFfNJWuoM5m93jAQoVSroCQeoZQ2VD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ASDFH",
         "pairAddress": "2miYLvjor3yAzCdJnL9NEiR69frSSk6UY4izxtgE6qZ7",
         "entryTime": "2026-04-21T22:41:45.687Z"
+      },
+      {
+        "symbol": "earthcoin",
+        "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
+        "entryTime": "2026-04-22T05:29:11.581Z"
       }
     ],
     "wins": 0,
@@ -15753,7 +15758,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T22:41:45.687Z",
-    "lastSeen": "2026-04-21T22:41:45.687Z",
+    "lastSeen": "2026-04-22T05:29:11.581Z",
     "confirmed": false
   },
   "2Z2xUiBEiH2dJp36u2ZjusUqnsMgXwpSszXNtZdTbmwd": {
@@ -19426,6 +19431,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T05:28:37.050Z",
     "lastSeen": "2026-04-22T05:28:37.050Z",
+    "confirmed": false
+  },
+  "4hfmP8DXP2kRkNsvLWVv3F9yx812Svdf2tacn3Y1sSVf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "earthcoin",
+        "pairAddress": "7E4MTGmvWRhaseeJGYRcoWeuxwfZ7XYSyMv9bUNcdxci",
+        "entryTime": "2026-04-22T05:29:11.581Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-22T05:29:11.581Z",
+    "lastSeen": "2026-04-22T05:29:11.581Z",
     "confirmed": false
   }
 }
