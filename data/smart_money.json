@@ -119,12 +119,17 @@
     "confirmed": false
   },
   "E8JheRoFustLibR5XKqLXyMAu39nRQys53HgUedouofF": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FLORKINU",
         "pairAddress": "BkoQAMe1XKFZVuVSHrKm54xr78TGwawymqron2q5KHTL",
         "entryTime": "2026-04-23T06:24:05.302Z"
+      },
+      {
+        "symbol": "MEMETOPIA",
+        "pairAddress": "B673ccAyeGCgreXMQi7GbATuPaivPfGzSxFvsvD1Y6Kx",
+        "entryTime": "2026-04-23T22:09:22.382Z"
       }
     ],
     "wins": 0,
@@ -132,7 +137,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T06:24:05.302Z",
-    "lastSeen": "2026-04-23T06:24:05.302Z",
+    "lastSeen": "2026-04-23T22:09:22.382Z",
     "confirmed": false
   },
   "9vfRxXgStLsxDtzvTLcwjsr6KwByDcV252KficQ4Sqbd": {
@@ -14995,6 +15000,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T22:08:48.207Z",
     "lastSeen": "2026-04-23T22:08:48.207Z",
+    "confirmed": false
+  },
+  "5fL2awyF41aHigmanQZvkr3acYYrxWJnS6seQyM3AizZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MEMETOPIA",
+        "pairAddress": "B673ccAyeGCgreXMQi7GbATuPaivPfGzSxFvsvD1Y6Kx",
+        "entryTime": "2026-04-23T22:09:22.382Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T22:09:22.382Z",
+    "lastSeen": "2026-04-23T22:09:22.382Z",
     "confirmed": false
   }
 }
