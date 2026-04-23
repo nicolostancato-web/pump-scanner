@@ -652,7 +652,7 @@
     "confirmed": false
   },
   "5UQJdMyb7GPMxWjBusVCT7YarzJ7rgyp4N1PR2FHaG77": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "wif2",
@@ -663,6 +663,11 @@
         "symbol": "percocet",
         "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
         "entryTime": "2026-04-23T00:41:49.026Z"
+      },
+      {
+        "symbol": "Gooner",
+        "pairAddress": "8qeoJeobhE8bgWL4CCvkyr9TPSGpUac3aRqkADZa5ZPE",
+        "entryTime": "2026-04-23T04:30:55.725Z"
       }
     ],
     "wins": 0,
@@ -670,8 +675,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T05:45:24.040Z",
-    "lastSeen": "2026-04-23T00:41:49.026Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T04:30:55.725Z",
+    "confirmed": true
   },
   "3pxFeNf5ciiFFbAbsHpbicVP9Ryh4YFaWDpyh75qMVMP": {
     "appearances": 1,
@@ -27177,7 +27182,7 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Baddie",
@@ -27188,6 +27193,11 @@
         "symbol": "RAVEAI",
         "pairAddress": "AJxk7NALBrLmAruvqq8dPiL95SrggNNXbn23jN7BxawM",
         "entryTime": "2026-04-23T00:22:24.767Z"
+      },
+      {
+        "symbol": "Gooner",
+        "pairAddress": "8qeoJeobhE8bgWL4CCvkyr9TPSGpUac3aRqkADZa5ZPE",
+        "entryTime": "2026-04-23T04:30:55.725Z"
       }
     ],
     "wins": 0,
@@ -27195,8 +27205,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T13:06:05.166Z",
-    "lastSeen": "2026-04-23T00:22:24.767Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T04:30:55.725Z",
+    "confirmed": true
   },
   "5kc595zm59RM7W4AaeixU58xyPSXd2jekmrBPMdrEsv2": {
     "appearances": 1,
