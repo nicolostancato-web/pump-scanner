@@ -11457,12 +11457,17 @@
     "confirmed": false
   },
   "T7fwsF16v5cHQKafsxU5eJ9cA5H8SiU5s8bAaYoYGf8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ENRIQUE",
         "pairAddress": "DtVoDYXHDzVoUkZN7xYTZdX7Ddp4zsc3uW7FQAWCjzxu",
         "entryTime": "2026-04-23T18:55:32.922Z"
+      },
+      {
+        "symbol": "AIX6900",
+        "pairAddress": "1pMVqszkrutkYtU8SooP5ETaiLQWJUDaL2AiavjsS8F",
+        "entryTime": "2026-04-23T20:15:20.829Z"
       }
     ],
     "wins": 0,
@@ -11470,7 +11475,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T18:55:32.922Z",
-    "lastSeen": "2026-04-23T18:55:32.922Z",
+    "lastSeen": "2026-04-23T20:15:20.829Z",
     "confirmed": false
   },
   "EChBxUtucASwefmDTZukPjZSerCjX6C5jxeuHWXu5pJU": {
