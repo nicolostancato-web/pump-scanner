@@ -7785,5 +7785,22 @@
     "firstSeen": "2026-04-23T14:36:26.984Z",
     "lastSeen": "2026-04-23T14:36:26.984Z",
     "confirmed": false
+  },
+  "99XBdbzUPMv572g6jCY67TDNur5s7x9kntr46BEDv8Dt": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LandSat",
+        "pairAddress": "7FCyvKXtW8iCxGeDVLD9yzbtrPVNgKVeE2c7fjwEnhCX",
+        "entryTime": "2026-04-23T14:36:49.824Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T14:36:49.824Z",
+    "lastSeen": "2026-04-23T14:36:49.824Z",
+    "confirmed": false
   }
 }
