@@ -14918,7 +14918,7 @@
     "confirmed": false
   },
   "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "BRICKS",
@@ -14929,6 +14929,11 @@
         "symbol": "MSGA",
         "pairAddress": "8M3EDY8gxr8iQEiQMbYGnkHaBpcpZMGPZAHqou23ERQx",
         "entryTime": "2026-04-22T09:31:07.456Z"
+      },
+      {
+        "symbol": "DustCoin",
+        "pairAddress": "FyviUH5fUYb8LsGxDjvGCxq6hRn2U4QrDc3y9BHi83Lr",
+        "entryTime": "2026-04-23T03:30:48.300Z"
       }
     ],
     "wins": 0,
@@ -14936,8 +14941,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T21:04:43.040Z",
-    "lastSeen": "2026-04-22T09:31:07.456Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T03:30:48.300Z",
+    "confirmed": true
   },
   "BiryhKu5YyzB41vADAcAEJgP7z5mPDejQaEdTYfts5Yh": {
     "appearances": 1,
@@ -37257,6 +37262,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T03:27:49.885Z",
     "lastSeen": "2026-04-23T03:27:49.885Z",
+    "confirmed": false
+  },
+  "2ZxxWbZGuYjaficDbF1Ysby51UYAWGPRaF3HhJpqvcHh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DustCoin",
+        "pairAddress": "FyviUH5fUYb8LsGxDjvGCxq6hRn2U4QrDc3y9BHi83Lr",
+        "entryTime": "2026-04-23T03:30:48.300Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T03:30:48.300Z",
+    "lastSeen": "2026-04-23T03:30:48.300Z",
     "confirmed": false
   }
 }
