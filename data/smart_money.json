@@ -8740,5 +8740,22 @@
     "firstSeen": "2026-04-23T15:47:00.538Z",
     "lastSeen": "2026-04-23T15:47:00.538Z",
     "confirmed": false
+  },
+  "BWPqJ2RV9zw6V36Z3eqyF7z5G4BjjdsmBXK4MXG3R9gR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "IPA",
+        "pairAddress": "CJD4RzhraF19dUHW3mjMJWtnpybYT6ezY59Uk5DK3GUp",
+        "entryTime": "2026-04-23T15:47:17.494Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T15:47:17.494Z",
+    "lastSeen": "2026-04-23T15:47:17.494Z",
+    "confirmed": false
   }
 }
