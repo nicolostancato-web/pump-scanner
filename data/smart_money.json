@@ -304,5 +304,22 @@
     "firstSeen": "2026-04-23T06:29:03.577Z",
     "lastSeen": "2026-04-23T06:29:03.577Z",
     "confirmed": false
+  },
+  "8WWDygBEcraADRsmm2GyaYq6dznHeGjM3U4AupfddK2Q": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "POTUS",
+        "pairAddress": "94ewJ6KjGvo2c9egj5eFVzseT9pcy2FPAiAk7Uoathig",
+        "entryTime": "2026-04-23T06:29:31.295Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T06:29:31.295Z",
+    "lastSeen": "2026-04-23T06:29:31.295Z",
+    "confirmed": false
   }
 }
