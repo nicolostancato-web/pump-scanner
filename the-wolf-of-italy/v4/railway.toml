@@ -2,6 +2,5 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "python3 orchestrator.py"
-restartPolicyType = "on_failure"
-restartPolicyMaxRetries = 1
+startCommand = "python3 start_minimal.py"
+restartPolicyType = "never"
