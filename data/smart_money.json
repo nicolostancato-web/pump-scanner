@@ -1113,7 +1113,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 12,
+    "appearances": 13,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1174,6 +1174,11 @@
         "symbol": "Memecoin™",
         "pairAddress": "8f4dFUJdsL9jW7R7qaRMiVH7JtoKQQuNpMbxdqqhyebi",
         "entryTime": "2026-04-23T22:00:46.547Z"
+      },
+      {
+        "symbol": "AINI",
+        "pairAddress": "8oyEcFxjXxP5qSq6YXd4MDcXF6uWcr1Kj7rZezU3czn7",
+        "entryTime": "2026-04-23T22:41:19.238Z"
       }
     ],
     "wins": 0,
@@ -1181,7 +1186,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-23T22:00:46.547Z",
+    "lastSeen": "2026-04-23T22:41:19.238Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -3123,7 +3128,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ALIVE",
@@ -3134,6 +3139,11 @@
         "symbol": "Dinoshark",
         "pairAddress": "3Cbqhu1yzKFA8MFCoRFmfTXfmsjbsxrZRRp3mxxeY6Qj",
         "entryTime": "2026-04-23T15:40:31.151Z"
+      },
+      {
+        "symbol": "AINI",
+        "pairAddress": "8oyEcFxjXxP5qSq6YXd4MDcXF6uWcr1Kj7rZezU3czn7",
+        "entryTime": "2026-04-23T22:41:19.238Z"
       }
     ],
     "wins": 0,
@@ -3141,8 +3151,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:47:30.941Z",
-    "lastSeen": "2026-04-23T15:40:31.151Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T22:41:19.238Z",
+    "confirmed": true
   },
   "7rbxsXchaL1Jz46BXbF88k1hBYoWHLaKo8YbofMndW46": {
     "appearances": 2,
