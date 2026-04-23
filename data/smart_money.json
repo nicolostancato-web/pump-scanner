@@ -12808,5 +12808,22 @@
     "firstSeen": "2026-04-23T20:25:38.565Z",
     "lastSeen": "2026-04-23T20:25:38.565Z",
     "confirmed": false
+  },
+  "cRKgNRovZhkte8YbRX3Xd1e8mMPxriFzRH4QtAY3xnS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MOON",
+        "pairAddress": "Bu7nrpswjdsbDLqjaDL1S87DTZ6iZomzAoPzhkdVXxUA",
+        "entryTime": "2026-04-23T20:28:09.514Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T20:28:09.514Z",
+    "lastSeen": "2026-04-23T20:28:09.514Z",
+    "confirmed": false
   }
 }
