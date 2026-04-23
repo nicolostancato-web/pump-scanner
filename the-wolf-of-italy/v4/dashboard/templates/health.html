@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block title %}Health · Wolf{% endblock %}
+
+{% block content %}
+<div class="flex items-center justify-between mb-6">
+  <div>
+    <h1 class="text-xl font-bold text-gray-900 dark:text-white">Health</h1>
+    <p class="text-xs text-gray-400 mt-0.5">Stato agenti + dashboard · {{ today }}</p>
+  </div>
+  {% if tester_data %}
+  {% set all_ok = tester_data.get('checks', {}).values() | list %}
+  {% set has_warn = all_ok | selectattr('status', 'ne', 'OK') | list %}
+  <span class="badge {% if has_warn %}badge-yellow{% else %}badge-green{% endif %} text-sm px-3 py-1.5">
+    {% if has_warn %}⚠️ {{ has_warn|length }} alert{% else %}✅ Tutto OK{% endif %}
+  </span>
+  {% endif %}
+</div>
+
+<!-- Agent semaphores -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
+  {% set agents = [
+    ('HUNTER', '🔍', 'ogni 30m'),
+    ('ANALISTA', '📊', 'ogni 5m'),
+    ('CFO', '💰', 'ogni 4h'),
+    ('MONITOR', '👁', '07:00'),
+    ('SECURITY', '🛡', 'ogni 1h'),
+    ('TESTER', '🧪', 'ogni 1h'),
+  ] %}
+  {% for name, icon, freq in agents %}
+  {% set check = tester_data.get('checks', {}).get(name, {}) if tester_data else {} %}
+  {% set status = check.get('status', 'UNKNOWN') %}
+  <div class="card p-4 fade-in text-center">
+    <div class="text-2xl mb-2">{{ icon }}</div>
+    <p class="text-xs font-bold text-gray-900 dark:text-white mb-1">{{ name }}</p>
+    <div class="w-3 h-3 rounded-full mx-auto mb-2
+      {% if status == 'OK' %}bg-green-400
+      {% elif status == 'WARN' %}bg-yellow-400
+      {% elif status == 'PENDING' %}bg-blue-400
+      {% else %}bg-gray-300{% endif %}"></div>
+    <p class="text-xs text-gray-400">{{ freq }}</p>
+    {% if check.get('msg') %}
+    <p class="text-xs text-gray-500 dark:text-gray-400 mt-1 line-clamp-2">{{ check.msg }}</p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+{% if tester_data %}
+<!-- Last check details -->
+<div class="card p-6 fade-in mb-4">
+  <div class="flex items-center justify-between mb-4">
+    <h2 class="text-sm font-semibold text-gray-900 dark:text-white">Ultimo controllo TESTER</h2>
+    <span class="text-xs text-gray-400">{{ tester_data.get('timestamp', '')[:16] }}</span>
+  </div>
+  <div class="space-y-3">
+    {% for agent_name, check in tester_data.get('checks', {}).items() %}
+    <div class="flex items-center gap-3 py-2 border-b border-gray-50 dark:border-gray-700 last:border-0">
+      <span class="text-sm {% if check.get('status') == 'OK' %}text-green-500{% elif check.get('status') == 'WARN' %}text-yellow-500{% else %}text-gray-400{% endif %}">
+        {% if check.get('status') == 'OK' %}✅{% elif check.get('status') == 'WARN' %}⚠️{% else %}❓{% endif %}
+      </span>
+      <span class="text-xs font-semibold text-gray-700 dark:text-gray-200 w-24">{{ agent_name }}</span>
+      <span class="text-xs text-gray-500 dark:text-gray-400 flex-1">{{ check.get('msg', '—') }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% if tester_data.get('alerts') %}
+  <div class="mt-4 bg-yellow-50 dark:bg-yellow-950 rounded-xl p-3">
+    <p class="text-xs font-semibold text-yellow-700 dark:text-yellow-300 mb-2">⚠️ Alert attivi</p>
+    {% for alert in tester_data.alerts %}
+    <p class="text-xs text-yellow-600 dark:text-yellow-400">• {{ alert }}</p>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% else %}
+<div class="card p-10 text-center fade-in">
+  <div class="text-4xl mb-3">🧪</div>
+  <p class="text-sm text-gray-500 dark:text-gray-400">TESTER non ancora eseguito oggi.</p>
+  <p class="text-xs text-gray-400 mt-1">Gira ogni ora — il primo check apparirà qui automaticamente.</p>
+</div>
+{% endif %}
+
+{% if alerts_raw %}
+<div class="card p-6 fade-in">
+  <h2 class="text-sm font-semibold text-gray-900 dark:text-white mb-3">Log alert · {{ today }}</h2>
+  <pre class="text-xs text-gray-600 dark:text-gray-300 leading-relaxed bg-gray-50 dark:bg-gray-800 rounded-xl p-4 max-h-64 overflow-y-auto">{{ alerts_raw }}</pre>
+</div>
+{% endif %}
+{% endblock %}
