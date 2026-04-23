@@ -2167,5 +2167,22 @@
     "firstSeen": "2026-04-23T07:53:23.560Z",
     "lastSeen": "2026-04-23T07:53:23.560Z",
     "confirmed": false
+  },
+  "4Fx3b67vYhkx4xLjTSU5KefMBLwcBMpSGEJcwxyvfz9r": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "POB",
+        "pairAddress": "9jHZHbLQPEXfi3GfHkjDUNhMjus1qeXhU458aX62U6Qe",
+        "entryTime": "2026-04-23T07:53:58.847Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T07:53:58.847Z",
+    "lastSeen": "2026-04-23T07:53:58.847Z",
+    "confirmed": false
   }
 }
