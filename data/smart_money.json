@@ -1103,7 +1103,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1144,6 +1144,11 @@
         "symbol": "brrrcoin",
         "pairAddress": "HoRcwdnRj1PqGV65i2hCi6DHYgDwj3oPiq7BpuZ1ZhV5",
         "entryTime": "2026-04-23T15:47:51.653Z"
+      },
+      {
+        "symbol": "POB500",
+        "pairAddress": "E5rqjHh5hMFCAo4w46Mg7fuPtC6b4K56Va5Cbsj1KvsW",
+        "entryTime": "2026-04-23T16:07:15.395Z"
       }
     ],
     "wins": 0,
@@ -1151,7 +1156,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-23T15:47:51.653Z",
+    "lastSeen": "2026-04-23T16:07:15.395Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -9264,6 +9269,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T16:03:17.137Z",
     "lastSeen": "2026-04-23T16:03:17.137Z",
+    "confirmed": false
+  },
+  "ESuYnbe7qJdkgamQB2RL8wLddmGJbFJo8wcRAsin2y7j": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "POB500",
+        "pairAddress": "E5rqjHh5hMFCAo4w46Mg7fuPtC6b4K56Va5Cbsj1KvsW",
+        "entryTime": "2026-04-23T16:07:15.395Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T16:07:15.395Z",
+    "lastSeen": "2026-04-23T16:07:15.395Z",
     "confirmed": false
   }
 }
