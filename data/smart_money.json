@@ -2300,7 +2300,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "POB",
@@ -2331,6 +2331,11 @@
         "symbol": "VESPR",
         "pairAddress": "2oFEtKUHGWCMkVcWWrtYNb2MoR9hh8upmmcQKRwZAXXW",
         "entryTime": "2026-04-23T18:15:59.067Z"
+      },
+      {
+        "symbol": "ARGOS",
+        "pairAddress": "2K3KBa1cTy5D2HRKTeruGUDX2wCsZbTXqxyi1Z2BCxsT",
+        "entryTime": "2026-04-23T18:43:14.229Z"
       }
     ],
     "wins": 0,
@@ -2338,7 +2343,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:02:06.326Z",
-    "lastSeen": "2026-04-23T18:15:59.067Z",
+    "lastSeen": "2026-04-23T18:43:14.229Z",
     "confirmed": true
   },
   "55NQkFDwwW8noThkL9Rd5ngbgUU36fYZeos1k5ZwjGdn": {
@@ -11079,6 +11084,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T18:42:35.525Z",
     "lastSeen": "2026-04-23T18:42:35.525Z",
+    "confirmed": false
+  },
+  "8YMMCgoiY9RiRuHKWXwLhnMxDrDWiDhzG3pQRrHYLBSy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ARGOS",
+        "pairAddress": "2K3KBa1cTy5D2HRKTeruGUDX2wCsZbTXqxyi1Z2BCxsT",
+        "entryTime": "2026-04-23T18:43:14.229Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T18:43:14.229Z",
+    "lastSeen": "2026-04-23T18:43:14.229Z",
     "confirmed": false
   }
 }
