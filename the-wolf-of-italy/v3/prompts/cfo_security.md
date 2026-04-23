@@ -58,6 +58,18 @@ CFO-SECURITY-1
 
 NOTE: n8n è infrastruttura condivisa del founder (forniture, ristorante, trading, magazzino). NON includere n8n nei costi Wolf of Italy. Solo Railway + LLM sono costi reali di Wolf of Italy.
 
+## Price Reconciliation
+- SOL price used this snapshot: $[XXX]
+- Note: ELIGIBILITY-TRACKER-1 may have used a different price (fetched earlier). If delta > 5%, write:
+  "⚠️ Price delta vs ELIGIBILITY-TRACKER: +/- X% ($[TRACKER price] → $[CFO price]). Wallet USD values may differ between reports."
+
+## Capital Flags (sanity check required)
+Before writing any capital flag, explicitly state the comparison direction:
+- Format: "$[ACTUAL] actual vs $[TARGET] target — [X]% [above/below] threshold"
+- Only write CRITICAL if actual < target. If actual > target, write OK or no flag.
+- Example correct: "$54.14 actual vs $50 target — 8% above threshold → OK"
+- Example correct: "$42.00 actual vs $50 target — 16% below threshold → WARNING"
+
 ## Security Flags
 [REAL flags only — e.g. "Drift TVL dropped 40% in 24h" or "n8n JWT expires in X days"]
 [If no real flags: "No flags today"]
