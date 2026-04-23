@@ -1,0 +1,19 @@
+<!-- Hunter feed partial for HTMX refresh -->
+{% for opp in opps %}
+<div class="card p-5 fade-in">
+  <div class="flex items-center gap-3">
+    <div class="w-8 h-8 rounded-xl bg-blue-50 flex items-center justify-center text-sm flex-shrink-0">🔍</div>
+    <div class="flex-1 min-w-0">
+      <p class="text-sm font-semibold text-gray-900 dark:text-white truncate">{{ opp.get('nome') or opp.get('protocollo','—') }}</p>
+      <div class="flex items-center gap-2 mt-0.5 flex-wrap">
+        {% if opp.get('categoria') %}<span class="badge badge-blue">{{ opp.categoria }}</span>{% endif %}
+        {% if opp.get('roi_atteso') %}<span class="badge badge-green">{{ opp.roi_atteso }}</span>{% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="card p-8 text-center">
+  <p class="text-sm text-gray-400">Nessuna opportunità oggi ancora.</p>
+</div>
+{% endfor %}
