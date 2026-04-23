@@ -1607,7 +1607,7 @@
     "confirmed": false
   },
   "DbFS3c9wpKtJiqFYu83QmpqHDBJtjKY8hqTL9AGZfRir": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "wif2",
@@ -1618,6 +1618,11 @@
         "symbol": "SAM",
         "pairAddress": "Dt6EtrQcXjGPy9Rdw77Rf7WVxJ9FH6dxTpRYdUQ3GDNg",
         "entryTime": "2026-04-23T01:33:42.457Z"
+      },
+      {
+        "symbol": "BALL",
+        "pairAddress": "HSoNTWNSo1p6sSr6HDQvVmnY3YghrMEFd738nS6Vb7Lj",
+        "entryTime": "2026-04-23T05:48:48.112Z"
       }
     ],
     "wins": 0,
@@ -1625,8 +1630,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:07:30.068Z",
-    "lastSeen": "2026-04-23T01:33:42.457Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T05:48:48.112Z",
+    "confirmed": true
   },
   "LASTvjDWkbXM1RwUCiniHqGLSEH5xJinDRs56wNPQr9": {
     "appearances": 4,
