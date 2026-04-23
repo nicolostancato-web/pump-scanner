@@ -1103,7 +1103,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1129,6 +1129,11 @@
         "symbol": "LandSat",
         "pairAddress": "7FCyvKXtW8iCxGeDVLD9yzbtrPVNgKVeE2c7fjwEnhCX",
         "entryTime": "2026-04-23T14:12:37.147Z"
+      },
+      {
+        "symbol": "BLOB",
+        "pairAddress": "Vy1F3H3UP1rnWUtF7Z3sbimt9YutSVdfH7cV4RtJJAN",
+        "entryTime": "2026-04-23T15:03:41.907Z"
       }
     ],
     "wins": 0,
@@ -1136,7 +1141,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-23T14:12:37.147Z",
+    "lastSeen": "2026-04-23T15:03:41.907Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -7971,6 +7976,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T15:02:03.250Z",
     "lastSeen": "2026-04-23T15:02:03.250Z",
+    "confirmed": false
+  },
+  "2w7GtD9gSBqdgkJpZ9MZVjJ8q7dhX3KvcZJ2yXVE68aW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BLOB",
+        "pairAddress": "Vy1F3H3UP1rnWUtF7Z3sbimt9YutSVdfH7cV4RtJJAN",
+        "entryTime": "2026-04-23T15:03:41.907Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T15:03:41.907Z",
+    "lastSeen": "2026-04-23T15:03:41.907Z",
     "confirmed": false
   }
 }
