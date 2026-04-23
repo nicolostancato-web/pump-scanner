@@ -9164,7 +9164,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "FViA7K2ibwQr2ihpqvHMH3FdV9SvYndC3dhk7MLb9fZh",
+      "mint": "2m6ewwrcaGoVHdbNUAFFVXWho45GBZuyJa4gmL2opump",
+      "name": "Broccoli Head",
+      "symbol": "Broccoli",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001276,
+      "entryMcap": 127614,
+      "entryTime": 1776964780882,
+      "score": 85,
+      "ageAtEntry": 16,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/fvia7k2ibwqr2ihpqvhmh3fdv9svyndc3dhk7mlb9fzh",
+      "peakPrice": 0.0001534,
+      "peakMultiplier": 1.202194357366771,
+      "peakMcap": 153405,
+      "peakTime": 1776964840963,
+      "lastPrice": 0.00004564,
+      "lowestPrice": 0.00004564,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00004564,
+      "closeMultiplier": 0.357680250783699,
+      "closedAt": "2026-04-23T17:24:41.063Z",
+      "durationMs": 300181,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00004564,
+        "closeMultiplier": 0.357680250783699,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-23T17:24:41.062Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 0,
+        "momentum": 2.815625,
+        "floatRotation": 0.40947717335088624,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.40947717335088624,
+        "accel": 2.815625,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 45.05,
+        "vol5m": 52255.02,
+        "buys5m": 1271,
+        "sells5m": 376,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-23T16:29:50.929Z"
+  "lastSaved": "2026-04-23T17:24:42.121Z"
 }
