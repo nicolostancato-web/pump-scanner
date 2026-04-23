@@ -2,28 +2,27 @@
 
 ## Jupiter
 - Campaign status: unknown (JUP3 expected Q3 2026)
-- Criteria today: swap volume + JupSOL holding (based on mission statement)
-- Changes vs yesterday: none confirmed
-- Source: https://jup.ag/ (homepage loaded, no airdrop-specific info visible)
-- Additional: Station page (https://station.jup.ag/) is Jupiter Developer Platform, not airdrop-specific
+- Criteria today: Unknown from homepage - no specific airdrop information visible
+- Changes vs yesterday: No visible changes detected
+- Source: https://jup.ag/
 
 ## Kamino
-- Campaign status: unknown (Season 3 reportedly active per mission statement)
-- Criteria today: USDC/SOL supply (based on mission statement)
-- Changes vs yesterday: none confirmed
-- Source: https://app.kamino.finance/ (app loaded, no airdrop-specific info visible on homepage)
+- Campaign status: unknown (Season 3 mentioned as active in mission)
+- Criteria today: Unknown from homepage - loading page shows no airdrop info
+- Changes vs yesterday: No visible changes detected
+- Source: https://app.kamino.finance/
 
 ## MarginFi
-- Campaign status: unknown (pre-TGE per mission statement)
-- Criteria today: money market supply (based on mission statement)
-- Changes vs yesterday: none confirmed
-- Source: https://app.marginfi.com/ (app loaded, no airdrop-specific info visible on homepage)
+- Campaign status: unknown (pre-TGE mentioned in mission)
+- Criteria today: Unknown from homepage - no airdrop information visible
+- Changes vs yesterday: No visible changes detected
+- Source: https://app.marginfi.com/
 
 ## Drift
-- Campaign status: unknown (Season 2 announced per mission statement)
-- Criteria today: perp trading volume (based on mission statement)
-- Changes vs yesterday: none confirmed
-- Source: https://app.drift.trade/ (app loaded, shows "stay-tuned" page)
+- Campaign status: unknown (Season 2 announced in mission)
+- Criteria today: Unknown from homepage - page appears to be in "stay-tuned" state
+- Changes vs yesterday: No visible changes detected
+- Source: https://app.drift.trade/
 
 ## Alerts
-None - No exploit, rug, or criteria change alerts found in protocol homepage checks. Hacker News top stories checked (2 samples) showed no crypto/airdrop-related alerts.
+None - No protocol exploits, rug risks, or snapshot announcements detected from homepage checks. Hacker News top story is about cloud computing, not crypto-related.
