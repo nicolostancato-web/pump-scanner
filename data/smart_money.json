@@ -12723,5 +12723,22 @@
     "firstSeen": "2026-04-23T20:19:16.673Z",
     "lastSeen": "2026-04-23T20:19:16.673Z",
     "confirmed": false
+  },
+  "9rRb7QxcP1qCXT2uiZQAzbWZV2CviqyrLRoubWevXmC5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AIX6900",
+        "pairAddress": "1pMVqszkrutkYtU8SooP5ETaiLQWJUDaL2AiavjsS8F",
+        "entryTime": "2026-04-23T20:23:52.268Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T20:23:52.268Z",
+    "lastSeen": "2026-04-23T20:23:52.268Z",
+    "confirmed": false
   }
 }
