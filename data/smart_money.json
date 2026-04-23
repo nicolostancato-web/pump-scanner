@@ -12522,12 +12522,17 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BEE",
         "pairAddress": "BqJiGXRw31Cqsv4adUhUapG22Xdy32gd5AuFN2Wfe2oR",
         "entryTime": "2026-04-21T18:46:54.800Z"
+      },
+      {
+        "symbol": "ket",
+        "pairAddress": "2RHWgXGpLwcC9GGeAkZjjPxPynmoheLJLLrYdgs5fzPo",
+        "entryTime": "2026-04-23T04:17:18.156Z"
       }
     ],
     "wins": 0,
@@ -12535,7 +12540,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T18:46:54.800Z",
-    "lastSeen": "2026-04-21T18:46:54.800Z",
+    "lastSeen": "2026-04-23T04:17:18.156Z",
     "confirmed": false
   },
   "FDu6b2gSUxZoRcMw51BEvf9AUkwLp9xkQ6ffoRFZoaw8": {
@@ -37704,6 +37709,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T04:16:41.524Z",
     "lastSeen": "2026-04-23T04:16:41.524Z",
+    "confirmed": false
+  },
+  "7RYfgvivkC4pJ6f613WrY3EWQaH5YRxgZ8xPWQDM9tR4": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ket",
+        "pairAddress": "2RHWgXGpLwcC9GGeAkZjjPxPynmoheLJLLrYdgs5fzPo",
+        "entryTime": "2026-04-23T04:17:18.156Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T04:17:18.156Z",
+    "lastSeen": "2026-04-23T04:17:18.156Z",
     "confirmed": false
   }
 }
