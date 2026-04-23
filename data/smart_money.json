@@ -4342,5 +4342,22 @@
     "firstSeen": "2026-04-23T10:32:37.584Z",
     "lastSeen": "2026-04-23T10:32:37.584Z",
     "confirmed": false
+  },
+  "7BVpH77rgXUt5mKcxtE6oZ9WmPUoDhUk2dfvpVYUM5FX": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "KAIRU",
+        "pairAddress": "Fk9dh4ScbmYgymh8WLUoL5o6zhm9zPgyaSLJYkgv7iyz",
+        "entryTime": "2026-04-23T10:33:14.650Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T10:33:14.650Z",
+    "lastSeen": "2026-04-23T10:33:14.650Z",
+    "confirmed": false
   }
 }
