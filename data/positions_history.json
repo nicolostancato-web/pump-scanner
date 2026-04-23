@@ -8240,7 +8240,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "37QNxXrVdRQ8rYed8P4Uku3x7DhjqfvGAxV4yjPaP56u",
+      "mint": "E7vRb1sHPB33Q2hkVRsR49eS8HdjJ6WFP55mdKupump",
+      "name": "Uncbull",
+      "symbol": "Uncbull",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000511,
+      "entryMcap": 51109,
+      "entryTime": 1776922269993,
+      "score": 67,
+      "ageAtEntry": 17,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/37qnxxrvdrq8ryed8p4uku3x7dhjqfvgaxv4yjpap56u",
+      "peakPrice": 0.0000511,
+      "peakMultiplier": 1,
+      "peakMcap": 51109,
+      "peakTime": 1776922269993,
+      "lastPrice": 0.000002028,
+      "lowestPrice": 0.000002028,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002028,
+      "closeMultiplier": 0.03968688845401174,
+      "closedAt": "2026-04-23T05:32:10.139Z",
+      "durationMs": 60146,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000002028,
+        "closeMultiplier": 0.03968688845401174,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-23T05:32:10.139Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -10,
+        "momentum": 0.5,
+        "floatRotation": 0.47174607212037023,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.47174607212037023,
+        "accel": 0.5,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(0.50)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 8.5,
+        "vol5m": 24110.47,
+        "buys5m": 735,
+        "sells5m": 238,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-23T04:56:23.531Z"
+  "lastSaved": "2026-04-23T05:32:11.382Z"
 }
