@@ -9261,12 +9261,17 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "POB500",
         "pairAddress": "E5rqjHh5hMFCAo4w46Mg7fuPtC6b4K56Va5Cbsj1KvsW",
         "entryTime": "2026-04-23T16:01:17.264Z"
+      },
+      {
+        "symbol": "ENRIQUE",
+        "pairAddress": "DtVoDYXHDzVoUkZN7xYTZdX7Ddp4zsc3uW7FQAWCjzxu",
+        "entryTime": "2026-04-23T18:57:23.301Z"
       }
     ],
     "wins": 0,
@@ -9274,7 +9279,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T16:01:17.264Z",
-    "lastSeen": "2026-04-23T16:01:17.264Z",
+    "lastSeen": "2026-04-23T18:57:23.301Z",
     "confirmed": false
   },
   "EErYqyLh6cQnE9EfudWcsx4emh7n6GofiXuVzdGbzREU": {
@@ -11490,6 +11495,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T18:56:51.639Z",
     "lastSeen": "2026-04-23T18:56:51.639Z",
+    "confirmed": false
+  },
+  "9t4zLT6sb8iVQ2fsdsYkVCjLzsBhxY7u6wvg46xwhkpk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ENRIQUE",
+        "pairAddress": "DtVoDYXHDzVoUkZN7xYTZdX7Ddp4zsc3uW7FQAWCjzxu",
+        "entryTime": "2026-04-23T18:57:23.301Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T18:57:23.301Z",
+    "lastSeen": "2026-04-23T18:57:23.301Z",
     "confirmed": false
   }
 }
