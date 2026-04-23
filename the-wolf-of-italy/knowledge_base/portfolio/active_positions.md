@@ -1,6 +1,6 @@
 # Posizioni Attive
 
-Ultimo aggiornamento: 2026-04-23 17:13 Rome
+Ultimo aggiornamento: 2026-04-23 17:17 Rome
 
 ---
 
@@ -12,7 +12,7 @@ Valore attuale: $17.18 (-0.1%)
 Data deploy: 2026-04-23
 Drop atteso: N/A (liquid staking, no fixed drop)
 Posizioni wallet:
-  JupSOL: 0.169233922 = $17.18 @ $101.53/JupSOL
+  JupSOL: 0.169233922 = $17.18 @ $101.51/JupSOL
 Steps completati: 1/1
 Alert: nessuno
 
@@ -22,6 +22,6 @@ Alert: nessuno
 
 | Voce | Valore |
 |------|-------|
-| Cash libero (SOL) | $34.75 (0.4045 SOL @ $85.91) |
+| Cash libero (SOL) | $34.76 (0.4045 SOL @ $85.93) |
 | Posizioni attive | $17.18 |
-| **Portfolio totale** | **$51.93** |
+| **Portfolio totale** | **$51.94** |
