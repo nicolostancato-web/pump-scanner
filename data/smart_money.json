@@ -984,5 +984,22 @@
     "firstSeen": "2026-04-23T06:58:34.774Z",
     "lastSeen": "2026-04-23T06:58:34.774Z",
     "confirmed": false
+  },
+  "e9L73RUVrUFczE9VmBmute71ZqBnT9SUUxxwrDQ8UoE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PIC",
+        "pairAddress": "Fj2Y1CpoJwJQxQVZMRTD5JYJ6LLSSvAj4eF28qcGRqMi",
+        "entryTime": "2026-04-23T06:59:08.066Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T06:59:08.066Z",
+    "lastSeen": "2026-04-23T06:59:08.066Z",
+    "confirmed": false
   }
 }
