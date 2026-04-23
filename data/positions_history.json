@@ -8744,7 +8744,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "y5Z7mvDUXkeMaKDDqYbaGzT1wRKefx1nBuVMGqWh3j2",
+      "mint": "Bs4QR1nQMc6s5XL93RL9wuDCV5vKAtFbtA4KVT2pump",
+      "name": "The Internet Renaissance",
+      "symbol": "ANON",
+      "dex": "pumpswap",
+      "entryPrice": 0.0004034,
+      "entryMcap": 403432,
+      "entryTime": 1776949981553,
+      "score": 67,
+      "ageAtEntry": 91,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/y5z7mvduxkemakddqybagzt1wrkefx1nbuvmgqwh3j2",
+      "peakPrice": 0.0004034,
+      "peakMultiplier": 1,
+      "peakMcap": 403432,
+      "peakTime": 1776949981553,
+      "lastPrice": 0.000281,
+      "lowestPrice": 0.000281,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000281,
+      "closeMultiplier": 0.6965790778383738,
+      "closedAt": "2026-04-23T13:18:00.885Z",
+      "durationMs": 299332,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000281,
+        "closeMultiplier": 0.6965790778383738,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-23T13:18:00.885Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 0.5407692307692308,
+        "floatRotation": 0.1711266086973765,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": false,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.1711266086973765,
+        "accel": 0.5407692307692308,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(91min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(91min)",
+        "priceChg5m": 49.21,
+        "vol5m": 69037.95,
+        "buys5m": 341,
+        "sells5m": 310,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-23T10:10:24.902Z"
+  "lastSaved": "2026-04-23T13:18:02.132Z"
 }
