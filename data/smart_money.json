@@ -8020,12 +8020,17 @@
     "confirmed": false
   },
   "DjFYTLmdmo6hchdUhnqDRD1972xjhok474ZKxHg1jjLy": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FLIPCOIN",
         "pairAddress": "ALje3Caysp6D4Fmz8kYQ1ywpVUp8dgZSReJ6VfsKNRk5",
         "entryTime": "2026-04-23T15:02:03.250Z"
+      },
+      {
+        "symbol": "UNCGUY",
+        "pairAddress": "BP7btB5Sorjy63F7QzhCcqfSUk1ZX76RZrmjnJdjAwvq",
+        "entryTime": "2026-04-23T20:12:52.651Z"
       }
     ],
     "wins": 0,
@@ -8033,7 +8038,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T15:02:03.250Z",
-    "lastSeen": "2026-04-23T15:02:03.250Z",
+    "lastSeen": "2026-04-23T20:12:52.651Z",
     "confirmed": false
   },
   "FDy7erxohNXQBMKrPNfV9k3fHDmnjmqCMEh8ufCT8Ps4": {
@@ -12554,6 +12559,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T20:12:20.030Z",
     "lastSeen": "2026-04-23T20:12:20.030Z",
+    "confirmed": false
+  },
+  "JCf9hP8ksmFgatqRUN1tzvyTCmCDC3rS8QMKtNtZhocm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNCGUY",
+        "pairAddress": "BP7btB5Sorjy63F7QzhCcqfSUk1ZX76RZrmjnJdjAwvq",
+        "entryTime": "2026-04-23T20:12:52.651Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T20:12:52.651Z",
+    "lastSeen": "2026-04-23T20:12:52.651Z",
     "confirmed": false
   }
 }
