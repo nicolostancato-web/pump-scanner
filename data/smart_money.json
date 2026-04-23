@@ -4435,12 +4435,17 @@
     "confirmed": false
   },
   "2Jy2VdYU6YmSKL2fAk59iTBHavGUu41HNRMekdwcVUVg": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KAIRU",
         "pairAddress": "Fk9dh4ScbmYgymh8WLUoL5o6zhm9zPgyaSLJYkgv7iyz",
         "entryTime": "2026-04-23T10:34:20.836Z"
+      },
+      {
+        "symbol": "LandSat",
+        "pairAddress": "7FCyvKXtW8iCxGeDVLD9yzbtrPVNgKVeE2c7fjwEnhCX",
+        "entryTime": "2026-04-23T14:23:19.784Z"
       }
     ],
     "wins": 0,
@@ -4448,7 +4453,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T10:34:20.836Z",
-    "lastSeen": "2026-04-23T10:34:20.836Z",
+    "lastSeen": "2026-04-23T14:23:19.784Z",
     "confirmed": false
   },
   "M2oXxYUS8uBqjMRvReTbq5sJjNvmSbJuBYNqieAwq5N": {
@@ -7378,6 +7383,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T14:20:44.431Z",
     "lastSeen": "2026-04-23T14:20:44.431Z",
+    "confirmed": false
+  },
+  "E41d3gb6euCqc3E4SdjpREMubf3iE9vDm5bKZ9PFhM7X": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LandSat",
+        "pairAddress": "7FCyvKXtW8iCxGeDVLD9yzbtrPVNgKVeE2c7fjwEnhCX",
+        "entryTime": "2026-04-23T14:23:19.784Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T14:23:19.784Z",
+    "lastSeen": "2026-04-23T14:23:19.784Z",
     "confirmed": false
   }
 }
