@@ -10279,7 +10279,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 11,
+    "appearances": 12,
     "tokens": [
       {
         "symbol": "TERMINAL",
@@ -10335,6 +10335,11 @@
         "symbol": "EVELYN",
         "pairAddress": "5jbuf4LkAh6uwEQKWYmHv7PCh8fNBPySZyJs1DCCWpa8",
         "entryTime": "2026-04-22T22:30:02.118Z"
+      },
+      {
+        "symbol": "SAM",
+        "pairAddress": "Dt6EtrQcXjGPy9Rdw77Rf7WVxJ9FH6dxTpRYdUQ3GDNg",
+        "entryTime": "2026-04-23T01:33:09.929Z"
       }
     ],
     "wins": 0,
@@ -10342,7 +10347,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:24:07.723Z",
-    "lastSeen": "2026-04-22T22:30:02.118Z",
+    "lastSeen": "2026-04-23T01:33:09.929Z",
     "confirmed": true
   },
   "EhER7q3w7UNCHCzjhud1dDxtGTihC7CoPfgkzS7KYZwk": {
@@ -15282,7 +15287,7 @@
     "confirmed": true
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Liquid",
@@ -15298,6 +15303,11 @@
         "symbol": "AEPE",
         "pairAddress": "J99w2cyGMzuRc8AHnJ1CLwZZfTxCz33z912Y3jbwcP5y",
         "entryTime": "2026-04-22T07:54:39.472Z"
+      },
+      {
+        "symbol": "SAM",
+        "pairAddress": "Dt6EtrQcXjGPy9Rdw77Rf7WVxJ9FH6dxTpRYdUQ3GDNg",
+        "entryTime": "2026-04-23T01:33:09.929Z"
       }
     ],
     "wins": 0,
@@ -15305,7 +15315,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T21:26:27.337Z",
-    "lastSeen": "2026-04-22T07:54:39.472Z",
+    "lastSeen": "2026-04-23T01:33:09.929Z",
     "confirmed": true
   },
   "5V5FbgaPEjwVvC3CFKKvRfgu1ngjBKqYeBeMYnvqGpET": {
