@@ -333,8 +333,13 @@ def _start_dashboard():
         sys.path.insert(0, root)
     from dashboard.app import app as flask_app
     port = int(os.environ.get("PORT", os.environ.get("DASHBOARD_PORT", 8080)))
-    log.info(f"Dashboard starting on port {port}")
-    flask_app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False, threaded=True)
+    log.info(f"Dashboard starting on port {port} via waitress")
+    try:
+        from waitress import serve
+        serve(flask_app, host="0.0.0.0", port=port, threads=4)
+    except ImportError:
+        # fallback: werkzeug dev server (no signal handlers in thread = OK for non-Linux)
+        flask_app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False, threaded=True)
 
 
 async def main():
