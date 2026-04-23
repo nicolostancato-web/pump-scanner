@@ -12862,7 +12862,7 @@
     "confirmed": false
   },
   "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "1",
@@ -12888,6 +12888,11 @@
         "symbol": "SAM",
         "pairAddress": "Fft7C9bpEDT9XDXXsuyiaMudwDGVyYLMzaVKsD3nrBjc",
         "entryTime": "2026-04-23T01:50:41.864Z"
+      },
+      {
+        "symbol": "BALL",
+        "pairAddress": "HSoNTWNSo1p6sSr6HDQvVmnY3YghrMEFd738nS6Vb7Lj",
+        "entryTime": "2026-04-23T05:40:09.698Z"
       }
     ],
     "wins": 0,
@@ -12895,7 +12900,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:06:24.105Z",
-    "lastSeen": "2026-04-23T01:50:41.864Z",
+    "lastSeen": "2026-04-23T05:40:09.698Z",
     "confirmed": true
   },
   "J5w5RLfjN8sKUhJMaopMRyPJvSfEXpvencZNTWo2x5RQ": {
@@ -31918,7 +31923,7 @@
     "confirmed": false
   },
   "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "GC",
@@ -31929,6 +31934,11 @@
         "symbol": "SAM",
         "pairAddress": "Fft7C9bpEDT9XDXXsuyiaMudwDGVyYLMzaVKsD3nrBjc",
         "entryTime": "2026-04-23T01:44:31.098Z"
+      },
+      {
+        "symbol": "BALL",
+        "pairAddress": "HSoNTWNSo1p6sSr6HDQvVmnY3YghrMEFd738nS6Vb7Lj",
+        "entryTime": "2026-04-23T05:40:09.698Z"
       }
     ],
     "wins": 0,
@@ -31936,8 +31946,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T20:21:51.041Z",
-    "lastSeen": "2026-04-23T01:44:31.098Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T05:40:09.698Z",
+    "confirmed": true
   },
   "HDTo6NpEFedWua5FGrrvhKLy8cf9Cik66VT9UwXfU3Lh": {
     "appearances": 1,
