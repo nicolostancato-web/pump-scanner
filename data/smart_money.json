@@ -10866,5 +10866,22 @@
     "firstSeen": "2026-04-23T18:21:03.485Z",
     "lastSeen": "2026-04-23T18:21:03.485Z",
     "confirmed": false
+  },
+  "3XVuGcDVisf1mVFDUVmsYU9pYKCWYurHZgaeRdu3otLa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "VESPR",
+        "pairAddress": "2oFEtKUHGWCMkVcWWrtYNb2MoR9hh8upmmcQKRwZAXXW",
+        "entryTime": "2026-04-23T18:21:37.703Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T18:21:37.703Z",
+    "lastSeen": "2026-04-23T18:21:37.703Z",
+    "confirmed": false
   }
 }
