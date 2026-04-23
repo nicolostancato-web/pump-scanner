@@ -21003,12 +21003,17 @@
     "confirmed": false
   },
   "GrSA79WucRhmyDxHEJabVd7uF6prk9kbHdm5M2GMDysB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BUDDY",
         "pairAddress": "2ac8SH2U461A6z79pakaSHNtkDtmTsCp1MudwZb7gavf",
         "entryTime": "2026-04-22T06:28:34.334Z"
+      },
+      {
+        "symbol": "YOLO",
+        "pairAddress": "BkajXmtx2beAMN2ai3uXK1Pze3t3wX9bvwiPhoG5jJhR",
+        "entryTime": "2026-04-23T06:04:55.128Z"
       }
     ],
     "wins": 0,
@@ -21016,7 +21021,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T06:28:34.334Z",
-    "lastSeen": "2026-04-22T06:28:34.334Z",
+    "lastSeen": "2026-04-23T06:04:55.128Z",
     "confirmed": false
   },
   "z6pXBXkRK7vRa1QstJTXN6pWNgBcuJum9cyX82pzQkv": {
