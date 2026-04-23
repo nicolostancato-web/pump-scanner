@@ -1,6 +1,6 @@
 # Posizioni Attive
 
-Ultimo aggiornamento: 2026-04-23 17:23 Rome
+Ultimo aggiornamento: 2026-04-23 17:24 Rome
 
 ---
 
@@ -22,6 +22,6 @@ Alert: nessuno
 
 | Voce | Valore |
 |------|-------|
-| Cash libero (SOL) | $34.91 (0.4045 SOL @ $86.30/SOL) |
+| Cash libero (SOL) | $34.92 (0.4045 SOL @ $86.33/SOL) |
 | Posizioni attive | $17.26 |
-| **Portfolio totale** | **$52.17** |
+| **Portfolio totale** | **$52.18** |
