@@ -23,7 +23,8 @@ async def fetch_text(url: str, max_chars: int = 8000) -> str:
             ct = r.headers.get("content-type", "")
             if "json" in ct:
                 return r.text[:max_chars]
-            soup = BeautifulSoup(r.text, "html.parser")
+            parser = "lxml" if __import__("importlib").util.find_spec("lxml") else "html.parser"
+            soup = BeautifulSoup(r.text, parser)
             for tag in soup(["script", "style", "nav", "footer", "header", "aside"]):
                 tag.decompose()
             text = soup.get_text(separator="\n", strip=True)
