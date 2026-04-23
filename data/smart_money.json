@@ -9550,12 +9550,17 @@
     "confirmed": false
   },
   "9LFiTup5RpWNLgUcDbF87YFHqT9as43AYG8LG39Yj9p3": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "POB500",
         "pairAddress": "E5rqjHh5hMFCAo4w46Mg7fuPtC6b4K56Va5Cbsj1KvsW",
         "entryTime": "2026-04-23T16:15:03.475Z"
+      },
+      {
+        "symbol": "AIB",
+        "pairAddress": "AZ8xg4yvR7s4REyLx6BjdqhgRTx1ucAwsEBKGVS2B25q",
+        "entryTime": "2026-04-23T22:29:34.812Z"
       }
     ],
     "wins": 0,
@@ -9563,7 +9568,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T16:15:03.475Z",
-    "lastSeen": "2026-04-23T16:15:03.475Z",
+    "lastSeen": "2026-04-23T22:29:34.812Z",
     "confirmed": false
   },
   "BDVg2h8R9qdmqmKJK6uJj7kdLxje8NXjvSdfrhDeg7cw": {
