@@ -5183,7 +5183,7 @@
     "confirmed": false
   },
   "STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Outsider",
@@ -5214,6 +5214,11 @@
         "symbol": "GC",
         "pairAddress": "CNfGP52B922UH19ScHkFkpZNgVubREUeBoGnkaTLWfTo",
         "entryTime": "2026-04-22T20:12:25.620Z"
+      },
+      {
+        "symbol": "RAVEAI",
+        "pairAddress": "AJxk7NALBrLmAruvqq8dPiL95SrggNNXbn23jN7BxawM",
+        "entryTime": "2026-04-23T00:40:37.539Z"
       }
     ],
     "wins": 0,
@@ -5221,7 +5226,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T12:15:15.468Z",
-    "lastSeen": "2026-04-22T20:12:25.620Z",
+    "lastSeen": "2026-04-23T00:40:37.539Z",
     "confirmed": true
   },
   "4xpjLjaMQ4h5MaLqy8Z13AxusCq76pEM4fXLwiqCvzAa": {
