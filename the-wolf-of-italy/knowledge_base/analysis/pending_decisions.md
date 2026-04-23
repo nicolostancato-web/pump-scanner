@@ -1,6 +1,6 @@
 # Pending Decisions
-ANALISTA — 2026-04-23 17:19 Rome
-(vuota — nessuna opportunità da HUNTER per oggi 2026-04-23)
+ANALISTA – 2026-04-23 17:20 Rome
+(vuota – nessuna opportunità da HUNTER per oggi 2026-04-23)
 (nessuna decisione in coda dalla dashboard)
 (nessun BP parcheggiato da riesumare)
 
