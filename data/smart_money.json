@@ -1960,7 +1960,7 @@
     "confirmed": false
   },
   "49AyuVKRvCmgXpxAb1raXYa5MhMHDyMRnTLZrpkBaUvD": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "FUMES",
@@ -1991,6 +1991,11 @@
         "symbol": "dnd",
         "pairAddress": "EZu3UZpZ8KoqUNzmikM2EuPKfeTWexJ8ka8K6tpse1rT",
         "entryTime": "2026-04-22T19:19:57.992Z"
+      },
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T00:55:20.109Z"
       }
     ],
     "wins": 0,
@@ -1998,7 +2003,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:16:14.127Z",
-    "lastSeen": "2026-04-22T19:19:57.992Z",
+    "lastSeen": "2026-04-23T00:55:20.109Z",
     "confirmed": true
   },
   "9Ysy1gXcKL2AHXnqAA1eNAhwoVPmwp6xm6shhG7ZMgom": {
@@ -23693,12 +23698,17 @@
     "confirmed": false
   },
   "6WXvm5cTKbgZ2n82hQQNFf8RhPUobh27sPLg37maWXgx": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MSGA",
         "pairAddress": "8M3EDY8gxr8iQEiQMbYGnkHaBpcpZMGPZAHqou23ERQx",
         "entryTime": "2026-04-22T09:24:05.960Z"
+      },
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T00:55:20.109Z"
       }
     ],
     "wins": 0,
@@ -23706,7 +23716,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T09:24:05.960Z",
-    "lastSeen": "2026-04-22T09:24:05.960Z",
+    "lastSeen": "2026-04-23T00:55:20.109Z",
     "confirmed": false
   },
   "EQo2Mc8gb7gMQAv96t7fjTG86wyrrWhhY4ox29Vdtkre": {
