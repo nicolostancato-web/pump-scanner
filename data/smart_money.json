@@ -4585,5 +4585,22 @@
     "firstSeen": "2026-04-23T11:19:43.662Z",
     "lastSeen": "2026-04-23T11:19:43.662Z",
     "confirmed": false
+  },
+  "DcWfJhSPZSK2cAwG1zpVBB5MbDGtdDUvh5uN99XmrvaF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNCTRUMP",
+        "pairAddress": "Cgu5Nkq5ZnhRhDUjcPqT7qJS38nPoeEFKmHy5S5NVJL6",
+        "entryTime": "2026-04-23T11:26:20.016Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T11:26:20.016Z",
+    "lastSeen": "2026-04-23T11:26:20.016Z",
+    "confirmed": false
   }
 }
