@@ -2007,12 +2007,17 @@
     "confirmed": false
   },
   "AoY1xbQRtzwzFDRaEkENr6KRrBScWzVYZFHdUe8KQXby": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Stag",
         "pairAddress": "Fc49oR8YC6Yfm56bQKpJnqznaCHZfE23CMyJVfYu4Ahp",
         "entryTime": "2026-04-23T07:37:36.516Z"
+      },
+      {
+        "symbol": "UNCTRUMP",
+        "pairAddress": "Cgu5Nkq5ZnhRhDUjcPqT7qJS38nPoeEFKmHy5S5NVJL6",
+        "entryTime": "2026-04-23T11:39:14.608Z"
       }
     ],
     "wins": 0,
@@ -2020,7 +2025,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:37:36.516Z",
-    "lastSeen": "2026-04-23T07:37:36.516Z",
+    "lastSeen": "2026-04-23T11:39:14.608Z",
     "confirmed": false
   },
   "C51UHAys3mgo3ssWg5P3DvjXaY5oqNxQB7qNLNkRvbJ9": {
@@ -4827,6 +4832,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T11:38:43.502Z",
     "lastSeen": "2026-04-23T11:38:43.502Z",
+    "confirmed": false
+  },
+  "FNUEq1ancJ4drrP3Ub3XqhsBJnSbgkaH3YwQmhjKvrZa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNCTRUMP",
+        "pairAddress": "Cgu5Nkq5ZnhRhDUjcPqT7qJS38nPoeEFKmHy5S5NVJL6",
+        "entryTime": "2026-04-23T11:39:14.608Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T11:39:14.608Z",
+    "lastSeen": "2026-04-23T11:39:14.608Z",
     "confirmed": false
   }
 }
