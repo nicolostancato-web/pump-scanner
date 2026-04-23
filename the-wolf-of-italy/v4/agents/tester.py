@@ -171,8 +171,9 @@ async def save_tester_result(result: dict) -> None:
     """Save JSON result to KB and markdown summary."""
     from tools.github_memory import kb_write
     today = result["date"]
+    KB_ROOT = "the-wolf-of-italy/knowledge_base"
     await kb_write(
-        f"tester_alerts/{today}.json",
+        f"{KB_ROOT}/tester_alerts/{today}.json",
         json.dumps(result, indent=2, ensure_ascii=False),
         f"TESTER: health check {result['timestamp'][:16]}",
     )
@@ -181,7 +182,7 @@ async def save_tester_result(result: dict) -> None:
         for a in result["alerts"]:
             lines.append(f"- ⚠️ {a}")
         await kb_write(
-            f"tester_alerts/{today}.md",
+            f"{KB_ROOT}/tester_alerts/{today}.md",
             "\n".join(lines),
             f"TESTER: {len(result['alerts'])} alert",
         )
