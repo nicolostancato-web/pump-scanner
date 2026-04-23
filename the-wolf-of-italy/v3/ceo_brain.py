@@ -64,18 +64,28 @@ Step 2 — Read cycle plan for context:
 fetch_url: https://api.github.com/repos/{REPO}/contents/{KB}/handoffs/{DATE}-cycle-plan.md
 Decode base64 content.
 
-Step 3 — Make decision:
+Step 3 — Understand capital structure before deciding:
+The wallet has two distinct capital buckets:
+- CASH LIBERO = liquid SOL only (usable for new operations)
+- POSIZIONI ATTIVE = tokens in proposals_executed/ (capital at work, approved by board — NOT a loss, NOT a crisis)
+
+NEVER treat approved positions (JupSOL, USDC, etc.) as "lost capital" or "capital crisis".
+The correct capital check uses CASH LIBERO (liquid SOL), not portfolio total.
+
 ACTION NEEDED if ALL of these are true:
 - A protocol has eligibility score LOW or NONE
 - The missing action is zero-cost (only gas fees ~$0.05)
 - No action was proposed in the last 48 hours for the same protocol
-- Total wallet value is sufficient (>$10 after action)
+- CASH LIBERO (liquid SOL in USD) > cost of proposed action + $5 buffer
 
 NO ACTION if:
 - All protocols are reasonably covered (MEDIUM or HIGH)
-- Capital is too low (<$10 total)
+- CASH LIBERO < cost of proposed action + $5 buffer
 - An action was already proposed and not yet verified as executed/rejected
 - AIRDROP-HUNTER-1 reported a flag/alert on the target protocol
+
+NEVER write "capital crisis" or "target $100+" — no such target exists.
+If CASH LIBERO is low but POSIZIONI ATTIVE are healthy, write "low liquidity for new actions" not "capital crisis".
 
 Step 4 — Save decision log:
 Path: {KB}/decision_log/{DATE}.md
@@ -97,7 +107,7 @@ ACTION: YES / NO
 
 ## Constraint check
 - Zero cost: YES/NO
-- Capital sufficient: YES/NO ($XX.XX available)
+- Cash libero sufficient: YES/NO ($XX.XX liquid SOL available, $XX.XX in active positions)
 - No recent duplicate: YES/NO
 - No protocol alert: YES/NO
 
