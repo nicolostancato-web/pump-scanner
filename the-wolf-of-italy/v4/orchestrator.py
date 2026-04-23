@@ -18,6 +18,7 @@ import asyncio
 import json
 import logging
 import os
+import threading
 from datetime import datetime, time as dtime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -324,12 +325,28 @@ async def reset_loop():
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
+def _start_dashboard():
+    """Run Flask dashboard in background thread (same process, same Railway service)."""
+    import sys
+    root = str(Path(__file__).parent)
+    if root not in sys.path:
+        sys.path.insert(0, root)
+    from dashboard.app import app as flask_app
+    port = int(os.environ.get("PORT", os.environ.get("DASHBOARD_PORT", 8080)))
+    log.info(f"Dashboard starting on port {port}")
+    flask_app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False, threaded=True)
+
+
 async def main():
     log.info("=" * 60)
     log.info("The Wolf of Italy — v4")
     log.info(f"Model: {MODEL} | Rome: {datetime.now(ROME).strftime('%Y-%m-%d %H:%M')}")
     log.info("Agents: HUNTER(30m) | ANALISTA(5m) | CFO(4h) | MONITOR(07:00) | SECURITY(1h) | RESET(22:00)")
     log.info("=" * 60)
+
+    # Dashboard runs in background thread alongside asyncio loops
+    dashboard_thread = threading.Thread(target=_start_dashboard, daemon=True)
+    dashboard_thread.start()
 
     await asyncio.gather(
         hunter_loop(),
