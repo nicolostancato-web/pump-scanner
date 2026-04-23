@@ -1,4 +1,4 @@
-Ultimo aggiornamento: 2026-04-23 17:40 Rome
+Ultimo aggiornamento: 2026-04-23 17:41 Rome
 
 ## BP-2026-04-23-001 — JupSOL (Jupiter Staked SOL)
 Stato: FULLY_DEPLOYED
