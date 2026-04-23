@@ -11,9 +11,10 @@ Call get_sol_balance with wallet: 9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt
 Call get_token_accounts with same wallet
 Call get_recent_transactions (limit 20) to see recent activity
 
-### Step 2 — Read current AIRDROP-HUNTER-1 notes for criteria:
-fetch_url: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/team-notes/AIRDROP-HUNTER-1/[DATE]/raw_notes.md
+### Step 2 — Read AIRDROP-HUNTER-1 intel (knowledge_base, not team-notes):
+fetch_url: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/knowledge_base/airdrop_intel/[DATE].md
 Decode base64 content.
+If 404 (AIRDROP-HUNTER hasn't saved yet — possible in parallel execution): note "airdrop_intel not available" and proceed with on-chain data only. Do NOT fabricate or interpolate AIRDROP-HUNTER conclusions.
 
 ### Step 3 — Score eligibility for each protocol (based on actual wallet state vs criteria):
 
