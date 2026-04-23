@@ -2994,7 +2994,7 @@
     "confirmed": false
   },
   "C8nuSf6PvtByo8qE5jmcgXVngLCtXw1xVfESt6dfh1vD": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "SIF",
@@ -3005,6 +3005,11 @@
         "symbol": "ETF",
         "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
         "entryTime": "2026-04-22T01:33:11.531Z"
+      },
+      {
+        "symbol": "DERP",
+        "pairAddress": "45xSjaBP19Wm7w9PTMtWdJRnYwmcc2q7bYwPojumkk3s",
+        "entryTime": "2026-04-23T05:43:28.181Z"
       }
     ],
     "wins": 0,
@@ -3012,8 +3017,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T08:42:31.072Z",
-    "lastSeen": "2026-04-22T01:33:11.531Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T05:43:28.181Z",
+    "confirmed": true
   },
   "B7U2Eh3no2b46eAAzrvRfuTDcRFUzkuq9KhwyFoYgQtj": {
     "appearances": 1,
@@ -38600,6 +38605,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T05:36:45.433Z",
     "lastSeen": "2026-04-23T05:36:45.433Z",
+    "confirmed": false
+  },
+  "AfnpdWwQCZ8bwUkZHYyUCDXgqjm6X7CumqfqoRiTU2NJ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DERP",
+        "pairAddress": "45xSjaBP19Wm7w9PTMtWdJRnYwmcc2q7bYwPojumkk3s",
+        "entryTime": "2026-04-23T05:43:28.181Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T05:43:28.181Z",
+    "lastSeen": "2026-04-23T05:43:28.181Z",
     "confirmed": false
   }
 }
