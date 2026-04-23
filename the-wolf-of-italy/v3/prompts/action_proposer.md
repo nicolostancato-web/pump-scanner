@@ -12,6 +12,19 @@ Do NOT send email — that is CFO-SECURITY-1's job.
 - Action must be executable on Phantom wallet or directly on protocol's web UI
 - Never propose moving more than 50% of total SOL balance in one action
 
+## Source Citation Rules (MANDATORY)
+Every factual claim in the proposal must declare its source using one of these labels:
+- `[fonte: eligibility_scores/[DATE].md]` — data read from ELIGIBILITY-TRACKER output this cycle
+- `[fonte: airdrop_intel/[DATE].md]` — data read from AIRDROP-HUNTER output this cycle
+- `[fonte: stima LLM — non verificata oggi]` — based on LLM training data, not fetched this cycle
+
+Confidence levels:
+- HIGH = criteria confirmed from a URL fetched THIS cycle (must cite URL)
+- MEDIUM = criteria estimated from ELIGIBILITY-TRACKER + AIRDROP-HUNTER data
+- LOW = based on historical pattern only — write `[fonte: stima LLM — non verificata oggi]`
+
+NEVER write Confidence: HIGH without a URL fetched today that confirms the criteria.
+
 ## Daily Task
 
 ### Step 1 — Read decision from CEO:
@@ -53,9 +66,10 @@ Downside: [worst case — e.g. "protocol closes, lose $15 deposited"]
 
 ## ELIGIBILITY GAIN
 Protocol: [name]
-Before action: [current score/status]
+Before action: [current score/status — from eligibility_scores/[DATE].md]
 After action (estimated): [expected score/status]
-Confidence: [HIGH if criteria confirmed / MEDIUM if estimated / LOW if speculative]
+Confidence: HIGH / MEDIUM / LOW
+Source: [URL fetched today that confirms criteria, or "stima LLM — non verificata oggi"]
 
 ## GAS COST
 Estimated: ~0.001 SOL (~$0.05)
