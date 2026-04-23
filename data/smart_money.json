@@ -2255,7 +2255,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "POB",
@@ -2266,6 +2266,11 @@
         "symbol": "KYLE",
         "pairAddress": "91D3rxy4xo8Bhti3zyTWAjkg6NH4wtqDHpZKvWdSVG6w",
         "entryTime": "2026-04-23T09:42:08.257Z"
+      },
+      {
+        "symbol": "UNCTRUMP",
+        "pairAddress": "Cgu5Nkq5ZnhRhDUjcPqT7qJS38nPoeEFKmHy5S5NVJL6",
+        "entryTime": "2026-04-23T11:36:04.203Z"
       }
     ],
     "wins": 0,
@@ -2273,8 +2278,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:02:06.326Z",
-    "lastSeen": "2026-04-23T09:42:08.257Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T11:36:04.203Z",
+    "confirmed": true
   },
   "55NQkFDwwW8noThkL9Rd5ngbgUU36fYZeos1k5ZwjGdn": {
     "appearances": 1,
@@ -4771,6 +4776,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T11:35:27.478Z",
     "lastSeen": "2026-04-23T11:35:27.478Z",
+    "confirmed": false
+  },
+  "55E63MmKr8HKQqGKdagw3nrXDduW3uHfijdLX3Nk9syP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNCTRUMP",
+        "pairAddress": "Cgu5Nkq5ZnhRhDUjcPqT7qJS38nPoeEFKmHy5S5NVJL6",
+        "entryTime": "2026-04-23T11:36:04.203Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T11:36:04.203Z",
+    "lastSeen": "2026-04-23T11:36:04.203Z",
     "confirmed": false
   }
 }
