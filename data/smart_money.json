@@ -2702,7 +2702,7 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "¢",
@@ -2713,6 +2713,11 @@
         "symbol": "KYLE",
         "pairAddress": "AqfEkLLSKFpgHq8bi126zhhuPvXbMCR7PfHABnoMiT7y",
         "entryTime": "2026-04-23T09:27:52.472Z"
+      },
+      {
+        "symbol": "KAIRU",
+        "pairAddress": "Fk9dh4ScbmYgymh8WLUoL5o6zhm9zPgyaSLJYkgv7iyz",
+        "entryTime": "2026-04-23T10:32:04.886Z"
       }
     ],
     "wins": 0,
@@ -2720,8 +2725,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:25:38.671Z",
-    "lastSeen": "2026-04-23T09:27:52.472Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T10:32:04.886Z",
+    "confirmed": true
   },
   "Gc767QTZrX8LnoTvPeFjNuu2H8k5zqgWsCSjoa8CJQDe": {
     "appearances": 1,
