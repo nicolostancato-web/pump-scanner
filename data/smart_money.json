@@ -2428,7 +2428,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 25,
+    "appearances": 26,
     "tokens": [
       {
         "symbol": "ASTROPEPE",
@@ -2554,6 +2554,11 @@
         "symbol": "AlienPippin",
         "pairAddress": "Gc7zup1FkSTwKg8Yfk7Wc1ctWD3au92AwtMRgJsUY3qq",
         "entryTime": "2026-04-23T00:11:29.898Z"
+      },
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T00:51:38.176Z"
       }
     ],
     "wins": 0,
@@ -2561,7 +2566,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:34:13.234Z",
-    "lastSeen": "2026-04-23T00:11:29.898Z",
+    "lastSeen": "2026-04-23T00:51:38.176Z",
     "confirmed": true
   },
   "Bhq3JrsW5K4kX4pahQQcLZxn7UhrVCD9FgXYmAarxC2w": {
@@ -30334,12 +30339,17 @@
     "confirmed": false
   },
   "CGewurRcapHfbESwbZ2x3cfHKKM9s1W83mYMrDnf8Mze": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TP",
         "pairAddress": "ATxqWgqbb418biQoWPzCeYSTThHzJ7zyLucPvREmhjXv",
         "entryTime": "2026-04-22T18:04:05.378Z"
+      },
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T00:51:38.176Z"
       }
     ],
     "wins": 0,
@@ -30347,7 +30357,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T18:04:05.378Z",
-    "lastSeen": "2026-04-22T18:04:05.378Z",
+    "lastSeen": "2026-04-23T00:51:38.176Z",
     "confirmed": false
   },
   "3ChckrFeR3tgz6UCHFvqFP1mxpTDkfSDS1GGSVtaRWUy": {
