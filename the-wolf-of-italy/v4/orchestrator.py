@@ -32,12 +32,17 @@ from agents.analista import task as analista_task
 from agents.cfo import task as cfo_task
 from agents.monitor import task as monitor_task
 from agents.security import task as security_task
+from agents.tester import task as tester_task, run_tester_check
 from tools.solana_reader import get_sol_balance, get_token_accounts, get_recent_transactions
 from tools.email_sender import send_proposal_email, send_critical_alert
 from tools.github_memory import kb_write
 from tools.web_scraper import fetch_text, fetch_json
 
 load_dotenv(dotenv_path=Path(__file__).parent / ".env", override=True)
+
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_REPO = os.environ.get("GITHUB_REPO", "nicolostancato-web/pump-scanner")
+KB_PATH = "the-wolf-of-italy/knowledge_base"
 
 MODEL = os.environ.get("LLM_MODEL", "deepseek/deepseek-chat")
 ROME = ZoneInfo("Europe/Rome")
@@ -328,6 +333,17 @@ async def reset_loop():
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
+
+async def tester_loop():
+    """Every 1 hour. 10-minute startup grace."""
+    await asyncio.sleep(10 * 60)
+    while True:
+        try:
+            await tester_task()
+        except Exception as e:
+            log.error(f"[TESTER] crashed: {e}")
+        await asyncio.sleep(60 * 60)
+
 def _start_dashboard():
     """Run Flask dashboard in background thread (same process, same Railway service)."""
     import sys
@@ -349,7 +365,7 @@ async def main():
     log.info("=" * 60)
     log.info("The Wolf of Italy — v4")
     log.info(f"Model: {MODEL} | Rome: {datetime.now(ROME).strftime('%Y-%m-%d %H:%M')}")
-    log.info("Agents: HUNTER(30m) | ANALISTA(5m) | CFO(4h) | MONITOR(07:00) | SECURITY(1h) | RESET(22:00)")
+    log.info("Agents: HUNTER(30m) | ANALISTA(5m) | CFO(4h) | MONITOR(07:00) | SECURITY(1h) | RESET(22:00) | TESTER(1h)")
     log.info("=" * 60)
 
     # Dashboard runs in background thread alongside asyncio loops
@@ -363,6 +379,7 @@ async def main():
         monitor_loop(),
         security_loop(),
         reset_loop(),
+        tester_loop(),
     )
 
 
