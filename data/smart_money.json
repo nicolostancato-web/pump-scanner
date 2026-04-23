@@ -3324,12 +3324,17 @@
     "confirmed": false
   },
   "6odAj2ZWGT1ZsSLSyJBd3tKYgq9chtytEqbh3bNyTZp9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KYLE",
         "pairAddress": "AqfEkLLSKFpgHq8bi126zhhuPvXbMCR7PfHABnoMiT7y",
         "entryTime": "2026-04-23T09:15:14.450Z"
+      },
+      {
+        "symbol": "BTCJ",
+        "pairAddress": "Fn8GXahSEAQVA4tqEETt7A7ZVDHPZgvQq9eSmW1EVTrC",
+        "entryTime": "2026-04-23T11:19:43.662Z"
       }
     ],
     "wins": 0,
@@ -3337,7 +3342,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T09:15:14.450Z",
-    "lastSeen": "2026-04-23T09:15:14.450Z",
+    "lastSeen": "2026-04-23T11:19:43.662Z",
     "confirmed": false
   },
   "siUnnE4sm7kgBS8vwh4naipEknTUR2sLasMWg1LyvKn": {
@@ -4562,6 +4567,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T10:41:11.244Z",
     "lastSeen": "2026-04-23T10:41:11.244Z",
+    "confirmed": false
+  },
+  "73hXWo88pxoBsyw4fgFuTTkMkg9K64ZvL1vpzHHy7rf2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BTCJ",
+        "pairAddress": "Fn8GXahSEAQVA4tqEETt7A7ZVDHPZgvQq9eSmW1EVTrC",
+        "entryTime": "2026-04-23T11:19:43.662Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T11:19:43.662Z",
+    "lastSeen": "2026-04-23T11:19:43.662Z",
     "confirmed": false
   }
 }
