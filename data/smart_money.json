@@ -13100,12 +13100,17 @@
     "confirmed": false
   },
   "3qt6QUDd8dF3JQdpa8n4vXVx7oFubxgapsd3td2ih22b": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AIX6900",
         "pairAddress": "1pMVqszkrutkYtU8SooP5ETaiLQWJUDaL2AiavjsS8F",
         "entryTime": "2026-04-23T20:32:45.405Z"
+      },
+      {
+        "symbol": "AIB",
+        "pairAddress": "29sggEtn4e3t5Uk6L8HPSugFoXrJC6RvDgoRrgGHruwR",
+        "entryTime": "2026-04-23T22:57:41.116Z"
       }
     ],
     "wins": 0,
@@ -13113,7 +13118,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T20:32:45.405Z",
-    "lastSeen": "2026-04-23T20:32:45.405Z",
+    "lastSeen": "2026-04-23T22:57:41.116Z",
     "confirmed": false
   },
   "4FteHYwvojtVvfFnkNuu2pj6WBBXsfVouRcGvpZyMLU4": {
@@ -15669,6 +15674,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T22:57:06.617Z",
     "lastSeen": "2026-04-23T22:57:06.617Z",
+    "confirmed": false
+  },
+  "FGsDNazPMCNZhNgxxX3HVAw1Dv9uchPbdZcvyLKE45uW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AIB",
+        "pairAddress": "29sggEtn4e3t5Uk6L8HPSugFoXrJC6RvDgoRrgGHruwR",
+        "entryTime": "2026-04-23T22:57:41.116Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T22:57:41.116Z",
+    "lastSeen": "2026-04-23T22:57:41.116Z",
     "confirmed": false
   }
 }
