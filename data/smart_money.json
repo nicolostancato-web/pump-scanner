@@ -4011,7 +4011,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "Bitshark",
@@ -4052,6 +4052,11 @@
         "symbol": "boobcoin",
         "pairAddress": "9MmacJZnu1JviRQVDjiLxMKAUWnm3tLqd2fuZS8wqdqK",
         "entryTime": "2026-04-23T00:00:37.440Z"
+      },
+      {
+        "symbol": "FLORKINU",
+        "pairAddress": "BkoQAMe1XKFZVuVSHrKm54xr78TGwawymqron2q5KHTL",
+        "entryTime": "2026-04-23T06:15:37.676Z"
       }
     ],
     "wins": 0,
@@ -4059,7 +4064,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:04:08.925Z",
-    "lastSeen": "2026-04-23T00:00:37.440Z",
+    "lastSeen": "2026-04-23T06:15:37.676Z",
     "confirmed": true
   },
   "4kSmFFKcDqoRJzUfmpBeQJwnMLwmxZbvHiN9DVZjYcU2": {
@@ -39354,6 +39359,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T06:14:51.355Z",
     "lastSeen": "2026-04-23T06:14:51.355Z",
+    "confirmed": false
+  },
+  "BPJj9gHWZhgEG1YSK7mgH6ZEnd3gHVfwFFdpcBoF8TXT": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FLORKINU",
+        "pairAddress": "BkoQAMe1XKFZVuVSHrKm54xr78TGwawymqron2q5KHTL",
+        "entryTime": "2026-04-23T06:15:37.676Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T06:15:37.676Z",
+    "lastSeen": "2026-04-23T06:15:37.676Z",
     "confirmed": false
   }
 }
