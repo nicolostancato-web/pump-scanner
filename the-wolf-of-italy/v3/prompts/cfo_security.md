@@ -10,8 +10,19 @@ Report real numbers. Raise real flags. No padding.
 Call get_sol_balance with wallet: 9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt
 Call get_token_accounts with same wallet
 
-### Step 2 — Get SOL price:
+### Step 2 — Get prices for all held assets:
+
+SOL price:
 fetch_url: https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd
+
+For each non-zero token found in get_token_accounts, fetch its USD price:
+- JupSOL (jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v):
+  fetch_url: https://api.jup.ag/price/v2?ids=jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v
+  Parse: response.data["jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"].price
+- USDC (EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v): always $1.00 (no fetch needed)
+- Any other token with non-zero balance: fetch from https://api.jup.ag/price/v2?ids=[MINT_ADDRESS]
+
+Calculate total portfolio value = SOL_balance × SOL_price + sum(token_balance × token_price)
 
 ### Step 3 — Check if yesterday's proposal was executed:
 fetch_url: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/knowledge_base/proposals_sent
@@ -38,9 +49,17 @@ Format:
 CFO-SECURITY-1
 
 ## Balances
-- SOL: X.XX SOL = $XX.XX (SOL price: $XXX)
-- [Token 1]: X.XX = $XX.XX
-- TOTAL VALUE: $XX.XX
+| Asset | Category | Amount | Price | USD Value |
+|---|---|---|---|---|
+| SOL | Liquid | X.XX SOL | $XXX | $XX.XX |
+| JupSOL | Staked / Jupiter position | X.XX | $XXX | $XX.XX |
+| USDC | Stablecoin | X.XX | $1.00 | $XX.XX |
+| [other token] | [category] | X.XX | $X.XX | $X.XX |
+
+**TOTAL PORTFOLIO: $XX.XX**
+- Liquid SOL: $XX.XX (XX%)
+- Staked/Protocol positions: $XX.XX (XX%)
+- Stablecoins: $XX.XX (XX%)
 
 ## Yesterday's Proposal
 - Proposal file: [DATE]-1.md / NONE
