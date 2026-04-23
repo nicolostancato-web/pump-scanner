@@ -261,7 +261,8 @@ async def sleep_until(target_time: dtime) -> None:
 # ── AGENT LOOPS ───────────────────────────────────────────────────────────────
 
 async def hunter_loop():
-    """Every 30 minutes."""
+    """Every 30 minutes. 15-minute startup grace to avoid deploy spam."""
+    await asyncio.sleep(15 * 60)
     while True:
         try:
             await run_agent("HUNTER", hunter_task(), save_all=True)
@@ -271,7 +272,8 @@ async def hunter_loop():
 
 
 async def analista_loop():
-    """Every 5 minutes."""
+    """Every 5 minutes. 5-minute startup grace to avoid deploy spam."""
+    await asyncio.sleep(5 * 60)
     while True:
         try:
             await run_agent("ANALISTA", analista_task())
@@ -304,7 +306,8 @@ async def monitor_loop():
 
 
 async def security_loop():
-    """Every 1 hour."""
+    """Every 1 hour. 10-minute startup grace."""
+    await asyncio.sleep(10 * 60)
     while True:
         try:
             await run_agent("SECURITY", security_task())
