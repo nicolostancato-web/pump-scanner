@@ -4245,12 +4245,17 @@
     "confirmed": false
   },
   "FbbkqLUL7ZbARYxmLCZAPGwxYBamDPrp62n3aAUiySif": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KYLE",
         "pairAddress": "91D3rxy4xo8Bhti3zyTWAjkg6NH4wtqDHpZKvWdSVG6w",
         "entryTime": "2026-04-23T09:51:49.791Z"
+      },
+      {
+        "symbol": "SHIBAG",
+        "pairAddress": "9Go7qRjHkn76yZT2RSaTmZFEjCEnVLFS7pfyUYf7geXQ",
+        "entryTime": "2026-04-23T13:00:21.605Z"
       }
     ],
     "wins": 0,
@@ -4258,7 +4263,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T09:51:49.791Z",
-    "lastSeen": "2026-04-23T09:51:49.791Z",
+    "lastSeen": "2026-04-23T13:00:21.605Z",
     "confirmed": false
   },
   "H4GZ5Bkd1VsnXvNS2hobD1MjeMrYjW2nMmU2FejoUCCm": {
@@ -5823,6 +5828,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:59:32.931Z",
     "lastSeen": "2026-04-23T12:59:32.931Z",
+    "confirmed": false
+  },
+  "De5YyUWhRifZM57YYpaPgHX2N9QAKENj7kb1TCx53Xhj": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SHIBAG",
+        "pairAddress": "9Go7qRjHkn76yZT2RSaTmZFEjCEnVLFS7pfyUYf7geXQ",
+        "entryTime": "2026-04-23T13:00:21.605Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T13:00:21.605Z",
+    "lastSeen": "2026-04-23T13:00:21.605Z",
     "confirmed": false
   }
 }
