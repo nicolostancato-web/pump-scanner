@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% block title %}Impostazioni · Wolf{% endblock %}
+
+{% block content %}
+<div class="mb-6">
+  <h1 class="text-xl font-bold text-gray-900 dark:text-white">Impostazioni</h1>
+  <p class="text-xs text-gray-400 mt-0.5">Configurazione sistema · modifica con attenzione</p>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+  <!-- Criteri Hunter -->
+  <div class="card p-6 fade-in lg:col-span-2">
+    <h2 class="text-sm font-semibold text-gray-900 dark:text-white mb-4">Prompt HUNTER</h2>
+    {% if hunter_prompt %}
+    <pre class="text-xs text-gray-600 dark:text-gray-300 leading-relaxed bg-gray-50 dark:bg-gray-800 rounded-xl p-4 max-h-96 overflow-y-auto">{{ hunter_prompt }}</pre>
+    <p class="text-xs text-gray-400 mt-3">Per modificare il prompt, aggiorna il file <code class="bg-gray-100 dark:bg-gray-700 px-1.5 py-0.5 rounded">the-wolf-of-italy/v4/prompts/hunter.md</code> su GitHub.</p>
+    {% else %}
+    <p class="text-sm text-gray-400">Prompt non trovato su GitHub.</p>
+    {% endif %}
+  </div>
+
+  <!-- Sistema -->
+  <div class="card p-6 fade-in">
+    <h2 class="text-sm font-semibold text-gray-900 dark:text-white mb-4">Informazioni Sistema</h2>
+    <div class="space-y-3 text-xs">
+      <div class="flex justify-between items-center py-2 border-b border-gray-50 dark:border-gray-700">
+        <span class="text-gray-500">Versione</span>
+        <span class="font-semibold text-gray-900 dark:text-white">v4</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-50 dark:border-gray-700">
+        <span class="text-gray-500">LLM Model</span>
+        <span class="font-semibold text-gray-900 dark:text-white font-mono">claude-sonnet-4-6</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-50 dark:border-gray-700">
+        <span class="text-gray-500">HUNTER</span>
+        <span class="badge badge-green">ogni 30 min</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-50 dark:border-gray-700">
+        <span class="text-gray-500">ANALISTA</span>
+        <span class="badge badge-green">ogni 5 min</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-50 dark:border-gray-700">
+        <span class="text-gray-500">CFO</span>
+        <span class="badge badge-green">ogni 4 ore</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-50 dark:border-gray-700">
+        <span class="text-gray-500">MONITOR</span>
+        <span class="badge badge-blue">07:00 Roma</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-50 dark:border-gray-700">
+        <span class="text-gray-500">SECURITY</span>
+        <span class="badge badge-green">ogni ora</span>
+      </div>
+      <div class="flex justify-between items-center py-2">
+        <span class="text-gray-500">RESET</span>
+        <span class="badge badge-gray">22:00 Roma</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Credenziali -->
+  <div class="card p-6 fade-in">
+    <h2 class="text-sm font-semibold text-gray-900 dark:text-white mb-4">Credenziali Configurate</h2>
+    <div class="space-y-3 text-xs">
+      <div class="flex justify-between items-center py-2 border-b border-gray-50 dark:border-gray-700">
+        <span class="text-gray-500">Anthropic API</span>
+        <span class="badge badge-green">✅ Configurata</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-50 dark:border-gray-700">
+        <span class="text-gray-500">GitHub Token</span>
+        <span class="badge badge-green">✅ Configurato</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-50 dark:border-gray-700">
+        <span class="text-gray-500">Solana Wallet</span>
+        <span class="font-mono text-gray-600 dark:text-gray-300">E51F…uxV</span>
+      </div>
+      <div class="flex justify-between items-center py-2">
+        <span class="text-gray-500">Gmail SMTP</span>
+        <span class="text-gray-400 text-xs">imposta GMAIL_APP_PASSWORD</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-4">Modifica le variabili d'ambiente in Railway → Variables.</p>
+  </div>
+
+  <!-- Password Dashboard -->
+  <div class="card p-6 fade-in">
+    <h2 class="text-sm font-semibold text-gray-900 dark:text-white mb-1">Password Dashboard</h2>
+    <p class="text-xs text-gray-400 mb-4">Modifica la variabile <code class="bg-gray-100 dark:bg-gray-700 px-1.5 py-0.5 rounded font-mono">DASHBOARD_PASSWORD</code> in Railway → Variables.</p>
+    <div class="bg-yellow-50 dark:bg-yellow-950 border border-yellow-100 dark:border-yellow-900 rounded-xl p-3">
+      <p class="text-xs text-yellow-700 dark:text-yellow-300 font-medium">⚠️ Dopo la modifica Railway farà un redeploy automatico.</p>
+    </div>
+  </div>
+
+  <!-- Repository -->
+  <div class="card p-6 fade-in">
+    <h2 class="text-sm font-semibold text-gray-900 dark:text-white mb-4">Repository GitHub</h2>
+    <div class="space-y-2 text-xs">
+      <div class="flex justify-between items-center py-1">
+        <span class="text-gray-500">Repo</span>
+        <span class="font-mono text-gray-700 dark:text-gray-200">nicolostancato-web/pump-scanner</span>
+      </div>
+      <div class="flex justify-between items-center py-1">
+        <span class="text-gray-500">KB path</span>
+        <span class="font-mono text-gray-700 dark:text-gray-200 text-xs">the-wolf-of-italy/knowledge_base</span>
+      </div>
+      <div class="flex justify-between items-center py-1">
+        <span class="text-gray-500">V4 path</span>
+        <span class="font-mono text-gray-700 dark:text-gray-200 text-xs">the-wolf-of-italy/v4</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
