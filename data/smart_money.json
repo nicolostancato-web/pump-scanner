@@ -28183,12 +28183,17 @@
     "confirmed": false
   },
   "2N2bUpvJreefw1Ur8kR9S14euLeVxLkpDhNSTuMcUXCv": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Pikachu",
         "pairAddress": "FSyU7vqJhpoDTCKjCrvPyH4caVyVbEVp1Ra5ZDn8wPz8",
         "entryTime": "2026-04-22T14:16:54.530Z"
+      },
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T01:00:01.994Z"
       }
     ],
     "wins": 0,
@@ -28196,7 +28201,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T14:16:54.530Z",
-    "lastSeen": "2026-04-22T14:16:54.530Z",
+    "lastSeen": "2026-04-23T01:00:01.994Z",
     "confirmed": false
   },
   "bVCXHP1KLBxVNBKQubhVcfeG5rcCki7wQ14DgBu5zPc": {
@@ -36142,6 +36147,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T00:59:20.649Z",
     "lastSeen": "2026-04-23T00:59:20.649Z",
+    "confirmed": false
+  },
+  "E7nsdxtr9Bdiwc5ReH1CroRXcvnyQWqQd4ojm5uKchRm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T01:00:01.994Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T01:00:01.994Z",
+    "lastSeen": "2026-04-23T01:00:01.994Z",
     "confirmed": false
   }
 }
