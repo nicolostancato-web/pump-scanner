@@ -1103,7 +1103,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1134,6 +1134,11 @@
         "symbol": "BLOB",
         "pairAddress": "Vy1F3H3UP1rnWUtF7Z3sbimt9YutSVdfH7cV4RtJJAN",
         "entryTime": "2026-04-23T15:03:41.907Z"
+      },
+      {
+        "symbol": "FLIPCOIN",
+        "pairAddress": "ALje3Caysp6D4Fmz8kYQ1ywpVUp8dgZSReJ6VfsKNRk5",
+        "entryTime": "2026-04-23T15:08:23.990Z"
       }
     ],
     "wins": 0,
@@ -1141,7 +1146,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-23T15:03:41.907Z",
+    "lastSeen": "2026-04-23T15:08:23.990Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
