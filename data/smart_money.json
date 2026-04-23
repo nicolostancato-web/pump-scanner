@@ -2752,7 +2752,7 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "¢",
@@ -2768,6 +2768,11 @@
         "symbol": "KAIRU",
         "pairAddress": "Fk9dh4ScbmYgymh8WLUoL5o6zhm9zPgyaSLJYkgv7iyz",
         "entryTime": "2026-04-23T10:32:04.886Z"
+      },
+      {
+        "symbol": "brrrcoin",
+        "pairAddress": "HoRcwdnRj1PqGV65i2hCi6DHYgDwj3oPiq7BpuZ1ZhV5",
+        "entryTime": "2026-04-23T15:50:13.907Z"
       }
     ],
     "wins": 0,
@@ -2775,7 +2780,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:25:38.671Z",
-    "lastSeen": "2026-04-23T10:32:04.886Z",
+    "lastSeen": "2026-04-23T15:50:13.907Z",
     "confirmed": true
   },
   "Gc767QTZrX8LnoTvPeFjNuu2H8k5zqgWsCSjoa8CJQDe": {
@@ -8817,6 +8822,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T15:49:55.842Z",
     "lastSeen": "2026-04-23T15:49:55.842Z",
+    "confirmed": false
+  },
+  "9VbWC4mvfpBgVbAH5P8GS5d4o3D51F7q52qiZqm622Uz": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "brrrcoin",
+        "pairAddress": "HoRcwdnRj1PqGV65i2hCi6DHYgDwj3oPiq7BpuZ1ZhV5",
+        "entryTime": "2026-04-23T15:50:13.907Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T15:50:13.907Z",
+    "lastSeen": "2026-04-23T15:50:13.907Z",
     "confirmed": false
   }
 }
