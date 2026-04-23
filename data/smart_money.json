@@ -10746,12 +10746,17 @@
     "confirmed": false
   },
   "JB3vy1Se9fHqY8L5RgY2YFAC4o2eciooPXjLaREqMcRh": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "VESPR",
         "pairAddress": "2oFEtKUHGWCMkVcWWrtYNb2MoR9hh8upmmcQKRwZAXXW",
         "entryTime": "2026-04-23T18:12:36.081Z"
+      },
+      {
+        "symbol": "GRAMPS",
+        "pairAddress": "6wJzMXWijbr6KZFeVx16sczZqgq8gUQnJswxRj4h4QUB",
+        "entryTime": "2026-04-23T21:05:41.575Z"
       }
     ],
     "wins": 0,
@@ -10759,7 +10764,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T18:12:36.081Z",
-    "lastSeen": "2026-04-23T18:12:36.081Z",
+    "lastSeen": "2026-04-23T21:05:41.575Z",
     "confirmed": false
   },
   "73K3hQdUpBFKPMCGmfVWM6vR6b7UNt1Ytfg5Lv5Dj7LS": {
@@ -13434,6 +13439,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T21:03:06.625Z",
     "lastSeen": "2026-04-23T21:03:06.625Z",
+    "confirmed": false
+  },
+  "5RrjQNP99tCFtS4jTk3AN8fMKufgVMRFaggSxLxk3LFP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GRAMPS",
+        "pairAddress": "6wJzMXWijbr6KZFeVx16sczZqgq8gUQnJswxRj4h4QUB",
+        "entryTime": "2026-04-23T21:05:41.575Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T21:05:41.575Z",
+    "lastSeen": "2026-04-23T21:05:41.575Z",
     "confirmed": false
   }
 }
