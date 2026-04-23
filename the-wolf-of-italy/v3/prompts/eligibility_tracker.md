@@ -18,14 +18,35 @@ fetch_url: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents
 Decode base64 content.
 If 404 (AIRDROP-HUNTER hasn't saved yet — possible in parallel execution): note "airdrop_intel not available" and proceed with on-chain data only. Do NOT fabricate or interpolate AIRDROP-HUNTER conclusions.
 
-### Step 3 — Score eligibility for each protocol (based on actual wallet state vs criteria):
+### Step 3 — Check proposals_executed for confirmed actions:
+fetch_url: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/knowledge_base/proposals_executed
+List the folder. For each file dated within the last 30 days, read it to know what has been executed.
+This is the ground truth for what the founder has done — use it to inform eligibility scores.
 
-For Jupiter: does wallet have JupSOL? Recent swaps on Jupiter?
-For Kamino: any supply positions? USDC or SOL deposited?
-For MarginFi: any supply positions?
-For Drift: any recent perp trades?
+### Step 4 — Score eligibility for each protocol:
 
-### Step 4 — Save eligibility scores:
+**Jupiter scoring rules (in order of priority):**
+- If wallet has JupSOL (mint: jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v) with balance > 0:
+  → eligibility = LOW (holding position confirmed)
+  → What we have: "X.XXX JupSOL — holding position established"
+  → What's missing: "Swap volume on Jupiter DEX to reach MEDIUM"
+- If JupSOL balance > 0 AND proposals_executed shows Jupiter swap executed:
+  → eligibility = LOW-MEDIUM
+- If no JupSOL and no Jupiter activity: eligibility = NONE
+
+**Kamino scoring rules:**
+- If wallet has kTokens (Kamino supply tokens) or USDC/SOL deposited on Kamino: LOW or higher
+- Otherwise: NONE
+
+**MarginFi scoring rules:**
+- If wallet has mSOL or supply positions on MarginFi: LOW or higher
+- Otherwise: NONE
+
+**Drift scoring rules:**
+- If recent transactions show Drift program interactions: LOW or higher
+- Otherwise: NONE
+
+### Step 5 — Save eligibility scores:
 Path: the-wolf-of-italy/knowledge_base/eligibility_scores/[DATE].md
 Commit: "ELIGIBILITY-TRACKER-1: scores [DATE]"
 
