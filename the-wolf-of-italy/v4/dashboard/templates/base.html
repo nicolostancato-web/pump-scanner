@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐺 Wolf of Italy{% if title %} — {{ title }}{% endif %}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+  <style>
+    .tab-active { @apply bg-white text-gray-900 shadow-sm; }
+    .tab-inactive { @apply text-gray-400 hover:text-gray-600; }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen font-sans">
+
+  <!-- Header -->
+  <header class="bg-gray-900 text-white px-4 py-3 flex items-center justify-between sticky top-0 z-50 shadow-lg">
+    <div class="flex items-center gap-3">
+      <span class="text-xl font-bold">🐺 Wolf of Italy</span>
+      <span class="text-xs text-gray-400 hidden sm:inline">v4</span>
+    </div>
+    <div class="flex items-center gap-3">
+      <span id="clock" class="text-sm text-gray-400"></span>
+      <span id="refresh-indicator" class="text-xs text-green-400 hidden">↻ aggiornamento...</span>
+      <a href="/logout" class="text-xs text-gray-500 hover:text-gray-300">esci</a>
+    </div>
+  </header>
+
+  <!-- Tab Navigation -->
+  <nav class="bg-white border-b border-gray-200 px-2 overflow-x-auto">
+    <div class="flex gap-1 py-2 min-w-max">
+      <a href="/proposte" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors {% if active_tab == 'proposte' %}bg-gray-900 text-white{% else %}text-gray-500 hover:bg-gray-100{% endif %}">
+        📋 Proposte
+      </a>
+      <a href="/portfolio" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors {% if active_tab == 'portfolio' %}bg-gray-900 text-white{% else %}text-gray-500 hover:bg-gray-100{% endif %}">
+        💰 Portfolio
+      </a>
+      <a href="/parcheggiati" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors {% if active_tab == 'parcheggiati' %}bg-gray-900 text-white{% else %}text-gray-500 hover:bg-gray-100{% endif %}">
+        🅿️ Parcheggiati
+      </a>
+      <a href="/storico" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors {% if active_tab == 'storico' %}bg-gray-900 text-white{% else %}text-gray-500 hover:bg-gray-100{% endif %}">
+        📊 Storico
+      </a>
+      <a href="/log" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors {% if active_tab == 'log' %}bg-gray-900 text-white{% else %}text-gray-500 hover:bg-gray-100{% endif %}">
+        🔍 Log Agenti
+      </a>
+      <a href="/impostazioni" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors {% if active_tab == 'impostazioni' %}bg-gray-900 text-white{% else %}text-gray-500 hover:bg-gray-100{% endif %}">
+        ⚙️ Impostazioni
+      </a>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="max-w-4xl mx-auto px-4 py-6">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Clock + Auto-refresh -->
+  <script>
+    // Clock
+    function updateClock() {
+      const now = new Date();
+      document.getElementById('clock').textContent = now.toLocaleTimeString('it-IT', {timeZone:'Europe/Rome', hour:'2-digit', minute:'2-digit'});
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    // Auto-refresh every 60s (HTMX polling on main content)
+    let refreshTimer = 60;
+    let liveMode = false;
+
+    function startRefresh() {
+      setInterval(() => {
+        refreshTimer--;
+        if (refreshTimer <= 0) {
+          refreshTimer = liveMode ? 10 : 60;
+          document.getElementById('refresh-indicator').classList.remove('hidden');
+          htmx.trigger('#auto-refresh-zone', 'refresh');
+          setTimeout(() => document.getElementById('refresh-indicator').classList.add('hidden'), 1000);
+        }
+      }, 1000);
+    }
+    startRefresh();
+  </script>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>
