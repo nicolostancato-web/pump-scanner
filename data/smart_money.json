@@ -7850,12 +7850,17 @@
     "confirmed": false
   },
   "Fqf9BWfXWFFbUehKaqjXrLMLVQ6DKMXxHgdb1U5n8vDS": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "LandSat",
         "pairAddress": "7FCyvKXtW8iCxGeDVLD9yzbtrPVNgKVeE2c7fjwEnhCX",
         "entryTime": "2026-04-23T14:36:26.984Z"
+      },
+      {
+        "symbol": "AIX6900",
+        "pairAddress": "1pMVqszkrutkYtU8SooP5ETaiLQWJUDaL2AiavjsS8F",
+        "entryTime": "2026-04-23T20:19:16.673Z"
       }
     ],
     "wins": 0,
@@ -7863,7 +7868,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T14:36:26.984Z",
-    "lastSeen": "2026-04-23T14:36:26.984Z",
+    "lastSeen": "2026-04-23T20:19:16.673Z",
     "confirmed": false
   },
   "99XBdbzUPMv572g6jCY67TDNur5s7x9kntr46BEDv8Dt": {
@@ -12700,6 +12705,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T20:18:43.179Z",
     "lastSeen": "2026-04-23T20:18:43.179Z",
+    "confirmed": false
+  },
+  "4CWreucRTEfdH9HLyGE8X5gRCpaDueiZzSBPi9ZG2S1P": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AIX6900",
+        "pairAddress": "1pMVqszkrutkYtU8SooP5ETaiLQWJUDaL2AiavjsS8F",
+        "entryTime": "2026-04-23T20:19:16.673Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T20:19:16.673Z",
+    "lastSeen": "2026-04-23T20:19:16.673Z",
     "confirmed": false
   }
 }
