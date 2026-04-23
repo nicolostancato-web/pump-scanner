@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1 class="text-xl font-bold text-gray-900 mb-6">⚙️ Impostazioni</h1>
+
+<div class="space-y-6">
+
+  <!-- Criteri Hunter -->
+  <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+    <div class="px-5 py-4 border-b border-gray-100">
+      <h2 class="font-semibold text-gray-800">🔍 Criteri Hunter (sola lettura)</h2>
+      <p class="text-xs text-gray-400 mt-1">Per modificare i criteri, edita il file prompts/hunter.md nel repository.</p>
+    </div>
+    <div class="p-5">
+      <pre class="text-xs text-gray-600 whitespace-pre-wrap font-mono leading-relaxed bg-gray-50 rounded-lg p-4 max-h-80 overflow-y-auto">{{ hunter_prompt }}</pre>
+    </div>
+  </div>
+
+  <!-- Soglie alert -->
+  <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
+    <h2 class="font-semibold text-gray-800 mb-4">🔔 Soglie Alert</h2>
+    <div class="space-y-3 text-sm text-gray-700">
+      <div class="flex justify-between items-center py-2 border-b border-gray-100">
+        <span>Alert CFO posizione</span>
+        <span class="font-mono font-semibold text-orange-600">-30% in 24h</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-100">
+        <span>Email urgente CFO</span>
+        <span class="font-mono font-semibold text-red-600">-50% in 24h</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-100">
+        <span>Tetto costi mensili</span>
+        <span class="font-mono font-semibold">€20/mese</span>
+      </div>
+      <div class="flex justify-between items-center py-2 border-b border-gray-100">
+        <span>Alert scadenza token API</span>
+        <span class="font-mono font-semibold">7 giorni prima</span>
+      </div>
+      <div class="flex justify-between items-center py-2">
+        <span>Max BP in parked</span>
+        <span class="font-mono font-semibold">10 slot</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-3">Per modificare le soglie, edita i prompt degli agenti nel repository.</p>
+  </div>
+
+  <!-- Orari reset -->
+  <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
+    <h2 class="font-semibold text-gray-800 mb-4">⏰ Scheduling Agenti (ora Roma)</h2>
+    <div class="space-y-2 text-sm">
+      <div class="flex justify-between py-2 border-b border-gray-100">
+        <span class="text-gray-700">🔍 HUNTER — Ricerca opportunità</span>
+        <span class="font-mono text-gray-500">ogni 30 min</span>
+      </div>
+      <div class="flex justify-between py-2 border-b border-gray-100">
+        <span class="text-gray-700">📊 ANALISTA — Processa decisioni</span>
+        <span class="font-mono text-gray-500">ogni 5 min</span>
+      </div>
+      <div class="flex justify-between py-2 border-b border-gray-100">
+        <span class="text-gray-700">💰 CFO — Aggiorna portfolio</span>
+        <span class="font-mono text-gray-500">ogni 4 ore</span>
+      </div>
+      <div class="flex justify-between py-2 border-b border-gray-100">
+        <span class="text-gray-700">👁 MONITOR — Health check</span>
+        <span class="font-mono text-gray-500">07:00 ogni giorno</span>
+      </div>
+      <div class="flex justify-between py-2 border-b border-gray-100">
+        <span class="text-gray-700">🛡 SECURITY — Check infrastruttura</span>
+        <span class="font-mono text-gray-500">ogni ora</span>
+      </div>
+      <div class="flex justify-between py-2">
+        <span class="text-gray-700">🔄 RESET serale</span>
+        <span class="font-mono text-gray-500">22:00 ogni giorno</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info sistema -->
+  <div class="bg-gray-900 rounded-xl p-5 text-white">
+    <h2 class="font-semibold mb-3 text-sm uppercase tracking-wider text-gray-400">Info Sistema</h2>
+    <div class="space-y-1 text-sm font-mono">
+      <div class="text-gray-300">Versione: v4</div>
+      <div class="text-gray-300">Backend: DeepSeek (deepseek-chat)</div>
+      <div class="text-gray-300">Wallet: 9ikxAw...VYt</div>
+      <div class="text-gray-300">Repo: nicolostancato-web/pump-scanner</div>
+      <div class="text-gray-300">Infrastruttura: Railway + GitHub Knowledge Base</div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
