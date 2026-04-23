@@ -35081,5 +35081,22 @@
     "firstSeen": "2026-04-23T00:01:34.737Z",
     "lastSeen": "2026-04-23T00:01:34.737Z",
     "confirmed": false
+  },
+  "EpFQzYUbB1NnTuWnnRqQ6ohipa4tiF6pR7HSAxAUbu8H": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "boobcoin",
+        "pairAddress": "9MmacJZnu1JviRQVDjiLxMKAUWnm3tLqd2fuZS8wqdqK",
+        "entryTime": "2026-04-23T00:02:13.696Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T00:02:13.696Z",
+    "lastSeen": "2026-04-23T00:02:13.696Z",
+    "confirmed": false
   }
 }
