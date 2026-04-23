@@ -1103,7 +1103,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1139,6 +1139,11 @@
         "symbol": "FLIPCOIN",
         "pairAddress": "ALje3Caysp6D4Fmz8kYQ1ywpVUp8dgZSReJ6VfsKNRk5",
         "entryTime": "2026-04-23T15:08:23.990Z"
+      },
+      {
+        "symbol": "brrrcoin",
+        "pairAddress": "HoRcwdnRj1PqGV65i2hCi6DHYgDwj3oPiq7BpuZ1ZhV5",
+        "entryTime": "2026-04-23T15:47:51.653Z"
       }
     ],
     "wins": 0,
@@ -1146,7 +1151,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-23T15:08:23.990Z",
+    "lastSeen": "2026-04-23T15:47:51.653Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -2280,7 +2285,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "POB",
@@ -2301,6 +2306,11 @@
         "symbol": "BBC",
         "pairAddress": "Cju1QRiy6HgAJrD7M5ZrSRu8H4xFMVHpFgsYVQqC4yAD",
         "entryTime": "2026-04-23T12:22:36.801Z"
+      },
+      {
+        "symbol": "brrrcoin",
+        "pairAddress": "HoRcwdnRj1PqGV65i2hCi6DHYgDwj3oPiq7BpuZ1ZhV5",
+        "entryTime": "2026-04-23T15:47:51.653Z"
       }
     ],
     "wins": 0,
@@ -2308,7 +2318,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:02:06.326Z",
-    "lastSeen": "2026-04-23T12:22:36.801Z",
+    "lastSeen": "2026-04-23T15:47:51.653Z",
     "confirmed": true
   },
   "55NQkFDwwW8noThkL9Rd5ngbgUU36fYZeos1k5ZwjGdn": {
