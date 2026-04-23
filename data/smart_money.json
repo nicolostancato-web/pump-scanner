@@ -741,12 +741,17 @@
     "confirmed": false
   },
   "6QisQNhyDtjFmgvkZ6SuQk68qHdzaZBRKemkssDAdGRu": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CULT",
         "pairAddress": "4WSadXJa5KWH3U8SwKRDALfVGTaBpWQXT6LGBSMCJ3S5",
         "entryTime": "2026-04-23T06:48:52.657Z"
+      },
+      {
+        "symbol": "Jizz",
+        "pairAddress": "4GaJRg3dZgnek9dQE5T89D55VT32RJ3GYm5Pyorfndxz",
+        "entryTime": "2026-04-23T17:15:57.969Z"
       }
     ],
     "wins": 0,
@@ -754,7 +759,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T06:48:52.657Z",
-    "lastSeen": "2026-04-23T06:48:52.657Z",
+    "lastSeen": "2026-04-23T17:15:57.969Z",
     "confirmed": false
   },
   "DkjgEyzDi3wBEejAyJ2KNQBVfYH4S8HqZmBzbKSiFr8B": {
@@ -10068,6 +10073,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T17:13:16.433Z",
     "lastSeen": "2026-04-23T17:13:16.433Z",
+    "confirmed": false
+  },
+  "8u43z8r32qzt87F5PntBjWFQzQocivKUz1PuwzSGw2CG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Jizz",
+        "pairAddress": "4GaJRg3dZgnek9dQE5T89D55VT32RJ3GYm5Pyorfndxz",
+        "entryTime": "2026-04-23T17:15:57.969Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T17:15:57.969Z",
+    "lastSeen": "2026-04-23T17:15:57.969Z",
     "confirmed": false
   }
 }
