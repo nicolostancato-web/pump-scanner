@@ -19,7 +19,7 @@ GITHUB_REPO = os.environ.get("GITHUB_REPO", "nicolostancato-web/pump-scanner")
 KB = "the-wolf-of-italy/knowledge_base"
 BASE_URL = f"https://api.github.com/repos/{GITHUB_REPO}/contents"
 COMMITS_URL = f"https://api.github.com/repos/{GITHUB_REPO}/commits"
-DASHBOARD_URL = os.environ.get("DASHBOARD_URL", "https://nikwolf.up.railway.app")
+DASHBOARD_URL = os.environ.get("DASHBOARD_URL", "https://pump-scanner-production.up.railway.app")
 
 _GH_HEADERS = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
 
