@@ -4133,5 +4133,22 @@
     "firstSeen": "2026-04-23T09:49:18.384Z",
     "lastSeen": "2026-04-23T09:49:18.384Z",
     "confirmed": false
+  },
+  "6LHHPEoUhAZqPJgLgfL2fzRimbFNvVhGvLXcc8bi7m2o": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "KYLE",
+        "pairAddress": "91D3rxy4xo8Bhti3zyTWAjkg6NH4wtqDHpZKvWdSVG6w",
+        "entryTime": "2026-04-23T09:49:52.823Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T09:49:52.823Z",
+    "lastSeen": "2026-04-23T09:49:52.823Z",
+    "confirmed": false
   }
 }
