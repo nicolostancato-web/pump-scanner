@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1 class="text-xl font-bold text-gray-900 mb-6">📊 Storico</h1>
+
+<!-- Posizioni Chiuse -->
+<h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Posizioni Chiuse</h2>
+<div class="bg-white rounded-xl border border-gray-200 shadow-sm p-5 mb-6">
+  <pre class="text-sm text-gray-700 whitespace-pre-wrap font-mono leading-relaxed">{{ closed }}</pre>
+</div>
+
+<!-- Archiviati -->
+{% if archived %}
+<h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">BP Archiviati</h2>
+<div class="space-y-3 mb-6">
+  {% for item in archived %}
+  <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-4">
+    <div class="text-xs font-mono text-gray-400 mb-1">{{ item.name }}</div>
+    <pre class="text-xs text-gray-600 whitespace-pre-wrap bg-gray-50 rounded p-2">{{ item.content }}</pre>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Protocolli visti -->
+<details class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+  <summary class="px-5 py-4 cursor-pointer font-medium text-gray-700 hover:bg-gray-50 select-none">
+    📋 Tutti i protocolli visti da Hunter (seen_protocols.md)
+  </summary>
+  <div class="px-5 pb-5">
+    <pre class="text-xs text-gray-600 whitespace-pre-wrap font-mono leading-relaxed mt-3 bg-gray-50 rounded-lg p-4 overflow-x-auto">{{ seen }}</pre>
+  </div>
+</details>
+
+{% endblock %}
