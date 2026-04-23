@@ -5798,7 +5798,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Baekgu",
@@ -5824,6 +5824,11 @@
         "symbol": "Memecoin™",
         "pairAddress": "8f4dFUJdsL9jW7R7qaRMiVH7JtoKQQuNpMbxdqqhyebi",
         "entryTime": "2026-04-23T22:00:46.547Z"
+      },
+      {
+        "symbol": "MEMETOPIA",
+        "pairAddress": "B673ccAyeGCgreXMQi7GbATuPaivPfGzSxFvsvD1Y6Kx",
+        "entryTime": "2026-04-23T22:01:58.056Z"
       }
     ],
     "wins": 0,
@@ -5831,7 +5836,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:53:09.595Z",
-    "lastSeen": "2026-04-23T22:00:46.547Z",
+    "lastSeen": "2026-04-23T22:01:58.056Z",
     "confirmed": true
   },
   "BKpEfRvpnbqghbb7qBESWhtV6BeDy7WAgmzWB6ZGyi2n": {
@@ -14701,6 +14706,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T22:01:24.155Z",
     "lastSeen": "2026-04-23T22:01:24.155Z",
+    "confirmed": false
+  },
+  "7yuyPkjVdpEMSSysW9uiPNWZxSQWQtnHXDoaA6sQoofS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MEMETOPIA",
+        "pairAddress": "B673ccAyeGCgreXMQi7GbATuPaivPfGzSxFvsvD1Y6Kx",
+        "entryTime": "2026-04-23T22:01:58.056Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T22:01:58.056Z",
+    "lastSeen": "2026-04-23T22:01:58.056Z",
     "confirmed": false
   }
 }
