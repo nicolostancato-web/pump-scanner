@@ -1,0 +1,52 @@
+# Wolf of Italy v4 — Skill Config
+# Parametri per le skill [CONFIG] del manuale (v4/SKILLS.md)
+# ??? = richiede risposta del fondatore
+
+agents:
+
+  hunter:
+    max_iterations: ???        # [CHIEDI] suggerimento: 20
+    max_cost_per_run: ???      # [CHIEDI] suggerimento: $0.05
+    schedule_minutes: 30       # ogni 30 min (hardcoded in orchestrator)
+    daily_reset_time: "22:00"  # orario reset serale Roma
+
+  analista:
+    max_iterations: ???        # [CHIEDI] suggerimento: 15
+    max_cost_per_run: ???      # [CHIEDI] suggerimento: $0.03
+    schedule_minutes: 5        # ogni 5 min (hardcoded in orchestrator)
+    parked_limit: ???          # [CHIEDI] max BP parcheggiati prima di archiviazione forzata (sug: 10)
+    dashboard_limit: ???       # [CHIEDI] max BP in pending_decisions.md (sug: 5)
+
+  cfo:
+    max_iterations: ???        # [CHIEDI] suggerimento: 20
+    max_cost_per_run: ???      # [CHIEDI] suggerimento: $0.05
+    schedule_hours: 4          # ogni 4 ore (hardcoded in orchestrator)
+    wallet_check_interval_min: 240  # ogni 4h, uguale a schedule
+    alert_threshold_drop_24h: ???   # [CHIEDI] % drop che triggera alert (sug: -20)
+
+  monitor:
+    max_iterations: ???        # [CHIEDI] suggerimento: 25
+    max_cost_per_run: ???      # [CHIEDI] suggerimento: $0.08
+    schedule_time: "07:00"     # una volta al giorno alle 07:00 Roma
+    required_sources: 2        # min fonti indipendenti per cancellare BP (default fisso)
+
+  security:
+    max_iterations: ???        # [CHIEDI] suggerimento: 10
+    max_cost_per_run: ???      # [CHIEDI] suggerimento: $0.02
+    schedule_minutes: 60       # ogni ora (hardcoded in orchestrator)
+    monthly_cost_cap_eur: ???  # [CHIEDI] tetto costo mensile totale in € (sug: 20)
+    api_expiry_alert_days: ???  # [CHIEDI] gg preavviso scadenza key (sug: 7)
+
+  tester:
+    max_iterations: 10          # check puro, nessun LLM
+    max_cost_per_run: 0.0       # nessun costo LLM (solo HTTP)
+    schedule_minutes: 60        # ogni ora (hardcoded in orchestrator)
+
+global:
+  llm_model_primary: "deepseek/deepseek-chat"
+  llm_model_fallback: ???        # [CHIEDI] es. "anthropic/claude-haiku-4-5" o "groq/llama-3.3-70b-versatile"
+  github_repo: "nicolostancato-web/pump-scanner"
+  wallet_address: "E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV"
+  founder_email: "nicolostancato@gmail.com"
+  evening_reset_time: "22:00"    # Roma
+  dashboard_refresh_seconds: 60
