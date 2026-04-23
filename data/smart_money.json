@@ -34626,12 +34626,17 @@
     "confirmed": false
   },
   "H2n3KZG7kLKK14z18xB1bGocxKdrrNBsryrhw17A1RHd": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CHAD",
         "pairAddress": "3kPF3DzZ9LJ6MWFhTPUZuXNVinH1rALPRPF2KDmKQV4V",
         "entryTime": "2026-04-22T23:19:06.789Z"
+      },
+      {
+        "symbol": "DERP",
+        "pairAddress": "45xSjaBP19Wm7w9PTMtWdJRnYwmcc2q7bYwPojumkk3s",
+        "entryTime": "2026-04-23T05:35:34.879Z"
       }
     ],
     "wins": 0,
@@ -34639,7 +34644,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T23:19:06.789Z",
-    "lastSeen": "2026-04-22T23:19:06.789Z",
+    "lastSeen": "2026-04-23T05:35:34.879Z",
     "confirmed": false
   },
   "3Qri4tcWSpjnSBrwJVaNthKWxxKGFd8C5tGS4gq4FamE": {
@@ -38497,6 +38502,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T05:32:41.925Z",
     "lastSeen": "2026-04-23T05:32:41.925Z",
+    "confirmed": false
+  },
+  "DVkMYZ4XveJNyGZ4pvgo9C8H83Zd2hU9o7Lpw37VZ1Zd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DERP",
+        "pairAddress": "45xSjaBP19Wm7w9PTMtWdJRnYwmcc2q7bYwPojumkk3s",
+        "entryTime": "2026-04-23T05:35:34.879Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T05:35:34.879Z",
+    "lastSeen": "2026-04-23T05:35:34.879Z",
     "confirmed": false
   }
 }
