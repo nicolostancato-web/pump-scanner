@@ -59,10 +59,8 @@ CFO-SECURITY-1
 **PORTFOLIO TOTALE: $XX.XX**
 - Cash libero (SOL liquido): $XX.XX — disponibile per nuove operazioni
 - Posizioni attive (al lavoro): $XX.XX — capitale investito per design, non perso
-  * [Protocol] ([token]): $XX.XX — [motivo: es. "per airdrop JUP3 Q3 2026"]
+  * [Protocol] ([token]): $XX.XX — per [motivo: es. airdrop JUP3 Q3 2026]
 - Stablecoin: $XX.XX
-
-REGOLA FLAG: non scrivere mai "crisi capitale" o "capital crisis" se le posizioni attive sono approvate dal board (presenti in proposals_executed/). Scrivi invece "liquidità limitata per nuove operazioni: $XX cash libero".
 
 ## Yesterday's Proposal
 - Proposal file: [DATE]-1.md / NONE
