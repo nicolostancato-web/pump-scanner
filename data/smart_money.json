@@ -6004,5 +6004,22 @@
     "firstSeen": "2026-04-23T13:22:13.748Z",
     "lastSeen": "2026-04-23T13:22:13.748Z",
     "confirmed": false
+  },
+  "GcPzMKocfijcESsaAwF3cgQxmeZNPoS4CGm8z8in19pE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "RUNNER",
+        "pairAddress": "6Suo993aTXJUr44jA7DKewbN7kN1NFDHdTi4cQP9s4br",
+        "entryTime": "2026-04-23T13:22:51.220Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T13:22:51.220Z",
+    "lastSeen": "2026-04-23T13:22:51.220Z",
+    "confirmed": false
   }
 }
