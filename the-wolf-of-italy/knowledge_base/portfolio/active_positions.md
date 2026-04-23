@@ -1,6 +1,6 @@
 # Posizioni Attive
 
-Ultimo aggiornamento: 2026-04-23 17:22 Rome
+Ultimo aggiornamento: 2026-04-23 17:23 Rome
 
 ---
 
