@@ -13649,5 +13649,22 @@
     "firstSeen": "2026-04-23T21:09:01.884Z",
     "lastSeen": "2026-04-23T21:09:01.884Z",
     "confirmed": false
+  },
+  "9RAufBfjGQjDfrwxeyKmZWPADHSb8HcoqCdrmpqvCr1g": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PNUT",
+        "pairAddress": "6SpHLxddRtL2kNA95uD17v2eHyKuzFgPi8ZYkreBreyk",
+        "entryTime": "2026-04-23T21:11:39.919Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T21:11:39.919Z",
+    "lastSeen": "2026-04-23T21:11:39.919Z",
+    "confirmed": false
   }
 }
