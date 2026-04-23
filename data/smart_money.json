@@ -4476,12 +4476,17 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KAIRU",
         "pairAddress": "Fk9dh4ScbmYgymh8WLUoL5o6zhm9zPgyaSLJYkgv7iyz",
         "entryTime": "2026-04-23T10:33:48.139Z"
+      },
+      {
+        "symbol": "TREE",
+        "pairAddress": "9rMpzn4siHBtGqxwRnTETSyky6ph9bHuBcgys5ohzrK4",
+        "entryTime": "2026-04-23T20:54:40.762Z"
       }
     ],
     "wins": 0,
@@ -4489,7 +4494,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T10:33:48.139Z",
-    "lastSeen": "2026-04-23T10:33:48.139Z",
+    "lastSeen": "2026-04-23T20:54:40.762Z",
     "confirmed": false
   },
   "6oqxLHxT3GfynLcjAsfg5MJ9fQ6KiNubs5UfseThTPgv": {
@@ -13259,6 +13264,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T20:53:56.521Z",
     "lastSeen": "2026-04-23T20:53:56.521Z",
+    "confirmed": false
+  },
+  "jQNNzR8quxJX7hMNHZToR5AYPARUvFaMzGDHWa4vnk8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TREE",
+        "pairAddress": "9rMpzn4siHBtGqxwRnTETSyky6ph9bHuBcgys5ohzrK4",
+        "entryTime": "2026-04-23T20:54:40.762Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T20:54:40.762Z",
+    "lastSeen": "2026-04-23T20:54:40.762Z",
     "confirmed": false
   }
 }
