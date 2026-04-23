@@ -4177,12 +4177,17 @@
     "confirmed": false
   },
   "FFxB18bP5bwFPLaQg7PVnamBcecjXybj1i35JqxSAUBv": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KYLE",
         "pairAddress": "91D3rxy4xo8Bhti3zyTWAjkg6NH4wtqDHpZKvWdSVG6w",
         "entryTime": "2026-04-23T09:48:43.775Z"
+      },
+      {
+        "symbol": "MOON",
+        "pairAddress": "Bu7nrpswjdsbDLqjaDL1S87DTZ6iZomzAoPzhkdVXxUA",
+        "entryTime": "2026-04-23T20:30:39.246Z"
       }
     ],
     "wins": 0,
@@ -4190,7 +4195,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T09:48:43.775Z",
-    "lastSeen": "2026-04-23T09:48:43.775Z",
+    "lastSeen": "2026-04-23T20:30:39.246Z",
     "confirmed": false
   },
   "GgEUEVkHsB9M3KTij4yMmgUzaw6qFdt6xAJt7Xt2d4vV": {
@@ -12892,6 +12897,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T20:29:40.879Z",
     "lastSeen": "2026-04-23T20:29:40.879Z",
+    "confirmed": false
+  },
+  "7VZfN3HA7VGPUPTodxA4Rinw7FzkXpMRhbouPmN8HV5J": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MOON",
+        "pairAddress": "Bu7nrpswjdsbDLqjaDL1S87DTZ6iZomzAoPzhkdVXxUA",
+        "entryTime": "2026-04-23T20:30:39.246Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T20:30:39.246Z",
+    "lastSeen": "2026-04-23T20:30:39.246Z",
     "confirmed": false
   }
 }
