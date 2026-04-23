@@ -11038,12 +11038,17 @@
     "confirmed": false
   },
   "GMbx86fKQnPCnVpk35DE8PtTswKERdzhLzDVFi52qAwc": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "DOGE",
         "pairAddress": "DRdctdNBX3PEtFSp6AgQ1tGsj2JCtyEpT2WmMDFchaD8",
         "entryTime": "2026-04-21T16:52:50.455Z"
+      },
+      {
+        "symbol": "Apu",
+        "pairAddress": "BNhgazXYwRxyrrJDoK9MW1TZFBqDRk5bgyJ2ks7sJWsw",
+        "entryTime": "2026-04-23T05:32:59.368Z"
       }
     ],
     "wins": 0,
@@ -11051,7 +11056,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T16:52:50.455Z",
-    "lastSeen": "2026-04-21T16:52:50.455Z",
+    "lastSeen": "2026-04-23T05:32:59.368Z",
     "confirmed": false
   },
   "7h5V2DwD44ihQ2rAydUyGYi1brEidsswn4Ed1ffeuDp": {
