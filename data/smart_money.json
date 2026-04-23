@@ -11774,7 +11774,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "ENRIQUE",
@@ -11790,6 +11790,11 @@
         "symbol": "AIB",
         "pairAddress": "Gnqj3eK6TFogKetWVqk9Ayau8jL1YaBEiDtVyBubfB74",
         "entryTime": "2026-04-23T22:24:18.940Z"
+      },
+      {
+        "symbol": "TRADE",
+        "pairAddress": "HqCxHf9iMWnXyejFUrYKd3FexrWKtcWojqsrqTDyZe4x",
+        "entryTime": "2026-04-23T23:49:32.569Z"
       }
     ],
     "wins": 0,
@@ -11797,7 +11802,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T19:09:59.032Z",
-    "lastSeen": "2026-04-23T22:24:18.940Z",
+    "lastSeen": "2026-04-23T23:49:32.569Z",
     "confirmed": true
   },
   "Ay6sNStHVAwkoAPFjjUcjeXrvBn1C3vtTsiG5Lomqq5o": {
@@ -16702,6 +16707,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T23:49:02.069Z",
     "lastSeen": "2026-04-23T23:49:02.069Z",
+    "confirmed": false
+  },
+  "LASTvjDWkbXM1RwUCiniHqGLSEH5xJinDRs56wNPQr9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRADE",
+        "pairAddress": "HqCxHf9iMWnXyejFUrYKd3FexrWKtcWojqsrqTDyZe4x",
+        "entryTime": "2026-04-23T23:49:32.569Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T23:49:32.569Z",
+    "lastSeen": "2026-04-23T23:49:32.569Z",
     "confirmed": false
   }
 }
