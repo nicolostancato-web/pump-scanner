@@ -21967,12 +21967,17 @@
     "confirmed": false
   },
   "JESUSL2s5BsffGNNn6wQtHART2iXVGjtGhKAwGw44bL": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AEPE",
         "pairAddress": "J99w2cyGMzuRc8AHnJ1CLwZZfTxCz33z912Y3jbwcP5y",
         "entryTime": "2026-04-22T07:53:27.263Z"
+      },
+      {
+        "symbol": "SAM",
+        "pairAddress": "Dt6EtrQcXjGPy9Rdw77Rf7WVxJ9FH6dxTpRYdUQ3GDNg",
+        "entryTime": "2026-04-23T01:34:17.879Z"
       }
     ],
     "wins": 0,
@@ -21980,7 +21985,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T07:53:27.263Z",
-    "lastSeen": "2026-04-22T07:53:27.263Z",
+    "lastSeen": "2026-04-23T01:34:17.879Z",
     "confirmed": false
   },
   "75DkuMVTzFh24nrqhWswibHFAfjHhHSVxdq2tpbEdCAk": {
