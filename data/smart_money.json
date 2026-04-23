@@ -6893,5 +6893,39 @@
     "firstSeen": "2026-04-23T13:50:51.428Z",
     "lastSeen": "2026-04-23T13:50:51.428Z",
     "confirmed": false
+  },
+  "232FNmVnmDSFSV8WrhCntMzgfcXCPiiaJ2UEbT1GxWEc": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNCSATOSHI",
+        "pairAddress": "43cASYXvwFJYwpRgdMCSBEY2CiRqitXTMLJCrZeunuWP",
+        "entryTime": "2026-04-23T13:53:19.791Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T13:53:19.791Z",
+    "lastSeen": "2026-04-23T13:53:19.791Z",
+    "confirmed": false
+  },
+  "AaA4s84sz5CybbvRzgMC7MfpWX2arGzk23wdD67WBd2h": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNCSATOSHI",
+        "pairAddress": "43cASYXvwFJYwpRgdMCSBEY2CiRqitXTMLJCrZeunuWP",
+        "entryTime": "2026-04-23T13:53:19.791Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T13:53:19.791Z",
+    "lastSeen": "2026-04-23T13:53:19.791Z",
+    "confirmed": false
   }
 }
