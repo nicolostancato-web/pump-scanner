@@ -5110,5 +5110,22 @@
     "firstSeen": "2026-04-23T12:22:36.801Z",
     "lastSeen": "2026-04-23T12:22:36.801Z",
     "confirmed": false
+  },
+  "4WX8pPcRjXDKCgGobRS2iZBAmaKq2RBV3psVJDTfRV2c": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ELONMARS",
+        "pairAddress": "5HYg7sitaFuAi7PjtQRTg2uccMPtcS3UXhjFRMDr9kw5",
+        "entryTime": "2026-04-23T12:31:11.911Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T12:31:11.911Z",
+    "lastSeen": "2026-04-23T12:31:11.911Z",
+    "confirmed": false
   }
 }
