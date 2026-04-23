@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="flex items-center justify-between mb-6">
+  <h1 class="text-xl font-bold text-gray-900">🅿️ Parcheggiati</h1>
+  <span class="text-sm text-gray-500">{{ items|length }}/10 slot</span>
+</div>
+
+{% if not items %}
+<div class="bg-white rounded-xl border border-gray-200 p-12 text-center text-gray-400">
+  <div class="text-4xl mb-3">🅿️</div>
+  <p class="font-medium">Nessun BP parcheggiato</p>
+</div>
+{% endif %}
+
+<div class="space-y-4">
+  {% for item in items %}
+  <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+    <div class="px-5 py-4">
+      <div class="flex items-start justify-between gap-3 mb-3">
+        <div>
+          <span class="text-xs font-mono text-gray-400">{{ item.id }}</span>
+          <h3 class="font-bold text-gray-900 mt-0.5">{{ item.protocollo or item.id }}</h3>
+        </div>
+        {% if item.priority == 'high' %}
+        <span class="text-xs bg-orange-100 text-orange-700 px-2 py-0.5 rounded-full shrink-0">⏰ scadenza vicina</span>
+        {% endif %}
+      </div>
+      <pre class="text-xs text-gray-500 whitespace-pre-wrap bg-gray-50 rounded-lg p-3 max-h-32 overflow-y-auto">{{ item.raw[:400] }}{% if item.raw|length > 400 %}...{% endif %}</pre>
+    </div>
+    <div class="border-t border-gray-100 px-5 py-3 flex gap-2">
+      <form method="POST" action="/parcheggiati/riattiva" class="flex-1">
+        <input type="hidden" name="bp_id" value="{{ item.id }}">
+        <button type="submit"
+                class="w-full bg-green-50 hover:bg-green-100 text-green-700 py-2 px-3 rounded-lg text-sm font-medium border border-green-200 transition-colors">
+          ↗ Riporta in proposte
+        </button>
+      </form>
+      <form method="POST" action="/proposte/decision" class="flex-1">
+        <input type="hidden" name="bp_id" value="{{ item.id }}">
+        <input type="hidden" name="decision" value="REJECTED">
+        <button type="submit"
+                class="w-full bg-red-50 hover:bg-red-100 text-red-700 py-2 px-3 rounded-lg text-sm font-medium border border-red-200 transition-colors">
+          🗑 Elimina
+        </button>
+      </form>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
