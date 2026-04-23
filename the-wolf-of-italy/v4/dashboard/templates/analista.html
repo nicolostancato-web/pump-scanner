@@ -4,9 +4,7 @@
 {% block content %}
 <div class="mb-6">
   <h1 class="text-xl font-bold text-gray-900 dark:text-white">Analista</h1>
-  <p class="text-xs text-gray-400 mt-0.5">
-    {{ bps|length }} nuove · {{ parked|length }} parcheggiate · {{ today }}
-  </p>
+  <p class="text-xs text-gray-400 mt-0.5">{{ bps|length }} nuove · {{ parked|length }} parcheggiate · {{ today }}</p>
 </div>
 
 <!-- Nuove proposte -->
@@ -16,7 +14,7 @@
   {% if bps %}
   <div class="space-y-3">
     {% for bp in bps %}
-    <div class="card p-5 fade-in" x-data="{expanded:false,showModal:false}">
+    <div class="card p-5 fade-in" x-data="{expanded:false}">
       <div class="flex items-start gap-4">
         <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-50 to-blue-100 flex items-center justify-center text-xl flex-shrink-0">📋</div>
         <div class="flex-1 min-w-0">
@@ -26,25 +24,14 @@
             <span class="badge badge-blue">{{ bp.get('tipo') or bp.get('categoria') }}</span>
             {% endif %}
             {% if bp.get('priority') %}
-            <span class="badge {% if bp.priority == 'high' %}badge-red{% elif bp.priority == 'medium' %}badge-yellow{% else %}badge-gray{% endif %}">
-              {{ bp.priority }}
-            </span>
+            <span class="badge {% if bp.get('priority') == 'high' %}badge-red{% elif bp.get('priority') == 'medium' %}badge-yellow{% else %}badge-gray{% endif %}">{{ bp.get('priority') }}</span>
             {% endif %}
           </div>
-
           <div class="flex items-center gap-4 mt-2 flex-wrap text-xs text-gray-500 dark:text-gray-400">
-            {% if bp.get('investimento') %}
-            <span>💰 <strong class="text-gray-700 dark:text-gray-200">{{ bp.investimento }}</strong></span>
-            {% endif %}
-            {% if bp.get('roi_atteso') %}
-            <span>📈 <strong class="text-green-600">{{ bp.roi_atteso }}</strong></span>
-            {% endif %}
-            {% if bp.get('timeline') or bp.get('drop_atteso') %}
-            <span>📅 {{ bp.get('timeline') or bp.get('drop_atteso') }}</span>
-            {% endif %}
-            {% if bp.get('rischio') %}
-            <span>⚠️ rischio {{ bp.rischio }}</span>
-            {% endif %}
+            {% if bp.get('investimento') %}<span>💰 <strong class="text-gray-700 dark:text-gray-200">{{ bp.get('investimento') }}</strong></span>{% endif %}
+            {% if bp.get('roi_atteso') %}<span>📈 <strong class="text-green-600">{{ bp.get('roi_atteso') }}</strong></span>{% endif %}
+            {% if bp.get('timeline') or bp.get('drop_atteso') %}<span>📅 {{ bp.get('timeline') or bp.get('drop_atteso') }}</span>{% endif %}
+            {% if bp.get('rischio') %}<span>⚠️ rischio {{ bp.get('rischio') }}</span>{% endif %}
           </div>
         </div>
         <button @click="expanded=!expanded" class="flex-shrink-0 p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
@@ -52,35 +39,29 @@
         </button>
       </div>
 
-      <!-- Detail expansion -->
       <div x-show="expanded" x-transition class="mt-4 pt-4 border-t border-gray-50 dark:border-gray-700">
         <pre class="text-xs text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-800 rounded-xl p-3 mb-4">{% for k,v in bp.items() %}{{ k }}: {{ v }}
 {% endfor %}</pre>
       </div>
 
-      <!-- Actions -->
+      <!-- Actions — use Alpine @click to avoid Jinja/HTML escaping issues -->
       <div class="flex items-center gap-2 mt-4 pt-4 border-t border-gray-50 dark:border-gray-700 flex-wrap">
-        <form method="POST" action="/analista/decision" class="inline">
+        <form method="POST" action="/analista/decision">
           <input type="hidden" name="bp_id" value="{{ bp.get('id_bp','') }}">
           <input type="hidden" name="decision" value="ACCEPTED">
-          <button type="submit" class="btn-primary" style="padding:7px 14px;font-size:12px"
-                  onclick="return confirm('Accettare {{ bp.get(\"id_bp\",\"\") }}?')">
-            ✅ Accetta
-          </button>
+          <button type="button" @click="if(confirm('Accettare questa proposta?')) $el.closest('form').submit()"
+                  class="btn-primary" style="padding:7px 14px;font-size:12px">✅ Accetta</button>
         </form>
-        <form method="POST" action="/analista/decision" class="inline">
+        <form method="POST" action="/analista/decision">
           <input type="hidden" name="bp_id" value="{{ bp.get('id_bp','') }}">
           <input type="hidden" name="decision" value="PARKED">
-          <button type="submit" class="btn-warn" style="padding:7px 14px;font-size:12px">
-            🅿️ Parcheggia
-          </button>
+          <button type="submit" class="btn-warn" style="padding:7px 14px;font-size:12px">🅿️ Parcheggia</button>
         </form>
-        <form method="POST" action="/analista/decision" class="inline">
+        <form method="POST" action="/analista/decision">
           <input type="hidden" name="bp_id" value="{{ bp.get('id_bp','') }}">
           <input type="hidden" name="decision" value="REJECTED">
-          <button type="submit" class="btn-danger" style="padding:7px 14px;font-size:12px">
-            ❌ Rifiuta
-          </button>
+          <button type="button" @click="if(confirm('Rifiutare questa proposta?')) $el.closest('form').submit()"
+                  class="btn-danger" style="padding:7px 14px;font-size:12px">❌ Rifiuta</button>
         </form>
       </div>
     </div>
@@ -99,12 +80,10 @@
 <!-- Parcheggiate -->
 {% if parked %}
 <div x-data="{open:false}">
-  <button @click="open=!open"
-          class="flex items-center gap-2 text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-3 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
+  <button @click="open=!open" class="flex items-center gap-2 text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-3 hover:text-gray-700 dark:hover:text-gray-200 transition-colors">
     <svg class="w-3.5 h-3.5 transition-transform duration-200" :class="open?'rotate-90':''" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
     Parcheggiate ({{ parked|length }})
   </button>
-
   <div x-show="open" x-transition class="space-y-3">
     {% for bp in parked %}
     <div class="card p-5 fade-in border-l-4" style="border-left-color:#f59e0b">
@@ -113,17 +92,13 @@
           <div class="flex items-center gap-2 flex-wrap">
             <h3 class="text-sm font-semibold text-gray-900 dark:text-white">{{ bp.id }}</h3>
             <span class="badge badge-yellow">parcheggiato</span>
-            {% if bp.get('deadline') %}
-            <span class="badge badge-red">📅 {{ bp.deadline }}</span>
-            {% endif %}
+            {% if bp.get('deadline') %}<span class="badge badge-red">📅 {{ bp.deadline }}</span>{% endif %}
           </div>
           <p class="text-xs text-gray-500 dark:text-gray-400 mt-2 line-clamp-2">{{ bp.raw[:200] }}</p>
         </div>
         <form method="POST" action="/analista/riattiva" class="flex-shrink-0">
           <input type="hidden" name="bp_id" value="{{ bp.id }}">
-          <button type="submit" class="btn-ghost" style="padding:6px 12px;font-size:12px">
-            ↩ Riattiva
-          </button>
+          <button type="submit" class="btn-ghost" style="padding:6px 12px;font-size:12px">↩ Riattiva</button>
         </form>
       </div>
     </div>
