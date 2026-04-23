@@ -5793,7 +5793,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Baekgu",
@@ -5809,6 +5809,11 @@
         "symbol": "PNUT",
         "pairAddress": "6SpHLxddRtL2kNA95uD17v2eHyKuzFgPi8ZYkreBreyk",
         "entryTime": "2026-04-23T21:08:25.470Z"
+      },
+      {
+        "symbol": "Airdrop",
+        "pairAddress": "CWHsvYfXnmYt9WrJ92NGie1arGSV3GcuDFPoh6LrFKGM",
+        "entryTime": "2026-04-23T21:35:11.578Z"
       }
     ],
     "wins": 0,
@@ -5816,7 +5821,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:53:09.595Z",
-    "lastSeen": "2026-04-23T21:08:25.470Z",
+    "lastSeen": "2026-04-23T21:35:11.578Z",
     "confirmed": true
   },
   "BKpEfRvpnbqghbb7qBESWhtV6BeDy7WAgmzWB6ZGyi2n": {
@@ -14122,6 +14127,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T21:28:38.159Z",
     "lastSeen": "2026-04-23T21:28:38.159Z",
+    "confirmed": false
+  },
+  "ERooQjF9gmhqNr4X8wRGMRR8CoU73gCgG6csCUQbdKVH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Airdrop",
+        "pairAddress": "CWHsvYfXnmYt9WrJ92NGie1arGSV3GcuDFPoh6LrFKGM",
+        "entryTime": "2026-04-23T21:35:11.578Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T21:35:11.578Z",
+    "lastSeen": "2026-04-23T21:35:11.578Z",
     "confirmed": false
   }
 }
