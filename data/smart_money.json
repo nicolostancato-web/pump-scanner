@@ -2260,7 +2260,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "POB",
@@ -2276,6 +2276,11 @@
         "symbol": "UNCTRUMP",
         "pairAddress": "Cgu5Nkq5ZnhRhDUjcPqT7qJS38nPoeEFKmHy5S5NVJL6",
         "entryTime": "2026-04-23T11:36:04.203Z"
+      },
+      {
+        "symbol": "BBC",
+        "pairAddress": "Cju1QRiy6HgAJrD7M5ZrSRu8H4xFMVHpFgsYVQqC4yAD",
+        "entryTime": "2026-04-23T12:22:36.801Z"
       }
     ],
     "wins": 0,
@@ -2283,7 +2288,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:02:06.326Z",
-    "lastSeen": "2026-04-23T11:36:04.203Z",
+    "lastSeen": "2026-04-23T12:22:36.801Z",
     "confirmed": true
   },
   "55NQkFDwwW8noThkL9Rd5ngbgUU36fYZeos1k5ZwjGdn": {
@@ -5087,6 +5092,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:22:03.097Z",
     "lastSeen": "2026-04-23T12:22:03.097Z",
+    "confirmed": false
+  },
+  "HLqLcuCEbZhAqkJHeC5iTaxyHXM8VcVvQ5At5Z8HiVH9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BBC",
+        "pairAddress": "Cju1QRiy6HgAJrD7M5ZrSRu8H4xFMVHpFgsYVQqC4yAD",
+        "entryTime": "2026-04-23T12:22:36.801Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T12:22:36.801Z",
+    "lastSeen": "2026-04-23T12:22:36.801Z",
     "confirmed": false
   }
 }
