@@ -4113,7 +4113,7 @@
     "confirmed": false
   },
   "kEFiAX3jo5NmemysQov342TZ9mGh6yp92GDRjhA8XDf": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Bitshark",
@@ -4124,6 +4124,11 @@
         "symbol": "TERMINAL",
         "pairAddress": "9W3azeDENcXRBRRc6utrCgqDjAsMTVjRfk8uLEMT9Zh9",
         "entryTime": "2026-04-21T15:45:31.596Z"
+      },
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T00:41:14.029Z"
       }
     ],
     "wins": 0,
@@ -4131,8 +4136,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:05:48.339Z",
-    "lastSeen": "2026-04-21T15:45:31.596Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T00:41:14.029Z",
+    "confirmed": true
   },
   "4UxdUSrex74h5ZESCQZTaLcZz3YfsaxBCypGZJYb6uut": {
     "appearances": 1,
@@ -35584,6 +35589,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T00:40:01.527Z",
     "lastSeen": "2026-04-23T00:40:01.527Z",
+    "confirmed": false
+  },
+  "2YpPQoZw7CPukUHbZZAhtHbZZ8wt4Lc1hN31n8AV8ESf": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T00:41:14.029Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T00:41:14.029Z",
+    "lastSeen": "2026-04-23T00:41:14.029Z",
     "confirmed": false
   }
 }
