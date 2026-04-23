@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-04-23T21:29:07.782270+02:00",
+  "date": "2026-04-23",
+  "checks": {
+    "HUNTER": {
+      "status": "WARN",
+      "msg": "nessun file opportunità oggi (2026-04-23)"
+    },
+    "ANALISTA": {
+      "status": "OK",
+      "msg": "pending_decisions 3h fa"
+    },
+    "CFO": {
+      "status": "OK",
+      "msg": "active_positions 3h fa"
+    },
+    "MONITOR": {
+      "status": "WARN",
+      "msg": "report 2026-04-23 non ancora creato"
+    },
+    "SECURITY": {
+      "status": "WARN",
+      "msg": "security_state 220m fa (>2h)"
+    },
+    "TESTER": {
+      "status": "OK",
+      "msg": "eseguito alle 21:29"
+    }
+  },
+  "alerts": [
+    "HUNTER: nessun file opportunità per 2026-04-23",
+    "MONITOR: nessun report per 2026-04-23 dopo le 08:00",
+    "SECURITY: security_state.md 220m fa, atteso <2h",
+    "DASHBOARD: / → 404 ",
+    "DASHBOARD: /hunter → 404 ",
+    "DASHBOARD: /analista → 404 ",
+    "DASHBOARD: /vault → 404 ",
+    "DASHBOARD: /archivio → 404 ",
+    "DASHBOARD: /monitor → 404 ",
+    "DASHBOARD: /security → 404 ",
+    "DASHBOARD: /health-tab → 404 "
+  ],
+  "dashboard_issues": [
+    "/ → 404 ",
+    "/hunter → 404 ",
+    "/analista → 404 ",
+    "/vault → 404 ",
+    "/archivio → 404 ",
+    "/monitor → 404 ",
+    "/security → 404 ",
+    "/health-tab → 404 "
+  ]
+}
