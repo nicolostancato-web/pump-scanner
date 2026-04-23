@@ -12827,7 +12827,7 @@
     "confirmed": false
   },
   "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "1",
@@ -12848,6 +12848,11 @@
         "symbol": "EVELYN",
         "pairAddress": "5jbuf4LkAh6uwEQKWYmHv7PCh8fNBPySZyJs1DCCWpa8",
         "entryTime": "2026-04-22T22:13:30.191Z"
+      },
+      {
+        "symbol": "SAM",
+        "pairAddress": "Fft7C9bpEDT9XDXXsuyiaMudwDGVyYLMzaVKsD3nrBjc",
+        "entryTime": "2026-04-23T01:50:41.864Z"
       }
     ],
     "wins": 0,
@@ -12855,7 +12860,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:06:24.105Z",
-    "lastSeen": "2026-04-22T22:13:30.191Z",
+    "lastSeen": "2026-04-23T01:50:41.864Z",
     "confirmed": true
   },
   "J5w5RLfjN8sKUhJMaopMRyPJvSfEXpvencZNTWo2x5RQ": {
