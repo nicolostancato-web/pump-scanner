@@ -11734,7 +11734,7 @@
     "confirmed": false
   },
   "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ENRIQUE",
@@ -11745,6 +11745,11 @@
         "symbol": "Memecoin™",
         "pairAddress": "8f4dFUJdsL9jW7R7qaRMiVH7JtoKQQuNpMbxdqqhyebi",
         "entryTime": "2026-04-23T21:49:04.747Z"
+      },
+      {
+        "symbol": "AIB",
+        "pairAddress": "Gnqj3eK6TFogKetWVqk9Ayau8jL1YaBEiDtVyBubfB74",
+        "entryTime": "2026-04-23T22:24:18.940Z"
       }
     ],
     "wins": 0,
@@ -11752,8 +11757,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T19:09:59.032Z",
-    "lastSeen": "2026-04-23T21:49:04.747Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T22:24:18.940Z",
+    "confirmed": true
   },
   "Ay6sNStHVAwkoAPFjjUcjeXrvBn1C3vtTsiG5Lomqq5o": {
     "appearances": 1,
