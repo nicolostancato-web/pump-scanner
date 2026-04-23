@@ -6369,7 +6369,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 11,
+    "appearances": 12,
     "tokens": [
       {
         "symbol": "Camel",
@@ -6425,6 +6425,11 @@
         "symbol": "MEGA",
         "pairAddress": "CMgjNA9QwQo13aTHu84kdskgZY6Ltqev3xuDD2gfyP4T",
         "entryTime": "2026-04-22T17:49:45.066Z"
+      },
+      {
+        "symbol": "RAVEAI",
+        "pairAddress": "AJxk7NALBrLmAruvqq8dPiL95SrggNNXbn23jN7BxawM",
+        "entryTime": "2026-04-23T00:22:24.767Z"
       }
     ],
     "wins": 0,
@@ -6432,7 +6437,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:30:30.279Z",
-    "lastSeen": "2026-04-22T17:49:45.066Z",
+    "lastSeen": "2026-04-23T00:22:24.767Z",
     "confirmed": true
   },
   "9nd2o6NBs2xwjQyhUugMNxpgLb2MqeNyufxFGmTAXTK7": {
@@ -27032,12 +27037,17 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Baddie",
         "pairAddress": "AJjmPiQ1BuuE4doFh3NUzA4P5W4A8wYW7EgrPD8Q5Kvf",
         "entryTime": "2026-04-22T13:06:05.166Z"
+      },
+      {
+        "symbol": "RAVEAI",
+        "pairAddress": "AJxk7NALBrLmAruvqq8dPiL95SrggNNXbn23jN7BxawM",
+        "entryTime": "2026-04-23T00:22:24.767Z"
       }
     ],
     "wins": 0,
@@ -27045,7 +27055,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T13:06:05.166Z",
-    "lastSeen": "2026-04-22T13:06:05.166Z",
+    "lastSeen": "2026-04-23T00:22:24.767Z",
     "confirmed": false
   },
   "5kc595zm59RM7W4AaeixU58xyPSXd2jekmrBPMdrEsv2": {
