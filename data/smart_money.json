@@ -6649,7 +6649,7 @@
     "confirmed": false
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Camel",
@@ -6665,6 +6665,11 @@
         "symbol": "Michael",
         "pairAddress": "Go1Ab4jqpn1ZgXaGtFBzLhPSjMSU4SbCrY4ikiroeAE7",
         "entryTime": "2026-04-22T10:10:15.780Z"
+      },
+      {
+        "symbol": "Gooner",
+        "pairAddress": "8qeoJeobhE8bgWL4CCvkyr9TPSGpUac3aRqkADZa5ZPE",
+        "entryTime": "2026-04-23T04:29:48.387Z"
       }
     ],
     "wins": 0,
@@ -6672,7 +6677,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T13:36:11.745Z",
-    "lastSeen": "2026-04-22T10:10:15.780Z",
+    "lastSeen": "2026-04-23T04:29:48.387Z",
     "confirmed": true
   },
   "9zDbse8av3jVPvVbxwSE62SfqrKqhzV1JdHnJ3HUM3pY": {
@@ -37828,6 +37833,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T04:29:10.850Z",
     "lastSeen": "2026-04-23T04:29:10.850Z",
+    "confirmed": false
+  },
+  "4YtQCUkY92Afzwf7pwA9EM4sPoMuZA1QzY7VLTLUC79B": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Gooner",
+        "pairAddress": "8qeoJeobhE8bgWL4CCvkyr9TPSGpUac3aRqkADZa5ZPE",
+        "entryTime": "2026-04-23T04:29:48.387Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T04:29:48.387Z",
+    "lastSeen": "2026-04-23T04:29:48.387Z",
     "confirmed": false
   }
 }
