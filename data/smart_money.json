@@ -15009,12 +15009,17 @@
     "confirmed": false
   },
   "J1h3MyTatDeTmSBm8CTdE5JUWM6DydSdnxdWQoc5ZDm6": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BRICKS",
         "pairAddress": "6QrQKB4hrkUWAxXq7UtRMSCj3CcK4dxwZqUmUVVFmwpa",
         "entryTime": "2026-04-21T21:08:07.307Z"
+      },
+      {
+        "symbol": "DERP",
+        "pairAddress": "45xSjaBP19Wm7w9PTMtWdJRnYwmcc2q7bYwPojumkk3s",
+        "entryTime": "2026-04-23T05:36:08.219Z"
       }
     ],
     "wins": 0,
@@ -15022,7 +15027,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T21:08:07.307Z",
-    "lastSeen": "2026-04-21T21:08:07.307Z",
+    "lastSeen": "2026-04-23T05:36:08.219Z",
     "confirmed": false
   },
   "8FHwwE6tvAHRWeG6kEHYx5W8DQkfV17G8kWX2L81wwyU": {
@@ -38519,6 +38524,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T05:35:34.879Z",
     "lastSeen": "2026-04-23T05:35:34.879Z",
+    "confirmed": false
+  },
+  "5KP54HGpYiLgyq1oVmzFpxiE1Qk69XM61WxHVPXq7jSZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "DERP",
+        "pairAddress": "45xSjaBP19Wm7w9PTMtWdJRnYwmcc2q7bYwPojumkk3s",
+        "entryTime": "2026-04-23T05:36:08.219Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T05:36:08.219Z",
+    "lastSeen": "2026-04-23T05:36:08.219Z",
     "confirmed": false
   }
 }
