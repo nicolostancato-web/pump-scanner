@@ -1624,7 +1624,7 @@
     "confirmed": false
   },
   "LASTvjDWkbXM1RwUCiniHqGLSEH5xJinDRs56wNPQr9": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "wif2",
@@ -1640,6 +1640,11 @@
         "symbol": "GC",
         "pairAddress": "CNfGP52B922UH19ScHkFkpZNgVubREUeBoGnkaTLWfTo",
         "entryTime": "2026-04-22T20:26:41.867Z"
+      },
+      {
+        "symbol": "SAM",
+        "pairAddress": "Dt6EtrQcXjGPy9Rdw77Rf7WVxJ9FH6dxTpRYdUQ3GDNg",
+        "entryTime": "2026-04-23T01:38:46.386Z"
       }
     ],
     "wins": 0,
@@ -1647,7 +1652,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T06:07:30.068Z",
-    "lastSeen": "2026-04-22T20:26:41.867Z",
+    "lastSeen": "2026-04-23T01:38:46.386Z",
     "confirmed": true
   },
   "6Ta1LBdnwYkftYBTddsWqGR4JDB4NVbNrFtwB2E2mMLH": {
@@ -13007,7 +13012,7 @@
     "confirmed": false
   },
   "3UNWZp8Aph81aHBSShLqV2Tvu5cmAPVyVcEsz6fvSffe": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "dog",
@@ -13028,6 +13033,11 @@
         "symbol": "EVELYN",
         "pairAddress": "5jbuf4LkAh6uwEQKWYmHv7PCh8fNBPySZyJs1DCCWpa8",
         "entryTime": "2026-04-22T22:30:41.345Z"
+      },
+      {
+        "symbol": "SAM",
+        "pairAddress": "Dt6EtrQcXjGPy9Rdw77Rf7WVxJ9FH6dxTpRYdUQ3GDNg",
+        "entryTime": "2026-04-23T01:38:46.386Z"
       }
     ],
     "wins": 0,
@@ -13035,7 +13045,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T19:12:06.148Z",
-    "lastSeen": "2026-04-22T22:30:41.345Z",
+    "lastSeen": "2026-04-23T01:38:46.386Z",
     "confirmed": true
   },
   "AQM2Qyyok8t4sGVVYHxCjosCGEu8tL5Pw4KLuvjcR2uF": {
