@@ -1108,7 +1108,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1159,6 +1159,11 @@
         "symbol": "VESPR",
         "pairAddress": "2oFEtKUHGWCMkVcWWrtYNb2MoR9hh8upmmcQKRwZAXXW",
         "entryTime": "2026-04-23T18:15:52.614Z"
+      },
+      {
+        "symbol": "ENRIQUE",
+        "pairAddress": "DtVoDYXHDzVoUkZN7xYTZdX7Ddp4zsc3uW7FQAWCjzxu",
+        "entryTime": "2026-04-23T18:54:10.226Z"
       }
     ],
     "wins": 0,
@@ -1166,7 +1171,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-23T18:15:52.614Z",
+    "lastSeen": "2026-04-23T18:54:10.226Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -11366,6 +11371,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T18:53:37.342Z",
     "lastSeen": "2026-04-23T18:53:37.342Z",
+    "confirmed": false
+  },
+  "7GQRmQmEX4dHAcxwLPhLThNxxFVBf7xgywfPgMnyaNYr": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ENRIQUE",
+        "pairAddress": "DtVoDYXHDzVoUkZN7xYTZdX7Ddp4zsc3uW7FQAWCjzxu",
+        "entryTime": "2026-04-23T18:54:10.226Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T18:54:10.226Z",
+    "lastSeen": "2026-04-23T18:54:10.226Z",
     "confirmed": false
   }
 }
