@@ -549,7 +549,7 @@
     "confirmed": false
   },
   "E6SPtMXRz6qJKnVwMF8KCRTHzeAhao3X732ZE5PexDBm": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "APU",
@@ -585,6 +585,11 @@
         "symbol": "ETF",
         "pairAddress": "7ZKb88pyFxYnwZGmdCD3mJGH628U784RZKc2ebkcxDnY",
         "entryTime": "2026-04-22T01:33:11.531Z"
+      },
+      {
+        "symbol": "RAVEAI",
+        "pairAddress": "AJxk7NALBrLmAruvqq8dPiL95SrggNNXbn23jN7BxawM",
+        "entryTime": "2026-04-23T00:39:25.905Z"
       }
     ],
     "wins": 0,
@@ -592,7 +597,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T05:35:50.664Z",
-    "lastSeen": "2026-04-22T01:33:11.531Z",
+    "lastSeen": "2026-04-23T00:39:25.905Z",
     "confirmed": true
   },
   "2nENNWPvBickxym8en5ZziezDLD4dcmVyZbu7WFv5VeV": {
@@ -35540,6 +35545,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T00:24:48.664Z",
     "lastSeen": "2026-04-23T00:24:48.664Z",
+    "confirmed": false
+  },
+  "7PuzJpwqPEvhs9i7FKxTBd6Zr6jfJoWnngDzJksdB8Vw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "RAVEAI",
+        "pairAddress": "AJxk7NALBrLmAruvqq8dPiL95SrggNNXbn23jN7BxawM",
+        "entryTime": "2026-04-23T00:39:25.905Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T00:39:25.905Z",
+    "lastSeen": "2026-04-23T00:39:25.905Z",
     "confirmed": false
   }
 }
