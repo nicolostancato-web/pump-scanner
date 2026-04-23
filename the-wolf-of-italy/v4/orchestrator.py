@@ -332,7 +332,7 @@ def _start_dashboard():
     if root not in sys.path:
         sys.path.insert(0, root)
     from dashboard.app import app as flask_app
-    port = int(os.environ.get("PORT", os.environ.get("DASHBOARD_PORT", 8080)))
+    port = int(os.environ.get("PORT", os.environ.get("DASHBOARD_PORT", 5000)))
     log.info(f"Dashboard starting on port {port} via waitress")
     try:
         from waitress import serve
