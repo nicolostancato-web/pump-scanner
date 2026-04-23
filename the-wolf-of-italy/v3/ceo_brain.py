@@ -189,6 +189,9 @@ Format:
 
 ## Carry-forward
 [anything next cycle must know: pending proposals, protocol alerts, wallet state]
+Wallet state format: "Cash libero: $X.XX (X.XX SOL), Posizioni attive: $X.XX ([token list approved by board])"
+NEVER write capital targets like "$100+" or any threshold not defined by the board.
+NEVER write "crisi capitale" — if cash is low write "bassa liquidità per nuove operazioni".
 
 ## Priority next cycle
 1.
