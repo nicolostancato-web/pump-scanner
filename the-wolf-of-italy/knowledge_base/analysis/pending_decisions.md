@@ -1,5 +1,5 @@
 # Pending Decisions
-ANALISTA – 2026-04-23 17:06 Rome
+ANALISTA — 2026-04-23 17:07 Rome
 
 (vuoto — nessuna nuova opportunità da HUNTER per oggi 2026-04-23)
 
