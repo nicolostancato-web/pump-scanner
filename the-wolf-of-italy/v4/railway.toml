@@ -3,7 +3,5 @@ builder = "nixpacks"
 
 [deploy]
 startCommand = "python3 orchestrator.py"
-restartPolicyType = "always"
-restartPolicyMaxRetries = 3
-healthcheckPath = "/health"
-healthcheckTimeout = 10
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 1
