@@ -17950,12 +17950,17 @@
     "confirmed": false
   },
   "D41UryuSxF17FY88WDy6tLMsspgtFuwL53mrSSimtC5x": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SOL",
         "pairAddress": "5R6sA13JcdGad8PY75dWkaRWvpAd1fJ2JGmff76HoBfm",
         "entryTime": "2026-04-22T01:26:48.901Z"
+      },
+      {
+        "symbol": "AlienPippin",
+        "pairAddress": "Gc7zup1FkSTwKg8Yfk7Wc1ctWD3au92AwtMRgJsUY3qq",
+        "entryTime": "2026-04-23T00:14:38.195Z"
       }
     ],
     "wins": 0,
@@ -17963,7 +17968,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T01:26:48.901Z",
-    "lastSeen": "2026-04-22T01:26:48.901Z",
+    "lastSeen": "2026-04-23T00:14:38.195Z",
     "confirmed": false
   },
   "CWWeheHV6v24nhNffiU24BdcLAzCXVzbgFy6vVvnKPdZ": {
@@ -35362,6 +35367,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T00:14:04.950Z",
     "lastSeen": "2026-04-23T00:14:04.950Z",
+    "confirmed": false
+  },
+  "CgxdCwD91etgnXCEeA7FwZwH7W4b8A7V93QjfEXuPKh1": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AlienPippin",
+        "pairAddress": "Gc7zup1FkSTwKg8Yfk7Wc1ctWD3au92AwtMRgJsUY3qq",
+        "entryTime": "2026-04-23T00:14:38.195Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T00:14:38.195Z",
+    "lastSeen": "2026-04-23T00:14:38.195Z",
     "confirmed": false
   }
 }
