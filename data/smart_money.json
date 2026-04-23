@@ -11102,5 +11102,22 @@
     "firstSeen": "2026-04-23T18:43:14.229Z",
     "lastSeen": "2026-04-23T18:43:14.229Z",
     "confirmed": false
+  },
+  "7Conwd74Jq1QQi2aB5KfwR1zTxFQVVUHxx4gbTTMT7xL": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ARGOS",
+        "pairAddress": "2K3KBa1cTy5D2HRKTeruGUDX2wCsZbTXqxyi1Z2BCxsT",
+        "entryTime": "2026-04-23T18:43:57.424Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T18:43:57.424Z",
+    "lastSeen": "2026-04-23T18:43:57.424Z",
+    "confirmed": false
   }
 }
