@@ -9580,7 +9580,7 @@
     "confirmed": false
   },
   "9LFiTup5RpWNLgUcDbF87YFHqT9as43AYG8LG39Yj9p3": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "POB500",
@@ -9591,6 +9591,11 @@
         "symbol": "AIB",
         "pairAddress": "AZ8xg4yvR7s4REyLx6BjdqhgRTx1ucAwsEBKGVS2B25q",
         "entryTime": "2026-04-23T22:29:34.812Z"
+      },
+      {
+        "symbol": "TRADE",
+        "pairAddress": "HqCxHf9iMWnXyejFUrYKd3FexrWKtcWojqsrqTDyZe4x",
+        "entryTime": "2026-04-23T23:49:02.069Z"
       }
     ],
     "wins": 0,
@@ -9598,8 +9603,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T16:15:03.475Z",
-    "lastSeen": "2026-04-23T22:29:34.812Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T23:49:02.069Z",
+    "confirmed": true
   },
   "BDVg2h8R9qdmqmKJK6uJj7kdLxje8NXjvSdfrhDeg7cw": {
     "appearances": 1,
@@ -16680,6 +16685,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T23:48:32.814Z",
     "lastSeen": "2026-04-23T23:48:32.814Z",
+    "confirmed": false
+  },
+  "roUteHjDohtkatXTb79PJ99bbxkTipgo3GJ4EJZ1YpB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRADE",
+        "pairAddress": "HqCxHf9iMWnXyejFUrYKd3FexrWKtcWojqsrqTDyZe4x",
+        "entryTime": "2026-04-23T23:49:02.069Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T23:49:02.069Z",
+    "lastSeen": "2026-04-23T23:49:02.069Z",
     "confirmed": false
   }
 }
