@@ -4522,12 +4522,17 @@
     "confirmed": false
   },
   "HLkfGShrk6cw4FAMcdUaSzm4rryzfkQLHrEo7jL1H3GG": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KAIRU",
         "pairAddress": "Fk9dh4ScbmYgymh8WLUoL5o6zhm9zPgyaSLJYkgv7iyz",
         "entryTime": "2026-04-23T10:39:57.059Z"
+      },
+      {
+        "symbol": "FIVECLAW",
+        "pairAddress": "DuqanRjHJtDxfFXWHLsR2r9GWaLNdY7cWrBJzfXmnC9a",
+        "entryTime": "2026-04-23T13:20:55.120Z"
       }
     ],
     "wins": 0,
@@ -4535,7 +4540,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T10:39:57.059Z",
-    "lastSeen": "2026-04-23T10:39:57.059Z",
+    "lastSeen": "2026-04-23T13:20:55.120Z",
     "confirmed": false
   },
   "7dqY1q117z5QPVv3jSydP1XXkxZErAkrjL7btDKZMi2K": {
@@ -5913,6 +5918,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T13:20:18.851Z",
     "lastSeen": "2026-04-23T13:20:18.851Z",
+    "confirmed": false
+  },
+  "GMbx86fKQnPCnVpk35DE8PtTswKERdzhLzDVFi52qAwc": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FIVECLAW",
+        "pairAddress": "DuqanRjHJtDxfFXWHLsR2r9GWaLNdY7cWrBJzfXmnC9a",
+        "entryTime": "2026-04-23T13:20:55.120Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T13:20:55.120Z",
+    "lastSeen": "2026-04-23T13:20:55.120Z",
     "confirmed": false
   }
 }
