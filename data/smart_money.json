@@ -3956,7 +3956,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Bitshark",
@@ -3992,6 +3992,11 @@
         "symbol": "CLICKING",
         "pairAddress": "EXfi7U4LusqZahx71FoyQiqw4DtmHZF9Jj7ng7GsHRXG",
         "entryTime": "2026-04-22T20:19:57.414Z"
+      },
+      {
+        "symbol": "boobcoin",
+        "pairAddress": "9MmacJZnu1JviRQVDjiLxMKAUWnm3tLqd2fuZS8wqdqK",
+        "entryTime": "2026-04-23T00:00:37.440Z"
       }
     ],
     "wins": 0,
@@ -3999,7 +4004,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T10:04:08.925Z",
-    "lastSeen": "2026-04-22T20:19:57.414Z",
+    "lastSeen": "2026-04-23T00:00:37.440Z",
     "confirmed": true
   },
   "4kSmFFKcDqoRJzUfmpBeQJwnMLwmxZbvHiN9DVZjYcU2": {
@@ -35024,6 +35029,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-22T23:59:39.684Z",
     "lastSeen": "2026-04-22T23:59:39.684Z",
+    "confirmed": false
+  },
+  "EFSq5jnHMgj8A21CJkmmgdXChs2aj2pb9LNoGiZeVUpP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "boobcoin",
+        "pairAddress": "9MmacJZnu1JviRQVDjiLxMKAUWnm3tLqd2fuZS8wqdqK",
+        "entryTime": "2026-04-23T00:00:37.440Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T00:00:37.440Z",
+    "lastSeen": "2026-04-23T00:00:37.440Z",
     "confirmed": false
   }
 }
