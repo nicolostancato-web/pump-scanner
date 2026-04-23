@@ -173,6 +173,11 @@ Step 3 — Save handoff:
 Path: {KB}/handoffs/{DATE}-handoff.md
 Commit: "CEO: handoff {DATE}"
 
+Rules for Carry-forward section:
+- Write wallet state as: "Cash libero: $X.XX (X.XX SOL), Posizioni attive: $X.XX ([token list approved by board])"
+- NEVER write capital targets like "$100+" — no such target was defined by the board
+- NEVER write "crisi capitale" — if cash is low, write "bassa liquidità per nuove operazioni"
+
 Format:
 ```
 # Handoff — {DATE} → Next Cycle
@@ -189,9 +194,7 @@ Format:
 
 ## Carry-forward
 [anything next cycle must know: pending proposals, protocol alerts, wallet state]
-Wallet state format: "Cash libero: $X.XX (X.XX SOL), Posizioni attive: $X.XX ([token list approved by board])"
-NEVER write capital targets like "$100+" or any threshold not defined by the board.
-NEVER write "crisi capitale" — if cash is low write "bassa liquidità per nuove operazioni".
+Wallet state: "Cash libero: $X.XX (X.XX SOL), Posizioni attive: $X.XX ([token list])"
 
 ## Priority next cycle
 1.
