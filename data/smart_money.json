@@ -17482,7 +17482,7 @@
     "confirmed": false
   },
   "9RAufBfjGQjDfrwxeyKmZWPADHSb8HcoqCdrmpqvCr1g": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "purr",
@@ -17493,6 +17493,11 @@
         "symbol": "LENNY",
         "pairAddress": "78pQEwLZyUUDArEr3QwnF8UX6nGUvHBrqf2uguxnpNPn",
         "entryTime": "2026-04-22T09:55:38.171Z"
+      },
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T00:53:22.592Z"
       }
     ],
     "wins": 0,
@@ -17500,8 +17505,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-22T00:47:50.909Z",
-    "lastSeen": "2026-04-22T09:55:38.171Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T00:53:22.592Z",
+    "confirmed": true
   },
   "GkJ7pnhiPwxx8oZZfss1SG2G3DjGV5myCnmKxVfPxMw7": {
     "appearances": 1,
