@@ -301,7 +301,7 @@ async def main():
     # ── STAGE 1: Research (parallel) ──────────────────────────────────────
     print("\nSTAGE 1 — Research (parallel)")
     stage1_results = await asyncio.gather(
-        run_agent("AIRDROP-HUNTER-1", airdrop_hunter_task()),
+        run_agent("AIRDROP-HUNTER-1", airdrop_hunter_task(), save_all=True),
         run_agent("ELIGIBILITY-TRACKER-1", eligibility_tracker_task(), stagger=8),
         return_exceptions=True,
     )
