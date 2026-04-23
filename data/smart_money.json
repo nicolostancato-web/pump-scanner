@@ -37688,5 +37688,22 @@
     "firstSeen": "2026-04-23T04:01:51.363Z",
     "lastSeen": "2026-04-23T04:01:51.363Z",
     "confirmed": false
+  },
+  "BnriGgFksuDAmFpz4vzxrxJchSGM1U73f3KZxBh6KbYJ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ket",
+        "pairAddress": "2RHWgXGpLwcC9GGeAkZjjPxPynmoheLJLLrYdgs5fzPo",
+        "entryTime": "2026-04-23T04:16:41.524Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T04:16:41.524Z",
+    "lastSeen": "2026-04-23T04:16:41.524Z",
+    "confirmed": false
   }
 }
