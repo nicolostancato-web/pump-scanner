@@ -10397,5 +10397,22 @@
     "firstSeen": "2026-04-23T17:30:20.523Z",
     "lastSeen": "2026-04-23T17:30:20.523Z",
     "confirmed": false
+  },
+  "ByVSyDNPfUXzx4nmz6zJBRpweyAeMKu6b7n7K7dTQPPL": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "YAP",
+        "pairAddress": "6rv2VrAPaFMnQ3HwtLZ4UqEHYXMHaiMoLj6wJRyTNV2C",
+        "entryTime": "2026-04-23T17:30:54.717Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T17:30:54.717Z",
+    "lastSeen": "2026-04-23T17:30:54.717Z",
+    "confirmed": false
   }
 }
