@@ -1844,5 +1844,22 @@
     "firstSeen": "2026-04-23T07:34:49.806Z",
     "lastSeen": "2026-04-23T07:34:49.806Z",
     "confirmed": false
+  },
+  "8jVDp3msbv6P5JxPFYwHtwHGUBRTLwntz9gDHzhK7h87": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Stag",
+        "pairAddress": "Fc49oR8YC6Yfm56bQKpJnqznaCHZfE23CMyJVfYu4Ahp",
+        "entryTime": "2026-04-23T07:35:21.604Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T07:35:21.604Z",
+    "lastSeen": "2026-04-23T07:35:21.604Z",
+    "confirmed": false
   }
 }
