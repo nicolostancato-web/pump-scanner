@@ -7403,12 +7403,17 @@
     "confirmed": false
   },
   "G4rV4RGPvny872iVES62XfLcKGEiaH16ZPWVzFmiXM37": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "LandSat",
         "pairAddress": "7FCyvKXtW8iCxGeDVLD9yzbtrPVNgKVeE2c7fjwEnhCX",
         "entryTime": "2026-04-23T14:20:07.090Z"
+      },
+      {
+        "symbol": "ENRIQUE",
+        "pairAddress": "DtVoDYXHDzVoUkZN7xYTZdX7Ddp4zsc3uW7FQAWCjzxu",
+        "entryTime": "2026-04-23T18:58:01.570Z"
       }
     ],
     "wins": 0,
@@ -7416,7 +7421,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T14:20:07.090Z",
-    "lastSeen": "2026-04-23T14:20:07.090Z",
+    "lastSeen": "2026-04-23T18:58:01.570Z",
     "confirmed": false
   },
   "NULLioEUhd89Jo5Acm9sX88bwjNjrsAVy6KWkXD7qZh": {
