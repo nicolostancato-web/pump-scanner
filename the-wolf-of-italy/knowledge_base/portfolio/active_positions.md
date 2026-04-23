@@ -1,4 +1,4 @@
-Ultimo aggiornamento: 2026-04-23 17:38 Rome
+Ultimo aggiornamento: 2026-04-23 17:39 Rome
 
 ## BP-2026-04-23-001 — JupSOL (Jupiter Staked SOL)
 Stato: FULLY_DEPLOYED
@@ -16,6 +16,6 @@ Alert: nessuno
 # Riepilogo Portfolio
 | Voce | Valore |
 |------|-------|
-| Cash libero (SOL) | $34.89 (0.4045 SOL @ $86.24/SOL) |
+| Cash libero (SOL) | $34.88 (0.4045 SOL @ $86.23/SOL) |
 | Posizioni attive | $17.25 |
-| **Portfolio totale** | **$52.14** |
+| **Portfolio totale** | **$52.13** |
