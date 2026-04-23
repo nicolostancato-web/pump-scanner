@@ -5,8 +5,19 @@ Requires env vars: GMAIL_APP_PASSWORD, FOUNDER_EMAIL
 
 import os
 import smtplib
+import time
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+
+# Rate limit: subject hash -> last_sent_epoch. Prevents duplicate sends within 2h.
+_RATE_LIMIT: dict[str, float] = {}
+_RATE_WINDOW = 2 * 3600  # 2 hours
+
+
+def _rate_key(subject: str) -> str:
+    # Normalize subject to catch minor variations of the same alert
+    import re
+    return re.sub(r"[^a-z0-9]", "", subject.lower())[:40]
 
 
 def _build_html(title: str, body_text: str, guide_url: str = "", accent: str = "#1a1a2e") -> str:
@@ -82,6 +93,14 @@ async def send_critical_alert(subject: str, body: str) -> dict:
 
 
 async def _send(subject: str, body: str, guide_url: str = "") -> dict:
+    # Rate limit: skip if same subject sent within 2 hours
+    key = _rate_key(subject)
+    now = time.time()
+    last_sent = _RATE_LIMIT.get(key, 0)
+    if now - last_sent < _RATE_WINDOW:
+        remaining = int((_RATE_WINDOW - (now - last_sent)) / 60)
+        return {"ok": False, "skipped": True, "reason": f"rate_limit ({remaining}min remaining)", "subject": subject}
+
     gmail_user = "nicolostancato@gmail.com"
     app_password = os.environ.get("GMAIL_APP_PASSWORD", "")
     founder_email = os.environ.get("FOUNDER_EMAIL", "nicolostancato@gmail.com")
@@ -105,6 +124,7 @@ async def _send(subject: str, body: str, guide_url: str = "") -> dict:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(gmail_user, app_password)
             server.sendmail(gmail_user, founder_email, msg.as_string())
+        _RATE_LIMIT[key] = now
         return {"ok": True, "to": founder_email, "subject": subject}
     except Exception as e:
         return {"ok": False, "error": str(e), "subject": subject}
