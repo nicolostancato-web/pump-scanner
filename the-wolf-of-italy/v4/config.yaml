@@ -1,52 +1,59 @@
 # Wolf of Italy v4 — Skill Config
-# Parametri per le skill [CONFIG] del manuale (v4/SKILLS.md)
-# ??? = richiede risposta del fondatore
+# v4/SKILLS.md — parametri [CONFIG] e [HUMAN]
 
 agents:
 
   hunter:
-    max_iterations: ???        # [CHIEDI] suggerimento: 20
-    max_cost_per_run: ???      # [CHIEDI] suggerimento: $0.05
-    schedule_minutes: 30       # ogni 30 min (hardcoded in orchestrator)
-    daily_reset_time: "22:00"  # orario reset serale Roma
+    max_iterations: 20
+    max_cost_per_run: 0.05
+    schedule_minutes: 30
+    daily_reset_time: "22:00"
 
   analista:
-    max_iterations: ???        # [CHIEDI] suggerimento: 15
-    max_cost_per_run: ???      # [CHIEDI] suggerimento: $0.03
-    schedule_minutes: 5        # ogni 5 min (hardcoded in orchestrator)
-    parked_limit: ???          # [CHIEDI] max BP parcheggiati prima di archiviazione forzata (sug: 10)
-    dashboard_limit: ???       # [CHIEDI] max BP in pending_decisions.md (sug: 5)
+    max_iterations: 15
+    max_cost_per_run: 0.03
+    schedule_minutes: 5
+    parked_limit: 10
+    dashboard_limit: 5
 
   cfo:
-    max_iterations: ???        # [CHIEDI] suggerimento: 20
-    max_cost_per_run: ???      # [CHIEDI] suggerimento: $0.05
-    schedule_hours: 4          # ogni 4 ore (hardcoded in orchestrator)
-    wallet_check_interval_min: 240  # ogni 4h, uguale a schedule
-    alert_threshold_drop_24h: ???   # [CHIEDI] % drop che triggera alert (sug: -20)
+    max_iterations: 20
+    max_cost_per_run: 0.05
+    schedule_hours: 4
+    wallet_check_interval_min: 240
+    alert_threshold_drop_24h: -20
 
   monitor:
-    max_iterations: ???        # [CHIEDI] suggerimento: 25
-    max_cost_per_run: ???      # [CHIEDI] suggerimento: $0.08
-    schedule_time: "07:00"     # una volta al giorno alle 07:00 Roma
-    required_sources: 2        # min fonti indipendenti per cancellare BP (default fisso)
+    max_iterations: 25
+    max_cost_per_run: 0.08
+    schedule_time: "07:00"
+    required_sources: 2
 
   security:
-    max_iterations: ???        # [CHIEDI] suggerimento: 10
-    max_cost_per_run: ???      # [CHIEDI] suggerimento: $0.02
-    schedule_minutes: 60       # ogni ora (hardcoded in orchestrator)
-    monthly_cost_cap_eur: ???  # [CHIEDI] tetto costo mensile totale in € (sug: 20)
-    api_expiry_alert_days: ???  # [CHIEDI] gg preavviso scadenza key (sug: 7)
+    max_iterations: 10
+    max_cost_per_run: 0.02
+    schedule_minutes: 60
+    monthly_cost_cap_eur: 20
+    api_expiry_alert_days: 7
 
   tester:
-    max_iterations: 10          # check puro, nessun LLM
-    max_cost_per_run: 0.0       # nessun costo LLM (solo HTTP)
-    schedule_minutes: 60        # ogni ora (hardcoded in orchestrator)
+    max_iterations: 10
+    max_cost_per_run: 0.0
+    schedule_minutes: 60
 
 global:
   llm_model_primary: "deepseek/deepseek-chat"
-  llm_model_fallback: ???        # [CHIEDI] es. "anthropic/claude-haiku-4-5" o "groq/llama-3.3-70b-versatile"
+  llm_model_fallback: "groq/llama-3.3-70b-versatile"
+  llm_model_switch_requires_board_approval: true
   github_repo: "nicolostancato-web/pump-scanner"
-  wallet_address: "E51F1pku95NG7oXbAHGmquP4sy31hucfok7EiwbanuxV"
+  wallet_address: "9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt"
   founder_email: "nicolostancato@gmail.com"
-  evening_reset_time: "22:00"    # Roma
+  evening_reset_time: "22:00"
   dashboard_refresh_seconds: 60
+
+budget:
+  monthly_cap_eur: 25
+  railway_fixed_eur: 14
+  llm_budget_eur: 10
+  buffer_eur: 1
+  on_exceed: "alert_founder + stop_non_critical_agents"
