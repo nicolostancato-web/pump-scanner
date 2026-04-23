@@ -652,12 +652,17 @@
     "confirmed": false
   },
   "5UQJdMyb7GPMxWjBusVCT7YarzJ7rgyp4N1PR2FHaG77": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "wif2",
         "pairAddress": "89kPF7X5SQdM8Ko4gVzzSLzd7w57tG9JUtcqoKqxcimi",
         "entryTime": "2026-04-21T05:45:24.040Z"
+      },
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T00:41:49.026Z"
       }
     ],
     "wins": 0,
@@ -665,7 +670,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T05:45:24.040Z",
-    "lastSeen": "2026-04-21T05:45:24.040Z",
+    "lastSeen": "2026-04-23T00:41:49.026Z",
     "confirmed": false
   },
   "3pxFeNf5ciiFFbAbsHpbicVP9Ryh4YFaWDpyh75qMVMP": {
@@ -5154,12 +5159,17 @@
     "confirmed": false
   },
   "CtxzTgpU83JYo1YYjPGVTczJWU9Tojc7JmUi5MHqCUMX": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Outsider",
         "pairAddress": "GUjXksRdgwKTz2StUMsVBNjSVXcZw3bKovGLpWzKUabN",
         "entryTime": "2026-04-21T12:14:37.923Z"
+      },
+      {
+        "symbol": "percocet",
+        "pairAddress": "G8oWLF8Dv6iLomL3CDxJZEifVsgkt6928ks8LVg7hMpH",
+        "entryTime": "2026-04-23T00:41:49.026Z"
       }
     ],
     "wins": 0,
@@ -5167,7 +5177,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-21T12:14:37.923Z",
-    "lastSeen": "2026-04-21T12:14:37.923Z",
+    "lastSeen": "2026-04-23T00:41:49.026Z",
     "confirmed": false
   },
   "BbQgyMD4R8srk1aZpmjGEdgWGXDZpGCZURagYy15oDAj": {
