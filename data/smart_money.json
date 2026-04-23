@@ -11690,7 +11690,7 @@
     "confirmed": false
   },
   "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ENRIQUE",
@@ -11701,6 +11701,11 @@
         "symbol": "Memecoin™",
         "pairAddress": "8f4dFUJdsL9jW7R7qaRMiVH7JtoKQQuNpMbxdqqhyebi",
         "entryTime": "2026-04-23T21:45:01.444Z"
+      },
+      {
+        "symbol": "AIB",
+        "pairAddress": "Gnqj3eK6TFogKetWVqk9Ayau8jL1YaBEiDtVyBubfB74",
+        "entryTime": "2026-04-23T22:16:22.713Z"
       }
     ],
     "wins": 0,
@@ -11708,8 +11713,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T19:02:35.163Z",
-    "lastSeen": "2026-04-23T21:45:01.444Z",
-    "confirmed": false
+    "lastSeen": "2026-04-23T22:16:22.713Z",
+    "confirmed": true
   },
   "G75iHEiLAgejSGC9LNKu2rTxpdtATSjdNRQ4riEH4i1z": {
     "appearances": 1,
@@ -11819,12 +11824,17 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ENRIQUE",
         "pairAddress": "DtVoDYXHDzVoUkZN7xYTZdX7Ddp4zsc3uW7FQAWCjzxu",
         "entryTime": "2026-04-23T19:13:54.109Z"
+      },
+      {
+        "symbol": "AIB",
+        "pairAddress": "Gnqj3eK6TFogKetWVqk9Ayau8jL1YaBEiDtVyBubfB74",
+        "entryTime": "2026-04-23T22:16:22.713Z"
       }
     ],
     "wins": 0,
@@ -11832,7 +11842,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T19:13:54.109Z",
-    "lastSeen": "2026-04-23T19:13:54.109Z",
+    "lastSeen": "2026-04-23T22:16:22.713Z",
     "confirmed": false
   },
   "CT5WRRtZxsoVRBHc6art6HWrM4azWo4ofuiT853PtJTc": {
