@@ -1,29 +1,29 @@
 # AIRDROP-HUNTER-1 Raw Notes — 2026-04-23
 
 ## Jupiter
-- Campaign status: unknown (no airdrop info on main site)
-- Criteria today: Unknown - JUP3 expected Q3 2026 per mission statement
-- Changes vs yesterday: No changes detected
-- Source: https://jup.ag/ (no airdrop details found)
-- Additional: Station.jup.ag is developer platform, not airdrop portal
+- Campaign status: unknown (JUP3 expected Q3 2026)
+- Criteria today: swap volume + JupSOL holding (based on mission statement)
+- Changes vs yesterday: none confirmed
+- Source: https://jup.ag/ (homepage loaded, no airdrop-specific info visible)
+- Additional: Station page (https://station.jup.ag/) is Jupiter Developer Platform, not airdrop-specific
 
 ## Kamino
-- Campaign status: unknown (site loads but no airdrop info in HTML)
-- Criteria today: Unknown - Season 3 active per mission statement
-- Changes vs yesterday: No changes detected
-- Source: https://app.kamino.finance/ (no airdrop details in HTML)
+- Campaign status: unknown (Season 3 reportedly active per mission statement)
+- Criteria today: USDC/SOL supply (based on mission statement)
+- Changes vs yesterday: none confirmed
+- Source: https://app.kamino.finance/ (app loaded, no airdrop-specific info visible on homepage)
 
 ## MarginFi
-- Campaign status: unknown (site loads but no airdrop info in HTML)
-- Criteria today: Unknown - pre-TGE per mission statement
-- Changes vs yesterday: No changes detected
-- Source: https://app.marginfi.com/ (no airdrop details in HTML)
+- Campaign status: unknown (pre-TGE per mission statement)
+- Criteria today: money market supply (based on mission statement)
+- Changes vs yesterday: none confirmed
+- Source: https://app.marginfi.com/ (app loaded, no airdrop-specific info visible on homepage)
 
 ## Drift
-- Campaign status: unknown (site loads with "stay-tuned" page)
-- Criteria today: Unknown - Season 2 announced per mission statement
-- Changes vs yesterday: No changes detected
-- Source: https://app.drift.trade/ (appears to be in maintenance/transition)
+- Campaign status: unknown (Season 2 announced per mission statement)
+- Criteria today: perp trading volume (based on mission statement)
+- Changes vs yesterday: none confirmed
+- Source: https://app.drift.trade/ (app loaded, shows "stay-tuned" page)
 
 ## Alerts
-None - No exploit, rug, or criteria change alerts detected from protocol websites. Hacker News top stories show no Solana/airdrop related news in top items checked.
+None - No exploit, rug, or criteria change alerts found in protocol homepage checks. Hacker News top stories checked (2 samples) showed no crypto/airdrop-related alerts.
