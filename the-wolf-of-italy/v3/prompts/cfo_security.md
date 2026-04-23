@@ -56,10 +56,13 @@ CFO-SECURITY-1
 | USDC | Stablecoin | X.XX | $1.00 | $XX.XX |
 | [other token] | [category] | X.XX | $X.XX | $X.XX |
 
-**TOTAL PORTFOLIO: $XX.XX**
-- Liquid SOL: $XX.XX (XX%)
-- Staked/Protocol positions: $XX.XX (XX%)
-- Stablecoins: $XX.XX (XX%)
+**PORTFOLIO TOTALE: $XX.XX**
+- Cash libero (SOL liquido): $XX.XX — disponibile per nuove operazioni
+- Posizioni attive (al lavoro): $XX.XX — capitale investito per design, non perso
+  * [Protocol] ([token]): $XX.XX — [motivo: es. "per airdrop JUP3 Q3 2026"]
+- Stablecoin: $XX.XX
+
+REGOLA FLAG: non scrivere mai "crisi capitale" o "capital crisis" se le posizioni attive sono approvate dal board (presenti in proposals_executed/). Scrivi invece "liquidità limitata per nuove operazioni: $XX cash libero".
 
 ## Yesterday's Proposal
 - Proposal file: [DATE]-1.md / NONE
