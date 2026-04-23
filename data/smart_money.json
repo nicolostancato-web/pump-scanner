@@ -2787,7 +2787,7 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "¢",
@@ -2808,6 +2808,11 @@
         "symbol": "brrrcoin",
         "pairAddress": "HoRcwdnRj1PqGV65i2hCi6DHYgDwj3oPiq7BpuZ1ZhV5",
         "entryTime": "2026-04-23T15:50:13.907Z"
+      },
+      {
+        "symbol": "UNCDOGE",
+        "pairAddress": "4nV2UzCZTpv4sEkN6zGQzYGp812P7kp144Y8WS5fLsiY",
+        "entryTime": "2026-04-23T21:28:38.159Z"
       }
     ],
     "wins": 0,
@@ -2815,7 +2820,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:25:38.671Z",
-    "lastSeen": "2026-04-23T15:50:13.907Z",
+    "lastSeen": "2026-04-23T21:28:38.159Z",
     "confirmed": true
   },
   "Gc767QTZrX8LnoTvPeFjNuu2H8k5zqgWsCSjoa8CJQDe": {
@@ -14100,6 +14105,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T21:26:00.799Z",
     "lastSeen": "2026-04-23T21:26:00.799Z",
+    "confirmed": false
+  },
+  "GZngs9kygQuyxhj3vYPSWrdVvhd8M6spHBin2vryHCCx": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "UNCDOGE",
+        "pairAddress": "4nV2UzCZTpv4sEkN6zGQzYGp812P7kp144Y8WS5fLsiY",
+        "entryTime": "2026-04-23T21:28:38.159Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T21:28:38.159Z",
+    "lastSeen": "2026-04-23T21:28:38.159Z",
     "confirmed": false
   }
 }
