@@ -3998,12 +3998,17 @@
     "confirmed": false
   },
   "6P13nJ5xTnrLyNs9BYw6KaPFYWEwxxZuK3598cVowfgm": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KYLE",
         "pairAddress": "91D3rxy4xo8Bhti3zyTWAjkg6NH4wtqDHpZKvWdSVG6w",
         "entryTime": "2026-04-23T09:41:27.576Z"
+      },
+      {
+        "symbol": "Dinoshark",
+        "pairAddress": "3Cbqhu1yzKFA8MFCoRFmfTXfmsjbsxrZRRp3mxxeY6Qj",
+        "entryTime": "2026-04-23T15:25:44.012Z"
       }
     ],
     "wins": 0,
@@ -4011,7 +4016,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T09:41:27.576Z",
-    "lastSeen": "2026-04-23T09:41:27.576Z",
+    "lastSeen": "2026-04-23T15:25:44.012Z",
     "confirmed": false
   },
   "Cnq7xFBhfmMkKCHrYRcUu3HcybJtJGytYq9ojXEFfFbj": {
@@ -8236,6 +8241,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T15:23:28.439Z",
     "lastSeen": "2026-04-23T15:23:28.439Z",
+    "confirmed": false
+  },
+  "Bto4SDcC5xykFkQrmRSAvKiW142fSHrYPDcdqfJjf583": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Dinoshark",
+        "pairAddress": "3Cbqhu1yzKFA8MFCoRFmfTXfmsjbsxrZRRp3mxxeY6Qj",
+        "entryTime": "2026-04-23T15:25:44.012Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T15:25:44.012Z",
+    "lastSeen": "2026-04-23T15:25:44.012Z",
     "confirmed": false
   }
 }
