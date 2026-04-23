@@ -8908,5 +8908,22 @@
     "firstSeen": "2026-04-23T15:50:46.398Z",
     "lastSeen": "2026-04-23T15:50:46.398Z",
     "confirmed": false
+  },
+  "AzFpyZbnGGbkCnmnmXYbLpXZDiAaSpKkpELrQL4SuHkU": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "brrrcoin",
+        "pairAddress": "HoRcwdnRj1PqGV65i2hCi6DHYgDwj3oPiq7BpuZ1ZhV5",
+        "entryTime": "2026-04-23T15:50:55.441Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T15:50:55.441Z",
+    "lastSeen": "2026-04-23T15:50:55.441Z",
+    "confirmed": false
   }
 }
