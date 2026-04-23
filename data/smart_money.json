@@ -15254,5 +15254,22 @@
     "firstSeen": "2026-04-23T22:19:31.344Z",
     "lastSeen": "2026-04-23T22:19:31.344Z",
     "confirmed": false
+  },
+  "BGcaPxBq6Y2tLWcLsW8fkxg8b3RcuRBBYoCeRZG5fPMD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "AIB",
+        "pairAddress": "Gnqj3eK6TFogKetWVqk9Ayau8jL1YaBEiDtVyBubfB74",
+        "entryTime": "2026-04-23T22:20:14.125Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T22:20:14.125Z",
+    "lastSeen": "2026-04-23T22:20:14.125Z",
+    "confirmed": false
   }
 }
