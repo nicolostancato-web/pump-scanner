@@ -108,9 +108,9 @@ def parse_active_positions(content: str) -> list[dict]:
             lk = k.lower()
             # Normalize Italian field names
             if "capitale" in lk or ("investit" in lk):
-                current["invested"] = v.split("(")[0].strip()
+                current["invested"] = v.split("(")[0].strip().lstrip("$")
             elif "valore" in lk and "attual" in lk:
-                current["current_value"] = v.split("(")[0].strip()
+                current["current_value"] = v.split("(")[0].strip().lstrip("$")
             elif lk in ("stato", "status"):
                 current["status"] = v
             elif "drop" in lk:
@@ -330,7 +330,8 @@ def vault():
 
     portfolio_total = summary["portfolio_total"] or sum(_try_float(p.get("current_value", "0")) for p in positions)
     cash_free = summary["cash"]
-    invested = summary["positions_total"] or sum(_try_float(p.get("invested", "0")) for p in positions)
+    # Use per-position invested capital (not Riepilogo which shows current value)
+    invested = sum(_try_float(p.get("invested", "0")) for p in positions) or summary["positions_total"]
 
     return render_template("vault.html",
                            daily_report=daily_report, positions=positions,
