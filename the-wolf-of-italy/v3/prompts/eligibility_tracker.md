@@ -6,10 +6,12 @@ Use real on-chain data. No estimates.
 
 ## Daily Task
 
-### Step 1 — Read wallet state:
+### Step 1 — Read wallet state + SOL price:
 Call get_sol_balance with wallet: 9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt
 Call get_token_accounts with same wallet
 Call get_recent_transactions (limit 20) to see recent activity
+fetch_url: https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd
+Use the fetched SOL price for all USD calculations. Never estimate or hardcode the price.
 
 ### Step 2 — Read AIRDROP-HUNTER-1 intel (knowledge_base, not team-notes):
 fetch_url: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/knowledge_base/airdrop_intel/[DATE].md
