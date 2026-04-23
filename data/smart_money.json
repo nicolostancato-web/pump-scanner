@@ -3115,12 +3115,17 @@
     "confirmed": false
   },
   "7rbxsXchaL1Jz46BXbF88k1hBYoWHLaKo8YbofMndW46": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ALIVE",
         "pairAddress": "HpjKnGsp1y6reRD1WEiFukBqnaDvDvvmTKjtKkWwbj8F",
         "entryTime": "2026-04-23T08:47:30.941Z"
+      },
+      {
+        "symbol": "VESPR",
+        "pairAddress": "2oFEtKUHGWCMkVcWWrtYNb2MoR9hh8upmmcQKRwZAXXW",
+        "entryTime": "2026-04-23T18:30:00.514Z"
       }
     ],
     "wins": 0,
@@ -3128,7 +3133,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:47:30.941Z",
-    "lastSeen": "2026-04-23T08:47:30.941Z",
+    "lastSeen": "2026-04-23T18:30:00.514Z",
     "confirmed": false
   },
   "GGtepe5Bcrb56X7TabHxpwv29Xa2rmdU1qezu3YV1Zq9": {
