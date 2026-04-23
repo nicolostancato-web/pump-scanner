@@ -9591,12 +9591,17 @@
     "confirmed": false
   },
   "FW8DZTuMiSwNUG5gdn2PSxXAQSgAfMJ66BNamc8Mrz8c": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ELIEN",
         "pairAddress": "7gTdfcW83JdvqZDyW6bxByibVrdE2ixZADToZdz2Bqr7",
         "entryTime": "2026-04-23T16:37:53.265Z"
+      },
+      {
+        "symbol": "ALIENUNC",
+        "pairAddress": "7NShRpRRAPvNjKgvhXoHcqix79CnsUsiB8Jm5AEuTMvq",
+        "entryTime": "2026-04-23T18:49:12.756Z"
       }
     ],
     "wins": 0,
@@ -9604,7 +9609,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T16:37:53.265Z",
-    "lastSeen": "2026-04-23T16:37:53.265Z",
+    "lastSeen": "2026-04-23T18:49:12.756Z",
     "confirmed": false
   },
   "5h1gGiWZhb9GcBzQgQ1Pt1Ggmwo73TpiErWZXDUnQ8na": {
@@ -11203,6 +11208,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-23T18:48:44.519Z",
     "lastSeen": "2026-04-23T18:48:44.519Z",
+    "confirmed": false
+  },
+  "GzUdLSjB3gkuzp1LKqvbraAgj1wX48WJpiPwhKF2zsum": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ALIENUNC",
+        "pairAddress": "7NShRpRRAPvNjKgvhXoHcqix79CnsUsiB8Jm5AEuTMvq",
+        "entryTime": "2026-04-23T18:49:12.756Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T18:49:12.756Z",
+    "lastSeen": "2026-04-23T18:49:12.756Z",
     "confirmed": false
   }
 }
