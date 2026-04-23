@@ -16,8 +16,13 @@ fetch_url: https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencie
 ### Step 3 — Check if yesterday's proposal was executed:
 fetch_url: https://api.github.com/repos/nicolostancato-web/pump-scanner/contents/the-wolf-of-italy/knowledge_base/proposals_sent
 List folder, find yesterday's proposal file, read it.
-Then call get_recent_transactions to see if matching on-chain tx exists.
-(Match by: amount + approximate time + protocol)
+
+To verify execution, check BOTH:
+a) Token balance: if the proposal involved acquiring a token (e.g. JupSOL), check if that token now appears in get_token_accounts result. If YES → executed.
+b) Transaction match: call get_recent_transactions to find matching tx by amount + time.
+
+If token balance confirms acquisition → write "Executed on-chain: YES — confirmed by token balance ([token]: [amount])".
+Do NOT write "NO" if the token balance clearly shows the acquisition happened.
 
 ### Step 4 — Check protocol health (TVL check):
 fetch_url: https://api.llama.fi/tvl/kamino
