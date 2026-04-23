@@ -1,0 +1,31 @@
+<!-- KPI cards partial for HTMX refresh -->
+<div class="card kpi-card">
+  <p class="kpi-label">Portfolio Totale</p>
+  <p class="kpi-val">${{ "%.2f"|format(portfolio_total) }}</p>
+  <p class="kpi-sub">{{ positions|length }} posizioni attive</p>
+</div>
+<div class="card kpi-card">
+  <p class="kpi-label">Cash Libero</p>
+  <p class="kpi-val">${{ "%.2f"|format(cash_free) if cash_free else "—" }}</p>
+  <p class="kpi-sub">disponibile per deploy</p>
+</div>
+<div class="card kpi-card">
+  <p class="kpi-label">Proposte Pending</p>
+  <p class="kpi-val">{{ bps|length }}</p>
+  <p class="kpi-sub">{% if bps|length > 0 %}<a href="/analista" class="text-blue-500">Vai ad Analista →</a>{% else %}nessuna{% endif %}</p>
+</div>
+<div class="card kpi-card">
+  <p class="kpi-label">BP Attivi</p>
+  <p class="kpi-val">{{ positions|length }}</p>
+  <p class="kpi-sub">in portfolio</p>
+</div>
+<div class="card kpi-card">
+  <p class="kpi-label">Alert Monitor</p>
+  <p class="kpi-val {% if alert_count > 0 %}text-yellow-500{% endif %}">{{ alert_count }}</p>
+  <p class="kpi-sub">{% if alert_count > 0 %}<a href="/monitor" class="text-yellow-500">Monitor →</a>{% else %}tutto OK{% endif %}</p>
+</div>
+<div class="card kpi-card">
+  <p class="kpi-label">Status Sistema</p>
+  <p class="kpi-val text-base font-semibold mt-2">{% if sec_ok %}<span class="text-green-500">✅ Operativo</span>{% else %}<span class="text-red-500">⚠️ Attenzione</span>{% endif %}</p>
+  <p class="kpi-sub">{% if not sec_ok %}<a href="/security" class="text-red-500">Security →</a>{% else %}tutti attivi{% endif %}</p>
+</div>
