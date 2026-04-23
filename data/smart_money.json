@@ -16630,5 +16630,22 @@
     "firstSeen": "2026-04-23T23:47:25.602Z",
     "lastSeen": "2026-04-23T23:47:25.602Z",
     "confirmed": false
+  },
+  "91fChqXKD6duBZUugcWesrQ4f7vuHNWvXsYfuyvMLEkh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "shitter",
+        "pairAddress": "7GDAE5Xvze6dkNH8nUunEuMtNvNg58Lvwou9LFsVb6mq",
+        "entryTime": "2026-04-23T23:48:00.000Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T23:48:00.000Z",
+    "lastSeen": "2026-04-23T23:48:00.000Z",
+    "confirmed": false
   }
 }
