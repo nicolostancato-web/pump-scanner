@@ -13807,5 +13807,22 @@
     "firstSeen": "2026-04-23T21:14:13.326Z",
     "lastSeen": "2026-04-23T21:14:13.326Z",
     "confirmed": false
+  },
+  "Ezr2TPCXP25mXsu3fTWi5YrUDgsX6WNqjrKVTkPKjCC5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GRAMPS",
+        "pairAddress": "6wJzMXWijbr6KZFeVx16sczZqgq8gUQnJswxRj4h4QUB",
+        "entryTime": "2026-04-23T21:15:01.345Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-23T21:15:01.345Z",
+    "lastSeen": "2026-04-23T21:15:01.345Z",
+    "confirmed": false
   }
 }
