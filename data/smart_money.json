@@ -15316,12 +15316,17 @@
     "confirmed": false
   },
   "BGcaPxBq6Y2tLWcLsW8fkxg8b3RcuRBBYoCeRZG5fPMD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AIB",
         "pairAddress": "Gnqj3eK6TFogKetWVqk9Ayau8jL1YaBEiDtVyBubfB74",
         "entryTime": "2026-04-23T22:20:14.125Z"
+      },
+      {
+        "symbol": "TRADE",
+        "pairAddress": "HqCxHf9iMWnXyejFUrYKd3FexrWKtcWojqsrqTDyZe4x",
+        "entryTime": "2026-04-23T23:50:02.740Z"
       }
     ],
     "wins": 0,
@@ -15329,7 +15334,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T22:20:14.125Z",
-    "lastSeen": "2026-04-23T22:20:14.125Z",
+    "lastSeen": "2026-04-23T23:50:02.740Z",
     "confirmed": false
   },
   "DbFS3c9wpKtJiqFYu83QmpqHDBJtjKY8hqTL9AGZfRir": {
