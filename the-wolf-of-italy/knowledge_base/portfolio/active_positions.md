@@ -1,11 +1,6 @@
-# Posizioni Attive
-
-Ultimo aggiornamento: 2026-04-23 17:04 Rome
-
----
+Ultimo aggiornamento: 2026-04-23 17:06 Rome
 
 ## BP-2026-04-23-001 — JupSOL (Jupiter Staked SOL)
-
 Stato: FULLY_DEPLOYED
 Capitale investito: $17.20
 Valore attuale: $17.22 (+0.1%)
@@ -22,6 +17,6 @@ Alert: nessuno
 
 | Voce | Valore |
 |------|-------|
-| Cash libero (SOL) | $34.78 (0.4045 SOL @ $85.98) |
+| Cash libero (SOL) | $34.76 (0.4045 SOL @ $85.92) |
 | Posizioni attive | $17.22 |
-| **Portfolio totale** | **$52.00** |
+| **Portfolio totale** | **$51.98** |
