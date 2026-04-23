@@ -1,18 +1,20 @@
 """
 Wolf of Italy v4 — Dashboard Web
-Flask + HTMX. 6 tabs. Italian UI. Auto-refresh ogni 60s.
+Flask + HTMX + Alpine.js. 8 tab. UI italiana.
 """
 
 import base64
 import json
 import os
-from datetime import datetime
+import re
+from datetime import datetime, timedelta
 from functools import wraps
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import httpx
-from flask import Flask, abort, redirect, render_template, request, session, url_for
+from flask import (Flask, abort, jsonify, redirect, render_template,
+                   request, session, url_for)
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET", "wolf-secret-change-me")
@@ -24,14 +26,14 @@ KB = "the-wolf-of-italy/knowledge_base"
 ROME = ZoneInfo("Europe/Rome")
 BASE_URL = f"https://api.github.com/repos/{REPO}/contents"
 
-# ── GitHub helpers ────────────────────────────────────────────────────────────
+
+# ── GitHub helpers ─────────────────────────────────────────────────────────────
 
 def _gh_headers():
     return {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
 
 
 def gh_read(path: str) -> str | None:
-    """Read a file from GitHub. Returns decoded text or None."""
     try:
         r = httpx.get(f"{BASE_URL}/{path}", headers=_gh_headers(), timeout=10)
         if r.status_code == 404:
@@ -43,7 +45,6 @@ def gh_read(path: str) -> str | None:
 
 
 def gh_list(path: str) -> list[dict]:
-    """List files in a GitHub folder."""
     try:
         r = httpx.get(f"{BASE_URL}/{path}", headers=_gh_headers(), timeout=10)
         if r.status_code == 404:
@@ -55,7 +56,6 @@ def gh_list(path: str) -> list[dict]:
 
 
 def gh_write(path: str, content: str, message: str) -> bool:
-    """Write a file to GitHub. Returns True on success."""
     try:
         encoded = base64.b64encode(content.encode()).decode()
         existing = httpx.get(f"{BASE_URL}/{path}", headers=_gh_headers(), timeout=10)
@@ -68,46 +68,12 @@ def gh_write(path: str, content: str, message: str) -> bool:
         return False
 
 
-# ── Auth ──────────────────────────────────────────────────────────────────────
-
-def login_required(f):
-    @wraps(f)
-    def decorated(*args, **kwargs):
-        if not session.get("logged_in"):
-            return redirect(url_for("login"))
-        return f(*args, **kwargs)
-    return decorated
-
-
-@app.route("/login", methods=["GET", "POST"])
-def login():
-    error = None
-    if request.method == "POST":
-        if request.form.get("password") == DASHBOARD_PASSWORD:
-            session["logged_in"] = True
-            return redirect(url_for("proposals"))
-        error = "Password errata"
-    return render_template("login.html", error=error)
-
-
-@app.route("/logout")
-def logout():
-    session.clear()
-    return redirect(url_for("login"))
-
-
-@app.route("/health")
-def health():
-    return {"status": "ok", "time": datetime.now(ROME).isoformat()}
-
-# ── Parsing helpers ───────────────────────────────────────────────────────────
+# ── Parsing ────────────────────────────────────────────────────────────────────
 
 def parse_pending_decisions(content: str) -> list[dict]:
-    """Parse pending_decisions.md into list of BP dicts."""
     if not content:
         return []
-    bps = []
-    current = {}
+    bps, current = [], {}
     for line in content.split("\n"):
         line = line.strip()
         if line == "---":
@@ -123,13 +89,11 @@ def parse_pending_decisions(content: str) -> list[dict]:
 
 
 def parse_active_positions(content: str) -> list[dict]:
-    """Parse active_positions.md into list of position dicts."""
     if not content:
         return []
-    positions = []
-    current = {}
+    positions, current = [], {}
     for line in content.split("\n"):
-        if line.startswith("## BP-"):
+        if line.startswith("## BP-") or line.startswith("## "):
             if current:
                 positions.append(current)
             current = {"name": line.lstrip("# ").strip()}
@@ -141,14 +105,13 @@ def parse_active_positions(content: str) -> list[dict]:
     return positions
 
 
-def parse_parked(files: list[dict]) -> list[dict]:
-    """Read all parked/ BP files."""
+def parse_parked_files(files: list[dict]) -> list[dict]:
     items = []
     for f in sorted(files, key=lambda x: x["name"]):
         content = gh_read(f["path"])
         if content:
             bp = {"id": f["name"].replace(".md", ""), "raw": content}
-            for line in content.split("\n")[:20]:
+            for line in content.split("\n")[:25]:
                 if ":" in line and not line.startswith("#"):
                     k, _, v = line.partition(":")
                     bp[k.strip()] = v.strip()
@@ -156,40 +119,208 @@ def parse_parked(files: list[dict]) -> list[dict]:
     return items
 
 
-# ── TAB 1 — Proposte ─────────────────────────────────────────────────────────
+def _try_float(val: str) -> float:
+    try:
+        return float(str(val).replace("$", "").replace(",", "").strip())
+    except Exception:
+        return 0.0
+
+
+def _extract_cash(report: str) -> float:
+    m = re.search(r"[Cc]ash[^:]*:\s*\$?([\d,.]+)", report)
+    if m:
+        return _try_float(m.group(1))
+    return 0.0
+
+
+# ── Auth ───────────────────────────────────────────────────────────────────────
+
+def login_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        if not session.get("logged_in"):
+            return redirect(url_for("login"))
+        return f(*args, **kwargs)
+    return decorated
+
+
+def _common_ctx():
+    """Inject pending count into all templates."""
+    pending_raw = gh_read(f"{KB}/analysis/pending_decisions.md")
+    bps = parse_pending_decisions(pending_raw)
+    return {"pending_count": len(bps)}
+
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    error = None
+    if request.method == "POST":
+        if request.form.get("password") == DASHBOARD_PASSWORD:
+            session["logged_in"] = True
+            return redirect(url_for("overview"))
+        error = "Password errata"
+    return render_template("login.html", error=error)
+
+
+@app.route("/logout")
+def logout():
+    session.clear()
+    return redirect(url_for("login"))
+
+
+@app.route("/health")
+def health():
+    return {"status": "ok", "time": datetime.now(ROME).isoformat()}
+
+
+# ── TAB 1 — OVERVIEW ──────────────────────────────────────────────────────────
 
 @app.route("/")
-@app.route("/proposte")
 @login_required
-def proposals():
+def overview():
+    today = datetime.now(ROME).strftime("%Y-%m-%d")
+    active_raw = gh_read(f"{KB}/portfolio/active_positions.md")
+    positions = parse_active_positions(active_raw)
+    pending_raw = gh_read(f"{KB}/analysis/pending_decisions.md")
+    bps = parse_pending_decisions(pending_raw)
+    daily_report = gh_read(f"{KB}/portfolio/daily_report.md") or ""
+    monitor_raw = gh_read(f"{KB}/monitor/{today}.md") or ""
+    sec_state = gh_read(f"{KB}/security_state.md") or ""
+    opp_raw = gh_read(f"{KB}/opportunities/{today}.md") or ""
+
+    portfolio_total = sum(_try_float(p.get("current_value", "0")) for p in positions)
+    cash_free = _extract_cash(daily_report)
+    alert_count = monitor_raw.count("🚨") + monitor_raw.count("⚠️")
+    sec_ok = "critico" not in sec_state.lower() and "alert" not in sec_state.lower()
+
+    opp_lines = [l.strip() for l in opp_raw.split("\n") if l.strip() and not l.startswith("#")]
+    activity_feed = opp_lines[:8]
+
+    return render_template("overview.html",
+                           positions=positions,
+                           bps=bps,
+                           portfolio_total=portfolio_total,
+                           cash_free=cash_free,
+                           alert_count=alert_count,
+                           sec_ok=sec_ok,
+                           activity_feed=activity_feed,
+                           today=today,
+                           active_tab="overview",
+                           **_common_ctx())
+
+
+# ── TAB 2 — HUNTER ────────────────────────────────────────────────────────────
+
+@app.route("/hunter")
+@login_required
+def hunter():
+    today = datetime.now(ROME).strftime("%Y-%m-%d")
+    opp_raw = gh_read(f"{KB}/opportunities/{today}.md") or ""
+    seen_raw = gh_read(f"{KB}/hunter_memory/seen_protocols.md") or ""
+
+    opps = []
+    current = {}
+    for line in opp_raw.split("\n"):
+        line = line.strip()
+        if line == "---":
+            if current.get("nome") or current.get("protocollo"):
+                opps.append(current)
+            current = {}
+        elif ":" in line and not line.startswith("#"):
+            k, _, v = line.partition(":")
+            current[k.strip()] = v.strip()
+    if current.get("nome") or current.get("protocollo"):
+        opps.append(current)
+
+    seen_count = seen_raw.count("\n- ") if seen_raw else 0
+
+    return render_template("hunter.html",
+                           opps=opps,
+                           seen_count=seen_count,
+                           today=today,
+                           active_tab="hunter",
+                           **_common_ctx())
+
+
+# ── TAB 3 — ANALISTA ──────────────────────────────────────────────────────────
+
+@app.route("/analista")
+@login_required
+def analista():
     today = datetime.now(ROME).strftime("%Y-%m-%d")
     pending_raw = gh_read(f"{KB}/analysis/pending_decisions.md")
     bps = parse_pending_decisions(pending_raw)[:5]
-    return render_template("proposals.html", bps=bps, today=today, active_tab="proposte")
+    parked_files = gh_list(f"{KB}/parked")
+    parked = parse_parked_files(parked_files)
+
+    return render_template("analista.html",
+                           bps=bps,
+                           parked=parked,
+                           today=today,
+                           active_tab="analista",
+                           pending_count=len(bps))
 
 
-@app.route("/proposte/decision", methods=["POST"])
+@app.route("/analista/decision", methods=["POST"])
 @login_required
 def make_decision():
-    """Write decision to decisions_queue.md."""
     bp_id = request.form.get("bp_id", "")
     decision = request.form.get("decision", "")
     notes = request.form.get("notes", "")
     if not bp_id or decision not in ("ACCEPTED", "REJECTED", "PARKED"):
         abort(400)
-
     now = datetime.now(ROME).isoformat()
     new_entry = f"\nbp_id: {bp_id}\ndecision: {decision}\ntimestamp: {now}\nnotes: {notes}\n---\n"
-
     existing = gh_read(f"{KB}/analysis/decisions_queue.md") or ""
-    gh_write(f"{KB}/analysis/decisions_queue.md", existing + new_entry, f"Dashboard: {decision} {bp_id}")
-    return redirect(url_for("proposals"))
+    gh_write(f"{KB}/analysis/decisions_queue.md", existing + new_entry,
+             f"Dashboard: {decision} {bp_id}")
+    return redirect(url_for("analista"))
 
 
-@app.route("/proposte/conferma_deploy", methods=["POST"])
+@app.route("/analista/riattiva", methods=["POST"])
+@login_required
+def reactivate_parked():
+    bp_id = request.form.get("bp_id", "")
+    if not bp_id:
+        abort(400)
+    pending = gh_read(f"{KB}/analysis/pending_decisions.md") or ""
+    now = datetime.now(ROME).isoformat()
+    entry = f"\n---\nid_bp: {bp_id}\ntipo: parked\ntimestamp_proposto: {now}\npriority: medium\n---\n"
+    gh_write(f"{KB}/analysis/pending_decisions.md", pending + entry,
+             f"Dashboard: riattiva {bp_id}")
+    return redirect(url_for("analista"))
+
+
+# ── TAB 4 — VAULT ─────────────────────────────────────────────────────────────
+
+@app.route("/vault")
+@login_required
+def vault():
+    today = datetime.now(ROME).strftime("%Y-%m-%d")
+    daily_report = gh_read(f"{KB}/portfolio/daily_report.md") or "Nessun report disponibile ancora."
+    active_raw = gh_read(f"{KB}/portfolio/active_positions.md")
+    positions = parse_active_positions(active_raw)
+    pending_raw_dep = gh_read(f"{KB}/portfolio/pending_deployment.md") or ""
+
+    portfolio_total = sum(_try_float(p.get("current_value", "0")) for p in positions)
+    cash_free = _extract_cash(daily_report)
+    invested = sum(_try_float(p.get("invested", "0")) for p in positions)
+
+    return render_template("vault.html",
+                           daily_report=daily_report,
+                           positions=positions,
+                           pending_deployment=pending_raw_dep,
+                           portfolio_total=portfolio_total,
+                           cash_free=cash_free,
+                           invested=invested,
+                           today=today,
+                           active_tab="vault",
+                           **_common_ctx())
+
+
+@app.route("/vault/confirma_deploy", methods=["POST"])
 @login_required
 def confirm_deploy():
-    """Mark a pending_deployment as DEPLOYMENT_CONFIRMED."""
     bp_id = request.form.get("bp_id", "")
     if not bp_id:
         abort(400)
@@ -198,126 +329,165 @@ def confirm_deploy():
         f"BP_ID: {bp_id}\nStato: PENDING_DEPLOYMENT",
         f"BP_ID: {bp_id}\nStato: DEPLOYMENT_CONFIRMED"
     )
-    gh_write(f"{KB}/portfolio/pending_deployment.md", updated, f"Dashboard: deploy confermato {bp_id}")
-    return redirect(url_for("portfolio"))
+    gh_write(f"{KB}/portfolio/pending_deployment.md", updated,
+             f"Dashboard: deploy confermato {bp_id}")
+    return redirect(url_for("vault"))
 
 
-# ── TAB 2 — Portfolio ─────────────────────────────────────────────────────────
+# ── TAB 5 — ARCHIVIO ──────────────────────────────────────────────────────────
 
-@app.route("/portfolio")
+@app.route("/archivio")
 @login_required
-def portfolio():
-    today = datetime.now(ROME).strftime("%Y-%m-%d")
-    daily_report = gh_read(f"{KB}/portfolio/daily_report.md") or "Nessun report disponibile ancora."
-    active_raw = gh_read(f"{KB}/portfolio/active_positions.md")
-    positions = parse_active_positions(active_raw)
-    pending_raw = gh_read(f"{KB}/portfolio/pending_deployment.md") or ""
-    return render_template("portfolio.html",
-                           daily_report=daily_report,
-                           positions=positions,
-                           pending_raw=pending_raw,
-                           today=today,
-                           active_tab="portfolio")
-
-
-# ── TAB 3 — Parcheggiati ─────────────────────────────────────────────────────
-
-@app.route("/parcheggiati")
-@login_required
-def parked():
-    files = gh_list(f"{KB}/parked")
-    items = parse_parked(files)
-    return render_template("parked.html", items=items, active_tab="parcheggiati")
-
-
-@app.route("/parcheggiati/riattiva", methods=["POST"])
-@login_required
-def reactivate_parked():
-    """Move parked BP back to pending_decisions (send to TAB 1)."""
-    bp_id = request.form.get("bp_id", "")
-    if not bp_id:
-        abort(400)
-    content = gh_read(f"{KB}/parked/{bp_id}.md") or ""
-    # Add to pending_decisions with tipo: parked
-    pending = gh_read(f"{KB}/analysis/pending_decisions.md") or ""
-    now = datetime.now(ROME).isoformat()
-    entry = f"\n---\nid_bp: {bp_id}\ntipo: parked\ntimestamp_proposto: {now}\npriority: medium\n---\n"
-    gh_write(f"{KB}/analysis/pending_decisions.md", pending + entry, f"Dashboard: riattiva {bp_id}")
-    return redirect(url_for("parked"))
-
-
-# ── TAB 4 — Storico ───────────────────────────────────────────────────────────
-
-@app.route("/storico")
-@login_required
-def history():
-    closed = gh_read(f"{KB}/portfolio/closed_positions.md") or "Nessuna posizione chiusa."
+def archivio():
+    closed = gh_read(f"{KB}/portfolio/closed_positions.md") or ""
     archived_files = gh_list(f"{KB}/archived")
     archived = []
     for f in archived_files[:20]:
         content = gh_read(f["path"])
         if content:
-            archived.append({"name": f["name"], "content": content[:500]})
-    seen = gh_read(f"{KB}/hunter_memory/seen_protocols.md") or "Nessun protocollo tracciato ancora."
-    return render_template("history.html",
+            archived.append({"name": f["name"].replace(".md", ""), "content": content[:600]})
+    seen = gh_read(f"{KB}/hunter_memory/seen_protocols.md") or ""
+    parked_files = gh_list(f"{KB}/parked")
+    parked = parse_parked_files(parked_files)
+
+    return render_template("archivio.html",
                            closed=closed,
                            archived=archived,
                            seen=seen,
-                           active_tab="storico")
+                           parked=parked,
+                           active_tab="archivio",
+                           **_common_ctx())
 
 
-# ── TAB 5 — Log Agenti ────────────────────────────────────────────────────────
+# ── TAB 6 — MONITOR ───────────────────────────────────────────────────────────
 
-@app.route("/log")
+@app.route("/monitor")
 @login_required
-def agents_log():
+def monitor():
     today = datetime.now(ROME).strftime("%Y-%m-%d")
-    opportunities = gh_read(f"{KB}/opportunities/{today}.md") or "Nessuna opportunità oggi."
-    pending_dec = gh_read(f"{KB}/analysis/pending_decisions.md") or "Nessuna proposta in attesa."
-    daily_report = gh_read(f"{KB}/portfolio/daily_report.md") or "Daily report non ancora generato."
     monitor_log = gh_read(f"{KB}/monitor/{today}.md") or "Monitor non ancora eseguito oggi."
+    active_raw = gh_read(f"{KB}/portfolio/active_positions.md")
+    positions = parse_active_positions(active_raw)
+    parked_files = gh_list(f"{KB}/parked")
+    parked = parse_parked_files(parked_files)
+
+    return render_template("monitor.html",
+                           monitor_log=monitor_log,
+                           positions=positions,
+                           parked=parked,
+                           today=today,
+                           active_tab="monitor",
+                           **_common_ctx())
+
+
+# ── TAB 7 — SECURITY ──────────────────────────────────────────────────────────
+
+@app.route("/security")
+@login_required
+def security():
+    today = datetime.now(ROME).strftime("%Y-%m-%d")
     sec_state = gh_read(f"{KB}/security_state.md") or "Security state non disponibile."
     sec_alert = gh_read(f"{KB}/security_alerts/{today}.md")
 
-    return render_template("agents_log.html",
-                           opportunities=opportunities,
-                           pending_dec=pending_dec,
-                           daily_report=daily_report,
-                           monitor_log=monitor_log,
+    return render_template("security.html",
                            sec_state=sec_state,
                            sec_alert=sec_alert,
                            today=today,
-                           active_tab="log")
+                           active_tab="security",
+                           **_common_ctx())
 
 
-# ── TAB 6 — Impostazioni ──────────────────────────────────────────────────────
+# ── TAB 8 — IMPOSTAZIONI ──────────────────────────────────────────────────────
 
 @app.route("/impostazioni")
 @login_required
-def settings():
+def impostazioni():
     hunter_prompt = gh_read("the-wolf-of-italy/v4/prompts/hunter.md") or ""
-    return render_template("settings.html",
+    return render_template("impostazioni.html",
                            hunter_prompt=hunter_prompt,
-                           active_tab="impostazioni")
+                           active_tab="impostazioni",
+                           **_common_ctx())
 
 
-# ── HTMX partial refresh ─────────────────────────────────────────────────────
+# ── HTMX partials ─────────────────────────────────────────────────────────────
 
-@app.route("/refresh/proposte")
+@app.route("/api/kpi")
 @login_required
-def refresh_proposals():
+def api_kpi():
     today = datetime.now(ROME).strftime("%Y-%m-%d")
-    pending_raw = gh_read(f"{KB}/analysis/pending_decisions.md")
-    bps = parse_pending_decisions(pending_raw)[:5]
-    return render_template("_partials/bp_list.html", bps=bps, today=today)
-
-
-@app.route("/refresh/portfolio")
-@login_required
-def refresh_portfolio():
     active_raw = gh_read(f"{KB}/portfolio/active_positions.md")
     positions = parse_active_positions(active_raw)
-    return render_template("_partials/positions_list.html", positions=positions)
+    pending_raw = gh_read(f"{KB}/analysis/pending_decisions.md")
+    bps = parse_pending_decisions(pending_raw)
+    daily_report = gh_read(f"{KB}/portfolio/daily_report.md") or ""
+    monitor_raw = gh_read(f"{KB}/monitor/{today}.md") or ""
+    sec_state = gh_read(f"{KB}/security_state.md") or ""
+
+    portfolio_total = sum(_try_float(p.get("current_value", "0")) for p in positions)
+    cash_free = _extract_cash(daily_report)
+    alert_count = monitor_raw.count("🚨") + monitor_raw.count("⚠️")
+    sec_ok = "critico" not in sec_state.lower()
+
+    return render_template("_partials/kpi_cards.html",
+                           positions=positions,
+                           bps=bps,
+                           portfolio_total=portfolio_total,
+                           cash_free=cash_free,
+                           alert_count=alert_count,
+                           sec_ok=sec_ok)
+
+
+@app.route("/api/hunter-feed")
+@login_required
+def api_hunter_feed():
+    today = datetime.now(ROME).strftime("%Y-%m-%d")
+    opp_raw = gh_read(f"{KB}/opportunities/{today}.md") or ""
+    opps = []
+    current = {}
+    for line in opp_raw.split("\n"):
+        line = line.strip()
+        if line == "---":
+            if current.get("nome") or current.get("protocollo"):
+                opps.append(current)
+            current = {}
+        elif ":" in line and not line.startswith("#"):
+            k, _, v = line.partition(":")
+            current[k.strip()] = v.strip()
+    if current.get("nome") or current.get("protocollo"):
+        opps.append(current)
+    return render_template("_partials/hunter_feed.html", opps=opps, today=today)
+
+
+# ── Legacy redirects ───────────────────────────────────────────────────────────
+
+@app.route("/proposte")
+@login_required
+def proposte_redirect():
+    return redirect(url_for("analista"))
+
+
+@app.route("/portfolio")
+@login_required
+def portfolio_redirect():
+    return redirect(url_for("vault"))
+
+
+@app.route("/storico")
+@login_required
+def storico_redirect():
+    return redirect(url_for("archivio"))
+
+
+@app.route("/parcheggiati")
+@login_required
+def parcheggiati_redirect():
+    return redirect(url_for("archivio"))
+
+
+@app.route("/log")
+@login_required
+def log_redirect():
+    return redirect(url_for("monitor"))
 
 
 if __name__ == "__main__":
