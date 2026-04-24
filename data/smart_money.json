@@ -12021,12 +12021,17 @@
     "confirmed": false
   },
   "8hfoNZCd2bK9aqCBkhg8f2L1AoL7qfHwd9tMv7x64qui": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ENRIQUE",
         "pairAddress": "DtVoDYXHDzVoUkZN7xYTZdX7Ddp4zsc3uW7FQAWCjzxu",
         "entryTime": "2026-04-23T19:19:56.844Z"
+      },
+      {
+        "symbol": "TRADE",
+        "pairAddress": "A6yViKnsEADhS6H3BGGSUX8A8tLXmsha172fFaqPwk3m",
+        "entryTime": "2026-04-24T00:28:03.665Z"
       }
     ],
     "wins": 0,
@@ -12034,7 +12039,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T19:19:56.844Z",
-    "lastSeen": "2026-04-23T19:19:56.844Z",
+    "lastSeen": "2026-04-24T00:28:03.665Z",
     "confirmed": false
   },
   "FtqpZJE3E3niyC8ocNAAfngFWy1binsKkLxYVWRZdWyo": {
