@@ -16813,5 +16813,22 @@
     "firstSeen": "2026-04-24T00:05:09.674Z",
     "lastSeen": "2026-04-24T00:05:09.674Z",
     "confirmed": false
+  },
+  "3KvsoNxgn64nsuHKPBHQJsguef3DgEkP2izE49k6CSAZ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRADE",
+        "pairAddress": "HqCxHf9iMWnXyejFUrYKd3FexrWKtcWojqsrqTDyZe4x",
+        "entryTime": "2026-04-24T00:05:43.872Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T00:05:43.872Z",
+    "lastSeen": "2026-04-24T00:05:43.872Z",
+    "confirmed": false
   }
 }
