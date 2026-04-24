@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T21:34:54.094112+02:00",
+  "timestamp": "2026-04-24T22:37:15.788832+02:00",
   "date": "2026-04-24",
   "checks": {
     "HUNTER": {
@@ -12,7 +12,7 @@
     },
     "CFO": {
       "status": "OK",
-      "msg": "active_positions 0h fa"
+      "msg": "active_positions 1h fa"
     },
     "MONITOR": {
       "status": "WARN",
@@ -24,7 +24,7 @@
     },
     "TESTER": {
       "status": "OK",
-      "msg": "eseguito alle 21:34"
+      "msg": "eseguito alle 22:37"
     }
   },
   "alerts": [
