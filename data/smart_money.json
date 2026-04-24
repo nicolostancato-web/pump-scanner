@@ -24468,12 +24468,17 @@
     "confirmed": false
   },
   "5SzSfWo2RBvYHBPpjjuAshrnSiL85ahkBFFJhTMqyYXF": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Gas City",
         "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
         "entryTime": "2026-04-24T08:22:37.389Z"
+      },
+      {
+        "symbol": "GEORGE",
+        "pairAddress": "AtiinBvxGMTkgPtgZvGP3zYJeEJof9WPwLfNfxFDMGmZ",
+        "entryTime": "2026-04-24T10:52:28.428Z"
       }
     ],
     "wins": 0,
@@ -24481,7 +24486,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T08:22:37.389Z",
-    "lastSeen": "2026-04-24T08:22:37.389Z",
+    "lastSeen": "2026-04-24T10:52:28.428Z",
     "confirmed": false
   },
   "2rrESvZVT6wr2i9cYrdKNxsugg2hNQKcpVazSXCNQdDd": {
@@ -26884,6 +26889,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T10:51:48.615Z",
     "lastSeen": "2026-04-24T10:51:48.615Z",
+    "confirmed": false
+  },
+  "AGzG1FLbsivqAtCPDBhvYLBT6m3RgvSqrScxNfPUKsXo": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GEORGE",
+        "pairAddress": "AtiinBvxGMTkgPtgZvGP3zYJeEJof9WPwLfNfxFDMGmZ",
+        "entryTime": "2026-04-24T10:52:28.428Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T10:52:28.428Z",
+    "lastSeen": "2026-04-24T10:52:28.428Z",
     "confirmed": false
   }
 }
