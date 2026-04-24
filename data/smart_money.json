@@ -1143,7 +1143,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 28,
+    "appearances": 29,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1284,6 +1284,11 @@
         "symbol": "BURNIEN",
         "pairAddress": "GW7Ha7brgVXsDBuuMG386YDY4CnBHDDJHw8L5TYuWV6z",
         "entryTime": "2026-04-24T17:32:34.340Z"
+      },
+      {
+        "symbol": "Naruto",
+        "pairAddress": "236oqnLfnvy1gP66WbV9NLNBsd2cJxA118i9Ctn2Q5uk",
+        "entryTime": "2026-04-24T18:32:45.966Z"
       }
     ],
     "wins": 0,
@@ -1291,7 +1296,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T17:32:34.340Z",
+    "lastSeen": "2026-04-24T18:32:45.966Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -33970,12 +33975,17 @@
     "confirmed": false
   },
   "CXmMLCdi2eNAsT6gp5wfBDgbHs3gUi2unU6gUULcpdok": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "foid",
         "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
         "entryTime": "2026-04-24T16:54:24.476Z"
+      },
+      {
+        "symbol": "Naruto",
+        "pairAddress": "236oqnLfnvy1gP66WbV9NLNBsd2cJxA118i9Ctn2Q5uk",
+        "entryTime": "2026-04-24T18:32:45.966Z"
       }
     ],
     "wins": 0,
@@ -33983,7 +33993,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T16:54:24.476Z",
-    "lastSeen": "2026-04-24T16:54:24.476Z",
+    "lastSeen": "2026-04-24T18:32:45.966Z",
     "confirmed": false
   },
   "J35u513yeUjZ7SwziEtwTUsP6oj3mNMTycFeLumr9yCq": {
