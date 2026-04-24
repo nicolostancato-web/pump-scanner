@@ -1,15 +1,15 @@
 # Pending Decisions
-ANALISTA — 2026-04-24 14:32 Rome
+ANALISTA — 2026-04-24 14:37 Rome
 
 ## BP in attesa di decisione (0/5)
 
 - **opportunities/2026-04-24.md**: 404 — nessuna nuova opportunità oggi [fonte: GET opportunities/2026-04-24.md → 404]
-- **decisions_queue.md**: Vuota — già svuotata da run 13:24 [fonte: raw content]
+- **decisions_queue.md**: Vuota — già svuotata da run 13:24 [fonte: GET decisions_queue.md → raw content]
 - **parked/**: 404 — directory non ancora creata, nessun BP parcheggiato [fonte: GET parked/ → 404]
-- **CFO (active_positions.md)**: 404 — file non ancora creato dal CFO [fonte: GET active_positions.md → 404]
+- **CFO (active_positions.md)**: Portfolio $51.87 (Cash $34.72 + JuPSOL $17.15) — posizione attiva BP-2026-04-23-001 in FULLY_DEPLOYED [fonte: GET active_positions.md → decoded]
 - **SECURITY (security_state.md)**: 404 — file non ancora creato da SECURITY [fonte: GET security_state.md → 404]
 
-*Status attuale (run 14:32):*
+*Status attuale (run 14:37):*
 - Nessuna opportunità oggi → nessun BP da aggiungere
 - Nessuna decisione in coda → niente da processare
 - Nessun BP parcheggiato → nessuna scadenza imminente
