@@ -5913,7 +5913,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Baekgu",
@@ -5949,6 +5949,11 @@
         "symbol": "SLOP",
         "pairAddress": "NQNp18xbFfjjAXfvJkDh7sWzfhjge4T75nCuK1Z1Lzj",
         "entryTime": "2026-04-23T22:59:18.035Z"
+      },
+      {
+        "symbol": "chloe",
+        "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
+        "entryTime": "2026-04-24T03:45:07.416Z"
       }
     ],
     "wins": 0,
@@ -5956,7 +5961,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:53:09.595Z",
-    "lastSeen": "2026-04-23T22:59:18.035Z",
+    "lastSeen": "2026-04-24T03:45:07.416Z",
     "confirmed": true
   },
   "BKpEfRvpnbqghbb7qBESWhtV6BeDy7WAgmzWB6ZGyi2n": {
@@ -15510,12 +15515,17 @@
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AIB",
         "pairAddress": "Gnqj3eK6TFogKetWVqk9Ayau8jL1YaBEiDtVyBubfB74",
         "entryTime": "2026-04-23T22:32:10.286Z"
+      },
+      {
+        "symbol": "chloe",
+        "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
+        "entryTime": "2026-04-24T03:45:07.416Z"
       }
     ],
     "wins": 0,
@@ -15523,7 +15533,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T22:32:10.286Z",
-    "lastSeen": "2026-04-23T22:32:10.286Z",
+    "lastSeen": "2026-04-24T03:45:07.416Z",
     "confirmed": false
   },
   "EpiDTLf1pvtsF8h7FcZYWfMuEuJSL9ABGa4kkukv2BBY": {
