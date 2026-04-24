@@ -1,5 +1,5 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-24 21:31 Rome
+Ultimo aggiornamento: 2026-04-24 21:42 Rome
 
 **Stato corrente: 0/5 BP in dashboard.** ✅ Dashboard vuota, pronta per accogliere BP.
 
@@ -20,7 +20,7 @@ Ultimo aggiornamento: 2026-04-24 21:31 Rome
 - **pending_deployment.md:** Vuoto — nessun BP accettato in attesa di deploy
 
 ## Note
-- Run 21:31 Roma — reset serale (22:00) a ~29 minuti; RESET_MODE non attivo in questa run
+- Run 21:42 Roma — reset serale (22:00) a ~18 minuti; RESET_MODE non attivo in questa run
 - opportunities/2026-04-24.md 404 confermata — nessun BP Hunter da aggiungere
 - parked/ 404 — nessun BP parcheggiato da svegliare
 - decisions_queue.md già vuota, nessuna decisione da processare
@@ -28,5 +28,4 @@ Ultimo aggiornamento: 2026-04-24 21:31 Rome
 - Nessuna modifica strutturale necessaria in questo run
 
 ---
-
 *AUDIT: 0 BP letti da opportunities (404), 0 aggiunti a dashboard (nessun BP disponibile), 0 decisioni processate (queue vuota), pending corrente: 0/5.*
