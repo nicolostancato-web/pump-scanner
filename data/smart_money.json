@@ -2122,7 +2122,7 @@
     "confirmed": false
   },
   "AoY1xbQRtzwzFDRaEkENr6KRrBScWzVYZFHdUe8KQXby": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Stag",
@@ -2133,6 +2133,11 @@
         "symbol": "UNCTRUMP",
         "pairAddress": "Cgu5Nkq5ZnhRhDUjcPqT7qJS38nPoeEFKmHy5S5NVJL6",
         "entryTime": "2026-04-23T11:39:14.608Z"
+      },
+      {
+        "symbol": "Troll Alien",
+        "pairAddress": "6rUbh7vDzKo3MYZyGqtH49A1nzTPXHgGAcm2Ynaz6Yxy",
+        "entryTime": "2026-04-24T03:28:46.883Z"
       }
     ],
     "wins": 0,
@@ -2140,8 +2145,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:37:36.516Z",
-    "lastSeen": "2026-04-23T11:39:14.608Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T03:28:46.883Z",
+    "confirmed": true
   },
   "C51UHAys3mgo3ssWg5P3DvjXaY5oqNxQB7qNLNkRvbJ9": {
     "appearances": 1,
@@ -21229,6 +21234,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T03:28:31.459Z",
     "lastSeen": "2026-04-24T03:28:31.459Z",
+    "confirmed": false
+  },
+  "GT4BMmAtZzH1qioKDgEAa4zUbQxN2E3ukozAwc7Zmv5Q": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Troll Alien",
+        "pairAddress": "6rUbh7vDzKo3MYZyGqtH49A1nzTPXHgGAcm2Ynaz6Yxy",
+        "entryTime": "2026-04-24T03:28:46.883Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T03:28:46.883Z",
+    "lastSeen": "2026-04-24T03:28:46.883Z",
     "confirmed": false
   }
 }
