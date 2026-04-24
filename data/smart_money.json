@@ -1143,7 +1143,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 29,
+    "appearances": 30,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1289,6 +1289,11 @@
         "symbol": "Naruto",
         "pairAddress": "236oqnLfnvy1gP66WbV9NLNBsd2cJxA118i9Ctn2Q5uk",
         "entryTime": "2026-04-24T18:32:45.966Z"
+      },
+      {
+        "symbol": "PEPT",
+        "pairAddress": "56EGBBxAXyqf5DjGrLTyLTKKVzAxffz6KbrejQX6dMPv",
+        "entryTime": "2026-04-24T18:47:12.294Z"
       }
     ],
     "wins": 0,
@@ -1296,7 +1301,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T18:32:45.966Z",
+    "lastSeen": "2026-04-24T18:47:12.294Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -36010,6 +36015,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T18:46:34.506Z",
     "lastSeen": "2026-04-24T18:46:34.506Z",
+    "confirmed": false
+  },
+  "DoXTeHFphimLyLSvrAYMCy7AUGidrhe2A16M33amDG5T": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PEPT",
+        "pairAddress": "56EGBBxAXyqf5DjGrLTyLTKKVzAxffz6KbrejQX6dMPv",
+        "entryTime": "2026-04-24T18:47:12.294Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T18:47:12.294Z",
+    "lastSeen": "2026-04-24T18:47:12.294Z",
     "confirmed": false
   }
 }
