@@ -26849,12 +26849,17 @@
     "confirmed": false
   },
   "8NawjXkWwvJuPbkuqpVbmvbWM8GcXdWShdkE5G14kqQM": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CumRocket",
         "pairAddress": "BDYu8ZTsoMDys9pHCUA71meboUdTa4innRv27uXvgtmt",
         "entryTime": "2026-04-24T10:39:36.452Z"
+      },
+      {
+        "symbol": "silly",
+        "pairAddress": "6Cb8MdtbcJGvSPCZgQFc8fwjpMff9sJxKTWy2V6r196L",
+        "entryTime": "2026-04-24T19:59:50.758Z"
       }
     ],
     "wins": 0,
@@ -26862,7 +26867,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T10:39:36.452Z",
-    "lastSeen": "2026-04-24T10:39:36.452Z",
+    "lastSeen": "2026-04-24T19:59:50.758Z",
     "confirmed": false
   },
   "GTEZM3ZD3x7fLxVxaGLHT9Gok96CL7gMewkoNcmeEVB2": {
