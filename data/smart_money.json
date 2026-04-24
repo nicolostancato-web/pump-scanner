@@ -1128,7 +1128,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 19,
+    "appearances": 20,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1224,6 +1224,11 @@
         "symbol": "elgatito",
         "pairAddress": "HNFm1dDaUenP411f98urzysD25DzRKtrDFxGovvbb33",
         "entryTime": "2026-04-24T02:58:33.784Z"
+      },
+      {
+        "symbol": "Troll Alien",
+        "pairAddress": "6rUbh7vDzKo3MYZyGqtH49A1nzTPXHgGAcm2Ynaz6Yxy",
+        "entryTime": "2026-04-24T03:26:00.853Z"
       }
     ],
     "wins": 0,
@@ -1231,7 +1236,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T02:58:33.784Z",
+    "lastSeen": "2026-04-24T03:26:00.853Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -21088,6 +21093,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T03:25:24.868Z",
     "lastSeen": "2026-04-24T03:25:24.868Z",
+    "confirmed": false
+  },
+  "2uHbBdikb2VVnDpdYBbWdVw3P2PzQN6D7dzwGqEb9tvW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Troll Alien",
+        "pairAddress": "6rUbh7vDzKo3MYZyGqtH49A1nzTPXHgGAcm2Ynaz6Yxy",
+        "entryTime": "2026-04-24T03:26:00.853Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T03:26:00.853Z",
+    "lastSeen": "2026-04-24T03:26:00.853Z",
     "confirmed": false
   }
 }
