@@ -5983,7 +5983,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 9,
+    "appearances": 10,
     "tokens": [
       {
         "symbol": "Baekgu",
@@ -6029,6 +6029,11 @@
         "symbol": "KHLOE",
         "pairAddress": "NUyCs2mnKSV9cPozXnPQ8HxHHtensw53LgNoZ3yuTG8",
         "entryTime": "2026-04-24T03:59:13.857Z"
+      },
+      {
+        "symbol": "Gas City",
+        "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
+        "entryTime": "2026-04-24T08:23:07.788Z"
       }
     ],
     "wins": 0,
@@ -6036,7 +6041,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:53:09.595Z",
-    "lastSeen": "2026-04-24T03:59:13.857Z",
+    "lastSeen": "2026-04-24T08:23:07.788Z",
     "confirmed": true
   },
   "BKpEfRvpnbqghbb7qBESWhtV6BeDy7WAgmzWB6ZGyi2n": {
@@ -24372,6 +24377,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T08:22:37.389Z",
     "lastSeen": "2026-04-24T08:22:37.389Z",
+    "confirmed": false
+  },
+  "2rrESvZVT6wr2i9cYrdKNxsugg2hNQKcpVazSXCNQdDd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Gas City",
+        "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
+        "entryTime": "2026-04-24T08:23:07.788Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T08:23:07.788Z",
+    "lastSeen": "2026-04-24T08:23:07.788Z",
     "confirmed": false
   }
 }
