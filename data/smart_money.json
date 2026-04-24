@@ -22637,12 +22637,17 @@
     "confirmed": false
   },
   "8LQVeXRWgPQt85Hhapy6CP8jzXj3o3rwo1LLJ9jmTiD4": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KHLOE",
         "pairAddress": "NUyCs2mnKSV9cPozXnPQ8HxHHtensw53LgNoZ3yuTG8",
         "entryTime": "2026-04-24T03:58:34.078Z"
+      },
+      {
+        "symbol": "Dogcoin",
+        "pairAddress": "AUL7sHfkVoy7C4bstJvce8XRKXH27GcGVys5BBU62X7B",
+        "entryTime": "2026-04-24T23:11:47.005Z"
       }
     ],
     "wins": 0,
@@ -22650,7 +22655,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T03:58:34.078Z",
-    "lastSeen": "2026-04-24T03:58:34.078Z",
+    "lastSeen": "2026-04-24T23:11:47.005Z",
     "confirmed": false
   },
   "GYupJVE2yPpMpFfUyRgZ3zAqV2dNyrTfSF6tr5z23i2W": {
@@ -39155,6 +39160,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:10:55.897Z",
     "lastSeen": "2026-04-24T23:10:55.897Z",
+    "confirmed": false
+  },
+  "H3KoacpXQDnBPe44T3f1pQvihyFicg22bhCEZbFJWMQ9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Dogcoin",
+        "pairAddress": "AUL7sHfkVoy7C4bstJvce8XRKXH27GcGVys5BBU62X7B",
+        "entryTime": "2026-04-24T23:11:47.005Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T23:11:47.005Z",
+    "lastSeen": "2026-04-24T23:11:47.005Z",
     "confirmed": false
   }
 }
