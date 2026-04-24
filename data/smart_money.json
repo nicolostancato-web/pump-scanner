@@ -17756,7 +17756,7 @@
     "confirmed": false
   },
   "Gy39KSFDDbQiD3kVvTqepBveZcnGDXdFq81tqdnsyRh2": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "casinu",
@@ -17767,6 +17767,11 @@
         "symbol": "mahamaxxing",
         "pairAddress": "9sstS7ryuJwaX7D1BzKRDPNh3bvVhipPjA4oKmiBVHtQ",
         "entryTime": "2026-04-24T15:45:43.613Z"
+      },
+      {
+        "symbol": "HOME",
+        "pairAddress": "4g7ZHYvrnCQkmpxJ6miorBvJNFEgder8YZ3NABoUAHik",
+        "entryTime": "2026-04-24T21:44:30.524Z"
       }
     ],
     "wins": 0,
@@ -17774,8 +17779,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T00:16:39.080Z",
-    "lastSeen": "2026-04-24T15:45:43.613Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T21:44:30.524Z",
+    "confirmed": true
   },
   "STorreSu8X6yPLmiEScNHSGDinqV7j84hWjmvH9SPwk": {
     "appearances": 1,
@@ -37981,6 +37986,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T21:43:47.128Z",
     "lastSeen": "2026-04-24T21:43:47.128Z",
+    "confirmed": false
+  },
+  "Bo9uPegFWobB443X8fcPoP5LXD2G8N8b34Qjh5S1NM7G": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HOME",
+        "pairAddress": "4g7ZHYvrnCQkmpxJ6miorBvJNFEgder8YZ3NABoUAHik",
+        "entryTime": "2026-04-24T21:44:30.524Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T21:44:30.524Z",
+    "lastSeen": "2026-04-24T21:44:30.524Z",
     "confirmed": false
   }
 }
