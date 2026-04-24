@@ -16087,12 +16087,17 @@
     "confirmed": false
   },
   "7XPu5j9LPRi9CythzNeC8EDbSHounnFY6tD7duJrqbKz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "SLOP",
         "pairAddress": "NQNp18xbFfjjAXfvJkDh7sWzfhjge4T75nCuK1Z1Lzj",
         "entryTime": "2026-04-23T22:59:18.035Z"
+      },
+      {
+        "symbol": "mexicanunc",
+        "pairAddress": "6Fy1tEtjteWTs2gvhDQhyswGBJp47FEKkVK6twcgEC5",
+        "entryTime": "2026-04-24T09:04:00.590Z"
       }
     ],
     "wins": 0,
@@ -16100,7 +16105,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T22:59:18.035Z",
-    "lastSeen": "2026-04-23T22:59:18.035Z",
+    "lastSeen": "2026-04-24T09:04:00.590Z",
     "confirmed": false
   },
   "DDJ43aXwQxCeaePbvESbEb17kqN3pKPjtviqCEA13GFC": {
@@ -24900,6 +24905,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T09:01:22.714Z",
     "lastSeen": "2026-04-24T09:01:22.714Z",
+    "confirmed": false
+  },
+  "2EVdBxRxmAdaLGfzqFaq1KG4877NF5KKUMxEnWzaHAUj": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "mexicanunc",
+        "pairAddress": "6Fy1tEtjteWTs2gvhDQhyswGBJp47FEKkVK6twcgEC5",
+        "entryTime": "2026-04-24T09:04:00.590Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T09:04:00.590Z",
+    "lastSeen": "2026-04-24T09:04:00.590Z",
     "confirmed": false
   }
 }
