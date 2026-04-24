@@ -27832,12 +27832,17 @@
     "confirmed": false
   },
   "7aqLdXyYAmcDfFtP3NHHpPETrUbieGmiuuv1mZjYrWyt": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "MISS",
         "pairAddress": "CQc345yHfssu4ipQj4qFh6E6AZU7MSv5Z5Wi1BndqzW",
         "entryTime": "2026-04-24T11:09:23.690Z"
+      },
+      {
+        "symbol": "TARIFF",
+        "pairAddress": "3CbWJMh9SwyKMQA1Ujpa63GMDiDtFZvaZLoRQxMLqqHH",
+        "entryTime": "2026-04-24T17:52:34.667Z"
       }
     ],
     "wins": 0,
@@ -27845,7 +27850,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T11:09:23.690Z",
-    "lastSeen": "2026-04-24T11:09:23.690Z",
+    "lastSeen": "2026-04-24T17:52:34.667Z",
     "confirmed": false
   },
   "9z2UHnzgRr2jLj1HXC5q3UT76R6bQ16GyhEMxhYmp9bj": {
@@ -35102,6 +35107,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T17:51:55.786Z",
     "lastSeen": "2026-04-24T17:51:55.786Z",
+    "confirmed": false
+  },
+  "BQqGwRuXZcDTUX1mJSX4qNiZfokk4qmrgYWvkYxNCegR": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TARIFF",
+        "pairAddress": "3CbWJMh9SwyKMQA1Ujpa63GMDiDtFZvaZLoRQxMLqqHH",
+        "entryTime": "2026-04-24T17:52:34.667Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T17:52:34.667Z",
+    "lastSeen": "2026-04-24T17:52:34.667Z",
     "confirmed": false
   }
 }
