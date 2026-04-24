@@ -20535,12 +20535,17 @@
     "confirmed": false
   },
   "8PvbkfEvshq2SHt7NPvyfrq7ZgXH3refSfEZTeFM1haU": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BILLION",
         "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
         "entryTime": "2026-04-24T02:44:32.003Z"
+      },
+      {
+        "symbol": "foid",
+        "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
+        "entryTime": "2026-04-24T16:42:48.497Z"
       }
     ],
     "wins": 0,
@@ -20548,7 +20553,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T02:44:32.003Z",
-    "lastSeen": "2026-04-24T02:44:32.003Z",
+    "lastSeen": "2026-04-24T16:42:48.497Z",
     "confirmed": false
   },
   "DuheTX25N82S1m5RjrdfidWJz1N8zMYPvaAEeuH4Ftkf": {
@@ -30386,12 +30391,17 @@
     "confirmed": false
   },
   "yeKLd77h5DHW7ZGqcg6YtsdygWmg8UFBps4cLd8Emiz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "eCASH",
         "pairAddress": "FG91DadNKChRd35Uxg8DpzKFhWadekXey5exmKXn2sD6",
         "entryTime": "2026-04-24T14:16:07.790Z"
+      },
+      {
+        "symbol": "foid",
+        "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
+        "entryTime": "2026-04-24T16:42:48.497Z"
       }
     ],
     "wins": 0,
@@ -30399,7 +30409,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T14:16:07.790Z",
-    "lastSeen": "2026-04-24T14:16:07.790Z",
+    "lastSeen": "2026-04-24T16:42:48.497Z",
     "confirmed": false
   },
   "3ci8kUwNU6GU4MpmpqB2NiAByQbUnA7gN1dF61trH6DM": {
