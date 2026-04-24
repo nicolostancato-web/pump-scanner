@@ -295,10 +295,17 @@ def make_decision():
     if not bp_id or decision not in ("ACCEPTED", "REJECTED", "PARKED"):
         abort(400)
     now = datetime.now(ROME).isoformat()
+    # Log decision
     new_entry = f"\nbp_id: {bp_id}\ndecision: {decision}\ntimestamp: {now}\nnotes: {notes}\n---\n"
     existing = gh_read(f"{KB}/analysis/decisions_queue.md") or ""
     gh_write(f"{KB}/analysis/decisions_queue.md", existing + new_entry,
              f"Dashboard: {decision} {bp_id}")
+    # Remove BP from pending_decisions.md
+    pending = gh_read(f"{KB}/analysis/pending_decisions.md") or ""
+    blocks = pending.split("---")
+    filtered = [b for b in blocks if f"id_bp: {bp_id}" not in b]
+    gh_write(f"{KB}/analysis/pending_decisions.md", "---".join(filtered),
+             f"Dashboard: remove {bp_id} from pending")
     return redirect(url_for("analista"))
 
 
