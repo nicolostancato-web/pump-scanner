@@ -30194,5 +30194,22 @@
     "firstSeen": "2026-04-24T14:09:13.243Z",
     "lastSeen": "2026-04-24T14:09:13.243Z",
     "confirmed": false
+  },
+  "5e1RkS9r2cHbLxYcC3fT5arkkq4VAi9zfjxWeszFvsjQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "eCASH",
+        "pairAddress": "FG91DadNKChRd35Uxg8DpzKFhWadekXey5exmKXn2sD6",
+        "entryTime": "2026-04-24T14:11:36.545Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T14:11:36.545Z",
+    "lastSeen": "2026-04-24T14:11:36.545Z",
+    "confirmed": false
   }
 }
