@@ -2515,7 +2515,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 16,
+    "appearances": 17,
     "tokens": [
       {
         "symbol": "POB",
@@ -2596,6 +2596,11 @@
         "symbol": "HOME",
         "pairAddress": "4g7ZHYvrnCQkmpxJ6miorBvJNFEgder8YZ3NABoUAHik",
         "entryTime": "2026-04-24T21:46:16.907Z"
+      },
+      {
+        "symbol": "BELKA",
+        "pairAddress": "2RMm8BoXPAMwuLwouAcxJym5rAra5FsuGc3Fe4k76qJ8",
+        "entryTime": "2026-04-24T23:00:52.324Z"
       }
     ],
     "wins": 0,
@@ -2603,7 +2608,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:02:06.326Z",
-    "lastSeen": "2026-04-24T21:46:16.907Z",
+    "lastSeen": "2026-04-24T23:00:52.324Z",
     "confirmed": true
   },
   "55NQkFDwwW8noThkL9Rd5ngbgUU36fYZeos1k5ZwjGdn": {
@@ -38853,6 +38858,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T22:59:56.226Z",
     "lastSeen": "2026-04-24T22:59:56.226Z",
+    "confirmed": false
+  },
+  "sdQ3nsqfX1cgqYLipBFf6C39LSk1Jg1P2psAdnKWBng": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BELKA",
+        "pairAddress": "2RMm8BoXPAMwuLwouAcxJym5rAra5FsuGc3Fe4k76qJ8",
+        "entryTime": "2026-04-24T23:00:52.324Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T23:00:52.324Z",
+    "lastSeen": "2026-04-24T23:00:52.324Z",
     "confirmed": false
   }
 }
