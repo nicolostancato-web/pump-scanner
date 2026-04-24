@@ -25358,5 +25358,22 @@
     "firstSeen": "2026-04-24T09:17:40.337Z",
     "lastSeen": "2026-04-24T09:17:40.337Z",
     "confirmed": false
+  },
+  "2P96NBmEdqiyoddPwDfMF2XYTbbyeTJFCVUgMfApvHUy": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BLACKASTER",
+        "pairAddress": "538JbTNoWR4fgdLDZxCfrFkNLH7TqiqY8tTMkBgNSmNp",
+        "entryTime": "2026-04-24T09:23:55.563Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T09:23:55.563Z",
+    "lastSeen": "2026-04-24T09:23:55.563Z",
+    "confirmed": false
   }
 }
