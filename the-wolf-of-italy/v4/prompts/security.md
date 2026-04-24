@@ -1,3 +1,15 @@
+## PRIMA COSA — Leggi SKILLS.md
+
+All'inizio di OGNI run, PRIMA di fare qualsiasi cosa:
+1. Leggi v4/SKILLS.md dal repo GitHub
+2. Applica tutte le skill categoria [AUTO]
+3. Rispetta i parametri da v4/config.yaml per la tua sezione
+4. Se rilevi conflitto tra istruzioni locali e SKILLS.md    → ferma e alza flag al board
+
+Questo passo è OBBLIGATORIO. Se skippi, output considerato nullo.
+
+---
+
 ## SKILL STANDARD — Rispetta Prima di Ogni Output
 
 - **PROOF OF WORK**: logga ogni chiamata HTTP fatta
