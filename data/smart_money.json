@@ -12004,7 +12004,7 @@
     "confirmed": false
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ENRIQUE",
@@ -12015,6 +12015,11 @@
         "symbol": "AIB",
         "pairAddress": "Gnqj3eK6TFogKetWVqk9Ayau8jL1YaBEiDtVyBubfB74",
         "entryTime": "2026-04-23T22:16:22.713Z"
+      },
+      {
+        "symbol": "chloe",
+        "pairAddress": "9Vy7CaXDjfQGbTjU6QZejujRWCzPgoP5anj5HfruNVQj",
+        "entryTime": "2026-04-24T03:38:24.446Z"
       }
     ],
     "wins": 0,
@@ -12022,8 +12027,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T19:13:54.109Z",
-    "lastSeen": "2026-04-23T22:16:22.713Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T03:38:24.446Z",
+    "confirmed": true
   },
   "CT5WRRtZxsoVRBHc6art6HWrM4azWo4ofuiT853PtJTc": {
     "appearances": 3,
@@ -16870,12 +16875,17 @@
     "confirmed": false
   },
   "LASTvjDWkbXM1RwUCiniHqGLSEH5xJinDRs56wNPQr9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TRADE",
         "pairAddress": "HqCxHf9iMWnXyejFUrYKd3FexrWKtcWojqsrqTDyZe4x",
         "entryTime": "2026-04-23T23:49:32.569Z"
+      },
+      {
+        "symbol": "chloe",
+        "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
+        "entryTime": "2026-04-24T03:38:25.376Z"
       }
     ],
     "wins": 0,
@@ -16883,7 +16893,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T23:49:32.569Z",
-    "lastSeen": "2026-04-23T23:49:32.569Z",
+    "lastSeen": "2026-04-24T03:38:25.376Z",
     "confirmed": false
   },
   "2sT2usN51Zdoqt6wvTHFa8AySdLAi2rsGybsHwegVnX9": {
@@ -21387,6 +21397,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T03:33:51.274Z",
     "lastSeen": "2026-04-24T03:33:51.274Z",
+    "confirmed": false
+  },
+  "GKydKqAVkbLnJ3LcVfsftoPTP1qLNdkvBgy3xio8Uq4j": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "chloe",
+        "pairAddress": "9Vy7CaXDjfQGbTjU6QZejujRWCzPgoP5anj5HfruNVQj",
+        "entryTime": "2026-04-24T03:38:24.446Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T03:38:24.446Z",
+    "lastSeen": "2026-04-24T03:38:24.446Z",
     "confirmed": false
   }
 }
