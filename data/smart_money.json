@@ -7219,7 +7219,7 @@
     "confirmed": false
   },
   "ARqJ18xaBLrEJYARaYHxfRKSi1pB7dZjwq1NW6Fiuieb": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "POSTER",
@@ -7235,6 +7235,11 @@
         "symbol": "shitter",
         "pairAddress": "7GDAE5Xvze6dkNH8nUunEuMtNvNg58Lvwou9LFsVb6mq",
         "entryTime": "2026-04-23T23:35:14.965Z"
+      },
+      {
+        "symbol": "Gas City",
+        "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
+        "entryTime": "2026-04-24T08:25:56.278Z"
       }
     ],
     "wins": 0,
@@ -7242,7 +7247,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T13:49:08.850Z",
-    "lastSeen": "2026-04-23T23:35:14.965Z",
+    "lastSeen": "2026-04-24T08:25:56.278Z",
     "confirmed": true
   },
   "JDerpN2P8QNEGbGMqCjfz3iXqUfW839tyd9dVyTAqQ73": {
@@ -24528,6 +24533,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T08:25:17.241Z",
     "lastSeen": "2026-04-24T08:25:17.241Z",
+    "confirmed": false
+  },
+  "EMeSpJrxWWAcn23VaBJLooq6YtAuzZvMNuTE7H66yp2g": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Gas City",
+        "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
+        "entryTime": "2026-04-24T08:25:56.278Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T08:25:56.278Z",
+    "lastSeen": "2026-04-24T08:25:56.278Z",
     "confirmed": false
   }
 }
