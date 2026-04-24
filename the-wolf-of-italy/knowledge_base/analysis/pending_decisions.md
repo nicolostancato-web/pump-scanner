@@ -1,5 +1,5 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-24 18:08 Rome
+Ultimo aggiornamento: 2026-04-24 18:31 Rome
 
 **Stato corrente: 0/5 BP in dashboard.**
 
@@ -11,14 +11,14 @@ Nessuna decisione in coda — `decisions_queue.md` → vuota (svuotata al run 13
 |---|-------|------------|----------|-------------|---------|
 | — | — | — | — | — | — |
 
-**Cross-citation:**
+**Cross-citation (dati altri agenti):**
+- **active_positions.md** (CFO): Portfolio totale **$51.97** — $34.77 cash (SOL) + $17.20 in JupSOL (BP-2026-04-23-001, FULLY_DEPLOYED). [fonte: active_positions.md raw]
 - **seen_protocols.md**: 3 BP REJECTED (KAT/BP-001, CHIP/BP-002, SKR/BP-003) dal run 13:24. [fonte: seen_protocols.md raw]
-- **active_positions.md**: 404 Not Found — CFO non ha ancora creato il file.
 - **security_state.md**: 404 Not Found — SECURITY non ha ancora creato il file.
 
 **Note:**
 - Nessuna azione eseguita in questo run — dashboard vuota, nessuna opportunità, nessuna decisione in coda.
-- Ore 18:08 Roma — reset serale non attivo (previsto 22:00).
+- Ora 18:31 Roma — reset serale non attivo (previsto 22:00).
 
 ---
 
