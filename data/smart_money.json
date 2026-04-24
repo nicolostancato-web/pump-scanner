@@ -15469,7 +15469,7 @@
     "confirmed": false
   },
   "FireuLYd4yjJBhXQyBs3Mq6ZpNEjyHPNPG2eqhTP9RHV": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "AIB",
@@ -15480,6 +15480,11 @@
         "symbol": "TRADE",
         "pairAddress": "A6yViKnsEADhS6H3BGGSUX8A8tLXmsha172fFaqPwk3m",
         "entryTime": "2026-04-24T00:29:10.838Z"
+      },
+      {
+        "symbol": "chloe",
+        "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
+        "entryTime": "2026-04-24T03:47:40.392Z"
       }
     ],
     "wins": 0,
@@ -15487,8 +15492,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T22:19:31.344Z",
-    "lastSeen": "2026-04-24T00:29:10.838Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T03:47:40.392Z",
+    "confirmed": true
   },
   "BGcaPxBq6Y2tLWcLsW8fkxg8b3RcuRBBYoCeRZG5fPMD": {
     "appearances": 2,
@@ -21546,6 +21551,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T03:44:36.771Z",
     "lastSeen": "2026-04-24T03:44:36.771Z",
+    "confirmed": false
+  },
+  "8C4xJVJvKe3g3zbsoDewqpYdE4qacKJGgTma2fhQQ8Ck": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "chloe",
+        "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
+        "entryTime": "2026-04-24T03:47:40.392Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T03:47:40.392Z",
+    "lastSeen": "2026-04-24T03:47:40.392Z",
     "confirmed": false
   }
 }
