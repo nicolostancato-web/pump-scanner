@@ -24480,12 +24480,17 @@
     "confirmed": false
   },
   "GrSA79WucRhmyDxHEJabVd7uF6prk9kbHdm5M2GMDysB": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Gas City",
         "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
         "entryTime": "2026-04-24T08:07:09.004Z"
+      },
+      {
+        "symbol": "Dogcoin",
+        "pairAddress": "AUL7sHfkVoy7C4bstJvce8XRKXH27GcGVys5BBU62X7B",
+        "entryTime": "2026-04-24T23:17:05.840Z"
       }
     ],
     "wins": 0,
@@ -24493,7 +24498,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T08:07:09.004Z",
-    "lastSeen": "2026-04-24T08:07:09.004Z",
+    "lastSeen": "2026-04-24T23:17:05.840Z",
     "confirmed": false
   },
   "H9LhfDgwV3QkaGbhcxnpuLqSQiNVd3GyNehUzbZxPqyc": {
@@ -39209,6 +39214,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:13:57.705Z",
     "lastSeen": "2026-04-24T23:13:57.705Z",
+    "confirmed": false
+  },
+  "4PxowvdRKou86if3KdUq2CTJgiaY4e32vjDRu9wZtpLa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Dogcoin",
+        "pairAddress": "AUL7sHfkVoy7C4bstJvce8XRKXH27GcGVys5BBU62X7B",
+        "entryTime": "2026-04-24T23:17:05.840Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T23:17:05.840Z",
+    "lastSeen": "2026-04-24T23:17:05.840Z",
     "confirmed": false
   }
 }
