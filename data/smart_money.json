@@ -3916,12 +3916,17 @@
     "confirmed": false
   },
   "AEMJqxite3B8SYftMJtyFemqFDoukTdRh2dbi1yakhV8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KYLE",
         "pairAddress": "AqfEkLLSKFpgHq8bi126zhhuPvXbMCR7PfHABnoMiT7y",
         "entryTime": "2026-04-23T09:24:40.698Z"
+      },
+      {
+        "symbol": "Fren",
+        "pairAddress": "CUuskHkGEkgGYU8LSfASNNrtwSECC4iZzZn7yev3XV7g",
+        "entryTime": "2026-04-24T19:13:32.437Z"
       }
     ],
     "wins": 0,
@@ -3929,7 +3934,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T09:24:40.698Z",
-    "lastSeen": "2026-04-23T09:24:40.698Z",
+    "lastSeen": "2026-04-24T19:13:32.437Z",
     "confirmed": false
   },
   "5V9pJkcLVqifggAee42FgQoVtUUhQy1R3rYpWMUoCbWN": {
@@ -36188,6 +36193,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T19:12:58.067Z",
     "lastSeen": "2026-04-24T19:12:58.067Z",
+    "confirmed": false
+  },
+  "DnoPZbkYZSD1s74KVf9CwAwnqPiNL8ypzRp4kfFByp85": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Fren",
+        "pairAddress": "CUuskHkGEkgGYU8LSfASNNrtwSECC4iZzZn7yev3XV7g",
+        "entryTime": "2026-04-24T19:13:32.437Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T19:13:32.437Z",
+    "lastSeen": "2026-04-24T19:13:32.437Z",
     "confirmed": false
   }
 }
