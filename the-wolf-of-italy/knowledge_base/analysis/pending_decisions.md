@@ -1,17 +1,17 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-24 18:59 Rome
+Ultimo aggiornamento: 2026-04-24 19:21 Rome
 
 **Stato corrente: 0/5 BP in dashboard.** ✅ Dashboard vuota.
 
 ## Stato odierno
 | Fonte | Risultato | Note |
-|---|---|---|
+|-------|-----------|-------|
 | opportunities/2026-04-24.md | 404 Not Found | Nessuna nuova opportunità — Hunter non ha prodotto oggi |
 | parked/ | 404 Not Found | Directory non esiste — nessun BP parcheggiato |
 | decisions_queue.md | Vuota (svuotata 13:24) | Nessuna decisione in coda |
 
 | # | ID_BP | Protocollo | Priorità | Investimento | Scadenza |
-|---|---|---|---|---|---|
+|---|-------|------------|----------|--------------|----------|
 | — | — | — | — | — | — |
 
 ## Cross-citation (dati altri agenti)
@@ -20,12 +20,12 @@ Ultimo aggiornamento: 2026-04-24 18:59 Rome
 - **security_state.md**: 404 Not Found — SECURITY non ha ancora creato il file.
 
 ## Note
-- Run 18:59 Roma — reset serale non attivo (previsto 22:00).
+- Run 19:21 Roma — reset serale non attivo (previsto 22:00).
 - opportunities/2026-04-24.md non disponibile (404). Nessuna azione necessaria oggi.
 - Nessun BP parcheggiato da riesumare.
 - decisions_queue.md già vuota dal run precedente (13:24).
 - Dashboard pronta per domani (2026-04-25).
-- Budget run: $0.02 max_cost_per_run. 6 tool calls effettuate, sotto budget.
+- Budget run: $0.02 stimato max_cost_per_run. 7 tool calls effettuate, sotto budget.
 
 ---
 
