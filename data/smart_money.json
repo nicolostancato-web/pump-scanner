@@ -2435,7 +2435,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 11,
+    "appearances": 12,
     "tokens": [
       {
         "symbol": "POB",
@@ -2491,6 +2491,11 @@
         "symbol": "mexicanunc",
         "pairAddress": "6Fy1tEtjteWTs2gvhDQhyswGBJp47FEKkVK6twcgEC5",
         "entryTime": "2026-04-24T08:54:40.672Z"
+      },
+      {
+        "symbol": "GEORGE",
+        "pairAddress": "AtiinBvxGMTkgPtgZvGP3zYJeEJof9WPwLfNfxFDMGmZ",
+        "entryTime": "2026-04-24T10:51:16.255Z"
       }
     ],
     "wins": 0,
@@ -2498,7 +2503,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:02:06.326Z",
-    "lastSeen": "2026-04-24T08:54:40.672Z",
+    "lastSeen": "2026-04-24T10:51:16.255Z",
     "confirmed": true
   },
   "55NQkFDwwW8noThkL9Rd5ngbgUU36fYZeos1k5ZwjGdn": {
@@ -26840,6 +26845,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T10:50:12.964Z",
     "lastSeen": "2026-04-24T10:50:12.964Z",
+    "confirmed": false
+  },
+  "7PuqxVr1crACjXdrPvrd9bQUQpZACiGkpDpa8v8SmpQV": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GEORGE",
+        "pairAddress": "AtiinBvxGMTkgPtgZvGP3zYJeEJof9WPwLfNfxFDMGmZ",
+        "entryTime": "2026-04-24T10:51:16.255Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T10:51:16.255Z",
+    "lastSeen": "2026-04-24T10:51:16.255Z",
     "confirmed": false
   }
 }
