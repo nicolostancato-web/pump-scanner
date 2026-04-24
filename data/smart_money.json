@@ -7825,7 +7825,7 @@
     "confirmed": false
   },
   "NULLioEUhd89Jo5Acm9sX88bwjNjrsAVy6KWkXD7qZh": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "LandSat",
@@ -7836,6 +7836,11 @@
         "symbol": "Memecoin™",
         "pairAddress": "8f4dFUJdsL9jW7R7qaRMiVH7JtoKQQuNpMbxdqqhyebi",
         "entryTime": "2026-04-23T21:48:11.014Z"
+      },
+      {
+        "symbol": "eCASH",
+        "pairAddress": "FG91DadNKChRd35Uxg8DpzKFhWadekXey5exmKXn2sD6",
+        "entryTime": "2026-04-24T13:54:21.819Z"
       }
     ],
     "wins": 0,
@@ -7843,8 +7848,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T14:20:07.090Z",
-    "lastSeen": "2026-04-23T21:48:11.014Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T13:54:21.819Z",
+    "confirmed": true
   },
   "Aiz8BvMt9WudK8vCZQVYDBkkLTYim7san4578p6xVwud": {
     "appearances": 1,
@@ -29794,6 +29799,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T13:53:45.893Z",
     "lastSeen": "2026-04-24T13:53:45.893Z",
+    "confirmed": false
+  },
+  "CyEo2687MvpWC6qxohdMVmvvAXH9bAkxj1GfivmqboqB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "eCASH",
+        "pairAddress": "FG91DadNKChRd35Uxg8DpzKFhWadekXey5exmKXn2sD6",
+        "entryTime": "2026-04-24T13:54:21.819Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T13:54:21.819Z",
+    "lastSeen": "2026-04-24T13:54:21.819Z",
     "confirmed": false
   }
 }
