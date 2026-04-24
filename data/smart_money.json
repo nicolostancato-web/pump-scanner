@@ -7322,12 +7322,17 @@
     "confirmed": false
   },
   "299BXifekZ82ZGEUgkq7uLzeP6zqtRAccy41GBPyhhtq": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "UNCSATOSHI",
         "pairAddress": "43cASYXvwFJYwpRgdMCSBEY2CiRqitXTMLJCrZeunuWP",
         "entryTime": "2026-04-23T13:53:26.920Z"
+      },
+      {
+        "symbol": "BLACKASTER",
+        "pairAddress": "538JbTNoWR4fgdLDZxCfrFkNLH7TqiqY8tTMkBgNSmNp",
+        "entryTime": "2026-04-24T09:32:28.916Z"
       }
     ],
     "wins": 0,
@@ -7335,7 +7340,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T13:53:26.920Z",
-    "lastSeen": "2026-04-23T13:53:26.920Z",
+    "lastSeen": "2026-04-24T09:32:28.916Z",
     "confirmed": false
   },
   "GbVs1inuLzAT8VDmMhjzYaW7yNNs1nZxCp1dEhbybTZs": {
@@ -25639,6 +25644,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T09:31:57.138Z",
     "lastSeen": "2026-04-24T09:31:57.138Z",
+    "confirmed": false
+  },
+  "BcXxaM4NqGL4sLUHijNfB6oC5ZudRPWwk7gZcwqzNgJp": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BLACKASTER",
+        "pairAddress": "538JbTNoWR4fgdLDZxCfrFkNLH7TqiqY8tTMkBgNSmNp",
+        "entryTime": "2026-04-24T09:32:28.916Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T09:32:28.916Z",
+    "lastSeen": "2026-04-24T09:32:28.916Z",
     "confirmed": false
   }
 }
