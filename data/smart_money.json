@@ -4475,12 +4475,17 @@
     "confirmed": false
   },
   "9zCr6Xv2HgRwQm7ema9ScAibo1TUUL29TNoUJqtrah26": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KAIRU",
         "pairAddress": "Fk9dh4ScbmYgymh8WLUoL5o6zhm9zPgyaSLJYkgv7iyz",
         "entryTime": "2026-04-23T10:29:27.791Z"
+      },
+      {
+        "symbol": "eic",
+        "pairAddress": "DYboskh7WX2Fdxc45RhEQnQspmnTCM5Xn5MVBWz2eW7q",
+        "entryTime": "2026-04-24T01:24:33.779Z"
       }
     ],
     "wins": 0,
@@ -4488,7 +4493,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T10:29:27.791Z",
-    "lastSeen": "2026-04-23T10:29:27.791Z",
+    "lastSeen": "2026-04-24T01:24:33.779Z",
     "confirmed": false
   },
   "4GpboCULeEeFGhyzy5NQdRuvZLYsoocGBBUdbmE68mE6": {
@@ -18261,6 +18266,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T01:23:54.047Z",
     "lastSeen": "2026-04-24T01:23:54.047Z",
+    "confirmed": false
+  },
+  "C5K3qzGYFDhy7EJMGCZh8MQhb9u9t9rmp9hwzqJh2dSu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "eic",
+        "pairAddress": "DYboskh7WX2Fdxc45RhEQnQspmnTCM5Xn5MVBWz2eW7q",
+        "entryTime": "2026-04-24T01:24:33.779Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T01:24:33.779Z",
+    "lastSeen": "2026-04-24T01:24:33.779Z",
     "confirmed": false
   }
 }
