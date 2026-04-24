@@ -18403,5 +18403,22 @@
     "firstSeen": "2026-04-24T01:31:33.348Z",
     "lastSeen": "2026-04-24T01:31:33.348Z",
     "confirmed": false
+  },
+  "E8KWmjtEkGy8Ke9qWQ6n2iFtM8rKpUbShGJWbdmh3J5a": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "eic",
+        "pairAddress": "DYboskh7WX2Fdxc45RhEQnQspmnTCM5Xn5MVBWz2eW7q",
+        "entryTime": "2026-04-24T01:32:02.488Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T01:32:02.488Z",
+    "lastSeen": "2026-04-24T01:32:02.488Z",
+    "confirmed": false
   }
 }
