@@ -9081,7 +9081,7 @@
     "confirmed": false
   },
   "H5VLyesqLczjD1QNKuo4zu6xSskkqpWtPjPDBYM7rakr": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Dinoshark",
@@ -9092,6 +9092,11 @@
         "symbol": "Fren",
         "pairAddress": "CUuskHkGEkgGYU8LSfASNNrtwSECC4iZzZn7yev3XV7g",
         "entryTime": "2026-04-24T19:29:09.822Z"
+      },
+      {
+        "symbol": "Dogcoin",
+        "pairAddress": "AUL7sHfkVoy7C4bstJvce8XRKXH27GcGVys5BBU62X7B",
+        "entryTime": "2026-04-24T23:08:54.899Z"
       }
     ],
     "wins": 0,
@@ -9099,8 +9104,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T15:37:31.984Z",
-    "lastSeen": "2026-04-24T19:29:09.822Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T23:08:54.899Z",
+    "confirmed": true
   },
   "Ajsz62wxvVQaRLmoZzTinvrLB5UKzraGgxo2yv5mbH1Q": {
     "appearances": 1,
@@ -39033,6 +39038,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:08:20.137Z",
     "lastSeen": "2026-04-24T23:08:20.137Z",
+    "confirmed": false
+  },
+  "AK3fFYusBEZVJcQTpwY9bpeSoqccxuTGGBFx338xt3Dt": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Dogcoin",
+        "pairAddress": "AUL7sHfkVoy7C4bstJvce8XRKXH27GcGVys5BBU62X7B",
+        "entryTime": "2026-04-24T23:08:54.899Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T23:08:54.899Z",
+    "lastSeen": "2026-04-24T23:08:54.899Z",
     "confirmed": false
   }
 }
