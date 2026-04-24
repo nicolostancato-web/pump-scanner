@@ -2984,12 +2984,17 @@
     "confirmed": false
   },
   "PpoyYHVy9bGbXJMvaU2F3sC5gSnXfjJ2GkMp9tMr3NK": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "¢",
         "pairAddress": "DiHyef8qdukT5APJYqfmJadFFKNK7dZ7qAz7nNLmp4R8",
         "entryTime": "2026-04-23T08:29:13.239Z"
+      },
+      {
+        "symbol": "BILLION",
+        "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
+        "entryTime": "2026-04-24T02:55:37.323Z"
       }
     ],
     "wins": 0,
@@ -2997,7 +3002,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:29:13.239Z",
-    "lastSeen": "2026-04-23T08:29:13.239Z",
+    "lastSeen": "2026-04-24T02:55:37.323Z",
     "confirmed": false
   },
   "275rz68ZcUNKkAazaxRgcuJLT5rrZiwARtm6kUFGugNm": {
@@ -20446,6 +20451,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T02:55:05.058Z",
     "lastSeen": "2026-04-24T02:55:05.058Z",
+    "confirmed": false
+  },
+  "85pLpaUF2R9SDkGYUMc69gcfo4Xa8GzUwKVg68A6UFoq": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BILLION",
+        "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
+        "entryTime": "2026-04-24T02:55:37.323Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T02:55:37.323Z",
+    "lastSeen": "2026-04-24T02:55:37.323Z",
     "confirmed": false
   }
 }
