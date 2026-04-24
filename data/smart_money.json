@@ -1128,7 +1128,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 20,
+    "appearances": 21,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1229,6 +1229,11 @@
         "symbol": "Troll Alien",
         "pairAddress": "6rUbh7vDzKo3MYZyGqtH49A1nzTPXHgGAcm2Ynaz6Yxy",
         "entryTime": "2026-04-24T03:26:00.853Z"
+      },
+      {
+        "symbol": "CATCOIN",
+        "pairAddress": "6fNWjfFN6kDKybWK5PFLWqZnpTmoBAswUWvxiG3g5D2D",
+        "entryTime": "2026-04-24T04:11:56.062Z"
       }
     ],
     "wins": 0,
@@ -1236,7 +1241,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T03:26:00.853Z",
+    "lastSeen": "2026-04-24T04:11:56.062Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -20841,12 +20846,17 @@
     "confirmed": false
   },
   "8VSTs2hk2AXhRkRJUahpBaJaDRfJqrFxh4ZtdAAajMRX": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BILLION",
         "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
         "entryTime": "2026-04-24T03:04:01.498Z"
+      },
+      {
+        "symbol": "CATCOIN",
+        "pairAddress": "6fNWjfFN6kDKybWK5PFLWqZnpTmoBAswUWvxiG3g5D2D",
+        "entryTime": "2026-04-24T04:11:56.062Z"
       }
     ],
     "wins": 0,
@@ -20854,7 +20864,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T03:04:01.498Z",
-    "lastSeen": "2026-04-24T03:04:01.498Z",
+    "lastSeen": "2026-04-24T04:11:56.062Z",
     "confirmed": false
   },
   "BTaZWck55bb1oS46BobyF4enxCNP2LvU76yfFvnjzsUZ": {
