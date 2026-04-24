@@ -22673,12 +22673,17 @@
     "confirmed": false
   },
   "6vMNwwuJxAqk2JoFusiTBtRS18Bsx8XGqYX2T7aCpW1z": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "HOLYMOLY",
         "pairAddress": "54FLnSv6g8y3GBxv7G4BQFLXw8zcuuHUhSqAHNrQEYLL",
         "entryTime": "2026-04-24T04:23:57.222Z"
+      },
+      {
+        "symbol": "mahamaxxin",
+        "pairAddress": "6Pc2gZ8xCnDf7cbStecZHfPruJEHzWpTdgfQtzpBqMvp",
+        "entryTime": "2026-04-24T16:04:49.008Z"
       }
     ],
     "wins": 0,
@@ -22686,7 +22691,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T04:23:57.222Z",
-    "lastSeen": "2026-04-24T04:23:57.222Z",
+    "lastSeen": "2026-04-24T16:04:49.008Z",
     "confirmed": false
   },
   "DcRfJtNeVAf92L8nKtDDjFfgytz1Rf4LyNmdZquFkX44": {
@@ -32547,6 +32552,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T16:04:31.027Z",
     "lastSeen": "2026-04-24T16:04:31.027Z",
+    "confirmed": false
+  },
+  "38QvMhU1YZ53i3XBLdEoL5TwcA2euCNPmbpmc56hkMVE": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "mahamaxxin",
+        "pairAddress": "6Pc2gZ8xCnDf7cbStecZHfPruJEHzWpTdgfQtzpBqMvp",
+        "entryTime": "2026-04-24T16:04:49.008Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T16:04:49.008Z",
+    "lastSeen": "2026-04-24T16:04:49.008Z",
     "confirmed": false
   }
 }
