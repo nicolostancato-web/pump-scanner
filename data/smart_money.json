@@ -5445,12 +5445,17 @@
     "confirmed": false
   },
   "2bBwLC52jHYQLnuL3uxcABq9Nwj6HrjfuwTCE6AAdvLQ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BBC",
         "pairAddress": "Cju1QRiy6HgAJrD7M5ZrSRu8H4xFMVHpFgsYVQqC4yAD",
         "entryTime": "2026-04-23T12:20:42.929Z"
+      },
+      {
+        "symbol": "Naruto",
+        "pairAddress": "236oqnLfnvy1gP66WbV9NLNBsd2cJxA118i9Ctn2Q5uk",
+        "entryTime": "2026-04-24T18:27:48.826Z"
       }
     ],
     "wins": 0,
@@ -5458,7 +5463,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:20:42.929Z",
-    "lastSeen": "2026-04-23T12:20:42.929Z",
+    "lastSeen": "2026-04-24T18:27:48.826Z",
     "confirmed": false
   },
   "4Xcxmbp89vh3bnBaSKVQheNms5kNtVgiq4ZucVz9T6tm": {
@@ -35521,6 +35526,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T18:25:16.758Z",
     "lastSeen": "2026-04-24T18:25:16.758Z",
+    "confirmed": false
+  },
+  "ArztiaMPtPAmmWyeGLSYTLbJpzezwfHfyhLB5ip53LCc": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Naruto",
+        "pairAddress": "236oqnLfnvy1gP66WbV9NLNBsd2cJxA118i9Ctn2Q5uk",
+        "entryTime": "2026-04-24T18:27:48.826Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T18:27:48.826Z",
+    "lastSeen": "2026-04-24T18:27:48.826Z",
     "confirmed": false
   }
 }
