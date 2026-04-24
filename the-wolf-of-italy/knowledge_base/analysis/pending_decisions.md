@@ -1,5 +1,5 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-25 00:55 Rome
+Ultimo aggiornamento: 2026-04-25 01:01 Rome
 
 **Stato corrente: 0/5 BP in dashboard.** ✅ Dashboard vuota.
 
