@@ -6163,7 +6163,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 12,
+    "appearances": 13,
     "tokens": [
       {
         "symbol": "Baekgu",
@@ -6224,6 +6224,11 @@
         "symbol": "SARA",
         "pairAddress": "7Hg8gwASQKLy9vkkcPHeEtwucmBoCjvVeqxwfY9M1zWM",
         "entryTime": "2026-04-24T18:20:33.876Z"
+      },
+      {
+        "symbol": "SHIB",
+        "pairAddress": "AhDWtrJioADh41xGVkVg6HKcYD4XUEQfniZ4KimpsaZf",
+        "entryTime": "2026-04-24T21:14:08.311Z"
       }
     ],
     "wins": 0,
@@ -6231,7 +6236,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:53:09.595Z",
-    "lastSeen": "2026-04-24T18:20:33.876Z",
+    "lastSeen": "2026-04-24T21:14:08.311Z",
     "confirmed": true
   },
   "BKpEfRvpnbqghbb7qBESWhtV6BeDy7WAgmzWB6ZGyi2n": {
@@ -37623,6 +37628,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T21:09:29.211Z",
     "lastSeen": "2026-04-24T21:09:29.211Z",
+    "confirmed": false
+  },
+  "8fKgd4gDFX8r5y3WUkWxoNwvnxN8SMMbPoHD2PgBFywb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SHIB",
+        "pairAddress": "AhDWtrJioADh41xGVkVg6HKcYD4XUEQfniZ4KimpsaZf",
+        "entryTime": "2026-04-24T21:14:08.311Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T21:14:08.311Z",
+    "lastSeen": "2026-04-24T21:14:08.311Z",
     "confirmed": false
   }
 }
