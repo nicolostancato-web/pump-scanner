@@ -9704,12 +9704,17 @@
     "confirmed": false
   },
   "Ha2SVRw2wbPwVHdDunjJsfitqhKdENB9RtamRbkCLsHD": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "brrrcoin",
         "pairAddress": "HoRcwdnRj1PqGV65i2hCi6DHYgDwj3oPiq7BpuZ1ZhV5",
         "entryTime": "2026-04-23T15:51:18.029Z"
+      },
+      {
+        "symbol": "Dogcoin",
+        "pairAddress": "AUL7sHfkVoy7C4bstJvce8XRKXH27GcGVys5BBU62X7B",
+        "entryTime": "2026-04-24T23:22:34.004Z"
       }
     ],
     "wins": 0,
@@ -9717,7 +9722,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T15:51:18.029Z",
-    "lastSeen": "2026-04-23T15:51:18.029Z",
+    "lastSeen": "2026-04-24T23:22:34.004Z",
     "confirmed": false
   },
   "2EsjTosWtwtj3rHvWAu6qfTZxyWtsiYgHgpmeUnDZDVY": {
@@ -39389,6 +39394,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:21:57.744Z",
     "lastSeen": "2026-04-24T23:21:57.744Z",
+    "confirmed": false
+  },
+  "A5SX1guycqLqzsosgvJvomTTakpcphsDgzBR8GXLaqx2": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Dogcoin",
+        "pairAddress": "AUL7sHfkVoy7C4bstJvce8XRKXH27GcGVys5BBU62X7B",
+        "entryTime": "2026-04-24T23:22:34.004Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T23:22:34.004Z",
+    "lastSeen": "2026-04-24T23:22:34.004Z",
     "confirmed": false
   }
 }
