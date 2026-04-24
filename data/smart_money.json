@@ -30596,12 +30596,17 @@
     "confirmed": false
   },
   "CAPgJuU1LMSc5mrppE6vvFfybUdJw4zYa1J9gZgdrnNV": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "IF",
         "pairAddress": "HTj6TZy4qBXjjWEVJvseJquxUpMbJMG63quR1HXxKAB4",
         "entryTime": "2026-04-24T14:25:52.811Z"
+      },
+      {
+        "symbol": "mahamaxxing",
+        "pairAddress": "9sstS7ryuJwaX7D1BzKRDPNh3bvVhipPjA4oKmiBVHtQ",
+        "entryTime": "2026-04-24T15:36:46.572Z"
       }
     ],
     "wins": 0,
@@ -30609,7 +30614,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T14:25:52.811Z",
-    "lastSeen": "2026-04-24T14:25:52.811Z",
+    "lastSeen": "2026-04-24T15:36:46.572Z",
     "confirmed": false
   },
   "6E1y1NskDN2NAC7urHtPELzfT3kFvbVD6KnX87Ci4GmW": {
@@ -31715,6 +31720,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T15:36:09.039Z",
     "lastSeen": "2026-04-24T15:36:09.039Z",
+    "confirmed": false
+  },
+  "DV3aPEsPJyrYMNbxHNenJvFUePZYChp25GRpMnGVsWqn": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "mahamaxxing",
+        "pairAddress": "9sstS7ryuJwaX7D1BzKRDPNh3bvVhipPjA4oKmiBVHtQ",
+        "entryTime": "2026-04-24T15:36:46.572Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T15:36:46.572Z",
+    "lastSeen": "2026-04-24T15:36:46.572Z",
     "confirmed": false
   }
 }
