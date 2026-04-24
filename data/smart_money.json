@@ -20633,12 +20633,17 @@
     "confirmed": false
   },
   "BBStxbUjJUtifFF1zzGz45aXE8y5nSGfWWRkPHd66hLL": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "elgatito",
         "pairAddress": "HNFm1dDaUenP411f98urzysD25DzRKtrDFxGovvbb33",
         "entryTime": "2026-04-24T02:56:11.615Z"
+      },
+      {
+        "symbol": "stakr",
+        "pairAddress": "AdQjmzigsJm1iDEC74DMmCx2mPznYbTKtuCbukqr34uF",
+        "entryTime": "2026-04-24T06:00:49.320Z"
       }
     ],
     "wins": 0,
@@ -20646,7 +20651,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T02:56:11.615Z",
-    "lastSeen": "2026-04-24T02:56:11.615Z",
+    "lastSeen": "2026-04-24T06:00:49.320Z",
     "confirmed": false
   },
   "HcmLf48vLA8erPXQwR1aCSRN4wtdgZb1fSZ3PdRuW9Y6": {
@@ -23003,6 +23008,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T05:56:18.265Z",
     "lastSeen": "2026-04-24T05:56:18.265Z",
+    "confirmed": false
+  },
+  "4a99KvnPB54997bHcdR3Y18vxh31Ntc8we1wrc2hR6ih": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "stakr",
+        "pairAddress": "AdQjmzigsJm1iDEC74DMmCx2mPznYbTKtuCbukqr34uF",
+        "entryTime": "2026-04-24T06:00:49.320Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T06:00:49.320Z",
+    "lastSeen": "2026-04-24T06:00:49.320Z",
     "confirmed": false
   }
 }
