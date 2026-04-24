@@ -1291,7 +1291,7 @@
     "confirmed": false
   },
   "8SveFUanfbLRMsL6NAXa1LCMmLEsUc7q7KhFBufscG5Y": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1302,6 +1302,11 @@
         "symbol": "BULLISH",
         "pairAddress": "BqmHrB5Us68Rcni4QeMtfCWjHZgTDQM2pmQsHC9jzK7K",
         "entryTime": "2026-04-24T02:30:35.318Z"
+      },
+      {
+        "symbol": "CATCOIN",
+        "pairAddress": "6fNWjfFN6kDKybWK5PFLWqZnpTmoBAswUWvxiG3g5D2D",
+        "entryTime": "2026-04-24T04:11:03.281Z"
       }
     ],
     "wins": 0,
@@ -1309,8 +1314,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:10:24.333Z",
-    "lastSeen": "2026-04-24T02:30:35.318Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T04:11:03.281Z",
+    "confirmed": true
   },
   "3cXQ3v3pu362dWk1iRFgsNKWzTJey7jj4LHmqpg4exXg": {
     "appearances": 1,
@@ -22244,6 +22249,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T04:06:13.953Z",
     "lastSeen": "2026-04-24T04:06:13.953Z",
+    "confirmed": false
+  },
+  "9s1NpF3wCDrBiHnsy1TkGwRtZdV3qNs8PeDRyKNkuL3P": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CATCOIN",
+        "pairAddress": "6fNWjfFN6kDKybWK5PFLWqZnpTmoBAswUWvxiG3g5D2D",
+        "entryTime": "2026-04-24T04:11:03.281Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T04:11:03.281Z",
+    "lastSeen": "2026-04-24T04:11:03.281Z",
     "confirmed": false
   }
 }
