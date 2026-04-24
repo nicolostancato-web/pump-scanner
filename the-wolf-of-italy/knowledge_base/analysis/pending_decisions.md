@@ -1,5 +1,5 @@
 # Pending Decisions
-ANALISTA — 2026-04-24 12:08 Rome
+ANALISTA — 2026-04-24 12:43 Rome
 
 ## BP in attesa di decisione (3/5)
 
@@ -38,11 +38,11 @@ fonte: https://github.com/nicolostancato-web/pump-scanner/blob/main/the-wolf-of-
 note: HUNTER P3 — +38.56% 24h con $45.2M volume su $125.6M MC. #13 trending su CoinGecko. HIGH risk. Test: 2h project research & social sentiment scan.
 ---
 
-**Cross-citation:**
-- CFO (active_positions.md, 11:44): Portfolio totale $51.58 — 1 posizione attiva (JuPSOL $17.07) + cash $34.51 [fonte: active_positions.md]
+*Cross-citation:*
+- CFO (active_positions.md): 404 — file non ancora creato
 - security_state.md: 404 — sistema Security non ancora popolato
 
-**Nota:** Questi 3 BP provengono da HUNTER (crypto-2026-04-24.md). Sono opportunità di monitoraggio a costo zero, non investimenti diretti. I campi "investimento" sono $0 in quanto HUNTER specifica "zero-cost to verify". HIGH risk su tutti — tipico di micro-cap volume-driven plays.
+*Nota:* Questi 3 BP provengono da HUNTER (crypto-2026-04-24.md). Sono opportunità di monitoraggio a costo zero, non investimenti diretti. I campi "investimento" sono $0 in quanto HUNTER specifica "zero-cost to verify". HIGH risk su tutti — tipico di micro-cap volume-driven plays.
 
 ---
-AUDIT: 3 BP letti da opportunities (crypto-2026-04-24.md), 3 aggiunti a dashboard, 0 decisioni processate (A/R/P), pending corrente: 3/5
+AUDIT: 3 BP letti da opportunities (crypto-2026-04-24.md), 0 nuovi BP aggiunti (nessuna nuova opportunità oggi, opportunities/2026-04-24.md → 404), 0 decisioni processate (queue vuota), 3 BP parcheggiati scaduti: nessuno (parked/ → 404), pending corrente: 3/5
