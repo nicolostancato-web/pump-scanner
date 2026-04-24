@@ -16927,12 +16927,17 @@
     "confirmed": false
   },
   "2sT2usN51Zdoqt6wvTHFa8AySdLAi2rsGybsHwegVnX9": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "TRADE",
         "pairAddress": "HqCxHf9iMWnXyejFUrYKd3FexrWKtcWojqsrqTDyZe4x",
         "entryTime": "2026-04-23T23:52:35.482Z"
+      },
+      {
+        "symbol": "chloe",
+        "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
+        "entryTime": "2026-04-24T03:50:43.277Z"
       }
     ],
     "wins": 0,
@@ -16940,7 +16945,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T23:52:35.482Z",
-    "lastSeen": "2026-04-23T23:52:35.482Z",
+    "lastSeen": "2026-04-24T03:50:43.277Z",
     "confirmed": false
   },
   "A35ftKfpSArhk29nqCteGwG8E367BZMQe8Y5o1N7ASLT": {
