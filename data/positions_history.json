@@ -11180,7 +11180,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "236oqnLfnvy1gP66WbV9NLNBsd2cJxA118i9Ctn2Q5uk",
+      "mint": "4dqo1UufNPReHa6kiq1yVsjGQv3J7hL5mioiiVUmpump",
+      "name": "The Boss Monkey",
+      "symbol": "Naruto",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008975,
+      "entryMcap": 89753,
+      "entryTime": 1777055306106,
+      "score": 66,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/236oqnlfnvy1gp66wbv9nlnbsd2cjxa118i9ctn2q5uk",
+      "peakPrice": 0.00008975,
+      "peakMultiplier": 1,
+      "peakMcap": 89753,
+      "peakTime": 1777055306106,
+      "lastPrice": 0.00005828,
+      "lowestPrice": 0.00005828,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005828,
+      "closeMultiplier": 0.6493593314763231,
+      "closedAt": "2026-04-24T18:29:26.176Z",
+      "durationMs": 60070,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005828,
+        "closeMultiplier": 0.6493593314763231,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-24T18:29:26.176Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00005828,
+        "closeMultiplier": 0.6493593314763231,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-24T18:29:26.176Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 20.666666666666668,
+        "floatRotation": 0.5366303076220293,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.5366303076220293,
+        "accel": 20.666666666666668,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 248,
+        "vol5m": 48164.18,
+        "buys5m": 638,
+        "sells5m": 507,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-24T18:10:08.590Z"
+  "lastSaved": "2026-04-24T18:29:27.356Z"
 }
