@@ -4855,7 +4855,7 @@
     "confirmed": false
   },
   "2Jy2VdYU6YmSKL2fAk59iTBHavGUu41HNRMekdwcVUVg": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "KAIRU",
@@ -4871,6 +4871,11 @@
         "symbol": "BILLION",
         "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
         "entryTime": "2026-04-24T03:02:16.484Z"
+      },
+      {
+        "symbol": "Fren",
+        "pairAddress": "CUuskHkGEkgGYU8LSfASNNrtwSECC4iZzZn7yev3XV7g",
+        "entryTime": "2026-04-24T19:26:14.529Z"
       }
     ],
     "wins": 0,
@@ -4878,7 +4883,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T10:34:20.836Z",
-    "lastSeen": "2026-04-24T03:02:16.484Z",
+    "lastSeen": "2026-04-24T19:26:14.529Z",
     "confirmed": true
   },
   "M2oXxYUS8uBqjMRvReTbq5sJjNvmSbJuBYNqieAwq5N": {
@@ -36261,6 +36266,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T19:25:38.100Z",
     "lastSeen": "2026-04-24T19:25:38.100Z",
+    "confirmed": false
+  },
+  "C14LywqB5fGBsvG7mvqrR2mTcpAuJ8uw5DaLiYk8zWJg": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Fren",
+        "pairAddress": "CUuskHkGEkgGYU8LSfASNNrtwSECC4iZzZn7yev3XV7g",
+        "entryTime": "2026-04-24T19:26:14.529Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T19:26:14.529Z",
+    "lastSeen": "2026-04-24T19:26:14.529Z",
     "confirmed": false
   }
 }
