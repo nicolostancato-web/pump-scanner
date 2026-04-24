@@ -28574,5 +28574,22 @@
     "firstSeen": "2026-04-24T12:17:13.477Z",
     "lastSeen": "2026-04-24T12:17:13.477Z",
     "confirmed": false
+  },
+  "6x6RhHG9aHNfNGwpe7qQLCaeMi7vBQLUT2tRdUBQtamY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PPAFS",
+        "pairAddress": "CTjVwjRAhgGrEtLAMDAgNaZyi9Jp1yaKVp7Kk7ZpLHhP",
+        "entryTime": "2026-04-24T12:17:48.467Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T12:17:48.467Z",
+    "lastSeen": "2026-04-24T12:17:48.467Z",
+    "confirmed": false
   }
 }
