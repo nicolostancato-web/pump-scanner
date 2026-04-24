@@ -4818,12 +4818,17 @@
     "confirmed": true
   },
   "6oqxLHxT3GfynLcjAsfg5MJ9fQ6KiNubs5UfseThTPgv": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KAIRU",
         "pairAddress": "Fk9dh4ScbmYgymh8WLUoL5o6zhm9zPgyaSLJYkgv7iyz",
         "entryTime": "2026-04-23T10:33:48.139Z"
+      },
+      {
+        "symbol": "Naruto",
+        "pairAddress": "236oqnLfnvy1gP66WbV9NLNBsd2cJxA118i9Ctn2Q5uk",
+        "entryTime": "2026-04-24T18:31:35.175Z"
       }
     ],
     "wins": 0,
@@ -4831,7 +4836,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T10:33:48.139Z",
-    "lastSeen": "2026-04-23T10:33:48.139Z",
+    "lastSeen": "2026-04-24T18:31:35.175Z",
     "confirmed": false
   },
   "2Jy2VdYU6YmSKL2fAk59iTBHavGUu41HNRMekdwcVUVg": {
@@ -35611,6 +35616,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T18:31:03.121Z",
     "lastSeen": "2026-04-24T18:31:03.121Z",
+    "confirmed": false
+  },
+  "B6sDkJdh8fvcuXqBzyDAhWRWpUGMGtT7pkeztmoyDaeQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Naruto",
+        "pairAddress": "236oqnLfnvy1gP66WbV9NLNBsd2cJxA118i9Ctn2Q5uk",
+        "entryTime": "2026-04-24T18:31:35.175Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T18:31:35.175Z",
+    "lastSeen": "2026-04-24T18:31:35.175Z",
     "confirmed": false
   }
 }
