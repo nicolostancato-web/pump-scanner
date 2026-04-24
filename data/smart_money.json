@@ -23380,12 +23380,17 @@
     "confirmed": false
   },
   "7siFUmZdR1vy84Hcorr1kBoXKkVgLbnDN3Zq1dZEFmZ6": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "0",
         "pairAddress": "AiCA7R1pTLsR4J5eMA9SPEXRXVGST4bZSaSejFkvJKjN",
         "entryTime": "2026-04-24T06:15:08.290Z"
+      },
+      {
+        "symbol": "平平福双",
+        "pairAddress": "58j8Cpydw1SmXiKQiQXei6r38zXNPNUgd4uBpKHr5QCL",
+        "entryTime": "2026-04-24T11:57:21.030Z"
       }
     ],
     "wins": 0,
@@ -23393,7 +23398,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T06:15:08.290Z",
-    "lastSeen": "2026-04-24T06:15:08.290Z",
+    "lastSeen": "2026-04-24T11:57:21.030Z",
     "confirmed": false
   },
   "Hqhq7KFerDm3VR3QpBmaooEpzUPD7DLoyr622ae6rZaL": {
@@ -28050,6 +28055,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T11:50:43.212Z",
     "lastSeen": "2026-04-24T11:50:43.212Z",
+    "confirmed": false
+  },
+  "6krHTBHHdCJbwMttX5sxAvy2vzogx14mwGdJpt6r7xzG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "平平福双",
+        "pairAddress": "58j8Cpydw1SmXiKQiQXei6r38zXNPNUgd4uBpKHr5QCL",
+        "entryTime": "2026-04-24T11:57:21.030Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T11:57:21.030Z",
+    "lastSeen": "2026-04-24T11:57:21.030Z",
     "confirmed": false
   }
 }
