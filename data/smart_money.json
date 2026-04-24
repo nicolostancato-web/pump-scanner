@@ -9691,7 +9691,7 @@
     "confirmed": false
   },
   "JD6rVaerbyz6wjQ433nrw6bFTgFrp46MiYmi8EtUAfsG": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "POB500",
@@ -9702,6 +9702,11 @@
         "symbol": "ENRIQUE",
         "pairAddress": "DtVoDYXHDzVoUkZN7xYTZdX7Ddp4zsc3uW7FQAWCjzxu",
         "entryTime": "2026-04-23T18:57:23.301Z"
+      },
+      {
+        "symbol": "ALIENS",
+        "pairAddress": "B25vtpyX3qQ9gX1CtTxD3ZdUHePtoJwfmfCdxAEJ8rYg",
+        "entryTime": "2026-04-24T13:28:10.405Z"
       }
     ],
     "wins": 0,
@@ -9709,8 +9714,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T16:01:17.264Z",
-    "lastSeen": "2026-04-23T18:57:23.301Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T13:28:10.405Z",
+    "confirmed": true
   },
   "EErYqyLh6cQnE9EfudWcsx4emh7n6GofiXuVzdGbzREU": {
     "appearances": 1,
@@ -29361,6 +29366,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T13:26:56.360Z",
     "lastSeen": "2026-04-24T13:26:56.360Z",
+    "confirmed": false
+  },
+  "7b45fFmC83pjTEP5vmEu9XsUsi33WpuWXwtdhJY8jwqd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "ALIENS",
+        "pairAddress": "B25vtpyX3qQ9gX1CtTxD3ZdUHePtoJwfmfCdxAEJ8rYg",
+        "entryTime": "2026-04-24T13:28:10.405Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T13:28:10.405Z",
+    "lastSeen": "2026-04-24T13:28:10.405Z",
     "confirmed": false
   }
 }
