@@ -1,12 +1,12 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-24 18:42 Rome
+Ultimo aggiornamento: 2026-04-24 18:53 Rome
 
-**Stato corrente: 0/5 BP in dashboard.** ✅ Dashboard vuota, pronta per nuovi BP.
+**Stato corrente: 0/5 BP in dashboard.** ✅ Dashboard vuota.
 
 ## Stato odierno
 | Fonte | Risultato | Note |
 |---|---|---|
-| opportunities/2026-04-24.md | 404 Not Found | Nessuna nuova opportunità oggi |
+| opportunities/2026-04-24.md | 404 Not Found | Nessuna nuova opportunità — Hunter non ha prodotto oggi |
 | parked/ | 404 Not Found | Directory non esiste — nessun BP parcheggiato |
 | decisions_queue.md | Vuota (svuotata 13:24) | Nessuna decisione in coda |
 
@@ -15,15 +15,15 @@ Ultimo aggiornamento: 2026-04-24 18:42 Rome
 | — | — | — | — | — | — |
 
 ## Cross-citation (dati altri agenti)
-- **seen_protocols.md**: 3 BP REJECTED (KAT/BP-001, CHIP/BP-002, SKR/BP-003) dal run 13:24. [fonte: seen_protocols.md raw]
+- **seen_protocols.md**: 3 BP REJECTED (KAT/BP-001, CHIP/BP-002, SKR/BP-003) dal run 13:24. [fonte: pending_decisions.md run 18:42, che citava seen_protocols.md raw]
 - **active_positions.md**: 404 Not Found — CFO non ha ancora creato il file attivo.
 - **security_state.md**: 404 Not Found — SECURITY non ha ancora creato il file.
 
 ## Note
-- Run 18:42 Roma — reset serale non attivo (previsto 22:00).
-- opportunities/2026-04-24.md non disponibile (404). Se Hunter non ha prodotto oggi, nessuna azione necessaria.
+- Run 18:53 Roma — reset serale non attivo (previsto 22:00).
+- opportunities/2026-04-24.md non disponibile (404). Nessuna azione necessaria oggi.
 - Nessun BP parcheggiato da riesumare.
-- decisions_queue.md già vuota dal run precedente.
+- decisions_queue.md già vuota dal run precedente (13:24).
 - Dashboard pronta per domani (2026-04-25).
 
 ---
