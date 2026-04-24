@@ -11012,7 +11012,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
+      "mint": "C8Lwj83fBz9bPKSUxNLEc2QkLF7oVkV7Ja9UKSFLbrrr",
+      "name": "Retard Of The United States",
+      "symbol": "ROTUS",
+      "dex": "meteora",
+      "entryPrice": 0.004158,
+      "entryMcap": 4065012,
+      "entryTime": 1777050476960,
+      "score": 77,
+      "ageAtEntry": 15,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/cxsv4kzqydyfajldyxbqlqs7sk3bzhydmb54w2mzdwor",
+      "peakPrice": 0.004158,
+      "peakMultiplier": 1,
+      "peakMcap": 4065012,
+      "peakTime": 1777050476960,
+      "lastPrice": 0.002644,
+      "lowestPrice": 0.002644,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.002644,
+      "closeMultiplier": 0.6358826358826358,
+      "closedAt": "2026-04-24T17:10:56.096Z",
+      "durationMs": 179136,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.002644,
+        "closeMultiplier": 0.6358826358826358,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-24T17:10:56.096Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.002644,
+        "closeMultiplier": 0.6358826358826358,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-24T17:10:56.096Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 1.2786666666666666,
+        "floatRotation": 0.1626557067974215,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": false,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.1626557067974215,
+        "accel": 1.2786666666666666,
+        "wouldPassV5": false,
+        "failReason": "HF2-mcap($4065k)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($4065k)",
+        "priceChg5m": 19.18,
+        "vol5m": 661197.4,
+        "buys5m": 789,
+        "sells5m": 100,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-24T16:20:52.856Z"
+  "lastSaved": "2026-04-24T17:10:57.308Z"
 }
