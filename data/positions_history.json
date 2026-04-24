@@ -9752,7 +9752,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
+      "mint": "Bspj1BHeX5PtZiEkkYxfiTxF39NRPYZqZAVgCNXZpump",
+      "name": "The Billion Experiment",
+      "symbol": "BILLION",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007208,
+      "entryMcap": 72089,
+      "entryTime": 1777000235726,
+      "score": 68,
+      "ageAtEntry": 28,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/3uujuurzereld1e4vfx4szylwzmzjylfhvscrkjtqhna",
+      "peakPrice": 0.00007208,
+      "peakMultiplier": 1,
+      "peakMcap": 72089,
+      "peakTime": 1777000235726,
+      "lastPrice": 0.00003153,
+      "lowestPrice": 0.00003153,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003153,
+      "closeMultiplier": 0.4374306326304106,
+      "closedAt": "2026-04-24T03:15:35.982Z",
+      "durationMs": 300256,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003153,
+        "closeMultiplier": 0.4374306326304106,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-24T03:15:35.982Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -10,
+        "momentum": 0.8767857142857143,
+        "floatRotation": 0.39513268321103084,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.39513268321103084,
+        "accel": 0.8767857142857143,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(28min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(28min)",
+        "priceChg5m": 24.55,
+        "vol5m": 28484.72,
+        "buys5m": 419,
+        "sells5m": 320,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-23T23:22:45.273Z"
+  "lastSaved": "2026-04-24T03:15:37.265Z"
 }
