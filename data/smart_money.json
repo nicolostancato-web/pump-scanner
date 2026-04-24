@@ -3576,12 +3576,17 @@
     "confirmed": false
   },
   "BXCoSsXXGdGD7Ntr1qSMgmeF2kmNnFj6z9Egysmik9r3": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KYLE",
         "pairAddress": "AqfEkLLSKFpgHq8bi126zhhuPvXbMCR7PfHABnoMiT7y",
         "entryTime": "2026-04-23T09:14:02.793Z"
+      },
+      {
+        "symbol": "stunur",
+        "pairAddress": "2FgispjxbRteYZQEuMvbFmcJpvMeVU4KrHkGzRXjCTBj",
+        "entryTime": "2026-04-24T13:44:08.428Z"
       }
     ],
     "wins": 0,
@@ -3589,7 +3594,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T09:14:02.793Z",
-    "lastSeen": "2026-04-23T09:14:02.793Z",
+    "lastSeen": "2026-04-24T13:44:08.428Z",
     "confirmed": false
   },
   "41HhZiWLRL9Fzk7uEhdxfofMDiiFQWa1S6ijqc3BTGYC": {
@@ -29592,6 +29597,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T13:43:11.072Z",
     "lastSeen": "2026-04-24T13:43:11.072Z",
+    "confirmed": false
+  },
+  "9RWnsJYZ8ky1BQgnfZ6cMQ8pSEAjBFfcgGLepzQEq7zB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "stunur",
+        "pairAddress": "2FgispjxbRteYZQEuMvbFmcJpvMeVU4KrHkGzRXjCTBj",
+        "entryTime": "2026-04-24T13:44:08.428Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T13:44:08.428Z",
+    "lastSeen": "2026-04-24T13:44:08.428Z",
     "confirmed": false
   }
 }
