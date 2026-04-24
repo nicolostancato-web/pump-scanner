@@ -6003,7 +6003,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "Baekgu",
@@ -6054,6 +6054,11 @@
         "symbol": "Gas City",
         "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
         "entryTime": "2026-04-24T08:23:07.788Z"
+      },
+      {
+        "symbol": "BLACKASTER",
+        "pairAddress": "538JbTNoWR4fgdLDZxCfrFkNLH7TqiqY8tTMkBgNSmNp",
+        "entryTime": "2026-04-24T09:44:32.213Z"
       }
     ],
     "wins": 0,
@@ -6061,7 +6066,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:53:09.595Z",
-    "lastSeen": "2026-04-24T08:23:07.788Z",
+    "lastSeen": "2026-04-24T09:44:32.213Z",
     "confirmed": true
   },
   "BKpEfRvpnbqghbb7qBESWhtV6BeDy7WAgmzWB6ZGyi2n": {
@@ -25899,6 +25904,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T09:41:27.650Z",
     "lastSeen": "2026-04-24T09:41:27.650Z",
+    "confirmed": false
+  },
+  "EmKrd24ugWJg48zWga1FuVcp21MLR5HxUFk9US3u3e21": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BLACKASTER",
+        "pairAddress": "538JbTNoWR4fgdLDZxCfrFkNLH7TqiqY8tTMkBgNSmNp",
+        "entryTime": "2026-04-24T09:44:32.213Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T09:44:32.213Z",
+    "lastSeen": "2026-04-24T09:44:32.213Z",
     "confirmed": false
   }
 }
