@@ -9007,12 +9007,17 @@
     "confirmed": false
   },
   "3kUYSWfV6RoQnJWszaUXnMiuAaztqfC5tmEGgCF9JGu8": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "brrrcoin",
         "pairAddress": "HoRcwdnRj1PqGV65i2hCi6DHYgDwj3oPiq7BpuZ1ZhV5",
         "entryTime": "2026-04-23T15:50:32.970Z"
+      },
+      {
+        "symbol": "casinu",
+        "pairAddress": "XyuX63EHuaYvVoh23ovQF2K56ESiiUdXo9dYm53UsWn",
+        "entryTime": "2026-04-24T00:20:56.455Z"
       }
     ],
     "wins": 0,
@@ -9020,7 +9025,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T15:50:32.970Z",
-    "lastSeen": "2026-04-23T15:50:32.970Z",
+    "lastSeen": "2026-04-24T00:20:56.455Z",
     "confirmed": false
   },
   "874nbQSQTwkiKXRHTLh3ouwWPvciSnTEbiaTtegecB8a": {
@@ -17128,6 +17133,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T00:20:20.247Z",
     "lastSeen": "2026-04-24T00:20:20.247Z",
+    "confirmed": false
+  },
+  "AzgWspKoVBU5Lbh7v58zdpzaGkyTebGRGSZraqAYx9jC": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "casinu",
+        "pairAddress": "XyuX63EHuaYvVoh23ovQF2K56ESiiUdXo9dYm53UsWn",
+        "entryTime": "2026-04-24T00:20:56.455Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T00:20:56.455Z",
+    "lastSeen": "2026-04-24T00:20:56.455Z",
     "confirmed": false
   }
 }
