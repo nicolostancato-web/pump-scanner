@@ -17235,7 +17235,7 @@
     "confirmed": false
   },
   "LASTvjDWkbXM1RwUCiniHqGLSEH5xJinDRs56wNPQr9": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "TRADE",
@@ -17246,6 +17246,11 @@
         "symbol": "chloe",
         "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
         "entryTime": "2026-04-24T03:38:25.376Z"
+      },
+      {
+        "symbol": "ROTUS",
+        "pairAddress": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
+        "entryTime": "2026-04-24T17:11:44.589Z"
       }
     ],
     "wins": 0,
@@ -17253,8 +17258,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T23:49:32.569Z",
-    "lastSeen": "2026-04-24T03:38:25.376Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T17:11:44.589Z",
+    "confirmed": true
   },
   "2sT2usN51Zdoqt6wvTHFa8AySdLAi2rsGybsHwegVnX9": {
     "appearances": 2,
@@ -21972,12 +21977,17 @@
     "confirmed": false
   },
   "GNoYNXQ66dnTqcR39nKi2QJSizjxvHHAy9GSbNszQuuq": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "chloe",
         "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
         "entryTime": "2026-04-24T03:44:36.771Z"
+      },
+      {
+        "symbol": "ROTUS",
+        "pairAddress": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
+        "entryTime": "2026-04-24T17:11:44.589Z"
       }
     ],
     "wins": 0,
@@ -21985,7 +21995,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T03:44:36.771Z",
-    "lastSeen": "2026-04-24T03:44:36.771Z",
+    "lastSeen": "2026-04-24T17:11:44.589Z",
     "confirmed": false
   },
   "8C4xJVJvKe3g3zbsoDewqpYdE4qacKJGgTma2fhQQ8Ck": {
