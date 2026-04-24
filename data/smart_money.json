@@ -10039,12 +10039,17 @@
     "confirmed": false
   },
   "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "POB500",
         "pairAddress": "E5rqjHh5hMFCAo4w46Mg7fuPtC6b4K56Va5Cbsj1KvsW",
         "entryTime": "2026-04-23T16:15:42.198Z"
+      },
+      {
+        "symbol": "ROTUS",
+        "pairAddress": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
+        "entryTime": "2026-04-24T17:20:36.784Z"
       }
     ],
     "wins": 0,
@@ -10052,7 +10057,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T16:15:42.198Z",
-    "lastSeen": "2026-04-23T16:15:42.198Z",
+    "lastSeen": "2026-04-24T17:20:36.784Z",
     "confirmed": false
   },
   "6BkTfpka628k83wNbzQp2GfwByqNWr4rHgTEic3ewbfL": {
@@ -34049,6 +34054,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T17:18:48.707Z",
     "lastSeen": "2026-04-24T17:18:48.707Z",
+    "confirmed": false
+  },
+  "nEm76gvVA7tYgffWfmxWurPSunC57KH1iggVM1u7QWX": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "kleptocracy",
+        "pairAddress": "HPARe9JZFBWdCJLkig86GKniJxAesW5bzCSLcUH7GNwZ",
+        "entryTime": "2026-04-24T17:20:36.983Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T17:20:36.983Z",
+    "lastSeen": "2026-04-24T17:20:36.983Z",
     "confirmed": false
   }
 }
