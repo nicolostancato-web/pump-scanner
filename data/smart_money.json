@@ -11386,7 +11386,7 @@
     "confirmed": false
   },
   "JB3vy1Se9fHqY8L5RgY2YFAC4o2eciooPXjLaREqMcRh": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "VESPR",
@@ -11397,6 +11397,11 @@
         "symbol": "GRAMPS",
         "pairAddress": "6wJzMXWijbr6KZFeVx16sczZqgq8gUQnJswxRj4h4QUB",
         "entryTime": "2026-04-23T21:05:41.575Z"
+      },
+      {
+        "symbol": "HOME",
+        "pairAddress": "4g7ZHYvrnCQkmpxJ6miorBvJNFEgder8YZ3NABoUAHik",
+        "entryTime": "2026-04-24T21:42:42.324Z"
       }
     ],
     "wins": 0,
@@ -11404,8 +11409,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T18:12:36.081Z",
-    "lastSeen": "2026-04-23T21:05:41.575Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T21:42:42.324Z",
+    "confirmed": true
   },
   "73K3hQdUpBFKPMCGmfVWM6vR6b7UNt1Ytfg5Lv5Dj7LS": {
     "appearances": 1,
