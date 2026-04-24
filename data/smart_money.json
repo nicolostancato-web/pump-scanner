@@ -4601,7 +4601,7 @@
     "confirmed": false
   },
   "HC8EWBghd22xFPZJKciNeeHnD5KRt6WzFgaWd3nAheLR": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "KAIRU",
@@ -4612,6 +4612,11 @@
         "symbol": "TREE",
         "pairAddress": "9rMpzn4siHBtGqxwRnTETSyky6ph9bHuBcgys5ohzrK4",
         "entryTime": "2026-04-23T20:54:40.762Z"
+      },
+      {
+        "symbol": "KHLOE",
+        "pairAddress": "NUyCs2mnKSV9cPozXnPQ8HxHHtensw53LgNoZ3yuTG8",
+        "entryTime": "2026-04-24T03:46:05.386Z"
       }
     ],
     "wins": 0,
@@ -4619,8 +4624,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T10:33:48.139Z",
-    "lastSeen": "2026-04-23T20:54:40.762Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T03:46:05.386Z",
+    "confirmed": true
   },
   "6oqxLHxT3GfynLcjAsfg5MJ9fQ6KiNubs5UfseThTPgv": {
     "appearances": 1,
