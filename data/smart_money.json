@@ -28024,7 +28024,7 @@
     "confirmed": false
   },
   "HaBNrLJcLHLGgm8DmNfnaQqZp3KCa3fFZnJmhrr2z7Ru": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "MISS",
@@ -28035,6 +28035,11 @@
         "symbol": "GOOD",
         "pairAddress": "FdqUfXHbBXJnBaFMvgK11SpkRdizjKA78E2y6fWYY7XB",
         "entryTime": "2026-04-24T12:56:59.847Z"
+      },
+      {
+        "symbol": "TARIFF",
+        "pairAddress": "3CbWJMh9SwyKMQA1Ujpa63GMDiDtFZvaZLoRQxMLqqHH",
+        "entryTime": "2026-04-24T17:53:07.622Z"
       }
     ],
     "wins": 0,
@@ -28042,8 +28047,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T11:12:57.016Z",
-    "lastSeen": "2026-04-24T12:56:59.847Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T17:53:07.622Z",
+    "confirmed": true
   },
   "Go9RfoZNictD9MQxqWt5NnkwZstpYhjW7eEVvWKN5k9w": {
     "appearances": 1,
@@ -35124,6 +35129,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T17:52:34.667Z",
     "lastSeen": "2026-04-24T17:52:34.667Z",
+    "confirmed": false
+  },
+  "DucVCD8FEL1Ckhxn8YktiWDBvopG3tcMgBtjsjmXZ6R9": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TARIFF",
+        "pairAddress": "3CbWJMh9SwyKMQA1Ujpa63GMDiDtFZvaZLoRQxMLqqHH",
+        "entryTime": "2026-04-24T17:53:07.622Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T17:53:07.622Z",
+    "lastSeen": "2026-04-24T17:53:07.622Z",
     "confirmed": false
   }
 }
