@@ -23768,5 +23768,22 @@
     "firstSeen": "2026-04-24T08:06:50.299Z",
     "lastSeen": "2026-04-24T08:06:50.299Z",
     "confirmed": false
+  },
+  "GrSA79WucRhmyDxHEJabVd7uF6prk9kbHdm5M2GMDysB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Gas City",
+        "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
+        "entryTime": "2026-04-24T08:07:09.004Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T08:07:09.004Z",
+    "lastSeen": "2026-04-24T08:07:09.004Z",
+    "confirmed": false
   }
 }
