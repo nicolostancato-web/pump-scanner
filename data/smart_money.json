@@ -7044,7 +7044,7 @@
     "confirmed": false
   },
   "2fUr8UnHK3EYJJbn2mShJrVKMa2axqi3ytPh5EJoJz2H": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "POSTER",
@@ -7055,6 +7055,11 @@
         "symbol": "CR7",
         "pairAddress": "6RQrV7SreJiD6GDnWK8S3cHfF3mj9e7Sx7wi92AG7Bsu",
         "entryTime": "2026-04-24T01:03:49.659Z"
+      },
+      {
+        "symbol": "BLACKASTER",
+        "pairAddress": "538JbTNoWR4fgdLDZxCfrFkNLH7TqiqY8tTMkBgNSmNp",
+        "entryTime": "2026-04-24T09:28:20.414Z"
       }
     ],
     "wins": 0,
@@ -7062,8 +7067,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T13:44:54.649Z",
-    "lastSeen": "2026-04-24T01:03:49.659Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T09:28:20.414Z",
+    "confirmed": true
   },
   "GzKUHWPtceT2gS7vasN5gK9AoicrqyBKM2swdhduTDLu": {
     "appearances": 1,
@@ -25544,6 +25549,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T09:27:27.193Z",
     "lastSeen": "2026-04-24T09:27:27.193Z",
+    "confirmed": false
+  },
+  "7ZxHFKEs31BmK8vTtcRPKQd7WfNNBa9eath2pazJCyCN": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BLACKASTER",
+        "pairAddress": "538JbTNoWR4fgdLDZxCfrFkNLH7TqiqY8tTMkBgNSmNp",
+        "entryTime": "2026-04-24T09:28:20.414Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T09:28:20.414Z",
+    "lastSeen": "2026-04-24T09:28:20.414Z",
     "confirmed": false
   }
 }
