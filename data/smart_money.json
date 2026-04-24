@@ -18118,12 +18118,17 @@
     "confirmed": false
   },
   "8CKtmt28Em7FZ44Ymhv5uiMB6NKXQeScfxZWn6Ah5P4d": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "eic",
         "pairAddress": "DYboskh7WX2Fdxc45RhEQnQspmnTCM5Xn5MVBWz2eW7q",
         "entryTime": "2026-04-24T01:11:53.328Z"
+      },
+      {
+        "symbol": "elgatito",
+        "pairAddress": "HNFm1dDaUenP411f98urzysD25DzRKtrDFxGovvbb33",
+        "entryTime": "2026-04-24T03:01:27.390Z"
       }
     ],
     "wins": 0,
@@ -18131,7 +18136,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T01:11:53.328Z",
-    "lastSeen": "2026-04-24T01:11:53.328Z",
+    "lastSeen": "2026-04-24T03:01:27.390Z",
     "confirmed": false
   },
   "EYJ9Zg9sgzqggqh99xFqsFiWa2qg3TBrc9jocFJh1Y16": {
