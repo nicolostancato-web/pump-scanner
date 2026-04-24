@@ -24908,12 +24908,17 @@
     "confirmed": false
   },
   "APkGv3PxJWbTNc7x5mPGUhNdnq95HH4p2qzxBMj3fjYY": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "mexicanunc",
         "pairAddress": "6Fy1tEtjteWTs2gvhDQhyswGBJp47FEKkVK6twcgEC5",
         "entryTime": "2026-04-24T08:53:53.432Z"
+      },
+      {
+        "symbol": "eCASH",
+        "pairAddress": "FG91DadNKChRd35Uxg8DpzKFhWadekXey5exmKXn2sD6",
+        "entryTime": "2026-04-24T14:01:11.456Z"
       }
     ],
     "wins": 0,
@@ -24921,7 +24926,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T08:53:53.432Z",
-    "lastSeen": "2026-04-24T08:53:53.432Z",
+    "lastSeen": "2026-04-24T14:01:11.456Z",
     "confirmed": false
   },
   "7t2d1x16HvGZo7Q7MjQHMDg3AK4iC44AntnECfh2HTno": {
@@ -29918,6 +29923,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T14:00:23.713Z",
     "lastSeen": "2026-04-24T14:00:23.713Z",
+    "confirmed": false
+  },
+  "J6jn14BYNEaDsjFyr7iLq9BBCggAnfVyrCSu6nwm36Pb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "eCASH",
+        "pairAddress": "FG91DadNKChRd35Uxg8DpzKFhWadekXey5exmKXn2sD6",
+        "entryTime": "2026-04-24T14:01:11.456Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T14:01:11.456Z",
+    "lastSeen": "2026-04-24T14:01:11.456Z",
     "confirmed": false
   }
 }
