@@ -17783,12 +17783,17 @@
     "confirmed": false
   },
   "G3Va4NXJS19AQGwNzz1Q4UxY2GzDNTtuCQxZvKtpFHtK": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "WILL",
         "pairAddress": "AhCvZRr3sejkqe9nv25Y5CdjTRFCYTRzMPdTprXRAaAF",
         "entryTime": "2026-04-24T00:46:28.270Z"
+      },
+      {
+        "symbol": "HOLYMOLY",
+        "pairAddress": "54FLnSv6g8y3GBxv7G4BQFLXw8zcuuHUhSqAHNrQEYLL",
+        "entryTime": "2026-04-24T04:35:40.331Z"
       }
     ],
     "wins": 0,
@@ -17796,7 +17801,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T00:46:28.270Z",
-    "lastSeen": "2026-04-24T00:46:28.270Z",
+    "lastSeen": "2026-04-24T04:35:40.331Z",
     "confirmed": false
   },
   "EvqYi7yLZJdntQzGsLhP4aiEZWB9eon8sLvPNRoVrRAh": {
@@ -22541,6 +22546,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T04:35:06.829Z",
     "lastSeen": "2026-04-24T04:35:06.829Z",
+    "confirmed": false
+  },
+  "sjU2S6ucddX9zSark6Q9KzVGTY9iL5Eni78xJLGFD9o": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "HOLYMOLY",
+        "pairAddress": "54FLnSv6g8y3GBxv7G4BQFLXw8zcuuHUhSqAHNrQEYLL",
+        "entryTime": "2026-04-24T04:35:40.331Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T04:35:40.331Z",
+    "lastSeen": "2026-04-24T04:35:40.331Z",
     "confirmed": false
   }
 }
