@@ -12307,7 +12307,7 @@
     "confirmed": false
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "ENRIQUE",
@@ -12323,6 +12323,11 @@
         "symbol": "chloe",
         "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
         "entryTime": "2026-04-24T03:46:35.796Z"
+      },
+      {
+        "symbol": "ROTUS",
+        "pairAddress": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
+        "entryTime": "2026-04-24T17:16:14.912Z"
       }
     ],
     "wins": 0,
@@ -12330,7 +12335,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T19:13:54.109Z",
-    "lastSeen": "2026-04-24T03:46:35.796Z",
+    "lastSeen": "2026-04-24T17:16:14.912Z",
     "confirmed": true
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
