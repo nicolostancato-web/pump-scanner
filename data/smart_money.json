@@ -11992,7 +11992,7 @@
     "confirmed": false
   },
   "DsCJ5siuJTPQtQa3A9N69azGZaWtUPzi9VPp2G9Jfpx9": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "ENRIQUE",
@@ -12003,6 +12003,11 @@
         "symbol": "AIB",
         "pairAddress": "Gnqj3eK6TFogKetWVqk9Ayau8jL1YaBEiDtVyBubfB74",
         "entryTime": "2026-04-23T22:29:02.840Z"
+      },
+      {
+        "symbol": "chloe",
+        "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
+        "entryTime": "2026-04-24T03:46:35.796Z"
       }
     ],
     "wins": 0,
@@ -12010,8 +12015,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T19:13:54.109Z",
-    "lastSeen": "2026-04-23T22:29:02.840Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T03:46:35.796Z",
+    "confirmed": true
   },
   "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH": {
     "appearances": 3,
