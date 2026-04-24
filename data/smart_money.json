@@ -33080,5 +33080,22 @@
     "firstSeen": "2026-04-24T16:32:21.355Z",
     "lastSeen": "2026-04-24T16:32:21.355Z",
     "confirmed": false
+  },
+  "14Nx4WH1CYTKCxghsrTb79N9Tg9mjNX4rMrKvRV6dHXd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PORK",
+        "pairAddress": "AMTzr5W7Eu5gNw3d3d3Gjp8RoAN1boW8pciDapQYtaZh",
+        "entryTime": "2026-04-24T16:33:02.569Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T16:33:02.569Z",
+    "lastSeen": "2026-04-24T16:33:02.569Z",
+    "confirmed": false
   }
 }
