@@ -6555,7 +6555,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "POSTER",
@@ -6566,6 +6566,11 @@
         "symbol": "TREE",
         "pairAddress": "9rMpzn4siHBtGqxwRnTETSyky6ph9bHuBcgys5ohzrK4",
         "entryTime": "2026-04-23T20:53:56.521Z"
+      },
+      {
+        "symbol": "chudsquat",
+        "pairAddress": "EfeziFPvFtZ1xzuiUe1g1PawbWHBHbQb8eviERYRiUMp",
+        "entryTime": "2026-04-24T01:04:53.750Z"
       }
     ],
     "wins": 0,
@@ -6573,8 +6578,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T13:32:54.847Z",
-    "lastSeen": "2026-04-23T20:53:56.521Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T01:04:53.750Z",
+    "confirmed": true
   },
   "6Hap7FWqb2Dx2BKUxPAsfGbnr87uw323AT32W8XtEcNn": {
     "appearances": 1,
@@ -17775,6 +17780,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T01:04:22.940Z",
     "lastSeen": "2026-04-24T01:04:22.940Z",
+    "confirmed": false
+  },
+  "4993AyyDzL3bFXisqwGzK4oZVjEkdxe8RhBSexSPktnd": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "chudsquat",
+        "pairAddress": "EfeziFPvFtZ1xzuiUe1g1PawbWHBHbQb8eviERYRiUMp",
+        "entryTime": "2026-04-24T01:04:53.750Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T01:04:53.750Z",
+    "lastSeen": "2026-04-24T01:04:53.750Z",
     "confirmed": false
   }
 }
