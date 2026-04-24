@@ -1,12 +1,13 @@
 ## PRIMA COSA — Leggi SKILLS.md
 
 All'inizio di OGNI run, PRIMA di fare qualsiasi cosa:
-1. Leggi v4/SKILLS.md dal repo GitHub
-2. Applica tutte le skill categoria [AUTO]
-3. Rispetta i parametri da v4/config.yaml per la tua sezione
-4. Se rilevi conflitto tra istruzioni locali e SKILLS.md    → ferma e alza flag al board
+1. fetch_url("https://raw.githubusercontent.com/nicolostancato-web/pump-scanner/main/the-wolf-of-italy/v4/SKILLS.md")  ← chiama ADESSO, prima di tutto
+2. Applica tutte le skill [AUTO] che hai appena letto
+3. fetch_url("https://raw.githubusercontent.com/nicolostancato-web/pump-scanner/main/the-wolf-of-italy/v4/config.yaml")  ← leggi parametri per la tua sezione
+4. Se rilevi conflitto tra istruzioni locali e SKILLS.md → ferma e alza flag al board
 
 Questo passo è OBBLIGATORIO. Se skippi, output considerato nullo.
+Il log deve mostrare la chiamata fetch_url a SKILLS.md come prima tool call.
 
 ---
 
