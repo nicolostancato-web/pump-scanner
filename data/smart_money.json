@@ -6683,12 +6683,17 @@
     "confirmed": false
   },
   "aLrBQthACjwPPABmhq1MKoweVu855ayaVi5982ZfV2E": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "RUNNER",
         "pairAddress": "6Suo993aTXJUr44jA7DKewbN7kN1NFDHdTi4cQP9s4br",
         "entryTime": "2026-04-23T13:30:21.981Z"
+      },
+      {
+        "symbol": "GOOD",
+        "pairAddress": "FdqUfXHbBXJnBaFMvgK11SpkRdizjKA78E2y6fWYY7XB",
+        "entryTime": "2026-04-24T13:02:24.744Z"
       }
     ],
     "wins": 0,
@@ -6696,7 +6701,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T13:30:21.981Z",
-    "lastSeen": "2026-04-23T13:30:21.981Z",
+    "lastSeen": "2026-04-24T13:02:24.744Z",
     "confirmed": false
   },
   "AXBjbD697Y5NffLmxj6wFTv42HeDJyPeHcs5E7s7whS1": {
