@@ -3433,7 +3433,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "ALIVE",
@@ -3474,6 +3474,11 @@
         "symbol": "TRUMPLIEN",
         "pairAddress": "3EAzwQZk1fvs7XVjm9btmeFh9KqVuab3X9PU8aeGRSjq",
         "entryTime": "2026-04-24T19:32:44.540Z"
+      },
+      {
+        "symbol": "BELKA",
+        "pairAddress": "2RMm8BoXPAMwuLwouAcxJym5rAra5FsuGc3Fe4k76qJ8",
+        "entryTime": "2026-04-24T22:48:26.652Z"
       }
     ],
     "wins": 0,
@@ -3481,7 +3486,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:47:30.941Z",
-    "lastSeen": "2026-04-24T19:32:44.540Z",
+    "lastSeen": "2026-04-24T22:48:26.652Z",
     "confirmed": true
   },
   "7rbxsXchaL1Jz46BXbF88k1hBYoWHLaKo8YbofMndW46": {
@@ -38578,6 +38583,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T22:47:53.275Z",
     "lastSeen": "2026-04-24T22:47:53.275Z",
+    "confirmed": false
+  },
+  "FepFuCtwuYTdZawjTGbovEZF9qu8ZEwNJ3XaFWZMyfVS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BELKA",
+        "pairAddress": "2RMm8BoXPAMwuLwouAcxJym5rAra5FsuGc3Fe4k76qJ8",
+        "entryTime": "2026-04-24T22:48:26.652Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T22:48:26.652Z",
+    "lastSeen": "2026-04-24T22:48:26.652Z",
     "confirmed": false
   }
 }
