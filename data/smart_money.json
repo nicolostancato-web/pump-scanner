@@ -6755,7 +6755,7 @@
     "confirmed": false
   },
   "TTnL6h8nMNkhxMTfpnSFfsckpxZwfPMEpSM9gXEo1y4": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "POSTER",
@@ -6776,6 +6776,11 @@
         "symbol": "KHLOE",
         "pairAddress": "NUyCs2mnKSV9cPozXnPQ8HxHHtensw53LgNoZ3yuTG8",
         "entryTime": "2026-04-24T03:58:34.078Z"
+      },
+      {
+        "symbol": "buttplug",
+        "pairAddress": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
+        "entryTime": "2026-04-24T09:50:29.873Z"
       }
     ],
     "wins": 0,
@@ -6783,7 +6788,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T13:32:54.847Z",
-    "lastSeen": "2026-04-24T03:58:34.078Z",
+    "lastSeen": "2026-04-24T09:50:29.873Z",
     "confirmed": true
   },
   "6Hap7FWqb2Dx2BKUxPAsfGbnr87uw323AT32W8XtEcNn": {
@@ -26062,6 +26067,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T09:49:43.680Z",
     "lastSeen": "2026-04-24T09:49:43.680Z",
+    "confirmed": false
+  },
+  "DZciMXMyVCcLMyNZoKMnkRV8cpNEZSV1nZYbRHgYb8yh": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "buttplug",
+        "pairAddress": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
+        "entryTime": "2026-04-24T09:50:29.873Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T09:50:29.873Z",
+    "lastSeen": "2026-04-24T09:50:29.873Z",
     "confirmed": false
   }
 }
