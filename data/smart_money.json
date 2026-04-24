@@ -14209,12 +14209,17 @@
     "confirmed": false
   },
   "4WEtMK4LYEGCDinya5W9DvqFNtCs9dJhRkTRcWwE5nRd": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "GRAMPS",
         "pairAddress": "6wJzMXWijbr6KZFeVx16sczZqgq8gUQnJswxRj4h4QUB",
         "entryTime": "2026-04-23T21:07:24.194Z"
+      },
+      {
+        "symbol": "kleptocrac",
+        "pairAddress": "DCQUgrbHJB5Lk4k7Rcoe8dmWadBEeLBtMj7wsAeKGBtR",
+        "entryTime": "2026-04-24T17:49:32.154Z"
       }
     ],
     "wins": 0,
@@ -14222,7 +14227,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T21:07:24.194Z",
-    "lastSeen": "2026-04-23T21:07:24.194Z",
+    "lastSeen": "2026-04-24T17:49:32.154Z",
     "confirmed": false
   },
   "FuksXcZdAAdM8DsF1CLbd39BYriYeqxSDfGyH9hkXg6Y": {
@@ -34990,6 +34995,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T17:47:00.109Z",
     "lastSeen": "2026-04-24T17:47:00.109Z",
+    "confirmed": false
+  },
+  "3Tkns1mfUL4TKmeyuEcjUjcZ3e62aUqm1ciVUgFBk7pL": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "kleptocrac",
+        "pairAddress": "DCQUgrbHJB5Lk4k7Rcoe8dmWadBEeLBtMj7wsAeKGBtR",
+        "entryTime": "2026-04-24T17:49:32.154Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T17:49:32.154Z",
+    "lastSeen": "2026-04-24T17:49:32.154Z",
     "confirmed": false
   }
 }
