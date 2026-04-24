@@ -1,5 +1,5 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-24 18:53 Rome
+Ultimo aggiornamento: 2026-04-24 18:59 Rome
 
 **Stato corrente: 0/5 BP in dashboard.** ✅ Dashboard vuota.
 
@@ -15,16 +15,17 @@ Ultimo aggiornamento: 2026-04-24 18:53 Rome
 | — | — | — | — | — | — |
 
 ## Cross-citation (dati altri agenti)
-- **seen_protocols.md**: 3 BP REJECTED (KAT/BP-001, CHIP/BP-002, SKR/BP-003) dal run 13:24. [fonte: pending_decisions.md run 18:42, che citava seen_protocols.md raw]
-- **active_positions.md**: 404 Not Found — CFO non ha ancora creato il file attivo.
+- **active_positions.md (CFO)**: Portfolio totale $51.97. Posizione attiva: JupSOL $17.20 (FULLY_DEPLOYED). Cash libero: $34.77 SOL. [fonte: active_positions.md raw, ultimo aggiornamento 2026-04-24 17:06 Rome]
+- **seen_protocols.md**: 3 BP REJECTED (KAT/BP-001, CHIP/BP-002, SKR/BP-003) dal run precedente 13:24. [fonte: pending_decisions.md run 18:53, che cita seen_protocols.md raw]
 - **security_state.md**: 404 Not Found — SECURITY non ha ancora creato il file.
 
 ## Note
-- Run 18:53 Roma — reset serale non attivo (previsto 22:00).
+- Run 18:59 Roma — reset serale non attivo (previsto 22:00).
 - opportunities/2026-04-24.md non disponibile (404). Nessuna azione necessaria oggi.
 - Nessun BP parcheggiato da riesumare.
 - decisions_queue.md già vuota dal run precedente (13:24).
 - Dashboard pronta per domani (2026-04-25).
+- Budget run: $0.02 max_cost_per_run. 6 tool calls effettuate, sotto budget.
 
 ---
 
