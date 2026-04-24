@@ -1133,7 +1133,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 21,
+    "appearances": 22,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1239,6 +1239,11 @@
         "symbol": "CATCOIN",
         "pairAddress": "6fNWjfFN6kDKybWK5PFLWqZnpTmoBAswUWvxiG3g5D2D",
         "entryTime": "2026-04-24T04:11:56.062Z"
+      },
+      {
+        "symbol": "0",
+        "pairAddress": "AiCA7R1pTLsR4J5eMA9SPEXRXVGST4bZSaSejFkvJKjN",
+        "entryTime": "2026-04-24T06:06:15.446Z"
       }
     ],
     "wins": 0,
@@ -1246,7 +1251,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T04:11:56.062Z",
+    "lastSeen": "2026-04-24T06:06:15.446Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
