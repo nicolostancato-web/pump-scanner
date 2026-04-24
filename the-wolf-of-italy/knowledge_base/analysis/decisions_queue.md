@@ -38,3 +38,9 @@ decision: REJECTED
 timestamp: 2026-04-24T13:16:59.898055+02:00
 notes: 
 ---
+
+bp_id: BP-2026-04-24-003
+decision: REJECTED
+timestamp: 2026-04-24T13:17:08.630153+02:00
+notes: 
+---
