@@ -3368,7 +3368,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "ALIVE",
@@ -3399,6 +3399,11 @@
         "symbol": "foid",
         "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
         "entryTime": "2026-04-24T16:44:21.523Z"
+      },
+      {
+        "symbol": "kleptocrac",
+        "pairAddress": "DCQUgrbHJB5Lk4k7Rcoe8dmWadBEeLBtMj7wsAeKGBtR",
+        "entryTime": "2026-04-24T17:44:10.656Z"
       }
     ],
     "wins": 0,
@@ -3406,7 +3411,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:47:30.941Z",
-    "lastSeen": "2026-04-24T16:44:21.523Z",
+    "lastSeen": "2026-04-24T17:44:10.656Z",
     "confirmed": true
   },
   "7rbxsXchaL1Jz46BXbF88k1hBYoWHLaKo8YbofMndW46": {
