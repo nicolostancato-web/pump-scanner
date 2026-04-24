@@ -15755,7 +15755,7 @@
     "confirmed": false
   },
   "48eWH4QFcHFjqyLNyFuSnZAQXacrkJ3RPuJq3tJ4r482": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "AIB",
@@ -15766,6 +15766,11 @@
         "symbol": "TRADE",
         "pairAddress": "HqCxHf9iMWnXyejFUrYKd3FexrWKtcWojqsrqTDyZe4x",
         "entryTime": "2026-04-24T00:02:34.402Z"
+      },
+      {
+        "symbol": "ROTUS",
+        "pairAddress": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
+        "entryTime": "2026-04-24T17:15:38.990Z"
       }
     ],
     "wins": 0,
@@ -15773,8 +15778,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T22:16:43.371Z",
-    "lastSeen": "2026-04-24T00:02:34.402Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T17:15:38.990Z",
+    "confirmed": true
   },
   "DdEhpBQAHggLtWSgNFhokVQzrXubZ8etH3pyC9bxVhdV": {
     "appearances": 1,
@@ -15860,7 +15865,7 @@
     "confirmed": false
   },
   "HvidZDSPXjL9b56chG7VteN3ZhE6ykDfGpwCmtGr98Cn": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "AIB",
@@ -15871,6 +15876,11 @@
         "symbol": "chloe",
         "pairAddress": "DWkrhjSeC1fQDogHmiduTBhtqKEKD7j6CtdE415kKeCi",
         "entryTime": "2026-04-24T03:45:07.416Z"
+      },
+      {
+        "symbol": "ROTUS",
+        "pairAddress": "Cxsv4KzqYdyfajLdYXbqLQs7SK3BzhYDmB54W2MZdWor",
+        "entryTime": "2026-04-24T17:15:38.990Z"
       }
     ],
     "wins": 0,
@@ -15878,8 +15888,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T22:32:10.286Z",
-    "lastSeen": "2026-04-24T03:45:07.416Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T17:15:38.990Z",
+    "confirmed": true
   },
   "EpiDTLf1pvtsF8h7FcZYWfMuEuJSL9ABGa4kkukv2BBY": {
     "appearances": 2,
