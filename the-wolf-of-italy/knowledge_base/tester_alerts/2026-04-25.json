@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-04-25T00:41:59.182488+02:00",
+  "date": "2026-04-25",
+  "checks": {
+    "HUNTER": {
+      "status": "WARN",
+      "msg": "ultimo run 161m fa (>2h)"
+    },
+    "ANALISTA": {
+      "status": "OK",
+      "msg": "pending_decisions 0h fa"
+    },
+    "CFO": {
+      "status": "OK",
+      "msg": "active_positions 3h fa"
+    },
+    "MONITOR": {
+      "status": "PENDING",
+      "msg": "report atteso dopo 08:00"
+    },
+    "SECURITY": {
+      "status": "OK",
+      "msg": "security_state 59m fa"
+    },
+    "TESTER": {
+      "status": "OK",
+      "msg": "eseguito alle 00:41"
+    }
+  },
+  "alerts": [
+    "HUNTER: file 161m fa, atteso <2h"
+  ],
+  "dashboard_issues": []
+}
