@@ -1138,7 +1138,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 25,
+    "appearances": 26,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1264,6 +1264,11 @@
         "symbol": "GEORGE",
         "pairAddress": "AtiinBvxGMTkgPtgZvGP3zYJeEJof9WPwLfNfxFDMGmZ",
         "entryTime": "2026-04-24T10:51:48.615Z"
+      },
+      {
+        "symbol": "4CHAN",
+        "pairAddress": "DXfUiX5vXtRe3jpsRoA8VRqvaxF39cMhPGxS2GNnr9rL",
+        "entryTime": "2026-04-24T14:53:33.289Z"
       }
     ],
     "wins": 0,
@@ -1271,7 +1276,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T10:51:48.615Z",
+    "lastSeen": "2026-04-24T14:53:33.289Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -31370,6 +31375,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T14:52:55.377Z",
     "lastSeen": "2026-04-24T14:52:55.377Z",
+    "confirmed": false
+  },
+  "4iLbnuVqxDbK5rucnwMy7n4QVTGEDGTPNQc5a9SWtmds": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "4CHAN",
+        "pairAddress": "DXfUiX5vXtRe3jpsRoA8VRqvaxF39cMhPGxS2GNnr9rL",
+        "entryTime": "2026-04-24T14:53:33.289Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T14:53:33.289Z",
+    "lastSeen": "2026-04-24T14:53:33.289Z",
     "confirmed": false
   }
 }
