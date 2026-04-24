@@ -31006,12 +31006,17 @@
     "confirmed": false
   },
   "3wrvBt8wFyy4dxMxKpwYpUtv2xzubsCMdUJsTDM6Bhnc": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "IF",
         "pairAddress": "HTj6TZy4qBXjjWEVJvseJquxUpMbJMG63quR1HXxKAB4",
         "entryTime": "2026-04-24T14:28:26.552Z"
+      },
+      {
+        "symbol": "SARA",
+        "pairAddress": "7Hg8gwASQKLy9vkkcPHeEtwucmBoCjvVeqxwfY9M1zWM",
+        "entryTime": "2026-04-24T18:22:30.267Z"
       }
     ],
     "wins": 0,
@@ -31019,7 +31024,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T14:28:26.552Z",
-    "lastSeen": "2026-04-24T14:28:26.552Z",
+    "lastSeen": "2026-04-24T18:22:30.267Z",
     "confirmed": false
   },
   "9KeZVjtZWDYmhPAxWjfi2pCTMeQHfKVL15xD68ZHKRui": {
@@ -35431,6 +35436,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T18:21:17.080Z",
     "lastSeen": "2026-04-24T18:21:17.080Z",
+    "confirmed": false
+  },
+  "H12g9nC6xjAcyoUYe2ew41EX3FouzgptotAqbSrvKrjB": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SARA",
+        "pairAddress": "7Hg8gwASQKLy9vkkcPHeEtwucmBoCjvVeqxwfY9M1zWM",
+        "entryTime": "2026-04-24T18:22:30.267Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T18:22:30.267Z",
+    "lastSeen": "2026-04-24T18:22:30.267Z",
     "confirmed": false
   }
 }
