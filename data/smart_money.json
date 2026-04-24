@@ -18420,5 +18420,22 @@
     "firstSeen": "2026-04-24T01:32:02.488Z",
     "lastSeen": "2026-04-24T01:32:02.488Z",
     "confirmed": false
+  },
+  "7B5nHMrXMw4fNkRKDPbbzydW6dVxcHcYcNH6PX4DQ7xF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FOMO",
+        "pairAddress": "HdCfHfiYT97wWsaKNBMvfrPPSEFeJVaHxePgCeKP9WSv",
+        "entryTime": "2026-04-24T01:48:37.980Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T01:48:37.980Z",
+    "lastSeen": "2026-04-24T01:48:37.980Z",
+    "confirmed": false
   }
 }
