@@ -18218,7 +18218,7 @@
     "confirmed": false
   },
   "8CKtmt28Em7FZ44Ymhv5uiMB6NKXQeScfxZWn6Ah5P4d": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "eic",
@@ -18234,6 +18234,11 @@
         "symbol": "KHLOE",
         "pairAddress": "NUyCs2mnKSV9cPozXnPQ8HxHHtensw53LgNoZ3yuTG8",
         "entryTime": "2026-04-24T03:54:24.021Z"
+      },
+      {
+        "symbol": "stakr",
+        "pairAddress": "AdQjmzigsJm1iDEC74DMmCx2mPznYbTKtuCbukqr34uF",
+        "entryTime": "2026-04-24T05:52:00.776Z"
       }
     ],
     "wins": 0,
@@ -18241,7 +18246,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T01:11:53.328Z",
-    "lastSeen": "2026-04-24T03:54:24.021Z",
+    "lastSeen": "2026-04-24T05:52:00.776Z",
     "confirmed": true
   },
   "EYJ9Zg9sgzqggqh99xFqsFiWa2qg3TBrc9jocFJh1Y16": {
@@ -22874,6 +22879,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T05:51:29.481Z",
     "lastSeen": "2026-04-24T05:51:29.481Z",
+    "confirmed": false
+  },
+  "4EDiUShMzgiUw1d2VfkQbrDTwGAeN3jBzV5yt3UtHrfH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "stakr",
+        "pairAddress": "AdQjmzigsJm1iDEC74DMmCx2mPznYbTKtuCbukqr34uF",
+        "entryTime": "2026-04-24T05:52:00.776Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T05:52:00.776Z",
+    "lastSeen": "2026-04-24T05:52:00.776Z",
     "confirmed": false
   }
 }
