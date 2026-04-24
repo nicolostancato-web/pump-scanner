@@ -1113,7 +1113,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 14,
+    "appearances": 15,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1184,6 +1184,11 @@
         "symbol": "casinu",
         "pairAddress": "XyuX63EHuaYvVoh23ovQF2K56ESiiUdXo9dYm53UsWn",
         "entryTime": "2026-04-24T00:20:20.247Z"
+      },
+      {
+        "symbol": "eic",
+        "pairAddress": "DYboskh7WX2Fdxc45RhEQnQspmnTCM5Xn5MVBWz2eW7q",
+        "entryTime": "2026-04-24T01:18:36.170Z"
       }
     ],
     "wins": 0,
@@ -1191,7 +1196,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T00:20:20.247Z",
+    "lastSeen": "2026-04-24T01:18:36.170Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
