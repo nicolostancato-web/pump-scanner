@@ -2955,7 +2955,7 @@
     "confirmed": false
   },
   "1aDerPKk87xJHCAqTY5bGxF5Xet2MG476y4Zmq2WJ8Y": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "¢",
@@ -2971,6 +2971,11 @@
         "symbol": "IF",
         "pairAddress": "HTj6TZy4qBXjjWEVJvseJquxUpMbJMG63quR1HXxKAB4",
         "entryTime": "2026-04-24T14:30:16.211Z"
+      },
+      {
+        "symbol": "BensHouse",
+        "pairAddress": "EPY1Ggk5KtKJhdBALNNE67QKnARHE6x1njrAshuZ8CBQ",
+        "entryTime": "2026-04-24T21:52:49.906Z"
       }
     ],
     "wins": 0,
@@ -2978,7 +2983,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:23:41.309Z",
-    "lastSeen": "2026-04-24T14:30:16.211Z",
+    "lastSeen": "2026-04-24T21:52:49.906Z",
     "confirmed": true
   },
   "2CRMPUsMieFobHacFrJnzFBfP3Ngvz5fTfYzgzT2T7hw": {
@@ -38237,6 +38242,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T21:51:47.091Z",
     "lastSeen": "2026-04-24T21:51:47.091Z",
+    "confirmed": false
+  },
+  "9U69xxU9eWRebdQ99FSo2FBwfafQZYjL4DT6ZFLqwmga": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BensHouse",
+        "pairAddress": "EPY1Ggk5KtKJhdBALNNE67QKnARHE6x1njrAshuZ8CBQ",
+        "entryTime": "2026-04-24T21:52:49.906Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T21:52:49.906Z",
+    "lastSeen": "2026-04-24T21:52:49.906Z",
     "confirmed": false
   }
 }
