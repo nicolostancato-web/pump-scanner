@@ -1104,12 +1104,17 @@
     "confirmed": false
   },
   "GoabmPTvbR9yJU4CJhLffRDSRhYNubHnRamin2Nreg99": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PIC",
         "pairAddress": "Fj2Y1CpoJwJQxQVZMRTD5JYJ6LLSSvAj4eF28qcGRqMi",
         "entryTime": "2026-04-23T07:03:00.826Z"
+      },
+      {
+        "symbol": "foid",
+        "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
+        "entryTime": "2026-04-24T16:44:04.160Z"
       }
     ],
     "wins": 0,
@@ -1117,7 +1122,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:00.826Z",
-    "lastSeen": "2026-04-23T07:03:00.826Z",
+    "lastSeen": "2026-04-24T16:44:04.160Z",
     "confirmed": false
   },
   "EoF2CXFrLrJ2Mi9mnqkADC1KJgN3vHZDW1CWmy216Gx3": {
