@@ -6695,12 +6695,17 @@
     "confirmed": false
   },
   "AXBjbD697Y5NffLmxj6wFTv42HeDJyPeHcs5E7s7whS1": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "RUNNER",
         "pairAddress": "6Suo993aTXJUr44jA7DKewbN7kN1NFDHdTi4cQP9s4br",
         "entryTime": "2026-04-23T13:31:03.300Z"
+      },
+      {
+        "symbol": "MISS",
+        "pairAddress": "CQc345yHfssu4ipQj4qFh6E6AZU7MSv5Z5Wi1BndqzW",
+        "entryTime": "2026-04-24T11:11:44.260Z"
       }
     ],
     "wins": 0,
@@ -6708,7 +6713,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T13:31:03.300Z",
-    "lastSeen": "2026-04-23T13:31:03.300Z",
+    "lastSeen": "2026-04-24T11:11:44.260Z",
     "confirmed": false
   },
   "5xmxWdUokTP8igKrbNEHzBns5QPUZpFEbo9YFzXVmXkj": {
@@ -27637,6 +27642,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T11:11:22.623Z",
     "lastSeen": "2026-04-24T11:11:22.623Z",
+    "confirmed": false
+  },
+  "6Mj53DLHGsW4tiekzTTSSXghYoWqucGii1NYqXFmbLf3": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "MISS",
+        "pairAddress": "CQc345yHfssu4ipQj4qFh6E6AZU7MSv5Z5Wi1BndqzW",
+        "entryTime": "2026-04-24T11:11:44.260Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T11:11:44.260Z",
+    "lastSeen": "2026-04-24T11:11:44.260Z",
     "confirmed": false
   }
 }
