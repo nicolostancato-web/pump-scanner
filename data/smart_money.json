@@ -33286,12 +33286,17 @@
     "confirmed": false
   },
   "AYPYgjMdMKTw2j4QMyiLdj9bhZQA7WiCQNsbV7AeQivg": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ELMO",
         "pairAddress": "6aNrZMBnfnao2ED7VcrosbTkJws3PaBfZwb2i34c7tt2",
         "entryTime": "2026-04-24T16:38:19.791Z"
+      },
+      {
+        "symbol": "foid",
+        "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
+        "entryTime": "2026-04-24T16:42:07.798Z"
       }
     ],
     "wins": 0,
@@ -33299,7 +33304,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T16:38:19.791Z",
-    "lastSeen": "2026-04-24T16:38:19.791Z",
+    "lastSeen": "2026-04-24T16:42:07.798Z",
     "confirmed": false
   },
   "hahaA2GjzZbwgAwwryjmTb8VkmLt68hdZVHhtcpknpT": {
@@ -33334,6 +33339,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T16:41:18.289Z",
     "lastSeen": "2026-04-24T16:41:18.289Z",
+    "confirmed": false
+  },
+  "DfXooMkGHr9iT31CYfjrFNHBLY3bmMuzrfU3m5zEv5Tm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "foid",
+        "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
+        "entryTime": "2026-04-24T16:42:07.798Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T16:42:07.798Z",
+    "lastSeen": "2026-04-24T16:42:07.798Z",
     "confirmed": false
   }
 }
