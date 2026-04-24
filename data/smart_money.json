@@ -30430,7 +30430,7 @@
     "confirmed": false
   },
   "Sirius6CrwpvKKokCejugLfjyUcqVPZawScz6DqxWjA": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "eCASH",
@@ -30441,6 +30441,11 @@
         "symbol": "IF",
         "pairAddress": "HTj6TZy4qBXjjWEVJvseJquxUpMbJMG63quR1HXxKAB4",
         "entryTime": "2026-04-24T14:17:32.550Z"
+      },
+      {
+        "symbol": "SHIB",
+        "pairAddress": "AhDWtrJioADh41xGVkVg6HKcYD4XUEQfniZ4KimpsaZf",
+        "entryTime": "2026-04-24T20:57:04.039Z"
       }
     ],
     "wins": 0,
@@ -30448,8 +30453,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T14:06:49.713Z",
-    "lastSeen": "2026-04-24T14:17:32.550Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T20:57:04.039Z",
+    "confirmed": true
   },
   "65iEyANVsggRd18ZnpffJejWAUCELhvU9Z9x6xu7o3Fp": {
     "appearances": 1,
@@ -37343,6 +37348,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T20:56:29.434Z",
     "lastSeen": "2026-04-24T20:56:29.434Z",
+    "confirmed": false
+  },
+  "GHVZoi72XM3gCYXrr79prAGVXZYbjaSnFhhq5fHZ2ft": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SHIB",
+        "pairAddress": "AhDWtrJioADh41xGVkVg6HKcYD4XUEQfniZ4KimpsaZf",
+        "entryTime": "2026-04-24T20:57:04.039Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T20:57:04.039Z",
+    "lastSeen": "2026-04-24T20:57:04.039Z",
     "confirmed": false
   }
 }
