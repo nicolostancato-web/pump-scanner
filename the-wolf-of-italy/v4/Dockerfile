@@ -14,3 +14,4 @@ ENV PORT=5000
 EXPOSE 5000
 
 CMD ["python3", "orchestrator.py"]
+# REBUILD 2026-04-24 07:33:01 UTC — force deepseek env reload
