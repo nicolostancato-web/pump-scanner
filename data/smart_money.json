@@ -1138,7 +1138,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 23,
+    "appearances": 24,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1254,6 +1254,11 @@
         "symbol": "mexicanunc",
         "pairAddress": "6Fy1tEtjteWTs2gvhDQhyswGBJp47FEKkVK6twcgEC5",
         "entryTime": "2026-04-24T08:51:15.355Z"
+      },
+      {
+        "symbol": "buttplug",
+        "pairAddress": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
+        "entryTime": "2026-04-24T09:49:13.730Z"
       }
     ],
     "wins": 0,
@@ -1261,7 +1266,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T08:51:15.355Z",
+    "lastSeen": "2026-04-24T09:49:13.730Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -26023,6 +26028,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T09:48:40.266Z",
     "lastSeen": "2026-04-24T09:48:40.266Z",
+    "confirmed": false
+  },
+  "9eYFPTEYJHfg5C3Ehx16hiaJrE222FJmg8KKc4hVSsPi": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "buttplug",
+        "pairAddress": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
+        "entryTime": "2026-04-24T09:49:13.730Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T09:49:13.730Z",
+    "lastSeen": "2026-04-24T09:49:13.730Z",
     "confirmed": false
   }
 }
