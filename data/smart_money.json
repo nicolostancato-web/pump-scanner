@@ -958,7 +958,7 @@
     "confirmed": false
   },
   "amd1RSK3aN3uM7A3GCBN9VEWnBPQFVfGYUgr6pKoLAQ": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "CULT",
@@ -969,6 +969,11 @@
         "symbol": "BULLISH",
         "pairAddress": "BqmHrB5Us68Rcni4QeMtfCWjHZgTDQM2pmQsHC9jzK7K",
         "entryTime": "2026-04-24T02:17:36.843Z"
+      },
+      {
+        "symbol": "Gas City",
+        "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
+        "entryTime": "2026-04-24T08:24:30.675Z"
       }
     ],
     "wins": 0,
@@ -976,8 +981,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T06:53:55.998Z",
-    "lastSeen": "2026-04-24T02:17:36.843Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T08:24:30.675Z",
+    "confirmed": true
   },
   "6Z5dcYBExcLyQdauPK9A7VhMcM2GwEfFzymnjp2kf41a": {
     "appearances": 1,
@@ -24404,6 +24409,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T08:23:07.788Z",
     "lastSeen": "2026-04-24T08:23:07.788Z",
+    "confirmed": false
+  },
+  "JCRWgVifq84wTDzLKPsNyipFWxqvns3i8zTJDhVCjauW": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Gas City",
+        "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
+        "entryTime": "2026-04-24T08:24:30.675Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T08:24:30.675Z",
+    "lastSeen": "2026-04-24T08:24:30.675Z",
     "confirmed": false
   }
 }
