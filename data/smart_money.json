@@ -30455,7 +30455,7 @@
     "confirmed": false
   },
   "Sirius6CrwpvKKokCejugLfjyUcqVPZawScz6DqxWjA": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "eCASH",
@@ -30471,6 +30471,11 @@
         "symbol": "SHIB",
         "pairAddress": "AhDWtrJioADh41xGVkVg6HKcYD4XUEQfniZ4KimpsaZf",
         "entryTime": "2026-04-24T20:57:04.039Z"
+      },
+      {
+        "symbol": "PKSTACK",
+        "pairAddress": "AspUeb3kzLzx1CNGSvsDnDqgqCxzbvm811fAScUdTUHy",
+        "entryTime": "2026-04-24T21:26:25.875Z"
       }
     ],
     "wins": 0,
@@ -30478,7 +30483,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T14:06:49.713Z",
-    "lastSeen": "2026-04-24T20:57:04.039Z",
+    "lastSeen": "2026-04-24T21:26:25.875Z",
     "confirmed": true
   },
   "65iEyANVsggRd18ZnpffJejWAUCELhvU9Z9x6xu7o3Fp": {
