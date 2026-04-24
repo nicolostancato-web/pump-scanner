@@ -8549,12 +8549,17 @@
     "confirmed": false
   },
   "3AM8BaFuGSrVKUL59z92eFeyASCToWSDp8JVmKu6rszg": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "FLIPCOIN",
         "pairAddress": "ALje3Caysp6D4Fmz8kYQ1ywpVUp8dgZSReJ6VfsKNRk5",
         "entryTime": "2026-04-23T15:07:23.358Z"
+      },
+      {
+        "symbol": "NOCTIS",
+        "pairAddress": "ALffRjjaYT9sF8A7yLV3VUGTu9jF2WJd8psGfyHdn22C",
+        "entryTime": "2026-04-24T09:12:49.140Z"
       }
     ],
     "wins": 0,
@@ -8562,7 +8567,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T15:07:23.358Z",
-    "lastSeen": "2026-04-23T15:07:23.358Z",
+    "lastSeen": "2026-04-24T09:12:49.140Z",
     "confirmed": false
   },
   "dzQwK3vTt6DtDFHd86qnH4Gomt41B9SJDqT1odPR4Tb": {
@@ -24908,12 +24913,17 @@
     "confirmed": false
   },
   "2EVdBxRxmAdaLGfzqFaq1KG4877NF5KKUMxEnWzaHAUj": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "mexicanunc",
         "pairAddress": "6Fy1tEtjteWTs2gvhDQhyswGBJp47FEKkVK6twcgEC5",
         "entryTime": "2026-04-24T09:04:00.590Z"
+      },
+      {
+        "symbol": "NOCTIS",
+        "pairAddress": "ALffRjjaYT9sF8A7yLV3VUGTu9jF2WJd8psGfyHdn22C",
+        "entryTime": "2026-04-24T09:12:49.140Z"
       }
     ],
     "wins": 0,
@@ -24921,7 +24931,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T09:04:00.590Z",
-    "lastSeen": "2026-04-24T09:04:00.590Z",
+    "lastSeen": "2026-04-24T09:12:49.140Z",
     "confirmed": false
   },
   "CJjRoJ2y9RNaPv8QN7ufLdW5ecypkewKxgpAAJUamw4H": {
