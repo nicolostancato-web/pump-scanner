@@ -21519,12 +21519,17 @@
     "confirmed": false
   },
   "9LxrZJiczfaTFzU5AYEkjnGtGQvvJj1h7DPyYxA7vSSh": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BILLION",
         "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
         "entryTime": "2026-04-24T03:06:49.777Z"
+      },
+      {
+        "symbol": "Naruto",
+        "pairAddress": "236oqnLfnvy1gP66WbV9NLNBsd2cJxA118i9Ctn2Q5uk",
+        "entryTime": "2026-04-24T18:43:20.954Z"
       }
     ],
     "wins": 0,
@@ -21532,7 +21537,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T03:06:49.777Z",
-    "lastSeen": "2026-04-24T03:06:49.777Z",
+    "lastSeen": "2026-04-24T18:43:20.954Z",
     "confirmed": false
   },
   "D4kx3ZdwwRCJyYVWkkCSDXGjYM3iSXG1ciqE73zUbk1g": {
