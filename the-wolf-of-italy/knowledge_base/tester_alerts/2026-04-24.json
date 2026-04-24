@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T10:20:31.570872+02:00",
+  "timestamp": "2026-04-24T11:22:50.663399+02:00",
   "date": "2026-04-24",
   "checks": {
     "HUNTER": {
@@ -8,11 +8,11 @@
     },
     "ANALISTA": {
       "status": "OK",
-      "msg": "pending_decisions 16h fa"
+      "msg": "pending_decisions 17h fa"
     },
     "CFO": {
       "status": "WARN",
-      "msg": "active_positions 16h fa (>5h)"
+      "msg": "active_positions 17h fa (>5h)"
     },
     "MONITOR": {
       "status": "WARN",
@@ -20,18 +20,18 @@
     },
     "SECURITY": {
       "status": "WARN",
-      "msg": "security_state 992m fa (>2h)"
+      "msg": "security_state 1054m fa (>2h)"
     },
     "TESTER": {
       "status": "OK",
-      "msg": "eseguito alle 10:20"
+      "msg": "eseguito alle 11:22"
     }
   },
   "alerts": [
     "HUNTER: nessun file opportunità per 2026-04-24",
-    "CFO: active_positions.md aggiornato 16h fa, atteso <5h",
+    "CFO: active_positions.md aggiornato 17h fa, atteso <5h",
     "MONITOR: nessun report per 2026-04-24 dopo le 08:00",
-    "SECURITY: security_state.md 992m fa, atteso <2h"
+    "SECURITY: security_state.md 1054m fa, atteso <2h"
   ],
   "dashboard_issues": []
 }
