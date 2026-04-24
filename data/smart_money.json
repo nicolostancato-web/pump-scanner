@@ -34860,12 +34860,17 @@
     "confirmed": false
   },
   "5vZv56a8RhuoNccQgUv1Q8snHHJwoLXQhPw47n5htRuM": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "kleptocrac",
         "pairAddress": "DCQUgrbHJB5Lk4k7Rcoe8dmWadBEeLBtMj7wsAeKGBtR",
         "entryTime": "2026-04-24T17:37:01.130Z"
+      },
+      {
+        "symbol": "SOL",
+        "pairAddress": "GAwUo4qvTAyQE2HzhEGv8YFHcbME8SsD3uVv4UXLf45v",
+        "entryTime": "2026-04-24T22:46:19.322Z"
       }
     ],
     "wins": 0,
@@ -34873,7 +34878,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T17:37:01.130Z",
-    "lastSeen": "2026-04-24T17:37:01.130Z",
+    "lastSeen": "2026-04-24T22:46:19.322Z",
     "confirmed": false
   },
   "AhGdVHEtLi8Uhce38AWXGxQFzHrYanbx9JHBt9RhUw3v": {
@@ -38471,6 +38476,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T22:45:46.989Z",
     "lastSeen": "2026-04-24T22:45:46.989Z",
+    "confirmed": false
+  },
+  "DiBiwF5kwvhFc5EGkXE6Pje3XoqMmWjvE9MVtXjZhfft": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOL",
+        "pairAddress": "GAwUo4qvTAyQE2HzhEGv8YFHcbME8SsD3uVv4UXLf45v",
+        "entryTime": "2026-04-24T22:46:19.322Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T22:46:19.322Z",
+    "lastSeen": "2026-04-24T22:46:19.322Z",
     "confirmed": false
   }
 }
