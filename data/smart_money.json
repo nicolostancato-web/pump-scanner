@@ -7487,7 +7487,7 @@
     "confirmed": false
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "POSTER",
@@ -7503,6 +7503,11 @@
         "symbol": "CumRocket",
         "pairAddress": "BDYu8ZTsoMDys9pHCUA71meboUdTa4innRv27uXvgtmt",
         "entryTime": "2026-04-24T10:29:02.612Z"
+      },
+      {
+        "symbol": "SOL",
+        "pairAddress": "GAwUo4qvTAyQE2HzhEGv8YFHcbME8SsD3uVv4UXLf45v",
+        "entryTime": "2026-04-24T22:43:06.413Z"
       }
     ],
     "wins": 0,
@@ -7510,7 +7515,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T13:48:36.125Z",
-    "lastSeen": "2026-04-24T10:29:02.612Z",
+    "lastSeen": "2026-04-24T22:43:06.413Z",
     "confirmed": true
   },
   "ARqJ18xaBLrEJYARaYHxfRKSi1pB7dZjwq1NW6Fiuieb": {
@@ -38349,6 +38354,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T22:42:40.786Z",
     "lastSeen": "2026-04-24T22:42:40.786Z",
+    "confirmed": false
+  },
+  "2DtoVjznfqGyb3qJXPeFcYFJeHo3h4PhUn3HzwiiVdk5": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOL",
+        "pairAddress": "GAwUo4qvTAyQE2HzhEGv8YFHcbME8SsD3uVv4UXLf45v",
+        "entryTime": "2026-04-24T22:43:06.413Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T22:43:06.413Z",
+    "lastSeen": "2026-04-24T22:43:06.413Z",
     "confirmed": false
   }
 }
