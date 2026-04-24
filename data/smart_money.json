@@ -1615,12 +1615,17 @@
     "confirmed": false
   },
   "B358TdSj3EAE3t8hAibc77nrv16SGn9XqwiAzrPgwa9k": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "PIC",
         "pairAddress": "Fj2Y1CpoJwJQxQVZMRTD5JYJ6LLSSvAj4eF28qcGRqMi",
         "entryTime": "2026-04-23T07:16:45.851Z"
+      },
+      {
+        "symbol": "Gas City",
+        "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
+        "entryTime": "2026-04-24T08:14:09.457Z"
       }
     ],
     "wins": 0,
@@ -1628,7 +1633,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:16:45.851Z",
-    "lastSeen": "2026-04-23T07:16:45.851Z",
+    "lastSeen": "2026-04-24T08:14:09.457Z",
     "confirmed": false
   },
   "jUw6DR26ySs53fXExdjP1572CoUSkqQVHaUVFuK4AYE": {
@@ -23993,6 +23998,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T08:13:06.139Z",
     "lastSeen": "2026-04-24T08:13:06.139Z",
+    "confirmed": false
+  },
+  "CeF5yVXro3yfStqUsVVhxy9VGLywKvagfvZEVXysaWq8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Gas City",
+        "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
+        "entryTime": "2026-04-24T08:14:09.457Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T08:14:09.457Z",
+    "lastSeen": "2026-04-24T08:14:09.457Z",
     "confirmed": false
   }
 }
