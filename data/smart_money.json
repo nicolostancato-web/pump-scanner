@@ -20309,7 +20309,7 @@
     "confirmed": false
   },
   "GEBsDVsiynTD7zW5cNr9Ed71HYthm4Xef3Jmr9JTZJyg": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "BULLISH",
@@ -20325,6 +20325,11 @@
         "symbol": "mahamaxxing",
         "pairAddress": "9sstS7ryuJwaX7D1BzKRDPNh3bvVhipPjA4oKmiBVHtQ",
         "entryTime": "2026-04-24T15:47:00.530Z"
+      },
+      {
+        "symbol": "foid",
+        "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
+        "entryTime": "2026-04-24T16:48:58.047Z"
       }
     ],
     "wins": 0,
@@ -20332,7 +20337,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T02:32:46.089Z",
-    "lastSeen": "2026-04-24T15:47:00.530Z",
+    "lastSeen": "2026-04-24T16:48:58.047Z",
     "confirmed": true
   },
   "6jLAsphwhkazXAJzukD7X7s5UdmfRu55LpyRz1NLk6W8": {
@@ -33668,6 +33673,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T16:48:19.367Z",
     "lastSeen": "2026-04-24T16:48:19.367Z",
+    "confirmed": false
+  },
+  "F5VXa5bfr1LPf3YaNF4YAwnnTo2a22KgZQbYNdnWUgvj": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "foid",
+        "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
+        "entryTime": "2026-04-24T16:48:58.047Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T16:48:58.047Z",
+    "lastSeen": "2026-04-24T16:48:58.047Z",
     "confirmed": false
   }
 }
