@@ -14170,12 +14170,17 @@
     "confirmed": false
   },
   "3AWPpQCHFDs8L2ScACM6ztEZZ96DTgYEPup3q4XxTQTC": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "GRAMPS",
         "pairAddress": "6wJzMXWijbr6KZFeVx16sczZqgq8gUQnJswxRj4h4QUB",
         "entryTime": "2026-04-23T21:06:48.735Z"
+      },
+      {
+        "symbol": "kleptocrac",
+        "pairAddress": "DCQUgrbHJB5Lk4k7Rcoe8dmWadBEeLBtMj7wsAeKGBtR",
+        "entryTime": "2026-04-24T17:46:25.734Z"
       }
     ],
     "wins": 0,
@@ -14183,7 +14188,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T21:06:48.735Z",
-    "lastSeen": "2026-04-23T21:06:48.735Z",
+    "lastSeen": "2026-04-24T17:46:25.734Z",
     "confirmed": false
   },
   "CQRyn2CWw4xzd6NJUCtfr2tVPZixxVny3g3RwHuQbNaD": {
@@ -22778,7 +22783,7 @@
     "confirmed": false
   },
   "6vMNwwuJxAqk2JoFusiTBtRS18Bsx8XGqYX2T7aCpW1z": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "HOLYMOLY",
@@ -22789,6 +22794,11 @@
         "symbol": "mahamaxxin",
         "pairAddress": "6Pc2gZ8xCnDf7cbStecZHfPruJEHzWpTdgfQtzpBqMvp",
         "entryTime": "2026-04-24T16:04:49.008Z"
+      },
+      {
+        "symbol": "kleptocrac",
+        "pairAddress": "DCQUgrbHJB5Lk4k7Rcoe8dmWadBEeLBtMj7wsAeKGBtR",
+        "entryTime": "2026-04-24T17:46:25.734Z"
       }
     ],
     "wins": 0,
@@ -22796,8 +22806,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T04:23:57.222Z",
-    "lastSeen": "2026-04-24T16:04:49.008Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T17:46:25.734Z",
+    "confirmed": true
   },
   "DcRfJtNeVAf92L8nKtDDjFfgytz1Rf4LyNmdZquFkX44": {
     "appearances": 1,
