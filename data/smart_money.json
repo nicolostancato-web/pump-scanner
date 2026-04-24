@@ -23738,12 +23738,17 @@
     "confirmed": false
   },
   "GgyW1XTZiDMrKb1j1ARAfF7GJJFe2SZTiDCkgJD2sJX3": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Bobina",
         "pairAddress": "9866seEyDQtc4kHypwq5UZdqN5Xz8EJicDVbYZ35JU39",
         "entryTime": "2026-04-24T06:25:45.001Z"
+      },
+      {
+        "symbol": "אֶשֶׁך",
+        "pairAddress": "6GspNiz6PEcQPkeGKumXLakn1Giku7U36R6J1d5TncWx",
+        "entryTime": "2026-04-24T12:40:46.471Z"
       }
     ],
     "wins": 0,
@@ -23751,7 +23756,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T06:25:45.001Z",
-    "lastSeen": "2026-04-24T06:25:45.001Z",
+    "lastSeen": "2026-04-24T12:40:46.471Z",
     "confirmed": false
   },
   "6fGGfmE6QujTdJw7ApfLHyxsRPykG48St8abMxpT3YKG": {
@@ -28777,6 +28782,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T12:36:23.928Z",
     "lastSeen": "2026-04-24T12:36:23.928Z",
+    "confirmed": false
+  },
+  "GccxF8auf6x7hiVjThNiuB3Vd7DMcWKPCkzjhHUonNqb": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "אֶשֶׁך",
+        "pairAddress": "6GspNiz6PEcQPkeGKumXLakn1Giku7U36R6J1d5TncWx",
+        "entryTime": "2026-04-24T12:40:46.471Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T12:40:46.471Z",
+    "lastSeen": "2026-04-24T12:40:46.471Z",
     "confirmed": false
   }
 }
