@@ -3358,7 +3358,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "ALIVE",
@@ -3384,6 +3384,11 @@
         "symbol": "eCASH",
         "pairAddress": "FG91DadNKChRd35Uxg8DpzKFhWadekXey5exmKXn2sD6",
         "entryTime": "2026-04-24T14:12:49.395Z"
+      },
+      {
+        "symbol": "foid",
+        "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
+        "entryTime": "2026-04-24T16:44:21.523Z"
       }
     ],
     "wins": 0,
@@ -3391,7 +3396,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:47:30.941Z",
-    "lastSeen": "2026-04-24T14:12:49.395Z",
+    "lastSeen": "2026-04-24T16:44:21.523Z",
     "confirmed": true
   },
   "7rbxsXchaL1Jz46BXbF88k1hBYoWHLaKo8YbofMndW46": {
@@ -33415,6 +33420,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T16:43:45.954Z",
     "lastSeen": "2026-04-24T16:43:45.954Z",
+    "confirmed": false
+  },
+  "7smsR9JVjVbVvh5qTqnDTyXX9QiNsT85hr6VJQVgATbk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "foid",
+        "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
+        "entryTime": "2026-04-24T16:44:21.523Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T16:44:21.523Z",
+    "lastSeen": "2026-04-24T16:44:21.523Z",
     "confirmed": false
   }
 }
