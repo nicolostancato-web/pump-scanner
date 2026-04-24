@@ -6198,7 +6198,7 @@
     "confirmed": false
   },
   "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
-    "appearances": 13,
+    "appearances": 14,
     "tokens": [
       {
         "symbol": "Baekgu",
@@ -6264,6 +6264,11 @@
         "symbol": "SHIB",
         "pairAddress": "AhDWtrJioADh41xGVkVg6HKcYD4XUEQfniZ4KimpsaZf",
         "entryTime": "2026-04-24T21:14:08.311Z"
+      },
+      {
+        "symbol": "SOL",
+        "pairAddress": "GAwUo4qvTAyQE2HzhEGv8YFHcbME8SsD3uVv4UXLf45v",
+        "entryTime": "2026-04-24T22:42:40.786Z"
       }
     ],
     "wins": 0,
@@ -6271,7 +6276,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:53:09.595Z",
-    "lastSeen": "2026-04-24T21:14:08.311Z",
+    "lastSeen": "2026-04-24T22:42:40.786Z",
     "confirmed": true
   },
   "BKpEfRvpnbqghbb7qBESWhtV6BeDy7WAgmzWB6ZGyi2n": {
@@ -38329,38 +38334,21 @@
     "lastSeen": "2026-04-24T21:58:05.421Z",
     "confirmed": false
   },
-  "3XSYLa8VqkTV4RxKGG92nQb3gPziFFFEVLCYkEaEtZ5k": {
+  "3wyPoc26KfCKbZf5MHMCPuXjQAHzdXHBqmBr9Q66mXaD": {
     "appearances": 1,
     "tokens": [
       {
         "symbol": "SOL",
         "pairAddress": "GAwUo4qvTAyQE2HzhEGv8YFHcbME8SsD3uVv4UXLf45v",
-        "entryTime": "2026-04-24T22:42:34.687Z"
+        "entryTime": "2026-04-24T22:42:40.786Z"
       }
     ],
     "wins": 0,
     "losses": 0,
     "totalPeak": 0,
     "avgPeak": 0,
-    "firstSeen": "2026-04-24T22:42:34.687Z",
-    "lastSeen": "2026-04-24T22:42:34.687Z",
-    "confirmed": false
-  },
-  "4UKercFmewDGPXV6LCQMgDWdVoX5ct3trTH18NrvK7AL": {
-    "appearances": 1,
-    "tokens": [
-      {
-        "symbol": "SOL",
-        "pairAddress": "GAwUo4qvTAyQE2HzhEGv8YFHcbME8SsD3uVv4UXLf45v",
-        "entryTime": "2026-04-24T22:42:34.687Z"
-      }
-    ],
-    "wins": 0,
-    "losses": 0,
-    "totalPeak": 0,
-    "avgPeak": 0,
-    "firstSeen": "2026-04-24T22:42:34.687Z",
-    "lastSeen": "2026-04-24T22:42:34.687Z",
+    "firstSeen": "2026-04-24T22:42:40.786Z",
+    "lastSeen": "2026-04-24T22:42:40.786Z",
     "confirmed": false
   }
 }
