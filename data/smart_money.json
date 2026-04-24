@@ -2355,7 +2355,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "POB",
@@ -2396,6 +2396,11 @@
         "symbol": "FOMO",
         "pairAddress": "HdCfHfiYT97wWsaKNBMvfrPPSEFeJVaHxePgCeKP9WSv",
         "entryTime": "2026-04-24T01:53:05.471Z"
+      },
+      {
+        "symbol": "BULLISH",
+        "pairAddress": "BqmHrB5Us68Rcni4QeMtfCWjHZgTDQM2pmQsHC9jzK7K",
+        "entryTime": "2026-04-24T02:27:51.405Z"
       }
     ],
     "wins": 0,
@@ -2403,7 +2408,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:02:06.326Z",
-    "lastSeen": "2026-04-24T01:53:05.471Z",
+    "lastSeen": "2026-04-24T02:27:51.405Z",
     "confirmed": true
   },
   "55NQkFDwwW8noThkL9Rd5ngbgUU36fYZeos1k5ZwjGdn": {
@@ -19661,6 +19666,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T02:27:38.396Z",
     "lastSeen": "2026-04-24T02:27:38.396Z",
+    "confirmed": false
+  },
+  "BGKuGaMRLeaySRCpUVUfDEox6kNh57ESJtQbcqspErSS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BULLISH",
+        "pairAddress": "BqmHrB5Us68Rcni4QeMtfCWjHZgTDQM2pmQsHC9jzK7K",
+        "entryTime": "2026-04-24T02:27:51.405Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T02:27:51.405Z",
+    "lastSeen": "2026-04-24T02:27:51.405Z",
     "confirmed": false
   }
 }
