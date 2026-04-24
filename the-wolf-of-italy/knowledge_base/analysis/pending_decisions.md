@@ -1,5 +1,5 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-25 01:01 Rome
+Ultimo aggiornamento: 2026-04-25 01:07 Rome
 
 **Stato corrente: 0/5 BP in dashboard.** ✅ Dashboard vuota.
 
@@ -16,7 +16,8 @@ Attuale situazione: in attesa del run Hunter (07:00) per nuove opportunità da a
 - **decisions_queue.md**: Vuota — nessuna decisione in coda da processare [fonte: raw.githubusercontent.com/nicolostancato-web/pump-scanner/main/the-wolf-of-italy/knowledge_base/analysis/decisions_queue.md]
 - **parked/**: Directory non esistente (404) — nessun BP parcheggiato da riattivare
 - **pending_deployment.md**: Vuoto — nessun BP in attesa di deploy [fonte: raw.githubusercontent.com/nicolostancato-web/pump-scanner/main/the-wolf-of-italy/knowledge_base/portfolio/pending_deployment.md]
+- **security_state.md**: 404 (non ancora creato) — SECURITY agent non ancora attivo
 
 ---
 
-**AUDIT: 0 BP letti da opportunities/2026-04-24.md (404 → file non trovato), opportunities/2026-04-25.md vuoto (in attesa Hunter 07:00), 0 nuovi BP aggiunti a dashboard (nessun BP disponibile con formato valido), 0 decisioni processate (queue già vuota dal run 13:24), pending corrente: 0/5. Reset serale già eseguito (22:00 2026-04-24).**
+**AUDIT: 0 BP letti da opportunities (404 + file vuoto), 0 nuovi BP aggiunti a dashboard, 0 decisioni processate (queue vuota), pending corrente: 0/5. Reset serale già eseguito (22:00 2026-04-24). Nessuna azione eseguita — in attesa del run Hunter 07:00.**
