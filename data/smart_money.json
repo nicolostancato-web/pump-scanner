@@ -18097,7 +18097,7 @@
     "confirmed": false
   },
   "CSxGx7WUZbfRWN6YAuR9HX8h1vRWsjdY9qFiUABVaKnE": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "WILL",
@@ -18113,6 +18113,11 @@
         "symbol": "ALIENS",
         "pairAddress": "B25vtpyX3qQ9gX1CtTxD3ZdUHePtoJwfmfCdxAEJ8rYg",
         "entryTime": "2026-04-24T13:27:30.786Z"
+      },
+      {
+        "symbol": "mahamaxxin",
+        "pairAddress": "6Pc2gZ8xCnDf7cbStecZHfPruJEHzWpTdgfQtzpBqMvp",
+        "entryTime": "2026-04-24T15:59:14.678Z"
       }
     ],
     "wins": 0,
@@ -18120,7 +18125,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T00:47:28.839Z",
-    "lastSeen": "2026-04-24T13:27:30.786Z",
+    "lastSeen": "2026-04-24T15:59:14.678Z",
     "confirmed": true
   },
   "62okV4PMkci1RFY6fhmbnuaP4boWcpDkxyGZA1xf3pyV": {
@@ -32255,6 +32260,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T15:58:16.221Z",
     "lastSeen": "2026-04-24T15:58:16.221Z",
+    "confirmed": false
+  },
+  "35W14yHfHqv3WjM3oaoAgSuEpMBrjrHfhB6Cmw4QEorG": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "mahamaxxin",
+        "pairAddress": "6Pc2gZ8xCnDf7cbStecZHfPruJEHzWpTdgfQtzpBqMvp",
+        "entryTime": "2026-04-24T15:59:14.678Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T15:59:14.678Z",
+    "lastSeen": "2026-04-24T15:59:14.678Z",
     "confirmed": false
   }
 }
