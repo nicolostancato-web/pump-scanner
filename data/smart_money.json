@@ -20727,5 +20727,22 @@
     "firstSeen": "2026-04-24T03:02:16.484Z",
     "lastSeen": "2026-04-24T03:02:16.484Z",
     "confirmed": false
+  },
+  "BXEG2w8K7BTVrHajxQ9zmdzwdnBxvHrU7HZrSuaBab8z": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BILLION",
+        "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
+        "entryTime": "2026-04-24T03:02:48.583Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T03:02:48.583Z",
+    "lastSeen": "2026-04-24T03:02:48.583Z",
+    "confirmed": false
   }
 }
