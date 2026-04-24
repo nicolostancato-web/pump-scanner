@@ -13507,12 +13507,17 @@
     "confirmed": false
   },
   "2PhvZHiYVcgXcwAXgaegMkquHGKfe6NfQamVQRzQjtqR": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "AIX6900",
         "pairAddress": "1pMVqszkrutkYtU8SooP5ETaiLQWJUDaL2AiavjsS8F",
         "entryTime": "2026-04-23T20:25:17.792Z"
+      },
+      {
+        "symbol": "PKSTACK",
+        "pairAddress": "AspUeb3kzLzx1CNGSvsDnDqgqCxzbvm811fAScUdTUHy",
+        "entryTime": "2026-04-24T21:22:45.047Z"
       }
     ],
     "wins": 0,
@@ -13520,7 +13525,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T20:25:17.792Z",
-    "lastSeen": "2026-04-23T20:25:17.792Z",
+    "lastSeen": "2026-04-24T21:22:45.047Z",
     "confirmed": false
   },
   "GHpgrmU9uS4NgUQCgLsCJwtvnhEqmrAS7SFiJnvBcgDH": {
@@ -37645,6 +37650,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T21:14:08.311Z",
     "lastSeen": "2026-04-24T21:14:08.311Z",
+    "confirmed": false
+  },
+  "2MxsByU3X5gMaqwaNZYUZnHFTpB6yCMfUxxCoeWvWQ8J": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "PKSTACK",
+        "pairAddress": "AspUeb3kzLzx1CNGSvsDnDqgqCxzbvm811fAScUdTUHy",
+        "entryTime": "2026-04-24T21:22:45.047Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T21:22:45.047Z",
+    "lastSeen": "2026-04-24T21:22:45.047Z",
     "confirmed": false
   }
 }
