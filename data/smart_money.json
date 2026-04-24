@@ -4630,7 +4630,7 @@
     "confirmed": false
   },
   "2Jy2VdYU6YmSKL2fAk59iTBHavGUu41HNRMekdwcVUVg": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "KAIRU",
@@ -4641,6 +4641,11 @@
         "symbol": "LandSat",
         "pairAddress": "7FCyvKXtW8iCxGeDVLD9yzbtrPVNgKVeE2c7fjwEnhCX",
         "entryTime": "2026-04-23T14:23:19.784Z"
+      },
+      {
+        "symbol": "BILLION",
+        "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
+        "entryTime": "2026-04-24T03:02:16.484Z"
       }
     ],
     "wins": 0,
@@ -4648,8 +4653,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T10:34:20.836Z",
-    "lastSeen": "2026-04-23T14:23:19.784Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T03:02:16.484Z",
+    "confirmed": true
   },
   "M2oXxYUS8uBqjMRvReTbq5sJjNvmSbJuBYNqieAwq5N": {
     "appearances": 1,
@@ -20704,6 +20709,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T03:01:57.882Z",
     "lastSeen": "2026-04-24T03:01:57.882Z",
+    "confirmed": false
+  },
+  "B2yugxLjy4UxAPcLQNj4xsKuTHh6tLaiCX6GnoV6Coes": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BILLION",
+        "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
+        "entryTime": "2026-04-24T03:02:16.484Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T03:02:16.484Z",
+    "lastSeen": "2026-04-24T03:02:16.484Z",
     "confirmed": false
   }
 }
