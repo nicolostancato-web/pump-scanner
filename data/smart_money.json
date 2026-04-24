@@ -1138,7 +1138,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 22,
+    "appearances": 23,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1249,6 +1249,11 @@
         "symbol": "0",
         "pairAddress": "AiCA7R1pTLsR4J5eMA9SPEXRXVGST4bZSaSejFkvJKjN",
         "entryTime": "2026-04-24T06:06:15.446Z"
+      },
+      {
+        "symbol": "mexicanunc",
+        "pairAddress": "6Fy1tEtjteWTs2gvhDQhyswGBJp47FEKkVK6twcgEC5",
+        "entryTime": "2026-04-24T08:51:15.355Z"
       }
     ],
     "wins": 0,
@@ -1256,7 +1261,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T06:06:15.446Z",
+    "lastSeen": "2026-04-24T08:51:15.355Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -24686,6 +24691,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T08:50:41.748Z",
     "lastSeen": "2026-04-24T08:50:41.748Z",
+    "confirmed": false
+  },
+  "FmyeTuJgW6Z2TvSqsVGXKRmGVPzo3b8R35dFbtYwRkm": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "mexicanunc",
+        "pairAddress": "6Fy1tEtjteWTs2gvhDQhyswGBJp47FEKkVK6twcgEC5",
+        "entryTime": "2026-04-24T08:51:15.355Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T08:51:15.355Z",
+    "lastSeen": "2026-04-24T08:51:15.355Z",
     "confirmed": false
   }
 }
