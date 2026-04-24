@@ -1128,7 +1128,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 18,
+    "appearances": 19,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1219,6 +1219,11 @@
         "symbol": "BILLION",
         "pairAddress": "3uuJUUrzEReLd1E4vFx4szyLwZmzJYLFhVsCRKjTqhNa",
         "entryTime": "2026-04-24T02:47:07.898Z"
+      },
+      {
+        "symbol": "elgatito",
+        "pairAddress": "HNFm1dDaUenP411f98urzysD25DzRKtrDFxGovvbb33",
+        "entryTime": "2026-04-24T02:58:33.784Z"
       }
     ],
     "wins": 0,
@@ -1226,7 +1231,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T02:47:07.898Z",
+    "lastSeen": "2026-04-24T02:58:33.784Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -20570,6 +20575,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T02:58:00.559Z",
     "lastSeen": "2026-04-24T02:58:00.559Z",
+    "confirmed": false
+  },
+  "2gWPswABffpuR4ijvpKjpMqpJJhNmYjVBgXum8yQJkJ4": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "elgatito",
+        "pairAddress": "HNFm1dDaUenP411f98urzysD25DzRKtrDFxGovvbb33",
+        "entryTime": "2026-04-24T02:58:33.784Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T02:58:33.784Z",
+    "lastSeen": "2026-04-24T02:58:33.784Z",
     "confirmed": false
   }
 }
