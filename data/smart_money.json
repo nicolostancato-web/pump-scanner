@@ -33773,12 +33773,17 @@
     "confirmed": false
   },
   "434XgZdHsumvYwpVY9tqday7w9SKWELNKe8zRkpyAGGh": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "foid",
         "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
         "entryTime": "2026-04-24T16:49:32.648Z"
+      },
+      {
+        "symbol": "BURNIEN",
+        "pairAddress": "GW7Ha7brgVXsDBuuMG386YDY4CnBHDDJHw8L5TYuWV6z",
+        "entryTime": "2026-04-24T17:28:52.354Z"
       }
     ],
     "wins": 0,
@@ -33786,7 +33791,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T16:49:32.648Z",
-    "lastSeen": "2026-04-24T16:49:32.648Z",
+    "lastSeen": "2026-04-24T17:28:52.354Z",
     "confirmed": false
   },
   "7J4hoyaMTE5CSHLf5n9xjnvYvePtLCPezuUAMXHru9F4": {
@@ -34263,6 +34268,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T17:28:18.246Z",
     "lastSeen": "2026-04-24T17:28:18.246Z",
+    "confirmed": false
+  },
+  "78xkyvHGEGrsZservJwYX9Nnn8vMQiQsw72AJsExJgY7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "BURNIEN",
+        "pairAddress": "GW7Ha7brgVXsDBuuMG386YDY4CnBHDDJHw8L5TYuWV6z",
+        "entryTime": "2026-04-24T17:28:52.354Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T17:28:52.354Z",
+    "lastSeen": "2026-04-24T17:28:52.354Z",
     "confirmed": false
   }
 }
