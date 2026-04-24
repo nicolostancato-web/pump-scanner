@@ -29834,12 +29834,17 @@
     "confirmed": false
   },
   "6a7tbRtWETeGrzWmLTUFkRAMQ2p9HxN4xCaSinRYnFXZ": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "stunur",
         "pairAddress": "2FgispjxbRteYZQEuMvbFmcJpvMeVU4KrHkGzRXjCTBj",
         "entryTime": "2026-04-24T13:40:49.501Z"
+      },
+      {
+        "symbol": "TRUMPLIEN",
+        "pairAddress": "3EAzwQZk1fvs7XVjm9btmeFh9KqVuab3X9PU8aeGRSjq",
+        "entryTime": "2026-04-24T19:30:25.189Z"
       }
     ],
     "wins": 0,
@@ -29847,7 +29852,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T13:40:49.501Z",
-    "lastSeen": "2026-04-24T13:40:49.501Z",
+    "lastSeen": "2026-04-24T19:30:25.189Z",
     "confirmed": false
   },
   "ESLo85ZsoiiW62kig1vMis8vsqeaB2hMGtMse1buVHak": {
@@ -36429,6 +36434,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T19:29:42.940Z",
     "lastSeen": "2026-04-24T19:29:42.940Z",
+    "confirmed": false
+  },
+  "C3LrfGimqAY8fqMmsuZ3mmP3prXXE8sCerwvqyxaRZNa": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TRUMPLIEN",
+        "pairAddress": "3EAzwQZk1fvs7XVjm9btmeFh9KqVuab3X9PU8aeGRSjq",
+        "entryTime": "2026-04-24T19:30:25.189Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T19:30:25.189Z",
+    "lastSeen": "2026-04-24T19:30:25.189Z",
     "confirmed": false
   }
 }
