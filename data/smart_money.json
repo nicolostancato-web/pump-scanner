@@ -990,12 +990,17 @@
     "confirmed": true
   },
   "6Z5dcYBExcLyQdauPK9A7VhMcM2GwEfFzymnjp2kf41a": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "CULT",
         "pairAddress": "4WSadXJa5KWH3U8SwKRDALfVGTaBpWQXT6LGBSMCJ3S5",
         "entryTime": "2026-04-23T06:55:50.601Z"
+      },
+      {
+        "symbol": "HOME",
+        "pairAddress": "4g7ZHYvrnCQkmpxJ6miorBvJNFEgder8YZ3NABoUAHik",
+        "entryTime": "2026-04-24T21:45:09.091Z"
       }
     ],
     "wins": 0,
@@ -1003,7 +1008,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T06:55:50.601Z",
-    "lastSeen": "2026-04-23T06:55:50.601Z",
+    "lastSeen": "2026-04-24T21:45:09.091Z",
     "confirmed": false
   },
   "HuCYSz8jVB5RCXo4K6yPNwXBX232xMjmaeFfGb1S4ppA": {
@@ -36901,12 +36906,17 @@
     "confirmed": false
   },
   "Ar2Y6o1QmrRAskjii1cRfijeKugHH13ycxW5cd7rro1x": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "silly",
         "pairAddress": "6Cb8MdtbcJGvSPCZgQFc8fwjpMff9sJxKTWy2V6r196L",
         "entryTime": "2026-04-24T19:53:41.549Z"
+      },
+      {
+        "symbol": "HOME",
+        "pairAddress": "4g7ZHYvrnCQkmpxJ6miorBvJNFEgder8YZ3NABoUAHik",
+        "entryTime": "2026-04-24T21:45:09.091Z"
       }
     ],
     "wins": 0,
@@ -36914,7 +36924,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T19:53:41.549Z",
-    "lastSeen": "2026-04-24T19:53:41.549Z",
+    "lastSeen": "2026-04-24T21:45:09.091Z",
     "confirmed": false
   },
   "CASStbiKKzQrFvs835DagrLid7saGriDUHv39Mr8SRUG": {
