@@ -18621,12 +18621,17 @@
     "confirmed": false
   },
   "9dSgQcAbmbAZAzSKMbRyzBmGoKzK1qidc1TEJciUckM4": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "eic",
         "pairAddress": "DYboskh7WX2Fdxc45RhEQnQspmnTCM5Xn5MVBWz2eW7q",
         "entryTime": "2026-04-24T01:16:56.566Z"
+      },
+      {
+        "symbol": "CHIP",
+        "pairAddress": "HnMmmX9PMyjmSXgDVydKwkSzymP9b5hoJpinKbgr6t9g",
+        "entryTime": "2026-04-24T17:01:21.132Z"
       }
     ],
     "wins": 0,
@@ -18634,7 +18639,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T01:16:56.566Z",
-    "lastSeen": "2026-04-24T01:16:56.566Z",
+    "lastSeen": "2026-04-24T17:01:21.132Z",
     "confirmed": false
   },
   "AcjeQVr5D7ShrAG4weADufffJgwd5jJU9sc9pBFmcys5": {
@@ -33853,6 +33858,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T17:00:44.844Z",
     "lastSeen": "2026-04-24T17:00:44.844Z",
+    "confirmed": false
+  },
+  "CoorDhj9zRAvYHWbyrHcn57EXkkYLZjbx8RJYYYrcAhK": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "CHIP",
+        "pairAddress": "HnMmmX9PMyjmSXgDVydKwkSzymP9b5hoJpinKbgr6t9g",
+        "entryTime": "2026-04-24T17:01:21.132Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T17:01:21.132Z",
+    "lastSeen": "2026-04-24T17:01:21.132Z",
     "confirmed": false
   }
 }
