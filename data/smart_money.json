@@ -3811,12 +3811,17 @@
     "confirmed": false
   },
   "siUnnE4sm7kgBS8vwh4naipEknTUR2sLasMWg1LyvKn": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "KYLE",
         "pairAddress": "AqfEkLLSKFpgHq8bi126zhhuPvXbMCR7PfHABnoMiT7y",
         "entryTime": "2026-04-23T09:15:50.774Z"
+      },
+      {
+        "symbol": "SOL",
+        "pairAddress": "GAwUo4qvTAyQE2HzhEGv8YFHcbME8SsD3uVv4UXLf45v",
+        "entryTime": "2026-04-24T22:49:01.667Z"
       }
     ],
     "wins": 0,
@@ -3824,7 +3829,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T09:15:50.774Z",
-    "lastSeen": "2026-04-23T09:15:50.774Z",
+    "lastSeen": "2026-04-24T22:49:01.667Z",
     "confirmed": false
   },
   "FvXiTcPAQCyUdZBFLhJBiYEAfyi79raezsure4qHMkgv": {
@@ -38600,6 +38605,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T22:48:26.652Z",
     "lastSeen": "2026-04-24T22:48:26.652Z",
+    "confirmed": false
+  },
+  "3W5c4mrZhDPWC6nwTr6bMLdfHVAJYVq1GsZAhUmt8MFJ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SOL",
+        "pairAddress": "GAwUo4qvTAyQE2HzhEGv8YFHcbME8SsD3uVv4UXLf45v",
+        "entryTime": "2026-04-24T22:49:01.667Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T22:49:01.667Z",
+    "lastSeen": "2026-04-24T22:49:01.667Z",
     "confirmed": false
   }
 }
