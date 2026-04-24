@@ -20565,7 +20565,7 @@
     "confirmed": false
   },
   "8PvbkfEvshq2SHt7NPvyfrq7ZgXH3refSfEZTeFM1haU": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "BILLION",
@@ -20576,6 +20576,11 @@
         "symbol": "foid",
         "pairAddress": "7JQaRrCoKLj99nTRTSz8Zx8JtHJ5cjSdetZzHNSbUCXX",
         "entryTime": "2026-04-24T16:42:48.497Z"
+      },
+      {
+        "symbol": "CHIP",
+        "pairAddress": "HnMmmX9PMyjmSXgDVydKwkSzymP9b5hoJpinKbgr6t9g",
+        "entryTime": "2026-04-24T17:05:15.732Z"
       }
     ],
     "wins": 0,
@@ -20583,8 +20588,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T02:44:32.003Z",
-    "lastSeen": "2026-04-24T16:42:48.497Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T17:05:15.732Z",
+    "confirmed": true
   },
   "DuheTX25N82S1m5RjrdfidWJz1N8zMYPvaAEeuH4Ftkf": {
     "appearances": 2,
@@ -30013,12 +30018,17 @@
     "confirmed": false
   },
   "CYCXLfHeiU31trs92ei38i94TBECdDEZA5xx5CNctAME": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "eCASH",
         "pairAddress": "FG91DadNKChRd35Uxg8DpzKFhWadekXey5exmKXn2sD6",
         "entryTime": "2026-04-24T13:55:39.717Z"
+      },
+      {
+        "symbol": "CHIP",
+        "pairAddress": "HnMmmX9PMyjmSXgDVydKwkSzymP9b5hoJpinKbgr6t9g",
+        "entryTime": "2026-04-24T17:05:15.732Z"
       }
     ],
     "wins": 0,
@@ -30026,7 +30036,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T13:55:39.717Z",
-    "lastSeen": "2026-04-24T13:55:39.717Z",
+    "lastSeen": "2026-04-24T17:05:15.732Z",
     "confirmed": false
   },
   "4YNuncQMZfAPX5zaf1XR4cQUz43FXUkAHJjahMJGX8th": {
