@@ -7220,7 +7220,7 @@
     "confirmed": false
   },
   "44kdzNHg3XTFz4syy5SDVmu4Gy2DDaXZErqqNieMbBFH": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "POSTER",
@@ -7236,6 +7236,11 @@
         "symbol": "PPAFS",
         "pairAddress": "CTjVwjRAhgGrEtLAMDAgNaZyi9Jp1yaKVp7Kk7ZpLHhP",
         "entryTime": "2026-04-24T12:01:00.042Z"
+      },
+      {
+        "symbol": "mahamaxxin",
+        "pairAddress": "6Pc2gZ8xCnDf7cbStecZHfPruJEHzWpTdgfQtzpBqMvp",
+        "entryTime": "2026-04-24T16:02:19.919Z"
       }
     ],
     "wins": 0,
@@ -7243,7 +7248,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T13:46:15.327Z",
-    "lastSeen": "2026-04-24T12:01:00.042Z",
+    "lastSeen": "2026-04-24T16:02:19.919Z",
     "confirmed": true
   },
   "F9A6zxwtbDhtDk7Ch2gEtSMbgmTNPvR253ah6HsoM6EZ": {
@@ -31515,12 +31520,17 @@
     "confirmed": false
   },
   "7tgQ2rZntLCzzn82duFhEwmRnqmkQ2DBGxf4h7FTVtVb": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "VIBEDOG",
         "pairAddress": "GQxjqN1zeow9zB1CFRjFb2L9GnQrPgmeVXR8YY5pPCj9",
         "entryTime": "2026-04-24T15:08:10.768Z"
+      },
+      {
+        "symbol": "mahamaxxin",
+        "pairAddress": "6Pc2gZ8xCnDf7cbStecZHfPruJEHzWpTdgfQtzpBqMvp",
+        "entryTime": "2026-04-24T16:02:19.919Z"
       }
     ],
     "wins": 0,
@@ -31528,7 +31538,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T15:08:10.768Z",
-    "lastSeen": "2026-04-24T15:08:10.768Z",
+    "lastSeen": "2026-04-24T16:02:19.919Z",
     "confirmed": false
   },
   "FzDj6imnsCK5GxD51TK6r5TfjcG9qFUKMhf3D48xEzp2": {
