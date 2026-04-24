@@ -2425,7 +2425,7 @@
     "confirmed": false
   },
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 10,
+    "appearances": 11,
     "tokens": [
       {
         "symbol": "POB",
@@ -2476,6 +2476,11 @@
         "symbol": "Bobina",
         "pairAddress": "9866seEyDQtc4kHypwq5UZdqN5Xz8EJicDVbYZ35JU39",
         "entryTime": "2026-04-24T06:25:11.130Z"
+      },
+      {
+        "symbol": "mexicanunc",
+        "pairAddress": "6Fy1tEtjteWTs2gvhDQhyswGBJp47FEKkVK6twcgEC5",
+        "entryTime": "2026-04-24T08:54:40.672Z"
       }
     ],
     "wins": 0,
@@ -2483,7 +2488,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T08:02:06.326Z",
-    "lastSeen": "2026-04-24T06:25:11.130Z",
+    "lastSeen": "2026-04-24T08:54:40.672Z",
     "confirmed": true
   },
   "55NQkFDwwW8noThkL9Rd5ngbgUU36fYZeos1k5ZwjGdn": {
@@ -24742,6 +24747,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T08:53:53.432Z",
     "lastSeen": "2026-04-24T08:53:53.432Z",
+    "confirmed": false
+  },
+  "7t2d1x16HvGZo7Q7MjQHMDg3AK4iC44AntnECfh2HTno": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "mexicanunc",
+        "pairAddress": "6Fy1tEtjteWTs2gvhDQhyswGBJp47FEKkVK6twcgEC5",
+        "entryTime": "2026-04-24T08:54:40.672Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T08:54:40.672Z",
+    "lastSeen": "2026-04-24T08:54:40.672Z",
     "confirmed": false
   }
 }
