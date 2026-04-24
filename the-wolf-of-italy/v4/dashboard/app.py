@@ -511,6 +511,34 @@ def log_redirect():
     return redirect(url_for("monitor"))
 
 
+
+# ── LLM diagnostics ───────────────────────────────────────────────────────────
+
+@app.route("/api/llm-test")
+@login_required
+def llm_test():
+    """Quick LLM connectivity test — returns model, status, error."""
+    import asyncio
+    import os
+    try:
+        import litellm
+        model = os.environ.get("LLM_MODEL", "deepseek/deepseek-chat")
+        async def _ping():
+            r = await litellm.acompletion(
+                model=model,
+                messages=[{"role": "user", "content": "Reply with just: OK"}],
+                max_tokens=5, timeout=15,
+            )
+            return r.choices[0].message.content or ""
+        loop = asyncio.new_event_loop()
+        reply = loop.run_until_complete(_ping())
+        loop.close()
+        return jsonify({"status": "ok", "model": model, "reply": reply})
+    except Exception as e:
+        model = os.environ.get("LLM_MODEL", "?")
+        return jsonify({"status": "error", "model": model, "error": str(e)[:400]}), 200
+
+
 if __name__ == "__main__":
     port = int(os.environ.get("DASHBOARD_PORT", 8080))
     app.run(host="0.0.0.0", port=port, debug=False)
