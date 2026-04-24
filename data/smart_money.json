@@ -10279,12 +10279,17 @@
     "confirmed": false
   },
   "2zwsXfnnVGHGqDJZbWrtGeBDhZNCGnMKa9ZQ1aDi6dEC": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "ELIEN",
         "pairAddress": "7gTdfcW83JdvqZDyW6bxByibVrdE2ixZADToZdz2Bqr7",
         "entryTime": "2026-04-23T16:47:13.357Z"
+      },
+      {
+        "symbol": "ULIEN",
+        "pairAddress": "Hs8GLozTrsR76EeejvJE8mXY2J5d8VuQD7r1MU9EfUSj",
+        "entryTime": "2026-04-24T19:12:22.007Z"
       }
     ],
     "wins": 0,
@@ -10292,7 +10297,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T16:47:13.357Z",
-    "lastSeen": "2026-04-23T16:47:13.357Z",
+    "lastSeen": "2026-04-24T19:12:22.007Z",
     "confirmed": false
   },
   "G6A1gPvcf6ZAshY2CBGLCfBE6x5td22HvcXMNQNcyrzp": {
@@ -26527,12 +26532,17 @@
     "confirmed": false
   },
   "G19rddL2LSJHHBofFyV5RRxSAm6ao9SAvq52ryPeMc9Z": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "buttplug",
         "pairAddress": "Fop2e5H222VWjxX77Q3AB3egJSDJSjddQicG1hu7svoh",
         "entryTime": "2026-04-24T09:51:03.979Z"
+      },
+      {
+        "symbol": "ULIEN",
+        "pairAddress": "Hs8GLozTrsR76EeejvJE8mXY2J5d8VuQD7r1MU9EfUSj",
+        "entryTime": "2026-04-24T19:12:22.007Z"
       }
     ],
     "wins": 0,
@@ -26540,7 +26550,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T09:51:03.979Z",
-    "lastSeen": "2026-04-24T09:51:03.979Z",
+    "lastSeen": "2026-04-24T19:12:22.007Z",
     "confirmed": false
   },
   "C6RyVcSZwSbDDgEkNvUw3gHRpqzdyANijNh7B4h9sK2R": {
