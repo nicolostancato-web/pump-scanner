@@ -5737,12 +5737,17 @@
     "confirmed": false
   },
   "DT9owhZMVfZ7DhVk1KMsfoix7qmWyZxHSjewdH7AJbrm": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Baekgu",
         "pairAddress": "6d1yUPu3vifJgT6tkCx3n8NLdg999QTrjLEkjA2uue93",
         "entryTime": "2026-04-23T12:44:01.487Z"
+      },
+      {
+        "symbol": "0",
+        "pairAddress": "AiCA7R1pTLsR4J5eMA9SPEXRXVGST4bZSaSejFkvJKjN",
+        "entryTime": "2026-04-24T06:18:15.118Z"
       }
     ],
     "wins": 0,
@@ -5750,7 +5755,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T12:44:01.487Z",
-    "lastSeen": "2026-04-23T12:44:01.487Z",
+    "lastSeen": "2026-04-24T06:18:15.118Z",
     "confirmed": false
   },
   "8JmDyRU8QHYtRPmxunxSLgY942k6RxmMpKnaKziruCjJ": {
@@ -23283,6 +23288,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T06:17:41.789Z",
     "lastSeen": "2026-04-24T06:17:41.789Z",
+    "confirmed": false
+  },
+  "5gKNX3FfEZtMqNtoQ59GxEgydLNX8VLFd3ergnptmQMF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "0",
+        "pairAddress": "AiCA7R1pTLsR4J5eMA9SPEXRXVGST4bZSaSejFkvJKjN",
+        "entryTime": "2026-04-24T06:18:15.118Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-24T06:18:15.118Z",
+    "lastSeen": "2026-04-24T06:18:15.118Z",
     "confirmed": false
   }
 }
