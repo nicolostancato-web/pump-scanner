@@ -1,14 +1,14 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-24 22:50 Roma
+Ultimo aggiornamento: 2026-04-24 23:29 Roma
 
 **Stato corrente: 0/5 BP in dashboard.** ✅ Dashboard vuota.
 
 ## Reset Serale
-Reset già eseguito al run 22:39. Nessun BP da spostare.
+Reset già eseguito al run 22:39. Nessun BP da spostare. Run corrente 23:29 — verifica stato.
 
 ## Cross-citazione (dati altri agenti)
 - **seen_protocols.md**: 3 BP processati (KAT, CHIP, SKR) — tutti REJECTED [fonte: raw.githubusercontent.com/nicolostancato-web/pump-scanner/main/the-wolf-of-italy/knowledge_base/analysis/seen_protocols.md]
-- **active_positions.md**: FILE NON TROVATO (404) — CFO non ha ancora creato il file [fonte: raw.githubusercontent.com/nicolostancato-web/pump-scanner/main/the-wolf-of-italy/knowledge_base/analysis/active_positions.md]
+- **active_positions.md**: 1 posizione attiva (BP-2026-04-23-001 JupSOL), valore $14.64, portfolio totale $49.63 [fonte: raw.githubusercontent.com/nicolostancato-web/pump-scanner/main/the-wolf-of-italy/knowledge_base/portfolio/active_positions.md]
 
 ---
 
