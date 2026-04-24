@@ -1153,7 +1153,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 32,
+    "appearances": 33,
     "tokens": [
       {
         "symbol": "PIC",
@@ -1314,6 +1314,11 @@
         "symbol": "HOME",
         "pairAddress": "4g7ZHYvrnCQkmpxJ6miorBvJNFEgder8YZ3NABoUAHik",
         "entryTime": "2026-04-24T21:41:08.252Z"
+      },
+      {
+        "symbol": "BensHouse",
+        "pairAddress": "EPY1Ggk5KtKJhdBALNNE67QKnARHE6x1njrAshuZ8CBQ",
+        "entryTime": "2026-04-24T21:52:18.277Z"
       }
     ],
     "wins": 0,
@@ -1321,7 +1326,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-23T07:03:35.214Z",
-    "lastSeen": "2026-04-24T21:41:08.252Z",
+    "lastSeen": "2026-04-24T21:52:18.277Z",
     "confirmed": true
   },
   "FJMrwK6bSapvDxhNgdaXeMXVatbrby6RojTcoWdpJ4QH": {
@@ -24188,7 +24193,7 @@
     "confirmed": false
   },
   "GgyW1XTZiDMrKb1j1ARAfF7GJJFe2SZTiDCkgJD2sJX3": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Bobina",
@@ -24199,6 +24204,11 @@
         "symbol": "אֶשֶׁך",
         "pairAddress": "6GspNiz6PEcQPkeGKumXLakn1Giku7U36R6J1d5TncWx",
         "entryTime": "2026-04-24T12:40:46.471Z"
+      },
+      {
+        "symbol": "BensHouse",
+        "pairAddress": "EPY1Ggk5KtKJhdBALNNE67QKnARHE6x1njrAshuZ8CBQ",
+        "entryTime": "2026-04-24T21:52:18.277Z"
       }
     ],
     "wins": 0,
@@ -24206,8 +24216,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T06:25:45.001Z",
-    "lastSeen": "2026-04-24T12:40:46.471Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T21:52:18.277Z",
+    "confirmed": true
   },
   "6fGGfmE6QujTdJw7ApfLHyxsRPykG48St8abMxpT3YKG": {
     "appearances": 1,
