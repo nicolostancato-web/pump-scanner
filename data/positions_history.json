@@ -10760,7 +10760,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "CTjVwjRAhgGrEtLAMDAgNaZyi9Jp1yaKVp7Kk7ZpLHhP",
+      "mint": "CeU6JHyE5sqeSJ6VSJ4jUavcoufUnztJhZTmFa37pump",
+      "name": "Ping Ping and Fu Shuang",
+      "symbol": "PPAFS",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000589,
+      "entryMcap": 58906,
+      "entryTime": 1777035156454,
+      "score": 68,
+      "ageAtEntry": 63,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/ctjvwjrahggretlamdagnazyi9jp1yakvp7kk7zplhhp",
+      "peakPrice": 0.0000589,
+      "peakMultiplier": 1,
+      "peakMcap": 58906,
+      "peakTime": 1777035156454,
+      "lastPrice": 0.00002632,
+      "lowestPrice": 0.00002632,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00002632,
+      "closeMultiplier": 0.4468590831918506,
+      "closedAt": "2026-04-24T12:54:36.594Z",
+      "durationMs": 120140,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00002632,
+        "closeMultiplier": 0.4468590831918506,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-24T12:54:36.594Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 8.523809523809524,
+        "floatRotation": 0.36688266050996504,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.36688266050996504,
+        "accel": 8.523809523809524,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(63min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(63min)",
+        "priceChg5m": 537,
+        "vol5m": 21611.59,
+        "buys5m": 307,
+        "sells5m": 91,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-24T12:35:02.449Z"
+  "lastSaved": "2026-04-24T12:54:37.832Z"
 }
