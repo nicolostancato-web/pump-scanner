@@ -18305,7 +18305,7 @@
     "confirmed": false
   },
   "kEFiAX3jo5NmemysQov342TZ9mGh6yp92GDRjhA8XDf": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "WILL",
@@ -18316,6 +18316,11 @@
         "symbol": "Gas City",
         "pairAddress": "GZHdiJh7GFBuUpxu49Az629myH6xA7zRJXFo9baqwetv",
         "entryTime": "2026-04-24T08:06:12.406Z"
+      },
+      {
+        "symbol": "SARA",
+        "pairAddress": "7Hg8gwASQKLy9vkkcPHeEtwucmBoCjvVeqxwfY9M1zWM",
+        "entryTime": "2026-04-24T18:21:52.702Z"
       }
     ],
     "wins": 0,
@@ -18323,8 +18328,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T00:52:36.158Z",
-    "lastSeen": "2026-04-24T08:06:12.406Z",
-    "confirmed": false
+    "lastSeen": "2026-04-24T18:21:52.702Z",
+    "confirmed": true
   },
   "8atqncTT9JSqdwc4g4Vkejnqe5xbFncdXCdz3vjvgX4x": {
     "appearances": 1,
@@ -20604,12 +20609,17 @@
     "confirmed": false
   },
   "E84bqTUdsZhHMvsHneFeJwyqTixydzw3zwBUdkUSHGED": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "BULLISH",
         "pairAddress": "BqmHrB5Us68Rcni4QeMtfCWjHZgTDQM2pmQsHC9jzK7K",
         "entryTime": "2026-04-24T02:39:23.037Z"
+      },
+      {
+        "symbol": "SARA",
+        "pairAddress": "7Hg8gwASQKLy9vkkcPHeEtwucmBoCjvVeqxwfY9M1zWM",
+        "entryTime": "2026-04-24T18:21:52.702Z"
       }
     ],
     "wins": 0,
@@ -20617,7 +20627,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T02:39:23.037Z",
-    "lastSeen": "2026-04-24T02:39:23.037Z",
+    "lastSeen": "2026-04-24T18:21:52.702Z",
     "confirmed": false
   },
   "73Gq7GNBvXdhwyXavMPcSb6fUkAMtLpvHjvpqXxbYeSG": {
