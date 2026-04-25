@@ -1854,7 +1854,7 @@
     "confirmed": false
   },
   "3hs2zxnxHiWVTUgLyyEVUa2VtGGEb298PWb2UqNvdxQY": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "shithead",
@@ -1865,6 +1865,11 @@
         "symbol": "LASTMAN",
         "pairAddress": "AkxYXNs4pfxgmzk7sccZvG2jtYjNN1iiVkRGaKpaVu3o",
         "entryTime": "2026-04-25T06:38:03.557Z"
+      },
+      {
+        "symbol": "SHIBABUTT",
+        "pairAddress": "4kNK7MsufgqiLEVzymEU6xi8NynQpEhWtatGRhzKQ7R5",
+        "entryTime": "2026-04-25T07:30:36.206Z"
       }
     ],
     "wins": 0,
@@ -1872,8 +1877,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-25T01:00:30.351Z",
-    "lastSeen": "2026-04-25T06:38:03.557Z",
-    "confirmed": false
+    "lastSeen": "2026-04-25T07:30:36.206Z",
+    "confirmed": true
   },
   "DtLDa1WRscK64BcG8QjhTbtn4mzLKfxgV6bnWnuFJ9TB": {
     "appearances": 1,
@@ -7463,6 +7468,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T07:29:58.751Z",
     "lastSeen": "2026-04-25T07:29:58.751Z",
+    "confirmed": false
+  },
+  "8dfJ7kzGGziUvnko8qL6sqYeFVMYyAJr1eEUuswykitY": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SHIBABUTT",
+        "pairAddress": "4kNK7MsufgqiLEVzymEU6xi8NynQpEhWtatGRhzKQ7R5",
+        "entryTime": "2026-04-25T07:30:36.206Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T07:30:36.206Z",
+    "lastSeen": "2026-04-25T07:30:36.206Z",
     "confirmed": false
   }
 }
