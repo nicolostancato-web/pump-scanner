@@ -5701,12 +5701,17 @@
     "confirmed": false
   },
   "DrnuP46qcf7b7utTY9Esm46SwkTFhYu4TrtRGTyvkE67": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Flork",
         "pairAddress": "ELe7EtbX7m3aeBKKJYm4QYVXkwmJJwVcR6K4Nho27f4i",
         "entryTime": "2026-04-25T04:58:52.383Z"
+      },
+      {
+        "symbol": "TULY",
+        "pairAddress": "4XL7LajyXzH1Y7Bbqnv7wyJEXDCAvPjVdPQ5VaPPtmQs",
+        "entryTime": "2026-04-25T06:30:56.543Z"
       }
     ],
     "wins": 0,
@@ -5714,7 +5719,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-25T04:58:52.383Z",
-    "lastSeen": "2026-04-25T04:58:52.383Z",
+    "lastSeen": "2026-04-25T06:30:56.543Z",
     "confirmed": false
   },
   "44kdzNHg3XTFz4syy5SDVmu4Gy2DDaXZErqqNieMbBFH": {
@@ -6434,6 +6439,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T06:30:20.980Z",
     "lastSeen": "2026-04-25T06:30:20.980Z",
+    "confirmed": false
+  },
+  "3q8qaWiENCd9kGeVdZuMHu4uTvkCDgMhpLSQqqmSoh3U": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LASTMAN",
+        "pairAddress": "AkxYXNs4pfxgmzk7sccZvG2jtYjNN1iiVkRGaKpaVu3o",
+        "entryTime": "2026-04-25T06:30:55.576Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T06:30:55.576Z",
+    "lastSeen": "2026-04-25T06:30:55.576Z",
+    "confirmed": false
+  },
+  "B27vwq89vX3oDa8fFNGiqQWB2wRiSmsmD8Hw2JuRefC8": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TULY",
+        "pairAddress": "4XL7LajyXzH1Y7Bbqnv7wyJEXDCAvPjVdPQ5VaPPtmQs",
+        "entryTime": "2026-04-25T06:30:56.543Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T06:30:56.543Z",
+    "lastSeen": "2026-04-25T06:30:56.543Z",
     "confirmed": false
   }
 }
