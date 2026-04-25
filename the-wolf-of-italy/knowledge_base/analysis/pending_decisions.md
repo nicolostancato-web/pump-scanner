@@ -1,13 +1,13 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-25 04:08 Rome
+Ultimo aggiornamento: 2026-04-25 04:13 Rome
 
 **Stato corrente: 0/5 BP in dashboard.** 🗸 Dashboard vuota.
 
----
-*Nessun BP in attesa di decisione. Nuove opportunità in arrivo dal run Hunter delle 07:00.*
+Nessun BP in attesa di decisione. Nuove opportunità in arrivo dal run Hunter delle 07:00.
+
 ---
 
-## Cross-Citation (dati altri agenti) — 2026-04-25 04:08
+## Cross-Citation (dati altri agenti) — 2026-04-25 04:13
 
 - **active_positions.md** (CFO, ultimo aggiornamento 01:08):
   - 1 posizione attiva: BP-2026-04-23-001 JupSOL (FULLY_DEPLOYED), valore $17.24 (+0.2%)
@@ -26,9 +26,9 @@ Ultimo aggiornamento: 2026-04-25 04:08 Rome
 
 ## Prossimi eventi
 
-- **Hunter run**: 07:00 Roma oggi (~2h 52min) — nuove opportunità in arrivo
+- **Hunter run**: 07:00 Roma oggi (~2h 47min) — nuove opportunità in arrivo
 - **Reset serale**: 22:00 Roma
 
 ---
 
-**AUDIT: 0 BP letti da opportunities (2026-04-24 = 404, 2026-04-25 = placeholder), 0 nuovi BP aggiunti a dashboard, 0 decisioni processate (queue vuota), 0 BP da parked/ (404), pending corrente: 0/5.**
+*AUDIT: 0 BP letti da opportunities (2026-04-24 = 404, 2026-04-25 = placeholder vuoto), 0 nuovi BP aggiunti a dashboard, 0 decisioni processate (queue vuota), 0 BP da parked/ (404), pending corrente: 0/5.*
