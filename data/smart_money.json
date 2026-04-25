@@ -95,7 +95,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 6,
+    "appearances": 7,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -126,6 +126,11 @@
         "symbol": "SAPE",
         "pairAddress": "5uczSBxgLdwtjvCv9J7hAeJdifwhGm4Yn1q3R1hPKdmH",
         "entryTime": "2026-04-25T02:33:52.890Z"
+      },
+      {
+        "symbol": "154",
+        "pairAddress": "BGcss4XcWjanr11b8pxh78mhwrhVy9FUCk6Akzf2FiwP",
+        "entryTime": "2026-04-25T04:20:45.339Z"
       }
     ],
     "wins": 0,
@@ -133,7 +138,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:28:06.160Z",
-    "lastSeen": "2026-04-25T02:33:52.890Z",
+    "lastSeen": "2026-04-25T04:20:45.339Z",
     "confirmed": true
   },
   "77teBqbsZvVjyRACgNHnEBmJMsj6eHQydYxZsGjkoFii": {
@@ -5029,6 +5034,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T04:16:33.940Z",
     "lastSeen": "2026-04-25T04:16:33.940Z",
+    "confirmed": false
+  },
+  "FHxgtohUquRY16JbDZdgTbnmzC9JPJfVEdPhkZcJVSx": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "154",
+        "pairAddress": "BGcss4XcWjanr11b8pxh78mhwrhVy9FUCk6Akzf2FiwP",
+        "entryTime": "2026-04-25T04:20:45.339Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T04:20:45.339Z",
+    "lastSeen": "2026-04-25T04:20:45.339Z",
     "confirmed": false
   }
 }
