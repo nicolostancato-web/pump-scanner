@@ -5550,5 +5550,22 @@
     "firstSeen": "2026-04-25T04:39:33.066Z",
     "lastSeen": "2026-04-25T04:39:33.066Z",
     "confirmed": false
+  },
+  "3tc4yGytrCf9BtPkYgL7QBpH65wdThaDudThd5QJJW34": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "154",
+        "pairAddress": "BGcss4XcWjanr11b8pxh78mhwrhVy9FUCk6Akzf2FiwP",
+        "entryTime": "2026-04-25T04:40:04.534Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T04:40:04.534Z",
+    "lastSeen": "2026-04-25T04:40:04.534Z",
+    "confirmed": false
   }
 }
