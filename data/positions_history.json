@@ -11264,7 +11264,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8unR687y1RJJNPRSt1fNHU4jHmDUtg7JLydRxqp5FvJy",
+      "mint": "W2Y5ByAEcs3ZURTAnt1Sx49MN76eogHiiTtYkLypump",
+      "name": "Death to Labubu",
+      "symbol": "MIRUMI",
+      "dex": "pumpswap",
+      "entryPrice": 0.000534,
+      "entryMcap": 534051,
+      "entryTime": 1777089753694,
+      "score": 67,
+      "ageAtEntry": 72,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8unr687y1rjjnprst1fnhu4jhmdutg7jlydrxqp5fvjy",
+      "peakPrice": 0.000534,
+      "peakMultiplier": 1,
+      "peakMcap": 534051,
+      "peakTime": 1777089753694,
+      "lastPrice": 0.0003576,
+      "lowestPrice": 0.0003576,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0003576,
+      "closeMultiplier": 0.6696629213483147,
+      "closedAt": "2026-04-25T04:06:33.341Z",
+      "durationMs": 239647,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0003576,
+        "closeMultiplier": 0.6696629213483147,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-25T04:06:33.341Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 0.8644444444444445,
+        "floatRotation": 0.11287689752476823,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": false,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.11287689752476823,
+        "accel": 0.8644444444444445,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(72min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(72min)",
+        "priceChg5m": 62.24,
+        "vol5m": 60282.02,
+        "buys5m": 283,
+        "sells5m": 162,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-24T18:29:27.356Z"
+  "lastSaved": "2026-04-25T04:06:34.370Z"
 }
