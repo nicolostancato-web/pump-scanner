@@ -4238,7 +4238,7 @@
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Corey ",
@@ -4249,6 +4249,11 @@
         "symbol": "FIRE",
         "pairAddress": "7diR7X5GJgLNYhVff7WSqqPZjU6WL7n2oUYz7eiDA67L",
         "entryTime": "2026-04-25T03:47:36.228Z"
+      },
+      {
+        "symbol": "blackass",
+        "pairAddress": "AqJJ8Sftd118CXSMuk9bqhjryX5Xp55VQNC2VcdkjF96",
+        "entryTime": "2026-04-25T04:45:15.124Z"
       }
     ],
     "wins": 0,
@@ -4256,8 +4261,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-25T03:35:05.980Z",
-    "lastSeen": "2026-04-25T03:47:36.228Z",
-    "confirmed": false
+    "lastSeen": "2026-04-25T04:45:15.124Z",
+    "confirmed": true
   },
   "yeKLd77h5DHW7ZGqcg6YtsdygWmg8UFBps4cLd8Emiz": {
     "appearances": 1,
@@ -5651,6 +5656,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T04:41:44.101Z",
     "lastSeen": "2026-04-25T04:41:44.101Z",
+    "confirmed": false
+  },
+  "91A9Zr8BsvZ2YiAaWg2bSmsmVz4xUCRHY1Bt8Lny4pGS": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "blackass",
+        "pairAddress": "AqJJ8Sftd118CXSMuk9bqhjryX5Xp55VQNC2VcdkjF96",
+        "entryTime": "2026-04-25T04:45:15.124Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T04:45:15.124Z",
+    "lastSeen": "2026-04-25T04:45:15.124Z",
     "confirmed": false
   }
 }
