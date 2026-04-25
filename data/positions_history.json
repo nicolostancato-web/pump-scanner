@@ -12894,7 +12894,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "H7ToWLwUBwGSTs8azA5ACZL5qQvegsEBsNXVCJSXLGYU",
+      "mint": "66xqcY5ePzhNqNgYhovYDPNLmZMUrMdUmQBARSXopump",
+      "name": "Unidentified Flying Dorito",
+      "symbol": "UFD",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001508,
+      "entryMcap": 150876,
+      "entryTime": 1777130765168,
+      "score": 85,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/h7towlwubwgsts8aza5aczl5qqvegsebsnxvcjsxlgyu",
+      "peakPrice": 0.0002148,
+      "peakMultiplier": 1.4244031830238726,
+      "peakMcap": 214837,
+      "peakTime": 1777131245334,
+      "lastPrice": 0.00009653,
+      "lowestPrice": 0.00009653,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00009653,
+      "closeMultiplier": 0.6401193633952255,
+      "closedAt": "2026-04-25T15:38:04.689Z",
+      "durationMs": 719521,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00009653,
+        "closeMultiplier": 0.6401193633952255,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-25T15:38:04.689Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00009653,
+        "closeMultiplier": 0.6401193633952255,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-25T15:38:04.689Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 3.8699999999999997,
+        "floatRotation": 0.37770619581643206,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.37770619581643206,
+        "accel": 3.8699999999999997,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($151k)",
+        "priceChg5m": 46.44,
+        "vol5m": 56986.8,
+        "buys5m": 1339,
+        "sells5m": 416,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T15:36:06.094Z"
+  "lastSaved": "2026-04-25T15:38:05.812Z"
 }
