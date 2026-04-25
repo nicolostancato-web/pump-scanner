@@ -3968,5 +3968,22 @@
     "firstSeen": "2026-04-25T02:33:22.214Z",
     "lastSeen": "2026-04-25T02:33:22.214Z",
     "confirmed": false
+  },
+  "2DKkmjnQLbLTdJPFrvwKPCU785XKYds1ihUDJ3b6f2Vk": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SAPE",
+        "pairAddress": "5uczSBxgLdwtjvCv9J7hAeJdifwhGm4Yn1q3R1hPKdmH",
+        "entryTime": "2026-04-25T02:34:23.280Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T02:34:23.280Z",
+    "lastSeen": "2026-04-25T02:34:23.280Z",
+    "confirmed": false
   }
 }
