@@ -4295,12 +4295,17 @@
     "confirmed": true
   },
   "yeKLd77h5DHW7ZGqcg6YtsdygWmg8UFBps4cLd8Emiz": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Corey ",
         "pairAddress": "T65cRHS5D8Emtu8WeiSNYvHSWCZjxuohHKuYN9tNEnu",
         "entryTime": "2026-04-25T03:35:05.980Z"
+      },
+      {
+        "symbol": "LASTMAN",
+        "pairAddress": "AkxYXNs4pfxgmzk7sccZvG2jtYjNN1iiVkRGaKpaVu3o",
+        "entryTime": "2026-04-25T06:36:25.034Z"
       }
     ],
     "wins": 0,
@@ -4308,7 +4313,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-25T03:35:05.980Z",
-    "lastSeen": "2026-04-25T03:35:05.980Z",
+    "lastSeen": "2026-04-25T06:36:25.034Z",
     "confirmed": false
   },
   "4zzP4f27BHot7CoPVReN4X63y8UwwPE8aDXRaPP43zxH": {
