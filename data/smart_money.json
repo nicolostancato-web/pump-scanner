@@ -880,5 +880,22 @@
     "firstSeen": "2026-04-25T00:13:08.049Z",
     "lastSeen": "2026-04-25T00:13:08.049Z",
     "confirmed": false
+  },
+  "2H2mkK6L3shWafbBa9XQHBeaJtQDg8UHH8EZ15W2QyAj": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "RRS",
+        "pairAddress": "4rG45mqg5YLWQXDiMCKamUvnWuzx1Jk46vsJbS9Txdut",
+        "entryTime": "2026-04-25T00:13:35.172Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T00:13:35.172Z",
+    "lastSeen": "2026-04-25T00:13:35.172Z",
+    "confirmed": false
   }
 }
