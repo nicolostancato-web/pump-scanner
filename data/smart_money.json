@@ -105,7 +105,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 8,
+    "appearances": 9,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -146,6 +146,11 @@
         "symbol": "LASTMAN",
         "pairAddress": "AkxYXNs4pfxgmzk7sccZvG2jtYjNN1iiVkRGaKpaVu3o",
         "entryTime": "2026-04-25T06:39:39.303Z"
+      },
+      {
+        "symbol": "SHIBABUTT",
+        "pairAddress": "4kNK7MsufgqiLEVzymEU6xi8NynQpEhWtatGRhzKQ7R5",
+        "entryTime": "2026-04-25T07:20:53.591Z"
       }
     ],
     "wins": 0,
@@ -153,7 +158,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:28:06.160Z",
-    "lastSeen": "2026-04-25T06:39:39.303Z",
+    "lastSeen": "2026-04-25T07:20:53.591Z",
     "confirmed": true
   },
   "77teBqbsZvVjyRACgNHnEBmJMsj6eHQydYxZsGjkoFii": {
@@ -7103,6 +7108,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T07:18:20.306Z",
     "lastSeen": "2026-04-25T07:18:20.306Z",
+    "confirmed": false
+  },
+  "CAu7yA5DHccogEh6gw8Z8og3APR7ei5zS1nb5fgQn5eA": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "SHIBABUTT",
+        "pairAddress": "4kNK7MsufgqiLEVzymEU6xi8NynQpEhWtatGRhzKQ7R5",
+        "entryTime": "2026-04-25T07:20:53.591Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T07:20:53.591Z",
+    "lastSeen": "2026-04-25T07:20:53.591Z",
     "confirmed": false
   }
 }
