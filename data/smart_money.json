@@ -1356,5 +1356,22 @@
     "firstSeen": "2026-04-25T00:40:47.466Z",
     "lastSeen": "2026-04-25T00:40:47.466Z",
     "confirmed": false
+  },
+  "8NsTyu3pnpcJZnxfoLDmVgW5g6PeNJdmXXvMGszztfBQ": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "WIZ",
+        "pairAddress": "4uwK41jXKeBN9HA4hxkXvyPUVa6KQo8npujbtXZ4Fd7x",
+        "entryTime": "2026-04-25T00:41:13.700Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T00:41:13.700Z",
+    "lastSeen": "2026-04-25T00:41:13.700Z",
+    "confirmed": false
   }
 }
