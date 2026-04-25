@@ -85,7 +85,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -101,6 +101,11 @@
         "symbol": "NEWSCUM",
         "pairAddress": "Eekfpoh9m3pjLMr7M23hDFFm6Y1QGywu5Lp3R5PasMpx",
         "entryTime": "2026-04-25T00:02:47.053Z"
+      },
+      {
+        "symbol": "RRS",
+        "pairAddress": "4rG45mqg5YLWQXDiMCKamUvnWuzx1Jk46vsJbS9Txdut",
+        "entryTime": "2026-04-25T00:12:37.850Z"
       }
     ],
     "wins": 0,
@@ -108,7 +113,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:28:06.160Z",
-    "lastSeen": "2026-04-25T00:02:47.053Z",
+    "lastSeen": "2026-04-25T00:12:37.850Z",
     "confirmed": true
   },
   "77teBqbsZvVjyRACgNHnEBmJMsj6eHQydYxZsGjkoFii": {
@@ -823,6 +828,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T00:10:07.218Z",
     "lastSeen": "2026-04-25T00:10:07.218Z",
+    "confirmed": false
+  },
+  "BKzYwqfVHF3sCJyD8LvYunWpJtXNF62fefb3G84zR3Ad": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "RRS",
+        "pairAddress": "4rG45mqg5YLWQXDiMCKamUvnWuzx1Jk46vsJbS9Txdut",
+        "entryTime": "2026-04-25T00:12:37.850Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T00:12:37.850Z",
+    "lastSeen": "2026-04-25T00:12:37.850Z",
     "confirmed": false
   }
 }
