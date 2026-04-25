@@ -6517,12 +6517,17 @@
     "confirmed": false
   },
   "3q8qaWiENCd9kGeVdZuMHu4uTvkCDgMhpLSQqqmSoh3U": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "LASTMAN",
         "pairAddress": "AkxYXNs4pfxgmzk7sccZvG2jtYjNN1iiVkRGaKpaVu3o",
         "entryTime": "2026-04-25T06:30:55.576Z"
+      },
+      {
+        "symbol": "JAPANUNC",
+        "pairAddress": "GoSYmVESUYPHvrjeEomDjyxxuu8nVtvjaWJ5KuMv48Cx",
+        "entryTime": "2026-04-25T07:40:47.663Z"
       }
     ],
     "wins": 0,
@@ -6530,7 +6535,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-25T06:30:55.576Z",
-    "lastSeen": "2026-04-25T06:30:55.576Z",
+    "lastSeen": "2026-04-25T07:40:47.663Z",
     "confirmed": false
   },
   "B27vwq89vX3oDa8fFNGiqQWB2wRiSmsmD8Hw2JuRefC8": {
@@ -7930,6 +7935,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T07:40:07.374Z",
     "lastSeen": "2026-04-25T07:40:07.374Z",
+    "confirmed": false
+  },
+  "FLVZcGQPfATtwMMpX8RAfkUZiAFGpmNTQs4d5tNNfcoH": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "JAPANUNC",
+        "pairAddress": "GoSYmVESUYPHvrjeEomDjyxxuu8nVtvjaWJ5KuMv48Cx",
+        "entryTime": "2026-04-25T07:40:47.663Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T07:40:47.663Z",
+    "lastSeen": "2026-04-25T07:40:47.663Z",
     "confirmed": false
   }
 }
