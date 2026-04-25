@@ -1735,5 +1735,22 @@
     "firstSeen": "2026-04-25T00:59:24.701Z",
     "lastSeen": "2026-04-25T00:59:24.701Z",
     "confirmed": false
+  },
+  "7qNNae5vdJvzqReHB3T1K1D2kr43L9xwUBuTc6cXTWaF": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "shithead",
+        "pairAddress": "6ZnEJBRV4GFPg7knjSSsb1e7mpvwsTMsWokx7V2Fdy7T",
+        "entryTime": "2026-04-25T00:59:52.788Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T00:59:52.788Z",
+    "lastSeen": "2026-04-25T00:59:52.788Z",
+    "confirmed": false
   }
 }
