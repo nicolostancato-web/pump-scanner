@@ -85,7 +85,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 5,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -106,11 +106,6 @@
         "symbol": "RRS",
         "pairAddress": "4rG45mqg5YLWQXDiMCKamUvnWuzx1Jk46vsJbS9Txdut",
         "entryTime": "2026-04-25T00:12:37.850Z"
-      },
-      {
-        "symbol": "shithead",
-        "pairAddress": "6ZnEJBRV4GFPg7knjSSsb1e7mpvwsTMsWokx7V2Fdy7T",
-        "entryTime": "2026-04-25T01:08:49.477Z"
       }
     ],
     "wins": 0,
@@ -118,7 +113,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:28:06.160Z",
-    "lastSeen": "2026-04-25T01:08:49.477Z",
+    "lastSeen": "2026-04-25T00:12:37.850Z",
     "confirmed": true
   },
   "77teBqbsZvVjyRACgNHnEBmJMsj6eHQydYxZsGjkoFii": {
@@ -1933,21 +1928,38 @@
     "lastSeen": "2026-04-25T01:08:24.442Z",
     "confirmed": false
   },
-  "Etjw623p9X26LbYn2eiXpTMtKM4Mvratb2BgkPcEGJYs": {
+  "2KNp9RvYkaY4QLsPLMcXNCpZzqKP5977AUsj5CobdU4d": {
     "appearances": 1,
     "tokens": [
       {
         "symbol": "shithead",
         "pairAddress": "6ZnEJBRV4GFPg7knjSSsb1e7mpvwsTMsWokx7V2Fdy7T",
-        "entryTime": "2026-04-25T01:08:49.477Z"
+        "entryTime": "2026-04-25T01:08:51.752Z"
       }
     ],
     "wins": 0,
     "losses": 0,
     "totalPeak": 0,
     "avgPeak": 0,
-    "firstSeen": "2026-04-25T01:08:49.477Z",
-    "lastSeen": "2026-04-25T01:08:49.477Z",
+    "firstSeen": "2026-04-25T01:08:51.752Z",
+    "lastSeen": "2026-04-25T01:08:51.752Z",
+    "confirmed": false
+  },
+  "2mw9Th6unQLVhVEaseSen5cxQxdzoQBp6QDstVgfP7w7": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "shithead",
+        "pairAddress": "6ZnEJBRV4GFPg7knjSSsb1e7mpvwsTMsWokx7V2Fdy7T",
+        "entryTime": "2026-04-25T01:08:51.752Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T01:08:51.752Z",
+    "lastSeen": "2026-04-25T01:08:51.752Z",
     "confirmed": false
   }
 }
