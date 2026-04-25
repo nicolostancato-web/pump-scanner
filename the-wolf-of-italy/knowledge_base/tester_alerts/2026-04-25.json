@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-25T04:51:23.916381+02:00",
+  "timestamp": "2026-04-25T05:53:47.664510+02:00",
   "date": "2026-04-25",
   "checks": {
     "HUNTER": {
       "status": "WARN",
-      "msg": "ultimo run 410m fa (>2h)"
+      "msg": "ultimo run 473m fa (>2h)"
     },
     "ANALISTA": {
       "status": "OK",
@@ -12,7 +12,7 @@
     },
     "CFO": {
       "status": "OK",
-      "msg": "active_positions 3h fa"
+      "msg": "active_positions 0h fa"
     },
     "MONITOR": {
       "status": "PENDING",
@@ -24,11 +24,11 @@
     },
     "TESTER": {
       "status": "OK",
-      "msg": "eseguito alle 04:51"
+      "msg": "eseguito alle 05:53"
     }
   },
   "alerts": [
-    "HUNTER: file 410m fa, atteso <2h"
+    "HUNTER: file 473m fa, atteso <2h"
   ],
   "dashboard_issues": []
 }
