@@ -5970,12 +5970,17 @@
     "confirmed": false
   },
   "7hinTCWit53Qk5gkSp3YgtMZkfAkoErm78EFZhHZpFUV": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "fukuyama",
         "pairAddress": "3MfKDaDnZj3Jc27d4nZFFzn1yXjeG65oEBpupbYUypia",
         "entryTime": "2026-04-25T06:15:44.553Z"
+      },
+      {
+        "symbol": "LASTMAN",
+        "pairAddress": "AkxYXNs4pfxgmzk7sccZvG2jtYjNN1iiVkRGaKpaVu3o",
+        "entryTime": "2026-04-25T06:26:04.619Z"
       }
     ],
     "wins": 0,
@@ -5983,7 +5988,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-25T06:15:44.553Z",
-    "lastSeen": "2026-04-25T06:15:44.553Z",
+    "lastSeen": "2026-04-25T06:26:04.619Z",
     "confirmed": false
   },
   "JC7UpvWPuSXemr52MhmkaV88wyRAfDEFHxGdREeJkc3Q": {
@@ -6222,6 +6227,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T06:25:45.087Z",
     "lastSeen": "2026-04-25T06:25:45.087Z",
+    "confirmed": false
+  },
+  "5WUGBMq7iVoTBTkvLhF7ZtyDtiDehcErdmrKwzZn7pZc": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "LASTMAN",
+        "pairAddress": "AkxYXNs4pfxgmzk7sccZvG2jtYjNN1iiVkRGaKpaVu3o",
+        "entryTime": "2026-04-25T06:26:04.619Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T06:26:04.619Z",
+    "lastSeen": "2026-04-25T06:26:04.619Z",
     "confirmed": false
   }
 }
