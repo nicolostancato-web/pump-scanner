@@ -4216,12 +4216,17 @@
     "confirmed": false
   },
   "Sirius6CrwpvKKokCejugLfjyUcqVPZawScz6DqxWjA": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Corey ",
         "pairAddress": "T65cRHS5D8Emtu8WeiSNYvHSWCZjxuohHKuYN9tNEnu",
         "entryTime": "2026-04-25T03:21:24.155Z"
+      },
+      {
+        "symbol": "154",
+        "pairAddress": "BGcss4XcWjanr11b8pxh78mhwrhVy9FUCk6Akzf2FiwP",
+        "entryTime": "2026-04-25T04:29:42.726Z"
       }
     ],
     "wins": 0,
@@ -4229,7 +4234,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-25T03:21:24.155Z",
-    "lastSeen": "2026-04-25T03:21:24.155Z",
+    "lastSeen": "2026-04-25T04:29:42.726Z",
     "confirmed": false
   },
   "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY": {
