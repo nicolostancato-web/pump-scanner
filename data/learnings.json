@@ -108,13 +108,13 @@
   },
   "byScore": {
     "65-70": {
-      "count": 89,
+      "count": 90,
       "avgPeak": "1.18x",
       "wins2x": 2,
       "win2xRate": "2%"
     },
     "70-75": {
-      "count": 35,
+      "count": 34,
       "avgPeak": "1.07x",
       "wins2x": 0,
       "win2xRate": "0%"
@@ -146,8 +146,8 @@
   },
   "byAge": {
     "0-15min": {
-      "count": 17,
-      "avgPeak": "1.46x"
+      "count": 16,
+      "avgPeak": "1.48x"
     },
     "15-30min": {
       "count": 52,
@@ -158,10 +158,10 @@
       "avgPeak": "1.09x"
     },
     "60-120min": {
-      "count": 25,
+      "count": 26,
       "avgPeak": "1.07x"
     }
   },
   "recommendation": "📊 Analisi su 155 posizioni chiuse\n✅ Win rate (chiuse in positivo): 1%\n📈 Peak medio: 1.17x | Close medio: 0.56x\n🎯 Take Profit ottimale: +300% (expected value: 5.8%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: N/A vs 1.17x",
-  "lastUpdated": "2026-04-24T21:00:39.989Z"
+  "lastUpdated": "2026-04-25T04:06:34.374Z"
 }
