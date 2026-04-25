@@ -11600,7 +11600,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "3LsJN7eAYWeDTLc2VdswiyuZy7ERyuCoLh35h5nKpeKi",
+      "mint": "9kGVwQC3bjCRBQz5W3NdKt45GM5PccsgkmEnaZtkpump",
+      "name": "The Vengeful 5",
+      "symbol": "5",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000572,
+      "entryMcap": 57210,
+      "entryTime": 1777111438263,
+      "score": 66,
+      "ageAtEntry": 25,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/3lsjn7eaywedtlc2vdswiyuzy7eryucolh35h5nkpeki",
+      "peakPrice": 0.0000572,
+      "peakMultiplier": 1,
+      "peakMcap": 57210,
+      "peakTime": 1777111438263,
+      "lastPrice": 0.00003693,
+      "lowestPrice": 0.00003693,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003693,
+      "closeMultiplier": 0.6456293706293706,
+      "closedAt": "2026-04-25T10:09:57.384Z",
+      "durationMs": 359121,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003693,
+        "closeMultiplier": 0.6456293706293706,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-25T10:09:57.384Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -1,
+        "momentum": 1.4516,
+        "floatRotation": 0.27826498863835,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.27826498863835,
+        "accel": 1.4516,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(25min)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 36.29,
+        "vol5m": 15919.54,
+        "buys5m": 295,
+        "sells5m": 190,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T07:46:44.703Z"
+  "lastSaved": "2026-04-25T10:09:58.592Z"
 }
