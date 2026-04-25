@@ -154,7 +154,7 @@
     "confirmed": false
   },
   "Ar2Y6o1QmrRAskjii1cRfijeKugHH13ycxW5cd7rro1x": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -165,6 +165,11 @@
         "symbol": "shithead",
         "pairAddress": "CWEKBUS4qATnqVqAKZQNLanrXkVzfE3GUXaUA5Vijjb9",
         "entryTime": "2026-04-25T01:42:52.957Z"
+      },
+      {
+        "symbol": "Corey ",
+        "pairAddress": "T65cRHS5D8Emtu8WeiSNYvHSWCZjxuohHKuYN9tNEnu",
+        "entryTime": "2026-04-25T03:19:43.752Z"
       }
     ],
     "wins": 0,
@@ -172,8 +177,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:29:05.880Z",
-    "lastSeen": "2026-04-25T01:42:52.957Z",
-    "confirmed": false
+    "lastSeen": "2026-04-25T03:19:43.752Z",
+    "confirmed": true
   },
   "G9TZ1gy9dapgkJrBEe2X5ajaRe895uyrjuzo5XW9ahXv": {
     "appearances": 1,
@@ -4120,6 +4125,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T02:55:20.926Z",
     "lastSeen": "2026-04-25T02:55:20.926Z",
+    "confirmed": false
+  },
+  "5dWYBhzPZ4EsUBK4NBuawUsd3n8yeNJ3eLHED5ZeriNw": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "Corey ",
+        "pairAddress": "T65cRHS5D8Emtu8WeiSNYvHSWCZjxuohHKuYN9tNEnu",
+        "entryTime": "2026-04-25T03:19:43.752Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T03:19:43.752Z",
+    "lastSeen": "2026-04-25T03:19:43.752Z",
     "confirmed": false
   }
 }
