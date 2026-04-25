@@ -100,7 +100,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 7,
+    "appearances": 8,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -136,6 +136,11 @@
         "symbol": "154",
         "pairAddress": "BGcss4XcWjanr11b8pxh78mhwrhVy9FUCk6Akzf2FiwP",
         "entryTime": "2026-04-25T04:20:45.339Z"
+      },
+      {
+        "symbol": "LASTMAN",
+        "pairAddress": "AkxYXNs4pfxgmzk7sccZvG2jtYjNN1iiVkRGaKpaVu3o",
+        "entryTime": "2026-04-25T06:39:39.303Z"
       }
     ],
     "wins": 0,
@@ -143,7 +148,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:28:06.160Z",
-    "lastSeen": "2026-04-25T04:20:45.339Z",
+    "lastSeen": "2026-04-25T06:39:39.303Z",
     "confirmed": true
   },
   "77teBqbsZvVjyRACgNHnEBmJMsj6eHQydYxZsGjkoFii": {
