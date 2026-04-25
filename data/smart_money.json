@@ -1,6 +1,6 @@
 {
   "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -16,6 +16,11 @@
         "symbol": "Attention",
         "pairAddress": "6YtH5Wda6afPQyGUaj6PSn1SFQDrT3KVr6pf9zzq3Vm4",
         "entryTime": "2026-04-25T05:19:25.251Z"
+      },
+      {
+        "symbol": "TULY",
+        "pairAddress": "4XL7LajyXzH1Y7Bbqnv7wyJEXDCAvPjVdPQ5VaPPtmQs",
+        "entryTime": "2026-04-25T06:44:10.781Z"
       }
     ],
     "wins": 0,
@@ -23,7 +28,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:25:09.902Z",
-    "lastSeen": "2026-04-25T05:19:25.251Z",
+    "lastSeen": "2026-04-25T06:44:10.781Z",
     "confirmed": true
   },
   "1LbEMct5TtWeXRJG33wvZ6LYnMeJmJLyKwSoUvGFYaV": {
@@ -6736,6 +6741,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T06:43:10.119Z",
     "lastSeen": "2026-04-25T06:43:10.119Z",
+    "confirmed": false
+  },
+  "5X2EkqVYjdCBJqPskhpKWxGKJ1nzsFvZJcSXKFDD8SLu": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TULY",
+        "pairAddress": "4XL7LajyXzH1Y7Bbqnv7wyJEXDCAvPjVdPQ5VaPPtmQs",
+        "entryTime": "2026-04-25T06:44:10.781Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T06:44:10.781Z",
+    "lastSeen": "2026-04-25T06:44:10.781Z",
     "confirmed": false
   }
 }
