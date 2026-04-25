@@ -1833,12 +1833,17 @@
     "confirmed": false
   },
   "5b8cvGrDntee8wpQb1gR4SeNnQXUKC6T5Wc8GmCTXZAw": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "shithead",
         "pairAddress": "6ZnEJBRV4GFPg7knjSSsb1e7mpvwsTMsWokx7V2Fdy7T",
         "entryTime": "2026-04-25T01:06:13.035Z"
+      },
+      {
+        "symbol": "FIRE",
+        "pairAddress": "7diR7X5GJgLNYhVff7WSqqPZjU6WL7n2oUYz7eiDA67L",
+        "entryTime": "2026-04-25T03:44:54.441Z"
       }
     ],
     "wins": 0,
@@ -1846,7 +1851,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-25T01:06:13.035Z",
-    "lastSeen": "2026-04-25T01:06:13.035Z",
+    "lastSeen": "2026-04-25T03:44:54.441Z",
     "confirmed": false
   },
   "JBLhpG6V2FuQ9nanX25Wea6UEW9taVoqFNxke2Y1xNih": {
@@ -4436,6 +4441,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T03:44:23.571Z",
     "lastSeen": "2026-04-25T03:44:23.571Z",
+    "confirmed": false
+  },
+  "5TQNFfb5QSEFTKQqnxP77Zz3MrdpPH21kcjrV1GZePLP": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "FIRE",
+        "pairAddress": "7diR7X5GJgLNYhVff7WSqqPZjU6WL7n2oUYz7eiDA67L",
+        "entryTime": "2026-04-25T03:44:54.441Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T03:44:54.441Z",
+    "lastSeen": "2026-04-25T03:44:54.441Z",
     "confirmed": false
   }
 }
