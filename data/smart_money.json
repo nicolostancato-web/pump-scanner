@@ -5803,12 +5803,17 @@
     "confirmed": false
   },
   "44kdzNHg3XTFz4syy5SDVmu4Gy2DDaXZErqqNieMbBFH": {
-    "appearances": 1,
+    "appearances": 2,
     "tokens": [
       {
         "symbol": "Flork",
         "pairAddress": "ELe7EtbX7m3aeBKKJYm4QYVXkwmJJwVcR6K4Nho27f4i",
         "entryTime": "2026-04-25T04:58:52.383Z"
+      },
+      {
+        "symbol": "JAPANUNC",
+        "pairAddress": "GoSYmVESUYPHvrjeEomDjyxxuu8nVtvjaWJ5KuMv48Cx",
+        "entryTime": "2026-04-25T07:43:35.929Z"
       }
     ],
     "wins": 0,
@@ -5816,7 +5821,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-25T04:58:52.383Z",
-    "lastSeen": "2026-04-25T04:58:52.383Z",
+    "lastSeen": "2026-04-25T07:43:35.929Z",
     "confirmed": false
   },
   "DeNwH63Xgj3a4bXXHw79BiL5iBUNBQVaRYeLHQTQxL7z": {
@@ -7974,6 +7979,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T07:41:17.958Z",
     "lastSeen": "2026-04-25T07:41:17.958Z",
+    "confirmed": false
+  },
+  "B6k28Y7STKQNJN8awBXo7UULQThTBTMjkUxnbfA41y8S": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "JAPANUNC",
+        "pairAddress": "GoSYmVESUYPHvrjeEomDjyxxuu8nVtvjaWJ5KuMv48Cx",
+        "entryTime": "2026-04-25T07:43:35.929Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T07:43:35.929Z",
+    "lastSeen": "2026-04-25T07:43:35.929Z",
     "confirmed": false
   }
 }
