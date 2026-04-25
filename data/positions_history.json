@@ -12306,7 +12306,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "55RXGHMQUchc7k6N3qv8XvmL6eKEQwfyFu3h2ARdiDiB",
+      "mint": "aCPbbssAxXtiDBUPuao8gHt6rRNkKL4trhxJkxFpump",
+      "name": "She was CIA",
+      "symbol": "Penny",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001617,
+      "entryMcap": 161754,
+      "entryTime": 1777122002120,
+      "score": 67,
+      "ageAtEntry": 51,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/55rxghmquchc7k6n3qv8xvml6ekeqwfyfu3h2ardidib",
+      "peakPrice": 0.0002084,
+      "peakMultiplier": 1.2888064316635746,
+      "peakMcap": 208479,
+      "peakTime": 1777122541893,
+      "lastPrice": 0.0001087,
+      "lowestPrice": 0.0001087,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001087,
+      "closeMultiplier": 0.6722325293753865,
+      "closedAt": "2026-04-25T13:19:01.889Z",
+      "durationMs": 1139769,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001087,
+        "closeMultiplier": 0.6722325293753865,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-25T13:19:01.889Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": 0.3343137254901961,
+        "floatRotation": 0.37271980909281993,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.37271980909281993,
+        "accel": 0.3343137254901961,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(51min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(51min)",
+        "priceChg5m": 17.05,
+        "vol5m": 60288.92,
+        "buys5m": 378,
+        "sells5m": 331,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T13:15:02.842Z"
+  "lastSaved": "2026-04-25T13:19:03.056Z"
 }
