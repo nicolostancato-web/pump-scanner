@@ -164,7 +164,7 @@
     "confirmed": false
   },
   "Ar2Y6o1QmrRAskjii1cRfijeKugHH13ycxW5cd7rro1x": {
-    "appearances": 3,
+    "appearances": 4,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -180,6 +180,11 @@
         "symbol": "Corey ",
         "pairAddress": "T65cRHS5D8Emtu8WeiSNYvHSWCZjxuohHKuYN9tNEnu",
         "entryTime": "2026-04-25T03:19:43.752Z"
+      },
+      {
+        "symbol": "LASTMAN",
+        "pairAddress": "AkxYXNs4pfxgmzk7sccZvG2jtYjNN1iiVkRGaKpaVu3o",
+        "entryTime": "2026-04-25T06:28:10.914Z"
       }
     ],
     "wins": 0,
@@ -187,7 +192,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:29:05.880Z",
-    "lastSeen": "2026-04-25T03:19:43.752Z",
+    "lastSeen": "2026-04-25T06:28:10.914Z",
     "confirmed": true
   },
   "G9TZ1gy9dapgkJrBEe2X5ajaRe895uyrjuzo5XW9ahXv": {
@@ -6300,6 +6305,40 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-25T06:27:28.849Z",
     "lastSeen": "2026-04-25T06:27:28.849Z",
+    "confirmed": false
+  },
+  "2Jy2VdYU6YmSKL2fAk59iTBHavGUu41HNRMekdwcVUVg": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TULY",
+        "pairAddress": "4XL7LajyXzH1Y7Bbqnv7wyJEXDCAvPjVdPQ5VaPPtmQs",
+        "entryTime": "2026-04-25T06:28:10.942Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T06:28:10.942Z",
+    "lastSeen": "2026-04-25T06:28:10.942Z",
+    "confirmed": false
+  },
+  "9ZgTFEkQEyCYTZzyEoQGqQYP9uKfB6vhvnH9FdKQ6hzT": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "TULY",
+        "pairAddress": "4XL7LajyXzH1Y7Bbqnv7wyJEXDCAvPjVdPQ5VaPPtmQs",
+        "entryTime": "2026-04-25T06:28:10.942Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T06:28:10.942Z",
+    "lastSeen": "2026-04-25T06:28:10.942Z",
     "confirmed": false
   }
 }
