@@ -95,7 +95,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 5,
+    "appearances": 6,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -121,6 +121,11 @@
         "symbol": "shithead",
         "pairAddress": "6ZnEJBRV4GFPg7knjSSsb1e7mpvwsTMsWokx7V2Fdy7T",
         "entryTime": "2026-04-25T01:10:02.836Z"
+      },
+      {
+        "symbol": "SAPE",
+        "pairAddress": "5uczSBxgLdwtjvCv9J7hAeJdifwhGm4Yn1q3R1hPKdmH",
+        "entryTime": "2026-04-25T02:33:52.890Z"
       }
     ],
     "wins": 0,
@@ -128,7 +133,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:28:06.160Z",
-    "lastSeen": "2026-04-25T01:10:02.836Z",
+    "lastSeen": "2026-04-25T02:33:52.890Z",
     "confirmed": true
   },
   "77teBqbsZvVjyRACgNHnEBmJMsj6eHQydYxZsGjkoFii": {
