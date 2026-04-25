@@ -1,9 +1,9 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-25 05:50 Rome
+Ultimo aggiornamento: 2026-04-25 05:56 Rome
 **Stato corrente: 0/5 BP in dashboard.** 🡔 Dashboard vuota.
 Nessun BP in attesa di decisione. Nuove opportunità in arrivo dal run Hunter delle 07:00.
 
-## Cross-Citation (dati altri agenti) — 2026-04-25 05:50
+## Cross-Citation (dati altri agenti) — 2026-04-25 05:56
 - **active_positions.md** (CFO, ultimo aggiornamento 05:09):
   - 1 posizione attiva: BP-2026-04-23-001 JupSOL (FULLY_DEPLOYED), valore $17.28 (+0.5%)
   - Portfolio totale: **$52.22**
@@ -23,11 +23,11 @@ Nessun BP in attesa di decisione. Nuove opportunità in arrivo dal run Hunter de
 - Wallet: `9ikxAw696nRgbThetmWMvca5uiRN99amUK5abHDofVYt`
 - SOL balance: 0.404526925 SOL (coerente con CFO: $34.94 @ $86.37/SOL) [fonte: get_sol_balance]
 
-## Log Run 2026-04-25 05:50
+## Log Run 2026-04-25 05:56
 - **SKILLS.md** → letto con successo (200 OK) — skill [AUTO] applicate
-- **config.yaml** → letto con successo (200 OK) — max_cost_per_run: $0.05 (stima), max_iterations: 20 (default)
-- **opportunities/2026-04-25.md** → placeholder vuoto da reset serale, nessuna opportunità Hunter ancora
+- **config.yaml** → letto con successo (200 OK) — max_cost_per_run: $0.05 (default conservativo), max_iterations: 20 (default)
 - **opportunities/2026-04-24.md** → 404 (non trovato)
+- **opportunities/2026-04-25.md** → placeholder vuoto da reset serale, nessuna opportunità Hunter ancora
 - **pending_decisions.md** → letto (200 OK), stato: 0/5
 - **decisions_queue.md** → vuoto (200 OK), già svuotato
 - **parked/** → 404 (directory non esistente)
