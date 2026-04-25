@@ -13764,7 +13764,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "GbDen2Qzfd9bxBgnwczRcCBKq6Zo67q1aCbtUTQhhwRb",
+      "mint": "3PdgWcXPbmYVchsTvz16B1LSW6eU86yvJjx7968fpump",
+      "name": "OFFICIAL XI JINPING",
+      "symbol": "JINPING",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001062,
+      "entryMcap": 106280,
+      "entryTime": 1777146971088,
+      "score": 75,
+      "ageAtEntry": 14,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/gbden2qzfd9bxbgnwczrccbkq6zo67q1acbtutqhhwrb",
+      "peakPrice": 0.0001414,
+      "peakMultiplier": 1.3314500941619585,
+      "peakMcap": 141425,
+      "peakTime": 1777147091000,
+      "lastPrice": 0.00004847,
+      "lowestPrice": 0.00004847,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00004847,
+      "closeMultiplier": 0.4564030131826742,
+      "closedAt": "2026-04-25T20:03:10.732Z",
+      "durationMs": 419644,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00004847,
+        "closeMultiplier": 0.4564030131826742,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-25T20:03:10.732Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00004847,
+        "closeMultiplier": 0.4564030131826742,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-25T20:03:10.732Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -25,
+        "momentum": -0.14214285714285715,
+        "floatRotation": 0.5379140007527287,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.5379140007527287,
+        "accel": -0.14214285714285715,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($57170,price-2.0%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg-2.0%,vol$57170,b1432s439)",
+        "priceChg5m": -1.99,
+        "vol5m": 57169.5,
+        "buys5m": 1432,
+        "sells5m": 439,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T20:00:12.023Z"
+  "lastSaved": "2026-04-25T20:03:11.858Z"
 }
