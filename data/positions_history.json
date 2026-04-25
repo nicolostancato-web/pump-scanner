@@ -14020,7 +14020,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Rdaro5LUeoLuf3zGJmMdxJNSAYfp1B8f7XbLzpkUGxh",
+      "mint": "BmXVrGfDa2dTTbdSfcw1QpSWym4wJtNJqPbNjLkepump",
+      "name": "Rudolph the Deer",
+      "symbol": "Rudy",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002138,
+      "entryMcap": 213888,
+      "entryTime": 1777158496123,
+      "score": 75,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/rdaro5lueoluf3zgjmmdxjnsayfp1b8f7xblzpkugxh",
+      "peakPrice": 0.0002138,
+      "peakMultiplier": 1,
+      "peakMcap": 213888,
+      "peakTime": 1777158496123,
+      "lastPrice": 0.0001259,
+      "lowestPrice": 0.0001259,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001259,
+      "closeMultiplier": 0.5888681010289991,
+      "closedAt": "2026-04-25T23:09:15.703Z",
+      "durationMs": 59580,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001259,
+        "closeMultiplier": 0.5888681010289991,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-25T23:09:15.703Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0001259,
+        "closeMultiplier": 0.5888681010289991,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-25T23:09:15.703Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 18,
+        "momentum": 9.818181818181818,
+        "floatRotation": 1.09046608505386,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 1.09046608505386,
+        "accel": 9.818181818181818,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($214k)",
+        "priceChg5m": 108,
+        "vol5m": 233237.61,
+        "buys5m": 2125,
+        "sells5m": 1764,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T22:59:16.562Z"
+  "lastSaved": "2026-04-25T23:09:16.336Z"
 }
