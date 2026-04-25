@@ -90,7 +90,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 4,
+    "appearances": 5,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -111,6 +111,11 @@
         "symbol": "RRS",
         "pairAddress": "4rG45mqg5YLWQXDiMCKamUvnWuzx1Jk46vsJbS9Txdut",
         "entryTime": "2026-04-25T00:12:37.850Z"
+      },
+      {
+        "symbol": "shithead",
+        "pairAddress": "6ZnEJBRV4GFPg7knjSSsb1e7mpvwsTMsWokx7V2Fdy7T",
+        "entryTime": "2026-04-25T01:10:02.836Z"
       }
     ],
     "wins": 0,
@@ -118,7 +123,7 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:28:06.160Z",
-    "lastSeen": "2026-04-25T00:12:37.850Z",
+    "lastSeen": "2026-04-25T01:10:02.836Z",
     "confirmed": true
   },
   "77teBqbsZvVjyRACgNHnEBmJMsj6eHQydYxZsGjkoFii": {
