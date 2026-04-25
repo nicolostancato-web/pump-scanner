@@ -1,23 +1,25 @@
 # Pending Decisions — Dashboard ANALISTA
-Ultimo aggiornamento: 2026-04-25 03:05 Roma
+Ultimo aggiornamento: 2026-04-25 03:17 Roma
 
 **Stato corrente: 0/5 BP in dashboard.** 🎯 Dashboard vuota.
 
 ---
 
-## Analisi Run 2026-04-25 03:05
+## Analisi Run 2026-04-25 03:17
 
-- `opportunities/2026-04-24.md` → **404 Not Found** (nessuna opportunità registrata ieri)
+- `opportunities/2026-04-24.md` → **404 Not Found** (file data non esiste — nessuna opportunità registrata con nome data generico)
+- `opportunities/crypto-2026-04-24.md` → **Esiste ma già processato**: 3 BP (KAT, CHIP, SKR) già **REJECTED** nel run precedente (13:24 2026-04-24) [fonte: seen_protocols.md]
+- `opportunities/2026-04-25.md` → **Esiste ma vuoto** (creato dal reset serale 22:00 2026-04-24, in attesa run Hunter 07:00)
 - `parked/` → **404 Not Found** (directory non esistente — nessun BP parcheggiato)
 - `decisions_queue.md` → **Vuota** (già svuotata al run 2026-04-24 13:24 con 7 decisioni REJECTED processate)
 - Nessuna nuova opportunità da processare in questo run
 - Nessun BP parcheggiato da recuperare
 - Nessuna decisione in coda da processare
-- **Non siamo in reset serale** (03:05 Roma, reset alle 22:00)
+- **Non siamo in reset serale** (03:17 Roma, reset alle 22:00)
 
 ---
 
-## Cross-citation (dati altri agenti) — 2026-04-25 03:05
+## Cross-citation (dati altri agenti) — 2026-04-25 03:17
 
 - **active_positions.md** (CFO, ultimo agg. 01:08):
   - 1 posizione attiva (BP-2026-04-23-001 JupSOL), valore $17.24 (+0.2% dal deploy)
@@ -41,4 +43,4 @@ Ultimo aggiornamento: 2026-04-25 03:05 Roma
 
 ---
 
-**AUDIT: 0 BP letti da opportunities (2026-04-24: 404), 0 nuovi BP aggiunti a dashboard (nessuna opportunità), 0 decisioni processate (queue vuota), pending corrente: 0/5.**
+**AUDIT: 0 BP letti da opportunities (2026-04-24: 404 generico; crypto-2026-04-24.md già processato), 0 nuovi BP aggiunti a dashboard (nessuna nuova opportunità), 0 decisioni processate (queue vuota), pending corrente: 0/5.**
