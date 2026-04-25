@@ -8291,5 +8291,22 @@
     "firstSeen": "2026-04-25T08:06:57.879Z",
     "lastSeen": "2026-04-25T08:06:57.879Z",
     "confirmed": false
+  },
+  "8Esz91YEV2drYEqdnGR1oJJdPVhHSARbWK3JYavDF197": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "GUM",
+        "pairAddress": "9BaXbhUrZDdCk9WgGt2VPnruq6WvrKBa43gWiovef8C5",
+        "entryTime": "2026-04-25T08:07:14.279Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T08:07:14.279Z",
+    "lastSeen": "2026-04-25T08:07:14.279Z",
+    "confirmed": false
   }
 }
