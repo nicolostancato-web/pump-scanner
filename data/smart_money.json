@@ -1754,7 +1754,7 @@
     "confirmed": false
   },
   "4jkL4dNkY2UbpYrTgLA3u5FqKwKs1LM46RcE6FQU3qXi": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "shithead",
@@ -1765,6 +1765,11 @@
         "symbol": "LASTMAN",
         "pairAddress": "AkxYXNs4pfxgmzk7sccZvG2jtYjNN1iiVkRGaKpaVu3o",
         "entryTime": "2026-04-25T06:27:28.849Z"
+      },
+      {
+        "symbol": "FDLZ",
+        "pairAddress": "69FEjidLarXMTdaqP7QCxRnZUSdFn5fmxowWkCqixnzb",
+        "entryTime": "2026-04-25T07:14:43.350Z"
       }
     ],
     "wins": 0,
@@ -1772,8 +1777,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-25T00:58:18.838Z",
-    "lastSeen": "2026-04-25T06:27:28.849Z",
-    "confirmed": false
+    "lastSeen": "2026-04-25T07:14:43.350Z",
+    "confirmed": true
   },
   "FPQHHJ8Q8aC5V6XL5WD9gtoL4WAyhLMByWxSEsEw1Lbn": {
     "appearances": 1,
