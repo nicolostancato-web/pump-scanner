@@ -13238,7 +13238,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "HN9hpjfumuwvY2vMyS72foE9MrWTxRPiDMG3F7T1ouMN",
+      "mint": "BtQz74TXcG7Cnot6cf1vCiYMCuQjfYMKx1cMrJC8pump",
+      "name": "American Born Coin",
+      "symbol": "ABC",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007704,
+      "entryMcap": 77044,
+      "entryTime": 1777130765356,
+      "score": 67,
+      "ageAtEntry": 31,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/hn9hpjfumuwvy2vmys72foe9mrwtxrpidmg3f7t1oumn",
+      "peakPrice": 0.0001419,
+      "peakMultiplier": 1.84190031152648,
+      "peakMcap": 141918,
+      "peakTime": 1777137967122,
+      "lastPrice": 0.0001419,
+      "lowestPrice": 0.00006599,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 3120217
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0001419,
+      "closeMultiplier": 1.84190031152648,
+      "closedAt": "2026-04-25T17:26:07.122Z",
+      "durationMs": 7201766,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001419,
+        "closeMultiplier": 1.84190031152648,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-25T17:26:07.122Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": 0.1732258064516129,
+        "floatRotation": 0.3925290742952079,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.3925290742952079,
+        "accel": 0.1732258064516129,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(31min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(31min)",
+        "priceChg5m": 5.37,
+        "vol5m": 30242.01,
+        "buys5m": 894,
+        "sells5m": 253,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T17:00:08.249Z"
+  "lastSaved": "2026-04-25T17:26:08.264Z"
 }
