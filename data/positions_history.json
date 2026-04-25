@@ -13592,7 +13592,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "3s7ohh7oMc5kjpzSCHAA9FrYPwna6FpFqZWpNUnUA7it",
+      "mint": "X3JLAXGoreH4Yc4t7Qrictmqa4MZhX5xtZ6wWKdpump",
+      "name": "Lurry Eldur",
+      "symbol": "ELDUR",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001255,
+      "entryMcap": 125533,
+      "entryTime": 1777143249642,
+      "score": 73,
+      "ageAtEntry": 10,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/3s7ohh7omc5kjpzschaa9frypwna6fpfqzwpnunua7it",
+      "peakPrice": 0.0002007,
+      "peakMultiplier": 1.5992031872509962,
+      "peakMcap": 200711,
+      "peakTime": 1777143849318,
+      "lastPrice": 0.00008248,
+      "lowestPrice": 0.00008248,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 479715
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00008248,
+      "closeMultiplier": 0.6572111553784861,
+      "closedAt": "2026-04-25T19:05:09.410Z",
+      "durationMs": 659768,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00008248,
+        "closeMultiplier": 0.6572111553784861,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-25T19:05:09.410Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00008248,
+        "closeMultiplier": 0.6572111553784861,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-25T19:05:09.410Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 5.877000000000001,
+        "floatRotation": 0.6161641958688154,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.6161641958688154,
+        "accel": 5.877000000000001,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": 58.77,
+        "vol5m": 77348.94,
+        "buys5m": 966,
+        "sells5m": 788,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T18:16:09.588Z"
+  "lastSaved": "2026-04-25T19:05:10.556Z"
 }
