@@ -12474,7 +12474,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "sZ3C4uqt941qLXpDubDdt7EF6GViaAzyY8PaftUnSi5",
+      "mint": "Byvav1YBmaGLVGqyEp2azjrV2oDX475nvs5UZSDNat6A",
+      "name": "doland tremp",
+      "symbol": "TREMP",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008677,
+      "entryMcap": 86777,
+      "entryTime": 1777126323668,
+      "score": 65,
+      "ageAtEntry": 19,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/sz3c4uqt941qlxpdubddt7ef6gviaazyy8paftunsi5",
+      "peakPrice": 0.00008677,
+      "peakMultiplier": 1,
+      "peakMcap": 86777,
+      "peakTime": 1777126323668,
+      "lastPrice": 0.00005491,
+      "lowestPrice": 0.00005491,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005491,
+      "closeMultiplier": 0.6328224040567016,
+      "closedAt": "2026-04-25T14:22:03.280Z",
+      "durationMs": 599612,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005491,
+        "closeMultiplier": 0.6328224040567016,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-25T14:22:03.280Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -1,
+        "momentum": 0.5421052631578948,
+        "floatRotation": 0.27054288578770874,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.27054288578770874,
+        "accel": 0.5421052631578948,
+        "wouldPassV5": false,
+        "failReason": "SC1-rot(0.271)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 10.3,
+        "vol5m": 23476.9,
+        "buys5m": 375,
+        "sells5m": 214,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T13:55:03.879Z"
+  "lastSaved": "2026-04-25T14:22:04.415Z"
 }
