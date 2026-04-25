@@ -85,7 +85,7 @@
     "confirmed": false
   },
   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51": {
-    "appearances": 2,
+    "appearances": 3,
     "tokens": [
       {
         "symbol": "Dogcoin",
@@ -96,6 +96,11 @@
         "symbol": "MAGA",
         "pairAddress": "7iK1hum1qH7oQ54bfkE2dLAkA5T7Dw5BZhvFwWhcEP8C",
         "entryTime": "2026-04-24T23:30:03.214Z"
+      },
+      {
+        "symbol": "NEWSCUM",
+        "pairAddress": "Eekfpoh9m3pjLMr7M23hDFFm6Y1QGywu5Lp3R5PasMpx",
+        "entryTime": "2026-04-25T00:02:47.053Z"
       }
     ],
     "wins": 0,
@@ -103,8 +108,8 @@
     "totalPeak": 0,
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:28:06.160Z",
-    "lastSeen": "2026-04-24T23:30:03.214Z",
-    "confirmed": false
+    "lastSeen": "2026-04-25T00:02:47.053Z",
+    "confirmed": true
   },
   "77teBqbsZvVjyRACgNHnEBmJMsj6eHQydYxZsGjkoFii": {
     "appearances": 1,
@@ -682,6 +687,23 @@
     "avgPeak": 0,
     "firstSeen": "2026-04-24T23:56:26.630Z",
     "lastSeen": "2026-04-24T23:56:26.630Z",
+    "confirmed": false
+  },
+  "AJebu3SAtkFpx2NVDGG5uvA3d7VZSB49TPPh9DLeipLD": {
+    "appearances": 1,
+    "tokens": [
+      {
+        "symbol": "NEWSCUM",
+        "pairAddress": "Eekfpoh9m3pjLMr7M23hDFFm6Y1QGywu5Lp3R5PasMpx",
+        "entryTime": "2026-04-25T00:02:47.053Z"
+      }
+    ],
+    "wins": 0,
+    "losses": 0,
+    "totalPeak": 0,
+    "avgPeak": 0,
+    "firstSeen": "2026-04-25T00:02:47.053Z",
+    "lastSeen": "2026-04-25T00:02:47.053Z",
     "confirmed": false
   }
 }
