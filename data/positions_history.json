@@ -12128,7 +12128,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "BwsKZ7SgYf93GeguuNfbDtAtsPTFTgu7ahf6qPdxibND",
+      "mint": "A7kGQYN4WR21a3Jg1RZkBNwXyaBQevCnnBWRYmHKpump",
+      "name": "Vaping Ape",
+      "symbol": "VAPE",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000742,
+      "entryMcap": 74200,
+      "entryTime": 1777122002348,
+      "score": 66,
+      "ageAtEntry": 22,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/bwskz7sgyf93geguunfbdtatsptftgu7ahf6qpdxibnd",
+      "peakPrice": 0.0000742,
+      "peakMultiplier": 1,
+      "peakMcap": 74200,
+      "peakTime": 1777122002348,
+      "lastPrice": 0.00004799,
+      "lowestPrice": 0.00004799,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00004799,
+      "closeMultiplier": 0.646765498652291,
+      "closedAt": "2026-04-25T13:09:01.906Z",
+      "durationMs": 539558,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00004799,
+        "closeMultiplier": 0.646765498652291,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-25T13:09:01.906Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 0,
+        "momentum": 1.7672727272727273,
+        "floatRotation": 0.6217,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.6217,
+        "accel": 1.7672727272727273,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(22min)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 38.88,
+        "vol5m": 46130.14,
+        "buys5m": 500,
+        "sells5m": 391,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T12:58:02.661Z"
+  "lastSaved": "2026-04-25T13:09:03.099Z"
 }
