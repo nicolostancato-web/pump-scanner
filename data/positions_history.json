@@ -12558,7 +12558,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "28MY91pp7ZUgEA754xNpCLcRyQnig2vFM3wZ3hNRiZuT",
+      "mint": "4cdEkw5fGe2TioZ6ECgEFSiwpvBjA97CeUsQTXQGpump",
+      "name": "Asteroid Doge",
+      "symbol": "ASTERDOGE",
+      "dex": "pumpswap",
+      "entryPrice": 0.00009659,
+      "entryMcap": 96597,
+      "entryTime": 1777125003136,
+      "score": 69,
+      "ageAtEntry": 56,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/28my91pp7zugea754xnpclcryqnig2vfm3wz3hnrizut",
+      "peakPrice": 0.0001336,
+      "peakMultiplier": 1.383165959209028,
+      "peakMcap": 133634,
+      "peakTime": 1777127403228,
+      "lastPrice": 0.000002312,
+      "lowestPrice": 0.000002312,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002312,
+      "closeMultiplier": 0.023936225282120305,
+      "closedAt": "2026-04-25T14:31:03.288Z",
+      "durationMs": 2460152,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000002312,
+        "closeMultiplier": 0.023936225282120305,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-25T14:31:03.288Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": 0.10392857142857144,
+        "floatRotation": 0.4265928548505647,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.4265928548505647,
+        "accel": 0.10392857142857144,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(56min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(56min)",
+        "priceChg5m": 5.82,
+        "vol5m": 41207.59,
+        "buys5m": 974,
+        "sells5m": 290,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T14:22:04.415Z"
+  "lastSaved": "2026-04-25T14:31:04.428Z"
 }
