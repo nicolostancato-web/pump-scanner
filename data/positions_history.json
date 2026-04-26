@@ -17192,7 +17192,105 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "HhQJ9MrTZA6CnfrfEyqv6LNVPhTe9fHEjWWsesKsF9Ku",
+      "mint": "FnNke7UioPLyPu1RJxBJbGHUDrmhibsF3BXYq1mThYgM",
+      "name": "TRUMP Inmortal",
+      "symbol": "TRUMP",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008525,
+      "entryMcap": 85260,
+      "entryTime": 1777231962722,
+      "score": 68,
+      "ageAtEntry": 17,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/hhqj9mrtza6cnfrfeyqv6lnvphte9fhejwwsesksf9ku",
+      "peakPrice": 0.0005164,
+      "peakMultiplier": 6.057478005865103,
+      "peakMcap": 516438,
+      "peakTime": 1777232564081,
+      "lastPrice": 0.00005129,
+      "lowestPrice": 0.00005129,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2,
+        3,
+        5
+      ],
+      "timesToMilestone": {
+        "1": 301393,
+        "2": 301393,
+        "3": 360977,
+        "5": 601359,
+        "0.5": 121105,
+        "1.5": 301393
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005129,
+      "closeMultiplier": 0.601642228739003,
+      "closedAt": "2026-04-26T19:47:44.324Z",
+      "durationMs": 901602,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005129,
+        "closeMultiplier": 0.601642228739003,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T19:47:44.324Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 14.647058823529411,
+        "floatRotation": 0.5561100164203613,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.5561100164203613,
+        "accel": 14.647058823529411,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 249,
+        "vol5m": 47413.94,
+        "buys5m": 332,
+        "sells5m": 141,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T18:53:44.299Z"
+  "lastSaved": "2026-04-26T19:47:45.456Z"
 }
