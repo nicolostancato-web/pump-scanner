@@ -15330,7 +15330,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "917BrPiGcj1MGPsN8FRyGsWHzRuPMqQRreV81QN5vNyr",
+      "mint": "DVvhwb71pgiqqfDr7J6vxzRgDqqDm5D9m2ZLYb6Ypump",
+      "name": "Trump The Immortal Man",
+      "symbol": "TrumpGod",
+      "dex": "pumpswap",
+      "entryPrice": 0.00192,
+      "entryMcap": 1920424,
+      "entryTime": 1777171352495,
+      "score": 70,
+      "ageAtEntry": 15,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/917brpigcj1mgpsn8frygswhzrupmqqrrev81qn5vnyr",
+      "peakPrice": 0.002317,
+      "peakMultiplier": 1.2067708333333333,
+      "peakMcap": 2317336,
+      "peakTime": 1777178482813,
+      "lastPrice": 0.002261,
+      "lowestPrice": 0.001691,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.002261,
+      "closeMultiplier": 1.1776041666666666,
+      "closedAt": "2026-04-26T04:43:23.069Z",
+      "durationMs": 7250574,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.002261,
+        "closeMultiplier": 1.1776041666666666,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-26T04:43:23.069Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.002261,
+        "closeMultiplier": 1.1776041666666666,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-26T04:43:23.069Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -60,
+        "momentum": -0.15266666666666667,
+        "floatRotation": 0.03135830420782077,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": false,
+        "hf3_vol": false,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.03135830420782077,
+        "accel": -0.15266666666666667,
+        "wouldPassV5": false,
+        "failReason": "HF2-mcap($1920k)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($1920k)",
+        "priceChg5m": -2.29,
+        "vol5m": 60221.24,
+        "buys5m": 541,
+        "sells5m": 334,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T03:42:22.475Z"
+  "lastSaved": "2026-04-26T04:43:24.201Z"
 }
