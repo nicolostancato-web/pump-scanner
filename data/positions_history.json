@@ -16226,7 +16226,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "2opTUi81d6bESm4a928rsPxJ1NfuWaeCNxawnR15GsSi",
+      "mint": "5cmZWCKykmatesWbjK5Hfng4agATVAGXfm6rAASspump",
+      "name": "Saint Trump the Archangel",
+      "symbol": "ArchTrump",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008334,
+      "entryMcap": 83346,
+      "entryTime": 1777213836753,
+      "score": 65,
+      "ageAtEntry": 43,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/2optui81d6besm4a928rspxj1nfuwaecnxawnr15gssi",
+      "peakPrice": 0.0001274,
+      "peakMultiplier": 1.5286777057835375,
+      "peakMcap": 127421,
+      "peakTime": 1777214496815,
+      "lastPrice": 0.000002553,
+      "lowestPrice": 0.000002553,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 660062
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002553,
+      "closeMultiplier": 0.030633549316054717,
+      "closedAt": "2026-04-26T14:51:37.017Z",
+      "durationMs": 1260264,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000002553,
+        "closeMultiplier": 0.030633549316054717,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T14:51:37.017Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -23,
+        "momentum": 0.3537209302325582,
+        "floatRotation": 0.1994633215751206,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.1994633215751206,
+        "accel": 0.3537209302325582,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(43min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(43min)",
+        "priceChg5m": 15.21,
+        "vol5m": 16624.47,
+        "buys5m": 1324,
+        "sells5m": 144,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T14:15:37.550Z"
+  "lastSaved": "2026-04-26T14:51:38.262Z"
 }
