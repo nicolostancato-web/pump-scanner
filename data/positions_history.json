@@ -17906,7 +17906,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "BADgiJR3yLabbpfKWCZcQYydvFWYsXti3WYBPZoVcjbQ",
+      "mint": "XtZE9ZUGpfe8rfXXkiSbFx6CdvewRPfVHK2yRKxpump",
+      "name": "Jet Propulsion Laboratory",
+      "symbol": "JPL",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000199,
+      "entryMcap": 19908,
+      "entryTime": 1777240725720,
+      "score": 66,
+      "ageAtEntry": 27,
+      "whaleDetected": true,
+      "whaleWallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/badgijr3ylabbpfkwczcqyydvfwysxti3wybpzovcjbq",
+      "peakPrice": 0.00002781,
+      "peakMultiplier": 1.3974874371859296,
+      "peakMcap": 27817,
+      "peakTime": 1777240907600,
+      "lastPrice": 0.00001371,
+      "lowestPrice": 0.00001371,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001371,
+      "closeMultiplier": 0.6889447236180904,
+      "closedAt": "2026-04-26T22:10:47.540Z",
+      "durationMs": 721820,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001371,
+        "closeMultiplier": 0.6889447236180904,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T22:10:47.540Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -31,
+        "momentum": 0.09481481481481481,
+        "floatRotation": 0.13111462728551337,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.13111462728551337,
+        "accel": 0.09481481481481481,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(27min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(27min)",
+        "priceChg5m": 2.56,
+        "vol5m": 2610.23,
+        "buys5m": 78,
+        "sells5m": 38,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T20:51:46.833Z"
+  "lastSaved": "2026-04-26T22:10:48.690Z"
 }
