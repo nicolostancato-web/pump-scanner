@@ -14200,7 +14200,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "EVBfkHGrpQJATfXPDuxU94tACe7e8uN8KYfyEgAbdok9",
+      "mint": "GhK9ywdT8SAh2ek5DojbVpY1foszz1FgPQY1RQSzpump",
+      "name": "Pepe-132",
+      "symbol": "PEPETIDE",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000902,
+      "entryMcap": 90203,
+      "entryTime": 1777160056448,
+      "score": 68,
+      "ageAtEntry": 40,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/evbfkhgrpqjatfxpduxu94tace7e8un8kyfyegabdok9",
+      "peakPrice": 0.0001343,
+      "peakMultiplier": 1.4889135254988914,
+      "peakMcap": 134381,
+      "peakTime": 1777161316326,
+      "lastPrice": 0.00005147,
+      "lowestPrice": 0.00005147,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005147,
+      "closeMultiplier": 0.5706208425720621,
+      "closedAt": "2026-04-26T00:06:16.756Z",
+      "durationMs": 1920308,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005147,
+        "closeMultiplier": 0.5706208425720621,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T00:06:16.756Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 0.80625,
+        "floatRotation": 0.2822651131337095,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.2822651131337095,
+        "accel": 0.80625,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(40min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(40min)",
+        "priceChg5m": 32.25,
+        "vol5m": 25461.16,
+        "buys5m": 281,
+        "sells5m": 186,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-25T23:45:17.185Z"
+  "lastSaved": "2026-04-26T00:06:17.945Z"
 }
