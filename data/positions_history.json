@@ -17374,7 +17374,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "CgvSJedMEkQbKGuwtrjiAdUDNwpdUHTXPqYwUPA4Pg1B",
+      "mint": "2cokdGHSDHyjyttqKKuNU7cFvp4MGutGtCPWFddKpump",
+      "name": "The Omniscient Alien",
+      "symbol": "Omega",
+      "dex": "pumpswap",
+      "entryPrice": 0.00009929,
+      "entryMcap": 99290,
+      "entryTime": 1777232322971,
+      "score": 67,
+      "ageAtEntry": 15,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/cgvsjedmekqbkguwtrjiadudnwpduhtxpqywupa4pg1b",
+      "peakPrice": 0.0001514,
+      "peakMultiplier": 1.5248262664920937,
+      "peakMcap": 151408,
+      "peakTime": 1777232744557,
+      "lastPrice": 0.00006587,
+      "lowestPrice": 0.00006587,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 421586
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00006587,
+      "closeMultiplier": 0.6634102125088126,
+      "closedAt": "2026-04-26T20:06:44.343Z",
+      "durationMs": 1681372,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00007487,
+        "closeMultiplier": 0.7540537818511431,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T19:51:44.354Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00007487,
+        "closeMultiplier": 0.7540537818511431,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T19:51:44.355Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 5,
+        "momentum": 0.8053333333333333,
+        "floatRotation": 0.3855015610836942,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.3855015610836942,
+        "accel": 0.8053333333333333,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(0.81)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 12.08,
+        "vol5m": 38276.45,
+        "buys5m": 532,
+        "sells5m": 402,
+        "tp2x_hit": false,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T19:51:45.496Z"
+  "lastSaved": "2026-04-26T20:06:45.491Z"
 }
