@@ -1,30 +1,30 @@
 {
-  "totalClosed": 200,
+  "totalClosed": 201,
   "winRate": "4.0%",
-  "avgPeakMultiplier": "1.304",
+  "avgPeakMultiplier": "1.309",
   "avgCloseMultiplier": "0.588",
   "optimalTP": 3,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
-      "captured": 37,
-      "rate": "18.5%",
-      "expectedValue": "5.5%"
+      "captured": 38,
+      "rate": "18.9%",
+      "expectedValue": "5.7%"
     },
     "+50%": {
-      "captured": 26,
-      "rate": "13.0%",
-      "expectedValue": "6.5%"
+      "captured": 27,
+      "rate": "13.4%",
+      "expectedValue": "6.7%"
     },
     "+70%": {
-      "captured": 21,
-      "rate": "10.5%",
-      "expectedValue": "7.3%"
+      "captured": 22,
+      "rate": "10.9%",
+      "expectedValue": "7.7%"
     },
     "+100%": {
-      "captured": 13,
-      "rate": "6.5%",
-      "expectedValue": "6.5%"
+      "captured": 14,
+      "rate": "7.0%",
+      "expectedValue": "7.0%"
     },
     "+150%": {
       "captured": 8,
@@ -44,74 +44,74 @@
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 196,
-      "recovered": 196,
+      "positions_hit": 197,
+      "recovered": 197,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 193,
-      "recovered": 193,
+      "positions_hit": 194,
+      "recovered": 194,
       "recovery_rate": "100.0%"
     },
     "-20%": {
-      "positions_hit": 193,
-      "recovered": 193,
+      "positions_hit": 194,
+      "recovered": 194,
       "recovery_rate": "100.0%"
     },
     "-25%": {
+      "positions_hit": 194,
+      "recovered": 194,
+      "recovery_rate": "100.0%"
+    },
+    "-30%": {
       "positions_hit": 193,
       "recovered": 193,
       "recovery_rate": "100.0%"
     },
-    "-30%": {
-      "positions_hit": 192,
-      "recovered": 192,
-      "recovery_rate": "100.0%"
-    },
     "-40%": {
-      "positions_hit": 95,
-      "recovered": 95,
+      "positions_hit": 96,
+      "recovered": 96,
       "recovery_rate": "100.0%"
     }
   },
   "milestoneRates": {
     "+50%": {
-      "reached": 26,
-      "total": 200,
-      "rate": "13.0%"
+      "reached": 27,
+      "total": 201,
+      "rate": "13.4%"
     },
     "+100%": {
-      "reached": 13,
-      "total": 200,
-      "rate": "6.5%"
+      "reached": 14,
+      "total": 201,
+      "rate": "7.0%"
     },
     "+150%": {
       "reached": 8,
-      "total": 200,
+      "total": 201,
       "rate": "4.0%"
     },
     "+200%": {
       "reached": 8,
-      "total": 200,
+      "total": 201,
       "rate": "4.0%"
     },
     "+300%": {
       "reached": 6,
-      "total": 200,
+      "total": 201,
       "rate": "3.0%"
     },
     "+500%": {
       "reached": 3,
-      "total": 200,
+      "total": 201,
       "rate": "1.5%"
     }
   },
   "byScore": {
     "65-70": {
-      "count": 119,
-      "avgPeak": "1.34x",
-      "wins2x": 8,
-      "win2xRate": "7%"
+      "count": 120,
+      "avgPeak": "1.35x",
+      "wins2x": 9,
+      "win2xRate": "8%"
     },
     "70-75": {
       "count": 43,
@@ -139,9 +139,9 @@
       "wins2x": 0
     },
     "noWhale": {
-      "count": 200,
-      "avgPeak": "1.30x",
-      "wins2x": 13
+      "count": 201,
+      "avgPeak": "1.31x",
+      "wins2x": 14
     }
   },
   "byAge": {
@@ -150,8 +150,8 @@
       "avgPeak": "1.55x"
     },
     "15-30min": {
-      "count": 71,
-      "avgPeak": "1.46x"
+      "count": 72,
+      "avgPeak": "1.47x"
     },
     "30-60min": {
       "count": 72,
@@ -162,6 +162,6 @@
       "avgPeak": "1.07x"
     }
   },
-  "recommendation": "📊 Analisi su 200 posizioni chiuse\n✅ Win rate (chiuse in positivo): 4%\n📈 Peak medio: 1.30x | Close medio: 0.59x\n🎯 Take Profit ottimale: +300% (expected value: 9.0%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: N/A vs 1.30x",
-  "lastUpdated": "2026-04-26T03:06:22.139Z"
+  "recommendation": "📊 Analisi su 201 posizioni chiuse\n✅ Win rate (chiuse in positivo): 4%\n📈 Peak medio: 1.31x | Close medio: 0.59x\n🎯 Take Profit ottimale: +300% (expected value: 9.0%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: N/A vs 1.31x",
+  "lastUpdated": "2026-04-26T03:42:22.484Z"
 }
