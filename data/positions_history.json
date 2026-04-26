@@ -14284,7 +14284,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "9XKYyZRhA1kDGeCgezR38b5hPEbCKeNvEmnPYGyQYYFJ",
+      "mint": "7r21Cs3PS3FrJvbSQj34FCXXo88eCGP2WFQNffZXpump",
+      "name": "Meme Index Lambo Fund",
+      "symbol": "MILF",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007141,
+      "entryMcap": 71413,
+      "entryTime": 1777155975089,
+      "score": 65,
+      "ageAtEntry": 50,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/9xkyyzrha1kdgecgezr38b5hpebckenvemnpygyqyyfj",
+      "peakPrice": 0.0001291,
+      "peakMultiplier": 1.8078700462120152,
+      "peakMcap": 129165,
+      "peakTime": 1777162216612,
+      "lastPrice": 0.000006247,
+      "lowestPrice": 0.000006247,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 4140949
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000006247,
+      "closeMultiplier": 0.08748074499369836,
+      "closedAt": "2026-04-26T00:11:16.665Z",
+      "durationMs": 6301576,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000006247,
+        "closeMultiplier": 0.08748074499369836,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T00:11:16.665Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -23,
+        "momentum": 0.23440000000000003,
+        "floatRotation": 0.2512457115651212,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.2512457115651212,
+        "accel": 0.23440000000000003,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(50min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(50min)",
+        "priceChg5m": 11.72,
+        "vol5m": 17942.21,
+        "buys5m": 896,
+        "sells5m": 166,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T00:06:17.945Z"
+  "lastSaved": "2026-04-26T00:11:17.767Z"
 }
