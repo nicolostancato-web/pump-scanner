@@ -16664,7 +16664,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "AsAtkF5FuLXXouAQTKnbaRSDtR12Fu7yhzzmFPAXP2Z8",
+      "mint": "FhdALNqch4iYC3bo5GR7YyjRq55SvE8XYsYRThvkpump",
+      "name": "The President from the Future",
+      "symbol": "TIMETRUMP",
+      "dex": "pumpswap",
+      "entryPrice": 0.00006069,
+      "entryMcap": 60699,
+      "entryTime": 1777219838814,
+      "score": 70,
+      "ageAtEntry": 19,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/asatkf5fulxxouaqtknbarsdtr12fu7yhzzmfpaxp2z8",
+      "peakPrice": 0.00006816,
+      "peakMultiplier": 1.1230845279288184,
+      "peakMcap": 68162,
+      "peakTime": 1777220018909,
+      "lastPrice": 0.000002019,
+      "lowestPrice": 0.000002019,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002019,
+      "closeMultiplier": 0.033267424616905586,
+      "closedAt": "2026-04-26T16:15:38.956Z",
+      "durationMs": 300142,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000002019,
+        "closeMultiplier": 0.033267424616905586,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T16:15:38.956Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -2,
+        "momentum": 0.4826315789473684,
+        "floatRotation": 0.5346537834231206,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.5346537834231206,
+        "accel": 0.4826315789473684,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(0.48)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 9.17,
+        "vol5m": 32452.95,
+        "buys5m": 1176,
+        "sells5m": 243,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T15:59:39.738Z"
+  "lastSaved": "2026-04-26T16:15:40.187Z"
 }
