@@ -17108,7 +17108,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8v4BD5UVT9VPt7rX8KCmRMcDw1xedEgKtYsUyK7qagH2",
+      "mint": "5kqTCv3H3HAsUqfG1hCy8G8GouBXkBcTuVcjkcA7pump",
+      "name": "Trump Wif Hat",
+      "symbol": "TRUMPWIF",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001244,
+      "entryMcap": 124412,
+      "entryTime": 1777229082045,
+      "score": 73,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8v4bd5uvt9vpt7rx8kcmrmcdw1xedegktysuyk7qagh2",
+      "peakPrice": 0.0001775,
+      "peakMultiplier": 1.426848874598071,
+      "peakMcap": 177586,
+      "peakTime": 1777229262808,
+      "lastPrice": 0.00007963,
+      "lowestPrice": 0.00007963,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00007963,
+      "closeMultiplier": 0.6401125401929261,
+      "closedAt": "2026-04-26T18:53:43.134Z",
+      "durationMs": 541089,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00007963,
+        "closeMultiplier": 0.6401125401929261,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T18:53:43.134Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00007963,
+        "closeMultiplier": 0.6401125401929261,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T18:53:43.134Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 0,
+        "momentum": 2.2927272727272725,
+        "floatRotation": 0.6255134552937016,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.6255134552937016,
+        "accel": 2.2927272727272725,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 25.22,
+        "vol5m": 77821.38,
+        "buys5m": 563,
+        "sells5m": 444,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T18:34:43.383Z"
+  "lastSaved": "2026-04-26T18:53:44.299Z"
 }
