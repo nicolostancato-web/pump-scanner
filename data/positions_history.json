@@ -15240,7 +15240,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "53gNcNkq6ZoHbRZcSsiKutniDpkWu3cD93wvspUrhH1e",
+      "mint": "8AChxn68fMqyXTx9fWhPMnbc6Fua5NCkfBUin6Mdpump",
+      "name": "Nietzsche's Trump",
+      "symbol": "Trump",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001075,
+      "entryMcap": 107569,
+      "entryTime": 1777171100407,
+      "score": 65,
+      "ageAtEntry": 25,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/53gncnkq6zohbrzcssikutnidpkwu3cd93wvspurhh1e",
+      "peakPrice": 0.0002554,
+      "peakMultiplier": 2.3758139534883718,
+      "peakMcap": 255448,
+      "peakTime": 1777172180342,
+      "lastPrice": 0.00005506,
+      "lowestPrice": 0.00005506,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 540287,
+        "0.5": 299682
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005506,
+      "closeMultiplier": 0.5121860465116279,
+      "closedAt": "2026-04-26T03:42:21.332Z",
+      "durationMs": 3840925,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00009097,
+        "closeMultiplier": 0.8462325581395349,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T03:40:21.287Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 9,
+        "momentum": 2.7936,
+        "floatRotation": 0.2987281651776999,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": true,
+        "floatRot": 0.2987281651776999,
+        "accel": 2.7936,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(25min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg69.8%,vol$32134,b404s437)",
+        "priceChg5m": 69.84,
+        "vol5m": 32133.89,
+        "buys5m": 404,
+        "sells5m": 437,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T03:06:22.130Z"
+  "lastSaved": "2026-04-26T03:42:22.475Z"
 }
