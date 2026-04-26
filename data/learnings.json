@@ -1,20 +1,20 @@
 {
-  "totalClosed": 212,
-  "winRate": "5.7%",
-  "avgPeakMultiplier": "1.396",
+  "totalClosed": 213,
+  "winRate": "5.6%",
+  "avgPeakMultiplier": "1.395",
   "avgCloseMultiplier": "0.639",
   "optimalTP": 3,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
       "captured": 44,
-      "rate": "20.8%",
+      "rate": "20.7%",
       "expectedValue": "6.2%"
     },
     "+50%": {
       "captured": 33,
-      "rate": "15.6%",
-      "expectedValue": "7.8%"
+      "rate": "15.5%",
+      "expectedValue": "7.7%"
     },
     "+70%": {
       "captured": 27,
@@ -23,17 +23,17 @@
     },
     "+100%": {
       "captured": 19,
-      "rate": "9.0%",
-      "expectedValue": "9.0%"
+      "rate": "8.9%",
+      "expectedValue": "8.9%"
     },
     "+150%": {
       "captured": 12,
-      "rate": "5.7%",
+      "rate": "5.6%",
       "expectedValue": "8.5%"
     },
     "+200%": {
       "captured": 12,
-      "rate": "5.7%",
+      "rate": "5.6%",
       "expectedValue": "11.3%"
     },
     "+300%": {
@@ -44,66 +44,66 @@
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 207,
-      "recovered": 207,
+      "positions_hit": 208,
+      "recovered": 208,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 202,
-      "recovered": 202,
+      "positions_hit": 203,
+      "recovered": 203,
       "recovery_rate": "100.0%"
     },
     "-20%": {
+      "positions_hit": 203,
+      "recovered": 203,
+      "recovery_rate": "100.0%"
+    },
+    "-25%": {
       "positions_hit": 202,
       "recovered": 202,
       "recovery_rate": "100.0%"
     },
-    "-25%": {
-      "positions_hit": 201,
-      "recovered": 201,
-      "recovery_rate": "100.0%"
-    },
     "-30%": {
-      "positions_hit": 199,
-      "recovered": 199,
+      "positions_hit": 200,
+      "recovered": 200,
       "recovery_rate": "100.0%"
     },
     "-40%": {
-      "positions_hit": 99,
-      "recovered": 99,
+      "positions_hit": 100,
+      "recovered": 100,
       "recovery_rate": "100.0%"
     }
   },
   "milestoneRates": {
     "+50%": {
       "reached": 33,
-      "total": 212,
-      "rate": "15.6%"
+      "total": 213,
+      "rate": "15.5%"
     },
     "+100%": {
       "reached": 19,
-      "total": 212,
-      "rate": "9.0%"
+      "total": 213,
+      "rate": "8.9%"
     },
     "+150%": {
       "reached": 12,
-      "total": 212,
-      "rate": "5.7%"
+      "total": 213,
+      "rate": "5.6%"
     },
     "+200%": {
       "reached": 12,
-      "total": 212,
-      "rate": "5.7%"
+      "total": 213,
+      "rate": "5.6%"
     },
     "+300%": {
       "reached": 9,
-      "total": 212,
+      "total": 213,
       "rate": "4.2%"
     },
     "+500%": {
       "reached": 5,
-      "total": 212,
-      "rate": "2.4%"
+      "total": 213,
+      "rate": "2.3%"
     }
   },
   "byScore": {
@@ -114,7 +114,7 @@
       "win2xRate": "8%"
     },
     "70-75": {
-      "count": 45,
+      "count": 46,
       "avgPeak": "1.13x",
       "wins2x": 1,
       "win2xRate": "2%"
@@ -139,15 +139,15 @@
       "wins2x": 1
     },
     "noWhale": {
-      "count": 211,
-      "avgPeak": "1.39x",
+      "count": 212,
+      "avgPeak": "1.38x",
       "wins2x": 18
     }
   },
   "byAge": {
     "0-15min": {
-      "count": 36,
-      "avgPeak": "1.78x"
+      "count": 37,
+      "avgPeak": "1.76x"
     },
     "15-30min": {
       "count": 76,
@@ -162,6 +162,6 @@
       "avgPeak": "1.07x"
     }
   },
-  "recommendation": "📊 Analisi su 212 posizioni chiuse\n✅ Win rate (chiuse in positivo): 6%\n📈 Peak medio: 1.40x | Close medio: 0.64x\n🎯 Take Profit ottimale: +300% (expected value: 12.7%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 3.57x vs 1.39x",
-  "lastUpdated": "2026-04-26T14:51:38.271Z"
+  "recommendation": "📊 Analisi su 213 posizioni chiuse\n✅ Win rate (chiuse in positivo): 6%\n📈 Peak medio: 1.40x | Close medio: 0.64x\n🎯 Take Profit ottimale: +300% (expected value: 12.7%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 3.57x vs 1.38x",
+  "lastUpdated": "2026-04-26T15:15:39.033Z"
 }
