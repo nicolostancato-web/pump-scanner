@@ -15778,7 +15778,191 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "3m794zCca4iEgaNgY7biTGwiYvpTYAHiMaBrNccqC3aS",
+      "mint": "F4LYw83S51J4Dz9uZzeeGD1BbfYHJnEhF44dqyXepump",
+      "name": "Blimp",
+      "symbol": "BLIMP",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007065,
+      "entryMcap": 70660,
+      "entryTime": 1777186946237,
+      "score": 83,
+      "ageAtEntry": 10,
+      "whaleDetected": true,
+      "whaleWallet": "5SzSfWo2RBvYHBPpjjuAshrnSiL85ahkBFFJhTMqyYXF",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/3m794zcca4iegangy7bitgwiyvptyahimabrnccqc3as",
+      "peakPrice": 0.0002519,
+      "peakMultiplier": 3.565463552724699,
+      "peakMcap": 251921,
+      "peakTime": 1777191147612,
+      "lastPrice": 0.0001242,
+      "lowestPrice": 0.00005479,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2
+      ],
+      "timesToMilestone": {
+        "1": 1680426,
+        "2": 2820905,
+        "0.5": 1200370,
+        "1.5": 2580820
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0001242,
+      "closeMultiplier": 1.7579617834394907,
+      "closedAt": "2026-04-26T09:02:28.848Z",
+      "durationMs": 7202611,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00008786,
+        "closeMultiplier": 1.2435951875442322,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T08:43:28.421Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00008786,
+        "closeMultiplier": 1.2435951875442322,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T08:43:28.421Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 19,
+        "momentum": 4.8100000000000005,
+        "floatRotation": 0.13038055476931787,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": true,
+        "floatRot": 0.13038055476931787,
+        "accel": 4.8100000000000005,
+        "wouldPassV5": false,
+        "failReason": "SC1-rot(0.130)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": 48.1,
+        "vol5m": 9212.69,
+        "buys5m": 175,
+        "sells5m": 88,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
+    },
+    {
+      "pairAddress": "DMja8YQu3VYaUw1dkeLxJxfh7j9nmh3s5yt8KnZ29T3N",
+      "mint": "AEQnChmvPxzcNchJB5igU1ggbRJ8jy3VN8Zm53G7pump",
+      "name": "AMURICA",
+      "symbol": "AMURICA",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001086,
+      "entryMcap": 108650,
+      "entryTime": 1777197762496,
+      "score": 75,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/dmja8yqu3vyauw1dkelxjxfh7j9nmh3s5yt8knz29t3n",
+      "peakPrice": 0.0002298,
+      "peakMultiplier": 2.116022099447514,
+      "peakMcap": 220596,
+      "peakTime": 1777203572526,
+      "lastPrice": 0.0001049,
+      "lowestPrice": 0.00009433,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 5749978,
+        "0.5": 1788390
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0001049,
+      "closeMultiplier": 0.9659300184162063,
+      "closedAt": "2026-04-26T12:03:33.105Z",
+      "durationMs": 7250609,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001049,
+        "closeMultiplier": 0.9659300184162063,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T12:03:33.105Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0001049,
+        "closeMultiplier": 0.9659300184162063,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T12:03:33.105Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -6,
+        "momentum": 1.8909090909090909,
+        "floatRotation": 0.19745181776346066,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.19745181776346066,
+        "accel": 1.8909090909090909,
+        "wouldPassV5": false,
+        "failReason": "SC1-rot(0.197)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 20.8,
+        "vol5m": 21453.14,
+        "buys5m": 920,
+        "sells5m": 195,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T05:58:26.113Z"
+  "lastSaved": "2026-04-26T12:03:34.268Z"
 }
