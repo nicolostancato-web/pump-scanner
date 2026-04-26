@@ -16836,7 +16836,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "H2X8hgxQfoQEuYijaX78KTUmwGX9xn36goPCu7vBvarM",
+      "mint": "6tXZLuoron4UugvJELFCjcg5AsyEDrnFVq8JfuZapump",
+      "name": "Tinfoil Hat Cult",
+      "symbol": "Tinfoil",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000601,
+      "entryMcap": 60101,
+      "entryTime": 1777222359624,
+      "score": 68,
+      "ageAtEntry": 15,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/h2x8hgxqfoqeuyijax78ktumwgx9xn36gopcu7vbvarm",
+      "peakPrice": 0.0000601,
+      "peakMultiplier": 1,
+      "peakMcap": 60101,
+      "peakTime": 1777222359624,
+      "lastPrice": 0.00003134,
+      "lowestPrice": 0.00003134,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003134,
+      "closeMultiplier": 0.5214642262895175,
+      "closedAt": "2026-04-26T16:53:40.140Z",
+      "durationMs": 60516,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003134,
+        "closeMultiplier": 0.5214642262895175,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-26T16:53:40.140Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00003134,
+        "closeMultiplier": 0.5214642262895175,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-26T16:53:40.140Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -10,
+        "momentum": 1.424,
+        "floatRotation": 0.4647245470125289,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.4647245470125289,
+        "accel": 1.424,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.42)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 21.36,
+        "vol5m": 27930.41,
+        "buys5m": 372,
+        "sells5m": 291,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T16:20:40.191Z"
+  "lastSaved": "2026-04-26T16:53:41.369Z"
 }
