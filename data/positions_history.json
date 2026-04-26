@@ -16482,7 +16482,105 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "37BqDA3HCV9xYvyGT67gqPY3xSvVuw76UM1qe4zCYXD4",
+      "mint": "3Y1vs5mWB56S2cUPVdSgogVwJbGeLSUuc55D22MJ6Umg",
+      "name": "WE MISS OBAMA",
+      "symbol": "OBAMA",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005355,
+      "entryMcap": 53554,
+      "entryTime": 1777215157066,
+      "score": 68,
+      "ageAtEntry": 15,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/37bqda3hcv9xyvygt67gqpy3xsvvuw76um1qe4zcyxd4",
+      "peakPrice": 0.0004463,
+      "peakMultiplier": 8.334267040149394,
+      "peakMcap": 446362,
+      "peakTime": 1777218218309,
+      "lastPrice": 0.00001807,
+      "lowestPrice": 0.00001807,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2,
+        3,
+        5
+      ],
+      "timesToMilestone": {
+        "1": 240054,
+        "2": 300188,
+        "3": 360163,
+        "5": 960539,
+        "0.5": 240054,
+        "1.5": 240054
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001807,
+      "closeMultiplier": 0.3374416433239963,
+      "closedAt": "2026-04-26T15:52:38.469Z",
+      "durationMs": 3601403,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001918,
+        "closeMultiplier": 3.581699346405229,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T15:28:38.065Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0001918,
+        "closeMultiplier": 3.581699346405229,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T15:28:38.065Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 10,
+        "floatRotation": 0.4856613885050603,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.4856613885050603,
+        "accel": 10,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 150,
+        "vol5m": 26009.11,
+        "buys5m": 337,
+        "sells5m": 157,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T15:33:39.123Z"
+  "lastSaved": "2026-04-26T15:52:39.667Z"
 }
