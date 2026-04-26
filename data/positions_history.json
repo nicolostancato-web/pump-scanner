@@ -14798,7 +14798,103 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "2zryZRtZZ9JCdwPf1FmxXKD9aCVT1efwnX6RBLTHPqnB",
+      "mint": "3VHgeZygXSaXhzWzb2VoBNXu8AUCobLcQdTYPYFMpump",
+      "name": "Nietzsche's Last Woman",
+      "symbol": "LASTWOMAN",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007332,
+      "entryMcap": 73327,
+      "entryTime": 1777162817596,
+      "score": 68,
+      "ageAtEntry": 26,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/2zryzrtzz9jcdwpf1fmxxkd9acvt1efwnx6rblthpqnb",
+      "peakPrice": 0.0003443,
+      "peakMultiplier": 4.695853791598473,
+      "peakMcap": 344366,
+      "peakTime": 1777165157781,
+      "lastPrice": 0.0001109,
+      "lowestPrice": 0.00005409,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2,
+        3
+      ],
+      "timesToMilestone": {
+        "1": 899896,
+        "2": 1681534,
+        "3": 1980013,
+        "0.5": 479516,
+        "1.5": 1079980
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0001109,
+      "closeMultiplier": 1.5125477359519914,
+      "closedAt": "2026-04-26T02:20:19.537Z",
+      "durationMs": 7201941,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001654,
+        "closeMultiplier": 2.2558647026732137,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-26T01:14:18.055Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -8,
+        "momentum": 0.4242307692307692,
+        "floatRotation": 0.29182497579336397,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.29182497579336397,
+        "accel": 0.4242307692307692,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(26min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(26min)",
+        "priceChg5m": 11.03,
+        "vol5m": 21398.65,
+        "buys5m": 401,
+        "sells5m": 210,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T02:12:21.092Z"
+  "lastSaved": "2026-04-26T02:20:20.698Z"
 }
