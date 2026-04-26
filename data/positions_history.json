@@ -16314,7 +16314,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "HSccmZnUg6ZMVbTiPU9QU2oRGDywNckK7jyVEDXohLt5",
+      "mint": "EDzFJFExfhFjgm6LGSdMthJUirYsRruK3Arx5xGVpump",
+      "name": "Vludimir Lunin",
+      "symbol": "Vludimir",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005226,
+      "entryMcap": 52237,
+      "entryTime": 1777215757539,
+      "score": 71,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/hsccmznug6zmvbtipu9qu2orgdywnckk7jyvedxohlt5",
+      "peakPrice": 0.00005691,
+      "peakMultiplier": 1.0889781859931114,
+      "peakMcap": 56891,
+      "peakTime": 1777215817529,
+      "lastPrice": 0.00003042,
+      "lowestPrice": 0.00003042,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003042,
+      "closeMultiplier": 0.582089552238806,
+      "closedAt": "2026-04-26T15:15:37.904Z",
+      "durationMs": 780365,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003042,
+        "closeMultiplier": 0.582089552238806,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-26T15:15:37.904Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00003042,
+        "closeMultiplier": 0.582089552238806,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-26T15:15:37.904Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 4.006666666666667,
+        "floatRotation": 0.4259331508317859,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.4259331508317859,
+        "accel": 4.006666666666667,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 48.08,
+        "vol5m": 22249.47,
+        "buys5m": 461,
+        "sells5m": 261,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T14:51:38.262Z"
+  "lastSaved": "2026-04-26T15:15:39.023Z"
 }
