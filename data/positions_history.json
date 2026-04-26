@@ -15694,7 +15694,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "JBEtvLLYh1jXJffLxsK7pVaxpeeFfc2stXBDcKDX5Uwo",
+      "mint": "FqSxniFXc3AeRAkcs3vvZ62xfKJNcgswDtNnKC3Vpump",
+      "name": "Saint Michael the Archangel",
+      "symbol": "Archangel",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001319,
+      "entryMcap": 131903,
+      "entryTime": 1777182984704,
+      "score": 69,
+      "ageAtEntry": 17,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/jbetvllyh1jxjfflxsk7pvaxpeeffc2stxbdckdx5uwo",
+      "peakPrice": 0.0001319,
+      "peakMultiplier": 1,
+      "peakMcap": 131903,
+      "peakTime": 1777182984704,
+      "lastPrice": 0.00009141,
+      "lowestPrice": 0.00009141,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00009141,
+      "closeMultiplier": 0.6930250189537528,
+      "closedAt": "2026-04-26T05:58:24.692Z",
+      "durationMs": 119988,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00009141,
+        "closeMultiplier": 0.6930250189537528,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-26T05:58:24.692Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 5,
+        "momentum": 0.5152941176470588,
+        "floatRotation": 0.506048611479648,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.506048611479648,
+        "accel": 0.5152941176470588,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(0.52)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 8.76,
+        "vol5m": 66749.33,
+        "buys5m": 782,
+        "sells5m": 567,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-26T05:30:25.004Z"
+  "lastSaved": "2026-04-26T05:58:26.113Z"
 }
