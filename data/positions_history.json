@@ -23884,7 +23884,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8SCkw4d8TQCecaS8ZnyzLsFfybWPDJFGTNWkLPr4Qcde",
+      "mint": "ssFb5yQUzyedrewydV4SfKiQwYov73pDPRyDDKQoPQs",
+      "name": "Felon Musk",
+      "symbol": "FELON",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001057,
+      "entryMcap": 105727,
+      "entryTime": 1777326673316,
+      "score": 73,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8sckw4d8tqcecas8znyzlsffybwpdjfgtnwklpr4qcde",
+      "peakPrice": 0.0001307,
+      "peakMultiplier": 1.2365184484389784,
+      "peakMcap": 130767,
+      "peakTime": 1777326983236,
+      "lastPrice": 0.00005071,
+      "lowestPrice": 0.00005071,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005071,
+      "closeMultiplier": 0.4797540208136235,
+      "closedAt": "2026-04-27T22:04:23.820Z",
+      "durationMs": 790504,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005071,
+        "closeMultiplier": 0.4797540208136235,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-27T22:04:23.820Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00005071,
+        "closeMultiplier": 0.4797540208136235,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-27T22:04:23.820Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 6.2491666666666665,
+        "floatRotation": 0.7861063872047821,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.7861063872047821,
+        "accel": 6.2491666666666665,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 74.99,
+        "vol5m": 83112.67,
+        "buys5m": 747,
+        "sells5m": 633,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T22:01:24.751Z"
+  "lastSaved": "2026-04-27T22:04:24.950Z"
 }
