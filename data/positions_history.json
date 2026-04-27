@@ -19724,7 +19724,103 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "HG8mHGdCTXv95KYvLjMa9bB5S8AxekcFe8sCFs3C8KVT",
+      "mint": "2uaoVwaQVSgqTKio5ExeXeD9oofdnYbhcFv5MChopump",
+      "name": "Super Testicle Farting Unicorn",
+      "symbol": "STFU",
+      "dex": "pumpswap",
+      "entryPrice": 0.00006111,
+      "entryMcap": 61119,
+      "entryTime": 1777264974215,
+      "score": 66,
+      "ageAtEntry": 21,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/hg8mhgdctxv95kyvljma9bb5s8axekcfe8scfs3c8kvt",
+      "peakPrice": 0.0002695,
+      "peakMultiplier": 4.410080183276059,
+      "peakMcap": 269559,
+      "peakTime": 1777270499714,
+      "lastPrice": 0.0001729,
+      "lowestPrice": 0.00004576,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2,
+        3
+      ],
+      "timesToMilestone": {
+        "1": 2463961,
+        "2": 4684878,
+        "3": 5405637,
+        "0.5": 1804087,
+        "1.5": 3124229
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0001729,
+      "closeMultiplier": 2.829324169530355,
+      "closedAt": "2026-04-27T06:43:00.175Z",
+      "durationMs": 7205960,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001729,
+        "closeMultiplier": 2.829324169530355,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-27T06:43:00.175Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -6,
+        "momentum": 1.6314285714285712,
+        "floatRotation": 0.2683368510610448,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.2683368510610448,
+        "accel": 1.6314285714285712,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(21min)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 34.26,
+        "vol5m": 16400.48,
+        "buys5m": 274,
+        "sells5m": 178,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T06:37:01.198Z"
+  "lastSaved": "2026-04-27T06:43:01.407Z"
 }
