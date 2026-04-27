@@ -18870,7 +18870,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "5bn4sTdNRq6bUJeXtXrnRgZYfVKWZ1UR9CreTvYiyEDG",
+      "mint": "CJTmgXkRTAa7EipB1YS6rjKjwpq5KkpmzggfQ4P5pump",
+      "name": "NiggaCoin",
+      "symbol": "NiggaCoin",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007678,
+      "entryMcap": 76788,
+      "entryTime": 1777257411458,
+      "score": 68,
+      "ageAtEntry": 35,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/5bn4stdnrq6bujextxrnrgzyfvkwz1ur9cretvyiyedg",
+      "peakPrice": 0.00008118,
+      "peakMultiplier": 1.0573065902578798,
+      "peakMcap": 81187,
+      "peakTime": 1777257414137,
+      "lastPrice": 0.00004831,
+      "lowestPrice": 0.00004831,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00004831,
+      "closeMultiplier": 0.6292003125814015,
+      "closedAt": "2026-04-27T02:45:54.161Z",
+      "durationMs": 542703,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00004831,
+        "closeMultiplier": 0.6292003125814015,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-27T02:45:54.161Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 11.342857142857143,
+        "floatRotation": 0.6088330207844975,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.6088330207844975,
+        "accel": 11.342857142857143,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(35min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(35min)",
+        "priceChg5m": 397,
+        "vol5m": 46751.07,
+        "buys5m": 395,
+        "sells5m": 238,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T02:29:54.904Z"
+  "lastSaved": "2026-04-27T02:45:55.284Z"
 }
