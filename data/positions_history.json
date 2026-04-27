@@ -20002,7 +20002,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "AarbZsNDXvzVZqXMiMn1BKWwBpRCXMsZd6yqUGr1xgTm",
+      "mint": "EaUwyhs8jVb5iv8ZmTfEaqDwdvtiLG38zHsVd8Qjpump",
+      "name": "Nikita Bier's Pig Slop",
+      "symbol": "XSLOP",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001147,
+      "entryMcap": 114741,
+      "entryTime": 1777276858091,
+      "score": 68,
+      "ageAtEntry": 14,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/aarbzsndxvzvzqxmimn1bkwwbprcxmszd6yqugr1xgtm",
+      "peakPrice": 0.0001147,
+      "peakMultiplier": 1,
+      "peakMcap": 114741,
+      "peakTime": 1777276858091,
+      "lastPrice": 0.0000787,
+      "lowestPrice": 0.0000787,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0000787,
+      "closeMultiplier": 0.6861377506538797,
+      "closedAt": "2026-04-27T08:03:02.337Z",
+      "durationMs": 124246,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0000787,
+        "closeMultiplier": 0.6861377506538797,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-27T08:03:02.337Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0000787,
+        "closeMultiplier": 0.6861377506538797,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-27T08:03:02.337Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 15,
+        "momentum": 2.0342857142857143,
+        "floatRotation": 0.40805169904393374,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.40805169904393374,
+        "accel": 2.0342857142857143,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 28.48,
+        "vol5m": 46820.26,
+        "buys5m": 490,
+        "sells5m": 424,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T07:33:02.744Z"
+  "lastSaved": "2026-04-27T08:03:03.498Z"
 }
