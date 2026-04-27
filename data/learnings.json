@@ -1,39 +1,39 @@
 {
-  "totalClosed": 278,
+  "totalClosed": 279,
   "winRate": "7.2%",
-  "avgPeakMultiplier": "1.635",
+  "avgPeakMultiplier": "1.634",
   "avgCloseMultiplier": "0.660",
   "optimalTP": 3,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
-      "captured": 84,
-      "rate": "30.2%",
+      "captured": 85,
+      "rate": "30.5%",
       "expectedValue": "9.1%"
     },
     "+50%": {
       "captured": 65,
-      "rate": "23.4%",
-      "expectedValue": "11.7%"
+      "rate": "23.3%",
+      "expectedValue": "11.6%"
     },
     "+70%": {
       "captured": 54,
       "rate": "19.4%",
-      "expectedValue": "13.6%"
+      "expectedValue": "13.5%"
     },
     "+100%": {
       "captured": 38,
-      "rate": "13.7%",
-      "expectedValue": "13.7%"
+      "rate": "13.6%",
+      "expectedValue": "13.6%"
     },
     "+150%": {
       "captured": 26,
-      "rate": "9.4%",
+      "rate": "9.3%",
       "expectedValue": "14.0%"
     },
     "+200%": {
       "captured": 23,
-      "rate": "8.3%",
+      "rate": "8.2%",
       "expectedValue": "16.5%"
     },
     "+300%": {
@@ -44,66 +44,66 @@
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 266,
-      "recovered": 266,
+      "positions_hit": 267,
+      "recovered": 267,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 261,
-      "recovered": 261,
+      "positions_hit": 262,
+      "recovered": 262,
       "recovery_rate": "100.0%"
     },
     "-20%": {
+      "positions_hit": 262,
+      "recovered": 262,
+      "recovery_rate": "100.0%"
+    },
+    "-25%": {
       "positions_hit": 261,
       "recovered": 261,
       "recovery_rate": "100.0%"
     },
-    "-25%": {
-      "positions_hit": 260,
-      "recovered": 260,
-      "recovery_rate": "100.0%"
-    },
     "-30%": {
-      "positions_hit": 257,
-      "recovered": 257,
+      "positions_hit": 258,
+      "recovered": 258,
       "recovery_rate": "100.0%"
     },
     "-40%": {
-      "positions_hit": 131,
-      "recovered": 131,
+      "positions_hit": 132,
+      "recovered": 132,
       "recovery_rate": "100.0%"
     }
   },
   "milestoneRates": {
     "+50%": {
       "reached": 65,
-      "total": 278,
-      "rate": "23.4%"
+      "total": 279,
+      "rate": "23.3%"
     },
     "+100%": {
       "reached": 38,
-      "total": 278,
-      "rate": "13.7%"
+      "total": 279,
+      "rate": "13.6%"
     },
     "+150%": {
       "reached": 26,
-      "total": 278,
-      "rate": "9.4%"
+      "total": 279,
+      "rate": "9.3%"
     },
     "+200%": {
       "reached": 23,
-      "total": 278,
-      "rate": "8.3%"
+      "total": 279,
+      "rate": "8.2%"
     },
     "+300%": {
       "reached": 17,
-      "total": 278,
+      "total": 279,
       "rate": "6.1%"
     },
     "+500%": {
       "reached": 11,
-      "total": 278,
-      "rate": "4.0%"
+      "total": 279,
+      "rate": "3.9%"
     }
   },
   "byScore": {
@@ -120,7 +120,7 @@
       "win2xRate": "8%"
     },
     "75-80": {
-      "count": 39,
+      "count": 40,
       "avgPeak": "1.78x",
       "wins2x": 9,
       "win2xRate": "23%"
@@ -139,15 +139,15 @@
       "wins2x": 5
     },
     "noWhale": {
-      "count": 264,
+      "count": 265,
       "avgPeak": "1.55x",
       "wins2x": 33
     }
   },
   "byAge": {
     "0-15min": {
-      "count": 65,
-      "avgPeak": "2.28x"
+      "count": 66,
+      "avgPeak": "2.27x"
     },
     "15-30min": {
       "count": 103,
@@ -162,6 +162,6 @@
       "avgPeak": "1.07x"
     }
   },
-  "recommendation": "📊 Analisi su 278 posizioni chiuse\n✅ Win rate (chiuse in positivo): 7%\n📈 Peak medio: 1.64x | Close medio: 0.66x\n🎯 Take Profit ottimale: +300% (expected value: 18.3%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 3.16x vs 1.55x",
-  "lastUpdated": "2026-04-27T16:32:16.329Z"
+  "recommendation": "📊 Analisi su 279 posizioni chiuse\n✅ Win rate (chiuse in positivo): 7%\n📈 Peak medio: 1.63x | Close medio: 0.66x\n🎯 Take Profit ottimale: +300% (expected value: 18.3%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 3.16x vs 1.55x",
+  "lastUpdated": "2026-04-27T16:41:16.688Z"
 }
