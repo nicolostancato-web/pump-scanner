@@ -18262,7 +18262,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "28MbW8e3wdgtNVoo9g836E8BVpQ8G4jDs4bE9cpkcNxL",
+      "mint": "2UkJUgCAcuuZBN25mHe9EusLKknQ1CMms7yu3h5hUUzJ",
+      "name": "Universal Prosperity",
+      "symbol": "UP",
+      "dex": "pumpswap",
+      "entryPrice": 0.00002828,
+      "entryMcap": 28284,
+      "entryTime": 1777248888665,
+      "score": 66,
+      "ageAtEntry": 14,
+      "whaleDetected": true,
+      "whaleWallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/28mbw8e3wdgtnvoo9g836e8bvpq8g4jds4be9cpkcnxl",
+      "peakPrice": 0.00003145,
+      "peakMultiplier": 1.112093352192362,
+      "peakMcap": 31453,
+      "peakTime": 1777248950689,
+      "lastPrice": 0.000009761,
+      "lowestPrice": 0.000009761,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000009761,
+      "closeMultiplier": 0.34515558698727017,
+      "closedAt": "2026-04-27T00:34:51.119Z",
+      "durationMs": 1202454,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000009761,
+        "closeMultiplier": 0.34515558698727017,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-27T00:34:51.119Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.000009761,
+        "closeMultiplier": 0.34515558698727017,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-27T00:34:51.119Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": -2.0571428571428574,
+        "floatRotation": 0.9417964220053741,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.9417964220053741,
+        "accel": -2.0571428571428574,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($26638,price-28.8%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($28k)",
+        "priceChg5m": -28.8,
+        "vol5m": 26637.77,
+        "buys5m": 437,
+        "sells5m": 340,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T00:04:51.366Z"
+  "lastSaved": "2026-04-27T00:34:52.267Z"
 }
