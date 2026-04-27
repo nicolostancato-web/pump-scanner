@@ -22796,7 +22796,99 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4hCdcRTUUMmYi2UciRNZGTMfjXkg3zYiaGssSUUerQmZ",
+      "mint": "7oV1umUt47cmDgGKoqZc8TDkVvv9upK9HZqqZRH9pump",
+      "name": "Trump in Paris",
+      "symbol": "TIP",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001558,
+      "entryMcap": 155884,
+      "entryTime": 1777309628660,
+      "score": 67,
+      "ageAtEntry": 26,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/4hcdcrtuummyi2ucirnzgtmfjxkg3zyiagsssuuerqmz",
+      "peakPrice": 0.0004537,
+      "peakMultiplier": 2.9120667522464703,
+      "peakMcap": 453786,
+      "peakTime": 1777314259491,
+      "lastPrice": 0.000003294,
+      "lowestPrice": 0.000003294,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5
+      ],
+      "timesToMilestone": {
+        "1": 3069323,
+        "0.5": 2349286,
+        "1.5": 3969887
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000003294,
+      "closeMultiplier": 0.021142490372272147,
+      "closedAt": "2026-04-27T18:52:19.441Z",
+      "durationMs": 6310781,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0002248,
+        "closeMultiplier": 1.4428754813863929,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-27T18:37:19.139Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -23,
+        "momentum": 0.3930769230769231,
+        "floatRotation": 0.2948602807215622,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.2948602807215622,
+        "accel": 0.3930769230769231,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(26min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(26min)",
+        "priceChg5m": 10.22,
+        "vol5m": 45964,
+        "buys5m": 216,
+        "sells5m": 189,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T18:48:20.784Z"
+  "lastSaved": "2026-04-27T18:52:20.624Z"
 }
