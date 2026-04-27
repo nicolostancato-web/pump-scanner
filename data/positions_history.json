@@ -19636,7 +19636,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "76ZKN2ShbCqmxcAy81dYmZgU22DDvXmXrahZM17zLAHT",
+      "mint": "AJHqRyKTp7unNgvA6PMwpavghSaLsLCewCZDHqF2pump",
+      "name": "Murica",
+      "symbol": "MURICA",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000887,
+      "entryMcap": 88707,
+      "entryTime": 1777264614054,
+      "score": 71,
+      "ageAtEntry": 25,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/76zkn2shbcqmxcay81dymzgu22ddvxmxrahzm17zlaht",
+      "peakPrice": 0.0001652,
+      "peakMultiplier": 1.862457722660654,
+      "peakMcap": 165243,
+      "peakTime": 1777270679590,
+      "lastPrice": 0.00009975,
+      "lowestPrice": 0.00008144,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 3064220
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.00009975,
+      "closeMultiplier": 1.1245772266065388,
+      "closedAt": "2026-04-27T06:37:00.012Z",
+      "durationMs": 7205958,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00009975,
+        "closeMultiplier": 1.1245772266065388,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-27T06:37:00.012Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 0,
+        "momentum": 2.4219999999999997,
+        "floatRotation": 0.40858083353061203,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.40858083353061203,
+        "accel": 2.4219999999999997,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(25min)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 60.55,
+        "vol5m": 36243.98,
+        "buys5m": 1513,
+        "sells5m": 285,
+        "tp2x_hit": false,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T05:08:58.960Z"
+  "lastSaved": "2026-04-27T06:37:01.198Z"
 }
