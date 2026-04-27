@@ -19206,7 +19206,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "3mpa1Sjn25stPULYjEvvFifDdMLZ2881Yqm91vBuK6Rj",
+      "mint": "EjY599u1PfJLeV5vzNpeJUmAAcUMb7uww7ruMZxnpump",
+      "name": "Justice For Pasternak",
+      "symbol": "PASTERNAK",
+      "dex": "pumpswap",
+      "entryPrice": 0.00001717,
+      "entryMcap": 17174,
+      "entryTime": 1777260172377,
+      "score": 68,
+      "ageAtEntry": 23,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/3mpa1sjn25stpulyjevvfifddmlz2881yqm91vbuk6rj",
+      "peakPrice": 0.00001888,
+      "peakMultiplier": 1.0995923121723936,
+      "peakMcap": 18883,
+      "peakTime": 1777260415472,
+      "lastPrice": 0.00001093,
+      "lowestPrice": 0.00001093,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001093,
+      "closeMultiplier": 0.6365754222481071,
+      "closedAt": "2026-04-27T03:30:55.487Z",
+      "durationMs": 483110,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001093,
+        "closeMultiplier": 0.6365754222481071,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-27T03:30:55.487Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 20,
+        "momentum": 1.258695652173913,
+        "floatRotation": 2.3740048911144758,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 2.3740048911144758,
+        "accel": 1.258695652173913,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(23min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($17k)",
+        "priceChg5m": 28.95,
+        "vol5m": 40771.16,
+        "buys5m": 565,
+        "sells5m": 291,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T03:27:56.404Z"
+  "lastSaved": "2026-04-27T03:30:56.668Z"
 }
