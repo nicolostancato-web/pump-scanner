@@ -20086,7 +20086,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8KDLGW2bZKbwWnTxE7KPRrXbJcsWTBtrC1nRXKuChjJD",
+      "mint": "3zvRPMdbXL57PQh4yCesNsmbAm45rBGVsFNGZtdRpump",
+      "name": "Act SA : The Self-Aware Prophecy",
+      "symbol": "ACTSA",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001118,
+      "entryMcap": 111833,
+      "entryTime": 1777273617167,
+      "score": 75,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8kdlgw2bzkbwwntxe7kprrxbjcswtbtrc1nrxkuchjjd",
+      "peakPrice": 0.0002115,
+      "peakMultiplier": 1.8917710196779964,
+      "peakMcap": 211538,
+      "peakTime": 1777276081869,
+      "lastPrice": 0.000002876,
+      "lowestPrice": 0.000002876,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 1204127
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002876,
+      "closeMultiplier": 0.025724508050089447,
+      "closedAt": "2026-04-27T08:09:02.382Z",
+      "durationMs": 3725215,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0000897,
+        "closeMultiplier": 0.8023255813953488,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-27T08:07:02.547Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0000897,
+        "closeMultiplier": 0.8023255813953488,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-27T08:07:02.547Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 8,
+        "momentum": 2.964166666666667,
+        "floatRotation": 1.158309980059553,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 1.158309980059553,
+        "accel": 2.964166666666667,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 35.57,
+        "vol5m": 129537.28,
+        "buys5m": 510,
+        "sells5m": 426,
+        "tp2x_hit": false,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T08:03:03.498Z"
+  "lastSaved": "2026-04-27T08:09:03.602Z"
 }
