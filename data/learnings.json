@@ -1,25 +1,25 @@
 {
-  "totalClosed": 249,
+  "totalClosed": 250,
   "winRate": "6.8%",
-  "avgPeakMultiplier": "1.503",
-  "avgCloseMultiplier": "0.661",
+  "avgPeakMultiplier": "1.504",
+  "avgCloseMultiplier": "0.659",
   "optimalTP": 3,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
-      "captured": 66,
-      "rate": "26.5%",
+      "captured": 67,
+      "rate": "26.8%",
       "expectedValue": "8.0%"
     },
     "+50%": {
-      "captured": 49,
-      "rate": "19.7%",
-      "expectedValue": "9.8%"
+      "captured": 50,
+      "rate": "20.0%",
+      "expectedValue": "10.0%"
     },
     "+70%": {
-      "captured": 39,
-      "rate": "15.7%",
-      "expectedValue": "11.0%"
+      "captured": 40,
+      "rate": "16.0%",
+      "expectedValue": "11.2%"
     },
     "+100%": {
       "captured": 30,
@@ -34,75 +34,75 @@
     "+200%": {
       "captured": 18,
       "rate": "7.2%",
-      "expectedValue": "14.5%"
+      "expectedValue": "14.4%"
     },
     "+300%": {
       "captured": 13,
       "rate": "5.2%",
-      "expectedValue": "15.7%"
+      "expectedValue": "15.6%"
     }
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 239,
-      "recovered": 239,
+      "positions_hit": 240,
+      "recovered": 240,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 234,
-      "recovered": 234,
+      "positions_hit": 235,
+      "recovered": 235,
       "recovery_rate": "100.0%"
     },
     "-20%": {
+      "positions_hit": 235,
+      "recovered": 235,
+      "recovery_rate": "100.0%"
+    },
+    "-25%": {
       "positions_hit": 234,
       "recovered": 234,
       "recovery_rate": "100.0%"
     },
-    "-25%": {
-      "positions_hit": 233,
-      "recovered": 233,
-      "recovery_rate": "100.0%"
-    },
     "-30%": {
-      "positions_hit": 231,
-      "recovered": 231,
+      "positions_hit": 232,
+      "recovered": 232,
       "recovery_rate": "100.0%"
     },
     "-40%": {
-      "positions_hit": 118,
-      "recovered": 118,
+      "positions_hit": 119,
+      "recovered": 119,
       "recovery_rate": "100.0%"
     }
   },
   "milestoneRates": {
     "+50%": {
-      "reached": 49,
-      "total": 249,
-      "rate": "19.7%"
+      "reached": 50,
+      "total": 250,
+      "rate": "20.0%"
     },
     "+100%": {
       "reached": 30,
-      "total": 249,
+      "total": 250,
       "rate": "12.0%"
     },
     "+150%": {
       "reached": 19,
-      "total": 249,
+      "total": 250,
       "rate": "7.6%"
     },
     "+200%": {
       "reached": 18,
-      "total": 249,
+      "total": 250,
       "rate": "7.2%"
     },
     "+300%": {
       "reached": 13,
-      "total": 249,
+      "total": 250,
       "rate": "5.2%"
     },
     "+500%": {
       "reached": 8,
-      "total": 249,
+      "total": 250,
       "rate": "3.2%"
     }
   },
@@ -114,10 +114,10 @@
       "win2xRate": "10%"
     },
     "70-75": {
-      "count": 58,
+      "count": 59,
       "avgPeak": "1.35x",
       "wins2x": 5,
-      "win2xRate": "9%"
+      "win2xRate": "8%"
     },
     "75-80": {
       "count": 36,
@@ -139,7 +139,7 @@
       "wins2x": 3
     },
     "noWhale": {
-      "count": 240,
+      "count": 241,
       "avgPeak": "1.49x",
       "wins2x": 27
     }
@@ -150,7 +150,7 @@
       "avgPeak": "1.92x"
     },
     "15-30min": {
-      "count": 89,
+      "count": 90,
       "avgPeak": "1.68x"
     },
     "30-60min": {
@@ -162,6 +162,6 @@
       "avgPeak": "1.07x"
     }
   },
-  "recommendation": "📊 Analisi su 249 posizioni chiuse\n✅ Win rate (chiuse in positivo): 7%\n📈 Peak medio: 1.50x | Close medio: 0.66x\n🎯 Take Profit ottimale: +300% (expected value: 15.7%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 1.96x vs 1.49x",
-  "lastUpdated": "2026-04-27T04:57:58.989Z"
+  "recommendation": "📊 Analisi su 250 posizioni chiuse\n✅ Win rate (chiuse in positivo): 7%\n📈 Peak medio: 1.50x | Close medio: 0.66x\n🎯 Take Profit ottimale: +300% (expected value: 15.6%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 1.96x vs 1.49x",
+  "lastUpdated": "2026-04-27T05:08:58.971Z"
 }
