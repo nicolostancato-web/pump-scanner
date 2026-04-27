@@ -20616,7 +20616,101 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "BhMVdyNLHN9taCxkXvd57GZnBfLWX8savzZZ9TGSKRSJ",
+      "mint": "2dgvsYxpvqSTmZLc8CanUpXs4XenspYtvfTpyaUXpump",
+      "name": "Project Othismos",
+      "symbol": "Othismos",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001169,
+      "entryMcap": 116931,
+      "entryTime": 1777280699642,
+      "score": 68,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/bhmvdynlhn9tacxkxvd57gznbflwx8savzzz9tgskrsj",
+      "peakPrice": 0.0003866,
+      "peakMultiplier": 3.3071000855432,
+      "peakMcap": 386617,
+      "peakTime": 1777285565722,
+      "lastPrice": 0.0002933,
+      "lowestPrice": 0.0001153,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2
+      ],
+      "timesToMilestone": {
+        "1": 1144625,
+        "2": 4625983,
+        "0.5": 724459,
+        "1.5": 3965718
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0002933,
+      "closeMultiplier": 2.5089820359281436,
+      "closedAt": "2026-04-27T11:05:06.887Z",
+      "durationMs": 7207245,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0002933,
+        "closeMultiplier": 2.5089820359281436,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-27T11:05:06.887Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0002933,
+        "closeMultiplier": 2.5089820359281436,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-27T11:05:06.887Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 15,
+        "momentum": 1.8399999999999999,
+        "floatRotation": 0.42565538650999307,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.42565538650999307,
+        "accel": 1.8399999999999999,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.84)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 20.24,
+        "vol5m": 49772.31,
+        "buys5m": 632,
+        "sells5m": 485,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T10:59:07.913Z"
+  "lastSaved": "2026-04-27T11:05:08.069Z"
 }
