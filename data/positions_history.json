@@ -21064,7 +21064,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "7VZ5U4V38nbyoyjcjYwXSvBABcGG8vxt4eP8t5nBnfqX",
+      "mint": "9T1gJLRq3F3fFhQex7c3m6kC5gUZGCJREd8wB3gUpump",
+      "name": "The Ciggy",
+      "symbol": "Sanxing",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001524,
+      "entryMcap": 152464,
+      "entryTime": 1777295464441,
+      "score": 68,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/7vz5u4v38nbyoyjcjywxsvbabcgg8vxt4ep8t5nbnfqx",
+      "peakPrice": 0.0001695,
+      "peakMultiplier": 1.1122047244094488,
+      "peakMcap": 169591,
+      "peakTime": 1777295530027,
+      "lastPrice": 0.0001041,
+      "lowestPrice": 0.0001041,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001041,
+      "closeMultiplier": 0.6830708661417323,
+      "closedAt": "2026-04-27T13:18:10.634Z",
+      "durationMs": 426193,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001041,
+        "closeMultiplier": 0.6830708661417323,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-27T13:18:10.634Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0001041,
+        "closeMultiplier": 0.6830708661417323,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-27T13:18:10.634Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 33,
+        "momentum": 13.909090909090908,
+        "floatRotation": 0.8005415048798404,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.8005415048798404,
+        "accel": 13.909090909090908,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($152k)",
+        "priceChg5m": 153,
+        "vol5m": 122053.76,
+        "buys5m": 1239,
+        "sells5m": 1285,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T13:08:11.311Z"
+  "lastSaved": "2026-04-27T13:18:11.768Z"
 }
