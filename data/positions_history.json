@@ -22186,7 +22186,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "CLKehquDtqF8fW8Ti5go2KM5dMp1p1oF3GZRPttcM6AX",
+      "mint": "H8d9d37fH7YvCdXVLEcV4Y4LRePkqHQY3QvPxMJ8pump",
+      "name": "Coule Allon",
+      "symbol": "Coule",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002748,
+      "entryMcap": 274853,
+      "entryTime": 1777307348128,
+      "score": 65,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/clkehqudtqf8fw8ti5go2km5dmp1p1of3gzrpttcm6ax",
+      "peakPrice": 0.0002821,
+      "peakMultiplier": 1.0265647743813684,
+      "peakMcap": 282181,
+      "peakTime": 1777307955630,
+      "lastPrice": 0.0001677,
+      "lowestPrice": 0.0001677,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001677,
+      "closeMultiplier": 0.6102620087336245,
+      "closedAt": "2026-04-27T17:09:16.585Z",
+      "durationMs": 2408457,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001677,
+        "closeMultiplier": 0.6102620087336245,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-27T17:09:16.585Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0001677,
+        "closeMultiplier": 0.6102620087336245,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-27T17:09:16.585Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 4,
+        "momentum": 3.608333333333333,
+        "floatRotation": 0.10946193055924439,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": true,
+        "floatRot": 0.10946193055924439,
+        "accel": 3.608333333333333,
+        "wouldPassV5": false,
+        "failReason": "SC1-rot(0.109)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($275k)",
+        "priceChg5m": 43.3,
+        "vol5m": 30085.94,
+        "buys5m": 223,
+        "sells5m": 328,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T16:41:16.673Z"
+  "lastSaved": "2026-04-27T17:09:17.721Z"
 }
