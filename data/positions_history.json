@@ -20434,7 +20434,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "FddfLmdMUXFzK4Y3a1RyuwuXfWW3WdMDfYf8Hvn9RA1X",
+      "mint": "41XAEjhzNZUHorP7Yyrh6NHvzfBkNypePutPVK4Zpump",
+      "name": "The Peaceful Toddler",
+      "symbol": "EMIR",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005356,
+      "entryMcap": 53564,
+      "entryTime": 1777285981464,
+      "score": 83,
+      "ageAtEntry": 26,
+      "whaleDetected": true,
+      "whaleWallet": "H4L1B6qg5vv9Pb5wvqcxbaw9bEpJSEWAQVfJjQgwqvtJ",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/fddflmdmuxfzk4y3a1ryuwuxfww3wdmdfyf8hvn9ra1x",
+      "peakPrice": 0.00005439,
+      "peakMultiplier": 1.015496639283047,
+      "peakMcap": 54390,
+      "peakTime": 1777286046448,
+      "lastPrice": 0.00003373,
+      "lowestPrice": 0.00003373,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003373,
+      "closeMultiplier": 0.6297610156833457,
+      "closedAt": "2026-04-27T10:36:06.691Z",
+      "durationMs": 185227,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003373,
+        "closeMultiplier": 0.6297610156833457,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-27T10:36:06.691Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -1,
+        "momentum": 1.4873076923076924,
+        "floatRotation": 0.28122563662161154,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.28122563662161154,
+        "accel": 1.4873076923076924,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(26min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(26min)",
+        "priceChg5m": 38.67,
+        "vol5m": 15063.57,
+        "buys5m": 169,
+        "sells5m": 136,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-27T10:25:06.796Z"
+  "lastSaved": "2026-04-27T10:36:08.092Z"
 }
