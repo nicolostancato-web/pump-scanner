@@ -26758,7 +26758,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "9rNWPkDD5dLnujmqR5d7jiDuNEWZiXGADZdxbBUocBi1",
+      "mint": "BZ1avfKCfJKNgsDeXHNkPku5GcWVzi2Aw2HesHcrpump",
+      "name": "Justice For Luca Cella Walker",
+      "symbol": "LUCA",
+      "dex": "pumpswap",
+      "entryPrice": 0.0005413,
+      "entryMcap": 541371,
+      "entryTime": 1777357160877,
+      "score": 67,
+      "ageAtEntry": 36,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/9rnwpkdd5dlnujmqr5d7jidunewzixgadzdxbbuocbi1",
+      "peakPrice": 0.0009509,
+      "peakMultiplier": 1.7566968409384813,
+      "peakMcap": 950997,
+      "peakTime": 1777357716020,
+      "lastPrice": 0.0003186,
+      "lowestPrice": 0.0003186,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 435008
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0003186,
+      "closeMultiplier": 0.5885830408276371,
+      "closedAt": "2026-04-28T06:39:35.919Z",
+      "durationMs": 1215042,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0003186,
+        "closeMultiplier": 0.5885830408276371,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T06:39:35.919Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 1.24,
+        "floatRotation": 0.29031490419693706,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": false,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.29031490419693706,
+        "accel": 1.24,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(36min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(36min)",
+        "priceChg5m": 44.64,
+        "vol5m": 157168.07,
+        "buys5m": 955,
+        "sells5m": 917,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T06:25:36.971Z"
+  "lastSaved": "2026-04-28T06:39:37.125Z"
 }
