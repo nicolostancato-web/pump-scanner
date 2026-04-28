@@ -25886,7 +25886,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "24BiS4cYDTLAGJFEDhNcBowXma3YxXmWYcCbxVKPPcUy",
+      "mint": "DCNEi1eFWEFA7MQYkh8kSDeZ3bgja453j1sQ3Rn1pump",
+      "name": "Annie Altman Donations",
+      "symbol": "ANNIE ",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002163,
+      "entryMcap": 216391,
+      "entryTime": 1777345157975,
+      "score": 65,
+      "ageAtEntry": 42,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/24bis4cydtlagjfedhncbowxma3yxxmwyccbxvkppcuy",
+      "peakPrice": 0.0004378,
+      "peakMultiplier": 2.0240406842348593,
+      "peakMcap": 437824,
+      "peakTime": 1777347571525,
+      "lastPrice": 0.0001505,
+      "lowestPrice": 0.0001505,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 2413550,
+        "0.5": 1273740
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001505,
+      "closeMultiplier": 0.6957928802588996,
+      "closedAt": "2026-04-28T04:03:32.333Z",
+      "durationMs": 3854358,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0002022,
+        "closeMultiplier": 0.9348127600554785,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T03:58:32.242Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 0.947857142857143,
+        "floatRotation": 0.22158347620742083,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.22158347620742083,
+        "accel": 0.947857142857143,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(42min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(42min)",
+        "priceChg5m": 39.81,
+        "vol5m": 47948.67,
+        "buys5m": 490,
+        "sells5m": 392,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T03:51:33.187Z"
+  "lastSaved": "2026-04-28T04:03:33.337Z"
 }
