@@ -27362,7 +27362,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "7XzvErChLDUMY4dsVnKktEQC9TgXoCM4fTVPyXbDC3jH",
+      "mint": "6cZuuqP2d314wSHntiarq7WjaLbc7rxkcA6AtP5Epump",
+      "name": "Scam Cook",
+      "symbol": "SCAMC",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008272,
+      "entryMcap": 82726,
+      "entryTime": 1777368683796,
+      "score": 66,
+      "ageAtEntry": 10,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/7xzverchldumy4dsvnkkteqc9tgxocm4ftvpyxbdc3jh",
+      "peakPrice": 0.0001178,
+      "peakMultiplier": 1.4240812379110253,
+      "peakMcap": 117839,
+      "peakTime": 1777369180720,
+      "lastPrice": 0.000001725,
+      "lowestPrice": 0.000001725,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000001725,
+      "closeMultiplier": 0.02085348162475822,
+      "closedAt": "2026-04-28T09:43:40.820Z",
+      "durationMs": 737024,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000001725,
+        "closeMultiplier": 0.02085348162475822,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T09:43:40.820Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.000001725,
+        "closeMultiplier": 0.02085348162475822,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T09:43:40.820Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -25,
+        "momentum": -0.722,
+        "floatRotation": 0.7686008026497111,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.7686008026497111,
+        "accel": -0.722,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($63583,price-7.2%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": -7.22,
+        "vol5m": 63583.27,
+        "buys5m": 383,
+        "sells5m": 245,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T08:26:40.271Z"
+  "lastSaved": "2026-04-28T09:43:42.027Z"
 }
