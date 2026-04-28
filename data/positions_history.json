@@ -28658,7 +28658,99 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "nJLTA1EsnWM3cBwfLCkNP5wUZSib43pH2sjhFFgJ7h8",
+      "mint": "Cr4zj1UQJpuptAiFFBAug4VBcg3iqFtDfVAT3qripump",
+      "name": "Taste Skill",
+      "symbol": "TASTESKILL",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001309,
+      "entryMcap": 130945,
+      "entryTime": 1777384286937,
+      "score": 74,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/njlta1esnwm3cbwflcknp5wuzsib43ph2sjhffgj7h8",
+      "peakPrice": 0.000329,
+      "peakMultiplier": 2.5133689839572186,
+      "peakMcap": 329067,
+      "peakTime": 1777385448088,
+      "lastPrice": 0.00008437,
+      "lowestPrice": 0.00008437,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5
+      ],
+      "timesToMilestone": {
+        "1": 560683,
+        "0.5": 320562,
+        "1.5": 1161151
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00008437,
+      "closeMultiplier": 0.6445378151260504,
+      "closedAt": "2026-04-28T14:22:48.442Z",
+      "durationMs": 1881505,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00014,
+        "closeMultiplier": 1.06951871657754,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T14:17:48.275Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00014,
+        "closeMultiplier": 1.06951871657754,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T14:17:48.275Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -10,
+        "momentum": 0.5191666666666667,
+        "floatRotation": 0.3641149337508114,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.3641149337508114,
+        "accel": 0.5191666666666667,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(0.52)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 6.23,
+        "vol5m": 47679.03,
+        "buys5m": 1141,
+        "sells5m": 257,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T13:39:48.307Z"
+  "lastSaved": "2026-04-28T14:22:49.635Z"
 }
