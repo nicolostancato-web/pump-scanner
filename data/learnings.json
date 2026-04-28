@@ -1,35 +1,35 @@
 {
-  "totalClosed": 313,
-  "winRate": "9.3%",
-  "avgPeakMultiplier": "1.780",
-  "avgCloseMultiplier": "0.786",
+  "totalClosed": 314,
+  "winRate": "9.2%",
+  "avgPeakMultiplier": "1.781",
+  "avgCloseMultiplier": "0.784",
   "optimalTP": 2,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
-      "captured": 106,
-      "rate": "33.9%",
+      "captured": 107,
+      "rate": "34.1%",
       "expectedValue": "10.2%"
     },
     "+50%": {
-      "captured": 82,
-      "rate": "26.2%",
-      "expectedValue": "13.1%"
+      "captured": 83,
+      "rate": "26.4%",
+      "expectedValue": "13.2%"
     },
     "+70%": {
-      "captured": 69,
-      "rate": "22.0%",
-      "expectedValue": "15.4%"
+      "captured": 70,
+      "rate": "22.3%",
+      "expectedValue": "15.6%"
     },
     "+100%": {
-      "captured": 50,
-      "rate": "16.0%",
-      "expectedValue": "16.0%"
+      "captured": 51,
+      "rate": "16.2%",
+      "expectedValue": "16.2%"
     },
     "+150%": {
       "captured": 36,
       "rate": "11.5%",
-      "expectedValue": "17.3%"
+      "expectedValue": "17.2%"
     },
     "+200%": {
       "captured": 32,
@@ -44,66 +44,66 @@
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 298,
-      "recovered": 298,
+      "positions_hit": 299,
+      "recovered": 299,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 292,
-      "recovered": 292,
+      "positions_hit": 293,
+      "recovered": 293,
       "recovery_rate": "100.0%"
     },
     "-20%": {
-      "positions_hit": 288,
-      "recovered": 288,
+      "positions_hit": 289,
+      "recovered": 289,
       "recovery_rate": "100.0%"
     },
     "-25%": {
-      "positions_hit": 286,
-      "recovered": 286,
+      "positions_hit": 287,
+      "recovered": 287,
       "recovery_rate": "100.0%"
     },
     "-30%": {
-      "positions_hit": 283,
-      "recovered": 283,
+      "positions_hit": 284,
+      "recovered": 284,
       "recovery_rate": "100.0%"
     },
     "-40%": {
-      "positions_hit": 143,
-      "recovered": 143,
+      "positions_hit": 144,
+      "recovered": 144,
       "recovery_rate": "100.0%"
     }
   },
   "milestoneRates": {
     "+50%": {
-      "reached": 82,
-      "total": 313,
-      "rate": "26.2%"
+      "reached": 83,
+      "total": 314,
+      "rate": "26.4%"
     },
     "+100%": {
-      "reached": 50,
-      "total": 313,
-      "rate": "16.0%"
+      "reached": 51,
+      "total": 314,
+      "rate": "16.2%"
     },
     "+150%": {
       "reached": 36,
-      "total": 313,
+      "total": 314,
       "rate": "11.5%"
     },
     "+200%": {
       "reached": 32,
-      "total": 313,
+      "total": 314,
       "rate": "10.2%"
     },
     "+300%": {
       "reached": 21,
-      "total": 313,
+      "total": 314,
       "rate": "6.7%"
     },
     "+500%": {
       "reached": 13,
-      "total": 313,
-      "rate": "4.2%"
+      "total": 314,
+      "rate": "4.1%"
     }
   },
   "byScore": {
@@ -114,10 +114,10 @@
       "win2xRate": "14%"
     },
     "70-75": {
-      "count": 72,
-      "avgPeak": "1.39x",
-      "wins2x": 8,
-      "win2xRate": "11%"
+      "count": 73,
+      "avgPeak": "1.40x",
+      "wins2x": 9,
+      "win2xRate": "12%"
     },
     "75-80": {
       "count": 47,
@@ -134,9 +134,9 @@
   },
   "byWhale": {
     "whale": {
-      "count": 18,
-      "avgPeak": "4.06x",
-      "wins2x": 7
+      "count": 19,
+      "avgPeak": "3.96x",
+      "wins2x": 8
     },
     "noWhale": {
       "count": 295,
@@ -146,7 +146,7 @@
   },
   "byAge": {
     "0-15min": {
-      "count": 83,
+      "count": 84,
       "avgPeak": "2.59x"
     },
     "15-30min": {
@@ -162,6 +162,6 @@
       "avgPeak": "1.08x"
     }
   },
-  "recommendation": "📊 Analisi su 313 posizioni chiuse\n✅ Win rate (chiuse in positivo): 9%\n📈 Peak medio: 1.78x | Close medio: 0.79x\n🎯 Take Profit ottimale: +200% (expected value: 20.4%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 4.06x vs 1.64x",
-  "lastUpdated": "2026-04-28T01:29:29.444Z"
+  "recommendation": "📊 Analisi su 314 posizioni chiuse\n✅ Win rate (chiuse in positivo): 9%\n📈 Peak medio: 1.78x | Close medio: 0.78x\n🎯 Take Profit ottimale: +200% (expected value: 20.4%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 3.96x vs 1.64x",
+  "lastUpdated": "2026-04-28T02:02:30.599Z"
 }
