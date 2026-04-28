@@ -1,25 +1,25 @@
 {
-  "totalClosed": 348,
+  "totalClosed": 349,
   "winRate": "9.2%",
   "avgPeakMultiplier": "1.771",
-  "avgCloseMultiplier": "0.759",
-  "optimalTP": 3,
+  "avgCloseMultiplier": "0.757",
+  "optimalTP": 2,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
-      "captured": 125,
-      "rate": "35.9%",
+      "captured": 126,
+      "rate": "36.1%",
       "expectedValue": "10.8%"
     },
     "+50%": {
-      "captured": 98,
-      "rate": "28.2%",
-      "expectedValue": "14.1%"
+      "captured": 99,
+      "rate": "28.4%",
+      "expectedValue": "14.2%"
     },
     "+70%": {
       "captured": 83,
-      "rate": "23.9%",
-      "expectedValue": "16.7%"
+      "rate": "23.8%",
+      "expectedValue": "16.6%"
     },
     "+100%": {
       "captured": 62,
@@ -34,84 +34,84 @@
     "+200%": {
       "captured": 33,
       "rate": "9.5%",
-      "expectedValue": "19.0%"
+      "expectedValue": "18.9%"
     },
     "+300%": {
       "captured": 22,
       "rate": "6.3%",
-      "expectedValue": "19.0%"
+      "expectedValue": "18.9%"
     }
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 331,
-      "recovered": 331,
+      "positions_hit": 332,
+      "recovered": 332,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 325,
-      "recovered": 325,
+      "positions_hit": 326,
+      "recovered": 326,
       "recovery_rate": "100.0%"
     },
     "-20%": {
-      "positions_hit": 320,
-      "recovered": 320,
+      "positions_hit": 321,
+      "recovered": 321,
       "recovery_rate": "100.0%"
     },
     "-25%": {
-      "positions_hit": 318,
-      "recovered": 318,
+      "positions_hit": 319,
+      "recovered": 319,
       "recovery_rate": "100.0%"
     },
     "-30%": {
-      "positions_hit": 315,
-      "recovered": 315,
+      "positions_hit": 316,
+      "recovered": 316,
       "recovery_rate": "100.0%"
     },
     "-40%": {
-      "positions_hit": 163,
-      "recovered": 163,
+      "positions_hit": 164,
+      "recovered": 164,
       "recovery_rate": "100.0%"
     }
   },
   "milestoneRates": {
     "+50%": {
-      "reached": 98,
-      "total": 348,
-      "rate": "28.2%"
+      "reached": 99,
+      "total": 349,
+      "rate": "28.4%"
     },
     "+100%": {
       "reached": 62,
-      "total": 348,
+      "total": 349,
       "rate": "17.8%"
     },
     "+150%": {
       "reached": 39,
-      "total": 348,
+      "total": 349,
       "rate": "11.2%"
     },
     "+200%": {
       "reached": 33,
-      "total": 348,
+      "total": 349,
       "rate": "9.5%"
     },
     "+300%": {
       "reached": 22,
-      "total": 348,
+      "total": 349,
       "rate": "6.3%"
     },
     "+500%": {
       "reached": 13,
-      "total": 348,
+      "total": 349,
       "rate": "3.7%"
     }
   },
   "byScore": {
     "65-70": {
-      "count": 187,
-      "avgPeak": "1.63x",
+      "count": 188,
+      "avgPeak": "1.64x",
       "wins2x": 29,
-      "win2xRate": "16%"
+      "win2xRate": "15%"
     },
     "70-75": {
       "count": 85,
@@ -145,15 +145,15 @@
       "wins2x": 9
     },
     "noWhale": {
-      "count": 322,
+      "count": 323,
       "avgPeak": "1.65x",
       "wins2x": 53
     }
   },
   "byAge": {
     "0-15min": {
-      "count": 100,
-      "avgPeak": "2.42x"
+      "count": 101,
+      "avgPeak": "2.41x"
     },
     "15-30min": {
       "count": 132,
@@ -168,6 +168,6 @@
       "avgPeak": "1.08x"
     }
   },
-  "recommendation": "📊 Analisi su 348 posizioni chiuse\n✅ Win rate (chiuse in positivo): 9%\n📈 Peak medio: 1.77x | Close medio: 0.76x\n🎯 Take Profit ottimale: +300% (expected value: 19.0%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 3.32x vs 1.65x",
-  "lastUpdated": "2026-04-28T12:15:45.973Z"
+  "recommendation": "📊 Analisi su 349 posizioni chiuse\n✅ Win rate (chiuse in positivo): 9%\n📈 Peak medio: 1.77x | Close medio: 0.76x\n🎯 Take Profit ottimale: +200% (expected value: 18.9%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 3.32x vs 1.65x",
+  "lastUpdated": "2026-04-28T12:27:46.071Z"
 }
