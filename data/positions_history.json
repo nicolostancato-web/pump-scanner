@@ -27964,7 +27964,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "9DBQcCMtsFLzxEJ6RkEZ2A3b6vVrK35p4TPxhEsFKTjm",
+      "mint": "F71CV9Xoa6MwJpbTdjBivVsJTUCCy1xqP3LZwMc3pump",
+      "name": "Odisha Man",
+      "symbol": "jeetu",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005439,
+      "entryMcap": 54394,
+      "entryTime": 1777374925173,
+      "score": 66,
+      "ageAtEntry": 19,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/9dbqccmtsflzxej6rkez2a3b6vvrk35p4tpxhesfktjm",
+      "peakPrice": 0.00006519,
+      "peakMultiplier": 1.1985659128516273,
+      "peakMcap": 65195,
+      "peakTime": 1777375003430,
+      "lastPrice": 0.00003718,
+      "lowestPrice": 0.00003718,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003718,
+      "closeMultiplier": 0.6835815407243979,
+      "closedAt": "2026-04-28T11:39:44.062Z",
+      "durationMs": 1458889,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003718,
+        "closeMultiplier": 0.6835815407243979,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-28T11:39:44.062Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 15,
+        "momentum": 2.527368421052632,
+        "floatRotation": 0.4883273890502629,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.4883273890502629,
+        "accel": 2.527368421052632,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 48.02,
+        "vol5m": 26562.08,
+        "buys5m": 308,
+        "sells5m": 245,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T11:32:45.189Z"
+  "lastSaved": "2026-04-28T11:39:45.311Z"
 }
