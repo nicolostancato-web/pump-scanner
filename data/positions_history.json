@@ -25370,7 +25370,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8heoWgwWsZWoTMagSvfRStYdhbwfgaAi1ioNAywviT4e",
+      "mint": "3bdjGzojMviCkyByvM68pLEUL1xAHDj2VSiUcAfbbonk",
+      "name": "Dog In Vest",
+      "symbol": "invest",
+      "dex": "raydium",
+      "entryPrice": 0.0001268,
+      "entryMcap": 126852,
+      "entryTime": 1777344677971,
+      "score": 75,
+      "ageAtEntry": 7,
+      "whaleDetected": true,
+      "whaleWallet": "6HY2qLJHBKg1bK4XbueqoFBpu8B7t8QNpaXaTsUZazTB",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/8heowgwwszwotmagsvfrstydhbwfgaai1ionaywvit4e",
+      "peakPrice": 0.0001268,
+      "peakMultiplier": 1,
+      "peakMcap": 126852,
+      "peakTime": 1777344677971,
+      "lastPrice": 0.00006598,
+      "lowestPrice": 0.00006598,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00006598,
+      "closeMultiplier": 0.5203470031545742,
+      "closedAt": "2026-04-28T02:52:30.766Z",
+      "durationMs": 72795,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00006598,
+        "closeMultiplier": 0.5203470031545742,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-28T02:52:30.767Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00006598,
+        "closeMultiplier": 0.5203470031545742,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-28T02:52:30.767Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": -0.76,
+        "floatRotation": 1.3214422318922838,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 1.3214422318922838,
+        "accel": -0.76,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($167628,price-5.3%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(7min)",
+        "priceChg5m": -5.32,
+        "vol5m": 167627.59,
+        "buys5m": 1405,
+        "sells5m": 1138,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T02:30:31.267Z"
+  "lastSaved": "2026-04-28T02:52:31.947Z"
 }
