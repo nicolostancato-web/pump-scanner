@@ -25538,7 +25538,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "53HW6AwgQ77rQpSWkdn2RXMsbMueYtc6yQB58qajstW5",
+      "mint": "9F7YBM7emfWeJUxFKdH6ECYm6tB67869EcC4qmGzpump",
+      "name": "Official Scam Coin",
+      "symbol": "SCAM",
+      "dex": "pumpswap",
+      "entryPrice": 0.00006441,
+      "entryMcap": 64411,
+      "entryTime": 1777343597602,
+      "score": 68,
+      "ageAtEntry": 19,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/53hw6awgq77rqpswkdn2rxmsbmueytc6yqb58qajstw5",
+      "peakPrice": 0.0001346,
+      "peakMultiplier": 2.0897376183822387,
+      "peakMcap": 134644,
+      "peakTime": 1777346191212,
+      "lastPrice": 0.000002274,
+      "lowestPrice": 0.000002274,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 2233459,
+        "0.5": 1693241
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002274,
+      "closeMultiplier": 0.03530507685142059,
+      "closedAt": "2026-04-28T03:17:30.996Z",
+      "durationMs": 2653394,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000002274,
+        "closeMultiplier": 0.03530507685142059,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T03:17:30.996Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 0,
+        "momentum": 1.6563157894736842,
+        "floatRotation": 0.3680213007095061,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.3680213007095061,
+        "accel": 1.6563157894736842,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.66)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 31.47,
+        "vol5m": 23704.62,
+        "buys5m": 953,
+        "sells5m": 249,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T03:01:32.237Z"
+  "lastSaved": "2026-04-28T03:17:32.127Z"
 }
