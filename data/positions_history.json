@@ -27018,7 +27018,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "7c2CCiACC9v4jXG8gm1x2qmeLp7gyNHcjm3embNV2YQH",
+      "mint": "64FideM2qzrf1YkycUpnrenRc9RbqrvBdYcp8vTJpump",
+      "name": "Bwill Getes",
+      "symbol": "Bwill ",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005879,
+      "entryMcap": 58794,
+      "entryTime": 1777360281771,
+      "score": 73,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/7c2cciacc9v4jxg8gm1x2qmelp7gynhcjm3embnv2yqh",
+      "peakPrice": 0.00005879,
+      "peakMultiplier": 1,
+      "peakMcap": 58794,
+      "peakTime": 1777360281771,
+      "lastPrice": 0.0000372,
+      "lowestPrice": 0.0000372,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0000372,
+      "closeMultiplier": 0.632760673583943,
+      "closedAt": "2026-04-28T07:13:37.032Z",
+      "durationMs": 135261,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0000372,
+        "closeMultiplier": 0.632760673583943,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-28T07:13:37.032Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0000372,
+        "closeMultiplier": 0.632760673583943,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-28T07:13:37.032Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 18,
+        "momentum": 5.642727272727273,
+        "floatRotation": 0.9255403612613532,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.9255403612613532,
+        "accel": 5.642727272727273,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 62.07,
+        "vol5m": 54416.22,
+        "buys5m": 708,
+        "sells5m": 589,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T06:53:37.692Z"
+  "lastSaved": "2026-04-28T07:13:38.259Z"
 }
