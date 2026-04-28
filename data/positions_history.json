@@ -30068,7 +30068,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "75gzec1Pg6RaHz9PNMFgUz8rPvSaCHrGQ4Lx2jmFapPt",
+      "mint": "DTfN4DotNupzDbqpg6dX4jfXekB5vVkePxjuyivJpump",
+      "name": "The Chosen Bee",
+      "symbol": "BEE",
+      "dex": "pumpswap",
+      "entryPrice": 0.0007178,
+      "entryMcap": 717802,
+      "entryTime": 1777395688957,
+      "score": 94,
+      "ageAtEntry": 23,
+      "whaleDetected": true,
+      "whaleWallet": "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE",
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/75gzec1pg6rahz9pnmfguz8rpvsachrgq4lx2jmfappt",
+      "peakPrice": 0.001496,
+      "peakMultiplier": 2.0841460016717748,
+      "peakMcap": 1496676,
+      "peakTime": 1777396313223,
+      "lastPrice": 0.0004538,
+      "lowestPrice": 0.0004538,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 624266,
+        "0.5": 383942
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0004538,
+      "closeMultiplier": 0.6322095291167457,
+      "closedAt": "2026-04-28T17:58:54.155Z",
+      "durationMs": 3445198,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0007446,
+        "closeMultiplier": 1.0373363053775424,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T17:26:53.482Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -9,
+        "momentum": 0.46956521739130436,
+        "floatRotation": 1.0462656415000235,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": false,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 1.0462656415000235,
+        "accel": 0.46956521739130436,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(23min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($718k)",
+        "priceChg5m": 10.8,
+        "vol5m": 751011.57,
+        "buys5m": 3676,
+        "sells5m": 3253,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T17:57:55.397Z"
+  "lastSaved": "2026-04-28T17:58:55.096Z"
 }
