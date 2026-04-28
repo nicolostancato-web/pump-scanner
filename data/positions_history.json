@@ -29002,7 +29002,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4i7zeFk9qYihnDGdyNvNxG5LcRnghDTxH6xjtcEZtNsi",
+      "mint": "GYFAeRZQKUMxAQucC5dEJ1T2W2r1zXNNxQxez9jWpump",
+      "name": "SCAMNALD TRUMP",
+      "symbol": "SCAMNALD",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001347,
+      "entryMcap": 134765,
+      "entryTime": 1777390048064,
+      "score": 85,
+      "ageAtEntry": 18,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/4i7zefk9qyihndgdynvnxg5lcrnghdtxh6xjtceztnsi",
+      "peakPrice": 0.0002816,
+      "peakMultiplier": 2.0905716406829993,
+      "peakMcap": 281619,
+      "peakTime": 1777390550271,
+      "lastPrice": 0.00006814,
+      "lowestPrice": 0.00006814,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 502207,
+        "0.5": 142998
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00006814,
+      "closeMultiplier": 0.5058648849294729,
+      "closedAt": "2026-04-28T15:50:51.074Z",
+      "durationMs": 1403010,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001232,
+        "closeMultiplier": 0.9146250927988123,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T15:39:50.523Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -10,
+        "momentum": 1.3394444444444444,
+        "floatRotation": 0.3998638370496791,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.3998638370496791,
+        "accel": 1.3394444444444444,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.34)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 24.11,
+        "vol5m": 53887.65,
+        "buys5m": 1431,
+        "sells5m": 422,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T15:29:51.036Z"
+  "lastSaved": "2026-04-28T15:50:52.256Z"
 }
