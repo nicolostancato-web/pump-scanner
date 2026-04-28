@@ -31698,7 +31698,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "oUEAwsSRRxmCyack2hAeTHUyVkn6o6nJjwky5Tb4Y7w",
+      "mint": "74ig9EUg8pogXYBqxhM7DMJ3DYAhG28EeBRrvsn9pump",
+      "name": "18 Egido St., Starbase, TX 78521",
+      "symbol": "ELONHOUSE",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000913,
+      "entryMcap": 91301,
+      "entryTime": 1777418732347,
+      "score": 91,
+      "ageAtEntry": 19,
+      "whaleDetected": true,
+      "whaleWallet": "A7FMMgue4aZmPLLoutVtbC7gJcyqkHybUieiaDg9aaVE",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/oueawssrrxmcyack2haethuyvkn6o6njjwky5tb4y7w",
+      "peakPrice": 0.0001063,
+      "peakMultiplier": 1.1642935377875137,
+      "peakMcap": 106393,
+      "peakTime": 1777418764999,
+      "lastPrice": 0.00005037,
+      "lowestPrice": 0.00005037,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005037,
+      "closeMultiplier": 0.551697699890471,
+      "closedAt": "2026-04-28T23:28:04.928Z",
+      "durationMs": 152581,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005037,
+        "closeMultiplier": 0.551697699890471,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T23:28:04.928Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 7.315789473684211,
+        "floatRotation": 0.4726644834120108,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.4726644834120108,
+        "accel": 7.315789473684211,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 139,
+        "vol5m": 43154.74,
+        "buys5m": 539,
+        "sells5m": 498,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T23:14:05.485Z"
+  "lastSaved": "2026-04-28T23:28:05.579Z"
 }
