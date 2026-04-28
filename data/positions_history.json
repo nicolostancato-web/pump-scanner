@@ -30330,7 +30330,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "1vVcgZMQw1Vz3Pp9om4bM6vtuKHtCTtzGway14kWL4n",
+      "mint": "7mJ4tTSsL63fa69qkdDbw4fhx6SPzfA8uS4bVisStfi4",
+      "name": "The Beekeeper",
+      "symbol": "BEEKEEPER",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002177,
+      "entryMcap": 217751,
+      "entryTime": 1777396168935,
+      "score": 80,
+      "ageAtEntry": 16,
+      "whaleDetected": true,
+      "whaleWallet": "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/1vvcgzmqw1vz3pp9om4bm6vtukhtcttzgway14kwl4n",
+      "peakPrice": 0.00045,
+      "peakMultiplier": 2.067064768029398,
+      "peakMcap": 450042,
+      "peakTime": 1777397634312,
+      "lastPrice": 0.0001434,
+      "lowestPrice": 0.0001434,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 1465377,
+        "0.5": 984955
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001434,
+      "closeMultiplier": 0.6587046394120348,
+      "closedAt": "2026-04-28T18:28:55.059Z",
+      "durationMs": 4766124,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000224,
+        "closeMultiplier": 1.0289389067524115,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T17:54:54.702Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": -1.761875,
+        "floatRotation": 1.1303199526064174,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 1.1303199526064174,
+        "accel": -1.761875,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($246128,price-28.2%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($218k)",
+        "priceChg5m": -28.19,
+        "vol5m": 246128.3,
+        "buys5m": 1800,
+        "sells5m": 1460,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T18:17:55.845Z"
+  "lastSaved": "2026-04-28T18:28:56.220Z"
 }
