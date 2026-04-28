@@ -25274,7 +25274,103 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "7mt2PkQnqDvm2nu3Gj1D5GEZGyz9mLZyvDLMny25unCD",
+      "mint": "EHHzeLArxKrg7Q8ZkFoxk1pD5riLQ9MfVxUdmfiwzACS",
+      "name": "We Miss Biden",
+      "symbol": "JOE",
+      "dex": "pumpswap",
+      "entryPrice": 0.00009667,
+      "entryMcap": 96674,
+      "entryTime": 1777341077044,
+      "score": 73,
+      "ageAtEntry": 19,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/7mt2pkqnqdvm2nu3gj1d5gezgyz9mlzyvdlmny25uncd",
+      "peakPrice": 0.0004458,
+      "peakMultiplier": 4.611565118444192,
+      "peakMcap": 445833,
+      "peakTime": 1777342889906,
+      "lastPrice": 0.00005258,
+      "lowestPrice": 0.00005258,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2,
+        3
+      ],
+      "timesToMilestone": {
+        "1": 252153,
+        "2": 432464,
+        "3": 852177,
+        "0.5": 192229,
+        "1.5": 252153
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005258,
+      "closeMultiplier": 0.5439122788869349,
+      "closedAt": "2026-04-28T02:30:30.074Z",
+      "durationMs": 2353030,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0002114,
+        "closeMultiplier": 2.1868211440984795,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-28T02:11:29.580Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 8,
+        "floatRotation": 0.5145235533856053,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.5145235533856053,
+        "accel": 8,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 152,
+        "vol5m": 49741.05,
+        "buys5m": 262,
+        "sells5m": 164,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-28T02:02:30.585Z"
+  "lastSaved": "2026-04-28T02:30:31.267Z"
 }
