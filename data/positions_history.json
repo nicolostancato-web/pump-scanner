@@ -32736,7 +32736,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "RgExnT1RdQ4wJkZK4MXVjMtDDisptPDQKTWzmdxWupQ",
+      "mint": "143fMyRDtMG3dECHRT3uKakH9uYWd6N3529P5496pump",
+      "name": "Two Old Kings",
+      "symbol": "TOK",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002766,
+      "entryMcap": 276695,
+      "entryTime": 1777431933478,
+      "score": 65,
+      "ageAtEntry": 32,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/rgexnt1rdq4wjkzk4mxvjmtddisptpdqktwzmdxwupq",
+      "peakPrice": 0.0006073,
+      "peakMultiplier": 2.195589298626175,
+      "peakMcap": 607355,
+      "peakTime": 1777433654171,
+      "lastPrice": 0.0001221,
+      "lowestPrice": 0.0001221,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 1660675,
+        "0.5": 1480581
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001221,
+      "closeMultiplier": 0.4414316702819957,
+      "closedAt": "2026-04-29T03:52:14.405Z",
+      "durationMs": 2800927,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0002528,
+        "closeMultiplier": 0.9139551699204628,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T03:49:14.313Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -30,
+        "momentum": 0.7509375,
+        "floatRotation": 0.09932698458591589,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.09932698458591589,
+        "accel": 0.7509375,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(32min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(32min)",
+        "priceChg5m": 24.03,
+        "vol5m": 27483.28,
+        "buys5m": 248,
+        "sells5m": 176,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T03:44:16.323Z"
+  "lastSaved": "2026-04-29T03:52:15.547Z"
 }
