@@ -32214,7 +32214,101 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4KBYjwF2FpGa4KRwTZQ6DAgYjyaZpakxvkc3ypNQmSXT",
+      "mint": "FUBsf4vai2iFwy32cWz7uJH1zBwbQMjAuuXBR8M6pump",
+      "name": "Scam Gabe",
+      "symbol": "SCAMGABE",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001559,
+      "entryMcap": 155926,
+      "entryTime": 1777418492368,
+      "score": 75,
+      "ageAtEntry": 17,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/4kbyjwf2fpga4krwtzq6dagyjyazpakxvkc3ypnqmsxt",
+      "peakPrice": 0.0006004,
+      "peakMultiplier": 3.851186658114176,
+      "peakMcap": 600495,
+      "peakTime": 1777424708329,
+      "lastPrice": 0.000403,
+      "lowestPrice": 0.0001394,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2
+      ],
+      "timesToMilestone": {
+        "1": 1413186,
+        "2": 2673962,
+        "0.5": 572576,
+        "1.5": 2433688
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.000403,
+      "closeMultiplier": 2.584990378447723,
+      "closedAt": "2026-04-29T01:22:08.883Z",
+      "durationMs": 7236515,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000403,
+        "closeMultiplier": 2.584990378447723,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-29T01:22:08.883Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 15,
+        "momentum": 2.646470588235294,
+        "floatRotation": 0.398182599438195,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.398182599438195,
+        "accel": 2.646470588235294,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($156k)",
+        "priceChg5m": 44.99,
+        "vol5m": 62087.02,
+        "buys5m": 383,
+        "sells5m": 315,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T01:16:09.291Z"
+  "lastSaved": "2026-04-29T01:22:10.004Z"
 }
