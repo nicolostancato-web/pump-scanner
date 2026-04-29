@@ -33082,7 +33082,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "3ionh9ecQaVHt63jveQYv5zzGjRfb7HXpD3s76EAGxq5",
+      "mint": "Btddh9Xj6RAj967AHxbp8vk3juApVyJEAPP9heq3pump",
+      "name": "Legit Elon",
+      "symbol": "LEGIT",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001017,
+      "entryMcap": 101755,
+      "entryTime": 1777431693473,
+      "score": 67,
+      "ageAtEntry": 60,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/3ionh9ecqavht63jveqyv5zzgjrfb7hxpd3s76eagxq5",
+      "peakPrice": 0.0001326,
+      "peakMultiplier": 1.303834808259587,
+      "peakMcap": 132666,
+      "peakTime": 1777435814841,
+      "lastPrice": 0.0001126,
+      "lowestPrice": 0.00008792,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0001126,
+      "closeMultiplier": 1.1071779744346115,
+      "closedAt": "2026-04-29T05:02:16.842Z",
+      "durationMs": 7243369,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001126,
+        "closeMultiplier": 1.1071779744346115,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-29T05:02:16.842Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -23,
+        "momentum": 0.22533333333333333,
+        "floatRotation": 0.15450464350646162,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.15450464350646162,
+        "accel": 0.22533333333333333,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(60min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(60min)",
+        "priceChg5m": 13.52,
+        "vol5m": 15721.62,
+        "buys5m": 513,
+        "sells5m": 154,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T04:56:18.304Z"
+  "lastSaved": "2026-04-29T05:02:17.987Z"
 }
