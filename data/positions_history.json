@@ -36210,7 +36210,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "6r6aQ1EPbuXkZiJgJvifukx5pgvUUgLMUX3xN9JGpgEG",
+      "mint": "LnetikZjuqdRmFacZMG16NfLQDKiC3hLHi3pPZK1mW6",
+      "name": "Charity Coin",
+      "symbol": "Charity",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008297,
+      "entryMcap": 82974,
+      "entryTime": 1777486663592,
+      "score": 68,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/6r6aq1epbuxkzijgjvifukx5pgvuuglmux3xn9jgpgeg",
+      "peakPrice": 0.00008297,
+      "peakMultiplier": 1,
+      "peakMcap": 82974,
+      "peakTime": 1777486663592,
+      "lastPrice": 0.00002398,
+      "lowestPrice": 0.00002398,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00002398,
+      "closeMultiplier": 0.28902012775702063,
+      "closedAt": "2026-04-29T18:18:43.478Z",
+      "durationMs": 59886,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00002398,
+        "closeMultiplier": 0.28902012775702063,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T18:18:43.478Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00002398,
+        "closeMultiplier": 0.28902012775702063,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T18:18:43.478Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 33,
+        "momentum": 5.390000000000001,
+        "floatRotation": 0.883493021910478,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.883493021910478,
+        "accel": 5.390000000000001,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg64.7%,vol$73307,b483s520)",
+        "priceChg5m": 64.68,
+        "vol5m": 73306.95,
+        "buys5m": 483,
+        "sells5m": 520,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T18:16:44.349Z"
+  "lastSaved": "2026-04-29T18:18:44.588Z"
 }
