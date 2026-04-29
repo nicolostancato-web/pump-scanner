@@ -37174,7 +37174,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8NoQEWRxjqVQnz7CGosrWTErzWdJPMN4H938UYDmZ1hh",
+      "mint": "5qxGgZf2coUbV6JrKEtzGbRMR29VEPapiJNdBft3pump",
+      "name": "Mesk Elun",
+      "symbol": "Mesk",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001473,
+      "entryMcap": 147333,
+      "entryTime": 1777490624947,
+      "score": 65,
+      "ageAtEntry": 14,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8noqewrxjqvqnz7cgosrwterzwdjpmn4h938uydmz1hh",
+      "peakPrice": 0.0001789,
+      "peakMultiplier": 1.2145281737949762,
+      "peakMcap": 178959,
+      "peakTime": 1777494286034,
+      "lastPrice": 0.000001721,
+      "lowestPrice": 0.000001721,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000001721,
+      "closeMultiplier": 0.011683638832315003,
+      "closedAt": "2026-04-29T20:43:46.658Z",
+      "durationMs": 4801711,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000001721,
+        "closeMultiplier": 0.011683638832315003,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T20:43:46.658Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.000001721,
+        "closeMultiplier": 0.011683638832315003,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T20:43:46.658Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -6,
+        "momentum": 2.932857142857143,
+        "floatRotation": 0.24781189550202604,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": true,
+        "floatRot": 0.24781189550202604,
+        "accel": 2.932857142857143,
+        "wouldPassV5": false,
+        "failReason": "SC1-rot(0.248)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg41.1%,vol$36511,b47s51)",
+        "priceChg5m": 41.06,
+        "vol5m": 36510.87,
+        "buys5m": 47,
+        "sells5m": 51,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T20:36:48.144Z"
+  "lastSaved": "2026-04-29T20:43:47.821Z"
 }
