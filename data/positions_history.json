@@ -36914,7 +36914,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "9cxSwhRPGsftyZyTjmQZgwfbsjxcJ5draF5X1WMaBCMA",
+      "mint": "3YDTchewGLyRbyTWw2dJu8Nuzk1k61XrGAzemLuEpump",
+      "name": "SPARTN Monkey Rescue",
+      "symbol": "WINSTON",
+      "dex": "pumpswap",
+      "entryPrice": 0.00003813,
+      "entryMcap": 38137,
+      "entryTime": 1777492785761,
+      "score": 60,
+      "ageAtEntry": 3,
+      "whaleDetected": true,
+      "whaleWallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/9cxswhrpgsftyzytjmqzgwfbsjxcj5draf5x1wmabcma",
+      "peakPrice": 0.00003813,
+      "peakMultiplier": 1,
+      "peakMcap": 38137,
+      "peakTime": 1777492785761,
+      "lastPrice": 0.0000218,
+      "lowestPrice": 0.0000218,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0000218,
+      "closeMultiplier": 0.5717282979281406,
+      "closedAt": "2026-04-29T20:04:46.021Z",
+      "durationMs": 300260,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0000218,
+        "closeMultiplier": 0.5717282979281406,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T20:04:46.021Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0000218,
+        "closeMultiplier": 0.5717282979281406,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T20:04:46.021Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 19,
+        "momentum": 4.003333333333333,
+        "floatRotation": 0.15063009675643077,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": true,
+        "floatRot": 0.15063009675643077,
+        "accel": 4.003333333333333,
+        "wouldPassV5": false,
+        "failReason": "SC1-rot(0.151)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(3min)",
+        "priceChg5m": 12.01,
+        "vol5m": 5744.58,
+        "buys5m": 115,
+        "sells5m": 66,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T19:50:46.579Z"
+  "lastSaved": "2026-04-29T20:04:47.105Z"
 }
