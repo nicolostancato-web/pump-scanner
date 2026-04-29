@@ -34828,7 +34828,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "586Dpp4WyAt87NGSymiXQxPz3bCj2xN9E7cbUKmjKzUM",
+      "mint": "BgAswdPz598kfdzNkwSjFkKPM9pdfjbctgizNZBGpump",
+      "name": "Jerum Poowel",
+      "symbol": "Poowel",
+      "dex": "pumpswap",
+      "entryPrice": 0.00004902,
+      "entryMcap": 49027,
+      "entryTime": 1777469737323,
+      "score": 66,
+      "ageAtEntry": 10,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/586dpp4wyat87ngsymixqxpz3bcj2xn9e7cbukmjkzum",
+      "peakPrice": 0.00004902,
+      "peakMultiplier": 1,
+      "peakMcap": 49027,
+      "peakTime": 1777469737323,
+      "lastPrice": 0.00002387,
+      "lowestPrice": 0.00002387,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00002387,
+      "closeMultiplier": 0.4869441044471644,
+      "closedAt": "2026-04-29T13:40:37.210Z",
+      "durationMs": 299887,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00002387,
+        "closeMultiplier": 0.4869441044471644,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T13:40:37.210Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00002387,
+        "closeMultiplier": 0.4869441044471644,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T13:40:37.210Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 18,
+        "momentum": 4.654,
+        "floatRotation": 1.2197442225712363,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 1.2197442225712363,
+        "accel": 4.654,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": 46.54,
+        "vol5m": 59800.4,
+        "buys5m": 905,
+        "sells5m": 651,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T13:06:37.218Z"
+  "lastSaved": "2026-04-29T13:40:38.363Z"
 }
