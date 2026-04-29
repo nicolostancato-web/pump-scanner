@@ -33968,7 +33968,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "JFQrqhwJVYRi9nAFKGrTxFCM2vxsJ19gzahWMV3i7FZ",
+      "mint": "AxkBVC6sZcFH5XQgnXV2BccT2DoA2FsHJ4wGoXzppump",
+      "name": "Elun vs Scam",
+      "symbol": "EVS",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005845,
+      "entryMcap": 58452,
+      "entryTime": 1777447414087,
+      "score": 65,
+      "ageAtEntry": 32,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/jfqrqhwjvyri9nafkgrtxfcm2vxsj19gzahwmv3i7fz",
+      "peakPrice": 0.0001144,
+      "peakMultiplier": 1.957228400342173,
+      "peakMcap": 114471,
+      "peakTime": 1777451665798,
+      "lastPrice": 0.0001043,
+      "lowestPrice": 0.00004993,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 2150039
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0001043,
+      "closeMultiplier": 1.784431137724551,
+      "closedAt": "2026-04-29T09:24:27.880Z",
+      "durationMs": 7253793,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001043,
+        "closeMultiplier": 1.784431137724551,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-29T09:24:27.880Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -10,
+        "momentum": 0.59625,
+        "floatRotation": 0.68647796482584,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.68647796482584,
+        "accel": 0.59625,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(32min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(32min)",
+        "priceChg5m": 19.08,
+        "vol5m": 40126.01,
+        "buys5m": 512,
+        "sells5m": 317,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T08:44:27.826Z"
+  "lastSaved": "2026-04-29T09:24:29.041Z"
 }
