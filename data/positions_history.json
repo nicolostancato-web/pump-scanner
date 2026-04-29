@@ -36550,7 +36550,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "CKshtndWfZsgNCh2LVY7Ru2PbaZ7TLMWokN7cRib4USn",
+      "mint": "4EMrDtWamoVs1t5YdEncmjvR5w4oV9LTtjGzeT7tpump",
+      "name": "Mage Of Zamorak",
+      "symbol": "HERBERT",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007655,
+      "entryMcap": 76556,
+      "entryTime": 1777487744015,
+      "score": 66,
+      "ageAtEntry": 24,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/ckshtndwfzsgnch2lvy7ru2pbaz7tlmwokn7crib4usn",
+      "peakPrice": 0.0001185,
+      "peakMultiplier": 1.5480078380143696,
+      "peakMcap": 118501,
+      "peakTime": 1777488044429,
+      "lastPrice": 0.00005315,
+      "lowestPrice": 0.00005315,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 300414
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005315,
+      "closeMultiplier": 0.6943174395819725,
+      "closedAt": "2026-04-29T18:58:44.541Z",
+      "durationMs": 1380526,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005362,
+        "closeMultiplier": 0.7004572175048986,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T18:42:44.424Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -6,
+        "momentum": 1.7770833333333333,
+        "floatRotation": 0.14754049323371127,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.14754049323371127,
+        "accel": 1.7770833333333333,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(24min)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 42.65,
+        "vol5m": 11295.11,
+        "buys5m": 100,
+        "sells5m": 60,
+        "tp2x_hit": false,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T18:51:45.174Z"
+  "lastSaved": "2026-04-29T18:58:45.725Z"
 }
