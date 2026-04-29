@@ -36126,7 +36126,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "pbLV4uxM5qrHnjR7ANQtDMBJ5mg2JoAbah7EyHwHtXD",
+      "mint": "CUwUp6VekdBc8UWMh5uP1ia1VmhmeXBqEeFx1cvZpump",
+      "name": "Autism Coin",
+      "symbol": "AUTISM",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001032,
+      "entryMcap": 103277,
+      "entryTime": 1777486543706,
+      "score": 65,
+      "ageAtEntry": 10,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/pblv4uxm5qrhnjr7anqtdmbj5mg2joabah7eyhwhtxd",
+      "peakPrice": 0.0001032,
+      "peakMultiplier": 1,
+      "peakMcap": 103277,
+      "peakTime": 1777486543706,
+      "lastPrice": 0.00002797,
+      "lowestPrice": 0.00002797,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00002797,
+      "closeMultiplier": 0.27102713178294574,
+      "closedAt": "2026-04-29T18:16:43.178Z",
+      "durationMs": 59472,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00002797,
+        "closeMultiplier": 0.27102713178294574,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T18:16:43.178Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00002797,
+        "closeMultiplier": 0.27102713178294574,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T18:16:43.178Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -32,
+        "momentum": -0.174,
+        "floatRotation": 1.005106945399266,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 1.005106945399266,
+        "accel": -0.174,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($103804,price-1.7%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": -1.74,
+        "vol5m": 103804.43,
+        "buys5m": 916,
+        "sells5m": 892,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T18:07:44.053Z"
+  "lastSaved": "2026-04-29T18:16:44.349Z"
 }
