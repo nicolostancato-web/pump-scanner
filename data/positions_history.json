@@ -37342,7 +37342,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "DbDppQQRkjCEvxDaGAkYaiLr92vKjkHgjAL1ecETxoB5",
+      "mint": "2wd2aVe25A38c3KEGAXM5B2YJLQKBMqAE2j6EbDUpump",
+      "name": "Justice For Gaza",
+      "symbol": "GAZA",
+      "dex": "pumpswap",
+      "entryPrice": 0.00004292,
+      "entryMcap": 42920,
+      "entryTime": 1777496866797,
+      "score": 88,
+      "ageAtEntry": 17,
+      "whaleDetected": true,
+      "whaleWallet": "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB",
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/dbdppqqrkjcevxdagakyailr92vkjkhgjal1ecetxob5",
+      "peakPrice": 0.00004292,
+      "peakMultiplier": 1,
+      "peakMcap": 42920,
+      "peakTime": 1777496866797,
+      "lastPrice": 0.00001812,
+      "lowestPrice": 0.00001812,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001812,
+      "closeMultiplier": 0.4221808014911463,
+      "closedAt": "2026-04-29T21:09:47.804Z",
+      "durationMs": 121007,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001812,
+        "closeMultiplier": 0.4221808014911463,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T21:09:47.804Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 0,
+        "momentum": 1.6111764705882354,
+        "floatRotation": 0.7831717148182666,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.7831717148182666,
+        "accel": 1.6111764705882354,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.61)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 27.39,
+        "vol5m": 33613.73,
+        "buys5m": 484,
+        "sells5m": 408,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T20:51:48.331Z"
+  "lastSaved": "2026-04-29T21:09:48.924Z"
 }
