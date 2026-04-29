@@ -37608,7 +37608,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "G5KBAM7bKCaEVQCtFa1bbyx9uahgNxchiBcXyn5RJWtG",
+      "mint": "Xd5gKHC36AiqFnfH1fxxwDJkp4g1ytdi94L95yUpump",
+      "name": "Ronald Mcdonald House",
+      "symbol": "MCHOUSE",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002569,
+      "entryMcap": 256968,
+      "entryTime": 1777499627666,
+      "score": 73,
+      "ageAtEntry": 10,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/g5kbam7bkcaevqctfa1bbyx9uahgnxchibcxyn5rjwtg",
+      "peakPrice": 0.0002569,
+      "peakMultiplier": 1,
+      "peakMcap": 256968,
+      "peakTime": 1777499627666,
+      "lastPrice": 0.0001762,
+      "lowestPrice": 0.0001762,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001762,
+      "closeMultiplier": 0.6858699883223044,
+      "closedAt": "2026-04-29T21:55:48.716Z",
+      "durationMs": 121050,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001762,
+        "closeMultiplier": 0.6858699883223044,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T21:55:48.716Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0001762,
+        "closeMultiplier": 0.6858699883223044,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T21:55:48.716Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 7.093000000000001,
+        "floatRotation": 0.32175449861461347,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.32175449861461347,
+        "accel": 7.093000000000001,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": 70.93,
+        "vol5m": 82680.61,
+        "buys5m": 966,
+        "sells5m": 823,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T21:51:49.454Z"
+  "lastSaved": "2026-04-29T21:55:49.828Z"
 }
