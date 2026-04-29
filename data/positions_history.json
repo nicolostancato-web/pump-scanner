@@ -37692,7 +37692,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "EhjYs3ZxTUjopbSZQgycg783gZcx8mkugGfvkzxgAXyf",
+      "mint": "JB8rMqyFmypiMqjiJ13bitubssM6aYDdq5ndUF5Wpump",
+      "name": "Barking Puppy - kg",
+      "symbol": "BP",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008407,
+      "entryMcap": 84069,
+      "entryTime": 1777499987829,
+      "score": 78,
+      "ageAtEntry": 27,
+      "whaleDetected": true,
+      "whaleWallet": "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB",
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/ehjys3zxtujopbszqgycg783gzcx8mkuggfvkzxgaxyf",
+      "peakPrice": 0.0000879,
+      "peakMultiplier": 1.0455572737004877,
+      "peakMcap": 87900,
+      "peakTime": 1777500048645,
+      "lastPrice": 0.00003841,
+      "lowestPrice": 0.00003841,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003841,
+      "closeMultiplier": 0.45688117045319376,
+      "closedAt": "2026-04-29T22:03:48.841Z",
+      "durationMs": 241012,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003841,
+        "closeMultiplier": 0.45688117045319376,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T22:03:48.841Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 0.9181481481481482,
+        "floatRotation": 0.10540068277248452,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.10540068277248452,
+        "accel": 0.9181481481481482,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(27min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(27min)",
+        "priceChg5m": 24.79,
+        "vol5m": 8860.93,
+        "buys5m": 81,
+        "sells5m": 66,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T21:55:49.828Z"
+  "lastSaved": "2026-04-29T22:03:49.292Z"
 }
