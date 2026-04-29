@@ -33334,7 +33334,101 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "73qgmdXjE12hDj12qWKsTjJGyVsNRc8vhrmcdQFsqtqS",
+      "mint": "DauQPNZyWTDi7Bh3u9vc66Dn7ygbDDBky1Kq2HFCpump",
+      "name": "TSUGAI INU",
+      "symbol": "TSUGAI",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001014,
+      "entryMcap": 101446,
+      "entryTime": 1777436613863,
+      "score": 73,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/73qgmdxje12hdj12qwkstjjgyvsnrc8vhrmcdqfsqtqs",
+      "peakPrice": 0.000387,
+      "peakMultiplier": 3.816568047337278,
+      "peakMcap": 387071,
+      "peakTime": 1777439897449,
+      "lastPrice": 0.0001091,
+      "lowestPrice": 0.0001014,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2
+      ],
+      "timesToMilestone": {
+        "1": 882276,
+        "2": 3163513,
+        "0.5": 101760,
+        "1.5": 2983616
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0001091,
+      "closeMultiplier": 1.0759368836291914,
+      "closedAt": "2026-04-29T06:24:20.272Z",
+      "durationMs": 7246409,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001113,
+        "closeMultiplier": 1.0976331360946745,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T04:51:16.441Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0001113,
+        "closeMultiplier": 1.0976331360946745,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T04:51:16.441Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 5,
+        "momentum": 1.3858333333333333,
+        "floatRotation": 0.5509224612108905,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.5509224612108905,
+        "accel": 1.3858333333333333,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.39)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 16.63,
+        "vol5m": 55888.88,
+        "buys5m": 505,
+        "sells5m": 301,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T06:09:21.456Z"
+  "lastSaved": "2026-04-29T06:24:21.314Z"
 }
