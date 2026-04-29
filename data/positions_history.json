@@ -34224,7 +34224,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "BB5zfiTk6P9GykG73PedbXHYdXGNRAA4iqj4diNeK3i7",
+      "mint": "DiqmbYhdd7HoytAabr5AQdTBrB8DMTupgukE2ZHEpump",
+      "name": "Justice For Moroccan Dogs",
+      "symbol": "Dogocaust",
+      "dex": "pumpswap",
+      "entryPrice": 0.00006597,
+      "entryMcap": 65971,
+      "entryTime": 1777460494312,
+      "score": 71,
+      "ageAtEntry": 10,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/bb5zfitk6p9gykg73pedbxhydxgnraa4iqj4dinek3i7",
+      "peakPrice": 0.00006605,
+      "peakMultiplier": 1.0012126724268609,
+      "peakMcap": 66059,
+      "peakTime": 1777460552736,
+      "lastPrice": 0.00001967,
+      "lowestPrice": 0.00001967,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001967,
+      "closeMultiplier": 0.2981658329543732,
+      "closedAt": "2026-04-29T11:03:32.785Z",
+      "durationMs": 118473,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001967,
+        "closeMultiplier": 0.2981658329543732,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T11:03:32.784Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00001967,
+        "closeMultiplier": 0.2981658329543732,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T11:03:32.784Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 18,
+        "momentum": 10.5,
+        "floatRotation": 0.8031818526322172,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.8031818526322172,
+        "accel": 10.5,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": 105,
+        "vol5m": 52986.71,
+        "buys5m": 786,
+        "sells5m": 619,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T10:32:32.300Z"
+  "lastSaved": "2026-04-29T11:03:33.918Z"
 }
