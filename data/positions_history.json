@@ -34392,7 +34392,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8nAqq8JusfrN7QSdUMFF7Z17e2UsBgnW2dzohAp345Eb",
+      "mint": "DJy3VrsZMa2SrQTyH5seQ1a3E99Wx3UfN95jxC2Spump",
+      "name": "Super Tolyo",
+      "symbol": "TOLYO",
+      "dex": "pumpswap",
+      "entryPrice": 0.00009545,
+      "entryMcap": 95460,
+      "entryTime": 1777462054578,
+      "score": 71,
+      "ageAtEntry": 29,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/8naqq8jusfrn7qsdumff7z17e2usbgnw2dzohap345eb",
+      "peakPrice": 0.0001052,
+      "peakMultiplier": 1.1021477213200628,
+      "peakMcap": 105260,
+      "peakTime": 1777462713980,
+      "lastPrice": 0.000001856,
+      "lowestPrice": 0.000001856,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000001856,
+      "closeMultiplier": 0.019444735463593505,
+      "closedAt": "2026-04-29T11:51:34.513Z",
+      "durationMs": 1439935,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000001856,
+        "closeMultiplier": 0.019444735463593505,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T11:51:34.513Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 0.9162068965517242,
+        "floatRotation": 0.26027446050701863,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.26027446050701863,
+        "accel": 0.9162068965517242,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(29min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(29min)",
+        "priceChg5m": 26.57,
+        "vol5m": 24845.8,
+        "buys5m": 373,
+        "sells5m": 241,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T11:50:35.636Z"
+  "lastSaved": "2026-04-29T11:51:35.467Z"
 }
