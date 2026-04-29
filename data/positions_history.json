@@ -36998,7 +36998,99 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "DJpdHs4wbm1XqRruM1NPHnSfpnSztUEeFW3bcaDEeg7H",
+      "mint": "E8syR4zsgQG2zo9YyiyfX4ujubByR4z6qj9stjASpump",
+      "name": "St. Jude",
+      "symbol": "STJUDE",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002329,
+      "entryMcap": 232900,
+      "entryTime": 1777486063496,
+      "score": 94,
+      "ageAtEntry": 14,
+      "whaleDetected": true,
+      "whaleWallet": "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/djpdhs4wbm1xqrrum1nphnsfpnsztueefw3bcadeeg7h",
+      "peakPrice": 0.0006961,
+      "peakMultiplier": 2.9888364104765994,
+      "peakMcap": 696147,
+      "peakTime": 1777488464030,
+      "lastPrice": 0.0002641,
+      "lowestPrice": 0.0001803,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5
+      ],
+      "timesToMilestone": {
+        "1": 899771,
+        "0.5": 719668,
+        "1.5": 1139854
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0002641,
+      "closeMultiplier": 1.1339630742808073,
+      "closedAt": "2026-04-29T20:07:45.605Z",
+      "durationMs": 7202109,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0002875,
+        "closeMultiplier": 1.2344353799914127,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T18:54:43.972Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0002875,
+        "closeMultiplier": 1.2344353799914127,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T18:54:43.972Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 6,
+        "momentum": 0.41428571428571426,
+        "floatRotation": 1.3939432374409617,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 1.3939432374409617,
+        "accel": 0.41428571428571426,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(0.41)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($233k)",
+        "priceChg5m": 5.8,
+        "vol5m": 324649.38,
+        "buys5m": 2771,
+        "sells5m": 2056,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T20:04:47.105Z"
+  "lastSaved": "2026-04-29T20:07:46.745Z"
 }
