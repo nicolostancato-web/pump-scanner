@@ -1,40 +1,40 @@
 {
-  "totalClosed": 401,
+  "totalClosed": 402,
   "winRate": "9.2%",
   "avgPeakMultiplier": "1.761",
-  "avgCloseMultiplier": "0.747",
+  "avgCloseMultiplier": "0.746",
   "optimalTP": 1,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
-      "captured": 157,
-      "rate": "39.2%",
-      "expectedValue": "11.7%"
+      "captured": 158,
+      "rate": "39.3%",
+      "expectedValue": "11.8%"
     },
     "+50%": {
-      "captured": 125,
-      "rate": "31.2%",
-      "expectedValue": "15.6%"
+      "captured": 126,
+      "rate": "31.3%",
+      "expectedValue": "15.7%"
     },
     "+70%": {
-      "captured": 103,
-      "rate": "25.7%",
-      "expectedValue": "18.0%"
+      "captured": 104,
+      "rate": "25.9%",
+      "expectedValue": "18.1%"
     },
     "+100%": {
       "captured": 74,
-      "rate": "18.5%",
-      "expectedValue": "18.5%"
+      "rate": "18.4%",
+      "expectedValue": "18.4%"
     },
     "+150%": {
       "captured": 44,
-      "rate": "11.0%",
-      "expectedValue": "16.5%"
+      "rate": "10.9%",
+      "expectedValue": "16.4%"
     },
     "+200%": {
       "captured": 37,
       "rate": "9.2%",
-      "expectedValue": "18.5%"
+      "expectedValue": "18.4%"
     },
     "+300%": {
       "captured": 23,
@@ -44,28 +44,28 @@
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 381,
-      "recovered": 381,
+      "positions_hit": 382,
+      "recovered": 382,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 374,
-      "recovered": 374,
+      "positions_hit": 375,
+      "recovered": 375,
       "recovery_rate": "100.0%"
     },
     "-20%": {
-      "positions_hit": 368,
-      "recovered": 368,
+      "positions_hit": 369,
+      "recovered": 369,
       "recovery_rate": "100.0%"
     },
     "-25%": {
-      "positions_hit": 366,
-      "recovered": 366,
+      "positions_hit": 367,
+      "recovered": 367,
       "recovery_rate": "100.0%"
     },
     "-30%": {
-      "positions_hit": 363,
-      "recovered": 363,
+      "positions_hit": 364,
+      "recovered": 364,
       "recovery_rate": "100.0%"
     },
     "-40%": {
@@ -76,39 +76,39 @@
   },
   "milestoneRates": {
     "+50%": {
-      "reached": 125,
-      "total": 401,
-      "rate": "31.2%"
+      "reached": 126,
+      "total": 402,
+      "rate": "31.3%"
     },
     "+100%": {
       "reached": 74,
-      "total": 401,
-      "rate": "18.5%"
+      "total": 402,
+      "rate": "18.4%"
     },
     "+150%": {
       "reached": 44,
-      "total": 401,
-      "rate": "11.0%"
+      "total": 402,
+      "rate": "10.9%"
     },
     "+200%": {
       "reached": 37,
-      "total": 401,
+      "total": 402,
       "rate": "9.2%"
     },
     "+300%": {
       "reached": 23,
-      "total": 401,
+      "total": 402,
       "rate": "5.7%"
     },
     "+500%": {
       "reached": 13,
-      "total": 401,
+      "total": 402,
       "rate": "3.2%"
     }
   },
   "byScore": {
     "65-70": {
-      "count": 202,
+      "count": 203,
       "avgPeak": "1.65x",
       "wins2x": 33,
       "win2xRate": "16%"
@@ -140,8 +140,8 @@
   },
   "byWhale": {
     "whale": {
-      "count": 42,
-      "avgPeak": "2.55x",
+      "count": 43,
+      "avgPeak": "2.54x",
       "wins2x": 11
     },
     "noWhale": {
@@ -152,7 +152,7 @@
   },
   "byAge": {
     "0-15min": {
-      "count": 124,
+      "count": 125,
       "avgPeak": "2.29x"
     },
     "15-30min": {
@@ -168,6 +168,6 @@
       "avgPeak": "1.09x"
     }
   },
-  "recommendation": "📊 Analisi su 401 posizioni chiuse\n✅ Win rate (chiuse in positivo): 9%\n📈 Peak medio: 1.76x | Close medio: 0.75x\n🎯 Take Profit ottimale: +100% (expected value: 18.5%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 2.55x vs 1.67x",
-  "lastUpdated": "2026-04-29T03:52:15.562Z"
+  "recommendation": "📊 Analisi su 402 posizioni chiuse\n✅ Win rate (chiuse in positivo): 9%\n📈 Peak medio: 1.76x | Close medio: 0.75x\n🎯 Take Profit ottimale: +100% (expected value: 18.4%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 2.54x vs 1.67x",
+  "lastUpdated": "2026-04-29T04:14:16.484Z"
 }
