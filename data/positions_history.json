@@ -35958,7 +35958,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Dm5FW9tdoFER2pHwp1aWhFiU9aEWHtsS5udQSwob6Uva",
+      "mint": "A81LMjb3y4qJGyvvNXR2UeWibXR5VGq9bXfsUVUXpump",
+      "name": "Surprised Pikachu",
+      "symbol": "Pikachu",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007282,
+      "entryMcap": 72820,
+      "entryTime": 1777483902668,
+      "score": 66,
+      "ageAtEntry": 34,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/dm5fw9tdofer2phwp1awhfiu9aewhtss5udqswob6uva",
+      "peakPrice": 0.00009548,
+      "peakMultiplier": 1.311178247734139,
+      "peakMcap": 95483,
+      "peakTime": 1777484202420,
+      "lastPrice": 0.00005029,
+      "lowestPrice": 0.00005029,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005029,
+      "closeMultiplier": 0.6906069761054656,
+      "closedAt": "2026-04-29T17:40:42.519Z",
+      "durationMs": 539851,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005029,
+        "closeMultiplier": 0.6906069761054656,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-29T17:40:42.519Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 18,
+        "momentum": 5.176470588235294,
+        "floatRotation": 1.3728578687173854,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 1.3728578687173854,
+        "accel": 5.176470588235294,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(34min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(34min)",
+        "priceChg5m": 176,
+        "vol5m": 99971.51,
+        "buys5m": 766,
+        "sells5m": 674,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T17:23:43.348Z"
+  "lastSaved": "2026-04-29T17:40:43.711Z"
 }
