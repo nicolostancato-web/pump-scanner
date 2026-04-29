@@ -1,25 +1,25 @@
 {
-  "totalClosed": 418,
+  "totalClosed": 419,
   "winRate": "9.8%",
-  "avgPeakMultiplier": "1.775",
-  "avgCloseMultiplier": "0.751",
+  "avgPeakMultiplier": "1.773",
+  "avgCloseMultiplier": "0.749",
   "optimalTP": 2,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
       "captured": 166,
-      "rate": "39.7%",
+      "rate": "39.6%",
       "expectedValue": "11.9%"
     },
     "+50%": {
       "captured": 132,
-      "rate": "31.6%",
+      "rate": "31.5%",
       "expectedValue": "15.8%"
     },
     "+70%": {
       "captured": 109,
-      "rate": "26.1%",
-      "expectedValue": "18.3%"
+      "rate": "26.0%",
+      "expectedValue": "18.2%"
     },
     "+100%": {
       "captured": 77,
@@ -29,11 +29,11 @@
     "+150%": {
       "captured": 47,
       "rate": "11.2%",
-      "expectedValue": "16.9%"
+      "expectedValue": "16.8%"
     },
     "+200%": {
       "captured": 40,
-      "rate": "9.6%",
+      "rate": "9.5%",
       "expectedValue": "19.1%"
     },
     "+300%": {
@@ -44,65 +44,65 @@
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 396,
-      "recovered": 396,
+      "positions_hit": 397,
+      "recovered": 397,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 387,
-      "recovered": 387,
+      "positions_hit": 388,
+      "recovered": 388,
       "recovery_rate": "100.0%"
     },
     "-20%": {
-      "positions_hit": 381,
-      "recovered": 381,
+      "positions_hit": 382,
+      "recovered": 382,
       "recovery_rate": "100.0%"
     },
     "-25%": {
-      "positions_hit": 379,
-      "recovered": 379,
+      "positions_hit": 380,
+      "recovered": 380,
       "recovery_rate": "100.0%"
     },
     "-30%": {
-      "positions_hit": 376,
-      "recovered": 376,
+      "positions_hit": 377,
+      "recovered": 377,
       "recovery_rate": "100.0%"
     },
     "-40%": {
-      "positions_hit": 199,
-      "recovered": 199,
+      "positions_hit": 200,
+      "recovered": 200,
       "recovery_rate": "100.0%"
     }
   },
   "milestoneRates": {
     "+50%": {
       "reached": 132,
-      "total": 418,
-      "rate": "31.6%"
+      "total": 419,
+      "rate": "31.5%"
     },
     "+100%": {
       "reached": 77,
-      "total": 418,
+      "total": 419,
       "rate": "18.4%"
     },
     "+150%": {
       "reached": 47,
-      "total": 418,
+      "total": 419,
       "rate": "11.2%"
     },
     "+200%": {
       "reached": 40,
-      "total": 418,
-      "rate": "9.6%"
+      "total": 419,
+      "rate": "9.5%"
     },
     "+300%": {
       "reached": 25,
-      "total": 418,
+      "total": 419,
       "rate": "6.0%"
     },
     "+500%": {
       "reached": 15,
-      "total": 418,
+      "total": 419,
       "rate": "3.6%"
     }
   },
@@ -126,10 +126,10 @@
       "win2xRate": "23%"
     },
     "80-90": {
-      "count": 28,
-      "avgPeak": "2.54x",
+      "count": 29,
+      "avgPeak": "2.49x",
       "wins2x": 8,
-      "win2xRate": "29%"
+      "win2xRate": "28%"
     },
     "90-110": {
       "count": 8,
@@ -140,8 +140,8 @@
   },
   "byWhale": {
     "whale": {
-      "count": 46,
-      "avgPeak": "2.57x",
+      "count": 47,
+      "avgPeak": "2.54x",
       "wins2x": 12
     },
     "noWhale": {
@@ -152,8 +152,8 @@
   },
   "byAge": {
     "0-15min": {
-      "count": 135,
-      "avgPeak": "2.27x"
+      "count": 136,
+      "avgPeak": "2.26x"
     },
     "15-30min": {
       "count": 159,
@@ -168,6 +168,6 @@
       "avgPeak": "1.10x"
     }
   },
-  "recommendation": "📊 Analisi su 418 posizioni chiuse\n✅ Win rate (chiuse in positivo): 10%\n📈 Peak medio: 1.77x | Close medio: 0.75x\n🎯 Take Profit ottimale: +200% (expected value: 19.1%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 2.57x vs 1.68x",
-  "lastUpdated": "2026-04-29T11:03:33.936Z"
+  "recommendation": "📊 Analisi su 419 posizioni chiuse\n✅ Win rate (chiuse in positivo): 10%\n📈 Peak medio: 1.77x | Close medio: 0.75x\n🎯 Take Profit ottimale: +200% (expected value: 19.1%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 2.54x vs 1.68x",
+  "lastUpdated": "2026-04-29T11:50:35.651Z"
 }
