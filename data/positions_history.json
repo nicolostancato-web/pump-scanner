@@ -33428,7 +33428,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8jDpo9j6s8sEDZwuN6zXqVLwNK5t7Z1b4cMiA8XY1dBK",
+      "mint": "HxVUC4gY57iNq1ibgiTQpaqXcq1GV8j7HcANHWNjpump",
+      "name": "King of The United States",
+      "symbol": "KOTUS",
+      "dex": "pumpswap",
+      "entryPrice": 0.0002789,
+      "entryMcap": 278999,
+      "entryTime": 1777443814435,
+      "score": 68,
+      "ageAtEntry": 13,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/8jdpo9j6s8sedzwun6zxqvlwnk5t7z1b4cmia8xy1dbk",
+      "peakPrice": 0.000428,
+      "peakMultiplier": 1.5346002151308713,
+      "peakMcap": 428027,
+      "peakTime": 1777445541231,
+      "lastPrice": 0.00001294,
+      "lowestPrice": 0.00001294,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 1606843
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001294,
+      "closeMultiplier": 0.04639655790605952,
+      "closedAt": "2026-04-29T06:53:21.494Z",
+      "durationMs": 1787059,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001294,
+        "closeMultiplier": 0.04639655790605952,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T06:53:21.494Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00001294,
+        "closeMultiplier": 0.04639655790605952,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-29T06:53:21.494Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -31,
+        "momentum": -0.24538461538461537,
+        "floatRotation": 0.17970795594249442,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.17970795594249442,
+        "accel": -0.24538461538461537,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($50138,price-3.2%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($279k)",
+        "priceChg5m": -3.19,
+        "vol5m": 50138.34,
+        "buys5m": 477,
+        "sells5m": 308,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-29T06:24:21.314Z"
+  "lastSaved": "2026-04-29T06:53:23.371Z"
 }
