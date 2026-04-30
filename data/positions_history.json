@@ -42740,7 +42740,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "9adRUVs8k9ZRkYjWzuciakEgemXLuBrpv1W4TYaK7Mb3",
+      "mint": "93Ur4AHhJsPBgTF7Xed5iutJVsSQprmuGwUp17jTpump",
+      "name": "Little Asian Fish Head Wife",
+      "symbol": "FishHead",
+      "dex": "pumpswap",
+      "entryPrice": 0.00006352,
+      "entryMcap": 63523,
+      "entryTime": 1777578974165,
+      "score": 82,
+      "ageAtEntry": 13,
+      "whaleDetected": true,
+      "whaleWallet": "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h",
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/9adruvs8k9zrkyjwzuciakegemxlubrpv1w4tyak7mb3",
+      "peakPrice": 0.00007381,
+      "peakMultiplier": 1.1619962216624684,
+      "peakMcap": 73818,
+      "peakTime": 1777579101639,
+      "lastPrice": 0.00004223,
+      "lowestPrice": 0.00004223,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00004223,
+      "closeMultiplier": 0.6648299748110831,
+      "closedAt": "2026-04-30T20:01:21.742Z",
+      "durationMs": 307577,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00004223,
+        "closeMultiplier": 0.6648299748110831,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-30T20:01:21.742Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00004223,
+        "closeMultiplier": 0.6648299748110831,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-30T20:01:21.742Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 0.6330769230769231,
+        "floatRotation": 0.2372715394424067,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.2372715394424067,
+        "accel": 0.6330769230769231,
+        "wouldPassV5": false,
+        "failReason": "SC1-rot(0.237)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 8.23,
+        "vol5m": 15072.2,
+        "buys5m": 247,
+        "sells5m": 156,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T19:54:22.926Z"
+  "lastSaved": "2026-04-30T20:01:25.896Z"
 }
