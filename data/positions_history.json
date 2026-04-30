@@ -41882,7 +41882,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "AxyzoETEFqPF9qD2ja2FFUq51awgVMz889ZpQuPS97TT",
+      "mint": "ARWj7RAqFnf2Vw8JDfreG6obatjXdUzk2jwBn3ripump",
+      "name": "Unstable Belka Coin",
+      "symbol": "USBC",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001659,
+      "entryMcap": 165950,
+      "entryTime": 1777566851363,
+      "score": 75,
+      "ageAtEntry": 22,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/axyzoetefqpf9qd2ja2ffuq51awgvmz889zpqups97tt",
+      "peakPrice": 0.0002291,
+      "peakMultiplier": 1.3809523809523812,
+      "peakMcap": 229112,
+      "peakTime": 1777567756733,
+      "lastPrice": 0.0001095,
+      "lowestPrice": 0.0001095,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001095,
+      "closeMultiplier": 0.6600361663652804,
+      "closedAt": "2026-04-30T16:54:16.835Z",
+      "durationMs": 1205472,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001095,
+        "closeMultiplier": 0.6600361663652804,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-30T16:54:16.835Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 0,
+        "momentum": 2.5959090909090907,
+        "floatRotation": 0.4255716782163302,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.4255716782163302,
+        "accel": 2.5959090909090907,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(22min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($166k)",
+        "priceChg5m": 57.11,
+        "vol5m": 70623.62,
+        "buys5m": 394,
+        "sells5m": 314,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T16:51:17.986Z"
+  "lastSaved": "2026-04-30T16:54:18.045Z"
 }
