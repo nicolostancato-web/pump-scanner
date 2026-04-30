@@ -42824,7 +42824,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "HkyTMyLeKZL9uytUxnfmVuFUeV77KGwaSrfaAR5WSd7o",
+      "mint": "9NCLjsNJjVcWKwata2ST2EjiF6NRGj6ZhMFyb9xgpump",
+      "name": "Tor Freedom Fund",
+      "symbol": "TOR",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001168,
+      "entryMcap": 116842,
+      "entryTime": 1777579694791,
+      "score": 73,
+      "ageAtEntry": 19,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/hkytmylekzl9uytuxnfmvufuev77kgwasrfaar5wsd7o",
+      "peakPrice": 0.0001301,
+      "peakMultiplier": 1.1138698630136985,
+      "peakMcap": 130167,
+      "peakTime": 1777579821967,
+      "lastPrice": 0.00007423,
+      "lowestPrice": 0.00007423,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00007423,
+      "closeMultiplier": 0.6355308219178082,
+      "closedAt": "2026-04-30T20:20:22.480Z",
+      "durationMs": 727689,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00007423,
+        "closeMultiplier": 0.6355308219178082,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-30T20:20:22.480Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 4.362105263157894,
+        "floatRotation": 0.46878245836257515,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.46878245836257515,
+        "accel": 4.362105263157894,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 82.88,
+        "vol5m": 54773.48,
+        "buys5m": 489,
+        "sells5m": 447,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T20:01:25.896Z"
+  "lastSaved": "2026-04-30T20:20:23.677Z"
 }
