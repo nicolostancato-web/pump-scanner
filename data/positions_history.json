@@ -41630,7 +41630,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "5TFTouBirLfcWtARm2nAsypkd9gc9GHMsFFmL5yXuo9i",
+      "mint": "7eJBqQUTJ9ZN9jdZFHD9v2ZcjRVKWKSSpJHCMc6Jpump",
+      "name": "The Chosen One",
+      "symbol": "Cayaha",
+      "dex": "pumpswap",
+      "entryPrice": 0.00004101,
+      "entryMcap": 41016,
+      "entryTime": 1777565650886,
+      "score": 76,
+      "ageAtEntry": 25,
+      "whaleDetected": true,
+      "whaleWallet": "Eko1pMVyhaFvwsRMHMafW5pe3taPgPY2bVu5xC7fKyRB",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/5tftoubirlfcwtarm2nasypkd9gc9ghmsffml5yxuo9i",
+      "peakPrice": 0.00004183,
+      "peakMultiplier": 1.0199951231406972,
+      "peakMcap": 41835,
+      "peakTime": 1777565715888,
+      "lastPrice": 0.00002785,
+      "lowestPrice": 0.00002785,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00002785,
+      "closeMultiplier": 0.6791026578883199,
+      "closedAt": "2026-04-30T16:16:15.948Z",
+      "durationMs": 125062,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00002785,
+        "closeMultiplier": 0.6791026578883199,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-30T16:16:15.948Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 15,
+        "momentum": 1.652,
+        "floatRotation": 0.475888189974644,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.475888189974644,
+        "accel": 1.652,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(25min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg41.3%,vol$19519,b174s215)",
+        "priceChg5m": 41.3,
+        "vol5m": 19519.03,
+        "buys5m": 174,
+        "sells5m": 215,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T16:05:16.776Z"
+  "lastSaved": "2026-04-30T16:16:17.188Z"
 }
