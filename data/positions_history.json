@@ -39994,7 +39994,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "46DaXQhFfrCVVAt6Fe6S3Hi8oWH1VQsVWNPVFVjJLhdV",
+      "mint": "6RhH7zVMckGazH6DMBQrKfpKc2C3M7Rk8D6HzEgqpump",
+      "name": "Mental Health Awareness",
+      "symbol": "HEALTH",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005798,
+      "entryMcap": 57984,
+      "entryTime": 1777540562325,
+      "score": 73,
+      "ageAtEntry": 5,
+      "whaleDetected": true,
+      "whaleWallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/46daxqhffrcvvat6fe6s3hi8owh1vqsvwnpvfvjjlhdv",
+      "peakPrice": 0.00007675,
+      "peakMultiplier": 1.323732321490169,
+      "peakMcap": 76756,
+      "peakTime": 1777540865107,
+      "lastPrice": 0.00002832,
+      "lowestPrice": 0.00002832,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00002832,
+      "closeMultiplier": 0.48844429113487414,
+      "closedAt": "2026-04-30T09:23:05.141Z",
+      "durationMs": 422816,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00002832,
+        "closeMultiplier": 0.48844429113487414,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-30T09:23:05.141Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00002832,
+        "closeMultiplier": 0.48844429113487414,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-30T09:23:05.141Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 12.53,
+        "floatRotation": 0.5907645212472407,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.5907645212472407,
+        "accel": 12.53,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(5min)",
+        "priceChg5m": 62.65,
+        "vol5m": 34254.89,
+        "buys5m": 531,
+        "sells5m": 460,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T09:09:05.982Z"
+  "lastSaved": "2026-04-30T09:23:06.376Z"
 }
