@@ -39060,7 +39060,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "2TJaXj2XvmHpw1PusK7ujsuwCbX4DyH3oLZteXNe6K4z",
+      "mint": "EVMsaiPE3gxP2osTJuwtLvCQZrEYeDEuKk2XrdJxpump",
+      "name": "Fuck United Globalists",
+      "symbol": "FUG",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007091,
+      "entryMcap": 70920,
+      "entryTime": 1777517393770,
+      "score": 66,
+      "ageAtEntry": 28,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/2tjaxj2xvmhpw1pusk7ujsuwcbx4dyh3olztexne6k4z",
+      "peakPrice": 0.00009677,
+      "peakMultiplier": 1.3646876322098436,
+      "peakMcap": 96779,
+      "peakTime": 1777518475803,
+      "lastPrice": 0.000001886,
+      "lowestPrice": 0.000001886,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000001886,
+      "closeMultiplier": 0.02659709490903963,
+      "closedAt": "2026-04-30T03:23:56.315Z",
+      "durationMs": 2042545,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000001886,
+        "closeMultiplier": 0.02659709490903963,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-30T03:23:56.315Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -46,
+        "momentum": -0.1357142857142857,
+        "floatRotation": 0.28826790750141,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.28826790750141,
+        "accel": -0.1357142857142857,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(28min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(28min)",
+        "priceChg5m": -3.8,
+        "vol5m": 20443.96,
+        "buys5m": 1087,
+        "sells5m": 213,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T02:45:56.192Z"
+  "lastSaved": "2026-04-30T03:23:57.493Z"
 }
