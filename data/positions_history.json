@@ -41034,7 +41034,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "2ud9CDC5STQuV8yVbFctNHKvCPgZUQjcZ3REUw2gXg4G",
+      "mint": "AiGnXgvqoVsHdGYMiFEnreF9ZUeR96x2gTWptVLNrtwx",
+      "name": "The Cull Saviour",
+      "symbol": "Saviour",
+      "dex": "pumpswap",
+      "entryPrice": 0.00002075,
+      "entryMcap": 20753,
+      "entryTime": 1777557728313,
+      "score": 76,
+      "ageAtEntry": 27,
+      "whaleDetected": true,
+      "whaleWallet": "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB",
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/2ud9cdc5stquv8yvbfctnhkvcpgzuqjcz3reuw2gxg4g",
+      "peakPrice": 0.00003156,
+      "peakMultiplier": 1.5209638554216869,
+      "peakMcap": 31569,
+      "peakTime": 1777558274287,
+      "lastPrice": 0.00001338,
+      "lowestPrice": 0.00001338,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 545974
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001338,
+      "closeMultiplier": 0.6448192771084338,
+      "closedAt": "2026-04-30T14:19:12.910Z",
+      "durationMs": 1024597,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001338,
+        "closeMultiplier": 0.6448192771084338,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-30T14:19:12.910Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 0,
+        "momentum": 2.989259259259259,
+        "floatRotation": 0.43888883534910617,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.43888883534910617,
+        "accel": 2.989259259259259,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(27min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(27min)",
+        "priceChg5m": 80.71,
+        "vol5m": 9108.26,
+        "buys5m": 124,
+        "sells5m": 86,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T14:11:14.038Z"
+  "lastSaved": "2026-04-30T14:19:14.120Z"
 }
