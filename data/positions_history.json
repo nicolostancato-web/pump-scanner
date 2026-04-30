@@ -38892,7 +38892,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "CpPscSBcEs5eDjuZ7Zu83shrNnRpGrTUKWCxWzoC627K",
+      "mint": "2v5xkvFyuiUHaiPYMEH7TqZ5kLRHkugGe9rg7csXpump",
+      "name": "ASPCA Fund",
+      "symbol": "ASPCA",
+      "dex": "pumpswap",
+      "entryPrice": 0.00004649,
+      "entryMcap": 46496,
+      "entryTime": 1777516553493,
+      "score": 71,
+      "ageAtEntry": 15,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/cppscsbces5edjuz7zu83shrnnrpgrtukwcxwzoc627k",
+      "peakPrice": 0.000055,
+      "peakMultiplier": 1.183050118305012,
+      "peakMcap": 55000,
+      "peakTime": 1777516735088,
+      "lastPrice": 0.00002661,
+      "lowestPrice": 0.00002661,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00002661,
+      "closeMultiplier": 0.5723811572381158,
+      "closedAt": "2026-04-30T02:44:55.452Z",
+      "durationMs": 541959,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00002661,
+        "closeMultiplier": 0.5723811572381158,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-30T02:44:55.452Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00002661,
+        "closeMultiplier": 0.5723811572381158,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-30T02:44:55.452Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 18,
+        "momentum": 5.766666666666667,
+        "floatRotation": 1.1324944081211288,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 1.1324944081211288,
+        "accel": 5.766666666666667,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 86.5,
+        "vol5m": 52656.46,
+        "buys5m": 752,
+        "sells5m": 379,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T02:20:56.010Z"
+  "lastSaved": "2026-04-30T02:44:56.574Z"
 }
