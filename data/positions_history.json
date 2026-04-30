@@ -43166,7 +43166,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "3BB3gwMDpbKM7x4Av2AE4AsVg4weh8JRKmqrTyMFXioY",
+      "mint": "CSJjjPa9CNrCi2bRakHTdD1pZaM7pn32Lh4P7r1Rpump",
+      "name": "Space Cheese",
+      "symbol": "CHEESE",
+      "dex": "pumpswap",
+      "entryPrice": 0.00001722,
+      "entryMcap": 17228,
+      "entryTime": 1777588097407,
+      "score": 66,
+      "ageAtEntry": 12,
+      "whaleDetected": true,
+      "whaleWallet": "6HY2qLJHBKg1bK4XbueqoFBpu8B7t8QNpaXaTsUZazTB",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/3bb3gwmdpbkm7x4av2ae4asvg4weh8jrkmqrtymfxioy",
+      "peakPrice": 0.00001722,
+      "peakMultiplier": 1,
+      "peakMcap": 17228,
+      "peakTime": 1777588097407,
+      "lastPrice": 0.000009425,
+      "lowestPrice": 0.000009425,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000009425,
+      "closeMultiplier": 0.54732868757259,
+      "closedAt": "2026-04-30T22:30:26.081Z",
+      "durationMs": 128674,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000009425,
+        "closeMultiplier": 0.54732868757259,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-30T22:30:26.081Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.000009425,
+        "closeMultiplier": 0.54732868757259,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-30T22:30:26.081Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": -3.76,
+        "floatRotation": 1.2900789412584166,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 1.2900789412584166,
+        "accel": -3.76,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($22225,price-45.1%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($17k)",
+        "priceChg5m": -45.12,
+        "vol5m": 22225.48,
+        "buys5m": 525,
+        "sells5m": 371,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T22:06:26.531Z"
+  "lastSaved": "2026-04-30T22:30:27.266Z"
 }
