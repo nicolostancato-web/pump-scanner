@@ -39396,7 +39396,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "6cFtSkxWszAprCSnuKyYEoN8arEFLmWdoBin6fMUzvsn",
+      "mint": "H9ZcZ43eiiE9ZBd938N97o91gMcFUchT4Gp1rXw7pump",
+      "name": "F*CK CANCER",
+      "symbol": "FC",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001027,
+      "entryMcap": 102732,
+      "entryTime": 1777523635945,
+      "score": 66,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/6cftskxwszaprcsnukyyeon8areflmwdobin6fmuzvsn",
+      "peakPrice": 0.0001027,
+      "peakMultiplier": 1,
+      "peakMcap": 102732,
+      "peakTime": 1777523635945,
+      "lastPrice": 0.00005687,
+      "lowestPrice": 0.00005687,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005687,
+      "closeMultiplier": 0.5537487828627069,
+      "closedAt": "2026-04-30T04:36:57.953Z",
+      "durationMs": 182008,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005687,
+        "closeMultiplier": 0.5537487828627069,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-30T04:36:57.953Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00005687,
+        "closeMultiplier": 0.5537487828627069,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-30T04:36:57.953Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 13.181818181818182,
+        "floatRotation": 0.5072455515321419,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.5072455515321419,
+        "accel": 13.181818181818182,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg145.0%,vol$52110,b552s595)",
+        "priceChg5m": 145,
+        "vol5m": 52110.35,
+        "buys5m": 552,
+        "sells5m": 595,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T04:00:58.480Z"
+  "lastSaved": "2026-04-30T04:36:59.110Z"
 }
