@@ -41798,7 +41798,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "CjeV9XsvJ5yQuh5311LpbcM91xXhW7JjfZYRJBvWKjwx",
+      "mint": "ehhkEwRUFFzDLrYLzRJoEvz4mCRiEbgsuzuLecApump",
+      "name": "MuskFoundationElonRocketShip",
+      "symbol": "MFERS",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000662,
+      "entryMcap": 66205,
+      "entryTime": 1777567451433,
+      "score": 83,
+      "ageAtEntry": 17,
+      "whaleDetected": true,
+      "whaleWallet": "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h",
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/cjev9xsvj5yquh5311lpbcm91xxhw7jjfzyrjbvwkjwx",
+      "peakPrice": 0.00007649,
+      "peakMultiplier": 1.1554380664652568,
+      "peakMcap": 76492,
+      "peakTime": 1777567576853,
+      "lastPrice": 0.00003335,
+      "lowestPrice": 0.00003335,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003335,
+      "closeMultiplier": 0.5037764350453172,
+      "closedAt": "2026-04-30T16:51:16.793Z",
+      "durationMs": 425360,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003335,
+        "closeMultiplier": 0.5037764350453172,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-04-30T16:51:16.793Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 0,
+        "momentum": 2.3158823529411765,
+        "floatRotation": 0.4615512423532966,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.4615512423532966,
+        "accel": 2.3158823529411765,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg39.4%,vol$30557,b418s439)",
+        "priceChg5m": 39.37,
+        "vol5m": 30557,
+        "buys5m": 418,
+        "sells5m": 439,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T16:27:17.285Z"
+  "lastSaved": "2026-04-30T16:51:17.986Z"
 }
