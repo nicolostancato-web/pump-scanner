@@ -39144,7 +39144,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "F4GwtyrwPZ8Ys7p9tzBWxQH29KUg7Hm6hUVA69jSKYB4",
+      "mint": "4ne9SgdsLE2P2FJEjxDxUnpwS3fLGCPpHFzYeuDCpump",
+      "name": "Russian Oil Asset Fund",
+      "symbol": "ROAF",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001497,
+      "entryMcap": 149722,
+      "entryTime": 1777513792481,
+      "score": 60,
+      "ageAtEntry": 21,
+      "whaleDetected": true,
+      "whaleWallet": "BS7kabqFK8Qb2AqrzLC1M1VLhrh79QyoyQkJMossVDY9",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/f4gwtyrwpz8ys7p9tzbwxqh29kug7hm6huva69jskyb4",
+      "peakPrice": 0.000159,
+      "peakMultiplier": 1.062124248496994,
+      "peakMcap": 159080,
+      "peakTime": 1777514274232,
+      "lastPrice": 0.0001337,
+      "lowestPrice": 0.0001314,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0001337,
+      "closeMultiplier": 0.8931195724782899,
+      "closedAt": "2026-04-30T03:49:56.946Z",
+      "durationMs": 7204465,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001337,
+        "closeMultiplier": 0.8931195724782899,
+        "closeReason": "timeout",
+        "closedAt": "2026-04-30T03:49:56.946Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -45,
+        "momentum": 0.02523809523809524,
+        "floatRotation": 0.004589439093787152,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.004589439093787152,
+        "accel": 0.02523809523809524,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(21min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg0.5%,vol$687,b28s20)",
+        "priceChg5m": 0.53,
+        "vol5m": 687.14,
+        "buys5m": 28,
+        "sells5m": 20,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T03:23:57.493Z"
+  "lastSaved": "2026-04-30T03:49:58.144Z"
 }
