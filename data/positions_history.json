@@ -38808,7 +38808,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "8urBGUAV243qRerWLbPx6sXoVyg6FMbk7jgRZe3WUCDx",
+      "mint": "7sQbGxFXEt8Kayt2HBrTCxxYsoFxbJMoRMVKA44wpump",
+      "name": "Wounded Warrior Project",
+      "symbol": "WWP",
+      "dex": "pumpswap",
+      "entryPrice": 0.00006371,
+      "entryMcap": 63715,
+      "entryTime": 1777515353097,
+      "score": 73,
+      "ageAtEntry": 6,
+      "whaleDetected": true,
+      "whaleWallet": "2fUr8UnHK3EYJJbn2mShJrVKMa2axqi3ytPh5EJoJz2H",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/8urbguav243qrerwlbpx6sxovyg6fmbk7jgrze3wucdx",
+      "peakPrice": 0.00006727,
+      "peakMultiplier": 1.0558781980850729,
+      "peakMcap": 67272,
+      "peakTime": 1777515354927,
+      "lastPrice": 0.00004214,
+      "lowestPrice": 0.00004214,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00004214,
+      "closeMultiplier": 0.6614346256474651,
+      "closedAt": "2026-04-30T02:20:54.824Z",
+      "durationMs": 301727,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00004214,
+        "closeMultiplier": 0.6614346256474651,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-30T02:20:54.824Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00004214,
+        "closeMultiplier": 0.6614346256474651,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-04-30T02:20:54.824Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 11.085,
+        "floatRotation": 0.6726893196264616,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.6726893196264616,
+        "accel": 11.085,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(6min)",
+        "priceChg5m": 66.51,
+        "vol5m": 42860.4,
+        "buys5m": 725,
+        "sells5m": 517,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-04-30T01:47:55.202Z"
+  "lastSaved": "2026-04-30T02:20:56.010Z"
 }
