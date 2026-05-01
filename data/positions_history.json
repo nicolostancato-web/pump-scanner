@@ -46354,7 +46354,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "9APnsCteZR644PHnZaQWwtje8cFQh5LFS6qkqHutaFNK",
+      "mint": "HGvGqNCEQUaWAJSgrJaEZzaKnxaeu7YfnFdJoUKFpump",
+      "name": "Exploding Swimming Dolphin",
+      "symbol": "ESD",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005769,
+      "entryMcap": 57700,
+      "entryTime": 1777643432165,
+      "score": 88,
+      "ageAtEntry": 25,
+      "whaleDetected": true,
+      "whaleWallet": "CoPyPPWdm8SirumaAEe8S68nSJpHYhguN2L5i2YGxLB",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/9apnsctezr644phnzaqwwtje8cfqh5lfs6qkqhutafnk",
+      "peakPrice": 0.00006991,
+      "peakMultiplier": 1.2118218062055817,
+      "peakMcap": 69910,
+      "peakTime": 1777643989511,
+      "lastPrice": 0.00003038,
+      "lowestPrice": 0.00003038,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003038,
+      "closeMultiplier": 0.5266077309759057,
+      "closedAt": "2026-05-01T14:06:49.760Z",
+      "durationMs": 977595,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003038,
+        "closeMultiplier": 0.5266077309759057,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T14:06:49.760Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -17,
+        "momentum": -0.122,
+        "floatRotation": 0.8116764298093588,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.8116764298093588,
+        "accel": -0.122,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(25min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg-3.0%,vol$46834,b547s337)",
+        "priceChg5m": -3.05,
+        "vol5m": 46833.73,
+        "buys5m": 547,
+        "sells5m": 337,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T13:52:50.365Z"
+  "lastSaved": "2026-05-01T14:06:50.932Z"
 }
