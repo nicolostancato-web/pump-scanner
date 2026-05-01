@@ -44464,7 +44464,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "69jiwmRZWa3Msg5TSPM3goD9vTSv7rrV3oE8oXjbbrQe",
+      "mint": "CBLpK9s2RzRdpD4M1xrsm8nWQQqCo59kDRVyFtQmpump",
+      "name": "Pokémon",
+      "symbol": "TCG",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005059,
+      "entryMcap": 50584,
+      "entryTime": 1777618826317,
+      "score": 68,
+      "ageAtEntry": 10,
+      "whaleDetected": true,
+      "whaleWallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/69jiwmrzwa3msg5tspm3god9vtsv7rrv3oe8oxjbbrqe",
+      "peakPrice": 0.00005854,
+      "peakMultiplier": 1.1571456809646175,
+      "peakMcap": 58527,
+      "peakTime": 1777619138886,
+      "lastPrice": 0.00003191,
+      "lowestPrice": 0.00003191,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003191,
+      "closeMultiplier": 0.6307570666139553,
+      "closedAt": "2026-05-01T07:30:39.686Z",
+      "durationMs": 1813369,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003191,
+        "closeMultiplier": 0.6307570666139553,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-01T07:30:39.686Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00003191,
+        "closeMultiplier": 0.6307570666139553,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-01T07:30:39.686Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -31,
+        "momentum": -0.186,
+        "floatRotation": 0.14923276134746163,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.14923276134746163,
+        "accel": -0.186,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($7549,price-1.9%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": -1.86,
+        "vol5m": 7548.79,
+        "buys5m": 154,
+        "sells5m": 113,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T06:32:39.385Z"
+  "lastSaved": "2026-05-01T07:30:40.900Z"
 }
