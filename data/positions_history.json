@@ -44200,7 +44200,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "EChqq1jCNAB6cWRf1R9axE3m1dL2pB7GpiamCnrAaJtL",
+      "mint": "hLokvfUnqYUztoVdA4gwZnpvTKsPNefkdn2DyxGpump",
+      "name": "CHADLON MUSK",
+      "symbol": "CHADLON",
+      "dex": "pumpswap",
+      "entryPrice": 0.000172,
+      "entryMcap": 172021,
+      "entryTime": 1777611383973,
+      "score": 80,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/echqq1jcnab6cwrf1r9axe3m1dl2pb7gpiamcnraajtl",
+      "peakPrice": 0.0002133,
+      "peakMultiplier": 1.2401162790697675,
+      "peakMcap": 213320,
+      "peakTime": 1777611515419,
+      "lastPrice": 0.0001177,
+      "lowestPrice": 0.0001177,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001177,
+      "closeMultiplier": 0.6843023255813954,
+      "closedAt": "2026-05-01T05:09:35.714Z",
+      "durationMs": 791741,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001177,
+        "closeMultiplier": 0.6843023255813954,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-01T05:09:35.714Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0001177,
+        "closeMultiplier": 0.6843023255813954,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-01T05:09:35.714Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 8,
+        "momentum": 1.7258333333333333,
+        "floatRotation": 0.9110987611977607,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.9110987611977607,
+        "accel": 1.7258333333333333,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.73)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($172k)",
+        "priceChg5m": 20.71,
+        "vol5m": 156728.12,
+        "buys5m": 1654,
+        "sells5m": 1016,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T03:37:34.838Z"
+  "lastSaved": "2026-05-01T05:09:36.842Z"
 }
