@@ -48976,7 +48976,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "FZXrCHrVwQ9ccvZf44jYHfLrdHCBJGHAYFKtF4vaBZNh",
+      "mint": "Zra3q59Ahfv4uFh8TT7dXtE7EpPKyH7t4j6MXvUpump",
+      "name": "The Microbiome Menace",
+      "symbol": "VAGINA",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001971,
+      "entryMcap": 197105,
+      "entryTime": 1777679217588,
+      "score": 72,
+      "ageAtEntry": 24,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/fzxrchrvwq9ccvzf44jyhflrdhcbjghayfktf4vabznh",
+      "peakPrice": 0.0002324,
+      "peakMultiplier": 1.1790969051243025,
+      "peakMcap": 232428,
+      "peakTime": 1777679346297,
+      "lastPrice": 0.000001767,
+      "lowestPrice": 0.000001767,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000001767,
+      "closeMultiplier": 0.008964992389649925,
+      "closedAt": "2026-05-01T23:54:06.483Z",
+      "durationMs": 428895,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000001767,
+        "closeMultiplier": 0.008964992389649925,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T23:54:06.483Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 0.5916666666666667,
+        "floatRotation": 0.16034484158189796,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.16034484158189796,
+        "accel": 0.5916666666666667,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(24min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($197k)",
+        "priceChg5m": 14.2,
+        "vol5m": 31604.77,
+        "buys5m": 207,
+        "sells5m": 97,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T23:26:06.598Z"
+  "lastSaved": "2026-05-01T23:54:07.593Z"
 }
