@@ -45752,7 +45752,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "9cRTunmTCP91mALRP55S553sD9ypzqyT7J2qamyzVK4p",
+      "mint": "4Zw7bQ9CBWqSnhu1zE2cacgFDX8Hbzs5MKiHA12ipump",
+      "name": "Goblin Wojak",
+      "symbol": "Gobjak",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008352,
+      "entryMcap": 83524,
+      "entryTime": 1777633949917,
+      "score": 73,
+      "ageAtEntry": 13,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/9crtunmtcp91malrp55s553sd9ypzqyt7j2qamyzvk4p",
+      "peakPrice": 0.0001081,
+      "peakMultiplier": 1.2943007662835249,
+      "peakMcap": 108130,
+      "peakTime": 1777634085201,
+      "lastPrice": 0.000002673,
+      "lowestPrice": 0.000002673,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002673,
+      "closeMultiplier": 0.032004310344827584,
+      "closedAt": "2026-05-01T11:20:45.132Z",
+      "durationMs": 495215,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000002673,
+        "closeMultiplier": 0.032004310344827584,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T11:20:45.132Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.000002673,
+        "closeMultiplier": 0.032004310344827584,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T11:20:45.132Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 33,
+        "momentum": 4.6692307692307695,
+        "floatRotation": 1.3101010488003448,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 1.3101010488003448,
+        "accel": 4.6692307692307695,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 60.7,
+        "vol5m": 109424.88,
+        "buys5m": 607,
+        "sells5m": 550,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T11:15:46.475Z"
+  "lastSaved": "2026-05-01T11:20:46.352Z"
 }
