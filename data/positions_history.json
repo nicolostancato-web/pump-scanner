@@ -45920,7 +45920,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "BCB1mqdNxeWaFqqyjJco5tErupHozrQu9mb1WbJq7XXq",
+      "mint": "FFa7CVerXDtVkY4W69Zjw1Po6mvhmuR8Br74Su3gpump",
+      "name": "Leo Ara Sal Eve Rex",
+      "symbol": "LASER",
+      "dex": "pumpswap",
+      "entryPrice": 0.00004876,
+      "entryMcap": 48770,
+      "entryTime": 1777635871329,
+      "score": 88,
+      "ageAtEntry": 15,
+      "whaleDetected": true,
+      "whaleWallet": "6HY2qLJHBKg1bK4XbueqoFBpu8B7t8QNpaXaTsUZazTB",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/bcb1mqdnxewafqqyjjco5teruphozrqu9mb1wbjq7xxq",
+      "peakPrice": 0.00006801,
+      "peakMultiplier": 1.3947908121410992,
+      "peakMcap": 68014,
+      "peakTime": 1777636485978,
+      "lastPrice": 0.00003335,
+      "lowestPrice": 0.00003335,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003335,
+      "closeMultiplier": 0.6839622641509433,
+      "closedAt": "2026-05-01T12:30:46.903Z",
+      "durationMs": 2775574,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003335,
+        "closeMultiplier": 0.6839622641509433,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T12:30:46.903Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00003335,
+        "closeMultiplier": 0.6839622641509433,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T12:30:46.903Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 13,
+        "momentum": 1.1413333333333333,
+        "floatRotation": 0.8066296903834325,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.8066296903834325,
+        "accel": 1.1413333333333333,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.14)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 17.12,
+        "vol5m": 39339.33,
+        "buys5m": 743,
+        "sells5m": 411,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T12:29:48.412Z"
+  "lastSaved": "2026-05-01T12:30:47.883Z"
 }
