@@ -48798,7 +48798,101 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Uh7oi24bhhJanpYX28kS88cGYD3RzxLhzAFNWEQJ2fs",
+      "mint": "EmqU261MZwfnawVy8WmE7kqjBhK4jWWJbXBa2ZWcr4L9",
+      "name": "Trump Heart",
+      "symbol": "TRMPH",
+      "dex": "pumpswap",
+      "entryPrice": 0.000155,
+      "entryMcap": 155021,
+      "entryTime": 1777676919149,
+      "score": 70,
+      "ageAtEntry": 21,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/uh7oi24bhhjanpyx28ks88cgyd3rzxlhzafnweqj2fs",
+      "peakPrice": 0.0004833,
+      "peakMultiplier": 3.1180645161290323,
+      "peakMcap": 483394,
+      "peakTime": 1777677485463,
+      "lastPrice": 0.00004583,
+      "lowestPrice": 0.00004583,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2
+      ],
+      "timesToMilestone": {
+        "1": 265912,
+        "2": 566314,
+        "0.5": 265912,
+        "1.5": 505825
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00004583,
+      "closeMultiplier": 0.2956774193548387,
+      "closedAt": "2026-05-01T23:25:05.619Z",
+      "durationMs": 986470,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001266,
+        "closeMultiplier": 0.816774193548387,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T23:24:05.812Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 19,
+        "momentum": 11.285714285714286,
+        "floatRotation": 0.19940008127931055,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": true,
+        "floatRot": 0.19940008127931055,
+        "accel": 11.285714285714286,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(21min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($155k)",
+        "priceChg5m": 237,
+        "vol5m": 30911.2,
+        "buys5m": 360,
+        "sells5m": 185,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T23:20:06.449Z"
+  "lastSaved": "2026-05-01T23:25:06.229Z"
 }
