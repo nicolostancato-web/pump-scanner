@@ -46004,7 +46004,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "7HrnT7kM5FCPbs99y6HVNuxEQoPzAGPCNLb9XUuip8WF",
+      "mint": "7d2WDFDJ5bMZix8FLioAxqvSEdByYurYhKTaipJTvTrf",
+      "name": "The Rogue Squirrel",
+      "symbol": "RNUT",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008706,
+      "entryMcap": 87060,
+      "entryTime": 1777638751165,
+      "score": 68,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/7hrnt7km5fcpbs99y6hvnuxeqopzagpcnlb9xuuip8wf",
+      "peakPrice": 0.00008879,
+      "peakMultiplier": 1.0198713530898231,
+      "peakMcap": 88790,
+      "peakTime": 1777638826988,
+      "lastPrice": 0.00005922,
+      "lowestPrice": 0.00005922,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005922,
+      "closeMultiplier": 0.6802205375603032,
+      "closedAt": "2026-05-01T12:37:47.182Z",
+      "durationMs": 316017,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005922,
+        "closeMultiplier": 0.6802205375603032,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-01T12:37:47.182Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00005922,
+        "closeMultiplier": 0.6802205375603032,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-01T12:37:47.182Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 33,
+        "momentum": 5.65090909090909,
+        "floatRotation": 0.9798015161957271,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.9798015161957271,
+        "accel": 5.65090909090909,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg62.2%,vol$85302,b1037s1450)",
+        "priceChg5m": 62.16,
+        "vol5m": 85301.52,
+        "buys5m": 1037,
+        "sells5m": 1450,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T12:30:47.883Z"
+  "lastSaved": "2026-05-01T12:37:48.350Z"
 }
