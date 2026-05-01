@@ -46880,7 +46880,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4KMKLHuiQLb4AtYEXGXMWXw7hwgtYnDjiGCFU6iWch5h",
+      "mint": "6dd5v2ogp1FQuJ1ELHf5skoUnvZEPaMscboFGSq1pump",
+      "name": "Trollunc Wojak",
+      "symbol": "TROLUNCJAK",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001809,
+      "entryMcap": 180922,
+      "entryTime": 1777653274640,
+      "score": 73,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/4kmklhuiqlb4atyexgxmwxw7hwgtyndjigcfu6iwch5h",
+      "peakPrice": 0.0002069,
+      "peakMultiplier": 1.1437258153676062,
+      "peakMcap": 206966,
+      "peakTime": 1777653473987,
+      "lastPrice": 0.0001204,
+      "lowestPrice": 0.0001204,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001204,
+      "closeMultiplier": 0.6655610834715312,
+      "closedAt": "2026-05-01T16:40:54.117Z",
+      "durationMs": 379477,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001204,
+        "closeMultiplier": 0.6655610834715312,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-01T16:40:54.117Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0001204,
+        "closeMultiplier": 0.6655610834715312,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-01T16:40:54.117Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 8.23,
+        "floatRotation": 0.45335332353168767,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.45335332353168767,
+        "accel": 8.23,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($181k)",
+        "priceChg5m": 90.53,
+        "vol5m": 82021.59,
+        "buys5m": 490,
+        "sells5m": 406,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T15:24:52.886Z"
+  "lastSaved": "2026-05-01T16:40:55.284Z"
 }
