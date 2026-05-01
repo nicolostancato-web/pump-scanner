@@ -48280,7 +48280,189 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Fvko4DVKtQm7Vh9dFdRaCeKwPsE2Gp6ywKh1HFzDtNQf",
+      "mint": "DosHbRM2QC3Wqc8QVbqB7eudGrA12jMmsngNQwYtpump",
+      "name": "Scribble Boob",
+      "symbol": "SCRIBOOB",
+      "dex": "pumpswap",
+      "entryPrice": 0.00009601,
+      "entryMcap": 96008,
+      "entryTime": 1777662996619,
+      "score": 76,
+      "ageAtEntry": 23,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/fvko4dvktqm7vh9dfdracekwpse2gp6ywkh1hfzdtnqf",
+      "peakPrice": 0.0001913,
+      "peakMultiplier": 1.9925007811686282,
+      "peakMcap": 191329,
+      "peakTime": 1777666080039,
+      "lastPrice": 0.000002219,
+      "lowestPrice": 0.000002219,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 1943222
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002219,
+      "closeMultiplier": 0.02311217581501927,
+      "closedAt": "2026-05-01T20:25:01.437Z",
+      "durationMs": 4104818,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000002219,
+        "closeMultiplier": 0.02311217581501927,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T20:25:01.437Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 15,
+        "momentum": 1.8008695652173914,
+        "floatRotation": 0.4817477710190817,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.4817477710190817,
+        "accel": 1.8008695652173914,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(23min)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 41.42,
+        "vol5m": 46251.64,
+        "buys5m": 2077,
+        "sells5m": 311,
+        "tp2x_hit": false,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
+    },
+    {
+      "pairAddress": "B1RiWniF4cSCycDgUkur9YkdNRZZEPYwut3msa6ypFow",
+      "mint": "Htd7MbDBVoQaQsLM4d9kmSeVuX5FDdBCrqxrXNLXpump",
+      "name": "scribbli poop",
+      "symbol": "scribpoop",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008015,
+      "entryMcap": 80157,
+      "entryTime": 1777666357107,
+      "score": 66,
+      "ageAtEntry": 12,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/b1riwnif4cscycdgukur9ykdnrzzepywut3msa6ypfow",
+      "peakPrice": 0.0002564,
+      "peakMultiplier": 3.1990018714909545,
+      "peakMcap": 256421,
+      "peakTime": 1777669681123,
+      "lastPrice": 0.00002718,
+      "lowestPrice": 0.00002718,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2
+      ],
+      "timesToMilestone": {
+        "1": 1703174,
+        "2": 3264212,
+        "0.5": 382838,
+        "1.5": 3204254
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00002718,
+      "closeMultiplier": 0.3391141609482221,
+      "closedAt": "2026-05-01T21:18:01.702Z",
+      "durationMs": 3924595,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00009942,
+        "closeMultiplier": 1.2404242046163443,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T20:58:00.800Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00009942,
+        "closeMultiplier": 1.2404242046163443,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T20:58:00.800Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 18,
+        "momentum": 6.151666666666666,
+        "floatRotation": 0.9680181394014247,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.9680181394014247,
+        "accel": 6.151666666666666,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 73.82,
+        "vol5m": 77593.43,
+        "buys5m": 571,
+        "sells5m": 434,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T20:25:01.194Z"
+  "lastSaved": "2026-05-01T21:18:02.855Z"
 }
