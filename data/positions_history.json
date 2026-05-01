@@ -46438,7 +46438,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4Wm1jiZynqdLe4WPvwCdS3fJ2oCuZgzR9GME5GWLjSPK",
+      "mint": "rh7MHeqogy5V5fWAExMGNacBBLS8VbjcE23vndspump",
+      "name": "Son of Liberty",
+      "symbol": "SoL",
+      "dex": "pumpswap",
+      "entryPrice": 0.000228,
+      "entryMcap": 228014,
+      "entryTime": 1777641511067,
+      "score": 70,
+      "ageAtEntry": 22,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/4wm1jizynqdle4wpvwcds3fj2ocuzgzr9gme5gwljspk",
+      "peakPrice": 0.0004725,
+      "peakMultiplier": 2.0723684210526314,
+      "peakMcap": 472568,
+      "peakTime": 1777642128544,
+      "lastPrice": 0.0001469,
+      "lowestPrice": 0.0001469,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 617477,
+        "0.5": 257554
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001469,
+      "closeMultiplier": 0.644298245614035,
+      "closedAt": "2026-05-01T14:11:49.534Z",
+      "durationMs": 3198467,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0002234,
+        "closeMultiplier": 0.9798245614035087,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T14:06:49.405Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -5,
+        "momentum": 2.2504545454545455,
+        "floatRotation": 0.06171257028077223,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": true,
+        "floatRot": 0.06171257028077223,
+        "accel": 2.2504545454545455,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(22min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($228k)",
+        "priceChg5m": 49.51,
+        "vol5m": 14071.33,
+        "buys5m": 112,
+        "sells5m": 51,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T14:06:50.932Z"
+  "lastSaved": "2026-05-01T14:11:50.714Z"
 }
