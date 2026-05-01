@@ -46702,7 +46702,101 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4cPy5GWutxUMrFGjaQq8gszkHhEUHXkSe8KxBKJxjBge",
+      "mint": "6FHTyBj59vhSi91AxvkvRoZn42AwpukpNDGRRXFnYJUT",
+      "name": "Cosmic Cockroach",
+      "symbol": "CUCA",
+      "dex": "pumpswap",
+      "entryPrice": 0.000126,
+      "entryMcap": 126082,
+      "entryTime": 1777646433102,
+      "score": 70,
+      "ageAtEntry": 20,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/4cpy5gwutxumrfgjaqq8gszkhheuhxkse8kxbkjxjbge",
+      "peakPrice": 0.000476,
+      "peakMultiplier": 3.777777777777778,
+      "peakMcap": 476060,
+      "peakTime": 1777647230911,
+      "lastPrice": 0.00003378,
+      "lowestPrice": 0.00003378,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2
+      ],
+      "timesToMilestone": {
+        "1": 317432,
+        "2": 617496,
+        "0.5": 137551,
+        "1.5": 558012
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003378,
+      "closeMultiplier": 0.2680952380952381,
+      "closedAt": "2026-05-01T15:07:51.118Z",
+      "durationMs": 1638016,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001235,
+        "closeMultiplier": 0.9801587301587301,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T14:46:50.534Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 4,
+        "momentum": 17.85,
+        "floatRotation": 0.29328889135641883,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": true,
+        "floatRot": 0.29328889135641883,
+        "accel": 17.85,
+        "wouldPassV5": false,
+        "failReason": "SC1-rot(0.293)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 357,
+        "vol5m": 36978.45,
+        "buys5m": 272,
+        "sells5m": 127,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T14:13:50.621Z"
+  "lastSaved": "2026-05-01T15:07:52.471Z"
 }
