@@ -43594,7 +43594,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "5VdnueSMcbS88zo7g7HBvkpYkX16CBHeyFnuvhG6k1gL",
+      "mint": "84pMPSCCrM62FR8bHYASFnTMeKULBsnzWrwgVjgopump",
+      "name": "Bull Gutes",
+      "symbol": "GUTES",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001254,
+      "entryMcap": 125489,
+      "entryTime": 1777588697476,
+      "score": 72,
+      "ageAtEntry": 41,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/5vdnuesmcbs88zo7g7hbvkpykx16cbheyfnuvhg6k1gl",
+      "peakPrice": 0.0001742,
+      "peakMultiplier": 1.3891547049441786,
+      "peakMcap": 174283,
+      "peakTime": 1777595068736,
+      "lastPrice": 0.0001686,
+      "lowestPrice": 0.00009562,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0001686,
+      "closeMultiplier": 1.3444976076555022,
+      "closedAt": "2026-05-01T00:38:29.238Z",
+      "durationMs": 7211762,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001686,
+        "closeMultiplier": 1.3444976076555022,
+        "closeReason": "timeout",
+        "closedAt": "2026-05-01T00:38:29.238Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -23,
+        "momentum": 0.3917073170731707,
+        "floatRotation": 0.16100136266923795,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.16100136266923795,
+        "accel": 0.3917073170731707,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(41min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(41min)",
+        "priceChg5m": 16.06,
+        "vol5m": 20203.9,
+        "buys5m": 2592,
+        "sells5m": 171,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T00:11:29.816Z"
+  "lastSaved": "2026-05-01T00:38:30.348Z"
 }
