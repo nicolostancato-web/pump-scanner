@@ -1,25 +1,25 @@
 {
-  "totalClosed": 607,
+  "totalClosed": 609,
   "winRate": "10.2%",
-  "avgPeakMultiplier": "1.748",
+  "avgPeakMultiplier": "1.746",
   "avgCloseMultiplier": "0.725",
   "optimalTP": 2,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
       "captured": 253,
-      "rate": "41.7%",
+      "rate": "41.5%",
       "expectedValue": "12.5%"
     },
     "+50%": {
       "captured": 193,
-      "rate": "31.8%",
-      "expectedValue": "15.9%"
+      "rate": "31.7%",
+      "expectedValue": "15.8%"
     },
     "+70%": {
       "captured": 156,
-      "rate": "25.7%",
-      "expectedValue": "18.0%"
+      "rate": "25.6%",
+      "expectedValue": "17.9%"
     },
     "+100%": {
       "captured": 113,
@@ -29,43 +29,43 @@
     "+150%": {
       "captured": 74,
       "rate": "12.2%",
-      "expectedValue": "18.3%"
+      "expectedValue": "18.2%"
     },
     "+200%": {
       "captured": 60,
       "rate": "9.9%",
-      "expectedValue": "19.8%"
+      "expectedValue": "19.7%"
     },
     "+300%": {
       "captured": 36,
       "rate": "5.9%",
-      "expectedValue": "17.8%"
+      "expectedValue": "17.7%"
     }
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 573,
-      "recovered": 573,
+      "positions_hit": 575,
+      "recovered": 575,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 561,
-      "recovered": 561,
+      "positions_hit": 563,
+      "recovered": 563,
       "recovery_rate": "100.0%"
     },
     "-20%": {
-      "positions_hit": 553,
-      "recovered": 553,
+      "positions_hit": 555,
+      "recovered": 555,
       "recovery_rate": "100.0%"
     },
     "-25%": {
-      "positions_hit": 546,
-      "recovered": 546,
+      "positions_hit": 548,
+      "recovered": 548,
       "recovery_rate": "100.0%"
     },
     "-30%": {
-      "positions_hit": 539,
-      "recovered": 539,
+      "positions_hit": 541,
+      "recovered": 541,
       "recovery_rate": "100.0%"
     },
     "-40%": {
@@ -77,44 +77,44 @@
   "milestoneRates": {
     "+50%": {
       "reached": 193,
-      "total": 607,
-      "rate": "31.8%"
+      "total": 609,
+      "rate": "31.7%"
     },
     "+100%": {
       "reached": 113,
-      "total": 607,
+      "total": 609,
       "rate": "18.6%"
     },
     "+150%": {
       "reached": 74,
-      "total": 607,
+      "total": 609,
       "rate": "12.2%"
     },
     "+200%": {
       "reached": 60,
-      "total": 607,
+      "total": 609,
       "rate": "9.9%"
     },
     "+300%": {
       "reached": 36,
-      "total": 607,
+      "total": 609,
       "rate": "5.9%"
     },
     "+500%": {
       "reached": 18,
-      "total": 607,
+      "total": 609,
       "rate": "3.0%"
     }
   },
   "byScore": {
     "65-70": {
-      "count": 289,
+      "count": 290,
       "avgPeak": "1.65x",
       "wins2x": 47,
       "win2xRate": "16%"
     },
     "70-75": {
-      "count": 149,
+      "count": 150,
       "avgPeak": "1.61x",
       "wins2x": 30,
       "win2xRate": "20%"
@@ -145,18 +145,18 @@
       "wins2x": 17
     },
     "noWhale": {
-      "count": 506,
+      "count": 508,
       "avgPeak": "1.71x",
       "wins2x": 96
     }
   },
   "byAge": {
     "0-15min": {
-      "count": 217,
+      "count": 218,
       "avgPeak": "1.95x"
     },
     "15-30min": {
-      "count": 240,
+      "count": 241,
       "avgPeak": "1.83x"
     },
     "30-60min": {
@@ -168,6 +168,6 @@
       "avgPeak": "1.16x"
     }
   },
-  "recommendation": "📊 Analisi su 607 posizioni chiuse\n✅ Win rate (chiuse in positivo): 10%\n📈 Peak medio: 1.75x | Close medio: 0.73x\n🎯 Take Profit ottimale: +200% (expected value: 19.8%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 1.93x vs 1.71x",
-  "lastUpdated": "2026-05-02T08:06:23.869Z"
+  "recommendation": "📊 Analisi su 609 posizioni chiuse\n✅ Win rate (chiuse in positivo): 10%\n📈 Peak medio: 1.75x | Close medio: 0.72x\n🎯 Take Profit ottimale: +200% (expected value: 19.7%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 1.93x vs 1.71x",
+  "lastUpdated": "2026-05-02T08:24:24.463Z"
 }
