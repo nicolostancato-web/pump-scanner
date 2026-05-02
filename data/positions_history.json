@@ -51210,7 +51210,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "HsTWUzpDTwD5UNEQ7YAeL5XNkvSH3mAM9uBFGYrmeyfb",
+      "mint": "Gr5N2EecbtP4156TWvKaHH4fy2rn8TH2M7cAaTpdpump",
+      "name": "First Oncology Dogtor",
+      "symbol": "ROSE",
+      "dex": "pumpswap",
+      "entryPrice": 0.00003435,
+      "entryMcap": 34358,
+      "entryTime": 1777718203875,
+      "score": 63,
+      "ageAtEntry": 17,
+      "whaleDetected": true,
+      "whaleWallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/hstwuzpdtwd5uneq7yael5xnkvsh3mam9ubfgyrmeyfb",
+      "peakPrice": 0.00007222,
+      "peakMultiplier": 2.1024745269286753,
+      "peakMcap": 72225,
+      "peakTime": 1777719569520,
+      "lastPrice": 0.00002096,
+      "lowestPrice": 0.00002096,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 1365645,
+        "0.5": 1125463
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00002096,
+      "closeMultiplier": 0.6101892285298398,
+      "closedAt": "2026-05-02T11:24:30.532Z",
+      "durationMs": 2866657,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000032,
+        "closeMultiplier": 0.9315866084425035,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-02T11:23:30.462Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -15,
+        "momentum": 1.3641176470588237,
+        "floatRotation": 0.07551807439315443,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.07551807439315443,
+        "accel": 1.3641176470588237,
+        "wouldPassV5": false,
+        "failReason": "SC1-rot(0.076)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg23.2%,vol$2595,b35s50)",
+        "priceChg5m": 23.19,
+        "vol5m": 2594.65,
+        "buys5m": 35,
+        "sells5m": 50,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T10:46:30.093Z"
+  "lastSaved": "2026-05-02T11:24:31.708Z"
 }
