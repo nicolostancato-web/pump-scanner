@@ -49148,7 +49148,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4LdsDQ7HJHCkbu5qkwu6dDiZTfaKJ341RBEfYUEcGdJu",
+      "mint": "BGv4ZrV4PQbDeTNmsBuTjeuBm6Wr3bPRm37xdfD6pump",
+      "name": "Gavin Newscum",
+      "symbol": "NEWSCUM",
+      "dex": "pumpswap",
+      "entryPrice": 0.00002791,
+      "entryMcap": 27916,
+      "entryTime": 1777680639644,
+      "score": 63,
+      "ageAtEntry": 9,
+      "whaleDetected": true,
+      "whaleWallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/4ldsdq7hjhckbu5qkwu6ddiztfakj341rbefyuecgdju",
+      "peakPrice": 0.00003771,
+      "peakMultiplier": 1.3511286277319958,
+      "peakMcap": 37718,
+      "peakTime": 1777680726830,
+      "lastPrice": 0.00001852,
+      "lowestPrice": 0.00001852,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001852,
+      "closeMultiplier": 0.6635614475098531,
+      "closedAt": "2026-05-02T00:16:07.374Z",
+      "durationMs": 327730,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001852,
+        "closeMultiplier": 0.6635614475098531,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-02T00:16:07.374Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00001852,
+        "closeMultiplier": 0.6635614475098531,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-02T00:16:07.374Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 4.907777777777778,
+        "floatRotation": 0.6397442326980942,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.6397442326980942,
+        "accel": 4.907777777777778,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(9min)",
+        "priceChg5m": 44.17,
+        "vol5m": 17859.1,
+        "buys5m": 396,
+        "sells5m": 281,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T00:03:07.592Z"
+  "lastSaved": "2026-05-02T00:16:08.524Z"
 }
