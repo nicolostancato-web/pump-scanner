@@ -53718,7 +53718,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Es6GDdjkQdKP4Ev262RjAGYHUDmxGK1xAKc3n74DaBJe",
+      "mint": "4E7AdzfnCBg2WA4diuEzr9QL9zapsf7XLnvK25Uppump",
+      "name": "Mogcoin",
+      "symbol": "Mogcoin",
+      "dex": "pumpswap",
+      "entryPrice": 0.0000515,
+      "entryMcap": 50986,
+      "entryTime": 1777763213703,
+      "score": 68,
+      "ageAtEntry": 10,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/es6gddjkqdkp4ev262rjagyhudmxgk1xakc3n74dabje",
+      "peakPrice": 0.00008192,
+      "peakMultiplier": 1.5906796116504855,
+      "peakMcap": 81097,
+      "peakTime": 1777764113446,
+      "lastPrice": 0.0000262,
+      "lowestPrice": 0.0000262,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 899743
+      },
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0000262,
+      "closeMultiplier": 0.50873786407767,
+      "closedAt": "2026-05-02T23:46:53.769Z",
+      "durationMs": 2400066,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0000262,
+        "closeMultiplier": 0.50873786407767,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-02T23:46:53.769Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0000262,
+        "closeMultiplier": 0.50873786407767,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-02T23:46:53.769Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 5.6899999999999995,
+        "floatRotation": 0.4525450123563331,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.4525450123563331,
+        "accel": 5.6899999999999995,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": 56.9,
+        "vol5m": 23073.46,
+        "buys5m": 445,
+        "sells5m": 259,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T23:36:54.684Z"
+  "lastSaved": "2026-05-02T23:46:54.959Z"
 }
