@@ -50958,7 +50958,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "63D8zmCGSnRVAkVv87jzuVbqq2CEa4uK7HFE4hyW6Jn4",
+      "mint": "2D7VoRQCHrGr1ZK93XeGAEmbQ6Y5iSa1nzuUSpuppump",
+      "name": "Scribbli Goblin",
+      "symbol": "scriblin",
+      "dex": "pumpswap",
+      "entryPrice": 0.0001011,
+      "entryMcap": 101147,
+      "entryTime": 1777716883977,
+      "score": 70,
+      "ageAtEntry": 34,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/63d8zmcgsnrvakvv87jzuvbqq2cea4uk7hfe4hyw6jn4",
+      "peakPrice": 0.0001247,
+      "peakMultiplier": 1.2334322453016815,
+      "peakMcap": 124757,
+      "peakTime": 1777716987875,
+      "lastPrice": 0.000002083,
+      "lowestPrice": 0.000002083,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002083,
+      "closeMultiplier": 0.020603363006923836,
+      "closedAt": "2026-05-02T10:21:28.298Z",
+      "durationMs": 404321,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000002083,
+        "closeMultiplier": 0.020603363006923836,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-02T10:21:28.298Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -10,
+        "momentum": 0.8532352941176471,
+        "floatRotation": 0.5158781773062968,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.5158781773062968,
+        "accel": 0.8532352941176471,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(34min)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(34min)",
+        "priceChg5m": 29.01,
+        "vol5m": 52179.53,
+        "buys5m": 352,
+        "sells5m": 249,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T10:08:28.797Z"
+  "lastSaved": "2026-05-02T10:21:29.447Z"
 }
