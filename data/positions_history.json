@@ -50110,7 +50110,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Ex2uv2qms2VLtSNg4V4tBQ4jPooXVikSdc9aVTk3ejHr",
+      "mint": "EzwM1QChiWWJCFGmaMxJRBYySPe4ND1fjcpdM9JRpump",
+      "name": "Escape The Matrix",
+      "symbol": "Matrix",
+      "dex": "pumpswap",
+      "entryPrice": 0.00002256,
+      "entryMcap": 22569,
+      "entryTime": 1777698281904,
+      "score": 73,
+      "ageAtEntry": 12,
+      "whaleDetected": true,
+      "whaleWallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/ex2uv2qms2vltsng4v4tbq4jpooxviksdc9avtk3ejhr",
+      "peakPrice": 0.00002256,
+      "peakMultiplier": 1,
+      "peakMcap": 22569,
+      "peakTime": 1777698281904,
+      "lastPrice": 0.00001496,
+      "lowestPrice": 0.00001496,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001496,
+      "closeMultiplier": 0.6631205673758865,
+      "closedAt": "2026-05-02T05:09:16.252Z",
+      "durationMs": 274348,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001496,
+        "closeMultiplier": 0.6631205673758865,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-02T05:09:16.252Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00001496,
+        "closeMultiplier": 0.6631205673758865,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-02T05:09:16.252Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 6.0566666666666675,
+        "floatRotation": 0.4330550755461031,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.4330550755461031,
+        "accel": 6.0566666666666675,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($23k)",
+        "priceChg5m": 72.68,
+        "vol5m": 9773.62,
+        "buys5m": 205,
+        "sells5m": 144,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T04:54:16.620Z"
+  "lastSaved": "2026-05-02T05:09:17.354Z"
 }
