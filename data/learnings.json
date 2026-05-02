@@ -1,61 +1,61 @@
 {
-  "totalClosed": 631,
-  "winRate": "9.8%",
-  "avgPeakMultiplier": "1.758",
-  "avgCloseMultiplier": "0.717",
+  "totalClosed": 632,
+  "winRate": "10.0%",
+  "avgPeakMultiplier": "1.759",
+  "avgCloseMultiplier": "0.719",
   "optimalTP": 2,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
-      "captured": 262,
-      "rate": "41.5%",
+      "captured": 263,
+      "rate": "41.6%",
       "expectedValue": "12.5%"
     },
     "+50%": {
-      "captured": 197,
-      "rate": "31.2%",
-      "expectedValue": "15.6%"
+      "captured": 198,
+      "rate": "31.3%",
+      "expectedValue": "15.7%"
     },
     "+70%": {
-      "captured": 159,
-      "rate": "25.2%",
-      "expectedValue": "17.6%"
+      "captured": 160,
+      "rate": "25.3%",
+      "expectedValue": "17.7%"
     },
     "+100%": {
-      "captured": 116,
-      "rate": "18.4%",
-      "expectedValue": "18.4%"
+      "captured": 117,
+      "rate": "18.5%",
+      "expectedValue": "18.5%"
     },
     "+150%": {
       "captured": 76,
       "rate": "12.0%",
-      "expectedValue": "18.1%"
+      "expectedValue": "18.0%"
     },
     "+200%": {
       "captured": 62,
       "rate": "9.8%",
-      "expectedValue": "19.7%"
+      "expectedValue": "19.6%"
     },
     "+300%": {
       "captured": 38,
       "rate": "6.0%",
-      "expectedValue": "18.1%"
+      "expectedValue": "18.0%"
     }
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 597,
-      "recovered": 597,
+      "positions_hit": 598,
+      "recovered": 598,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 585,
-      "recovered": 585,
+      "positions_hit": 586,
+      "recovered": 586,
       "recovery_rate": "100.0%"
     },
     "-20%": {
-      "positions_hit": 577,
-      "recovered": 577,
+      "positions_hit": 578,
+      "recovered": 578,
       "recovery_rate": "100.0%"
     },
     "-25%": {
@@ -76,33 +76,33 @@
   },
   "milestoneRates": {
     "+50%": {
-      "reached": 197,
-      "total": 631,
-      "rate": "31.2%"
+      "reached": 198,
+      "total": 632,
+      "rate": "31.3%"
     },
     "+100%": {
-      "reached": 116,
-      "total": 631,
-      "rate": "18.4%"
+      "reached": 117,
+      "total": 632,
+      "rate": "18.5%"
     },
     "+150%": {
       "reached": 76,
-      "total": 631,
+      "total": 632,
       "rate": "12.0%"
     },
     "+200%": {
       "reached": 62,
-      "total": 631,
+      "total": 632,
       "rate": "9.8%"
     },
     "+300%": {
       "reached": 38,
-      "total": 631,
+      "total": 632,
       "rate": "6.0%"
     },
     "+500%": {
       "reached": 20,
-      "total": 631,
+      "total": 632,
       "rate": "3.2%"
     }
   },
@@ -120,10 +120,10 @@
       "win2xRate": "19%"
     },
     "75-80": {
-      "count": 85,
-      "avgPeak": "2.00x",
-      "wins2x": 19,
-      "win2xRate": "22%"
+      "count": 86,
+      "avgPeak": "2.01x",
+      "wins2x": 20,
+      "win2xRate": "23%"
     },
     "80-90": {
       "count": 53,
@@ -140,9 +140,9 @@
   },
   "byWhale": {
     "whale": {
-      "count": 110,
+      "count": 111,
       "avgPeak": "1.88x",
-      "wins2x": 18
+      "wins2x": 19
     },
     "noWhale": {
       "count": 521,
@@ -152,7 +152,7 @@
   },
   "byAge": {
     "0-15min": {
-      "count": 227,
+      "count": 228,
       "avgPeak": "1.92x"
     },
     "15-30min": {
@@ -168,6 +168,6 @@
       "avgPeak": "1.16x"
     }
   },
-  "recommendation": "📊 Analisi su 631 posizioni chiuse\n✅ Win rate (chiuse in positivo): 10%\n📈 Peak medio: 1.76x | Close medio: 0.72x\n🎯 Take Profit ottimale: +200% (expected value: 19.7%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 1.88x vs 1.73x",
-  "lastUpdated": "2026-05-02T16:05:43.864Z"
+  "recommendation": "📊 Analisi su 632 posizioni chiuse\n✅ Win rate (chiuse in positivo): 10%\n📈 Peak medio: 1.76x | Close medio: 0.72x\n🎯 Take Profit ottimale: +200% (expected value: 19.6%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 1.88x vs 1.73x",
+  "lastUpdated": "2026-05-02T16:13:44.089Z"
 }
