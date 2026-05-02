@@ -52168,7 +52168,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Bgucqui89tsKRmtsLmc2T8hDr1oGbwK5AXkSUgtbvKxC",
+      "mint": "EzwfY3hkGL4JCfnXkyMQJYyr3o9hNSvG1ugcXrpLpump",
+      "name": "Goblin Brainlet",
+      "symbol": "GOBRAIN",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008129,
+      "entryMcap": 81290,
+      "entryTime": 1777731649485,
+      "score": 67,
+      "ageAtEntry": 16,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/bgucqui89tskrmtslmc2t8hdr1ogbwk5axksugtbvkxc",
+      "peakPrice": 0.00009788,
+      "peakMultiplier": 1.2040841431910445,
+      "peakMcap": 97883,
+      "peakTime": 1777731758132,
+      "lastPrice": 0.000002166,
+      "lowestPrice": 0.000002166,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.000002166,
+      "closeMultiplier": 0.026645343830729487,
+      "closedAt": "2026-05-02T14:30:38.463Z",
+      "durationMs": 588978,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000002166,
+        "closeMultiplier": 0.026645343830729487,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-02T14:30:38.463Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -9,
+        "momentum": 0.3825,
+        "floatRotation": 0.9086241850166071,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.9086241850166071,
+        "accel": 0.3825,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(0.38)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 6.12,
+        "vol5m": 73862.06,
+        "buys5m": 437,
+        "sells5m": 357,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T14:27:39.286Z"
+  "lastSaved": "2026-05-02T14:30:39.646Z"
 }
