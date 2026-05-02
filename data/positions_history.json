@@ -52766,7 +52766,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "7ub5j2c8FLU5AgJCmrTmsRqYtQKAaJxZRpKE7dZ4tM5j",
+      "mint": "E1d8t5qG9zWsmL2wstSJdedGWPKwRTBzkmzmfPrmpump",
+      "name": "Inkwell Terminal",
+      "symbol": "INKWELL",
+      "dex": "pumpswap",
+      "entryPrice": 0.00002939,
+      "entryMcap": 29397,
+      "entryTime": 1777738964298,
+      "score": 61,
+      "ageAtEntry": 7,
+      "whaleDetected": true,
+      "whaleWallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/7ub5j2c8flu5agjcmrtmsrqytqkaajxzrpke7dz4tm5j",
+      "peakPrice": 0.00002939,
+      "peakMultiplier": 1,
+      "peakMcap": 29397,
+      "peakTime": 1777738964298,
+      "lastPrice": 0.00001732,
+      "lowestPrice": 0.00001732,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00001732,
+      "closeMultiplier": 0.589316093909493,
+      "closedAt": "2026-05-02T16:24:43.326Z",
+      "durationMs": 119028,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00001732,
+        "closeMultiplier": 0.589316093909493,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-02T16:24:43.326Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00001732,
+        "closeMultiplier": 0.589316093909493,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-02T16:24:43.326Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -10,
+        "momentum": -3.2471428571428573,
+        "floatRotation": 1.9839548253223118,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 1.9839548253223118,
+        "accel": -3.2471428571428573,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($58322,price-22.7%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(7min)",
+        "priceChg5m": -22.73,
+        "vol5m": 58322.32,
+        "buys5m": 927,
+        "sells5m": 608,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T16:13:44.067Z"
+  "lastSaved": "2026-05-02T16:24:44.462Z"
 }
