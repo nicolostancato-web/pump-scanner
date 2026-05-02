@@ -49754,7 +49754,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "2sKZvNPfUEyff79HkCEW2Va4waSNV3a2F3ZrstWHKVn2",
+      "mint": "HXzqEEUjQ6JevbrJiMBAwoiCVikZb93XHmYtde4iCA3G",
+      "name": "Spirit Airlines",
+      "symbol": "Spirit",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008081,
+      "entryMcap": 80819,
+      "entryTime": 1777685560342,
+      "score": 66,
+      "ageAtEntry": 24,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/2skzvnpfueyff79hkcew2va4wasnv3a2f3zrstwhkvn2",
+      "peakPrice": 0.0001719,
+      "peakMultiplier": 2.127211978715506,
+      "peakMcap": 171974,
+      "peakTime": 1777690871747,
+      "lastPrice": 0.000119,
+      "lowestPrice": 0.00007648,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 4470961,
+        "0.5": 388902
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.000119,
+      "closeMultiplier": 1.472590025986883,
+      "closedAt": "2026-05-02T03:33:12.980Z",
+      "durationMs": 7232638,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.000119,
+        "closeMultiplier": 1.472590025986883,
+        "closeReason": "timeout",
+        "closedAt": "2026-05-02T03:33:12.980Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 9,
+        "momentum": 1.5358333333333334,
+        "floatRotation": 0.29607480914141476,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.29607480914141476,
+        "accel": 1.5358333333333334,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(24min)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 36.86,
+        "vol5m": 23928.47,
+        "buys5m": 210,
+        "sells5m": 172,
+        "tp2x_hit": true,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T02:57:13.020Z"
+  "lastSaved": "2026-05-02T03:33:14.499Z"
 }
