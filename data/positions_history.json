@@ -49232,7 +49232,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "CpmyJCaQ7esp5gdnEAWgC62ZT8vokA3UPgz6ka2WJQsu",
+      "mint": "iBcavzgHdvaHHEM6Tdm9UsRqEJu2iQRac3cjinbpump",
+      "name": "Narcissist King Trump",
+      "symbol": "NKT",
+      "dex": "pumpswap",
+      "entryPrice": 0.0003666,
+      "entryMcap": 366605,
+      "entryTime": 1777681960097,
+      "score": 72,
+      "ageAtEntry": 20,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/cpmyjcaq7esp5gdneawgc62zt8voka3upgz6ka2wjqsu",
+      "peakPrice": 0.0003666,
+      "peakMultiplier": 1,
+      "peakMcap": 366605,
+      "peakTime": 1777681960097,
+      "lastPrice": 0.0001865,
+      "lowestPrice": 0.0001865,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0001865,
+      "closeMultiplier": 0.5087288597926896,
+      "closedAt": "2026-05-02T00:34:07.982Z",
+      "durationMs": 87885,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001865,
+        "closeMultiplier": 0.5087288597926896,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-02T00:34:07.982Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -16,
+        "momentum": 0.8744999999999999,
+        "floatRotation": 0.14728538890631607,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": false,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.14728538890631607,
+        "accel": 0.8744999999999999,
+        "wouldPassV5": false,
+        "failReason": "HF2-mcap($367k)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C2-mcap($367k)",
+        "priceChg5m": 17.49,
+        "vol5m": 53995.56,
+        "buys5m": 266,
+        "sells5m": 207,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T00:16:08.524Z"
+  "lastSaved": "2026-05-02T00:34:09.155Z"
 }
