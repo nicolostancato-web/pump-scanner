@@ -49060,7 +49060,95 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "48WFmvwL5F1L4zUb1bX1CETUshPy4KGUKexBjChKD8hX",
+      "mint": "yoX5A1wxUwZv4UYMnFKroPjUvsrhTKTzgAuopP2pump",
+      "name": "The Jews Did 9/11",
+      "symbol": "JEWS",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008235,
+      "entryMcap": 82359,
+      "entryTime": 1777672958402,
+      "score": 68,
+      "ageAtEntry": 16,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/48wfmvwl5f1l4zub1bx1cetushpy4kgukexbjchkd8hx",
+      "peakPrice": 0.0001623,
+      "peakMultiplier": 1.970856102003643,
+      "peakMcap": 162355,
+      "peakTime": 1777676404691,
+      "lastPrice": 0.00009864,
+      "lowestPrice": 0.00006638,
+      "milestonesReached": [
+        0.5
+      ],
+      "timesToMilestone": {
+        "0.5": 444629
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.00009864,
+      "closeMultiplier": 1.1978142076502734,
+      "closedAt": "2026-05-02T00:03:06.484Z",
+      "durationMs": 7228082,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00007633,
+        "closeMultiplier": 0.9268973891924711,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-01T23:37:05.474Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 15,
+        "momentum": 1.971875,
+        "floatRotation": 0.409225221287291,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.409225221287291,
+        "accel": 1.971875,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.97)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 31.55,
+        "vol5m": 33703.38,
+        "buys5m": 391,
+        "sells5m": 350,
+        "tp2x_hit": false,
+        "tp1_5x_hit": true
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-01T23:54:07.593Z"
+  "lastSaved": "2026-05-02T00:03:07.592Z"
 }
