@@ -51552,7 +51552,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "CBp1CvPJZ6egpqb7HzPy9npFrnRwgA6Ft9cvP8DcWTVw",
+      "mint": "8b2dDRRo2ZMf412MSifLnXqufsVKbiDLiXFWrVpNpump",
+      "name": "The 3 Trenchers",
+      "symbol": "3",
+      "dex": "pumpswap",
+      "entryPrice": 0.00005729,
+      "entryMcap": 57298,
+      "entryTime": 1777724563874,
+      "score": 66,
+      "ageAtEntry": 10,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/cbp1cvpjz6egpqb7hzpy9npfrnrwga6ft9cvp8dcwtvw",
+      "peakPrice": 0.00005729,
+      "peakMultiplier": 1,
+      "peakMcap": 57298,
+      "peakTime": 1777724563874,
+      "lastPrice": 0.00003624,
+      "lowestPrice": 0.00003624,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003624,
+      "closeMultiplier": 0.6325711293419445,
+      "closedAt": "2026-05-02T12:28:33.836Z",
+      "durationMs": 349962,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003624,
+        "closeMultiplier": 0.6325711293419445,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-02T12:28:33.836Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00003624,
+        "closeMultiplier": 0.6325711293419445,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-02T12:28:33.836Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 6.797,
+        "floatRotation": 0.6007474955495828,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.6007474955495828,
+        "accel": 6.797,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": 67.97,
+        "vol5m": 34421.63,
+        "buys5m": 525,
+        "sells5m": 399,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T12:15:33.800Z"
+  "lastSaved": "2026-05-02T12:28:35.008Z"
 }
