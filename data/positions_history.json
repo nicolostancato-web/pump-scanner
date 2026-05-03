@@ -55010,7 +55010,97 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "4tDsXzQCHmzKmB3EUbXvxL93fakLSRh2zcBbbUwp5LYi",
+      "mint": "FcqVeXBc4S3YoVjTJGUDZrLcErtXzPPSspHiuDKpump",
+      "name": "Scientology Speedrun",
+      "symbol": "SPEEDRUN",
+      "dex": "pumpswap",
+      "entryPrice": 0.00003706,
+      "entryMcap": 37067,
+      "entryTime": 1777789624002,
+      "score": 70,
+      "ageAtEntry": 16,
+      "whaleDetected": true,
+      "whaleWallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
+      "buyers": 1,
+      "pairUrl": "https://dexscreener.com/solana/4tdsxzqchmzkmb3eubxvxl93faklsrh2zcbbbuwp5lyi",
+      "peakPrice": 0.00008009,
+      "peakMultiplier": 2.1610901241230436,
+      "peakMcap": 80092,
+      "peakTime": 1777792864292,
+      "lastPrice": 0.00006061,
+      "lowestPrice": 0.00003702,
+      "milestonesReached": [
+        0.5,
+        1
+      ],
+      "timesToMilestone": {
+        "1": 3120448,
+        "0.5": 1919784
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.00006061,
+      "closeMultiplier": 1.635456017269293,
+      "closedAt": "2026-05-03T08:27:05.687Z",
+      "durationMs": 7201685,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00006061,
+        "closeMultiplier": 1.635456017269293,
+        "closeReason": "timeout",
+        "closedAt": "2026-05-03T08:27:05.687Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -30,
+        "momentum": 0.6825,
+        "floatRotation": 0.013267866296166402,
+        "uniqueBuyers": 1,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": false,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.013267866296166402,
+        "accel": 0.6825,
+        "wouldPassV5": false,
+        "failReason": "HF3-vol($492,price10.9%)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C3-move(chg10.9%,vol$492,b17s10)",
+        "priceChg5m": 10.92,
+        "vol5m": 491.8,
+        "buys5m": 17,
+        "sells5m": 10,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-03T08:24:06.641Z"
+  "lastSaved": "2026-05-03T08:27:06.885Z"
 }
