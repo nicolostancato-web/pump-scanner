@@ -53806,7 +53806,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "Aq5888GnbPRjRfnUi1MX8b8PhCiyKRjJV88jRaECvXEN",
+      "mint": "4hdemPPmpY2eC5b84eDjF8CrpxWxf4ViShRz2HVvpump",
+      "name": "Breastcoin",
+      "symbol": "Breastcoin",
+      "dex": "pumpswap",
+      "entryPrice": 0.00006453,
+      "entryMcap": 64537,
+      "entryTime": 1777768615716,
+      "score": 68,
+      "ageAtEntry": 11,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 0,
+      "pairUrl": "https://dexscreener.com/solana/aq5888gnbprjrfnui1mx8b8phciykrjjv88jraecvxen",
+      "peakPrice": 0.00006734,
+      "peakMultiplier": 1.0435456376878973,
+      "peakMcap": 67347,
+      "peakTime": 1777768855162,
+      "lastPrice": 0.00003,
+      "lowestPrice": 0.00003,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00003,
+      "closeMultiplier": 0.4649000464900047,
+      "closedAt": "2026-05-03T00:46:55.388Z",
+      "durationMs": 599672,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00003,
+        "closeMultiplier": 0.4649000464900047,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-03T00:46:55.388Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.00003,
+        "closeMultiplier": 0.4649000464900047,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-03T00:46:55.388Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 10,
+        "momentum": 3.916363636363636,
+        "floatRotation": 0.32125664347583555,
+        "uniqueBuyers": 0,
+        "concentration": 1,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.32125664347583555,
+        "accel": 3.916363636363636,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 43.08,
+        "vol5m": 20732.94,
+        "buys5m": 378,
+        "sells5m": 248,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-02T23:46:54.959Z"
+  "lastSaved": "2026-05-03T00:46:56.510Z"
 }
