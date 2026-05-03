@@ -1,30 +1,30 @@
 {
-  "totalClosed": 646,
+  "totalClosed": 647,
   "winRate": "9.9%",
   "avgPeakMultiplier": "1.790",
-  "avgCloseMultiplier": "0.718",
+  "avgCloseMultiplier": "0.717",
   "optimalTP": 2,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
-      "captured": 270,
-      "rate": "41.8%",
-      "expectedValue": "12.5%"
+      "captured": 271,
+      "rate": "41.9%",
+      "expectedValue": "12.6%"
     },
     "+50%": {
-      "captured": 203,
-      "rate": "31.4%",
-      "expectedValue": "15.7%"
+      "captured": 204,
+      "rate": "31.5%",
+      "expectedValue": "15.8%"
     },
     "+70%": {
-      "captured": 164,
-      "rate": "25.4%",
-      "expectedValue": "17.8%"
+      "captured": 165,
+      "rate": "25.5%",
+      "expectedValue": "17.9%"
     },
     "+100%": {
       "captured": 120,
-      "rate": "18.6%",
-      "expectedValue": "18.6%"
+      "rate": "18.5%",
+      "expectedValue": "18.5%"
     },
     "+150%": {
       "captured": 78,
@@ -33,7 +33,7 @@
     },
     "+200%": {
       "captured": 63,
-      "rate": "9.8%",
+      "rate": "9.7%",
       "expectedValue": "19.5%"
     },
     "+300%": {
@@ -44,71 +44,71 @@
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 611,
-      "recovered": 611,
+      "positions_hit": 612,
+      "recovered": 612,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 599,
-      "recovered": 599,
+      "positions_hit": 600,
+      "recovered": 600,
       "recovery_rate": "100.0%"
     },
     "-20%": {
-      "positions_hit": 591,
-      "recovered": 591,
+      "positions_hit": 592,
+      "recovered": 592,
       "recovery_rate": "100.0%"
     },
     "-25%": {
-      "positions_hit": 581,
-      "recovered": 581,
+      "positions_hit": 582,
+      "recovered": 582,
       "recovery_rate": "100.0%"
     },
     "-30%": {
-      "positions_hit": 574,
-      "recovered": 574,
+      "positions_hit": 575,
+      "recovered": 575,
       "recovery_rate": "100.0%"
     },
     "-40%": {
-      "positions_hit": 296,
-      "recovered": 296,
+      "positions_hit": 297,
+      "recovered": 297,
       "recovery_rate": "100.0%"
     }
   },
   "milestoneRates": {
     "+50%": {
-      "reached": 203,
-      "total": 646,
-      "rate": "31.4%"
+      "reached": 204,
+      "total": 647,
+      "rate": "31.5%"
     },
     "+100%": {
       "reached": 120,
-      "total": 646,
-      "rate": "18.6%"
+      "total": 647,
+      "rate": "18.5%"
     },
     "+150%": {
       "reached": 78,
-      "total": 646,
+      "total": 647,
       "rate": "12.1%"
     },
     "+200%": {
       "reached": 63,
-      "total": 646,
-      "rate": "9.8%"
+      "total": 647,
+      "rate": "9.7%"
     },
     "+300%": {
       "reached": 39,
-      "total": 646,
+      "total": 647,
       "rate": "6.0%"
     },
     "+500%": {
       "reached": 21,
-      "total": 646,
-      "rate": "3.3%"
+      "total": 647,
+      "rate": "3.2%"
     }
   },
   "byScore": {
     "65-70": {
-      "count": 307,
+      "count": 308,
       "avgPeak": "1.69x",
       "wins2x": 50,
       "win2xRate": "16%"
@@ -145,14 +145,14 @@
       "wins2x": 21
     },
     "noWhale": {
-      "count": 527,
+      "count": 528,
       "avgPeak": "1.73x",
       "wins2x": 99
     }
   },
   "byAge": {
     "0-15min": {
-      "count": 238,
+      "count": 239,
       "avgPeak": "2.00x"
     },
     "15-30min": {
@@ -168,6 +168,6 @@
       "avgPeak": "1.18x"
     }
   },
-  "recommendation": "📊 Analisi su 646 posizioni chiuse\n✅ Win rate (chiuse in positivo): 10%\n📈 Peak medio: 1.79x | Close medio: 0.72x\n🎯 Take Profit ottimale: +200% (expected value: 19.5%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 2.05x vs 1.73x",
-  "lastUpdated": "2026-05-03T01:16:57.136Z"
+  "recommendation": "📊 Analisi su 647 posizioni chiuse\n✅ Win rate (chiuse in positivo): 10%\n📈 Peak medio: 1.79x | Close medio: 0.72x\n🎯 Take Profit ottimale: +200% (expected value: 19.5%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 2.05x vs 1.73x",
+  "lastUpdated": "2026-05-03T01:25:57.206Z"
 }
