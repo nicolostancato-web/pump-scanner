@@ -54590,7 +54590,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "5WJNtu7wYPp7ePw8iKAZ9w6yThZzNt5RYsgx1MBwSTm1",
+      "mint": "BAtrhVFgYdpsqBJeb3qTaeocc7sDkFz2VnqQGCDepump",
+      "name": "Doug The Pug",
+      "symbol": "DOUG",
+      "dex": "pumpswap",
+      "entryPrice": 0.00003284,
+      "entryMcap": 32841,
+      "entryTime": 1777787342950,
+      "score": 81,
+      "ageAtEntry": 16,
+      "whaleDetected": true,
+      "whaleWallet": "DC1tJPDYTvJD4zM9wHv4gEa7PzHdKuU3sCs3ZRt9ef4h",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/5wjntu7wypp7epw8ikaz9w6ythzznt5rysgx1mbwstm1",
+      "peakPrice": 0.00003284,
+      "peakMultiplier": 1,
+      "peakMcap": 32841,
+      "peakTime": 1777787342950,
+      "lastPrice": 0.0000227,
+      "lowestPrice": 0.0000227,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.0000227,
+      "closeMultiplier": 0.6912302070645555,
+      "closedAt": "2026-05-03T05:52:02.104Z",
+      "durationMs": 179154,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0000227,
+        "closeMultiplier": 0.6912302070645555,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-03T05:52:02.104Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 15,
+        "momentum": 1.936875,
+        "floatRotation": 0.33904661855607315,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.33904661855607315,
+        "accel": 1.936875,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(1.94)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 30.99,
+        "vol5m": 11134.63,
+        "buys5m": 237,
+        "sells5m": 209,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-03T05:35:03.154Z"
+  "lastSaved": "2026-05-03T05:52:03.253Z"
 }
