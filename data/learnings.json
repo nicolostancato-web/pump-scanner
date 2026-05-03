@@ -1,20 +1,20 @@
 {
-  "totalClosed": 657,
+  "totalClosed": 658,
   "winRate": "10.0%",
-  "avgPeakMultiplier": "1.786",
+  "avgPeakMultiplier": "1.785",
   "avgCloseMultiplier": "0.718",
   "optimalTP": 2,
   "optimalSL": 0.3,
   "tpAnalysis": {
     "+30%": {
       "captured": 275,
-      "rate": "41.9%",
-      "expectedValue": "12.6%"
+      "rate": "41.8%",
+      "expectedValue": "12.5%"
     },
     "+50%": {
       "captured": 207,
       "rate": "31.5%",
-      "expectedValue": "15.8%"
+      "expectedValue": "15.7%"
     },
     "+70%": {
       "captured": 167,
@@ -39,33 +39,33 @@
     "+300%": {
       "captured": 40,
       "rate": "6.1%",
-      "expectedValue": "18.3%"
+      "expectedValue": "18.2%"
     }
   },
   "slAnalysis": {
     "-10%": {
-      "positions_hit": 620,
-      "recovered": 620,
+      "positions_hit": 621,
+      "recovered": 621,
       "recovery_rate": "100.0%"
     },
     "-15%": {
-      "positions_hit": 608,
-      "recovered": 608,
+      "positions_hit": 609,
+      "recovered": 609,
       "recovery_rate": "100.0%"
     },
     "-20%": {
-      "positions_hit": 600,
-      "recovered": 600,
+      "positions_hit": 601,
+      "recovered": 601,
       "recovery_rate": "100.0%"
     },
     "-25%": {
-      "positions_hit": 590,
-      "recovered": 590,
+      "positions_hit": 591,
+      "recovered": 591,
       "recovery_rate": "100.0%"
     },
     "-30%": {
-      "positions_hit": 583,
-      "recovered": 583,
+      "positions_hit": 584,
+      "recovered": 584,
       "recovery_rate": "100.0%"
     },
     "-40%": {
@@ -77,39 +77,39 @@
   "milestoneRates": {
     "+50%": {
       "reached": 207,
-      "total": 657,
+      "total": 658,
       "rate": "31.5%"
     },
     "+100%": {
       "reached": 121,
-      "total": 657,
+      "total": 658,
       "rate": "18.4%"
     },
     "+150%": {
       "reached": 79,
-      "total": 657,
+      "total": 658,
       "rate": "12.0%"
     },
     "+200%": {
       "reached": 64,
-      "total": 657,
+      "total": 658,
       "rate": "9.7%"
     },
     "+300%": {
       "reached": 40,
-      "total": 657,
+      "total": 658,
       "rate": "6.1%"
     },
     "+500%": {
       "reached": 21,
-      "total": 657,
+      "total": 658,
       "rate": "3.2%"
     }
   },
   "byScore": {
     "65-70": {
-      "count": 312,
-      "avgPeak": "1.69x",
+      "count": 313,
+      "avgPeak": "1.68x",
       "wins2x": 50,
       "win2xRate": "16%"
     },
@@ -145,7 +145,7 @@
       "wins2x": 22
     },
     "noWhale": {
-      "count": 532,
+      "count": 533,
       "avgPeak": "1.73x",
       "wins2x": 99
     }
@@ -156,7 +156,7 @@
       "avgPeak": "2.00x"
     },
     "15-30min": {
-      "count": 256,
+      "count": 257,
       "avgPeak": "1.87x"
     },
     "30-60min": {
@@ -168,6 +168,6 @@
       "avgPeak": "1.18x"
     }
   },
-  "recommendation": "📊 Analisi su 657 posizioni chiuse\n✅ Win rate (chiuse in positivo): 10%\n📈 Peak medio: 1.79x | Close medio: 0.72x\n🎯 Take Profit ottimale: +200% (expected value: 19.5%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 2.03x vs 1.73x",
-  "lastUpdated": "2026-05-03T08:06:06.612Z"
+  "recommendation": "📊 Analisi su 658 posizioni chiuse\n✅ Win rate (chiuse in positivo): 10%\n📈 Peak medio: 1.78x | Close medio: 0.72x\n🎯 Take Profit ottimale: +200% (expected value: 19.5%)\n🛑 Stop Loss ottimale: -30%\n🐳 Whale vs No-Whale peak: 2.03x vs 1.73x",
+  "lastUpdated": "2026-05-03T08:24:06.665Z"
 }
