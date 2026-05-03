@@ -54066,7 +54066,103 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "2aFVFLJ3mNABkCfsEfwAxaDQmG3p9fELDHkRqRNGCska",
+      "mint": "DcSLSZkhxBECsJF4Jny57c1xTaMwKo9HQMKiyXYbpump",
+      "name": "Sir Buttington Fartworth Esq.",
+      "symbol": "Butt",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007857,
+      "entryMcap": 78501,
+      "entryTime": 1777765494470,
+      "score": 90,
+      "ageAtEntry": 10,
+      "whaleDetected": true,
+      "whaleWallet": "2fUr8UnHK3EYJJbn2mShJrVKMa2axqi3ytPh5EJoJz2H",
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/2afvflj3mnabkcfsefwaxadqmg3p9feldhkrqrngcska",
+      "peakPrice": 0.0003413,
+      "peakMultiplier": 4.343897161766577,
+      "peakMcap": 341049,
+      "peakTime": 1777767234635,
+      "lastPrice": 0.0002153,
+      "lowestPrice": 0.00007857,
+      "milestonesReached": [
+        0.5,
+        1,
+        1.5,
+        2,
+        3
+      ],
+      "timesToMilestone": {
+        "1": 479704,
+        "2": 1139697,
+        "3": 1439766,
+        "0.5": 120749,
+        "1.5": 899603
+      },
+      "closed": true,
+      "closeReason": "timeout",
+      "closePrice": 0.0002153,
+      "closeMultiplier": 2.740231640575283,
+      "closedAt": "2026-05-03T01:44:56.517Z",
+      "durationMs": 7202047,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.0001267,
+        "closeMultiplier": 1.6125747740868015,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-03T00:14:54.583Z"
+      },
+      "v3": {
+        "eligible": true,
+        "active": false,
+        "closePrice": 0.0001267,
+        "closeMultiplier": 1.6125747740868015,
+        "closeReason": "trailing_stop",
+        "closedAt": "2026-05-03T00:14:54.583Z"
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 5,
+        "momentum": 0.524,
+        "floatRotation": 0.6927611113234227,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": false,
+        "floatRot": 0.6927611113234227,
+        "accel": 0.524,
+        "wouldPassV5": false,
+        "failReason": "SC2-accel(0.52)"
+      },
+      "v6": {
+        "wouldEnterV6": false,
+        "failReason": "C1-age(10min)",
+        "priceChg5m": 5.24,
+        "vol5m": 54382.44,
+        "buys5m": 755,
+        "sells5m": 573,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-03T01:25:57.182Z"
+  "lastSaved": "2026-05-03T01:44:57.701Z"
 }
