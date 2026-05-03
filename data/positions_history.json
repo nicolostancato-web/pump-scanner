@@ -54926,7 +54926,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "GJuRwAkBb6Grn2cVJ2r2i2MEGnWv5kqwB1568kW8LP3n",
+      "mint": "EzNzW9MuECrTeTt3JzEuWHDoLGU8ASyvmkzPuBkXpump",
+      "name": "Children of Palestine",
+      "symbol": "PALESTINE",
+      "dex": "pumpswap",
+      "entryPrice": 0.00007518,
+      "entryMcap": 75188,
+      "entryTime": 1777796586774,
+      "score": 68,
+      "ageAtEntry": 21,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/gjurwakbb6grn2cvj2r2i2megnwv5kqwb1568kw8lp3n",
+      "peakPrice": 0.00007518,
+      "peakMultiplier": 1,
+      "peakMcap": 75188,
+      "peakTime": 1777796586774,
+      "lastPrice": 0.00005145,
+      "lowestPrice": 0.00005145,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00005145,
+      "closeMultiplier": 0.6843575418994413,
+      "closedAt": "2026-05-03T08:24:05.659Z",
+      "durationMs": 58885,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00005145,
+        "closeMultiplier": 0.6843575418994413,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-03T08:24:05.659Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": -1,
+        "momentum": 1.2747619047619048,
+        "floatRotation": 0.23202133319146673,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": false,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": false,
+        "sc2_accel": false,
+        "floatRot": 0.23202133319146673,
+        "accel": 1.2747619047619048,
+        "wouldPassV5": false,
+        "failReason": "HF1-age(21min)"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 26.77,
+        "vol5m": 17445.22,
+        "buys5m": 334,
+        "sells5m": 219,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-03T08:06:06.589Z"
+  "lastSaved": "2026-05-03T08:24:06.641Z"
 }
