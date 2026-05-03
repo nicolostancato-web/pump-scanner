@@ -55184,7 +55184,91 @@
       "xRetweets24h": null,
       "xScore": null,
       "xSignal": null
+    },
+    {
+      "pairAddress": "3am6EgQYfEGXBPZzTnxi5yBfnSzLKDSWJMZKxqnwExkj",
+      "mint": "2HQUwkLvdg2eBC9HEvVqVpJ72rQX86rs8kXCc3JnqJVp",
+      "name": "Falcon9",
+      "symbol": "FALCON",
+      "dex": "pumpswap",
+      "entryPrice": 0.00008263,
+      "entryMcap": 82635,
+      "entryTime": 1777806070938,
+      "score": 68,
+      "ageAtEntry": 19,
+      "whaleDetected": false,
+      "whaleWallet": null,
+      "buyers": 2,
+      "pairUrl": "https://dexscreener.com/solana/3am6egqyfegxbpzztnxi5ybfnszlkdswjmzkxqnwexkj",
+      "peakPrice": 0.00008263,
+      "peakMultiplier": 1,
+      "peakMcap": 82635,
+      "peakTime": 1777806070938,
+      "lastPrice": 0.00004085,
+      "lowestPrice": 0.00004085,
+      "milestonesReached": [],
+      "timesToMilestone": {},
+      "closed": true,
+      "closeReason": "stop_loss",
+      "closePrice": 0.00004085,
+      "closeMultiplier": 0.49437250393319615,
+      "closedAt": "2026-05-03T11:03:10.172Z",
+      "durationMs": 119234,
+      "smartMoneyDetected": false,
+      "smartMoneyWallet": null,
+      "v2": {
+        "active": false,
+        "closePrice": 0.00004085,
+        "closeMultiplier": 0.49437250393319615,
+        "closeReason": "stop_loss",
+        "closedAt": "2026-05-03T11:03:10.172Z"
+      },
+      "v3": {
+        "eligible": false,
+        "active": false,
+        "closePrice": null,
+        "closeMultiplier": null,
+        "closeReason": null,
+        "closedAt": null
+      },
+      "v4": {
+        "eligible": false,
+        "score_v4": 25,
+        "momentum": 6.052631578947368,
+        "floatRotation": 0.36753288558117025,
+        "uniqueBuyers": 2,
+        "concentration": 0.5,
+        "wouldEnter": false
+      },
+      "v5": {
+        "hf1_age": true,
+        "hf2_mcap": true,
+        "hf3_vol": true,
+        "sc1_rot": true,
+        "sc2_accel": true,
+        "floatRot": 0.36753288558117025,
+        "accel": 6.052631578947368,
+        "wouldPassV5": true,
+        "failReason": "PASS"
+      },
+      "v6": {
+        "wouldEnterV6": true,
+        "failReason": "PASS",
+        "priceChg5m": 115,
+        "vol5m": 30371.08,
+        "buys5m": 306,
+        "sells5m": 153,
+        "tp2x_hit": false,
+        "tp1_5x_hit": false
+      },
+      "xFollowers": null,
+      "xAgeDays": null,
+      "xTweets24h": null,
+      "xLikes24h": null,
+      "xRetweets24h": null,
+      "xScore": null,
+      "xSignal": null
     }
   ],
-  "lastSaved": "2026-05-03T08:58:07.948Z"
+  "lastSaved": "2026-05-03T11:03:11.307Z"
 }
